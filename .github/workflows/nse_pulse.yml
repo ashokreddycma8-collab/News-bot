@@ -56,10 +56,11 @@ jobs:
  
       - name: Run NSE Market Pulse
         env:
-          GROQ_KEY:       ${{ secrets.GROQ_KEY }}
-          NEWSAPI_KEY:    ${{ secrets.NEWSAPI_KEY }}
-          MARKETAUX_KEY:  ${{ secrets.MARKETAUX_KEY }}
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          CHAT_ID:        ${{ secrets.CHAT_ID }}
+         import os
+GROQ_KEY       = os.getenv("GROQ_KEY")
+NEWSAPI_KEY    = os.getenv("NEWSAPI_KEY")
+MARKETAUX_KEY  = os.getenv("MARKETAUX_KEY", "")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID        = os.getenv("CHAT_ID")
         run: python nse_market_pulse_free.py test
  
