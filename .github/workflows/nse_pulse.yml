@@ -1,5 +1,5 @@
 name: NSE Market Pulse
-
+ 
 on:
   schedule:
     - cron: '30 3 * * 1-5'
@@ -31,22 +31,33 @@ on:
     - cron: '0 10 * * 1-5'
     - cron: '15 10 * * 1-5'
   workflow_dispatch:
-
+ 
+# Prevents multiple runs firing at the same time (burst fix)
+concurrency:
+  group: nse-pulse-run
+  cancel-in-progress: false
+ 
+permissions:
+  contents: write
+ 
 jobs:
   run-pulse:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+ 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+ 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+ 
       - name: Run NSE Market Pulse
         env:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
@@ -55,3 +66,13 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python nse_market_pulse_free.py test
+ 
+      # ── Persist seen_hashes.txt so next run knows what was already sent ──
+      - name: Save seen hashes to repo
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add seen_hashes.txt || true
+          git diff --cached --quiet || git commit -m "cache: update seen_hashes $(date +'%H:%M')"
+          git push || true
+ 
