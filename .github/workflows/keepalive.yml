@@ -1,0 +1,17 @@
+name: Keepalive
+on:
+  schedule:
+    - cron: '20 3 * * 1-5'   # runs at 8:50 AM IST, just before your first pulse
+permissions:
+  contents: write
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Keep repo active
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git commit --allow-empty -m "keepalive $(date)"
+          git push
