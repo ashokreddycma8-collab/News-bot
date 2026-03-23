@@ -1,3 +1,6 @@
+pulse free · PY
+Copy
+
 """
 NSE MARKET PULSE — 100% FREE VERSION
 ══════════════════════════════════════
@@ -188,7 +191,8 @@ Return ONLY valid JSON. No markdown. No preamble. Nothing outside the JSON.
           "name": "Company Name",
           "ticker": "SYMBOL.NS",
           "impact": "Bullish or Bearish",
-          "reason": "ONE sharp sentence following this format exactly: [news trigger] -> [business mechanism] -> [stock impact on margins/revenue/sentiment]. BAD example: impacted by global uncertainty. GOOD example: Iran conflict blocks spare parts imports via Gulf -> Ashok Leyland sources 30% components from Middle East -> supply disruption hits production margins Q1"
+          "reason": "ONE sharp sentence: [news trigger] -> [business mechanism] -> [final impact]. GOOD: Iran conflict blocks Gulf exports -> IOC sources 20% crude from Middle East -> refining margins down ~8% Q2",
+          "quant": "Analyst-style quantified impact. Examples: margins -150bps, revenue +8-10% Q3, order book +Rs400Cr, volume -12%. Must be a number. null only if truly unquantifiable."
         }}
       ],
       "watch": "name something specific — a price level, data release, event time. Not generic advice like monitor the sector"
@@ -202,6 +206,7 @@ Strict rules:
 - conviction: 1=mild, 2=strong directional, 3=shock event (policy/earnings surprise/crisis)
 - stocks: 2-3 most directly impacted NSE-listed stocks per sector with SPECIFIC reasons
 - reason field MUST follow [trigger] -> [mechanism] -> [impact] format
+- quant field MUST contain a number (%, bps, Rs Cr). Never vague words like "significant" or "moderate"
 - Generic reasons are not acceptable — be specific to the company's business
 - Only include sectors with actual news backing — no padding
 - Max 4 sectors, max 3 stocks per sector
@@ -245,19 +250,28 @@ def analyze_with_groq(headlines: list) -> dict | None:
 # ══════════════════════════════════════════
 #  BUILD TELEGRAM ALERT
 # ══════════════════════════════════════════
+def short_ticker(ticker: str) -> str:
+    """Strip .NS suffix for cleaner display"""
+    return ticker.replace(".NS", "").replace(".BO", "")
+ 
+def short_reason(reason: str) -> str:
+    """Extract only the final impact from trigger->mechanism->impact chain"""
+    parts = [p.strip() for p in reason.split("->")]
+    return parts[-1] if parts else reason
+ 
 def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
     mood         = analysis.get("market_mood", "Mixed")
     mood_emoji   = {"Bullish": "🟢", "Cautious": "🟡", "Mixed": "🟡", "Bearish": "🔴"}.get(mood, "⚪")
     dir_emoji    = {"Bullish": "🟢", "Bearish": "🔴", "Neutral": "🟡"}
-    impact_arrow = {"Bullish": "▲", "Bearish": "▼"}
+    impact_arrow = {"Bullish": "▲", "Bearish": "▼", "Neutral": "→"}
     conv_bar     = {1: "▮▯▯", 2: "▮▮▯", 3: "▮▮▮"}
+    divider      = "─" * 32
     now_str      = datetime.now(IST).strftime("%d %b  %H:%M IST")
  
     lines = [
-        f"📡 NSE MARKET PULSE  —  {now_str}",
-        "━" * 34,
-        f"{mood_emoji} Mood: {mood}",
-        f"   {analysis.get('mood_reason', '')}",
+        f"📡 *NSE MARKET PULSE*  |  {now_str}",
+        "━" * 32,
+        f"{mood_emoji} *{mood.upper()}*  —  {analysis.get('mood_reason', '')}",
     ]
  
     gf = analysis.get("global_factors")
@@ -266,33 +280,42 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
  
     sectors = analysis.get("sectors", [])
     if sectors:
-        lines.append("\n📊 SECTOR FOCUS")
+        lines.append("")
         for s in sectors:
-            de    = dir_emoji.get(s.get("direction", ""), "🟡")
-            bar   = conv_bar.get(s.get("conviction", 1), "▮▯▯")
-            name  = s.get("sector", "").upper()
-            theme = f"  #{s['theme'].replace(' ', '_')}" if s.get("theme") and s.get("theme") != "null" else ""
+            de     = dir_emoji.get(s.get("direction", ""), "🟡")
+            bar    = conv_bar.get(s.get("conviction", 1), "▮▯▯")
+            name   = s.get("sector", "").upper()
+            theme  = f"  #{s['theme'].replace(' ', '_')}" if s.get("theme") and s.get("theme") != "null" else ""
+            driver = s.get("news_driver", "")
  
-            lines.append(f"\n{de} {name}  {bar}{theme}")
-            lines.append(f"   📰 {s.get('news_driver', '')}")
+            lines.append(divider)
+            lines.append(f"{de} *{name}*  {bar}{theme}")
+            lines.append(f"📰 {driver}")
+            lines.append("")
  
             for st in s.get("stocks", []):
-                arrow  = impact_arrow.get(st.get("impact", ""), "→")
-                ticker = st.get("ticker", "")
-                sname  = st.get("name", "")
-                reason = st.get("reason", "")
-                lines.append(f"   {arrow} {sname} ({ticker})")
-                lines.append(f"      {reason}")
+                arrow     = impact_arrow.get(st.get("impact", ""), "→")
+                ticker    = short_ticker(st.get("ticker", ""))
+                impact    = short_reason(st.get("reason", ""))
+                quant     = st.get("quant", "")
+                quant_str = f"  [{quant}]" if quant and quant != "null" else ""
+                lines.append(f"  {arrow} {ticker}  {impact}{quant_str}")
  
-            lines.append(f"   👁 {s.get('watch', '')}")
+            watch = s.get("watch", "")
+            if watch:
+                lines.append(f"\n  👁 {watch}")
+ 
+        lines.append(divider)
  
     themes = analysis.get("top_themes", [])
     if themes:
-        lines.append("\n🧠 " + "  ".join(f"#{t}" for t in themes if t and t != "null"))
+        theme_str = "  ".join(f"#{t}" for t in themes if t and t != "null")
+        lines.append(f"\n🧠 {theme_str}")
  
+    conf = analysis.get("confidence", 0)
     lines += [
-        f"\n📦 {fresh_count} fresh / {total_count} scanned",
-        "━" * 34,
+        f"📦 {fresh_count} fresh  |  🎯 {conf}% confidence",
+        "━" * 32,
         "▮▯▯ mild  ▮▮▯ strong  ▮▮▮ high conviction"
     ]
  
