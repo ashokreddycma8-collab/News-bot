@@ -1,7 +1,8 @@
 name: Keepalive
 on:
   schedule:
-    - cron: '20 3 * * 1-5'   # runs at 8:50 AM IST, just before your first pulse
+    - cron: '20 3 * * 1-5'
+  workflow_dispatch:        # ← must be indented under 'on:'
 permissions:
   contents: write
 jobs:
