@@ -4,11 +4,11 @@ NSE MARKET PULSE — 100% FREE VERSION
 LLM  : Groq (free) — Llama 3.3 70B  →  console.groq.com
 News : NewsAPI + Marketaux + Zerodha Pulse
 Alert: Telegram — sector focus + stock-level reasoning
-
+ 
 Install:
   pip install requests groq apscheduler beautifulsoup4
 """
-
+ 
 import requests
 import json
 import hashlib
@@ -18,17 +18,16 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 from apscheduler.schedulers.blocking import BlockingScheduler
 from groq import Groq
-
+ 
 # ══════════════════════════════════════════
 #  YOUR KEYS
 # ══════════════════════════════════════════
-GROQ_KEY       = "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"       # console.groq.com → free
-NEWSAPI_KEY    = "01f47625be9f429fa65df62ddc83cc87"    # newsapi.org → free
-MARKETAUX_KEY  = "9vz6pgWXtaPWYBLFcbYTL3S3uS89Gv0R9VkVYJDl"  # marketaux.com → free (optional)
-
-TELEGRAM_TOKEN = "8542443342:AAGO7y__oM3FS64WCpssAnhfEMIA2SaUMRc"
-CHAT_ID        = "143262677"        # see README below
-
+GROQ_KEY       = os.environ.get("GROQ_KEY", "")
+NEWSAPI_KEY    = os.environ.get("NEWSAPI_KEY", "")
+MARKETAUX_KEY  = os.environ.get("MARKETAUX_KEY", "")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+CHAT_ID        = os.environ.get("CHAT_ID", "")
+ 
 # ══════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════
@@ -37,8 +36,7 @@ SEEN_FILE    = "seen_hashes.txt"
 BIAS_FILE    = "daily_sector_bias.json"
 MIN_ARTICLES = 2
 IST          = ZoneInfo("Asia/Kolkata")
-
-
+ 
 # ══════════════════════════════════════════
 #  MARKET HOURS
 # ══════════════════════════════════════════
@@ -49,22 +47,30 @@ def is_market_hours() -> bool:
     open_t  = now.replace(hour=9,  minute=0,  second=0, microsecond=0)
     close_t = now.replace(hour=15, minute=45, second=0, microsecond=0)
     return open_t <= now <= close_t
-
-
+ 
+ 
 # ══════════════════════════════════════════
-#  DEDUP
+#  DEDUP — reads/writes seen_hashes.txt
+#  In GitHub Actions: file is committed back
+#  to repo after each run (see nse_pulse.yml)
 # ══════════════════════════════════════════
 def load_seen() -> set:
     if not os.path.exists(SEEN_FILE):
         return set()
     with open(SEEN_FILE) as f:
-        return set(f.read().splitlines())
-
+        lines = [l.strip() for l in f.read().splitlines() if l.strip()]
+    # Keep only last 500 hashes to prevent file bloat
+    if len(lines) > 500:
+        lines = lines[-500:]
+        with open(SEEN_FILE, "w") as f:
+            f.write("\n".join(lines) + "\n")
+    return set(lines)
+ 
 def mark_seen(hashes: list):
     with open(SEEN_FILE, "a") as f:
         f.write("\n".join(hashes) + "\n")
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  NEWS SOURCE 1 — NewsAPI
 # ══════════════════════════════════════════
@@ -94,8 +100,8 @@ def fetch_newsapi() -> list:
         except Exception as e:
             print(f"  [NewsAPI] {e}")
     return articles
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  NEWS SOURCE 2 — Marketaux (optional)
 # ══════════════════════════════════════════
@@ -121,8 +127,8 @@ def fetch_marketaux() -> list:
     except Exception as e:
         print(f"  [Marketaux] {e}")
         return []
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  NEWS SOURCE 3 — Zerodha Pulse (scrape)
 # ══════════════════════════════════════════
@@ -146,26 +152,26 @@ def fetch_zerodha_pulse() -> list:
     except Exception as e:
         print(f"  [ZerodhaPulse] {e}")
         return []
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  GROQ PROMPT — analyst-grade stock reasoning
 # ══════════════════════════════════════════
 PROMPT = """You are a senior NSE equity desk analyst. Write sharp, specific alerts like a real analyst — not a generic chatbot.
-
+ 
 Analyze these news headlines for Indian stock market impact today.
-
+ 
 NSE heatmap sectors:
 banking, financial_services, capital_markets, it, pharma, oil_gas, energy, renewable,
 auto, fmcg, consumer, metal, commodities, realty, housing, infra, defence, psu, media, telecom
-
+ 
 Thematic sectors:
 railway, psu_banks, internet_digital, capital_goods, ems, rural_mobility,
 tourism_hospitality, chemicals, agrochemicals, logistics, healthcare_services,
 cement, textiles, jewellery, data_centers, water_sanitation
-
+ 
 Return ONLY valid JSON. No markdown. No preamble. Nothing outside the JSON.
-
+ 
 {{
   "market_mood": "Bullish or Cautious or Mixed or Bearish",
   "mood_reason": "sharp specific reason — not generic. Example: Iran conflict pushing Brent above $90, squeezing OMC margins",
@@ -191,7 +197,7 @@ Return ONLY valid JSON. No markdown. No preamble. Nothing outside the JSON.
   "top_themes": ["theme1", "theme2"],
   "confidence": 75
 }}
-
+ 
 Strict rules:
 - conviction: 1=mild, 2=strong directional, 3=shock event (policy/earnings surprise/crisis)
 - stocks: 2-3 most directly impacted NSE-listed stocks per sector with SPECIFIC reasons
@@ -200,21 +206,21 @@ Strict rules:
 - Only include sectors with actual news backing — no padding
 - Max 4 sectors, max 3 stocks per sector
 - confidence = 0-100 based on how clearly news supports the call
-
+ 
 Headlines:
 {headlines}"""
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  GROQ CALL
 # ══════════════════════════════════════════
 def analyze_with_groq(headlines: list) -> dict | None:
     if not headlines:
         return None
-
+ 
     groq_client = Groq(api_key=GROQ_KEY)
     text = "\n".join(f"• {h}" for h in headlines[:20])
-
+ 
     try:
         resp = groq_client.chat.completions.create(
             model=GROQ_MODEL,
@@ -234,8 +240,8 @@ def analyze_with_groq(headlines: list) -> dict | None:
     except Exception as e:
         print(f"  [Groq error] {e}")
         return None
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  BUILD TELEGRAM ALERT
 # ══════════════════════════════════════════
@@ -246,18 +252,18 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
     impact_arrow = {"Bullish": "▲", "Bearish": "▼"}
     conv_bar     = {1: "▮▯▯", 2: "▮▮▯", 3: "▮▮▮"}
     now_str      = datetime.now(IST).strftime("%d %b  %H:%M IST")
-
+ 
     lines = [
         f"📡 NSE MARKET PULSE  —  {now_str}",
         "━" * 34,
         f"{mood_emoji} Mood: {mood}",
         f"   {analysis.get('mood_reason', '')}",
     ]
-
+ 
     gf = analysis.get("global_factors")
     if gf and gf != "null":
         lines.append(f"🌐 {gf}")
-
+ 
     sectors = analysis.get("sectors", [])
     if sectors:
         lines.append("\n📊 SECTOR FOCUS")
@@ -266,12 +272,10 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
             bar   = conv_bar.get(s.get("conviction", 1), "▮▯▯")
             name  = s.get("sector", "").upper()
             theme = f"  #{s['theme'].replace(' ', '_')}" if s.get("theme") and s.get("theme") != "null" else ""
-
-
+ 
             lines.append(f"\n{de} {name}  {bar}{theme}")
             lines.append(f"   📰 {s.get('news_driver', '')}")
-
-            # Stock-level breakdown
+ 
             for st in s.get("stocks", []):
                 arrow  = impact_arrow.get(st.get("impact", ""), "→")
                 ticker = st.get("ticker", "")
@@ -279,22 +283,22 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
                 reason = st.get("reason", "")
                 lines.append(f"   {arrow} {sname} ({ticker})")
                 lines.append(f"      {reason}")
-
+ 
             lines.append(f"   👁 {s.get('watch', '')}")
-
+ 
     themes = analysis.get("top_themes", [])
     if themes:
         lines.append("\n🧠 " + "  ".join(f"#{t}" for t in themes if t and t != "null"))
-
+ 
     lines += [
         f"\n📦 {fresh_count} fresh / {total_count} scanned",
         "━" * 34,
         "▮▯▯ mild  ▮▮▯ strong  ▮▮▮ high conviction"
     ]
-
+ 
     return "\n".join(lines)
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  SEND TELEGRAM
 # ══════════════════════════════════════════
@@ -314,8 +318,8 @@ def send_telegram(msg: str) -> bool:
     except Exception as e:
         print(f"  ❌ Telegram exception: {e}")
         return False
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  SAVE BIAS FILE (for Excel link later)
 # ══════════════════════════════════════════
@@ -331,8 +335,8 @@ def save_bias(analysis: dict):
             }, f, indent=2)
     except Exception as e:
         print(f"  [Bias save] {e}")
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  MAIN PIPELINE
 # ══════════════════════════════════════════
@@ -340,10 +344,10 @@ def run():
     print(f"\n{'='*46}")
     print(f"  NSE PULSE  |  {datetime.now(IST).strftime('%d %b %Y  %H:%M IST')}")
     print(f"{'='*46}")
-
+ 
     all_articles = fetch_newsapi() + fetch_marketaux() + fetch_zerodha_pulse()
     print(f"  Fetched : {len(all_articles)} total")
-
+ 
     seen   = load_seen()
     fresh  = []
     hashes = []
@@ -353,44 +357,44 @@ def run():
             a["_hash"] = h
             fresh.append(a)
             hashes.append(h)
-
+ 
     print(f"  Fresh   : {len(fresh)}")
-
+ 
     if len(fresh) < MIN_ARTICLES:
-        print("  Not enough fresh news — skipping\n")
+        print("  ⏭ Not enough fresh news — skipping (no duplicate alert)\n")
         return
-
+ 
     headlines = [a["title"] for a in fresh]
     print(f"  Sending {len(headlines)} headlines to Groq ({GROQ_MODEL})...")
     analysis = analyze_with_groq(headlines)
-
+ 
     if not analysis:
         print("  Analysis failed — skipping\n")
         return
-
+ 
     mood    = analysis.get("market_mood", "?")
     sectors = len(analysis.get("sectors", []))
     conf    = analysis.get("confidence", 0)
     print(f"  Result  : {mood} | {sectors} sectors | confidence {conf}%")
-
+ 
     if sectors == 0:
         print("  No sector conviction — skipping\n")
         return
-
+ 
     alert = build_alert(analysis, len(fresh), len(all_articles))
     print("\n" + alert + "\n")
     send_telegram(alert)
     save_bias(analysis)
     mark_seen(hashes)
     print(f"  Marked {len(hashes)} as seen\n")
-
-
+ 
+ 
 # ══════════════════════════════════════════
 #  SCHEDULER
 # ══════════════════════════════════════════
 if __name__ == "__main__":
     import sys
-
+ 
     if len(sys.argv) > 1 and sys.argv[1] == "test":
         print("=== TEST MODE ===")
         run()
