@@ -72,7 +72,7 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git add seen_hashes.txt || true
+          git add seen_hashes.txt catalyst_watchlist.json daily_sector_bias.json || true
           git diff --cached --quiet || git commit -m "cache: update seen_hashes $(date +'%H:%M')"
           git push || true
  
