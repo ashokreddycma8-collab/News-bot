@@ -1,0 +1,93 @@
+{
+  "date": "2026-04-06",
+  "time": "17:26",
+  "mood": "Cautious",
+  "sectors": [
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "TDI Infratech's Rs 750 cr investment in Ludhiana township project",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "TDI Infratech",
+          "ticker": "TDIL.NS",
+          "impact": "Bullish",
+          "reason": "TDI Infratech's investment in Ludhiana project -> increased demand for real estate -> revenue growth of 12-15% in FY26",
+          "quant": "12-15%"
+        },
+        {
+          "name": "Max Estates",
+          "ticker": "MAXVIL.NS",
+          "impact": "Neutral",
+          "reason": "Max Estates' Q4 pre-sales -> flat bookings in FY26 -> no significant impact on revenue",
+          "quant": "0%"
+        }
+      ],
+      "watch": "TDI Infratech's project completion timeline"
+    },
+    {
+      "sector": "defence",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Nirmal Bang's target price increase for defence sector stocks",
+      "theme": "defence_sector_outlook",
+      "stocks": [
+        {
+          "name": "BEL",
+          "ticker": "BEL.NS",
+          "impact": "Bullish",
+          "reason": "Nirmal Bang's target price increase -> increased investor confidence -> stock price appreciation of 8-10%",
+          "quant": "8-10%"
+        },
+        {
+          "name": "HAL",
+          "ticker": "HAL.NS",
+          "impact": "Bullish",
+          "reason": "Nirmal Bang's target price increase -> increased order book visibility -> revenue growth of 10-12% in FY26",
+          "quant": "10-12%"
+        }
+      ],
+      "watch": "Defence budget allocation for FY26"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "FII stake offloading in HDFC Bank",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "FII stake offloading -> decreased investor confidence -> stock price decline of 2-3%",
+          "quant": "-2-3%"
+        }
+      ],
+      "watch": "FII investment trends in Indian banking sector"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Facebook parent Meta's layoffs",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Neutral",
+          "reason": "Facebook parent Meta's layoffs -> no direct impact on Indian IT sector -> no significant impact on revenue",
+          "quant": "0%"
+        }
+      ],
+      "watch": "US tech sector job market trends"
+    }
+  ],
+  "themes": [
+    "PSU_rotation",
+    "defence_sector_outlook"
+  ]
+}

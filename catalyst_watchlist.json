@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-04-06T17:26:42.105282+05:30",
+  "catalysts": {
+    "TDIINFRATEC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "TDI Infratech to invest Rs 750 cr on 150-acre township project in Ludhiana, Punjab",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "MAXVIL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Max Estates Q4 pre-sales at Rs 3,392cr, FY26 bookings flat at Rs 5,305cr",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BEL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Nirmal Bang raises target price for BEL over strong defence sector outlook",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "HAL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Nirmal Bang raises target price for HAL over strong defence sector outlook",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "MAZDOCK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Nirmal Bang raises target price for Mazagon Dock over strong defence sector outlook",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    }
+  }
+}
