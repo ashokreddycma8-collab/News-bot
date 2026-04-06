@@ -1,9 +1,14 @@
 """
-NSE MARKET PULSE - 100% FREE VERSION
-======================================
+NSE MARKET PULSE v2 — with CATALYST LAYER
+==========================================
 LLM  : Groq (free) — Llama 3.3 70B  →  console.groq.com
 News : NewsAPI + Marketaux + Zerodha Pulse
 Alert: Telegram — sector focus + stock-level reasoning
+
+v2 ADDITION:
+  Layer 1 (existing): Sector-level macro signals  → Telegram alert
+  Layer 2 (NEW):      Stock-level catalyst signals → catalyst_watchlist.json
+                      Read by pivot_scanner_v2_8.py to override Nifty gate
 
 Install:
   pip install requests groq apscheduler beautifulsoup4
@@ -16,30 +21,30 @@ import os
 import re
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
-from apscheduler.schedulers.blocking import BlockingScheduler
 from groq import Groq
 
-# ======================================════
+# ══════════════════════════════════════════
 #  YOUR KEYS
-# ======================================════
+# ══════════════════════════════════════════
 GROQ_KEY       = os.environ.get("GROQ_KEY", "")
 NEWSAPI_KEY    = os.environ.get("NEWSAPI_KEY", "")
 MARKETAUX_KEY  = os.environ.get("MARKETAUX_KEY", "")
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 CHAT_ID        = os.environ.get("CHAT_ID", "")
 
-# ======================================════
+# ══════════════════════════════════════════
 #  CONFIG
-# ======================================════
-GROQ_MODEL   = "llama-3.3-70b-versatile"
-SEEN_FILE    = "seen_hashes.txt"
-BIAS_FILE    = "daily_sector_bias.json"
-MIN_ARTICLES = 2
-IST          = ZoneInfo("Asia/Kolkata")
+# ══════════════════════════════════════════
+GROQ_MODEL       = "llama-3.3-70b-versatile"
+SEEN_FILE        = "seen_hashes.txt"
+BIAS_FILE        = "daily_sector_bias.json"
+CATALYST_FILE    = "catalyst_watchlist.json"   # v2: read by pivot scanner
+MIN_ARTICLES     = 2
+IST              = ZoneInfo("Asia/Kolkata")
 
-# ======================================════
+# ══════════════════════════════════════════
 #  MARKET HOURS
-# ======================================════
+# ══════════════════════════════════════════
 def is_market_hours() -> bool:
     now = datetime.now(IST)
     if now.weekday() >= 5:
@@ -49,17 +54,14 @@ def is_market_hours() -> bool:
     return open_t <= now <= close_t
 
 
-# ======================================════
-#  DEDUP — reads/writes seen_hashes.txt
-#  In GitHub Actions: file is committed back
-#  to repo after each run (see nse_pulse.yml)
-# ======================================════
+# ══════════════════════════════════════════
+#  DEDUP
+# ══════════════════════════════════════════
 def load_seen() -> set:
     if not os.path.exists(SEEN_FILE):
         return set()
     with open(SEEN_FILE) as f:
         lines = [l.strip() for l in f.read().splitlines() if l.strip()]
-    # Keep only last 500 hashes to prevent file bloat
     if len(lines) > 500:
         lines = lines[-500:]
         with open(SEEN_FILE, "w") as f:
@@ -71,9 +73,9 @@ def mark_seen(hashes: list):
         f.write("\n".join(hashes) + "\n")
 
 
-# ======================================════
-#  NEWS SOURCE 1 — NewsAPI
-# ======================================════
+# ══════════════════════════════════════════
+#  NEWS SOURCES (unchanged)
+# ══════════════════════════════════════════
 def fetch_newsapi() -> list:
     articles = []
     seen_titles = set()
@@ -102,9 +104,6 @@ def fetch_newsapi() -> list:
     return articles
 
 
-# ======================================════
-#  NEWS SOURCE 2 — Marketaux (optional)
-# ======================================════
 def fetch_marketaux() -> list:
     if not MARKETAUX_KEY or MARKETAUX_KEY == "YOUR_MARKETAUX_KEY":
         return []
@@ -129,9 +128,6 @@ def fetch_marketaux() -> list:
         return []
 
 
-# ======================================════
-#  NEWS SOURCE 3 — Zerodha Pulse (scrape)
-# ======================================════
 def fetch_zerodha_pulse() -> list:
     try:
         from bs4 import BeautifulSoup
@@ -154,10 +150,10 @@ def fetch_zerodha_pulse() -> list:
         return []
 
 
-# ======================================════
-#  GROQ PROMPT — analyst-grade stock reasoning
-# ======================================════
-PROMPT = """You are a senior NSE equity desk analyst. Write sharp, specific alerts like a real analyst — not a generic chatbot.
+# ══════════════════════════════════════════
+#  LAYER 1 — SECTOR MACRO (existing prompt)
+# ══════════════════════════════════════════
+PROMPT_SECTOR = """You are a senior NSE equity desk analyst. Write sharp, specific alerts like a real analyst — not a generic chatbot.
 
 Analyze these news headlines for Indian stock market impact today.
 
@@ -188,11 +184,11 @@ Return ONLY valid JSON. No markdown. No preamble. Nothing outside the JSON.
           "name": "Company Name",
           "ticker": "SYMBOL.NS",
           "impact": "Bullish or Bearish",
-          "reason": "ONE sharp sentence: [news trigger] -> [business mechanism] -> [final impact]. GOOD: Iran conflict blocks Gulf exports -> IOC sources 20% crude from Middle East -> refining margins down ~8% Q2",
-          "quant": "Analyst-style quantified impact. Examples: margins -150bps, revenue +8-10% Q3, order book +Rs400Cr, volume -12%. Must be a number. null only if truly unquantifiable."
+          "reason": "ONE sharp sentence: [news trigger] -> [business mechanism] -> [final impact]",
+          "quant": "Analyst-style quantified impact. Examples: margins -150bps, revenue +8-10% Q3, order book +Rs400Cr. Must be a number. null only if truly unquantifiable."
         }}
       ],
-      "watch": "name something specific — a price level, data release, event time. Not generic advice like monitor the sector"
+      "watch": "name something specific — a price level, data release, event time. Not generic advice"
     }}
   ],
   "top_themes": ["theme1", "theme2"],
@@ -203,8 +199,7 @@ Strict rules:
 - conviction: 1=mild, 2=strong directional, 3=shock event (policy/earnings surprise/crisis)
 - stocks: 2-3 most directly impacted NSE-listed stocks per sector with SPECIFIC reasons
 - reason field MUST follow [trigger] -> [mechanism] -> [impact] format
-- quant field MUST contain a number (%, bps, Rs Cr). Never vague words like "significant" or "moderate"
-- Generic reasons are not acceptable — be specific to the company's business
+- quant field MUST contain a number (%, bps, Rs Cr). Never vague words
 - Only include sectors with actual news backing — no padding
 - Max 4 sectors, max 3 stocks per sector
 - confidence = 0-100 based on how clearly news supports the call
@@ -213,10 +208,87 @@ Headlines:
 {headlines}"""
 
 
-# ======================================════
-#  GROQ CALL
-# ======================================════
-def analyze_with_groq(headlines: list) -> dict | None:
+# ══════════════════════════════════════════════════════════════════════════════
+#  LAYER 2 — STOCK CATALYST SCANNER (NEW in v2)
+# ══════════════════════════════════════════════════════════════════════════════
+PROMPT_CATALYST = """You are a stock-level catalyst scanner for NSE India equities.
+
+Your job: find COMPANY-SPECIFIC events from these headlines that could move ONE stock's price 3%+ within 1-5 days.
+
+IMPORTANT DISTINCTION:
+- Macro/sector news (oil prices, interest rates, geopolitical themes) = NOT a catalyst. Ignore these.
+- Company-specific event (plant launch, contract win, F&O addition, results beat) = CATALYST. Report these.
+
+CATALYST TYPES to look for:
+
+CORPORATE_EVENT (score 7-10):
+- Plant inauguration / capacity expansion / new facility commissioning
+- Large contract win / LoA / PPA / MoU signed (name the company!)
+- M&A / acquisition / subsidiary launch / JV
+- Major order book addition (>5% of market cap)
+- Government approval / license for a SPECIFIC company
+
+STRUCTURAL_CHANGE (score 6-9):
+- Stock added to F&O segment / index inclusion / index rebalancing
+- Credit rating upgrade for a SPECIFIC company
+- FII/DII stake increase >1% disclosed
+- Promoter buying in open market
+
+EARNINGS_BEAT (score 5-8):
+- Quarterly results beating consensus by >10%
+- Revenue / profit guidance raised
+- Surprise margin expansion
+
+BROKERAGE_UPGRADE (score 4-7):
+- Buy initiation by Goldman, Morgan Stanley, Jefferies, CLSA, Nomura
+- Target price raised >15%
+- Upgrade from Sell/Hold to Buy
+
+TECHNICAL_EVENT (score 4-7):
+- Promoter / PE stake sale COMPLETED (washout = demand zone)
+- Block deal absorbed with strong delivery
+- Buyback at premium
+
+Return ONLY valid JSON. No markdown. No preamble.
+
+{{
+  "catalysts": {{
+    "SYMBOL": {{
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "one-line description of the SPECIFIC event",
+      "category": "corporate_event",
+      "ttl_hours": 48
+    }}
+  }}
+}}
+
+STRICT RULES:
+1. SYMBOL = exact NSE symbol (KAYNES not Kaynes Technology, ADANIPOWER not Adani Power, BEL not Bharat Electronics)
+2. Only events from the LAST 24 HOURS
+3. Score honestly: minor brokerage note = 4, PM inaugurating a plant = 9, F&O addition = 7
+4. direction: BUY for positive, SELL for negative
+5. ttl_hours: corporate_event=48, structural_change=72, earnings_beat=24, brokerage_upgrade=24, technical_event=48
+6. EXCLUDE all macro/sector themes — those are handled by Layer 1
+7. If NO company-specific catalysts found, return {{"catalysts": {{}}}}
+8. Max 10 catalysts per scan — quality over quantity
+9. Each catalyst must name ONE specific NSE-listed company — never generic sector calls
+
+Common NSE symbols for reference:
+KAYNES, DIXON, SYRMA (EMS) | BEL, HAL, BHEL, GRSE, COCHINSHIP (Defence)
+ADANIPOWER, NTPC, TATAPOWER, NHPC (Power) | ANANDRATHI, BSE, MCX, CDSL (Capital Mkts)
+VMM, DMART, TRENT (Retail) | PERSISTENT, LTIM, COFORGE, MPHASIS (IT midcap)
+ZOMATO, PAYTM, NAUKRI (Internet) | GODREJPROP, PRESTIGE, OBEROIRLTY (Realty)
+
+Headlines:
+{headlines}"""
+
+
+# ══════════════════════════════════════════
+#  GROQ CALLS
+# ══════════════════════════════════════════
+def _call_groq(prompt: str, headlines: list, max_tokens: int = 1500) -> dict | None:
+    """Shared Groq caller for both layers."""
     if not headlines:
         return None
 
@@ -226,9 +298,9 @@ def analyze_with_groq(headlines: list) -> dict | None:
     try:
         resp = groq_client.chat.completions.create(
             model=GROQ_MODEL,
-            messages=[{"role": "user", "content": PROMPT.format(headlines=text)}],
+            messages=[{"role": "user", "content": prompt.format(headlines=text)}],
             temperature=0.1,
-            max_tokens=1500,
+            max_tokens=max_tokens,
         )
         raw = resp.choices[0].message.content.strip()
         raw = re.sub(r"```json|```", "", raw).strip()
@@ -244,15 +316,112 @@ def analyze_with_groq(headlines: list) -> dict | None:
         return None
 
 
-# ======================================════
-#  BUILD TELEGRAM ALERT
-# ======================================════
+def analyze_sectors(headlines: list) -> dict | None:
+    """Layer 1: Sector macro analysis (existing)."""
+    return _call_groq(PROMPT_SECTOR, headlines, max_tokens=1500)
+
+
+def analyze_catalysts(headlines: list) -> dict | None:
+    """Layer 2: Stock-specific catalyst scan (NEW)."""
+    return _call_groq(PROMPT_CATALYST, headlines, max_tokens=1000)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  CATALYST WATCHLIST — merge new catalysts with existing (don't overwrite)
+# ══════════════════════════════════════════════════════════════════════════════
+def load_existing_catalysts() -> dict:
+    """Load catalyst_watchlist.json if it exists."""
+    if not os.path.exists(CATALYST_FILE):
+        return {}
+    try:
+        with open(CATALYST_FILE) as f:
+            data = json.load(f)
+        return data.get("catalysts", {})
+    except (json.JSONDecodeError, IOError):
+        return {}
+
+
+def save_catalyst_watchlist(new_catalysts: dict):
+    """
+    Merge new catalysts with existing ones.
+    - New catalyst for same symbol: keep higher score
+    - Expired catalysts (past TTL): remove
+    - Write updated file
+    """
+    existing = load_existing_catalysts()
+    now = datetime.now(IST)
+
+    # Merge: new takes priority if score >= existing
+    merged = {}
+    for sym, info in existing.items():
+        merged[sym] = info
+    for sym, info in new_catalysts.items():
+        sym = sym.upper().replace(".NS", "")
+        if sym not in merged or info.get("score", 0) >= merged.get(sym, {}).get("score", 0):
+            merged[sym] = info
+
+    # Add conviction display based on score
+    for sym, info in merged.items():
+        score = info.get("score", 0)
+        if score >= 8:
+            info["conviction"] = "▮▮▮"
+        elif score >= 6:
+            info["conviction"] = "▮▮▯"
+        else:
+            info["conviction"] = "▮▯▯"
+
+    output = {
+        "generated_at": now.isoformat(),
+        "catalysts": merged
+    }
+
+    with open(CATALYST_FILE, "w") as f:
+        json.dump(output, f, indent=2)
+
+    return merged
+
+
+def format_catalyst_telegram(catalysts: dict) -> str | None:
+    """Build a short Telegram message for catalyst alerts."""
+    if not catalysts:
+        return None
+
+    now_str = datetime.now(IST).strftime("%d %b  %H:%M IST")
+    lines = [
+        f"🎯 *CATALYST WATCHLIST*  |  {now_str}",
+        "━" * 32,
+    ]
+
+    # Sort by score descending
+    sorted_cats = sorted(catalysts.items(), key=lambda x: -x[1].get("score", 0))
+
+    for sym, info in sorted_cats[:8]:
+        score = info.get("score", 0)
+        direction = info.get("direction", "BUY")
+        catalyst = info.get("catalyst", "")
+        category = info.get("category", "").replace("_", " ")
+        conv = info.get("conviction", "▮▯▯")
+        arrow = "▲" if direction == "BUY" else "▼"
+        ttl = info.get("ttl_hours", 24)
+
+        lines.append(f"  {arrow} *{sym}*  {conv}  score:{score}/10")
+        lines.append(f"     {catalyst}")
+        lines.append(f"     _{category} · valid {ttl}h_")
+        lines.append("")
+
+    lines.append("━" * 32)
+    lines.append("_Scanner reads this file to override Nifty gate_")
+
+    return "\n".join(lines)
+
+
+# ══════════════════════════════════════════
+#  BUILD SECTOR ALERT (existing, unchanged)
+# ══════════════════════════════════════════
 def short_ticker(ticker: str) -> str:
-    """Strip .NS suffix for cleaner display"""
     return ticker.replace(".NS", "").replace(".BO", "")
 
 def short_reason(reason: str) -> str:
-    """Extract only the final impact from trigger->mechanism->impact chain"""
     parts = [p.strip() for p in reason.split("->")]
     return parts[-1] if parts else reason
 
@@ -319,9 +488,9 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
     return "\n".join(lines)
 
 
-# ======================================════
+# ══════════════════════════════════════════
 #  SEND TELEGRAM
-# ======================================════
+# ══════════════════════════════════════════
 def send_telegram(msg: str) -> bool:
     try:
         r = requests.post(
@@ -340,9 +509,9 @@ def send_telegram(msg: str) -> bool:
         return False
 
 
-# ======================================════
-#  SAVE BIAS FILE (for Excel link later)
-# ======================================════
+# ══════════════════════════════════════════
+#  SAVE BIAS FILE
+# ══════════════════════════════════════════
 def save_bias(analysis: dict):
     try:
         with open(BIAS_FILE, "w") as f:
@@ -357,14 +526,15 @@ def save_bias(analysis: dict):
         print(f"  [Bias save] {e}")
 
 
-# ======================================════
-#  MAIN PIPELINE
-# ======================================════
+# ══════════════════════════════════════════════════════════════════════════════
+#  MAIN PIPELINE — now runs BOTH layers
+# ══════════════════════════════════════════════════════════════════════════════
 def run():
     print(f"\n{'='*46}")
-    print(f"  NSE PULSE  |  {datetime.now(IST).strftime('%d %b %Y  %H:%M IST')}")
+    print(f"  NSE PULSE v2  |  {datetime.now(IST).strftime('%d %b %Y  %H:%M IST')}")
     print(f"{'='*46}")
 
+    # ── Fetch news (shared across both layers) ─────────────────
     all_articles = fetch_newsapi() + fetch_marketaux() + fetch_zerodha_pulse()
     print(f"  Fetched : {len(all_articles)} total")
 
@@ -381,47 +551,82 @@ def run():
     print(f"  Fresh   : {len(fresh)}")
 
     if len(fresh) < MIN_ARTICLES:
-        print("  ⏭ Not enough fresh news — skipping (no duplicate alert)\n")
+        print("  ⏭ Not enough fresh news — skipping\n")
         return
 
     headlines = [a["title"] for a in fresh]
-    print(f"  Sending {len(headlines)} headlines to Groq ({GROQ_MODEL})...")
-    analysis = analyze_with_groq(headlines)
 
-    if not analysis:
-        print("  Analysis failed — skipping\n")
-        return
+    # ── LAYER 1: Sector macro analysis (existing) ──────────────
+    print(f"\n  ─── Layer 1: Sector Scan ───")
+    print(f"  Sending {len(headlines)} headlines to Groq...")
+    analysis = analyze_sectors(headlines)
 
-    mood    = analysis.get("market_mood", "?")
-    sectors = len(analysis.get("sectors", []))
-    conf    = analysis.get("confidence", 0)
-    print(f"  Result  : {mood} | {sectors} sectors | confidence {conf}%")
+    if analysis:
+        mood    = analysis.get("market_mood", "?")
+        sectors = len(analysis.get("sectors", []))
+        conf    = analysis.get("confidence", 0)
+        print(f"  Result  : {mood} | {sectors} sectors | confidence {conf}%")
 
-    if sectors == 0:
-        print("  No sector conviction — skipping\n")
-        return
+        if sectors > 0:
+            alert = build_alert(analysis, len(fresh), len(all_articles))
+            print("\n" + alert + "\n")
+            send_telegram(alert)
+            save_bias(analysis)
+    else:
+        print("  Layer 1 failed — no sector alert")
 
-    alert = build_alert(analysis, len(fresh), len(all_articles))
-    print("\n" + alert + "\n")
-    send_telegram(alert)
-    save_bias(analysis)
+    # ── LAYER 2: Stock catalyst scan (NEW) ─────────────────────
+    print(f"\n  ─── Layer 2: Catalyst Scan ───")
+    print(f"  Scanning same {len(headlines)} headlines for stock catalysts...")
+    cat_result = analyze_catalysts(headlines)
+
+    if cat_result:
+        raw_catalysts = cat_result.get("catalysts", {})
+        if raw_catalysts:
+            # Clean up symbols (remove .NS suffix if Groq adds it)
+            cleaned = {}
+            for sym, info in raw_catalysts.items():
+                clean_sym = sym.upper().replace(".NS", "").replace(".BO", "")
+                cleaned[clean_sym] = info
+
+            merged = save_catalyst_watchlist(cleaned)
+            print(f"  Found {len(cleaned)} new catalyst(s), {len(merged)} total active")
+
+            for sym, info in cleaned.items():
+                score = info.get("score", 0)
+                cat   = info.get("catalyst", "")[:60]
+                print(f"    🎯 {sym:<14} score:{score}  {cat}")
+
+            # Send catalyst Telegram alert
+            cat_msg = format_catalyst_telegram(merged)
+            if cat_msg:
+                send_telegram(cat_msg)
+        else:
+            print("  No stock-specific catalysts found this cycle")
+    else:
+        print("  Layer 2 failed — no catalyst data")
+
+    # ── Mark seen ──────────────────────────────────────────────
     mark_seen(hashes)
-    print(f"  Marked {len(hashes)} as seen\n")
+    print(f"\n  Marked {len(hashes)} as seen\n")
 
 
-# ======================================════
+# ══════════════════════════════════════════
 #  SCHEDULER
-# ======================================════
+# ══════════════════════════════════════════
 if __name__ == "__main__":
     import sys
+    from apscheduler.schedulers.blocking import BlockingScheduler
 
     if len(sys.argv) > 1 and sys.argv[1] == "test":
         print("=== TEST MODE ===")
         run()
     else:
-        print("NSE Market Pulse — Free Edition")
+        print("NSE Market Pulse v2 — with Catalyst Layer")
         print(f"Model : {GROQ_MODEL} via Groq (free)")
         print("Runs  : Every 15 min | Mon-Fri 9:00-15:45 IST")
+        print("Layer 1: Sector macro → Telegram")
+        print("Layer 2: Stock catalyst → catalyst_watchlist.json → Scanner")
         print("Stop  : Ctrl+C\n")
         run()
         scheduler = BlockingScheduler(timezone="Asia/Kolkata")
