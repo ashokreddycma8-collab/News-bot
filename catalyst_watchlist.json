@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T17:26:42.105282+05:30",
+  "generated_at": "2026-04-07T09:32:16.194518+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -20,7 +20,7 @@
     "BEL": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Nirmal Bang raises target price for BEL over strong defence sector outlook",
+      "catalyst": "Tops defence pack in Q4 preview by Motilal Oswal",
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
@@ -40,6 +40,14 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "DMART": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "BofA upgrades stance as sales growth bottoms out",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
