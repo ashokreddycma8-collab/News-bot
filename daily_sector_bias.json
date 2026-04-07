@@ -1,86 +1,78 @@
 {
   "date": "2026-04-07",
-  "time": "14:16",
-  "mood": "Cautious",
+  "time": "15:19",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "realty",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "BPTP awards Rs 488cr to NCC Ltd for Gurugram project",
-      "theme": "PSU_rotation",
+      "news_driver": "Tata Steel's record India output in FY26 and strong Q4 volumes",
+      "theme": "null",
       "stocks": [
         {
-          "name": "NCC Limited",
-          "ticker": "NCC.NS",
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
           "impact": "Bullish",
-          "reason": "BPTP awarding Rs 488cr project to NCC Ltd -> increased order book -> revenue +8-10% Q3",
-          "quant": "revenue +8-10% Q3"
-        },
-        {
-          "name": "Smartworks",
-          "ticker": "None",
-          "impact": "Bullish",
-          "reason": "Smartworks giving on rent 1,150 desks in Mumbai -> increased rental income -> margins +50bps",
-          "quant": "margins +50bps"
+          "reason": "Strong Q4 results -> increased production and delivery -> higher revenue and profitability",
+          "quant": "revenue +12-15% Q4"
         }
       ],
-      "watch": "NCC Ltd's Q3 earnings release"
+      "watch": "Tata Steel's Q4 earnings call for further guidance on production and pricing"
+    },
+    {
+      "sector": "jewellery",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Kalyan Jewellers' 64% revenue growth in Q4",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Kalyan Jewellers",
+          "ticker": "KALYANJEW.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased demand and sales -> higher revenue and profitability",
+          "quant": "revenue +64% Q4"
+        }
+      ],
+      "watch": "Kalyan Jewellers' Q4 earnings call for further guidance on sales and margins"
+    },
+    {
+      "sector": "textiles",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Indian Textile Sector's '10-Year-Window' to capitalize on labor before automation",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Kitex Garments",
+          "ticker": "KITEX.NS",
+          "impact": "Bullish",
+          "reason": "Positive outlook for the textile sector -> increased demand and sales -> higher revenue and profitability",
+          "quant": "revenue +8-10% FY27"
+        }
+      ],
+      "watch": "textile sector's performance in the next quarter for signs of growth"
     },
     {
       "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Anthropic partners with Broadcom and Google for AI chips",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Infosys Limited",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Anthropic's AI chip partnership -> increased demand for digital services -> revenue +5% Q3",
-          "quant": "revenue +5% Q3"
-        }
-      ],
-      "watch": "Infosys Ltd's Q3 earnings release"
-    },
-    {
-      "sector": "infra",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Minor Hotels to operate Anantara property at Rs 2,400-cr World Trade Centre in Kolkata",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "L&T Limited",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "Minor Hotels operating Anantara property at World Trade Centre -> increased infrastructure development -> order book +Rs500Cr",
-          "quant": "order book +Rs500Cr"
-        }
-      ],
-      "watch": "L&T Ltd's Q3 earnings release"
-    },
-    {
-      "sector": "banking",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Regulatory risk restrains bankers from tapping rupee futures-forwards arbitrage",
-      "theme": null,
+      "news_driver": "IT Sector Q4 Results Preview: Growth Expected To Slow",
+      "theme": "null",
       "stocks": [
         {
-          "name": "HDFC Bank Limited",
-          "ticker": "HDFCBANK.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Regulatory risk restraining rupee futures-forwards arbitrage -> reduced trading income -> margins -100bps",
-          "quant": "margins -100bps"
+          "reason": "Slow growth in Q4 -> decreased revenue and profitability -> lower earnings",
+          "quant": "revenue -5-7% Q4"
         }
       ],
-      "watch": "RBI's monetary policy statement"
+      "watch": "IT sector's Q4 earnings calls for further guidance on growth and margins"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "null"
   ]
 }
