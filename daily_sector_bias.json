@@ -1,52 +1,86 @@
 {
   "date": "2026-04-07",
-  "time": "14:14",
-  "mood": "Bullish",
+  "time": "14:16",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Indian IT firms face subdued fourth quarter as war, AI concerns persist",
-      "theme": null,
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "BPTP awards Rs 488cr to NCC Ltd for Gurugram project",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Geopolitical tensions and AI concerns -> decreased client spending -> revenue growth -2-3% Q4",
-          "quant": "-2%"
+          "name": "NCC Limited",
+          "ticker": "NCC.NS",
+          "impact": "Bullish",
+          "reason": "BPTP awarding Rs 488cr project to NCC Ltd -> increased order book -> revenue +8-10% Q3",
+          "quant": "revenue +8-10% Q3"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Weak rupee -> higher earnings in USD terms -> margins +50bps",
-          "quant": "+50bps"
+          "name": "Smartworks",
+          "ticker": "None",
+          "impact": "Bullish",
+          "reason": "Smartworks giving on rent 1,150 desks in Mumbai -> increased rental income -> margins +50bps",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "Q4 earnings release"
+      "watch": "NCC Ltd's Q3 earnings release"
     },
     {
-      "sector": "energy",
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Anthropic partners with Broadcom and Google for AI chips",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Infosys Limited",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Anthropic's AI chip partnership -> increased demand for digital services -> revenue +5% Q3",
+          "quant": "revenue +5% Q3"
+        }
+      ],
+      "watch": "Infosys Ltd's Q3 earnings release"
+    },
+    {
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Minor Hotels to operate Anantara property at Rs 2,400-cr World Trade Centre in Kolkata",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "L&T Limited",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "Minor Hotels operating Anantara property at World Trade Centre -> increased infrastructure development -> order book +Rs500Cr",
+          "quant": "order book +Rs500Cr"
+        }
+      ],
+      "watch": "L&T Ltd's Q3 earnings release"
+    },
+    {
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Iran-US ceasefire framework",
+      "news_driver": "Regulatory risk restrains bankers from tapping rupee futures-forwards arbitrage",
       "theme": null,
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "HDFC Bank Limited",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "Decreased crude oil price volatility -> lower refining margins -> revenue -4-5% Q4",
-          "quant": "-4%"
+          "reason": "Regulatory risk restraining rupee futures-forwards arbitrage -> reduced trading income -> margins -100bps",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "RBI's monetary policy statement"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "internet_digital"
   ]
 }

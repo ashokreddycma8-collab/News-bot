@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T11:03:00.212951+05:30",
+  "generated_at": "2026-04-07T14:16:25.655262+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -53,6 +53,14 @@
       "score": 8,
       "direction": "BUY",
       "catalyst": "Wipro wins $1 billion Olam Group deal and acquires Mindsprint",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "NCC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "BPTP awards Rs 488cr contract to NCC Ltd for Gurugram project",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
