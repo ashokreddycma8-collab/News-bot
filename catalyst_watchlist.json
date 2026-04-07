@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T09:32:16.194518+05:30",
+  "generated_at": "2026-04-07T11:03:00.212951+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -48,6 +48,14 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "WIPRO": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Wipro wins $1 billion Olam Group deal and acquires Mindsprint",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
