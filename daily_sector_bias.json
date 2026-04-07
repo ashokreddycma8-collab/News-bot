@@ -1,68 +1,86 @@
 {
   "date": "2026-04-07",
-  "time": "17:30",
-  "mood": "Bullish",
+  "time": "20:24",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Correction in crude prices",
+      "news_driver": "US-Iran conflict and rising Brent prices",
       "theme": "null",
       "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Crude price correction -> lower input costs -> higher refining margins",
-          "quant": "margins +100bps"
-        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
-          "impact": "Bullish",
-          "reason": "Crude price correction -> lower input costs -> higher marketing margins",
-          "quant": "margins +80bps"
+          "impact": "Bearish",
+          "reason": "Rising Brent prices -> increased crude oil import costs -> lower margins for IOC",
+          "quant": "-100bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Higher oil prices -> increased under-recoveries -> lower profitability for HPCL",
+          "quant": "-8-10% Q3 revenue"
         }
       ],
-      "watch": "Brent crude price below $85"
+      "watch": "Brent crude price level of $95"
     },
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Correction in crude prices",
+      "conviction": 1,
+      "news_driver": "Cabinet approval for Mahavitaran recast and IPO plan",
       "theme": "null",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
+          "name": "Maharashtra State Electricity Distribution",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "Crude price correction -> higher realizations -> higher revenue",
-          "quant": "revenue +5-7% Q3"
+          "reason": "Cabinet approval for recast and IPO plan -> improved financials and governance -> increased investor confidence",
+          "quant": "+10% potential upside"
         }
       ],
-      "watch": "Crude price stability above $80"
+      "watch": "Mahavitaran IPO announcement"
     },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Lower crude prices",
+      "news_driver": "25% surge in EV sales in FY26",
       "theme": "null",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Lower crude prices -> lower fuel costs -> higher consumer demand",
-          "quant": "sales +2-3% Q3"
+          "reason": "Growing EV demand -> increased sales for Tata Motors -> higher revenue and profitability",
+          "quant": "+8-10% Q3 revenue"
         }
       ],
-      "watch": "Monthly auto sales data"
+      "watch": "EV sales numbers for Q1 FY27"
+    },
+    {
+      "sector": "defence",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Swan Defence bags Rs 3,000 crore order",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Swan Energy",
+          "ticker": "SWANENERGY.NS",
+          "impact": "Bullish",
+          "reason": "Large order win -> increased revenue and profitability for Swan Energy -> improved investor confidence",
+          "quant": "+Rs400Cr order book"
+        }
+      ],
+      "watch": "Swan Defence order book growth"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }

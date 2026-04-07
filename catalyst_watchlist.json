@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T15:19:13.513490+05:30",
+  "generated_at": "2026-04-07T20:24:52.665924+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -80,6 +80,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SWANENERGY": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Swan Defence bags Rs 3,000 crore order for construction of ammonia bulk carriers",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
