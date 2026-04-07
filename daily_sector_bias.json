@@ -1,93 +1,75 @@
 {
   "date": "2026-04-07",
-  "time": "11:02",
+  "time": "13:31",
   "mood": "Bearish",
   "sectors": [
+    {
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Rs 61,000 crore FII sell-off",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Kotak Mahindra Bank",
+          "ticker": "KOTAKBANK.NS",
+          "impact": "Bearish",
+          "reason": "ED registering PMLA case in Rs 150 crore FD fraud -> damaging bank's reputation and potentially affecting investor confidence -> reducing stock price by 3-5%",
+          "quant": "-4%"
+        },
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "FPI selloff in March -> reducing banking sector's overall valuation -> decreasing SBI's stock price by 2-3%",
+          "quant": "-2.5%"
+        }
+      ],
+      "watch": "1750 support level for Kotak Mahindra Bank"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "TCS Dividend Announcement",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "TCS dividend announcement -> increasing investor confidence and attractiveness -> boosting stock price by 1-2%",
+          "quant": "+1.5%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "TCS's positive dividend announcement -> creating a positive sentiment in the IT sector -> increasing Infosys' stock price by 1-2%",
+          "quant": "+1.2%"
+        }
+      ],
+      "watch": "4200 resistance level for TCS"
+    },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran conflict and rising oil prices",
+      "news_driver": "US-Israel-Iran conflict",
       "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> increased input costs -> reduced margins by 100-150bps",
+          "reason": "US-Israel-Iran conflict -> increasing Brent prices -> reducing IOC's margins by 100-150 bps",
           "quant": "-120bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HPLC.NS",
-          "impact": "Bearish",
-          "reason": "Oil price surge -> higher under-recovery -> potential loss of Rs 500Cr in Q1",
-          "quant": "-Rs500Cr"
         }
       ],
-      "watch": "Brent crude price crossing $115/barrel"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "JP Morgan upgrade and potential war-induced supply disruptions",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Vedanta",
-          "ticker": "VEDL.NS",
-          "impact": "Bullish",
-          "reason": "JP Morgan upgrade and potential supply disruptions -> increased prices -> revenue growth of 8-10% in Q3",
-          "quant": "8-10%"
-        },
-        {
-          "name": "Hindalco",
-          "ticker": "HNDL.NS",
-          "impact": "Bullish",
-          "reason": "War-induced supply disruptions -> higher metal prices -> EBITDA margin expansion by 50-75bps",
-          "quant": "50-75bps"
-        }
-      ],
-      "watch": "Vedanta's Q4 earnings release"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Wipro's $1 billion Olam Group deal and Mindsprint acquisition",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bullish",
-          "reason": "Large deal wins -> revenue growth -> potential upside of 5-7% in stock price",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "Wipro's Q4 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Rising oil prices and potential demand slowdown",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bearish",
-          "reason": "Rising oil prices -> higher input costs -> potential margin contraction of 50-75bps",
-          "quant": "-50bps"
-        }
-      ],
-      "watch": "Auto sales data for February"
+      "watch": "Brent prices above $90"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "PSU_rotation"
   ]
 }
