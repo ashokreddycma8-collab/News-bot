@@ -1,75 +1,52 @@
 {
   "date": "2026-04-07",
-  "time": "13:31",
-  "mood": "Bearish",
+  "time": "14:14",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Rs 61,000 crore FII sell-off",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Kotak Mahindra Bank",
-          "ticker": "KOTAKBANK.NS",
-          "impact": "Bearish",
-          "reason": "ED registering PMLA case in Rs 150 crore FD fraud -> damaging bank's reputation and potentially affecting investor confidence -> reducing stock price by 3-5%",
-          "quant": "-4%"
-        },
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "FPI selloff in March -> reducing banking sector's overall valuation -> decreasing SBI's stock price by 2-3%",
-          "quant": "-2.5%"
-        }
-      ],
-      "watch": "1750 support level for Kotak Mahindra Bank"
-    },
-    {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "TCS Dividend Announcement",
-      "theme": "null",
+      "news_driver": "Indian IT firms face subdued fourth quarter as war, AI concerns persist",
+      "theme": null,
       "stocks": [
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "TCS dividend announcement -> increasing investor confidence and attractiveness -> boosting stock price by 1-2%",
-          "quant": "+1.5%"
+          "impact": "Bearish",
+          "reason": "Geopolitical tensions and AI concerns -> decreased client spending -> revenue growth -2-3% Q4",
+          "quant": "-2%"
         },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "TCS's positive dividend announcement -> creating a positive sentiment in the IT sector -> increasing Infosys' stock price by 1-2%",
-          "quant": "+1.2%"
+          "impact": "Neutral",
+          "reason": "Weak rupee -> higher earnings in USD terms -> margins +50bps",
+          "quant": "+50bps"
         }
       ],
-      "watch": "4200 resistance level for TCS"
+      "watch": "Q4 earnings release"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Israel-Iran conflict",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Iran-US ceasefire framework",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "US-Israel-Iran conflict -> increasing Brent prices -> reducing IOC's margins by 100-150 bps",
-          "quant": "-120bps"
+          "reason": "Decreased crude oil price volatility -> lower refining margins -> revenue -4-5% Q4",
+          "quant": "-4%"
         }
       ],
-      "watch": "Brent prices above $90"
+      "watch": "Brent crude price movement"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "China+1"
   ]
 }
