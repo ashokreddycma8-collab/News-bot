@@ -1,78 +1,93 @@
 {
   "date": "2026-04-07",
-  "time": "15:19",
+  "time": "17:01",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tata Steel's record India output in FY26 and strong Q4 volumes",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased production and delivery -> higher revenue and profitability",
-          "quant": "revenue +12-15% Q4"
-        }
-      ],
-      "watch": "Tata Steel's Q4 earnings call for further guidance on production and pricing"
-    },
-    {
-      "sector": "jewellery",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Kalyan Jewellers' 64% revenue growth in Q4",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Kalyan Jewellers",
-          "ticker": "KALYANJEW.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased demand and sales -> higher revenue and profitability",
-          "quant": "revenue +64% Q4"
-        }
-      ],
-      "watch": "Kalyan Jewellers' Q4 earnings call for further guidance on sales and margins"
-    },
-    {
-      "sector": "textiles",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Indian Textile Sector's '10-Year-Window' to capitalize on labor before automation",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Kitex Garments",
-          "ticker": "KITEX.NS",
-          "impact": "Bullish",
-          "reason": "Positive outlook for the textile sector -> increased demand and sales -> higher revenue and profitability",
-          "quant": "revenue +8-10% FY27"
-        }
-      ],
-      "watch": "textile sector's performance in the next quarter for signs of growth"
-    },
-    {
       "sector": "it",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "IT Sector Q4 Results Preview: Growth Expected To Slow",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "TCS Q4 Results Preview: Margin Seen Expanding Amid Modest Growth Expectations",
       "theme": "null",
       "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "TCS Q4 results preview indicating margin expansion -> improved profitability -> increased investor confidence",
+          "quant": "margins +100bps"
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Slow growth in Q4 -> decreased revenue and profitability -> lower earnings",
-          "quant": "revenue -5-7% Q4"
+          "impact": "Bullish",
+          "reason": "Positive IT sector sentiment -> increased demand for IT services -> higher revenue growth",
+          "quant": "revenue +6-8% Q3"
         }
       ],
-      "watch": "IT sector's Q4 earnings calls for further guidance on growth and margins"
+      "watch": "TCS Q4 results announcement"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Crucial dependence: West Asia\u2019s share in Indian oil imports rose to 54% just before the Iran war",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Increased dependence on West Asian oil imports -> higher crude prices -> squeezed refining margins",
+          "quant": "margins -50bps"
+        }
+      ],
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Exclusive: GST on ride-hailing platforms faces fresh scrutiny as industry flags SaaS model mismatch",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Ola",
+          "ticker": "OLAE.NS",
+          "impact": "Bearish",
+          "reason": "GST scrutiny on ride-hailing platforms -> increased regulatory uncertainty -> lower investor confidence",
+          "quant": "revenue -5% Q3"
+        }
+      ],
+      "watch": "GST council meeting outcome"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Suzlon, Inox Wind In Focus: Bernstein Flags 'Nightmare' For Wind Stocks As CERC Tightens Norms",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Suzlon Energy",
+          "ticker": "SUZLON.NS",
+          "impact": "Bearish",
+          "reason": "CERC tightening norms -> reduced project viability -> lower order intake",
+          "quant": "order book -Rs200Cr"
+        },
+        {
+          "name": "Inox Wind",
+          "ticker": "INOXWIND.NS",
+          "impact": "Bearish",
+          "reason": "CERC norms tightening -> increased competition -> lower market share",
+          "quant": "revenue -10% Q3"
+        }
+      ],
+      "watch": "CERC norm implementation timeline"
     }
   ],
   "themes": [
-    "null"
+    "IT sector growth",
+    "Renewable energy challenges"
   ]
 }
