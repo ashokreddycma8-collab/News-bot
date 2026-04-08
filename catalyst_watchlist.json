@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T13:33:49.280092+05:30",
+  "generated_at": "2026-04-08T17:04:23.153703+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -50,9 +50,9 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "WIPRO": {
-      "score": 8,
+      "score": 9,
       "direction": "BUY",
-      "catalyst": "Wipro wins $1 billion Olam Group deal and acquires Mindsprint",
+      "catalyst": "Wipro bags $1 billion contract from Olam Group",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -104,6 +104,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "KREEVA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Kanodia group firm KREEVA to invest Rs 400cr on new housing project in Gurugram",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TRUECOLORS": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "Mukul Agarwal buys 1.6% stake in True Colors",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

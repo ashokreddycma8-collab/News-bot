@@ -1,69 +1,86 @@
 {
   "date": "2026-04-08",
-  "time": "15:19",
-  "mood": "Cautious",
+  "time": "17:04",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Government extends bulk commercial LPG allocation to more sectors",
-      "theme": "energy_security",
+      "news_driver": "US-Iran truce and RBI policy",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran truce -> reduced crude oil prices -> improved OMC margins and lower provisioning requirements for banks",
+          "quant": "NIM +20bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "RBI policy -> dovish tone -> increased lending and deposit growth",
+          "quant": "loan book growth +12% YoY"
+        }
+      ],
+      "watch": "SBIN.NS crossing 550 levels"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Summer heat and oil shock",
+      "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
-          "impact": "Bullish",
-          "reason": "Government's extension of bulk commercial LPG allocation -> increased demand for LPG -> higher revenue for IOC",
-          "quant": "revenue +5-7% Q2"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bullish",
-          "reason": "Government's extension of bulk commercial LPG allocation -> higher sales volume -> improved profitability for HPCL",
-          "quant": "margins +100bps"
+          "impact": "Bearish",
+          "reason": "Summer heat and oil shock -> increased energy demand concerns -> potential under-recovery for OMCs",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": " IOC's Q2 earnings release"
+      "watch": "Brent crude price crossing $80"
     },
     {
-      "sector": "auto",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "EVs are safe, but safety must be priority too",
-      "theme": "electric_mobility",
+      "conviction": 2,
+      "news_driver": "Wipro bags $1 billion contract",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bullish",
-          "reason": "Growing awareness about EV safety -> increased adoption of EVs -> higher sales for Tata Motors",
-          "quant": "EV sales +15% YoY"
+          "reason": "Wipro bags $1 billion contract -> increased revenue visibility -> improved profitability",
+          "quant": "revenue +8% Q3"
         }
       ],
-      "watch": "Tata Motors' EV sales data"
+      "watch": "WIPRO.NS crossing 450 levels"
     },
     {
-      "sector": "financial_services",
-      "direction": "Neutral",
+      "sector": "realty",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "RBI MPC meeting",
+      "news_driver": "Kanodia group firm KREEVA to invest Rs 400cr",
       "theme": null,
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI Governor's statement on managing headline inflation -> potential interest rate decisions -> neutral impact on HDFC Bank's lending business",
-          "quant": "null"
+          "name": "DLF",
+          "ticker": "DLF.NS",
+          "impact": "Bullish",
+          "reason": "Kanodia group firm KREEVA to invest Rs 400cr -> increased investment in real estate sector -> potential demand growth",
+          "quant": "sales bookings +10% YoY"
         }
       ],
-      "watch": "RBI's next monetary policy meeting"
+      "watch": "DLF.NS crossing 400 levels"
     }
   ],
   "themes": [
-    "energy_security",
-    "electric_mobility"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }
