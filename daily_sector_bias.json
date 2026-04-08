@@ -1,86 +1,93 @@
 {
-  "date": "2026-04-07",
-  "time": "20:24",
+  "date": "2026-04-08",
+  "time": "09:45",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and rising Brent prices",
-      "theme": "null",
+      "news_driver": "Crude oil prices above $100",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising Brent prices -> increased crude oil import costs -> lower margins for IOC",
-          "quant": "-100bps"
+          "reason": "Rising crude prices -> increasing input costs -> margins -150bps",
+          "quant": "-150bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Higher oil prices -> increased under-recoveries -> lower profitability for HPCL",
-          "quant": "-8-10% Q3 revenue"
+          "reason": "Higher crude prices -> reduced refining margins -> revenue -8-10% Q3",
+          "quant": "-8-10%"
         }
       ],
-      "watch": "Brent crude price level of $95"
+      "watch": "Brent crude price level of $105"
     },
     {
-      "sector": "energy",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Cabinet approval for Mahavitaran recast and IPO plan",
-      "theme": "null",
+      "news_driver": "FII selling slowing down",
+      "theme": "IT sector recovery",
       "stocks": [
         {
-          "name": "Maharashtra State Electricity Distribution",
-          "ticker": "null",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bullish",
-          "reason": "Cabinet approval for recast and IPO plan -> improved financials and governance -> increased investor confidence",
-          "quant": "+10% potential upside"
+          "reason": "Slowing FII selling -> increased investor confidence -> stock price +5-7%",
+          "quant": "5-7%"
+        },
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "FII selling slowdown -> improved sector sentiment -> order book +Rs200Cr",
+          "quant": "Rs200Cr"
         }
       ],
-      "watch": "Mahavitaran IPO announcement"
+      "watch": "Nifty IT index level of 30,000"
     },
     {
-      "sector": "auto",
+      "sector": "banking",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "25% surge in EV sales in FY26",
-      "theme": "null",
+      "news_driver": "Rohit Seksaria's positive view on banking sector",
+      "theme": "Banking sector recovery",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "Growing EV demand -> increased sales for Tata Motors -> higher revenue and profitability",
-          "quant": "+8-10% Q3 revenue"
+          "reason": "Positive sector view -> increased investor interest -> stock price +3-5%",
+          "quant": "3-5%"
         }
       ],
-      "watch": "EV sales numbers for Q1 FY27"
+      "watch": "RBI policy decision on interest rates"
     },
     {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Swan Defence bags Rs 3,000 crore order",
-      "theme": "null",
+      "sector": "telecom",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "HFCL's Rs 1,300-crore order win",
+      "theme": null,
       "stocks": [
         {
-          "name": "Swan Energy",
-          "ticker": "SWANENERGY.NS",
+          "name": "HFCL",
+          "ticker": "HFCL.NS",
           "impact": "Bullish",
-          "reason": "Large order win -> increased revenue and profitability for Swan Energy -> improved investor confidence",
-          "quant": "+Rs400Cr order book"
+          "reason": "Large order win -> increased revenue visibility -> revenue +10-12% Q3",
+          "quant": "10-12%"
         }
       ],
-      "watch": "Swan Defence order book growth"
+      "watch": "HFCL's order book growth"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "OMC margin squeeze",
+    "IT sector recovery"
   ]
 }

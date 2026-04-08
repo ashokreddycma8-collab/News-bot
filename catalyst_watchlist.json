@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T20:24:52.665924+05:30",
+  "generated_at": "2026-04-08T09:45:42.177540+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -85,6 +85,14 @@
       "score": 8,
       "direction": "BUY",
       "catalyst": "Swan Defence bags Rs 3,000 crore order for construction of ammonia bulk carriers",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "HFCL": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Rs 1,300-crore order win",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
