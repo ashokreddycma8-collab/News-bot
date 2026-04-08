@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T09:45:42.177540+05:30",
+  "generated_at": "2026-04-08T13:33:49.280092+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -96,6 +96,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "PNGADGIL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Raises FY27 revenue guidance after solid Q4 business update",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

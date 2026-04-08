@@ -1,93 +1,93 @@
 {
   "date": "2026-04-08",
-  "time": "09:45",
-  "mood": "Cautious",
+  "time": "13:33",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Crude oil prices above $100",
-      "theme": "OMC margin squeeze",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude prices -> increasing input costs -> margins -150bps",
-          "quant": "-150bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude prices -> reduced refining margins -> revenue -8-10% Q3",
-          "quant": "-8-10%"
-        }
-      ],
-      "watch": "Brent crude price level of $105"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "FII selling slowing down",
-      "theme": "IT sector recovery",
-      "stocks": [
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bullish",
-          "reason": "Slowing FII selling -> increased investor confidence -> stock price +5-7%",
-          "quant": "5-7%"
-        },
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "FII selling slowdown -> improved sector sentiment -> order book +Rs200Cr",
-          "quant": "Rs200Cr"
-        }
-      ],
-      "watch": "Nifty IT index level of 30,000"
-    },
     {
       "sector": "banking",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Rohit Seksaria's positive view on banking sector",
-      "theme": "Banking sector recovery",
+      "conviction": 2,
+      "news_driver": "RBI holds repo rate, US-Iran ceasefire",
+      "theme": "RBI_rate_pause",
       "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran ceasefire -> lower oil prices -> improved consumer spending and loan growth",
+          "quant": "NIM +20bps"
+        },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "Positive sector view -> increased investor interest -> stock price +3-5%",
-          "quant": "3-5%"
+          "reason": "RBI rate pause -> lower borrowing costs -> increased demand for loans",
+          "quant": "loan book growth +12% YoY"
         }
       ],
-      "watch": "RBI policy decision on interest rates"
+      "watch": "10-year G-sec yield"
     },
     {
-      "sector": "telecom",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "HFCL's Rs 1,300-crore order win",
-      "theme": null,
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "US-Iran ceasefire, lower oil prices",
+      "theme": "lower_input_costs",
       "stocks": [
         {
-          "name": "HFCL",
-          "ticker": "HFCL.NS",
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "Large order win -> increased revenue visibility -> revenue +10-12% Q3",
-          "quant": "10-12%"
+          "reason": "lower oil prices -> reduced fuel costs -> increased consumer demand",
+          "quant": "sales volume +8% Q3"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran ceasefire -> improved global trade -> increased exports",
+          "quant": "export revenue +15% YoY"
         }
       ],
-      "watch": "HFCL's order book growth"
+      "watch": "monthly auto sales data"
+    },
+    {
+      "sector": "aviation",
+      "direction": "Bullish",
+      "conviction": 3,
+      "news_driver": "US-Iran ceasefire, oil price plunge",
+      "theme": "lower_fuel_costs",
+      "stocks": [
+        {
+          "name": "InterGlobe Aviation",
+          "ticker": "INDIGO.NS",
+          "impact": "Bullish",
+          "reason": "lower oil prices -> reduced fuel costs -> increased profitability",
+          "quant": "fuel costs -25% Q3"
+        }
+      ],
+      "watch": "jet fuel prices"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran ceasefire, oil price plunge",
+      "theme": "lower_revenue",
+      "stocks": [
+        {
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "lower oil prices -> reduced revenue -> decreased profitability",
+          "quant": "revenue -12% Q3"
+        }
+      ],
+      "watch": "Brent crude prices"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "IT sector recovery"
+    "RBI_rate_pause",
+    "lower_input_costs"
   ]
 }
