@@ -1,86 +1,69 @@
 {
   "date": "2026-04-08",
-  "time": "14:15",
+  "time": "15:19",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "oil_gas",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Government extends bulk commercial LPG allocation to more sectors",
+      "theme": "energy_security",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "Government's extension of bulk commercial LPG allocation -> increased demand for LPG -> higher revenue for IOC",
+          "quant": "revenue +5-7% Q2"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bullish",
+          "reason": "Government's extension of bulk commercial LPG allocation -> higher sales volume -> improved profitability for HPCL",
+          "quant": "margins +100bps"
+        }
+      ],
+      "watch": " IOC's Q2 earnings release"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "EVs are safe, but safety must be priority too",
+      "theme": "electric_mobility",
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Growing awareness about EV safety -> increased adoption of EVs -> higher sales for Tata Motors",
+          "quant": "EV sales +15% YoY"
+        }
+      ],
+      "watch": "Tata Motors' EV sales data"
+    },
+    {
+      "sector": "financial_services",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "RBI keeps rates unchanged",
+      "news_driver": "RBI MPC meeting",
       "theme": null,
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Neutral",
-          "reason": "RBI's unchanged rates -> no change in lending rates -> neutral impact on NIM",
-          "quant": "NIM 0bps change"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI's cautious tone on inflation -> potential for future rate hikes -> cautious on loan growth",
-          "quant": "loan growth 0-2% Q1"
+          "reason": "RBI Governor's statement on managing headline inflation -> potential interest rate decisions -> neutral impact on HDFC Bank's lending business",
+          "quant": "null"
         }
       ],
-      "watch": "10-year G-sec yield"
-    },
-    {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Dharmesh Kant's view on buying opportunities in defence",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
-          "impact": "Bullish",
-          "reason": "Dharmesh Kant's view -> increased investor interest -> potential stock price appreciation",
-          "quant": "stock price +5-7% in short term"
-        }
-      ],
-      "watch": "defence budget allocation"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "RBI's focus on stability and proactivity",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Bajaj Finance",
-          "ticker": "BAJFINANCE.NS",
-          "impact": "Neutral",
-          "reason": "RBI's focus on stability -> no change in regulatory stance -> neutral impact on business",
-          "quant": "AUM growth 15-18% Q3"
-        }
-      ],
-      "watch": "RBI's upcoming financial stability report"
-    },
-    {
-      "sector": "psu_banks",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Gulf conflict's impact on remittances",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Gulf conflict -> potential decline in remittances -> negative impact on NRI deposits",
-          "quant": "NRI deposits -5-7% Q2"
-        }
-      ],
-      "watch": "remittance inflows data"
+      "watch": "RBI's next monetary policy meeting"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "defence"
+    "energy_security",
+    "electric_mobility"
   ]
 }
