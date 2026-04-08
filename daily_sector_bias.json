@@ -1,86 +1,93 @@
 {
   "date": "2026-04-08",
-  "time": "17:04",
+  "time": "17:32",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "US-Iran truce and RBI policy",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran truce -> reduced crude oil prices -> improved OMC margins and lower provisioning requirements for banks",
-          "quant": "NIM +20bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "RBI policy -> dovish tone -> increased lending and deposit growth",
-          "quant": "loan book growth +12% YoY"
-        }
-      ],
-      "watch": "SBIN.NS crossing 550 levels"
-    },
-    {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Summer heat and oil shock",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "US-Iran ceasefire leading to correction in crude prices",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Summer heat and oil shock -> increased energy demand concerns -> potential under-recovery for OMCs",
-          "quant": "margins -100bps"
+          "reason": "US-Iran ceasefire -> reduction in crude prices -> margins -150bps for IOC",
+          "quant": "-150bps"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran ceasefire -> decline in crude prices -> revenue -8% Q2 for HPCL",
+          "quant": "-8%"
         }
       ],
-      "watch": "Brent crude price crossing $80"
+      "watch": "Brent crude price below $70"
     },
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Wipro bags $1 billion contract",
-      "theme": "internet_digital",
+      "news_driver": "Rupee surge and oil price correction",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
           "impact": "Bullish",
-          "reason": "Wipro bags $1 billion contract -> increased revenue visibility -> improved profitability",
-          "quant": "revenue +8% Q3"
+          "reason": "Rupee surge -> reduced fuel costs -> margins +100bps for NTPC",
+          "quant": "+100bps"
+        },
+        {
+          "name": "Power Grid",
+          "ticker": "POWERGRID.NS",
+          "impact": "Bullish",
+          "reason": "Rupee rally -> lower import costs -> revenue +5% Q3 for Power Grid",
+          "quant": "+5%"
         }
       ],
-      "watch": "WIPRO.NS crossing 450 levels"
+      "watch": "NTPC's Q4 earnings release"
     },
     {
-      "sector": "realty",
+      "sector": "renewable",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Kanodia group firm KREEVA to invest Rs 400cr",
-      "theme": null,
+      "news_driver": "Global shift towards renewable energy",
+      "theme": "null",
       "stocks": [
         {
-          "name": "DLF",
-          "ticker": "DLF.NS",
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
           "impact": "Bullish",
-          "reason": "Kanodia group firm KREEVA to invest Rs 400cr -> increased investment in real estate sector -> potential demand growth",
-          "quant": "sales bookings +10% YoY"
+          "reason": "Global renewable energy demand -> increased order book -> revenue +12% Q2 for Adani Green",
+          "quant": "+12%"
         }
       ],
-      "watch": "DLF.NS crossing 400 levels"
+      "watch": "Adani Green's Q2 order book update"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Rupee surge and oil price correction",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Rupee surge -> reduced input costs -> margins +50bps for Maruti",
+          "quant": "+50bps"
+        }
+      ],
+      "watch": "Maruti's Q4 sales numbers"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "US-Iran ceasefire",
+    "Rupee rally"
   ]
 }
