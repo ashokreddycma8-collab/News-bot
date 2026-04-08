@@ -1,93 +1,86 @@
 {
   "date": "2026-04-08",
-  "time": "13:33",
-  "mood": "Bullish",
+  "time": "14:15",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "RBI holds repo rate, US-Iran ceasefire",
-      "theme": "RBI_rate_pause",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "RBI keeps rates unchanged",
+      "theme": null,
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran ceasefire -> lower oil prices -> improved consumer spending and loan growth",
-          "quant": "NIM +20bps"
+          "impact": "Neutral",
+          "reason": "RBI's unchanged rates -> no change in lending rates -> neutral impact on NIM",
+          "quant": "NIM 0bps change"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "RBI rate pause -> lower borrowing costs -> increased demand for loans",
-          "quant": "loan book growth +12% YoY"
+          "impact": "Neutral",
+          "reason": "RBI's cautious tone on inflation -> potential for future rate hikes -> cautious on loan growth",
+          "quant": "loan growth 0-2% Q1"
         }
       ],
       "watch": "10-year G-sec yield"
     },
     {
-      "sector": "auto",
+      "sector": "defence",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran ceasefire, lower oil prices",
-      "theme": "lower_input_costs",
+      "news_driver": "Dharmesh Kant's view on buying opportunities in defence",
+      "theme": null,
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
           "impact": "Bullish",
-          "reason": "lower oil prices -> reduced fuel costs -> increased consumer demand",
-          "quant": "sales volume +8% Q3"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran ceasefire -> improved global trade -> increased exports",
-          "quant": "export revenue +15% YoY"
+          "reason": "Dharmesh Kant's view -> increased investor interest -> potential stock price appreciation",
+          "quant": "stock price +5-7% in short term"
         }
       ],
-      "watch": "monthly auto sales data"
+      "watch": "defence budget allocation"
     },
     {
-      "sector": "aviation",
-      "direction": "Bullish",
-      "conviction": 3,
-      "news_driver": "US-Iran ceasefire, oil price plunge",
-      "theme": "lower_fuel_costs",
+      "sector": "financial_services",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "RBI's focus on stability and proactivity",
+      "theme": null,
       "stocks": [
         {
-          "name": "InterGlobe Aviation",
-          "ticker": "INDIGO.NS",
-          "impact": "Bullish",
-          "reason": "lower oil prices -> reduced fuel costs -> increased profitability",
-          "quant": "fuel costs -25% Q3"
+          "name": "Bajaj Finance",
+          "ticker": "BAJFINANCE.NS",
+          "impact": "Neutral",
+          "reason": "RBI's focus on stability -> no change in regulatory stance -> neutral impact on business",
+          "quant": "AUM growth 15-18% Q3"
         }
       ],
-      "watch": "jet fuel prices"
+      "watch": "RBI's upcoming financial stability report"
     },
     {
-      "sector": "oil_gas",
+      "sector": "psu_banks",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran ceasefire, oil price plunge",
-      "theme": "lower_revenue",
+      "news_driver": "Gulf conflict's impact on remittances",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bearish",
-          "reason": "lower oil prices -> reduced revenue -> decreased profitability",
-          "quant": "revenue -12% Q3"
+          "reason": "Gulf conflict -> potential decline in remittances -> negative impact on NRI deposits",
+          "quant": "NRI deposits -5-7% Q2"
         }
       ],
-      "watch": "Brent crude prices"
+      "watch": "remittance inflows data"
     }
   ],
   "themes": [
-    "RBI_rate_pause",
-    "lower_input_costs"
+    "PSU_rotation",
+    "defence"
   ]
 }
