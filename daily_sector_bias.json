@@ -1,92 +1,107 @@
 {
-  "date": "2026-04-08",
-  "time": "20:26",
-  "mood": "Cautious",
+  "date": "2026-04-09",
+  "time": "08:55",
+  "mood": "Bearish",
   "sectors": [
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Nifty reclaims 23,000 as IT leads four-session rally",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Nifty rally -> increased investor appetite for IT stocks -> higher valuations for Infosys",
-          "quant": "revenue +5-7% Q2"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "IT sector rally -> improved sentiment for TCS -> potential upside in stock price",
-          "quant": "margins +50bps"
-        }
-      ],
-      "watch": "1750 level for INFY.NS"
-    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Crude Crash Winners: 25 biggest stock gainers from US-Iran ceasefire",
-      "theme": "null",
+      "news_driver": "Iran war ceasefire violation reports",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Crude price crash -> lower refining margins for HPCL -> decreased profitability",
-          "quant": "margins -100bps"
+          "reason": "Iran war escalation -> higher crude prices -> lower IOC margins",
+          "quant": "-120bps"
         },
         {
-          "name": "BPCL",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rising Brent crude -> increased input costs -> reduced HPCL profitability",
+          "quant": "-100bps"
+        },
+        {
+          "name": "Bharat Petroleum",
           "ticker": "BPCL.NS",
           "impact": "Bearish",
-          "reason": "Lower crude prices -> reduced revenue for BPCL -> potential decline in stock price",
-          "quant": "revenue -8-10% Q2"
+          "reason": "Higher crude prices -> decreased BPCL refining margins -> lower earnings",
+          "quant": "-150bps"
         }
       ],
-      "watch": "300 level for BPCL.NS"
+      "watch": "Brent crude price crossing $100"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "RBI Monetary Policy 2026",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy announcement -> no change in interest rates -> stable SBI NIM",
+          "quant": "0%"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy decision -> no impact on ICICI Bank's credit growth",
+          "quant": "0%"
+        }
+      ],
+      "watch": "RBI Governor's comments on economic growth"
     },
     {
       "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Ceasefire, RBI policy cool bond yields by 0.15 pc to slip below 7%",
-      "theme": "null",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Cabinet clears Rs 53,000 crore projects",
+      "theme": "Renewable energy push",
       "stocks": [
+        {
+          "name": "NHPC",
+          "ticker": "NHPC.NS",
+          "impact": "Bullish",
+          "reason": "Cabinet approval for projects -> increased NHPC order book -> higher revenue",
+          "quant": "+12%"
+        },
         {
           "name": "NTPC",
           "ticker": "NTPC.NS",
-          "impact": "Neutral",
-          "reason": "Lower bond yields -> reduced borrowing costs for NTPC -> stable profitability",
-          "quant": "interest expense -5%"
+          "impact": "Bullish",
+          "reason": "Government's renewable energy push -> increased NTPC's project pipeline -> higher earnings",
+          "quant": "+15%"
         }
       ],
-      "watch": "RBI policy meeting minutes"
+      "watch": "Project execution timeline"
     },
     {
-      "sector": "auto",
-      "direction": "Bearish",
+      "sector": "capital_markets",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "A 'tough summer' ahead for air-conditioning industry in 2026: Blue Star MD",
-      "theme": "null",
+      "news_driver": "Om Power Transmission IPO",
+      "theme": null,
       "stocks": [
         {
-          "name": "Blue Star",
-          "ticker": "BLUESTARCO.NS",
-          "impact": "Bearish",
-          "reason": "Tough summer ahead for AC industry -> reduced sales for Blue Star -> lower revenue",
-          "quant": "revenue -5-7% Q1"
+          "name": "Om Power Transmission",
+          "ticker": "OMPOW.NS",
+          "impact": "Neutral",
+          "reason": "IPO opening -> market reaction to pricing -> stable listing gains",
+          "quant": "5%"
         }
       ],
-      "watch": "Q1 earnings report for Blue Star"
+      "watch": "IPO subscription numbers"
     }
   ],
   "themes": [
-    "null"
+    "OMC margin squeeze",
+    "Renewable energy push"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T17:04:23.153703+05:30",
+  "generated_at": "2026-04-09T08:55:24.438501+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -120,6 +120,30 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "OMPOWER": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "IPO opens today",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "NHPC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Cabinet clears Rs 53,000 crore projects",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "NTPC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Cabinet clears Rs 53,000 crore projects",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
