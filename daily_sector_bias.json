@@ -1,100 +1,85 @@
 {
   "date": "2026-04-09",
-  "time": "14:20",
-  "mood": "Bullish",
+  "time": "15:23",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Oil gains 4% due to fragile ceasefire and Hormuz restrictions",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Iran conflict -> elevated oil prices -> reduced IOC margins",
+          "quant": "-120bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Hormuz restrictions -> supply chain disruptions -> increased HPCL costs",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "Brent crude price level of $90"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "TCS Q4 results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Neutral",
+          "reason": "TCS Q4 results -> mixed expectations -> stable TCS stock price",
+          "quant": "null"
+        }
+      ],
+      "watch": "TCS Q4 revenue growth"
+    },
+    {
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "RBI holds rates, boosting banking stocks",
+      "news_driver": "PFRDA's NPS Swasthya initiative",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "HDFC Life Insurance",
+          "ticker": "HDFCLIFE.NS",
           "impact": "Bullish",
-          "reason": "RBI holding rates -> increased lending and deposit growth -> higher net interest income",
-          "quant": "net interest income +12-15% YoY"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "RBI holding rates -> lower cost of funds -> improved margins",
-          "quant": "margins +50bps QoQ"
+          "reason": "NPS Swasthya launch -> increased insurance penetration -> higher HDFC Life premiums",
+          "quant": "+8-10% Q3"
         }
       ],
-      "watch": "SBIN crossing Rs 550"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "US-Iran ceasefire and lower oil prices",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bullish",
-          "reason": "Lower oil prices -> increased consumer demand -> higher sales volume",
-          "quant": "sales volume +8-10% YoY"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran ceasefire -> improved global demand -> higher exports",
-          "quant": "exports +15% YoY"
-        }
-      ],
-      "watch": "MARUTI crossing Rs 9000"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "RBI holds rates and US-Iran ceasefire",
-      "theme": "housing",
-      "stocks": [
-        {
-          "name": "DLF",
-          "ticker": "DLF.NS",
-          "impact": "Bullish",
-          "reason": "RBI holding rates -> lower borrowing costs -> higher demand for housing",
-          "quant": "sales bookings +20% YoY"
-        },
-        {
-          "name": "Godrej Properties",
-          "ticker": "GODREJPROP.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran ceasefire -> improved investor sentiment -> higher property prices",
-          "quant": "average selling price +10% YoY"
-        }
-      ],
-      "watch": "DLF crossing Rs 400"
+      "watch": "NPS Swasthya subscription numbers"
     },
     {
       "sector": "energy",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Oil price crash",
-      "theme": null,
+      "news_driver": "Morgan Stanley's bull market call",
+      "theme": "null",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "Oil price crash -> lower realizations -> reduced revenue",
-          "quant": "revenue -10% YoY"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Morgan Stanley's bull market call -> increased investor appetite -> higher RIL stock price",
+          "quant": "+5% in next 6 months"
         }
       ],
-      "watch": "Crude oil price crossing $70"
+      "watch": "Sensex level of 95,000"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "rural_mobility"
+    "PSU_rotation"
   ]
 }
