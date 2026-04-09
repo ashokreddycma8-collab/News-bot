@@ -1,107 +1,100 @@
 {
   "date": "2026-04-09",
-  "time": "08:55",
-  "mood": "Bearish",
+  "time": "14:20",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Iran war ceasefire violation reports",
-      "theme": "OMC margin squeeze",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran war escalation -> higher crude prices -> lower IOC margins",
-          "quant": "-120bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Rising Brent crude -> increased input costs -> reduced HPCL profitability",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude prices -> decreased BPCL refining margins -> lower earnings",
-          "quant": "-150bps"
-        }
-      ],
-      "watch": "Brent crude price crossing $100"
-    },
-    {
       "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "RBI Monetary Policy 2026",
-      "theme": null,
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "RBI holds rates, boosting banking stocks",
+      "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "RBI policy announcement -> no change in interest rates -> stable SBI NIM",
-          "quant": "0%"
+          "impact": "Bullish",
+          "reason": "RBI holding rates -> increased lending and deposit growth -> higher net interest income",
+          "quant": "net interest income +12-15% YoY"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI policy decision -> no impact on ICICI Bank's credit growth",
-          "quant": "0%"
+          "impact": "Bullish",
+          "reason": "RBI holding rates -> lower cost of funds -> improved margins",
+          "quant": "margins +50bps QoQ"
         }
       ],
-      "watch": "RBI Governor's comments on economic growth"
+      "watch": "SBIN crossing Rs 550"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "US-Iran ceasefire and lower oil prices",
+      "theme": "rural_mobility",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Lower oil prices -> increased consumer demand -> higher sales volume",
+          "quant": "sales volume +8-10% YoY"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran ceasefire -> improved global demand -> higher exports",
+          "quant": "exports +15% YoY"
+        }
+      ],
+      "watch": "MARUTI crossing Rs 9000"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "RBI holds rates and US-Iran ceasefire",
+      "theme": "housing",
+      "stocks": [
+        {
+          "name": "DLF",
+          "ticker": "DLF.NS",
+          "impact": "Bullish",
+          "reason": "RBI holding rates -> lower borrowing costs -> higher demand for housing",
+          "quant": "sales bookings +20% YoY"
+        },
+        {
+          "name": "Godrej Properties",
+          "ticker": "GODREJPROP.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran ceasefire -> improved investor sentiment -> higher property prices",
+          "quant": "average selling price +10% YoY"
+        }
+      ],
+      "watch": "DLF crossing Rs 400"
     },
     {
       "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Cabinet clears Rs 53,000 crore projects",
-      "theme": "Renewable energy push",
-      "stocks": [
-        {
-          "name": "NHPC",
-          "ticker": "NHPC.NS",
-          "impact": "Bullish",
-          "reason": "Cabinet approval for projects -> increased NHPC order book -> higher revenue",
-          "quant": "+12%"
-        },
-        {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
-          "impact": "Bullish",
-          "reason": "Government's renewable energy push -> increased NTPC's project pipeline -> higher earnings",
-          "quant": "+15%"
-        }
-      ],
-      "watch": "Project execution timeline"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Neutral",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Om Power Transmission IPO",
+      "news_driver": "Oil price crash",
       "theme": null,
       "stocks": [
         {
-          "name": "Om Power Transmission",
-          "ticker": "OMPOW.NS",
-          "impact": "Neutral",
-          "reason": "IPO opening -> market reaction to pricing -> stable listing gains",
-          "quant": "5%"
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "Oil price crash -> lower realizations -> reduced revenue",
+          "quant": "revenue -10% YoY"
         }
       ],
-      "watch": "IPO subscription numbers"
+      "watch": "Crude oil price crossing $70"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "Renewable energy push"
+    "PSU_rotation",
+    "rural_mobility"
   ]
 }
