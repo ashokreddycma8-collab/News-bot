@@ -1,66 +1,51 @@
 {
   "date": "2026-04-09",
-  "time": "16:18",
-  "mood": "Bullish",
+  "time": "16:48",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "pharma",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "TCS Q4 results and dividend declaration",
-      "theme": "IT sector rebound",
+      "news_driver": "Israel-Iran war",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "TCS Q4 results beating estimates -> increased investor confidence -> stock price appreciation",
-          "quant": "12% YoY profit growth"
+          "name": "Aurobindo Pharma",
+          "ticker": "AUROPHARMA.NS",
+          "impact": "Bearish",
+          "reason": "Israel-Iran war -> disruption in pharma solvents supply -> reduced production and margins",
+          "quant": "-5% revenue impact Q2"
         },
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bullish",
-          "reason": "Potential buyback of shares -> reduced supply and increased demand -> stock price increase",
-          "quant": "10-15% potential stock price appreciation"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Positive IT sector sentiment -> increased investor interest -> stock price growth",
-          "quant": "5-7% potential stock price appreciation"
+          "name": "Dr. Reddy's Laboratories",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bearish",
+          "reason": "Israel-Iran war -> increased costs of key solvents -> -100bps margin compression",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Nifty IT index breaking out above 35,000 levels"
+      "watch": "Government's supply stabilization measures"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "fmcg",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Crude oil prices eyeing $100",
-      "theme": null,
+      "news_driver": "Abakkus Flexi Cap Fund investment",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Increasing crude oil prices -> higher input costs -> reduced margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> decreased profitability -> stock price decline",
-          "quant": "revenue -5-7% Q3"
+          "name": "Heritage Foods",
+          "ticker": "HERITGFOOD.NS",
+          "impact": "Bullish",
+          "reason": "Abakkus Flexi Cap Fund investment -> increased investor confidence -> potential stock price appreciation",
+          "quant": "+4% stock price appreciation"
         }
       ],
-      "watch": "Brent crude oil price breaking above $100"
+      "watch": "Fund's future investment plans"
     }
   ],
   "themes": [
-    "IT sector rebound",
-    "energy sector volatility"
+    "null"
   ]
 }

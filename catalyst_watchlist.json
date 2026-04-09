@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T16:18:37.974105+05:30",
+  "generated_at": "2026-04-09T16:48:02.009734+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -167,6 +167,14 @@
       "catalyst": "Three Subsidiaries Divested, Ashok Hotel Monetisation Gains Pace",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HERITAGEFOOD": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Sunil Singhania-backed Abakkus Flexi Cap Fund picks 1.4% stake in Heritage Foods",
+      "category": "structural_change",
+      "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
