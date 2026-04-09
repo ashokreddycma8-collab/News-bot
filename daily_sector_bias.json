@@ -1,85 +1,66 @@
 {
   "date": "2026-04-09",
-  "time": "15:23",
-  "mood": "Cautious",
+  "time": "16:18",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Oil gains 4% due to fragile ceasefire and Hormuz restrictions",
-      "theme": "null",
+      "news_driver": "TCS Q4 results and dividend declaration",
+      "theme": "IT sector rebound",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "TCS Q4 results beating estimates -> increased investor confidence -> stock price appreciation",
+          "quant": "12% YoY profit growth"
+        },
+        {
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Bullish",
+          "reason": "Potential buyback of shares -> reduced supply and increased demand -> stock price increase",
+          "quant": "10-15% potential stock price appreciation"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Positive IT sector sentiment -> increased investor interest -> stock price growth",
+          "quant": "5-7% potential stock price appreciation"
+        }
+      ],
+      "watch": "Nifty IT index breaking out above 35,000 levels"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Crude oil prices eyeing $100",
+      "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Iran conflict -> elevated oil prices -> reduced IOC margins",
-          "quant": "-120bps"
+          "reason": "Increasing crude oil prices -> higher input costs -> reduced margins",
+          "quant": "margins -100bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Hormuz restrictions -> supply chain disruptions -> increased HPCL costs",
-          "quant": "-100bps"
+          "reason": "Rising crude oil prices -> decreased profitability -> stock price decline",
+          "quant": "revenue -5-7% Q3"
         }
       ],
-      "watch": "Brent crude price level of $90"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "TCS Q4 results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Neutral",
-          "reason": "TCS Q4 results -> mixed expectations -> stable TCS stock price",
-          "quant": "null"
-        }
-      ],
-      "watch": "TCS Q4 revenue growth"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "PFRDA's NPS Swasthya initiative",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "HDFC Life Insurance",
-          "ticker": "HDFCLIFE.NS",
-          "impact": "Bullish",
-          "reason": "NPS Swasthya launch -> increased insurance penetration -> higher HDFC Life premiums",
-          "quant": "+8-10% Q3"
-        }
-      ],
-      "watch": "NPS Swasthya subscription numbers"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Morgan Stanley's bull market call",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Morgan Stanley's bull market call -> increased investor appetite -> higher RIL stock price",
-          "quant": "+5% in next 6 months"
-        }
-      ],
-      "watch": "Sensex level of 95,000"
+      "watch": "Brent crude oil price breaking above $100"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "IT sector rebound",
+    "energy sector volatility"
   ]
 }
