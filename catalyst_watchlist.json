@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T16:48:02.009734+05:30",
+  "generated_at": "2026-04-09T17:32:45.563398+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -156,7 +156,7 @@
     "TCS": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 Results: Profit rises 12% YoY to Rs 13,718 crore",
+      "catalyst": "Q4 net profit jumps 12.22 pc to Rs 13,718 cr",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -176,6 +176,14 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SPICEJET": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "starts job cuts as cash crunch deepens",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

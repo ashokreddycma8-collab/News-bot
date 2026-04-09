@@ -1,51 +1,93 @@
 {
   "date": "2026-04-09",
-  "time": "16:48",
-  "mood": "Cautious",
+  "time": "17:32",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "pharma",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Israel-Iran war",
-      "theme": "null",
+      "news_driver": "Rosneft Tamps Down Profit Expectations from Soaring Prices",
+      "theme": "OMC_margins",
       "stocks": [
         {
-          "name": "Aurobindo Pharma",
-          "ticker": "AUROPHARMA.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Israel-Iran war -> disruption in pharma solvents supply -> reduced production and margins",
-          "quant": "-5% revenue impact Q2"
+          "reason": "Soaring oil prices -> increased cost of crude oil -> margins -150bps",
+          "quant": "-150bps"
         },
         {
-          "name": "Dr. Reddy's Laboratories",
-          "ticker": "DRREDDY.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Israel-Iran war -> increased costs of key solvents -> -100bps margin compression",
-          "quant": "-100bps"
+          "reason": "Rising oil prices -> higher under-recovery -> revenue -8-10% Q2",
+          "quant": "-8-10%"
         }
       ],
-      "watch": "Government's supply stabilization measures"
+      "watch": "Brent crude price level of $90"
     },
     {
-      "sector": "fmcg",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Abakkus Flexi Cap Fund investment",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "TCS Q4 net profit jumps 12.22 pc to Rs 13,718 cr",
+      "theme": "IT_outsourcing",
       "stocks": [
         {
-          "name": "Heritage Foods",
-          "ticker": "HERITGFOOD.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Abakkus Flexi Cap Fund investment -> increased investor confidence -> potential stock price appreciation",
-          "quant": "+4% stock price appreciation"
+          "reason": "Strong Q4 results -> increased investor confidence -> stock price +5-7%",
+          "quant": "5-7%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "TCS's strong results -> positive read-across -> revenue +4-6% Q1",
+          "quant": "4-6%"
         }
       ],
-      "watch": "Fund's future investment plans"
+      "watch": "TCS's dividend payout ratio"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "SpiceJet Starts Job Cuts As Cash Crunch Deepens",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "SpiceJet",
+          "ticker": "SPICEJET.NS",
+          "impact": "Bearish",
+          "reason": "Cash crunch -> job cuts -> reduced operational efficiency -> revenue -5-7% Q2",
+          "quant": "-5-7%"
+        }
+      ],
+      "watch": "SpiceJet's Q2 earnings release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Israel-Iran War Live News Updates",
+      "theme": "Geopolitical_risk",
+      "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Rising geopolitical tensions -> increased risk premium -> stock price -3-5%",
+          "quant": "-3-5%"
+        }
+      ],
+      "watch": "US-Iran conflict escalation"
     }
   ],
   "themes": [
-    "null"
+    "OMC_margins",
+    "IT_outsourcing"
   ]
 }
