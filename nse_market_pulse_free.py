@@ -388,7 +388,7 @@ def format_catalyst_telegram(catalysts: dict) -> str | None:
 
     now_str = datetime.now(IST).strftime("%d %b  %H:%M IST")
     lines = [
-        f"🎯 *CATALYST WATCHLIST*  |  {now_str}",
+        f"🎯 CATALYST WATCHLIST  |  {now_str}",
         "━" * 32,
     ]
 
@@ -404,7 +404,7 @@ def format_catalyst_telegram(catalysts: dict) -> str | None:
         arrow = "▲" if direction == "BUY" else "▼"
         ttl = info.get("ttl_hours", 24)
 
-        lines.append(f"  {arrow} *{sym}*  {conv}  score:{score}/10")
+        lines.append(f"  {arrow} {sym}  {conv}  score:{score}/10")
         lines.append(f"     {catalyst}")
         lines.append(f"     _{category} · valid {ttl}h_")
         lines.append("")
@@ -435,9 +435,9 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
     now_str      = datetime.now(IST).strftime("%d %b  %H:%M IST")
 
     lines = [
-        f"📡 *NSE MARKET PULSE*  |  {now_str}",
+        f"📡 NSE MARKET PULSE  |  {now_str}",
         "━" * 32,
-        f"{mood_emoji} *{mood.upper()}*  —  {analysis.get('mood_reason', '')}",
+        f"{mood_emoji} {mood.upper()}  —  {analysis.get('mood_reason', '')}",
     ]
 
     gf = analysis.get("global_factors")
@@ -455,7 +455,7 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
             driver = s.get("news_driver", "")
 
             lines.append(divider)
-            lines.append(f"{de} *{name}*  {bar}{theme}")
+            lines.append(f"{de} {name}  {bar}{theme}")
             lines.append(f"📰 {driver}")
             lines.append("")
 
@@ -489,13 +489,13 @@ def build_alert(analysis: dict, fresh_count: int, total_count: int) -> str:
 
 
 # ══════════════════════════════════════════
-#  SEND TELEGRAM
+#  SEND TELEGRAM - FIXED (NO PARSE_MODE)
 # ══════════════════════════════════════════
 def send_telegram(msg: str) -> bool:
     try:
         r = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-            data={"chat_id": CHAT_ID, "text": msg, "parse_mode": "Markdown"},
+            data={"chat_id": CHAT_ID, "text": msg},  # ← REMOVED parse_mode to fix 400 error
             timeout=10
         )
         if r.status_code == 200:
@@ -634,7 +634,7 @@ def main() -> int:
         # Try to send failure alert to Telegram
         try:
             failure_msg = (
-                f"🚨 *NSE PULSE CRASHED*\n\n"
+                f"🚨 NSE PULSE CRASHED\n\n"
                 f"```\n{str(e)[:200]}\n```\n\n"
                 f"{datetime.now(IST).strftime('%d %b %H:%M IST')}"
             )
