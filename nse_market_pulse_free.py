@@ -495,7 +495,7 @@ def send_telegram(msg: str) -> bool:
     try:
         r = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-            data={"chat_id": CHAT_ID, "text": msg},
+            data={"chat_id": CHAT_ID, "text": msg, "parse_mode": "Markdown"},
             timeout=10
         )
         if r.status_code == 200:
@@ -537,6 +537,11 @@ def run():
     # ── Fetch news (shared across both layers) ─────────────────
     all_articles = fetch_newsapi() + fetch_marketaux() + fetch_zerodha_pulse()
     print(f"  Fetched : {len(all_articles)} total")
+
+    # ✅ NEW: Hard-fail if ALL sources returned 0 (likely auth/network failure)
+    if len(all_articles) == 0:
+        print("  ❌ ZERO articles from all 3 sources — API keys or network issue")
+        raise RuntimeError("All news sources failed — check API keys and network")
 
     seen   = load_seen()
     fresh  = []
@@ -612,6 +617,35 @@ def run():
 
 
 # ══════════════════════════════════════════
+#  MAIN with proper error handling & exit codes
+# ══════════════════════════════════════════
+def main() -> int:
+    """Wrapper with exit code discipline for GitHub Actions."""
+    try:
+        run()
+        return 0
+    except KeyboardInterrupt:
+        print("\n  Interrupted by user")
+        return 130
+    except Exception as e:
+        import traceback
+        print(f"\n❌ FATAL ERROR:\n{traceback.format_exc()}")
+        
+        # Try to send failure alert to Telegram
+        try:
+            failure_msg = (
+                f"🚨 *NSE PULSE CRASHED*\n\n"
+                f"```\n{str(e)[:200]}\n```\n\n"
+                f"{datetime.now(IST).strftime('%d %b %H:%M IST')}"
+            )
+            send_telegram(failure_msg)
+        except:
+            pass
+        
+        return 1
+
+
+# ══════════════════════════════════════════
 #  SCHEDULER
 # ══════════════════════════════════════════
 if __name__ == "__main__":
@@ -619,19 +653,26 @@ if __name__ == "__main__":
     from apscheduler.schedulers.blocking import BlockingScheduler
 
     if len(sys.argv) > 1 and sys.argv[1] == "test":
-        print("=== TEST MODE ===")
-        run()
+        # One-shot mode for GitHub Actions cron
+        print("=== ONE-SHOT MODE (GitHub Actions) ===")
+        sys.exit(main())
     else:
+        # Long-running mode with internal scheduler
         print("NSE Market Pulse v2 — with Catalyst Layer")
         print(f"Model : {GROQ_MODEL} via Groq (free)")
         print("Runs  : Every 15 min | Mon-Fri 9:00-15:45 IST")
         print("Layer 1: Sector macro → Telegram")
         print("Layer 2: Stock catalyst → catalyst_watchlist.json → Scanner")
         print("Stop  : Ctrl+C\n")
-        run()
+        
+        # Run once immediately
+        exit_code = main()
+        if exit_code != 0:
+            print("⚠️  Initial run failed, but scheduler will continue")
+        
         scheduler = BlockingScheduler(timezone="Asia/Kolkata")
         scheduler.add_job(
-            lambda: run() if is_market_hours() else print(f"  [{datetime.now(IST).strftime('%H:%M')}] market closed"),
+            lambda: main() if is_market_hours() else print(f"  [{datetime.now(IST).strftime('%H:%M')}] market closed"),
             "cron",
             day_of_week="mon-fri",
             hour="9-15",
@@ -641,3 +682,4 @@ if __name__ == "__main__":
             scheduler.start()
         except (KeyboardInterrupt, SystemExit):
             print("\nStopped.")
+            sys.exit(0)
