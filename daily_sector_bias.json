@@ -1,6 +1,6 @@
 {
   "date": "2026-04-17",
-  "time": "09:21",
+  "time": "09:43",
   "mood": "Bearish",
   "sectors": [
     {
@@ -8,48 +8,31 @@
       "direction": "Bearish",
       "conviction": 2,
       "news_driver": "US-Iran tensions and crude price surge",
-      "theme": "OMC_pressure",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "US-Iran tensions -> crude price surge -> IOC margins -200bps",
-          "quant": "-200bps"
+          "reason": "US-Iran conflict -> crude price surge -> IOC margins -200bps",
+          "quant": "-150bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "crude price surge -> higher input costs -> HPCL revenue -5%",
-          "quant": "-5%"
+          "reason": "US-Iran conflict -> crude price surge -> HPCL margins -250bps",
+          "quant": "-200bps"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> crude price surge -> BPCL margins -220bps",
+          "quant": "-180bps"
         }
       ],
       "watch": "Brent crude price level of $110"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran tensions and crude price surge",
-      "theme": "input_cost_pressure",
-      "stocks": [
-        {
-          "name": "Eicher Motors",
-          "ticker": "EICHERMOT.NS",
-          "impact": "Bearish",
-          "reason": "crude price surge -> higher input costs -> Eicher Motors margins -150bps",
-          "quant": "-150bps"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran tensions -> crude price surge -> Tata Motors revenue -3%",
-          "quant": "-3%"
-        }
-      ],
-      "watch": "Eicher Motors stock price level of 3000"
     },
     {
       "sector": "banking",
@@ -62,32 +45,63 @@
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Neutral",
-          "reason": "RBI policy -> steady interest rates -> ICICI Bank NIM +25bps",
-          "quant": "+25bps"
+          "reason": "RBI policy -> interest rate decision -> ICICI Bank NIM +10bps",
+          "quant": "+10bps"
+        },
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy -> interest rate decision -> HDFC Bank NIM +5bps",
+          "quant": "+5bps"
         }
       ],
-      "watch": "RBI Governor's statement on interest rates"
+      "watch": "RBI Governor's address"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran tensions and crude price surge",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> crude price surge -> Maruti Suzuki margins -150bps",
+          "quant": "-120bps"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> crude price surge -> Tata Motors margins -200bps",
+          "quant": "-180bps"
+        }
+      ],
+      "watch": "crude price level of $110"
     },
     {
       "sector": "energy",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
       "news_driver": "US-Iran tensions and crude price surge",
-      "theme": "renewable_energy",
+      "theme": null,
       "stocks": [
         {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
-          "impact": "Bullish",
-          "reason": "crude price surge -> higher fossil fuel costs -> Adani Green Energy revenue +8%",
-          "quant": "+8%"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Neutral",
+          "reason": "US-Iran conflict -> crude price surge -> RIL refining margins +100bps",
+          "quant": "+80bps"
         }
       ],
-      "watch": "Adani Green Energy stock price level of 1000"
+      "watch": "Brent crude price level of $105"
     }
   ],
   "themes": [
-    "OMC_pressure",
-    "input_cost_pressure"
+    "OMC margin squeeze",
+    "RBI policy"
   ]
 }
