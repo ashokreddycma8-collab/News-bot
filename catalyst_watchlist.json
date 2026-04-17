@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T14:34:14.497238+05:30",
+  "generated_at": "2026-04-17T17:35:40.760285+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -208,6 +208,30 @@
       "category": "technical_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BAJAJCON": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit doubles to Rs 63 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "WINDLAS": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "announces Rs 47 crore buyback at Rs 1,000/share",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ZENTEC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "receives government licence to build anti-aircraft cannons",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
