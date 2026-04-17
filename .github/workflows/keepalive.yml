@@ -1,18 +1,23 @@
 name: Keepalive
+
 on:
   schedule:
-    - cron: '20 3 * * 1-5'
-  workflow_dispatch:        # ← must be indented under 'on:'
+    - cron: '0 6 * * 1'    # Once a week, Monday 06:00 UTC — enough to reset the 60-day clock
+  workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   keepalive:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Keep repo active
+      - uses: actions/checkout@v4
+      - name: Touch repo with empty commit
         run: |
+          set -euo pipefail
           git config user.email "action@github.com"
-          git config user.name "GitHub Action"
-          git commit --allow-empty -m "keepalive $(date)"
-          git push
+          git config user.name  "GitHub Action"
+          git commit --allow-empty -m "keepalive $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
