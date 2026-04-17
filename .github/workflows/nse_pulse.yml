@@ -68,8 +68,7 @@ jobs:
           TZ: "Asia/Kolkata"
         run: |
           set -euo pipefail
-          # CHANGED: 'test' → 'live'. Verify this matches your script's production arg.
-          python nse_market_pulse_free.py live 2>&1 | tee run.log
+          python nse_market_pulse_free.py test 2>&1 | tee run.log
 
       - name: Commit state files (rebase-safe with retry)
         if: always()
