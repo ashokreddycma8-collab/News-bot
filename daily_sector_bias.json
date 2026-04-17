@@ -1,86 +1,69 @@
 {
   "date": "2026-04-17",
-  "time": "17:35",
+  "time": "20:08",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US decision to end relief for Russian oil",
-      "theme": "geopolitical risk",
+      "news_driver": "Wipro's Q4 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bearish",
-          "reason": "US decision to end relief for Russian oil -> increased crude oil prices -> reduced margins for IOC",
-          "quant": "margins -100bps"
+          "reason": "Q4 PAT decline -> reduced profitability -> lower investor confidence",
+          "quant": "-10% revenue growth"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "US decision to end relief for Russian oil -> increased crude oil prices -> reduced refining margins for HPCL",
-          "quant": "refining margins -120bps"
-        }
-      ],
-      "watch": "Brent crude oil price movement"
-    },
-    {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Government licence to Zen Tech to build anti-aircraft cannons",
-      "theme": "defence modernization",
-      "stocks": [
-        {
-          "name": "Zen Technologies",
-          "ticker": "ZENTEC.NS",
-          "impact": "Bullish",
-          "reason": "Government licence to build anti-aircraft cannons -> increased order book for Zen Tech -> revenue growth",
-          "quant": "revenue +15% YoY"
-        }
-      ],
-      "watch": "Defence budget allocation"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bajaj Consumer Care Q4 results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Bajaj Consumer Care",
-          "ticker": "BAJAJCON.NS",
-          "impact": "Bullish",
-          "reason": "Q4 net profit doubles -> increased investor confidence -> stock price appreciation",
-          "quant": "stock price +10% in a week"
-        }
-      ],
-      "watch": "Q4 results of other consumer companies"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Windlas Biotech buyback announcement",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Windlas Biotech",
-          "ticker": "WINDLAS.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Neutral",
-          "reason": "Buyback announcement -> increased investor confidence -> neutral impact on stock price",
-          "quant": "null"
+          "reason": "Wipro's Q4 results -> potential sector-wide impact -> cautious investor stance",
+          "quant": null
         }
       ],
-      "watch": "Buyback record date"
+      "watch": "Wipro's buyback price and its impact on the stock price"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "HDFC AMC's Q4 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "HDFC AMC",
+          "ticker": "HDFCAMC.NS",
+          "impact": "Bearish",
+          "reason": "Q4 profit dip -> reduced investor confidence -> lower stock price",
+          "quant": "-5% profit growth"
+        }
+      ],
+      "watch": "HDFC AMC's dividend payout ratio"
+    },
+    {
+      "sector": "telecom",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Jio Financial Q4 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Jio Financial",
+          "ticker": "JIOFIN.NS",
+          "impact": "Bearish",
+          "reason": "Q4 PAT decline -> reduced profitability -> lower investor confidence",
+          "quant": "-14% YoY PAT decline"
+        }
+      ],
+      "watch": "Jio Financial's revenue growth trajectory"
     }
   ],
   "themes": [
-    "geopolitical risk",
-    "defence modernization"
+    "PSU_rotation",
+    "IT_underperformance"
   ]
 }

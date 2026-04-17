@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T17:35:40.760285+05:30",
+  "generated_at": "2026-04-17T20:08:21.707382+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -232,6 +232,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "TRENT": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "to consider bonus issue to investors on April 22",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "JIOFIN": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 Cons PAT declines 14% YoY despite 106% surge in revenue",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
