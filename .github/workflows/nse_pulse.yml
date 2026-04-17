@@ -1,63 +1,62 @@
 name: NSE Market Pulse
- 
+
 on:
   schedule:
-    - cron: '30 3 * * 1-5'
-    - cron: '45 3 * * 1-5'
-    - cron: '0 4 * * 1-5'
-    - cron: '15 4 * * 1-5'
-    - cron: '30 4 * * 1-5'
-    - cron: '45 4 * * 1-5'
-    - cron: '0 5 * * 1-5'
-    - cron: '15 5 * * 1-5'
-    - cron: '30 5 * * 1-5'
-    - cron: '45 5 * * 1-5'
-    - cron: '0 6 * * 1-5'
-    - cron: '15 6 * * 1-5'
-    - cron: '30 6 * * 1-5'
-    - cron: '45 6 * * 1-5'
-    - cron: '0 7 * * 1-5'
-    - cron: '15 7 * * 1-5'
-    - cron: '30 7 * * 1-5'
-    - cron: '45 7 * * 1-5'
-    - cron: '0 8 * * 1-5'
-    - cron: '15 8 * * 1-5'
-    - cron: '30 8 * * 1-5'
-    - cron: '45 8 * * 1-5'
-    - cron: '0 9 * * 1-5'
-    - cron: '15 9 * * 1-5'
-    - cron: '30 9 * * 1-5'
-    - cron: '45 9 * * 1-5'
-    - cron: '0 10 * * 1-5'
-    - cron: '15 10 * * 1-5'
+    # NSE 09:00–15:45 IST == 03:30–10:15 UTC, Mon–Fri
+    - cron: '30,45 3 * * 1-5'    # 09:00, 09:15 IST
+    - cron: '*/15 4-9 * * 1-5'   # 09:30 → 15:15 IST
+    - cron: '0,15 10 * * 1-5'    # 15:30, 15:45 IST
   workflow_dispatch:
- 
-# Prevents multiple runs firing at the same time (burst fix)
+
 concurrency:
   group: nse-pulse-run
   cancel-in-progress: false
- 
+
 permissions:
   contents: write
- 
+
 jobs:
   run-pulse:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 1
- 
+          persist-credentials: true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
- 
+          cache: 'pip'
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
- 
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify required secrets are present
+        env:
+          GROQ_KEY: ${{ secrets.GROQ_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          MARKETAUX_KEY: ${{ secrets.MARKETAUX_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          set -euo pipefail
+          missing=0
+          for v in GROQ_KEY NEWSAPI_KEY MARKETAUX_KEY TELEGRAM_TOKEN CHAT_ID; do
+            if [ -z "${!v:-}" ]; then
+              echo "::error ::Secret $v is missing or empty"
+              missing=1
+            fi
+          done
+          [ "$missing" -eq 0 ] || exit 1
+
       - name: Run NSE Market Pulse
         env:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
@@ -65,14 +64,57 @@ jobs:
           MARKETAUX_KEY: ${{ secrets.MARKETAUX_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: python nse_market_pulse_free.py test
- 
-      # ── Persist seen_hashes.txt so next run knows what was already sent ──
-      - name: Save seen hashes to repo
+          PYTHONUNBUFFERED: "1"
+          TZ: "Asia/Kolkata"
         run: |
+          set -euo pipefail
+          # CHANGED: 'test' → 'live'. Verify this matches your script's production arg.
+          python nse_market_pulse_free.py live 2>&1 | tee run.log
+
+      - name: Commit state files (rebase-safe with retry)
+        if: always()
+        run: |
+          set -euo pipefail
           git config user.email "action@github.com"
-          git config user.name "GitHub Action"
-          git add seen_hashes.txt catalyst_watchlist.json daily_sector_bias.json || true
-          git diff --cached --quiet || git commit -m "cache: update seen_hashes $(date +'%H:%M')"
-          git push || true
- 
+          git config user.name  "GitHub Action"
+          git add seen_hashes.txt catalyst_watchlist.json daily_sector_bias.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git commit -m "cache: state $(date -u +'%Y-%m-%dT%H:%MZ')"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" \
+               && git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push attempt $i failed, retrying in 3s..."
+            sleep 3
+          done
+          echo "::error ::git push failed after 3 retries"
+          exit 1
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log-${{ github.run_id }}
+          path: run.log
+          if-no-files-found: ignore
+          retention-days: 7
+
+      - name: Notify Telegram on failure
+        if: failure()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT_ID}" \
+            --data-urlencode "text=❌ NSE Pulse FAILED
+Run: ${GITHUB_RUN_ID}
+Branch: ${GITHUB_REF_NAME}
+Commit: ${GITHUB_SHA::7}
+https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            || true
