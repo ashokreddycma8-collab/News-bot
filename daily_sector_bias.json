@@ -1,65 +1,89 @@
 {
   "date": "2026-04-17",
-  "time": "11:02",
+  "time": "14:34",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "metal",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Wipro Q4 results",
+      "news_driver": "Metal stocks shine amid volatility",
       "theme": "null",
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bearish",
-          "reason": "Wipro Q4 results miss -> lower-than-expected revenue growth -> margins -100bps",
-          "quant": "-2.5%"
+          "name": "Suzlon",
+          "ticker": "SUZLON.NS",
+          "impact": "Bullish",
+          "reason": "Rally in metal stocks -> increased investor interest -> 20% gain in five sessions",
+          "quant": "20%"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Wipro Q4 results -> industry-wide concern on IT spending -> revenue growth -1.5%",
-          "quant": "-1.2%"
+          "name": "Hindalco",
+          "ticker": "HINDALCO.NS",
+          "impact": "Bullish",
+          "reason": "Metal stocks rally -> improved sentiment -> potential upside in stock price",
+          "quant": "5-7% upside potential"
         }
       ],
-      "watch": "Wipro's buyback price"
+      "watch": "Suzlon's target price"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "HUL, Nestle lead gains",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "HUL",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bullish",
+          "reason": "FMCG stocks rally -> increased consumer spending -> 2-3% revenue growth",
+          "quant": "2-3% revenue growth"
+        },
+        {
+          "name": "Nestle",
+          "ticker": "NESTLEIND.NS",
+          "impact": "Bullish",
+          "reason": "FMCG stocks rally -> improved margins -> 100-150bps margin expansion",
+          "quant": "100-150bps margin expansion"
+        }
+      ],
+      "watch": "HUL's quarterly earnings"
     },
     {
       "sector": "defence",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "null",
+      "conviction": 2,
+      "news_driver": "Apollo Micro Systems licence to manufacture ammunitions",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
+          "name": "Apollo Micro Systems",
+          "ticker": "APOLLO.NS",
           "impact": "Bullish",
-          "reason": "Nifty dips -> defence sector outperformance -> order book +Rs500Cr",
-          "quant": "+5%"
+          "reason": "Licence to manufacture ammunitions -> increased order book -> Rs 500Cr revenue potential",
+          "quant": "Rs 500Cr revenue potential"
         }
       ],
       "watch": "Defence budget allocation"
     },
     {
-      "sector": "auto",
-      "direction": "Bullish",
+      "sector": "financial_services",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Bosch Chairman's comments",
+      "news_driver": "FIIs grow more wary of India as FX curbs hit bonds, earnings risks haunt equities",
       "theme": "null",
       "stocks": [
         {
-          "name": "Bosch",
-          "ticker": "BOSCHLTD.NS",
-          "impact": "Bullish",
-          "reason": "Bosch Chairman's comments -> increased investment in India -> revenue growth +8%",
-          "quant": "+2.5%"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "FX curbs and earnings risks -> decreased investor confidence -> 2-3% decline in stock price",
+          "quant": "2-3% decline in stock price"
         }
       ],
-      "watch": "Bosch's India investment plans"
+      "watch": "FIIs' investment trends"
     }
   ],
   "themes": [

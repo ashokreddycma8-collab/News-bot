@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T11:02:21.771118+05:30",
+  "generated_at": "2026-04-17T14:34:14.497238+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -192,6 +192,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "APOLLO": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "licence to manufacture ammunitions",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "SUZLON": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "rally with upside potential",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
