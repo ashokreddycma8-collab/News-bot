@@ -111,10 +111,6 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: |
           curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${CHAT_ID}" \
-            --data-urlencode "text=❌ NSE Pulse FAILED
-Run: ${GITHUB_RUN_ID}
-Branch: ${GITHUB_REF_NAME}
-Commit: ${GITHUB_SHA::7}
-https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            -H "Content-Type: application/json" \
+            -d "{\"chat_id\":\"${CHAT_ID}\",\"text\":\"❌ NSE Pulse FAILED\\nRun: ${GITHUB_RUN_ID}\\nBranch: ${GITHUB_REF_NAME}\\nCommit: ${GITHUB_SHA::7}\\nhttps://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}\"}" \
             || true
