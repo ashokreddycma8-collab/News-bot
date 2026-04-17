@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T17:32:45.563398+05:30",
+  "generated_at": "2026-04-17T09:21:02.452784+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -183,6 +183,14 @@
       "catalyst": "starts job cuts as cash crunch deepens",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ICICIPRULI": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 profit up 10%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     }
   }

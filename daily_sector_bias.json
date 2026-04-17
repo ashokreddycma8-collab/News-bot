@@ -1,93 +1,93 @@
 {
-  "date": "2026-04-09",
-  "time": "17:32",
+  "date": "2026-04-17",
+  "time": "09:21",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rosneft Tamps Down Profit Expectations from Soaring Prices",
-      "theme": "OMC_margins",
+      "news_driver": "US-Iran tensions and crude price surge",
+      "theme": "OMC_pressure",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Soaring oil prices -> increased cost of crude oil -> margins -150bps",
-          "quant": "-150bps"
+          "reason": "US-Iran tensions -> crude price surge -> IOC margins -200bps",
+          "quant": "-200bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> higher under-recovery -> revenue -8-10% Q2",
-          "quant": "-8-10%"
+          "reason": "crude price surge -> higher input costs -> HPCL revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price level of $90"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "TCS Q4 net profit jumps 12.22 pc to Rs 13,718 cr",
-      "theme": "IT_outsourcing",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> stock price +5-7%",
-          "quant": "5-7%"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "TCS's strong results -> positive read-across -> revenue +4-6% Q1",
-          "quant": "4-6%"
-        }
-      ],
-      "watch": "TCS's dividend payout ratio"
+      "watch": "Brent crude price level of $110"
     },
     {
       "sector": "auto",
       "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran tensions and crude price surge",
+      "theme": "input_cost_pressure",
+      "stocks": [
+        {
+          "name": "Eicher Motors",
+          "ticker": "EICHERMOT.NS",
+          "impact": "Bearish",
+          "reason": "crude price surge -> higher input costs -> Eicher Motors margins -150bps",
+          "quant": "-150bps"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran tensions -> crude price surge -> Tata Motors revenue -3%",
+          "quant": "-3%"
+        }
+      ],
+      "watch": "Eicher Motors stock price level of 3000"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "SpiceJet Starts Job Cuts As Cash Crunch Deepens",
+      "news_driver": "RBI Monetary Policy 2026",
       "theme": null,
       "stocks": [
         {
-          "name": "SpiceJet",
-          "ticker": "SPICEJET.NS",
-          "impact": "Bearish",
-          "reason": "Cash crunch -> job cuts -> reduced operational efficiency -> revenue -5-7% Q2",
-          "quant": "-5-7%"
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy -> steady interest rates -> ICICI Bank NIM +25bps",
+          "quant": "+25bps"
         }
       ],
-      "watch": "SpiceJet's Q2 earnings release"
+      "watch": "RBI Governor's statement on interest rates"
     },
     {
       "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Israel-Iran War Live News Updates",
-      "theme": "Geopolitical_risk",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "US-Iran tensions and crude price surge",
+      "theme": "renewable_energy",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Rising geopolitical tensions -> increased risk premium -> stock price -3-5%",
-          "quant": "-3-5%"
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "crude price surge -> higher fossil fuel costs -> Adani Green Energy revenue +8%",
+          "quant": "+8%"
         }
       ],
-      "watch": "US-Iran conflict escalation"
+      "watch": "Adani Green Energy stock price level of 1000"
     }
   ],
   "themes": [
-    "OMC_margins",
-    "IT_outsourcing"
+    "OMC_pressure",
+    "input_cost_pressure"
   ]
 }
