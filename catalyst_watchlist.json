@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T14:59:02.729329+05:30",
+  "generated_at": "2026-04-20T15:51:26.336266+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -252,7 +252,7 @@
     "HDFCBANK": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 profit up",
+      "catalyst": "HDFC Bank earnings up 9% in Q4; announces \u20b913 dividend",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
