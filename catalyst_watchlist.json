@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T15:51:26.336266+05:30",
+  "generated_at": "2026-04-20T20:36:09.124347+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -301,6 +301,22 @@
       "score": 7,
       "direction": "BUY",
       "catalyst": "Q4 profit soars 122% YoY to Rs 686 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PNBHOUSING": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit surges 19%, announces dividend",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BANKOFMAHARASHTRA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit surges 35%",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"

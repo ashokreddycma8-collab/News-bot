@@ -1,86 +1,76 @@
 {
   "date": "2026-04-20",
-  "time": "15:51",
+  "time": "20:36",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Strait Of Hormuz tensions",
-      "theme": "geopolitical risk",
+      "news_driver": "Iran conflict and rising Brent prices",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Hormuz tensions -> higher crude prices -> lower IOC margins",
-          "quant": "margins -100bps"
+          "reason": "Rising Brent prices -> increased crude oil costs -> reduced refining margins",
+          "quant": "-100bps"
         },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "crude price surge -> higher input costs -> lower HPCL profitability",
-          "quant": "revenue -5%"
+          "reason": "Iran conflict -> supply chain disruptions -> higher transportation costs",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Brent crude price crossing $85"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "PM Modi inaugurating greenfield refinery",
-      "theme": "PLI_refining",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "refinery inauguration -> increased refining capacity -> higher RIL revenue",
-          "quant": "revenue +8-10% Q3"
-        }
-      ],
-      "watch": "RIL's Q3 earnings release"
+      "watch": "Brent crude price crossing $90"
     },
     {
       "sector": "banking",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "HDFC Bank earnings up 9%",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "PNB Housing and Bank of Maharashtra Q4 results",
+      "theme": "PSU bank revival",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "PNB Housing Finance",
+          "ticker": "PNBHOUSING.NS",
           "impact": "Bullish",
-          "reason": "Q4 earnings beat -> higher investor confidence -> increased HDFC Bank stock price",
-          "quant": "stock price +2-3%"
+          "reason": "Strong Q4 results -> improved asset quality -> increased investor confidence",
+          "quant": "19% profit surge"
+        },
+        {
+          "name": "Bank of Maharashtra",
+          "ticker": "MAHABANK.NS",
+          "impact": "Bullish",
+          "reason": "Q4 profit growth -> expanded loan book -> higher interest income",
+          "quant": "35% profit surge"
         }
       ],
-      "watch": "HDFC Bank's dividend payout"
+      "watch": "Upcoming PSU bank results"
     },
     {
-      "sector": "renewable",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Indian Army's solar energy plans",
-      "theme": "solar_energy",
+      "conviction": 1,
+      "news_driver": "Marvell shares jump on report of deal talks with Google",
+      "theme": "AI and cloud adoption",
       "stocks": [
         {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "solar energy adoption -> increased demand for Tata Power's solar solutions -> higher revenue",
-          "quant": "order book +Rs200Cr"
+          "reason": "Growing AI adoption -> increased demand for IT services -> higher revenue growth",
+          "quant": "8-10% revenue growth"
         }
       ],
-      "watch": "Tata Power's order book growth"
+      "watch": "Adobe's AI suite launch and its impact on Indian IT companies"
     }
   ],
   "themes": [
-    "geopolitical risk",
-    "PLI_refining"
+    "PSU bank revival",
+    "OMC margin squeeze"
   ]
 }
