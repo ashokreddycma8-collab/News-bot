@@ -1,69 +1,99 @@
 {
-  "date": "2026-04-17",
-  "time": "20:08",
+  "date": "2026-04-20",
+  "time": "09:40",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Wipro's Q4 results",
-      "theme": null,
+      "news_driver": "Renewed US-Iran tensions and surge in Brent crude prices",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Q4 PAT decline -> reduced profitability -> lower investor confidence",
-          "quant": "-10% revenue growth"
+          "reason": "US-Iran conflict -> surge in Brent crude prices -> decrease in IOC's refining margins",
+          "quant": "-100bps"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Neutral",
-          "reason": "Wipro's Q4 results -> potential sector-wide impact -> cautious investor stance",
-          "quant": null
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> surge in Brent crude prices -> decrease in HINDPETRO's refining margins",
+          "quant": "-120bps"
         }
       ],
-      "watch": "Wipro's buyback price and its impact on the stock price"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bearish",
+      "sector": "fmcg",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "HDFC AMC's Q4 results",
-      "theme": null,
+      "news_driver": "Asian Paints' second round of price hikes amid rising input costs",
+      "theme": "null",
       "stocks": [
         {
-          "name": "HDFC AMC",
-          "ticker": "HDFCAMC.NS",
-          "impact": "Bearish",
-          "reason": "Q4 profit dip -> reduced investor confidence -> lower stock price",
-          "quant": "-5% profit growth"
+          "name": "Asian Paints",
+          "ticker": "ASIANPAINT.NS",
+          "impact": "Bullish",
+          "reason": "Rising input costs -> price hikes -> increase in ASIANPAINT's revenue",
+          "quant": "5-7% Q1"
+        },
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bullish",
+          "reason": "Rising input costs -> price hikes -> increase in HINDUNILVR's revenue",
+          "quant": "4-6% Q1"
         }
       ],
-      "watch": "HDFC AMC's dividend payout ratio"
+      "watch": "Q1 earnings reports"
     },
     {
-      "sector": "telecom",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Jio Financial Q4 results",
-      "theme": null,
+      "news_driver": "HDFC Bank & ICICI Bank Q4 profit up, Yes Bank profit jumps 44%",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Jio Financial",
-          "ticker": "JIOFIN.NS",
-          "impact": "Bearish",
-          "reason": "Q4 PAT decline -> reduced profitability -> lower investor confidence",
-          "quant": "-14% YoY PAT decline"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Q4 results -> strong profit growth -> increase in HDFCBANK's stock price",
+          "quant": "8-10% Q2"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Q4 results -> strong profit growth -> increase in ICICIBANK's stock price",
+          "quant": "7-9% Q2"
         }
       ],
-      "watch": "Jio Financial's revenue growth trajectory"
+      "watch": "Q1 earnings reports"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Suzlon Energy shares climb 3.3% amid wind energy tailwind narrative",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Suzlon Energy",
+          "ticker": "SUZLON.NS",
+          "impact": "Bullish",
+          "reason": "Wind energy tailwind -> increase in SUZLON's order book -> increase in revenue",
+          "quant": "+Rs200Cr"
+        }
+      ],
+      "watch": "Q1 earnings reports"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "IT_underperformance"
+    "PSU_rotation"
   ]
 }
