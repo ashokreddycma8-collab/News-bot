@@ -1,99 +1,93 @@
 {
   "date": "2026-04-20",
-  "time": "09:40",
-  "mood": "Cautious",
+  "time": "14:59",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "energy",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Renewed US-Iran tensions and surge in Brent crude prices",
+      "news_driver": "U.S. Officials' optimism for a deal and easing of oil sanctions risk",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> surge in Brent crude prices -> decrease in IOC's refining margins",
-          "quant": "-100bps"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Easing of oil sanctions risk -> reduced oil price volatility -> improved refining margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> surge in Brent crude prices -> decrease in HINDPETRO's refining margins",
-          "quant": "-120bps"
+          "name": "SW Solar",
+          "ticker": "SWSOLAR.NS",
+          "impact": "Bullish",
+          "reason": "Rs 3,500 crore order from Coal India -> increased revenue visibility -> improved profitability",
+          "quant": "revenue +15% Q1"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude price below $80"
     },
     {
-      "sector": "fmcg",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Asian Paints' second round of price hikes amid rising input costs",
+      "conviction": 2,
+      "news_driver": "Amazon Web Services collaboration with SHI India for indigenous AI model development",
       "theme": "null",
       "stocks": [
         {
-          "name": "Asian Paints",
-          "ticker": "ASIANPAINT.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Rising input costs -> price hikes -> increase in ASIANPAINT's revenue",
-          "quant": "5-7% Q1"
+          "reason": "Growing demand for AI services -> increased deal wins -> revenue growth",
+          "quant": "revenue +8-10% Q3"
         },
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Rising input costs -> price hikes -> increase in HINDUNILVR's revenue",
-          "quant": "4-6% Q1"
+          "reason": "Partnership opportunities with AWS -> improved competitiveness -> market share gains",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "Q1 earnings reports"
+      "watch": "Q4 earnings of IT majors"
     },
     {
       "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "HDFC Bank & ICICI Bank Q4 profit up, Yes Bank profit jumps 44%",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results -> strong profit growth -> increase in HDFCBANK's stock price",
-          "quant": "8-10% Q2"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results -> strong profit growth -> increase in ICICIBANK's stock price",
-          "quant": "7-9% Q2"
-        }
-      ],
-      "watch": "Q1 earnings reports"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Suzlon Energy shares climb 3.3% amid wind energy tailwind narrative",
+      "news_driver": "Bank credit growth to slow down in FY27, deposits a worry for lenders",
       "theme": "null",
       "stocks": [
         {
-          "name": "Suzlon Energy",
-          "ticker": "SUZLON.NS",
-          "impact": "Bullish",
-          "reason": "Wind energy tailwind -> increase in SUZLON's order book -> increase in revenue",
-          "quant": "+Rs200Cr"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Slowing credit growth -> reduced interest income -> lower profitability",
+          "quant": "margins -50bps"
         }
       ],
-      "watch": "Q1 earnings reports"
+      "watch": "Deposit growth rates"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Nestle India Q4 Preview: Revenue Seen Rising, Margin Pressure Persists",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Nestle India",
+          "ticker": "NESTLEIND.NS",
+          "impact": "Neutral",
+          "reason": "Revenue growth -> offset by margin pressure -> neutral profitability",
+          "quant": "revenue +5% Q4"
+        }
+      ],
+      "watch": "Q4 earnings of FMCG majors"
     }
   ],
   "themes": [
+    "PLI_solar",
     "PSU_rotation"
   ]
 }

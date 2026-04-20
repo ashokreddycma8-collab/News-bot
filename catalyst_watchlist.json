@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T09:40:47.456259+05:30",
+  "generated_at": "2026-04-20T14:59:02.729329+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -288,6 +288,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "SWSSOLAR": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Rs 3,500 crore order from Coal India",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "GROWW": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 profit soars 122% YoY to Rs 686 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
