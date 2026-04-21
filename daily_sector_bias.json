@@ -1,93 +1,86 @@
 {
   "date": "2026-04-21",
-  "time": "14:42",
+  "time": "17:41",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "fmcg",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Trent Q4 Preview: Margin Expansion Seen As Store Expansion Drives Sales",
-      "theme": "consumer_staples",
+      "news_driver": "Persistent Systems Q4 Results",
+      "theme": "digital_transformation",
       "stocks": [
         {
-          "name": "Trent Limited",
-          "ticker": "TRENT.NS",
+          "name": "Persistent Systems",
+          "ticker": "PERSISTENT.NS",
           "impact": "Bullish",
-          "reason": "Trent's Q4 preview indicating margin expansion -> driven by store expansion and sales growth -> expected revenue increase of 12-15%",
-          "quant": "12-15%"
+          "reason": "Q4 profit jump of 20% -> increased investor confidence -> stock price appreciation",
+          "quant": "20.4% YoY profit growth"
         },
         {
-          "name": "Patanjali Foods Limited",
-          "ticker": "PATANJALI.NS",
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Patanjali Foods announcing second interim dividend -> indicating strong cash flows and profitability -> expected dividend yield of 3.5%",
-          "quant": "3.5%"
+          "reason": "Upcoming Q4 results announcement -> potential positive surprise -> increased investor interest",
+          "quant": "8-10% Q4 revenue growth expected"
         }
       ],
-      "watch": "1750 level for Trent"
+      "watch": "HCLTech Q4 results announcement"
     },
     {
-      "sector": "textiles",
+      "sector": "financial_services",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Trump tariff refunds begin today",
-      "theme": "export_led",
+      "conviction": 1,
+      "news_driver": "PNB Housing Finance MD's growth strategy",
+      "theme": "affordable_housing",
       "stocks": [
         {
-          "name": "Gokaldas Exports Limited",
-          "ticker": "GOKEX.NS",
+          "name": "PNB Housing Finance",
+          "ticker": "PNBHOUSING.NS",
           "impact": "Bullish",
-          "reason": "Trump tariff refunds -> reduction in export costs -> expected margin expansion of 100-150bps",
-          "quant": "100-150bps"
-        },
-        {
-          "name": "Avanti Feeds Limited",
-          "ticker": "AVANTIFEED.NS",
-          "impact": "Bullish",
-          "reason": "Trump tariff refunds -> increase in shrimp exports -> expected revenue growth of 8-10%",
-          "quant": "8-10%"
+          "reason": "MD's focus on affordable growth -> increased loan disbursements -> improved NIM",
+          "quant": "50bps NIM expansion expected"
         }
       ],
-      "watch": "tariff refund amounts"
+      "watch": "PNB Housing Finance's loan growth trajectory"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Aurobindo Pharma share buyback",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Aurobindo Pharma",
+          "ticker": "AUROPHARMA.NS",
+          "impact": "Neutral",
+          "reason": "Share buyback announcement -> reduced outstanding shares -> potential stock price support",
+          "quant": "Rs 800Cr buyback amount"
+        }
+      ],
+      "watch": "Aurobindo Pharma's share price reaction to buyback"
     },
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Markets reverse early losses, Sensex climbs 377 points by midday; SBI, Trent lead gains",
-      "theme": null,
+      "news_driver": "Bank of Maharashtra's 52-week high",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Bank of Maharashtra",
+          "ticker": "MAHABANK.NS",
           "impact": "Bullish",
-          "reason": "Market rally -> increase in banking sector sentiment -> expected NIM expansion of 10-15bps",
-          "quant": "10-15bps"
+          "reason": "52-week high price -> increased investor interest -> potential further upside",
+          "quant": "32% monthly rally"
         }
       ],
-      "watch": "49000 level for Sensex"
-    },
-    {
-      "sector": "logistics",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Triton Logistics Diversifying Routes Amid Global Shipping Disruptions, CEO Says",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Triton Logistics Limited",
-          "ticker": "TRITON.NS",
-          "impact": "Neutral",
-          "reason": "Global shipping disruptions -> diversification of routes by Triton Logistics -> expected revenue growth of 5-7%",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "global shipping volumes"
+      "watch": "Bank of Maharashtra's price action near 52-week high"
     }
   ],
   "themes": [
-    "consumer_staples",
-    "export_led"
+    "digital_transformation",
+    "affordable_housing"
   ]
 }

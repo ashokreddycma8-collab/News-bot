@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T14:43:00.323473+05:30",
+  "generated_at": "2026-04-21T17:41:28.937399+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -330,12 +330,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "PERSISTENT": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 Results In Focus",
+      "catalyst": "Q4 profit jumps 20%, declares dividend of Rs 18/share",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "INDOSOLAR": {
       "score": 4,
@@ -352,6 +352,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "AUROPHARMA": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Announces Rs 800-crore share buyback",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
