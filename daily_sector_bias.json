@@ -1,86 +1,86 @@
 {
   "date": "2026-04-21",
-  "time": "17:41",
-  "mood": "Bullish",
+  "time": "20:31",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Persistent Systems Q4 Results",
-      "theme": "digital_transformation",
+      "news_driver": "HCL Tech Q4 Results: PAT up 4% YoY at Rs 4,488 cr; Rs 24 per share dividend declared",
+      "theme": "null",
       "stocks": [
-        {
-          "name": "Persistent Systems",
-          "ticker": "PERSISTENT.NS",
-          "impact": "Bullish",
-          "reason": "Q4 profit jump of 20% -> increased investor confidence -> stock price appreciation",
-          "quant": "20.4% YoY profit growth"
-        },
         {
           "name": "HCL Technologies",
           "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Upcoming Q4 results announcement -> potential positive surprise -> increased investor interest",
-          "quant": "8-10% Q4 revenue growth expected"
+          "reason": "Q4 PAT growth of 4% YoY -> increased investor confidence -> stock price appreciation",
+          "quant": "4% YoY"
+        },
+        {
+          "name": "Tata Elxsi",
+          "ticker": "TATAELXSI.NS",
+          "impact": "Bullish",
+          "reason": "Q4 profit jump of 28% YoY -> improved profitability -> higher dividend payout",
+          "quant": "28% YoY"
         }
       ],
-      "watch": "HCLTech Q4 results announcement"
+      "watch": "HCL Tech stock price movement post dividend announcement"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "PNB Housing Finance MD's growth strategy",
-      "theme": "affordable_housing",
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US retail sales rises 1.7% MoM in March driven by gas price spike due to the Iran war",
+      "theme": "null",
       "stocks": [
         {
-          "name": "PNB Housing Finance",
-          "ticker": "PNBHOUSING.NS",
-          "impact": "Bullish",
-          "reason": "MD's focus on affordable growth -> increased loan disbursements -> improved NIM",
-          "quant": "50bps NIM expansion expected"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rise in Brent prices -> increased cost of crude oil -> lower refining margins",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "PNB Housing Finance's loan growth trajectory"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "pharma",
+      "sector": "capital_markets",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Aurobindo Pharma share buyback",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Aurobindo Pharma",
-          "ticker": "AUROPHARMA.NS",
-          "impact": "Neutral",
-          "reason": "Share buyback announcement -> reduced outstanding shares -> potential stock price support",
-          "quant": "Rs 800Cr buyback amount"
-        }
-      ],
-      "watch": "Aurobindo Pharma's share price reaction to buyback"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bank of Maharashtra's 52-week high",
-      "theme": "PSU_rotation",
+      "news_driver": "Broker\u2019s Call: Bank of Maharashtra (Buy)",
+      "theme": "null",
       "stocks": [
         {
           "name": "Bank of Maharashtra",
-          "ticker": "MAHABANK.NS",
+          "ticker": "BOM.NS",
           "impact": "Bullish",
-          "reason": "52-week high price -> increased investor interest -> potential further upside",
-          "quant": "32% monthly rally"
+          "reason": "Buy call from broker -> increased investor interest -> potential stock price appreciation",
+          "quant": "null"
         }
       ],
-      "watch": "Bank of Maharashtra's price action near 52-week high"
+      "watch": "Bank of Maharashtra stock price movement"
+    },
+    {
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Odisha advances industrial push with Rs 3,877 crore infusion",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Larsen & Toubro",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "Odisha industrial push -> increased infrastructure spending -> potential order book growth",
+          "quant": "order book +Rs300Cr"
+        }
+      ],
+      "watch": "Odisha government's infrastructure project announcements"
     }
   ],
   "themes": [
-    "digital_transformation",
-    "affordable_housing"
+    "IT sector growth",
+    "Oil price volatility"
   ]
 }

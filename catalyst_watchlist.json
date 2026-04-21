@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T17:41:28.937399+05:30",
+  "generated_at": "2026-04-21T20:31:14.476923+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -360,6 +360,30 @@
       "category": "technical_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HCLTECH": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "HCL Tech Q4 Results: PAT up 4% YoY at Rs 4,488 cr",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "TATAELXSI": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Tata Elxsi Q4 Results: Profit jumps 28% YoY to Rs 220 crore; co declares Rs 75 per share dividend",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MAHABANK": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "Broker\u2019s Call: Bank of Maharashtra (Buy)",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
