@@ -1,76 +1,76 @@
 {
-  "date": "2026-04-20",
-  "time": "20:36",
-  "mood": "Cautious",
+  "date": "2026-04-21",
+  "time": "10:18",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran conflict and rising Brent prices",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Iran-US war escalation",
+      "theme": "Geopolitical risk",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising Brent prices -> increased crude oil costs -> reduced refining margins",
-          "quant": "-100bps"
+          "reason": "Iran-US war escalation -> higher crude prices -> reduced IOC margins",
+          "quant": "margins -100bps"
         },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Iran conflict -> supply chain disruptions -> higher transportation costs",
-          "quant": "-50bps"
+          "reason": "Iran-US war escalation -> higher crude prices -> decreased HPCL refining margins",
+          "quant": "refining margins -120bps"
         }
       ],
-      "watch": "Brent crude price crossing $90"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "PNB Housing and Bank of Maharashtra Q4 results",
-      "theme": "PSU bank revival",
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Domestic oil and gas production ramp-up",
+      "theme": null,
       "stocks": [
         {
-          "name": "PNB Housing Finance",
-          "ticker": "PNBHOUSING.NS",
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 results -> improved asset quality -> increased investor confidence",
-          "quant": "19% profit surge"
-        },
-        {
-          "name": "Bank of Maharashtra",
-          "ticker": "MAHABANK.NS",
-          "impact": "Bullish",
-          "reason": "Q4 profit growth -> expanded loan book -> higher interest income",
-          "quant": "35% profit surge"
+          "reason": "RBI Governor's statement on domestic oil and gas production ramp-up -> increased ONGC production -> higher revenue",
+          "quant": "revenue +5-7% Q1"
         }
       ],
-      "watch": "Upcoming PSU bank results"
+      "watch": "Domestic oil and gas production numbers"
     },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Marvell shares jump on report of deal talks with Google",
-      "theme": "AI and cloud adoption",
+      "conviction": 2,
+      "news_driver": "Q4 results of IT companies",
+      "theme": "Earnings momentum",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "HCLTech",
+          "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Growing AI adoption -> increased demand for IT services -> higher revenue growth",
-          "quant": "8-10% revenue growth"
+          "reason": "Q4 results beat expectations -> increased investor confidence -> higher HCLTech stock price",
+          "quant": "revenue +10-12% Q4"
+        },
+        {
+          "name": "Persistent Systems",
+          "ticker": "PERSISTENT.NS",
+          "impact": "Bullish",
+          "reason": "Q4 results beat expectations -> improved investor sentiment -> higher Persistent Systems stock price",
+          "quant": "revenue +12-15% Q4"
         }
       ],
-      "watch": "Adobe's AI suite launch and its impact on Indian IT companies"
+      "watch": "Q4 results of IT companies"
     }
   ],
   "themes": [
-    "PSU bank revival",
-    "OMC margin squeeze"
+    "Geopolitical risk",
+    "Earnings momentum"
   ]
 }
