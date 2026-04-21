@@ -1,76 +1,93 @@
 {
   "date": "2026-04-21",
-  "time": "10:18",
-  "mood": "Bearish",
+  "time": "14:42",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "fmcg",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Iran-US war escalation",
-      "theme": "Geopolitical risk",
+      "news_driver": "Trent Q4 Preview: Margin Expansion Seen As Store Expansion Drives Sales",
+      "theme": "consumer_staples",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran-US war escalation -> higher crude prices -> reduced IOC margins",
-          "quant": "margins -100bps"
+          "name": "Trent Limited",
+          "ticker": "TRENT.NS",
+          "impact": "Bullish",
+          "reason": "Trent's Q4 preview indicating margin expansion -> driven by store expansion and sales growth -> expected revenue increase of 12-15%",
+          "quant": "12-15%"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Iran-US war escalation -> higher crude prices -> decreased HPCL refining margins",
-          "quant": "refining margins -120bps"
+          "name": "Patanjali Foods Limited",
+          "ticker": "PATANJALI.NS",
+          "impact": "Bullish",
+          "reason": "Patanjali Foods announcing second interim dividend -> indicating strong cash flows and profitability -> expected dividend yield of 3.5%",
+          "quant": "3.5%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "1750 level for Trent"
     },
     {
-      "sector": "energy",
-      "direction": "Neutral",
+      "sector": "textiles",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Trump tariff refunds begin today",
+      "theme": "export_led",
+      "stocks": [
+        {
+          "name": "Gokaldas Exports Limited",
+          "ticker": "GOKEX.NS",
+          "impact": "Bullish",
+          "reason": "Trump tariff refunds -> reduction in export costs -> expected margin expansion of 100-150bps",
+          "quant": "100-150bps"
+        },
+        {
+          "name": "Avanti Feeds Limited",
+          "ticker": "AVANTIFEED.NS",
+          "impact": "Bullish",
+          "reason": "Trump tariff refunds -> increase in shrimp exports -> expected revenue growth of 8-10%",
+          "quant": "8-10%"
+        }
+      ],
+      "watch": "tariff refund amounts"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Domestic oil and gas production ramp-up",
+      "news_driver": "Markets reverse early losses, Sensex climbs 377 points by midday; SBI, Trent lead gains",
       "theme": null,
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "RBI Governor's statement on domestic oil and gas production ramp-up -> increased ONGC production -> higher revenue",
-          "quant": "revenue +5-7% Q1"
+          "reason": "Market rally -> increase in banking sector sentiment -> expected NIM expansion of 10-15bps",
+          "quant": "10-15bps"
         }
       ],
-      "watch": "Domestic oil and gas production numbers"
+      "watch": "49000 level for Sensex"
     },
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Q4 results of IT companies",
-      "theme": "Earnings momentum",
+      "sector": "logistics",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Triton Logistics Diversifying Routes Amid Global Shipping Disruptions, CEO Says",
+      "theme": null,
       "stocks": [
         {
-          "name": "HCLTech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results beat expectations -> increased investor confidence -> higher HCLTech stock price",
-          "quant": "revenue +10-12% Q4"
-        },
-        {
-          "name": "Persistent Systems",
-          "ticker": "PERSISTENT.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results beat expectations -> improved investor sentiment -> higher Persistent Systems stock price",
-          "quant": "revenue +12-15% Q4"
+          "name": "Triton Logistics Limited",
+          "ticker": "TRITON.NS",
+          "impact": "Neutral",
+          "reason": "Global shipping disruptions -> diversification of routes by Triton Logistics -> expected revenue growth of 5-7%",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Q4 results of IT companies"
+      "watch": "global shipping volumes"
     }
   ],
   "themes": [
-    "Geopolitical risk",
-    "Earnings momentum"
+    "consumer_staples",
+    "export_led"
   ]
 }

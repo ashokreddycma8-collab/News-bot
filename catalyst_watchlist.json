@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T10:18:55.938847+05:30",
+  "generated_at": "2026-04-21T14:43:00.323473+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -343,6 +343,14 @@
       "catalyst": "Shares Tumble Nearly 5% After Q4 Results",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "PATANJALI": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "announces second interim dividend of Rs 1.75 per share",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     }
   }
