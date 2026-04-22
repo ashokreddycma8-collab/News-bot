@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T16:11:08.705109+05:30",
+  "generated_at": "2026-04-22T16:32:34.978843+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -392,6 +392,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "INTELLECT": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "payment platform wins top US compliance rating",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AABL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "acquires Kerala distillery for \u20b930.85 crore via NCLT resolution plan",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SBILIFE": {
+      "score": 5,
+      "direction": "NEUTRAL",
+      "catalyst": "Q4 Results: Profit falls marginally to Rs 805 crore; net premium income rises 16% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

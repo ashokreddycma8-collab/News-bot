@@ -1,69 +1,86 @@
 {
   "date": "2026-04-22",
-  "time": "16:11",
-  "mood": "Bearish",
+  "time": "16:32",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Crude oil price surge",
+      "news_driver": "Three Container Ships Fired Upon In Strait Of Hormuz",
       "theme": null,
       "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Crude price surge -> increased input costs -> reduced margins",
-          "quant": "-120bps"
-        },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Higher crude prices -> lower refining margins -> decreased profitability",
-          "quant": "-10%"
+          "reason": "Strait of Hormuz incident -> potential increase in crude oil prices -> lower margins for HPCL",
+          "quant": "-100bps"
+        },
+        {
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Strait of Hormuz incident -> potential increase in crude oil prices -> lower margins for BPCL",
+          "quant": "-120bps"
         }
       ],
-      "watch": "Brent crude price level of $105/bbl"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Crude oil price surge",
+      "sector": "financial_services",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "SBI Life Q4 Results",
       "theme": null,
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude prices -> increased energy costs -> lower profitability",
-          "quant": "-5%"
+          "name": "SBI Life",
+          "ticker": "SBILIFE.NS",
+          "impact": "Neutral",
+          "reason": "SBI Life Q4 Results -> marginal fall in profit -> no significant impact on stock price",
+          "quant": "null"
         }
       ],
-      "watch": "Crude oil price movement"
+      "watch": "Q4 results of other life insurance companies"
     },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tech Mahindra Q4 results",
+      "conviction": 2,
+      "news_driver": "Intellect Design Arena\u2019s payment platform wins top US compliance rating",
       "theme": null,
       "stocks": [
         {
-          "name": "Tech Mahindra",
-          "ticker": "TECHM.NS",
+          "name": "Intellect Design Arena",
+          "ticker": "INTELLECT.NS",
           "impact": "Bullish",
-          "reason": "In-line Q4 results -> higher profit and revenue -> increased investor confidence",
-          "quant": "+4%"
+          "reason": "Intellect Design Arena\u2019s payment platform wins top US compliance rating -> increased business opportunities -> revenue growth",
+          "quant": "+8-10% Q1 revenue growth"
         }
       ],
-      "watch": "Q4 results of other IT companies"
+      "watch": "Q1 results of Intellect Design Arena"
+    },
+    {
+      "sector": "auto",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "AABL acquires Kerala distillery for \u20b930.85 crore via NCLT resolution plan",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Associated Alcohols and Breweries",
+          "ticker": "ASSOCALCO.NS",
+          "impact": "Neutral",
+          "reason": "AABL acquires Kerala distillery -> expansion of business -> potential increase in revenue",
+          "quant": "+Rs30.85Cr revenue"
+        }
+      ],
+      "watch": "Q1 results of Associated Alcohols and Breweries"
     }
   ],
   "themes": [
-    "energy_inflation",
-    "it_earnings"
+    "PSU_rotation",
+    "China+1"
   ]
 }
