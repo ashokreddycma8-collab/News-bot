@@ -1,86 +1,100 @@
 {
-  "date": "2026-04-21",
-  "time": "20:31",
-  "mood": "Cautious",
+  "date": "2026-04-22",
+  "time": "14:37",
+  "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Iran ceasefire hopes ease crude fears",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Iran ceasefire hopes -> easing crude fears -> improved sentiment for banking stocks",
+          "quant": "NIM +20bps"
+        },
+        {
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bullish",
+          "reason": "Iran ceasefire hopes -> reduced oil prices -> increased consumer spending and loan growth",
+          "quant": "loan growth +12% YoY"
+        },
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Iran ceasefire hopes -> improved investor sentiment -> increased demand for banking stocks",
+          "quant": "revenue +10% Q3"
+        }
+      ],
+      "watch": "Nifty Bank index breaking out above 43,000"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "HCL Tech Q4 Results: PAT up 4% YoY at Rs 4,488 cr; Rs 24 per share dividend declared",
-      "theme": "null",
+      "news_driver": "Tech Mahindra Q4 Results",
+      "theme": "capital_goods",
       "stocks": [
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
+          "name": "Tech Mahindra",
+          "ticker": "TECHM.NS",
           "impact": "Bullish",
-          "reason": "Q4 PAT growth of 4% YoY -> increased investor confidence -> stock price appreciation",
-          "quant": "4% YoY"
+          "reason": "Q4 results beat -> increased investor confidence -> stock price appreciation",
+          "quant": "EPS +15% YoY"
         },
         {
-          "name": "Tata Elxsi",
-          "ticker": "TATAELXSI.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Q4 profit jump of 28% YoY -> improved profitability -> higher dividend payout",
-          "quant": "28% YoY"
+          "reason": "Strong earnings expectations -> increased demand for IT stocks -> stock price appreciation",
+          "quant": "revenue +8-10% Q3"
         }
       ],
-      "watch": "HCL Tech stock price movement post dividend announcement"
+      "watch": "Infosys Q4 earnings release"
     },
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US retail sales rises 1.7% MoM in March driven by gas price spike due to the Iran war",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rise in Brent prices -> increased cost of crude oil -> lower refining margins",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "Brent crude oil price movement"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Neutral",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Broker\u2019s Call: Bank of Maharashtra (Buy)",
-      "theme": "null",
+      "news_driver": "Tesla launches Model Y in India",
+      "theme": "electric_vehicles",
       "stocks": [
         {
-          "name": "Bank of Maharashtra",
-          "ticker": "BOM.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Buy call from broker -> increased investor interest -> potential stock price appreciation",
-          "quant": "null"
+          "reason": "Tesla launch -> increased competition and innovation in EV space -> potential for Tata Motors to gain market share",
+          "quant": "EV sales +20% YoY"
         }
       ],
-      "watch": "Bank of Maharashtra stock price movement"
+      "watch": "Tesla's market share in India"
     },
     {
-      "sector": "infra",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Odisha advances industrial push with Rs 3,877 crore infusion",
-      "theme": "null",
+      "news_driver": "Shriram Finance Q4 Results",
+      "theme": "NBFC_growth",
       "stocks": [
         {
-          "name": "Larsen & Toubro",
-          "ticker": "LT.NS",
+          "name": "Shriram Finance",
+          "ticker": "SHRIRAMFIN.NS",
           "impact": "Bullish",
-          "reason": "Odisha industrial push -> increased infrastructure spending -> potential order book growth",
-          "quant": "order book +Rs300Cr"
+          "reason": "Q4 results beat -> increased investor confidence -> stock price appreciation",
+          "quant": "AUM +15% YoY"
         }
       ],
-      "watch": "Odisha government's infrastructure project announcements"
+      "watch": "Shriram Finance's asset quality"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Oil price volatility"
+    "PSU_rotation",
+    "electric_vehicles"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T20:31:14.476923+05:30",
+  "generated_at": "2026-04-22T14:37:13.977062+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -383,6 +383,14 @@
       "catalyst": "Broker\u2019s Call: Bank of Maharashtra (Buy)",
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "TECHM": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Declares Rs 36/share final dividend; sets July 3 as record date",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     }
   }
