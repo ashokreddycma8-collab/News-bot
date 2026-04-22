@@ -1,100 +1,69 @@
 {
   "date": "2026-04-22",
-  "time": "14:37",
-  "mood": "Bullish",
+  "time": "16:11",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran ceasefire hopes ease crude fears",
-      "theme": "PSU_rotation",
+      "news_driver": "Crude oil price surge",
+      "theme": null,
       "stocks": [
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Iran ceasefire hopes -> easing crude fears -> improved sentiment for banking stocks",
-          "quant": "NIM +20bps"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Crude price surge -> increased input costs -> reduced margins",
+          "quant": "-120bps"
         },
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bullish",
-          "reason": "Iran ceasefire hopes -> reduced oil prices -> increased consumer spending and loan growth",
-          "quant": "loan growth +12% YoY"
-        },
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Iran ceasefire hopes -> improved investor sentiment -> increased demand for banking stocks",
-          "quant": "revenue +10% Q3"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Higher crude prices -> lower refining margins -> decreased profitability",
+          "quant": "-10%"
         }
       ],
-      "watch": "Nifty Bank index breaking out above 43,000"
+      "watch": "Brent crude price level of $105/bbl"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Crude oil price surge",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Higher crude prices -> increased energy costs -> lower profitability",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Crude oil price movement"
     },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tech Mahindra Q4 Results",
-      "theme": "capital_goods",
+      "conviction": 1,
+      "news_driver": "Tech Mahindra Q4 results",
+      "theme": null,
       "stocks": [
         {
           "name": "Tech Mahindra",
           "ticker": "TECHM.NS",
           "impact": "Bullish",
-          "reason": "Q4 results beat -> increased investor confidence -> stock price appreciation",
-          "quant": "EPS +15% YoY"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Strong earnings expectations -> increased demand for IT stocks -> stock price appreciation",
-          "quant": "revenue +8-10% Q3"
+          "reason": "In-line Q4 results -> higher profit and revenue -> increased investor confidence",
+          "quant": "+4%"
         }
       ],
-      "watch": "Infosys Q4 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tesla launches Model Y in India",
-      "theme": "electric_vehicles",
-      "stocks": [
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "Tesla launch -> increased competition and innovation in EV space -> potential for Tata Motors to gain market share",
-          "quant": "EV sales +20% YoY"
-        }
-      ],
-      "watch": "Tesla's market share in India"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Shriram Finance Q4 Results",
-      "theme": "NBFC_growth",
-      "stocks": [
-        {
-          "name": "Shriram Finance",
-          "ticker": "SHRIRAMFIN.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results beat -> increased investor confidence -> stock price appreciation",
-          "quant": "AUM +15% YoY"
-        }
-      ],
-      "watch": "Shriram Finance's asset quality"
+      "watch": "Q4 results of other IT companies"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "electric_vehicles"
+    "energy_inflation",
+    "it_earnings"
   ]
 }
