@@ -1,100 +1,93 @@
 {
   "date": "2026-04-23",
-  "time": "11:11",
-  "mood": "Bearish",
+  "time": "11:28",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Russia cuts oil output in April",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Crude oil prices crossing $100 per barrel",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Russia's oil output cut -> higher crude prices -> IOC's refining margins -150bps",
-          "quant": "-150bps"
+          "reason": "Rising crude oil prices -> increased input costs -> reduced margins by 100-150bps",
+          "quant": "-120bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Oil price surge -> higher input costs -> HINDPETRO's gross refining margins -120bps",
-          "quant": "-120bps"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Global supply concerns -> higher crude prices -> BPCL's marketing margins -100bps",
-          "quant": "-100bps"
+          "reason": "Higher crude prices -> lower refining margins -> revenue decline by 5-7%",
+          "quant": "-6%"
         }
       ],
-      "watch": "Brent crude price crossing $100/bbl"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "power",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Iran conflict escalation",
-      "theme": "energy security concerns",
+      "news_driver": "Adani Power shares soaring 44% in April",
+      "theme": "null",
       "stocks": [
         {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
-          "impact": "Bearish",
-          "reason": "Oil price surge -> higher fuel costs -> NTPC's power generation costs +8-10% Q3",
-          "quant": "+8-10%"
+          "name": "Adani Power",
+          "ticker": "ADANIPOWER.NS",
+          "impact": "Bullish",
+          "reason": "Increased power demand -> higher sales volume -> revenue growth of 10-12%",
+          "quant": "+11%"
         },
         {
           "name": "Power Grid Corporation",
           "ticker": "POWERGRID.NS",
-          "impact": "Bearish",
-          "reason": "Energy security concerns -> higher transmission costs -> POWERGRID's revenue -5% Q3",
-          "quant": "-5%"
+          "impact": "Neutral",
+          "reason": "Stable power demand -> consistent transmission volumes -> neutral impact on revenue",
+          "quant": "null"
         }
       ],
-      "watch": "Iran-US peace talks outcome"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Tech Mahindra deal wins & AI push",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Tech Mahindra",
-          "ticker": "TECHM.NS",
-          "impact": "Bullish",
-          "reason": "Deal wins & AI push -> revenue growth -> TECHM's order book +Rs400Cr",
-          "quant": "+Rs400Cr"
-        }
-      ],
-      "watch": "Tech Mahindra's management guidance"
+      "watch": "Temperature trends and power demand"
     },
     {
       "sector": "financial_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "HSBC downgrades India to 'underweight'",
-      "theme": "emerging market concerns",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Groww shares rally 14% in 3 days",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "HSBC downgrade -> foreign investor outflows -> HDFCBANK's NIM -20bps",
-          "quant": "-20bps"
+          "name": "Groww",
+          "ticker": "null",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased investor confidence -> potential valuation upside of 15-20%",
+          "quant": "+17.5%"
         }
       ],
-      "watch": "Foreign institutional investor flows"
+      "watch": "Fintech industry trends and valuations"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Crude oil prices crossing $100 per barrel",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Higher crude prices -> lower marketing margins -> revenue decline by 4-6%",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Crude oil price movement and marketing margins"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "energy security concerns"
+    "energy",
+    "power"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T11:11:20.998714+05:30",
+  "generated_at": "2026-04-23T11:28:13.539015+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -416,6 +416,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "POWERSYS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Motilal Oswal initiates 'Buy' with Rs 340 target",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
