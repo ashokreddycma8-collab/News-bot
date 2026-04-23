@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T11:28:13.539015+05:30",
+  "generated_at": "2026-04-23T12:59:29.293695+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -423,6 +423,30 @@
       "catalyst": "Motilal Oswal initiates 'Buy' with Rs 340 target",
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AMARAJABAT": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Lithium-Ion expansion plans",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "HAVELLS": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 results show demand concerns despite profit growth",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "FRCTAL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Crossed IPO mark for the first time since listing",
+      "category": "structural_change",
+      "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
