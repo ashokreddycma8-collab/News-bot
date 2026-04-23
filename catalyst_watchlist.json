@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T12:59:29.293695+05:30",
+  "generated_at": "2026-04-23T14:41:33.260952+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -448,6 +448,18 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "UNIONBANK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "announces dividend of Rs 5 per share",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "AMAZON": {
+      "note": "not listed on NSE",
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
