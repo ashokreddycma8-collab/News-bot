@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T14:41:33.260952+05:30",
+  "generated_at": "2026-04-23T16:15:07.785475+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -460,6 +460,22 @@
     "AMAZON": {
       "note": "not listed on NSE",
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "JKIL": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Rs 2,488 crore-worth order",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "TTML": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 results: profit of Rs 581 crore vs loss a year ago",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

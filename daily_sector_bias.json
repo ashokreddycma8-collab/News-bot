@@ -1,121 +1,68 @@
 {
   "date": "2026-04-23",
-  "time": "14:41",
+  "time": "16:15",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "HCL Tech's drag on Nifty and Infosys' awaited results",
+      "news_driver": "US-Iran peace talks uncertainty and S&P Global reducing 2026 oil demand forecast",
       "theme": "null",
       "stocks": [
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "HCL Tech's poor performance -> decreased investor confidence -> lower stock price",
-          "quant": "-3.5%"
+          "reason": "US-Iran conflict escalation -> higher crude prices -> IOC's refining margins -150bps",
+          "quant": "-150bps"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Awaited results -> potential earnings miss -> decreased investor sentiment",
-          "quant": "-2.2%"
-        },
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bearish",
-          "reason": "Industry-wide concerns -> decreased IT spending -> lower revenue growth",
-          "quant": "-1.8%"
+          "reason": "S&P Global reducing 2026 oil demand forecast -> lower refining utilization -> HPCL's revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Infosys' Q4 results announcement"
+      "watch": "Brent crude price level of $90"
     },
     {
-      "sector": "banking",
-      "direction": "Bearish",
+      "sector": "infra",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Union Bank of India's Q4 results",
+      "news_driver": "J Kumar Infraprojects receiving Rs 2,488 crore-worth order",
       "theme": "null",
       "stocks": [
         {
-          "name": "Union Bank of India",
-          "ticker": "UNIONBANK.NS",
-          "impact": "Bearish",
-          "reason": "Poor Q4 results -> increased provisions -> lower net profit",
-          "quant": "-5.5%"
-        },
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Industry-wide NII decline -> lower revenue growth -> decreased investor sentiment",
-          "quant": "-2.5%"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Increased provisioning requirements -> lower net profit -> decreased investor confidence",
-          "quant": "-2.1%"
+          "name": "J Kumar Infraprojects",
+          "ticker": "JKIL.NS",
+          "impact": "Bullish",
+          "reason": "Order book increase -> higher revenue visibility -> JKIL's order book +Rs400Cr",
+          "quant": "+Rs400Cr"
         }
       ],
-      "watch": "Upcoming banking sector results"
+      "watch": "JKIL's order book growth"
     },
     {
-      "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Arihant Capital's launch of Arihant Bharat Advantage Fund",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Arihant Capital",
-          "ticker": "null",
-          "impact": "Neutral",
-          "reason": "New fund launch -> increased AUM -> potential revenue growth",
-          "quant": "null"
-        }
-      ],
-      "watch": "Fund performance and AUM growth"
-    },
-    {
-      "sector": "consumer",
+      "sector": "telecom",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Amazon India's investment in associate well-being and operations network",
+      "news_driver": "Tata Teleservices Q4 results showing profit of Rs 581 crore",
       "theme": "null",
       "stocks": [
         {
-          "name": "Amazon India",
-          "ticker": "null",
+          "name": "Tata Teleservices",
+          "ticker": "TTML.NS",
           "impact": "Bullish",
-          "reason": "Increased investment -> improved operational efficiency -> higher revenue growth",
-          "quant": "null"
-        },
-        {
-          "name": "Blue Dart Express",
-          "ticker": "BLUEDART.NS",
-          "impact": "Bullish",
-          "reason": "Increased e-commerce demand -> higher logistics revenue -> improved profitability",
-          "quant": "+4.2%"
-        },
-        {
-          "name": "Mahindra Logistics",
-          "ticker": "MAHLOG.NS",
-          "impact": "Bullish",
-          "reason": "Growing e-commerce industry -> increased demand for logistics services -> higher revenue growth",
-          "quant": "+3.5%"
+          "reason": "Q4 profit beat -> improved financial health -> TTML's revenue +8-10% Q3",
+          "quant": "+8-10%"
         }
       ],
-      "watch": "E-commerce industry growth and logistics demand"
+      "watch": "TTML's Q3 revenue growth"
     }
   ],
   "themes": [
-    "defensive and quality themes",
-    "IT sector concerns"
+    "null"
   ]
 }
