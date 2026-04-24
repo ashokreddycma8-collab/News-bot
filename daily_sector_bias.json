@@ -1,107 +1,85 @@
 {
   "date": "2026-04-24",
-  "time": "09:00",
-  "mood": "Cautious",
+  "time": "11:16",
+  "mood": "Bearish",
   "sectors": [
-    {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "IT rout due to geopolitical jitters",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Geopolitical jitters -> decreased client spending -> revenue -5-7% Q2",
-          "quant": "-3.5%"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "IT rout -> decreased investor sentiment -> margins -100bps",
-          "quant": "-1.2%"
-        },
-        {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bearish",
-          "reason": "Global economic uncertainty -> decreased IT spending -> order book -Rs200Cr",
-          "quant": "-4.5%"
-        }
-      ],
-      "watch": "14000 level on Nifty"
-    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rising oil prices due to Iran war tensions",
-      "theme": null,
+      "news_driver": "Crude oil price surge above $106",
+      "theme": "null",
       "stocks": [
         {
-          "name": "IOCL",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price surge -> Increased input costs -> Quarterly profit fall",
+          "quant": "-10% Q4 profit"
+        },
+        {
+          "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> increased input costs -> margins -150bps",
-          "quant": "-2.5%"
-        },
-        {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Iran war tensions -> decreased refining margins -> revenue -8-10% Q2",
-          "quant": "-6.2%"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HPCL.NS",
-          "impact": "Bearish",
-          "reason": "Increased oil prices -> decreased consumer demand -> sales -5% Q2",
-          "quant": "-3.8%"
+          "reason": "Crude oil price surge -> Squeezed refining margins -> Reduced profitability",
+          "quant": "margins -150bps"
         }
       ],
-      "watch": "Crude oil price movement"
+      "watch": "Brent crude price level of $110"
     },
     {
-      "sector": "auto",
-      "direction": "Neutral",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Classic Legends launches Yezdi, BSA scramblers",
-      "theme": null,
+      "news_driver": "HCL Tech shares down 15%",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Classic Legends",
-          "ticker": "None",
-          "impact": "Bullish",
-          "reason": "New product launch -> increased sales -> revenue +10-12% Q2",
-          "quant": "+8%"
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "Stock price decline -> Reduced investor sentiment -> Potential further decline",
+          "quant": "-15% stock price in 3 days"
         }
       ],
-      "watch": "Classic Legends stock performance"
+      "watch": "HCL Tech stock price level of Rs 900"
     },
     {
-      "sector": "capital_markets",
+      "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Mehul Telecom shares to list today",
-      "theme": null,
+      "news_driver": "Axis Bank Q4 preview",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Mehul Telecom",
-          "ticker": "MEHULTELE.NS",
-          "impact": "Bullish",
-          "reason": "IPO listing -> increased investor interest -> stock price +5-7%",
-          "quant": "+5.5%"
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Neutral",
+          "reason": "Q4 preview -> Muted PAT growth -> Stable stock price",
+          "quant": "PAT growth 5-7% YoY"
         }
       ],
-      "watch": "Mehul Telecom IPO listing"
+      "watch": "Axis Bank Q4 results announcement"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Goldman Sachs downgrades Dr Reddy's",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Dr Reddy's Laboratories",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bearish",
+          "reason": "Downgrade -> Reduced investor sentiment -> Stock price decline",
+          "quant": "-2% stock price"
+        }
+      ],
+      "watch": "Dr Reddy's stock price level of Rs 4,500"
     }
   ],
   "themes": [
-    "geopolitical tensions",
-    "oil price volatility"
+    "null"
   ]
 }

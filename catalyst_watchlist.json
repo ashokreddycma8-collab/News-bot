@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T16:15:07.785475+05:30",
+  "generated_at": "2026-04-24T11:16:00.853394+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -362,12 +362,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "HCLTECH": {
-      "score": 5,
-      "direction": "BUY",
-      "catalyst": "HCL Tech Q4 Results: PAT up 4% YoY at Rs 4,488 cr",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "HCL Tech shares give Rs 59,000 crore shock in 3 days as stock down 15%",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "TATAELXSI": {
       "score": 7,
@@ -476,6 +476,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "DRREDDY": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Goldman Sachs downgrades Dr Reddy\u2019s shares",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "AXISBANK": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Axis Bank Q4 preview: PAT seen muted YoY; margin pressure persists",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
