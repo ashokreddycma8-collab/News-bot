@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T11:16:00.853394+05:30",
+  "generated_at": "2026-04-24T13:50:28.197326+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -492,6 +492,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "LUXIND": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "three-way demerger announced",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

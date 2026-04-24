@@ -1,85 +1,85 @@
 {
   "date": "2026-04-24",
-  "time": "11:16",
+  "time": "13:50",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Crude oil price surge above $106",
+      "news_driver": "Iran conflict and fuel price shock",
       "theme": "null",
       "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price surge -> Increased input costs -> Quarterly profit fall",
-          "quant": "-10% Q4 profit"
-        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Crude oil price surge -> Squeezed refining margins -> Reduced profitability",
-          "quant": "margins -150bps"
+          "reason": "Iran conflict -> higher crude prices -> lower IOC margins",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "fuel price shock -> lower demand -> reduced HPCL sales",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Brent crude price level of $110"
+      "watch": "Brent crude price crossing $100"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "fuel shock hitting airlines and passenger demand",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "InterGlobe Aviation",
+          "ticker": "INDIGO.NS",
+          "impact": "Bearish",
+          "reason": "fuel price shock -> higher operating costs -> lower Indigo profitability",
+          "quant": "profit -15%"
+        }
+      ],
+      "watch": "aviation turbine fuel prices"
     },
     {
       "sector": "it",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "HCL Tech shares down 15%",
+      "news_driver": "Nifty skids below 24,000",
       "theme": "null",
       "stocks": [
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Stock price decline -> Reduced investor sentiment -> Potential further decline",
-          "quant": "-15% stock price in 3 days"
+          "reason": "market downturn -> lower IT spending -> reduced Infosys revenue",
+          "quant": "revenue -3%"
         }
       ],
-      "watch": "HCL Tech stock price level of Rs 900"
+      "watch": "Nifty levels"
     },
     {
       "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Axis Bank Q4 preview",
-      "theme": "null",
+      "news_driver": "IDBI Bank stake sale process",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Neutral",
-          "reason": "Q4 preview -> Muted PAT growth -> Stable stock price",
-          "quant": "PAT growth 5-7% YoY"
+          "name": "IDBI Bank",
+          "ticker": "IDBI.NS",
+          "impact": "Bullish",
+          "reason": "stake sale process -> potential investor interest -> higher IDBI stock price",
+          "quant": "+5%"
         }
       ],
-      "watch": "Axis Bank Q4 results announcement"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Goldman Sachs downgrades Dr Reddy's",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Dr Reddy's Laboratories",
-          "ticker": "DRREDDY.NS",
-          "impact": "Bearish",
-          "reason": "Downgrade -> Reduced investor sentiment -> Stock price decline",
-          "quant": "-2% stock price"
-        }
-      ],
-      "watch": "Dr Reddy's stock price level of Rs 4,500"
+      "watch": "IDBI Bank stake sale updates"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
