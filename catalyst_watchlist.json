@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T15:28:31.892062+05:30",
+  "generated_at": "2026-04-24T16:34:21.058361+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -521,6 +521,38 @@
       "score": 5,
       "direction": "BUY",
       "catalyst": "Annual GDP crosses Rs 15,000 crore for first time, PAT jumps 8.7% YoY in FY26",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ALKEM": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "CEO Dr. Vikas Gupta resigns",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CHALET": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "to acquire 144-room Udaipur resort for Rs 171 crore",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ZENSARTECH": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Approves Highest-Ever Dividend",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SHRIRAMFIN": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Profit Jumps 41%, Final Dividend Declared",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"

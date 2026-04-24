@@ -1,79 +1,85 @@
 {
   "date": "2026-04-24",
-  "time": "15:28",
-  "mood": "Cautious",
+  "time": "16:34",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "West Asia crisis",
+      "news_driver": "Firm trend in crude oil prices",
       "theme": "null",
       "stocks": [
         {
           "name": "Reliance Industries",
           "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "West Asia crisis -> disruption in global oil supply -> decrease in refining margins",
+          "reason": "Rise in crude oil prices -> increase in input costs -> decrease in refining margins",
+          "quant": "-100bps"
+        },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Increase in crude oil prices -> higher input costs -> lower profitability",
+          "quant": "-120bps"
+        }
+      ],
+      "watch": "Brent crude oil price level of $90"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Alkem Labs CEO resignation",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Alkem Laboratories",
+          "ticker": "ALKEM.NS",
+          "impact": "Bearish",
+          "reason": "CEO resignation -> leadership uncertainty -> potential disruption in business operations",
           "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Alkem Labs stock price level of Rs 3000"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "FM Sitharaman's statement on AI threats",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "FM Sitharaman's statement -> increased focus on cybersecurity -> potential increase in IT spending",
-          "quant": "+50bps"
-        }
-      ],
-      "watch": "SBI's IT spending plans"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Adani Green Q4 Results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
-          "impact": "Bullish",
-          "reason": "Adani Green Q4 Results -> strong revenue growth -> increase in investor confidence",
-          "quant": "+10%"
-        }
-      ],
-      "watch": "Adani Green's future project pipeline"
-    },
-    {
-      "sector": "metal",
+      "sector": "it",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Hindustan Zinc Q4 Results",
+      "conviction": 1,
+      "news_driver": "Market sentiment",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
-          "impact": "Bearish",
-          "reason": "Hindustan Zinc Q4 Results -> high base effect -> potential decrease in future profitability",
-          "quant": "-8%"
+          "name": "Zensar Technologies",
+          "ticker": "ZENSARTECH.NS",
+          "impact": "Neutral",
+          "reason": "Highest-ever dividend approval -> positive investor sentiment -> potential stock price appreciation",
+          "quant": "+2%"
         }
       ],
-      "watch": "Zinc price movement"
+      "watch": "Nifty IT index level of 30000"
+    },
+    {
+      "sector": "hospitality",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Chalet Hotels acquisition",
+      "theme": "tourism_hospitality",
+      "stocks": [
+        {
+          "name": "Chalet Hotels",
+          "ticker": "CHALET.NS",
+          "impact": "Bullish",
+          "reason": "Acquisition of Udaipur resort -> expansion of hotel portfolio -> potential increase in revenue",
+          "quant": "+8%"
+        }
+      ],
+      "watch": "Chalet Hotels stock price level of Rs 400"
     }
   ],
   "themes": [
-    "renewable energy",
-    "banking sector"
+    "tourism_hospitality"
   ]
 }
