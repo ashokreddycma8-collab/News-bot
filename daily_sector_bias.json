@@ -1,85 +1,79 @@
 {
   "date": "2026-04-24",
-  "time": "13:50",
-  "mood": "Bearish",
+  "time": "15:28",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran conflict and fuel price shock",
+      "news_driver": "West Asia crisis",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "Iran conflict -> higher crude prices -> lower IOC margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "fuel price shock -> lower demand -> reduced HPCL sales",
-          "quant": "revenue -5%"
+          "reason": "West Asia crisis -> disruption in global oil supply -> decrease in refining margins",
+          "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price crossing $100"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "fuel shock hitting airlines and passenger demand",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "InterGlobe Aviation",
-          "ticker": "INDIGO.NS",
-          "impact": "Bearish",
-          "reason": "fuel price shock -> higher operating costs -> lower Indigo profitability",
-          "quant": "profit -15%"
-        }
-      ],
-      "watch": "aviation turbine fuel prices"
-    },
-    {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Nifty skids below 24,000",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "market downturn -> lower IT spending -> reduced Infosys revenue",
-          "quant": "revenue -3%"
-        }
-      ],
-      "watch": "Nifty levels"
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "IDBI Bank stake sale process",
-      "theme": "PSU_rotation",
+      "news_driver": "FM Sitharaman's statement on AI threats",
+      "theme": "null",
       "stocks": [
         {
-          "name": "IDBI Bank",
-          "ticker": "IDBI.NS",
-          "impact": "Bullish",
-          "reason": "stake sale process -> potential investor interest -> higher IDBI stock price",
-          "quant": "+5%"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "FM Sitharaman's statement -> increased focus on cybersecurity -> potential increase in IT spending",
+          "quant": "+50bps"
         }
       ],
-      "watch": "IDBI Bank stake sale updates"
+      "watch": "SBI's IT spending plans"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Adani Green Q4 Results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "Adani Green Q4 Results -> strong revenue growth -> increase in investor confidence",
+          "quant": "+10%"
+        }
+      ],
+      "watch": "Adani Green's future project pipeline"
+    },
+    {
+      "sector": "metal",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Hindustan Zinc Q4 Results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Hindustan Zinc",
+          "ticker": "HINDZINC.NS",
+          "impact": "Bearish",
+          "reason": "Hindustan Zinc Q4 Results -> high base effect -> potential decrease in future profitability",
+          "quant": "-8%"
+        }
+      ],
+      "watch": "Zinc price movement"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "renewable energy",
+    "banking sector"
   ]
 }
