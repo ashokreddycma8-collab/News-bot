@@ -1,93 +1,107 @@
 {
-  "date": "2026-04-23",
-  "time": "16:35",
-  "mood": "Bearish",
+  "date": "2026-04-24",
+  "time": "09:00",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee bogged down in worst losing streak in 3 months as oil pain persists",
-      "theme": "OMC_pressure",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased input costs -> margins -150bps",
-          "quant": "-150bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Weakening rupee -> higher import costs -> revenue -5%",
-          "quant": "-5%"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Increased oil prices -> higher working capital requirements -> interest costs +10%",
-          "quant": "+10%"
-        }
-      ],
-      "watch": "Brent crude price crossing $95"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Infosys Q4 Results Live Updates: Infosys Shares End Over 2% Lower Ahead Of Results",
+      "news_driver": "IT rout due to geopolitical jitters",
       "theme": null,
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results anticipation -> mixed expectations -> stock price volatility",
-          "quant": "null"
-        }
-      ],
-      "watch": "Infosys Q4 results announcement"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "FM Sitharaman Chairs Meeting On Mythos Impact On Indian Fintech Ecosystem: Sources",
-      "theme": "fintech_regulation",
-      "stocks": [
+          "impact": "Bearish",
+          "reason": "Geopolitical jitters -> decreased client spending -> revenue -5-7% Q2",
+          "quant": "-3.5%"
+        },
         {
-          "name": "Paytm",
-          "ticker": "PAYTM.NS",
-          "impact": "Neutral",
-          "reason": "Mythos impact assessment -> regulatory clarity -> business model adjustments",
-          "quant": "null"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "IT rout -> decreased investor sentiment -> margins -100bps",
+          "quant": "-1.2%"
+        },
+        {
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "Global economic uncertainty -> decreased IT spending -> order book -Rs200Cr",
+          "quant": "-4.5%"
         }
       ],
-      "watch": "Government stance on Mythos and fintech regulations"
+      "watch": "14000 level on Nifty"
     },
     {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee bogged down in worst losing streak in 3 months as oil pain persists",
-      "theme": "renewable_energy_lag",
+      "news_driver": "Rising oil prices due to Iran war tensions",
+      "theme": null,
       "stocks": [
         {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
+          "name": "IOCL",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Increased oil prices -> higher energy costs -> profitability -8%",
-          "quant": "-8%"
+          "reason": "Rising oil prices -> increased input costs -> margins -150bps",
+          "quant": "-2.5%"
+        },
+        {
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Iran war tensions -> decreased refining margins -> revenue -8-10% Q2",
+          "quant": "-6.2%"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HPCL.NS",
+          "impact": "Bearish",
+          "reason": "Increased oil prices -> decreased consumer demand -> sales -5% Q2",
+          "quant": "-3.8%"
         }
       ],
-      "watch": "Renewable energy sector growth announcements"
+      "watch": "Crude oil price movement"
+    },
+    {
+      "sector": "auto",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Classic Legends launches Yezdi, BSA scramblers",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Classic Legends",
+          "ticker": "None",
+          "impact": "Bullish",
+          "reason": "New product launch -> increased sales -> revenue +10-12% Q2",
+          "quant": "+8%"
+        }
+      ],
+      "watch": "Classic Legends stock performance"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Mehul Telecom shares to list today",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Mehul Telecom",
+          "ticker": "MEHULTELE.NS",
+          "impact": "Bullish",
+          "reason": "IPO listing -> increased investor interest -> stock price +5-7%",
+          "quant": "+5.5%"
+        }
+      ],
+      "watch": "Mehul Telecom IPO listing"
     }
   ],
   "themes": [
-    "OMC_pressure",
-    "fintech_regulation"
+    "geopolitical tensions",
+    "oil price volatility"
   ]
 }
