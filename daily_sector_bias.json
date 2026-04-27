@@ -1,107 +1,79 @@
 {
   "date": "2026-04-27",
-  "time": "11:43",
+  "time": "14:13",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Axis Bank frontloading FY27 provisions amid West Asia war uncertainty",
+      "news_driver": "RBL Bank Q4 earnings",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bearish",
-          "reason": "West Asia war uncertainty -> increased provisioning requirements -> reduced profitability",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "IDFC First Bank",
-          "ticker": "IDFCFIRSTB.NS",
-          "impact": "Bearish",
-          "reason": "War-induced economic uncertainty -> decreased lending growth -> lower revenue",
-          "quant": "revenue -5%"
-        },
-        {
-          "name": "UCO Bank",
-          "ticker": "UCOBANK.NS",
-          "impact": "Bearish",
-          "reason": "Geopolitical tensions -> increased risk aversion -> reduced investor appetite",
-          "quant": "price target -8%"
-        }
-      ],
-      "watch": "Axis Bank's Q4 results and management commentary on provisioning"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sun Pharma to acquire US drugmaker Organon for $11.75 billion",
-      "theme": "China+1",
-      "stocks": [
-        {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Bullish",
-          "reason": "Organon acquisition -> expanded product portfolio -> increased revenue",
-          "quant": "revenue +12% Q3"
-        },
-        {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
-          "impact": "Neutral",
-          "reason": "No direct impact from Sun Pharma's acquisition",
-          "quant": "null"
-        }
-      ],
-      "watch": "Sun Pharma's Q4 results and update on Organon integration"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q4 Results Today Highlights: India Cements, RBL Bank, SBFC Finance announce Q4 results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "India Cements",
-          "ticker": "INDIACEM.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> improved profitability -> increased investor confidence",
-          "quant": "net profit +300% YoY"
-        },
-        {
           "name": "RBL Bank",
           "ticker": "RBLBANK.NS",
+          "impact": "Bearish",
+          "reason": "RBL Bank's Q4 net profit jump of 3x -> failing to impress investors due to high provisions and asset quality concerns -> negatively impacting stock price",
+          "quant": "margins -100bps"
+        }
+      ],
+      "watch": "RBL Bank's management commentary on asset quality"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Varun Beverages Q1 Results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Varun Beverages",
+          "ticker": "VBL.NS",
+          "impact": "Bullish",
+          "reason": "Varun Beverages' 20% YoY cons profit jump -> driven by strong volume growth and pricing power -> increasing revenue and profitability",
+          "quant": "revenue +18% YoY"
+        }
+      ],
+      "watch": "Varun Beverages' Q2 volume growth"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Paytm Payments Bank news",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "One97 Communications (Paytm)",
+          "ticker": "PAYTM.NS",
           "impact": "Neutral",
-          "reason": "Q4 results in line with expectations -> no significant impact",
+          "reason": "Paytm Payments Bank's reported issues -> potentially impacting Paytm's payment business -> no significant impact on overall financials due to diversified revenue streams",
           "quant": "null"
         }
       ],
-      "watch": "India Cements' Q4 results and management commentary on demand outlook"
+      "watch": "Paytm's Q2 payment business growth"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "energy",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Rajesh Palviya's advice to avoid IT sector",
-      "theme": "null",
+      "news_driver": "Global market news",
+      "theme": null,
       "stocks": [
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Rajesh Palviya's advice -> decreased investor appetite -> lower stock price",
-          "quant": "price target -4%"
+          "name": "Coal India",
+          "ticker": "COALINDIA.NS",
+          "impact": "Neutral",
+          "reason": "Global market volatility -> potentially impacting coal prices -> no significant impact on Coal India's Q4 earnings",
+          "quant": "null"
         }
       ],
-      "watch": "TCS's Q4 results and management commentary on demand outlook"
+      "watch": "Coal India's Q4 earnings release"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "internet_digital"
   ]
 }
