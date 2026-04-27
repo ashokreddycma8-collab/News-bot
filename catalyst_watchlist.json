@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T16:34:21.058361+05:30",
+  "generated_at": "2026-04-27T11:43:16.038606+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -512,7 +512,7 @@
     "HINDZINC": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 Results: Cons PAT surges 68% YoY to Rs 5,033 crore; Rs 11/share dividend declared",
+      "catalyst": "Q4 profit jumps 68% YoY, announces interim dividend",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -552,10 +552,18 @@
     "SHRIRAMFIN": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Q4 Results: Profit Jumps 41%, Final Dividend Declared",
-      "category": "earnings_beat",
+      "catalyst": "Strong Q4 results, Nomura and other brokerages maintain 'Buy' call",
+      "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "INDIACEM": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit rockets 300%, revenue up 3%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

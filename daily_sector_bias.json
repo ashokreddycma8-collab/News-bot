@@ -1,85 +1,107 @@
 {
-  "date": "2026-04-24",
-  "time": "16:34",
-  "mood": "Bearish",
+  "date": "2026-04-27",
+  "time": "11:43",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Firm trend in crude oil prices",
-      "theme": "null",
+      "news_driver": "Axis Bank frontloading FY27 provisions amid West Asia war uncertainty",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
           "impact": "Bearish",
-          "reason": "Rise in crude oil prices -> increase in input costs -> decrease in refining margins",
-          "quant": "-100bps"
+          "reason": "West Asia war uncertainty -> increased provisioning requirements -> reduced profitability",
+          "quant": "margins -100bps"
         },
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "IDFC First Bank",
+          "ticker": "IDFCFIRSTB.NS",
           "impact": "Bearish",
-          "reason": "Increase in crude oil prices -> higher input costs -> lower profitability",
-          "quant": "-120bps"
+          "reason": "War-induced economic uncertainty -> decreased lending growth -> lower revenue",
+          "quant": "revenue -5%"
+        },
+        {
+          "name": "UCO Bank",
+          "ticker": "UCOBANK.NS",
+          "impact": "Bearish",
+          "reason": "Geopolitical tensions -> increased risk aversion -> reduced investor appetite",
+          "quant": "price target -8%"
         }
       ],
-      "watch": "Brent crude oil price level of $90"
+      "watch": "Axis Bank's Q4 results and management commentary on provisioning"
     },
     {
       "sector": "pharma",
-      "direction": "Bearish",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Sun Pharma to acquire US drugmaker Organon for $11.75 billion",
+      "theme": "China+1",
+      "stocks": [
+        {
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Organon acquisition -> expanded product portfolio -> increased revenue",
+          "quant": "revenue +12% Q3"
+        },
+        {
+          "name": "Hindustan Zinc",
+          "ticker": "HINDZINC.NS",
+          "impact": "Neutral",
+          "reason": "No direct impact from Sun Pharma's acquisition",
+          "quant": "null"
+        }
+      ],
+      "watch": "Sun Pharma's Q4 results and update on Organon integration"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Alkem Labs CEO resignation",
+      "news_driver": "Q4 Results Today Highlights: India Cements, RBL Bank, SBFC Finance announce Q4 results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Alkem Laboratories",
-          "ticker": "ALKEM.NS",
-          "impact": "Bearish",
-          "reason": "CEO resignation -> leadership uncertainty -> potential disruption in business operations",
-          "quant": "-5%"
+          "name": "India Cements",
+          "ticker": "INDIACEM.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> improved profitability -> increased investor confidence",
+          "quant": "net profit +300% YoY"
+        },
+        {
+          "name": "RBL Bank",
+          "ticker": "RBLBANK.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results in line with expectations -> no significant impact",
+          "quant": "null"
         }
       ],
-      "watch": "Alkem Labs stock price level of Rs 3000"
+      "watch": "India Cements' Q4 results and management commentary on demand outlook"
     },
     {
       "sector": "it",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Market sentiment",
+      "news_driver": "Rajesh Palviya's advice to avoid IT sector",
       "theme": "null",
       "stocks": [
         {
-          "name": "Zensar Technologies",
-          "ticker": "ZENSARTECH.NS",
-          "impact": "Neutral",
-          "reason": "Highest-ever dividend approval -> positive investor sentiment -> potential stock price appreciation",
-          "quant": "+2%"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Rajesh Palviya's advice -> decreased investor appetite -> lower stock price",
+          "quant": "price target -4%"
         }
       ],
-      "watch": "Nifty IT index level of 30000"
-    },
-    {
-      "sector": "hospitality",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Chalet Hotels acquisition",
-      "theme": "tourism_hospitality",
-      "stocks": [
-        {
-          "name": "Chalet Hotels",
-          "ticker": "CHALET.NS",
-          "impact": "Bullish",
-          "reason": "Acquisition of Udaipur resort -> expansion of hotel portfolio -> potential increase in revenue",
-          "quant": "+8%"
-        }
-      ],
-      "watch": "Chalet Hotels stock price level of Rs 400"
+      "watch": "TCS's Q4 results and management commentary on demand outlook"
     }
   ],
   "themes": [
-    "tourism_hospitality"
+    "PSU_rotation",
+    "China+1"
   ]
 }
