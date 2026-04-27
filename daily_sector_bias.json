@@ -1,93 +1,79 @@
 {
   "date": "2026-04-27",
-  "time": "16:05",
-  "mood": "Cautious",
+  "time": "17:12",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Oil up almost 3% as US-Iran peace talks stall",
-      "theme": "OMC margin squeeze",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Oil price surge -> increased crude costs -> margins -150bps",
-          "quant": "-150bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Oil price surge -> increased crude costs -> revenue -5%",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Brent crude price level of $95"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tata Steel, JSW Steel or Jindal Stainless? Jefferies, Goldman Sachs bullish on these steel stocks",
-      "theme": "Steel sector revival",
-      "stocks": [
-        {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bullish",
-          "reason": "Brokerage upgrades -> increased investor confidence -> stock price +8%",
-          "quant": "+8%"
-        },
-        {
-          "name": "JSW Steel",
-          "ticker": "JSWSTEEL.NS",
-          "impact": "Bullish",
-          "reason": "Brokerage upgrades -> increased investor confidence -> order book +Rs400Cr",
-          "quant": "+Rs400Cr"
-        }
-      ],
-      "watch": "Q4 earnings release of Tata Steel"
-    },
     {
       "sector": "cement",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "UltraTech Cement Q4 Results: Profit rises 20% YoY to Rs 2,983 crore; co declares Rs 240/share dividend",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "UltraTech Cement Q4 profit in-line with forecast",
+      "theme": "null",
       "stocks": [
         {
           "name": "UltraTech Cement",
           "ticker": "ULTRACEMCO.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> stock price +4%",
-          "quant": "+4%"
+          "reason": "Q4 profit in-line with forecast -> reassuring investors about company's growth prospects -> increased investor confidence",
+          "quant": "revenue +5-7% Q1"
         }
       ],
-      "watch": "Dividend payout date of UltraTech Cement"
+      "watch": "UltraTech Cement's upcoming management commentary"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Iran war disrupts the circuit board supply chain, raises costs for tech firms",
-      "theme": null,
+      "sector": "capital_goods",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Power Mech bags \u20b9228 cr order from Indian Railways",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Supply chain disruption -> increased costs -> margins -50bps",
-          "quant": "-50bps"
+          "name": "Power Mech Projects",
+          "ticker": "POWERMECH.NS",
+          "impact": "Bullish",
+          "reason": "\u20b9228 cr order from Indian Railways -> increased order book and revenue visibility -> improved profitability",
+          "quant": "order book +\u20b9228Cr"
         }
       ],
-      "watch": "Q1 earnings release of Infosys"
+      "watch": "Power Mech's order book growth"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Sterling Tools jumps 6% on ARAS deal with China\u2019s Nanjing Haohang",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Sterling Tools",
+          "ticker": "STERTOOLS.NS",
+          "impact": "Bullish",
+          "reason": "ARAS deal with China\u2019s Nanjing Haohang -> increased exports and revenue growth -> improved profitability",
+          "quant": "revenue +4-6% Q2"
+        }
+      ],
+      "watch": "Sterling Tools' export growth"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "India-New Zealand free trade agreement",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Britannia Industries",
+          "ticker": "BRITANNIA.NS",
+          "impact": "Bullish",
+          "reason": "India-New Zealand free trade agreement -> increased exports and revenue growth -> improved profitability",
+          "quant": "revenue +3-5% Q1"
+        }
+      ],
+      "watch": "Britannia Industries' export growth"
     }
   ],
   "themes": [
-    "Steel sector revival",
-    "OMC margin squeeze"
+    "India-New Zealand free trade agreement",
+    "Q4 earnings season"
   ]
 }
