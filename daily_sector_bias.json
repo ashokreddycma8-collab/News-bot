@@ -1,79 +1,93 @@
 {
   "date": "2026-04-27",
-  "time": "14:13",
+  "time": "16:05",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "RBL Bank Q4 earnings",
-      "theme": "PSU_rotation",
+      "news_driver": "Oil up almost 3% as US-Iran peace talks stall",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "RBL Bank",
-          "ticker": "RBLBANK.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "RBL Bank's Q4 net profit jump of 3x -> failing to impress investors due to high provisions and asset quality concerns -> negatively impacting stock price",
-          "quant": "margins -100bps"
+          "reason": "Oil price surge -> increased crude costs -> margins -150bps",
+          "quant": "-150bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Oil price surge -> increased crude costs -> revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "RBL Bank's management commentary on asset quality"
+      "watch": "Brent crude price level of $95"
     },
     {
-      "sector": "fmcg",
+      "sector": "metal",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Tata Steel, JSW Steel or Jindal Stainless? Jefferies, Goldman Sachs bullish on these steel stocks",
+      "theme": "Steel sector revival",
+      "stocks": [
+        {
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
+          "impact": "Bullish",
+          "reason": "Brokerage upgrades -> increased investor confidence -> stock price +8%",
+          "quant": "+8%"
+        },
+        {
+          "name": "JSW Steel",
+          "ticker": "JSWSTEEL.NS",
+          "impact": "Bullish",
+          "reason": "Brokerage upgrades -> increased investor confidence -> order book +Rs400Cr",
+          "quant": "+Rs400Cr"
+        }
+      ],
+      "watch": "Q4 earnings release of Tata Steel"
+    },
+    {
+      "sector": "cement",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Varun Beverages Q1 Results",
+      "news_driver": "UltraTech Cement Q4 Results: Profit rises 20% YoY to Rs 2,983 crore; co declares Rs 240/share dividend",
       "theme": null,
       "stocks": [
         {
-          "name": "Varun Beverages",
-          "ticker": "VBL.NS",
+          "name": "UltraTech Cement",
+          "ticker": "ULTRACEMCO.NS",
           "impact": "Bullish",
-          "reason": "Varun Beverages' 20% YoY cons profit jump -> driven by strong volume growth and pricing power -> increasing revenue and profitability",
-          "quant": "revenue +18% YoY"
+          "reason": "Strong Q4 results -> increased investor confidence -> stock price +4%",
+          "quant": "+4%"
         }
       ],
-      "watch": "Varun Beverages' Q2 volume growth"
+      "watch": "Dividend payout date of UltraTech Cement"
     },
     {
-      "sector": "financial_services",
-      "direction": "Neutral",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Paytm Payments Bank news",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "One97 Communications (Paytm)",
-          "ticker": "PAYTM.NS",
-          "impact": "Neutral",
-          "reason": "Paytm Payments Bank's reported issues -> potentially impacting Paytm's payment business -> no significant impact on overall financials due to diversified revenue streams",
-          "quant": "null"
-        }
-      ],
-      "watch": "Paytm's Q2 payment business growth"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Global market news",
+      "news_driver": "Iran war disrupts the circuit board supply chain, raises costs for tech firms",
       "theme": null,
       "stocks": [
         {
-          "name": "Coal India",
-          "ticker": "COALINDIA.NS",
-          "impact": "Neutral",
-          "reason": "Global market volatility -> potentially impacting coal prices -> no significant impact on Coal India's Q4 earnings",
-          "quant": "null"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "Supply chain disruption -> increased costs -> margins -50bps",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Coal India's Q4 earnings release"
+      "watch": "Q1 earnings release of Infosys"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "Steel sector revival",
+    "OMC margin squeeze"
   ]
 }

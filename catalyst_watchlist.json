@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T14:13:54.508939+05:30",
+  "generated_at": "2026-04-27T16:05:05.325379+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -577,6 +577,22 @@
       "score": 6,
       "direction": "BUY",
       "catalyst": "Q1 cons profit jumps 20% YoY to Rs 879 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AYE": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit jumps over 2-fold to Rs 86 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ULTRACEMCO": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 profit rises 20% YoY to Rs 2,983 crore; declares Rs 240/share dividend",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
