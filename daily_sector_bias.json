@@ -1,79 +1,86 @@
 {
-  "date": "2026-04-27",
-  "time": "17:12",
-  "mood": "Bullish",
+  "date": "2026-04-28",
+  "time": "11:46",
+  "mood": "Mixed",
   "sectors": [
     {
-      "sector": "cement",
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Q4 earnings",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bearish",
+          "reason": "Weak Q4 earnings -> higher provisioning requirements -> margins -100bps",
+          "quant": "-1.5%"
+        },
+        {
+          "name": "City Union Bank",
+          "ticker": "CUB.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 profit growth -> improved asset quality -> revenue +12% Q3",
+          "quant": "12%"
+        }
+      ],
+      "watch": "Axis Bank's upcoming management commentary"
+    },
+    {
+      "sector": "pharma",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "UltraTech Cement Q4 profit in-line with forecast",
-      "theme": "null",
+      "news_driver": "Q4 earnings",
+      "theme": null,
       "stocks": [
         {
-          "name": "UltraTech Cement",
-          "ticker": "ULTRACEMCO.NS",
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Q4 profit in-line with forecast -> reassuring investors about company's growth prospects -> increased investor confidence",
-          "quant": "revenue +5-7% Q1"
+          "reason": "Strong Q4 earnings -> improved product mix -> margins +150bps",
+          "quant": "150bps"
         }
       ],
-      "watch": "UltraTech Cement's upcoming management commentary"
+      "watch": "Sun Pharma's product pipeline updates"
     },
     {
-      "sector": "capital_goods",
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Surging oil prices",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Adani Total Gas",
+          "ticker": "ATGL.NS",
+          "impact": "Bullish",
+          "reason": "Q4 results and dividend announcement -> improved investor sentiment -> stock price +8%",
+          "quant": "8%"
+        }
+      ],
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Power Mech bags \u20b9228 cr order from Indian Railways",
-      "theme": "null",
+      "news_driver": "Q4 earnings",
+      "theme": null,
       "stocks": [
         {
-          "name": "Power Mech Projects",
-          "ticker": "POWERMECH.NS",
+          "name": "Nippon Life AMC",
+          "ticker": "NIPPONLIFE.NS",
           "impact": "Bullish",
-          "reason": "\u20b9228 cr order from Indian Railways -> increased order book and revenue visibility -> improved profitability",
-          "quant": "order book +\u20b9228Cr"
+          "reason": "Strong Q4 profit growth -> improved asset under management -> revenue +20% Q3",
+          "quant": "20%"
         }
       ],
-      "watch": "Power Mech's order book growth"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Sterling Tools jumps 6% on ARAS deal with China\u2019s Nanjing Haohang",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Sterling Tools",
-          "ticker": "STERTOOLS.NS",
-          "impact": "Bullish",
-          "reason": "ARAS deal with China\u2019s Nanjing Haohang -> increased exports and revenue growth -> improved profitability",
-          "quant": "revenue +4-6% Q2"
-        }
-      ],
-      "watch": "Sterling Tools' export growth"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India-New Zealand free trade agreement",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Britannia Industries",
-          "ticker": "BRITANNIA.NS",
-          "impact": "Bullish",
-          "reason": "India-New Zealand free trade agreement -> increased exports and revenue growth -> improved profitability",
-          "quant": "revenue +3-5% Q1"
-        }
-      ],
-      "watch": "Britannia Industries' export growth"
+      "watch": "Nippon Life AMC's asset under management growth"
     }
   ],
   "themes": [
-    "India-New Zealand free trade agreement",
-    "Q4 earnings season"
+    "PSU_rotation",
+    "Q4_earnings"
   ]
 }
