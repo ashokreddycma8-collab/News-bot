@@ -1,68 +1,85 @@
 {
   "date": "2026-04-28",
-  "time": "14:11",
+  "time": "16:04",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "realty",
-      "direction": "Bullish",
+      "sector": "auto",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Blackstone-backed Bagmane Prime Office REIT to launch Rs 3,405-cr IPO on May 5",
-      "theme": "REIT expansion",
+      "news_driver": "Maruti Suzuki Q4 Results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Embassy Office Parks REIT",
-          "ticker": "EMBASSY.NS",
-          "impact": "Bullish",
-          "reason": "IPO announcement of competitor Bagmane Prime Office REIT -> increased investor interest in REITs -> potential upside for Embassy Office Parks REIT",
-          "quant": "distribution to unitholders +10% to Rs 2,394 cr"
+          "name": "Maruti Suzuki India",
+          "ticker": "MARUTI.NS",
+          "impact": "Bearish",
+          "reason": "Maruti Suzuki's Q4 profit drop -> margin pressure due to high input costs -> negative impact on stock price",
+          "quant": "-5% revenue growth in Q1"
         },
         {
-          "name": "Prestige Estates Projects",
-          "ticker": "PRESTIGE.NS",
-          "impact": "Bullish",
-          "reason": "REIT IPO announcement -> increased demand for commercial real estate -> potential revenue growth for Prestige Estates Projects",
-          "quant": "revenue +5-7% Q3"
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "Maruti Suzuki's margin pressure -> industry-wide concern on input costs -> potential decline in Tata Motors' stock",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "IPO subscription numbers for Bagmane Prime Office REIT"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tata Steel shares jump 2% to fresh record high",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bullish",
-          "reason": "Record high share price -> increased investor confidence -> potential upside for Tata Steel",
-          "quant": "margins +50bps"
-        }
-      ],
-      "watch": "Q3 earnings report for Tata Steel"
+      "watch": "Maruti Suzuki's stock price movement after dividend announcement"
     },
     {
       "sector": "banking",
-      "direction": "Bearish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Nifty slides to 24,032 at noon; ONGC, Coal India surge as Banks drag",
-      "theme": null,
+      "news_driver": "ECL norms from April 2027",
+      "theme": "null",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Sectoral drag -> decreased investor interest -> potential downside for State Bank of India",
-          "quant": "margins -100bps"
+          "impact": "Neutral",
+          "reason": "ECL norms implementation -> preparedness of Indian banks -> no significant impact on SBI's stock",
+          "quant": "null"
         }
       ],
-      "watch": "PSU bank Q3 earnings reports"
+      "watch": "April 2027 ECL norms implementation"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Bagmane Prime Office REIT IPO",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "DLF",
+          "ticker": "DLF.NS",
+          "impact": "Bullish",
+          "reason": "Bagmane Prime Office REIT IPO -> increased investor interest in real estate -> potential upside in DLF's stock",
+          "quant": "+5% revenue growth in Q2"
+        }
+      ],
+      "watch": "Bagmane Prime Office REIT IPO subscription numbers"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "India's power market entering a storage-led transformation phase",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Power",
+          "ticker": "TATAPOWER.NS",
+          "impact": "Bullish",
+          "reason": "India's power market transformation -> increased demand for energy storage solutions -> potential growth in Tata Power's revenue",
+          "quant": "+10% order book growth"
+        }
+      ],
+      "watch": "Government's energy storage policy announcements"
     }
   ],
   "themes": [
-    "REIT expansion"
+    "null"
   ]
 }
