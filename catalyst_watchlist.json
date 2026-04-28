@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T16:04:41.191012+05:30",
+  "generated_at": "2026-04-28T17:13:34.219489+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -671,11 +671,19 @@
     },
     "MARUTI": {
       "score": 5,
-      "direction": "NEUTRAL",
-      "catalyst": "Q4 Results: Standalone profit drops 7% YoY to Rs 3,591 crore despite 28% revenue growth",
+      "direction": "SELL",
+      "catalyst": "6.45% fall in Q4 net profit",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "ZOMATO": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "346% YoY profit surge in Q4 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

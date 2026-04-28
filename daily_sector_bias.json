@@ -1,82 +1,75 @@
 {
   "date": "2026-04-28",
-  "time": "16:04",
+  "time": "17:13",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "auto",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Maruti Suzuki Q4 Results",
+      "news_driver": "Maruti Suzuki Q4 net profit falls 6.45%",
       "theme": "null",
       "stocks": [
         {
-          "name": "Maruti Suzuki India",
+          "name": "Maruti Suzuki",
           "ticker": "MARUTI.NS",
           "impact": "Bearish",
-          "reason": "Maruti Suzuki's Q4 profit drop -> margin pressure due to high input costs -> negative impact on stock price",
-          "quant": "-5% revenue growth in Q1"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bearish",
-          "reason": "Maruti Suzuki's margin pressure -> industry-wide concern on input costs -> potential decline in Tata Motors' stock",
-          "quant": "margins -100bps"
+          "reason": "Maruti Suzuki's Q4 net profit decline -> lower-than-expected sales volume and higher input costs -> revenue and margin contraction",
+          "quant": "net profit -6.45%"
         }
       ],
-      "watch": "Maruti Suzuki's stock price movement after dividend announcement"
+      "watch": "Maruti Suzuki's dividend payout details"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "ECL norms from April 2027",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "ECL norms implementation -> preparedness of Indian banks -> no significant impact on SBI's stock",
-          "quant": "null"
-        }
-      ],
-      "watch": "April 2027 ECL norms implementation"
-    },
-    {
-      "sector": "realty",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Bagmane Prime Office REIT IPO",
+      "conviction": 1,
+      "news_driver": "Sun Pharma rally",
       "theme": "null",
       "stocks": [
         {
-          "name": "DLF",
-          "ticker": "DLF.NS",
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Bagmane Prime Office REIT IPO -> increased investor interest in real estate -> potential upside in DLF's stock",
-          "quant": "+5% revenue growth in Q2"
+          "reason": "Sun Pharma's rally -> improved investor sentiment and sector rotation -> increased trading volumes and stock price appreciation",
+          "quant": "stock price +2.5%"
         }
       ],
-      "watch": "Bagmane Prime Office REIT IPO subscription numbers"
+      "watch": "Nifty IT index levels"
     },
     {
       "sector": "energy",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "India's power market entering a storage-led transformation phase",
+      "news_driver": "Surging oil prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
-          "impact": "Bullish",
-          "reason": "India's power market transformation -> increased demand for energy storage solutions -> potential growth in Tata Power's revenue",
-          "quant": "+10% order book growth"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rising crude oil prices -> increased input costs and squeezed margins -> lower profitability",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Government's energy storage policy announcements"
+      "watch": "Brent crude oil price levels"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Eternal Q4 Results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Zomato",
+          "ticker": "ZOMATO.NS",
+          "impact": "Bullish",
+          "reason": "Eternal's Q4 profit surge -> improved investor sentiment and growth prospects -> increased trading volumes and stock price appreciation",
+          "quant": "revenue +196% YoY"
+        }
+      ],
+      "watch": "Zomato's stock price movement"
     }
   ],
   "themes": [
