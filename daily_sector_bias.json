@@ -1,86 +1,68 @@
 {
   "date": "2026-04-28",
-  "time": "11:46",
-  "mood": "Mixed",
+  "time": "14:11",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q4 earnings",
-      "theme": null,
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Blackstone-backed Bagmane Prime Office REIT to launch Rs 3,405-cr IPO on May 5",
+      "theme": "REIT expansion",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bearish",
-          "reason": "Weak Q4 earnings -> higher provisioning requirements -> margins -100bps",
-          "quant": "-1.5%"
+          "name": "Embassy Office Parks REIT",
+          "ticker": "EMBASSY.NS",
+          "impact": "Bullish",
+          "reason": "IPO announcement of competitor Bagmane Prime Office REIT -> increased investor interest in REITs -> potential upside for Embassy Office Parks REIT",
+          "quant": "distribution to unitholders +10% to Rs 2,394 cr"
         },
         {
-          "name": "City Union Bank",
-          "ticker": "CUB.NS",
+          "name": "Prestige Estates Projects",
+          "ticker": "PRESTIGE.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 profit growth -> improved asset quality -> revenue +12% Q3",
-          "quant": "12%"
+          "reason": "REIT IPO announcement -> increased demand for commercial real estate -> potential revenue growth for Prestige Estates Projects",
+          "quant": "revenue +5-7% Q3"
         }
       ],
-      "watch": "Axis Bank's upcoming management commentary"
+      "watch": "IPO subscription numbers for Bagmane Prime Office REIT"
     },
     {
-      "sector": "pharma",
+      "sector": "metal",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Q4 earnings",
+      "conviction": 1,
+      "news_driver": "Tata Steel shares jump 2% to fresh record high",
       "theme": null,
       "stocks": [
         {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 earnings -> improved product mix -> margins +150bps",
-          "quant": "150bps"
+          "reason": "Record high share price -> increased investor confidence -> potential upside for Tata Steel",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "Sun Pharma's product pipeline updates"
+      "watch": "Q3 earnings report for Tata Steel"
     },
     {
-      "sector": "energy",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Surging oil prices",
+      "news_driver": "Nifty slides to 24,032 at noon; ONGC, Coal India surge as Banks drag",
       "theme": null,
       "stocks": [
         {
-          "name": "Adani Total Gas",
-          "ticker": "ATGL.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results and dividend announcement -> improved investor sentiment -> stock price +8%",
-          "quant": "8%"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Sectoral drag -> decreased investor interest -> potential downside for State Bank of India",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Q4 earnings",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Nippon Life AMC",
-          "ticker": "NIPPONLIFE.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 profit growth -> improved asset under management -> revenue +20% Q3",
-          "quant": "20%"
-        }
-      ],
-      "watch": "Nippon Life AMC's asset under management growth"
+      "watch": "PSU bank Q3 earnings reports"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "Q4_earnings"
+    "REIT expansion"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T11:46:56.015014+05:30",
+  "generated_at": "2026-04-28T14:11:35.566693+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -659,6 +659,14 @@
       "catalyst": "Q4 results and dividend announcement",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "EMBASSY": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Embassy REIT to raise Rs 9,000 cr debt, FY26 distribution to unitholders up 10 pc to Rs 2,394 cr",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
