@@ -1,58 +1,86 @@
 {
   "date": "2026-04-29",
-  "time": "11:45",
+  "time": "14:03",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 2,
-      "news_driver": "RBI Monetary Policy 2026",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI policy rate decision -> lending/borrowing rates -> neutral impact on NIM",
-          "quant": "null"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI policy stance -> credit growth -> stable asset quality",
-          "quant": "null"
-        }
-      ],
-      "watch": "RBI Governor's comments on inflation and growth outlook"
-    },
-    {
-      "sector": "financial_services",
+      "sector": "railway",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "DII buying and Asian market rebound",
-      "theme": "null",
+      "news_driver": "Amaravati to Hyderabad in 70 minutes: Railway min Ashwini Vaishnaw sets 7\u20138 year timeline for South\u2019s bullet train network",
+      "theme": "infrastructure development",
       "stocks": [
         {
-          "name": "Bajaj Finance",
-          "ticker": "BAJFINANCE.NS",
+          "name": "IRCON International",
+          "ticker": "IRCON.NS",
           "impact": "Bullish",
-          "reason": "DII buying -> increased investor confidence -> higher valuations",
-          "quant": "revenue +5-7% Q1"
+          "reason": "Railway minister's announcement of bullet train network -> increased infrastructure spending -> higher order book for IRCON",
+          "quant": "order book +Rs500Cr"
         },
         {
-          "name": "Bajaj Finserv",
-          "ticker": "BAJAJFINSV.NS",
+          "name": "Rail Vikas Nigam",
+          "ticker": "RVNL.NS",
           "impact": "Bullish",
-          "reason": "Asian market rebound -> improved investor sentiment -> higher stock prices",
-          "quant": "margins +100bps"
+          "reason": "Government's focus on railway infrastructure -> increased project awards -> higher revenue for RVNL",
+          "quant": "revenue +12-15% Q3"
         }
       ],
-      "watch": "DII buying momentum"
+      "watch": "Railway minister's next announcement on project timelines"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Netweb Technologies launches high-speed storage platform aimed at AI data bottleneck",
+      "theme": "digital transformation",
+      "stocks": [
+        {
+          "name": "Netweb Technologies",
+          "ticker": "NETWEB.NS",
+          "impact": "Bullish",
+          "reason": "Launch of high-speed storage platform -> increased adoption by AI companies -> higher sales for Netweb",
+          "quant": "sales +8-10% Q3"
+        }
+      ],
+      "watch": "Q3 earnings report of Netweb Technologies"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Dr. Reddy\u2019s Laboratories gets Health Canada nod for generic Semaglutide injection",
+      "theme": "generic drug approvals",
+      "stocks": [
+        {
+          "name": "Dr. Reddy\u2019s Laboratories",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bullish",
+          "reason": "Health Canada approval for generic Semaglutide -> increased sales in Canada -> higher revenue for Dr. Reddy\u2019s",
+          "quant": "revenue +5-7% Q3"
+        }
+      ],
+      "watch": "US FDA approval for Dr. Reddy\u2019s generic Semaglutide"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Oil prices ease after rally as UAE exits OPEC; Iran conflict, Hormuz blockade keep supply concerns high",
+      "theme": "geopolitical tensions",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Oil price volatility -> higher crude costs -> lower margins for IOC",
+          "quant": "margins -100bps"
+        }
+      ],
+      "watch": "OPEC meeting outcome"
     }
   ],
   "themes": [
-    "null"
+    "infrastructure development",
+    "digital transformation"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T11:40:35.009238+05:30",
+  "generated_at": "2026-04-29T14:03:59.729717+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -478,12 +478,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "DRREDDY": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Goldman Sachs downgrades Dr Reddy\u2019s shares",
-      "category": "brokerage_upgrade",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Dr. Reddy\u2019s Laboratories gets Health Canada nod for generic Semaglutide injection",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "AXISBANK": {
       "score": 5,
@@ -692,6 +692,30 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "NETWEB": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Netweb Technologies launches high-speed storage platform aimed at AI data bottleneck",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "DIGITINS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Go Digit Insurance shares edge up after Q4 profit jumps 49%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "STARHEALTH": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Star Health shares rally 13% after Q4 net profit soars to Rs 111 crore, beats estimate",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
