@@ -1,100 +1,86 @@
 {
   "date": "2026-04-29",
-  "time": "16:00",
-  "mood": "Bearish",
+  "time": "16:56",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Brent Crude Futures Surge To $115",
-      "theme": "OMC_margins",
+      "news_driver": "Surging oil prices due to Iran conflict",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Brent crude price surge -> increased crude procurement costs -> reduced refining margins",
-          "quant": "-150bps"
+          "reason": "Iran conflict -> higher crude prices -> lower IOC margins",
+          "quant": "margins -100bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Brent crude price surge -> higher input costs -> lower profitability",
-          "quant": "-10%"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Brent crude price surge -> increased under-recovery -> reduced profitability",
-          "quant": "-120bps"
+          "reason": "Surging oil prices -> higher input costs -> lower HPCL profitability",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Brent crude price level of $120"
-    },
-    {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Indian Bank Q4 Results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Indian Bank",
-          "ticker": "INDIANB.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results -> 5% YoY profit growth -> stable stock price",
-          "quant": "5%"
-        },
-        {
-          "name": "Federal Bank",
-          "ticker": "FEDERALBNK.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results -> profit meets estimates -> stable stock price",
-          "quant": "0%"
-        }
-      ],
-      "watch": "Nifty Bank index level of 42000"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Vedanta Q4 Results",
-      "theme": "commodity_price_rally",
-      "stocks": [
-        {
-          "name": "Vedanta",
-          "ticker": "VEDL.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results -> 92% YoY profit growth -> increased investor confidence",
-          "quant": "15%"
-        }
-      ],
-      "watch": "LME copper price level of $10000"
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sagar Adani's energy resilience strategy",
-      "theme": "renewable_energy",
+      "news_driver": "Adani Power Q4 Results",
+      "theme": "Renewable energy growth",
       "stocks": [
         {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
+          "name": "Adani Power",
+          "ticker": "ADANIPOWER.NS",
           "impact": "Bullish",
-          "reason": "Adani's energy resilience strategy -> increased investment in renewable energy -> higher stock price",
-          "quant": "8%"
+          "reason": "Q4 results -> 52% YoY net profit growth -> increased investor confidence",
+          "quant": "net profit +52% YoY"
         }
       ],
-      "watch": "Adani Green Energy's stock price level of Rs 1000"
+      "watch": "Adani Power's upcoming project announcements"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Bandhan Bank's FY27 targets",
+      "theme": "PSU bank rotation",
+      "stocks": [
+        {
+          "name": "Bandhan Bank",
+          "ticker": "BANDHANBNK.NS",
+          "impact": "Bullish",
+          "reason": "FY27 targets -> 15% credit growth -> increased revenue",
+          "quant": "credit growth +15%"
+        }
+      ],
+      "watch": "Bandhan Bank's Q1 FY27 results"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Sun Pharma's integration of Organon global operations",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Neutral",
+          "reason": "Integration of Organon operations -> increased global presence -> stable revenue",
+          "quant": "revenue +2-3% Q3"
+        }
+      ],
+      "watch": "Sun Pharma's Q1 FY27 results"
     }
   ],
   "themes": [
-    "OMC_margins",
-    "renewable_energy"
+    "OMC margin squeeze",
+    "Renewable energy growth"
   ]
 }
