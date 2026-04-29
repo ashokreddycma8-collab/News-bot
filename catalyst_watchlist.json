@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T14:03:59.729717+05:30",
+  "generated_at": "2026-04-29T16:00:06.494092+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -716,6 +716,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "INDIANB": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Standalone profit grows 5% YoY to Rs 3,103 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "VEDL": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Cons profit zooms 92% YoY to Rs 6,698 crore, revenue jumps 47%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "FEDERALBNK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Profit Meets Estimates, Dividend Announced",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

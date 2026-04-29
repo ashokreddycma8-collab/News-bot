@@ -1,86 +1,100 @@
 {
   "date": "2026-04-29",
-  "time": "14:03",
-  "mood": "Cautious",
+  "time": "16:00",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "railway",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Amaravati to Hyderabad in 70 minutes: Railway min Ashwini Vaishnaw sets 7\u20138 year timeline for South\u2019s bullet train network",
-      "theme": "infrastructure development",
-      "stocks": [
-        {
-          "name": "IRCON International",
-          "ticker": "IRCON.NS",
-          "impact": "Bullish",
-          "reason": "Railway minister's announcement of bullet train network -> increased infrastructure spending -> higher order book for IRCON",
-          "quant": "order book +Rs500Cr"
-        },
-        {
-          "name": "Rail Vikas Nigam",
-          "ticker": "RVNL.NS",
-          "impact": "Bullish",
-          "reason": "Government's focus on railway infrastructure -> increased project awards -> higher revenue for RVNL",
-          "quant": "revenue +12-15% Q3"
-        }
-      ],
-      "watch": "Railway minister's next announcement on project timelines"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Netweb Technologies launches high-speed storage platform aimed at AI data bottleneck",
-      "theme": "digital transformation",
-      "stocks": [
-        {
-          "name": "Netweb Technologies",
-          "ticker": "NETWEB.NS",
-          "impact": "Bullish",
-          "reason": "Launch of high-speed storage platform -> increased adoption by AI companies -> higher sales for Netweb",
-          "quant": "sales +8-10% Q3"
-        }
-      ],
-      "watch": "Q3 earnings report of Netweb Technologies"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Dr. Reddy\u2019s Laboratories gets Health Canada nod for generic Semaglutide injection",
-      "theme": "generic drug approvals",
-      "stocks": [
-        {
-          "name": "Dr. Reddy\u2019s Laboratories",
-          "ticker": "DRREDDY.NS",
-          "impact": "Bullish",
-          "reason": "Health Canada approval for generic Semaglutide -> increased sales in Canada -> higher revenue for Dr. Reddy\u2019s",
-          "quant": "revenue +5-7% Q3"
-        }
-      ],
-      "watch": "US FDA approval for Dr. Reddy\u2019s generic Semaglutide"
-    },
-    {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Oil prices ease after rally as UAE exits OPEC; Iran conflict, Hormuz blockade keep supply concerns high",
-      "theme": "geopolitical tensions",
+      "conviction": 2,
+      "news_driver": "Brent Crude Futures Surge To $115",
+      "theme": "OMC_margins",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Oil price volatility -> higher crude costs -> lower margins for IOC",
-          "quant": "margins -100bps"
+          "reason": "Brent crude price surge -> increased crude procurement costs -> reduced refining margins",
+          "quant": "-150bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Brent crude price surge -> higher input costs -> lower profitability",
+          "quant": "-10%"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Brent crude price surge -> increased under-recovery -> reduced profitability",
+          "quant": "-120bps"
         }
       ],
-      "watch": "OPEC meeting outcome"
+      "watch": "Brent crude price level of $120"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Indian Bank Q4 Results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Bank",
+          "ticker": "INDIANB.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results -> 5% YoY profit growth -> stable stock price",
+          "quant": "5%"
+        },
+        {
+          "name": "Federal Bank",
+          "ticker": "FEDERALBNK.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results -> profit meets estimates -> stable stock price",
+          "quant": "0%"
+        }
+      ],
+      "watch": "Nifty Bank index level of 42000"
+    },
+    {
+      "sector": "metal",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Vedanta Q4 Results",
+      "theme": "commodity_price_rally",
+      "stocks": [
+        {
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
+          "impact": "Bullish",
+          "reason": "Q4 results -> 92% YoY profit growth -> increased investor confidence",
+          "quant": "15%"
+        }
+      ],
+      "watch": "LME copper price level of $10000"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Sagar Adani's energy resilience strategy",
+      "theme": "renewable_energy",
+      "stocks": [
+        {
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "Adani's energy resilience strategy -> increased investment in renewable energy -> higher stock price",
+          "quant": "8%"
+        }
+      ],
+      "watch": "Adani Green Energy's stock price level of Rs 1000"
     }
   ],
   "themes": [
-    "infrastructure development",
-    "digital transformation"
+    "OMC_margins",
+    "renewable_energy"
   ]
 }
