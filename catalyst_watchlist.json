@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T17:13:34.219489+05:30",
+  "generated_at": "2026-04-29T11:40:35.009238+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -684,6 +684,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "RELIANCE": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Reliance share price target hiked to Rs 1,910 by Goldman, CLSA, and Morgan Stanley",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

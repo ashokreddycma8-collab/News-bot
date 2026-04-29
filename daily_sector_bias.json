@@ -1,78 +1,86 @@
 {
-  "date": "2026-04-28",
-  "time": "17:13",
+  "date": "2026-04-29",
+  "time": "11:40",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Maruti Suzuki Q4 net profit falls 6.45%",
-      "theme": "null",
+      "news_driver": "Crude oil prices crossing $90",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Maruti Suzuki's Q4 net profit decline -> lower-than-expected sales volume and higher input costs -> revenue and margin contraction",
-          "quant": "net profit -6.45%"
-        }
-      ],
-      "watch": "Maruti Suzuki's dividend payout details"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Sun Pharma rally",
-      "theme": "null",
-      "stocks": [
+          "reason": "Rising crude oil prices -> increasing cost of production -> reducing IOC's refining margins",
+          "quant": "margins -100bps"
+        },
         {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Bullish",
-          "reason": "Sun Pharma's rally -> improved investor sentiment and sector rotation -> increased trading volumes and stock price appreciation",
-          "quant": "stock price +2.5%"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Higher oil prices -> lower demand for petroleum products -> decreasing HPCL's sales volume",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Nifty IT index levels"
+      "watch": "Brent crude price level of $95"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
       "news_driver": "Surging oil prices",
-      "theme": "null",
+      "theme": "energy cost increase",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
           "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased input costs and squeezed margins -> lower profitability",
-          "quant": "margins -100bps"
+          "reason": "Higher oil prices -> increased energy costs -> decreasing NTPC's profitability",
+          "quant": "profit -8%"
         }
       ],
-      "watch": "Brent crude oil price levels"
+      "watch": "NTPC's Q4 earnings release"
     },
     {
-      "sector": "consumer",
+      "sector": "renewable",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Eternal Q4 Results",
-      "theme": "null",
+      "news_driver": "Government's focus on renewable energy",
+      "theme": "renewable energy push",
       "stocks": [
         {
-          "name": "Zomato",
-          "ticker": "ZOMATO.NS",
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
           "impact": "Bullish",
-          "reason": "Eternal's Q4 profit surge -> improved investor sentiment and growth prospects -> increased trading volumes and stock price appreciation",
-          "quant": "revenue +196% YoY"
+          "reason": "Government's renewable energy targets -> increased demand for solar energy -> rising Adani Green's revenue",
+          "quant": "revenue +12%"
         }
       ],
-      "watch": "Zomato's stock price movement"
+      "watch": "Government's renewable energy auction schedule"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "HUL Q4 earnings preview",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Neutral",
+          "reason": "HUL's Q4 earnings release -> expected volume recovery -> stable HUL stock price",
+          "quant": "volume +2%"
+        }
+      ],
+      "watch": "HUL's Q4 earnings release"
     }
   ],
   "themes": [
-    "null"
+    "OMC margin squeeze",
+    "renewable energy push"
   ]
 }
