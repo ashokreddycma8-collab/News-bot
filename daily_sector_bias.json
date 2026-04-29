@@ -1,86 +1,58 @@
 {
   "date": "2026-04-29",
-  "time": "11:40",
+  "time": "11:45",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 2,
-      "news_driver": "Crude oil prices crossing $90",
-      "theme": "OMC margin squeeze",
+      "news_driver": "RBI Monetary Policy 2026",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increasing cost of production -> reducing IOC's refining margins",
-          "quant": "margins -100bps"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy rate decision -> lending/borrowing rates -> neutral impact on NIM",
+          "quant": "null"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Higher oil prices -> lower demand for petroleum products -> decreasing HPCL's sales volume",
-          "quant": "revenue -5%"
-        }
-      ],
-      "watch": "Brent crude price level of $95"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Surging oil prices",
-      "theme": "energy cost increase",
-      "stocks": [
-        {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
-          "impact": "Bearish",
-          "reason": "Higher oil prices -> increased energy costs -> decreasing NTPC's profitability",
-          "quant": "profit -8%"
-        }
-      ],
-      "watch": "NTPC's Q4 earnings release"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Government's focus on renewable energy",
-      "theme": "renewable energy push",
-      "stocks": [
-        {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
-          "impact": "Bullish",
-          "reason": "Government's renewable energy targets -> increased demand for solar energy -> rising Adani Green's revenue",
-          "quant": "revenue +12%"
-        }
-      ],
-      "watch": "Government's renewable energy auction schedule"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "HUL Q4 earnings preview",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Neutral",
-          "reason": "HUL's Q4 earnings release -> expected volume recovery -> stable HUL stock price",
-          "quant": "volume +2%"
+          "reason": "RBI policy stance -> credit growth -> stable asset quality",
+          "quant": "null"
         }
       ],
-      "watch": "HUL's Q4 earnings release"
+      "watch": "RBI Governor's comments on inflation and growth outlook"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "DII buying and Asian market rebound",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Bajaj Finance",
+          "ticker": "BAJFINANCE.NS",
+          "impact": "Bullish",
+          "reason": "DII buying -> increased investor confidence -> higher valuations",
+          "quant": "revenue +5-7% Q1"
+        },
+        {
+          "name": "Bajaj Finserv",
+          "ticker": "BAJAJFINSV.NS",
+          "impact": "Bullish",
+          "reason": "Asian market rebound -> improved investor sentiment -> higher stock prices",
+          "quant": "margins +100bps"
+        }
+      ],
+      "watch": "DII buying momentum"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "renewable energy push"
+    "null"
   ]
 }
