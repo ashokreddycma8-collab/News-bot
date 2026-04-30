@@ -1,86 +1,86 @@
 {
   "date": "2026-04-30",
-  "time": "14:07",
-  "mood": "Bullish",
+  "time": "15:58",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "fmcg",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "HUL Q4 earnings above estimates",
-      "theme": "null",
+      "news_driver": "Canara HSBC Life Insurance Closes FY26 with 19% WPI Growth",
+      "theme": "insurance_growth",
       "stocks": [
         {
-          "name": "Hindustan Unilever Limited",
-          "ticker": "HINDUNILVR.NS",
+          "name": "Canara HSBC Life Insurance",
+          "ticker": "CANHSC.NS",
           "impact": "Bullish",
-          "reason": "HUL's Q4 earnings beating estimates -> increased investor confidence -> stock price appreciation",
-          "quant": "revenue +5-7% Q4"
+          "reason": "19% WPI growth -> increased premium revenue -> higher profitability",
+          "quant": "revenue +19% YoY"
         },
         {
-          "name": "ITC Limited",
-          "ticker": "ITC.NS",
+          "name": "Bajaj Finserv",
+          "ticker": "BAJAJFINSV.NS",
           "impact": "Bullish",
-          "reason": "Strong earnings from HUL and ITC's own Q4 results -> improved sector sentiment -> stock price increase",
-          "quant": "margins +100bps"
+          "reason": "5% YoY increase in cons PAT -> improved profitability -> higher investor confidence",
+          "quant": "PAT +5% YoY"
         }
       ],
-      "watch": "HUL's management commentary on future growth prospects"
+      "watch": "Q1 results of other insurance companies"
     },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Maruti's strong Q4 earnings",
-      "theme": "null",
+      "news_driver": "Force Motors Reports Highest Ever Revenue And Profitability",
+      "theme": "auto_recovery",
       "stocks": [
         {
-          "name": "Maruti Suzuki India Limited",
-          "ticker": "MARUTI.NS",
+          "name": "Force Motors",
+          "ticker": "FORCEMOT.NS",
           "impact": "Bullish",
-          "reason": "Maruti's Q4 earnings beating estimates -> increased investor confidence -> stock price appreciation",
-          "quant": "revenue +10-12% Q4"
+          "reason": "highest ever revenue and profitability -> increased market share -> higher investor confidence",
+          "quant": "revenue +20-25% YoY"
         }
       ],
-      "watch": "Maruti's sales volume growth in the next quarter"
+      "watch": "monthly auto sales data"
     },
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Tech Mahindra's strong Q4 earnings",
-      "theme": "null",
+      "news_driver": "UAE stepped away from OPEC amid Iran war and soaring crude oil prices",
+      "theme": "geopolitical_risk",
       "stocks": [
         {
-          "name": "Tech Mahindra Limited",
-          "ticker": "TECHM.NS",
-          "impact": "Bullish",
-          "reason": "Tech Mahindra's Q4 earnings beating estimates -> increased investor confidence -> stock price appreciation",
-          "quant": "revenue +8-10% Q4"
+          "name": "Adani Ports",
+          "ticker": "ADANIPORTS.NS",
+          "impact": "Bearish",
+          "reason": "soaring crude oil prices -> increased energy costs -> lower margins",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Tech Mahindra's deal pipeline and client additions"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "agrochemicals",
+      "sector": "media",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Piccadily Agro Industries' strong FY26 results",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Akshay Kumar's Bhooth Bangla Achieves Major Milestone, Crosses Rs 200-Crore Mark",
+      "theme": null,
       "stocks": [
         {
-          "name": "Piccadily Agro Industries Limited",
-          "ticker": "PICCADILY.NS",
+          "name": "PVR Inox",
+          "ticker": "PVRINOX.NS",
           "impact": "Bullish",
-          "reason": "Piccadily Agro's strong FY26 results -> increased investor confidence -> stock price appreciation",
-          "quant": "revenue +15-18% FY26"
+          "reason": "successful movie release -> increased footfall -> higher revenue",
+          "quant": "revenue +5-7% QoQ"
         }
       ],
-      "watch": "Piccadily Agro's expansion plans and new product launches"
+      "watch": "upcoming movie releases"
     }
   ],
   "themes": [
-    "Q4 earnings",
-    "sector rotation"
+    "insurance_growth",
+    "auto_recovery"
   ]
 }

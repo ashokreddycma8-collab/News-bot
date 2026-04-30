@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T14:07:33.867412+05:30",
+  "generated_at": "2026-04-30T15:58:23.469866+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -785,6 +785,46 @@
       "score": 8,
       "direction": "BUY",
       "catalyst": "Posts Strong FY26 results, crosses Rs 1,100 Crore Revenue Milestone",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "CANARAHSBC": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "19% WPI growth and gross premium crossing \u20b910,000 crore in FY26",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "FORCEMOT": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Highest ever revenue and profitability reported",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "INDONATIONAL": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Acquisition of Aidin Technologies",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BAJAJFINSV": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "5% YoY increase in consolidated profit after tax",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ADANIPORTS": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "10% YoY growth in net profit and 26% jump in revenue",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
