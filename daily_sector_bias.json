@@ -1,86 +1,85 @@
 {
   "date": "2026-04-30",
-  "time": "15:58",
+  "time": "16:56",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Canara HSBC Life Insurance Closes FY26 with 19% WPI Growth",
-      "theme": "insurance_growth",
+      "news_driver": "Rupee hitting record intraday low of 95.34 against U.S. dollar",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Canara HSBC Life Insurance",
-          "ticker": "CANHSC.NS",
-          "impact": "Bullish",
-          "reason": "19% WPI growth -> increased premium revenue -> higher profitability",
-          "quant": "revenue +19% YoY"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> increased crude oil import costs -> margins -150bps",
+          "quant": "-150bps"
         },
         {
-          "name": "Bajaj Finserv",
-          "ticker": "BAJAJFINSV.NS",
-          "impact": "Bullish",
-          "reason": "5% YoY increase in cons PAT -> improved profitability -> higher investor confidence",
-          "quant": "PAT +5% YoY"
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> increased crude oil import costs -> revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Q1 results of other insurance companies"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Force Motors Reports Highest Ever Revenue And Profitability",
-      "theme": "auto_recovery",
+      "sector": "financial_services",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Edelweiss Financial shares tank 10% after Q4 net profit drops 17%",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Force Motors",
-          "ticker": "FORCEMOT.NS",
-          "impact": "Bullish",
-          "reason": "highest ever revenue and profitability -> increased market share -> higher investor confidence",
-          "quant": "revenue +20-25% YoY"
+          "name": "Edelweiss Financial",
+          "ticker": "EDELWEISS.NS",
+          "impact": "Bearish",
+          "reason": "Q4 net profit drop -> decreased investor confidence -> stock price -10%",
+          "quant": "-10%"
         }
       ],
-      "watch": "monthly auto sales data"
+      "watch": "Q4 earnings reports of other financial services companies"
     },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "UAE stepped away from OPEC amid Iran war and soaring crude oil prices",
-      "theme": "geopolitical_risk",
+      "news_driver": "Rupee hitting record intraday low of 95.34 against U.S. dollar",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Adani Gas",
+          "ticker": "ADANIGAS.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> increased LNG import costs -> margins -100bps",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "LNG import prices"
+    },
+    {
+      "sector": "port",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Adani Ports Q4 profit up 9% to \u20b93,308 cr",
+      "theme": "null",
       "stocks": [
         {
           "name": "Adani Ports",
           "ticker": "ADANIPORTS.NS",
-          "impact": "Bearish",
-          "reason": "soaring crude oil prices -> increased energy costs -> lower margins",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "Brent crude oil price movement"
-    },
-    {
-      "sector": "media",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Akshay Kumar's Bhooth Bangla Achieves Major Milestone, Crosses Rs 200-Crore Mark",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "PVR Inox",
-          "ticker": "PVRINOX.NS",
           "impact": "Bullish",
-          "reason": "successful movie release -> increased footfall -> higher revenue",
-          "quant": "revenue +5-7% QoQ"
+          "reason": "Q4 profit growth -> increased investor confidence -> stock price +5%",
+          "quant": "+5%"
         }
       ],
-      "watch": "upcoming movie releases"
+      "watch": "Q4 earnings reports of other port companies"
     }
   ],
   "themes": [
-    "insurance_growth",
-    "auto_recovery"
+    "null"
   ]
 }

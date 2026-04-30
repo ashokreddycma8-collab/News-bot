@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:58:23.469866+05:30",
+  "generated_at": "2026-04-30T16:56:17.545647+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -828,6 +828,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "ADANIENT": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Adani Ent Q4 Results: Co posts Rs 221 crore loss vs profit a year ago, but revenue rises 20% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "EDELWEISS": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Edelweiss Financial shares tank 10% after Q4 net profit drops 17% to Rs 87.60 crore; firm announces dividend",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
