@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T11:45:21.111623+05:30",
+  "generated_at": "2026-04-30T14:07:33.867412+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -566,12 +566,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "RBLBANK": {
-      "score": 5,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "3x jump in Q4 net profit",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "Gets SEBI Nod For Emirates NBD Deal",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "VARUNBEV": {
       "score": 6,
@@ -780,6 +780,14 @@
       "category": "technical_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PICCADILY": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Posts Strong FY26 results, crosses Rs 1,100 Crore Revenue Milestone",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
