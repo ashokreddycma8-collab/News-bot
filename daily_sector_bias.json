@@ -1,86 +1,86 @@
 {
-  "date": "2026-04-29",
-  "time": "16:56",
-  "mood": "Cautious",
+  "date": "2026-04-30",
+  "time": "11:45",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Surging oil prices due to Iran conflict",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Maruti Suzuki's Q4 results and Bajaj Auto's buyback offer",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran conflict -> higher crude prices -> lower IOC margins",
-          "quant": "margins -100bps"
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Better-than-expected Q4 results -> increased market share -> revenue growth of 8-10% in Q1",
+          "quant": "8-10%"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Surging oil prices -> higher input costs -> lower HPCL profitability",
-          "quant": "revenue -5%"
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
+          "impact": "Bullish",
+          "reason": "Buyback offer announcement -> increased investor confidence -> stock price appreciation of 5-7%",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Maruti Suzuki's monthly sales data"
     },
     {
-      "sector": "energy",
+      "sector": "fmcg",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Adani Power Q4 Results",
-      "theme": "Renewable energy growth",
-      "stocks": [
-        {
-          "name": "Adani Power",
-          "ticker": "ADANIPOWER.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results -> 52% YoY net profit growth -> increased investor confidence",
-          "quant": "net profit +52% YoY"
-        }
-      ],
-      "watch": "Adani Power's upcoming project announcements"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bandhan Bank's FY27 targets",
-      "theme": "PSU bank rotation",
-      "stocks": [
-        {
-          "name": "Bandhan Bank",
-          "ticker": "BANDHANBNK.NS",
-          "impact": "Bullish",
-          "reason": "FY27 targets -> 15% credit growth -> increased revenue",
-          "quant": "credit growth +15%"
-        }
-      ],
-      "watch": "Bandhan Bank's Q1 FY27 results"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Sun Pharma's integration of Organon global operations",
+      "news_driver": "Hindustan Unilever's Q4 results",
       "theme": null,
       "stocks": [
         {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Neutral",
-          "reason": "Integration of Organon operations -> increased global presence -> stable revenue",
-          "quant": "revenue +2-3% Q3"
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased volume growth -> profit growth of 21% YoY",
+          "quant": "21%"
         }
       ],
-      "watch": "Sun Pharma's Q1 FY27 results"
+      "watch": "HUL's volume growth trajectory"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "RBI's ECL norms",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "RBI's ECL norms implementation -> increased provisioning -> margin contraction of 50-75bps",
+          "quant": "-50-75bps"
+        }
+      ],
+      "watch": "RBI's next monetary policy meeting"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Microsoft's strong cloud business growth",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Microsoft's strong cloud business growth -> increased demand for IT services -> revenue growth of 10-12% in Q1",
+          "quant": "10-12%"
+        }
+      ],
+      "watch": "Microsoft's next quarterly earnings report"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "Renewable energy growth"
+    "rural_mobility",
+    "internet_digital"
   ]
 }
