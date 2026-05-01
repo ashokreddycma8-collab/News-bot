@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T15:35:13.115044+05:30",
+  "generated_at": "2026-05-01T16:34:29.346751+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -670,12 +670,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "MARUTI": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "6.45% fall in Q4 net profit",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Maruti Suzuki sees highest ever monthly sales",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "ZOMATO": {
       "score": 8,
@@ -900,6 +900,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "AURPHARMA": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Aurobindo Pharma's arm CuraTeQ gets Health Canada nod for biosimilar",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "ENFIELD": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Royal Enfield beats estimates with strong sales",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
