@@ -1,100 +1,86 @@
 {
   "date": "2026-05-01",
-  "time": "11:55",
-  "mood": "Bearish",
+  "time": "13:59",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Crude oil prices crossing $125/barrel",
-      "theme": "OMC_pressure",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increasing input costs -> margins -150bps",
-          "quant": "-150bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price hike -> higher under-recovery -> revenue -8%",
-          "quant": "-8%"
-        }
-      ],
-      "watch": "Brent crude oil price movement"
-    },
-    {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q4 earnings: Banks prop up profits for India Inc",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 earnings -> improved profitability -> net interest income +10%",
-          "quant": "+10%"
-        },
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Q4 earnings beat -> higher loan growth -> advances +12% YoY",
-          "quant": "+12%"
-        }
-      ],
-      "watch": "PSU bank consolidation"
-    },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Hyundai Motor India domestic sales up 17% at 51,902 units in April",
-      "theme": null,
+      "news_driver": "Hyundai Motor logs highest-ever domestic sales, M&M up 14% YoY",
+      "theme": "rural_mobility",
       "stocks": [
         {
           "name": "Hyundai Motor India",
           "ticker": "HYUNDAI.NS",
           "impact": "Bullish",
-          "reason": "Strong April sales -> higher revenue -> top-line growth +15%",
-          "quant": "+15%"
+          "reason": "Strong domestic sales growth -> increased revenue -> higher profitability",
+          "quant": "revenue +12-15% Q1"
         },
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
           "impact": "Bullish",
-          "reason": "Rising competition -> market share gain -> sales +10% YoY",
-          "quant": "+10%"
+          "reason": "14% YoY sales growth -> improved market share -> increased earnings",
+          "quant": "earnings +10-12% Q1"
         }
       ],
       "watch": "April auto sales numbers"
     },
     {
-      "sector": "it",
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Capri Global Capital posts 98% jump in full-year profit",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Capri Global Capital",
+          "ticker": "CGCL.NS",
+          "impact": "Bullish",
+          "reason": "Strong profit growth -> increased investor confidence -> higher valuations",
+          "quant": "profit +80-100% FY27"
+        }
+      ],
+      "watch": "Q1 earnings reports"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Square Yards reports Rs 2,086 crore revenue in FY26, growth of 48% year-over-year",
+      "theme": "housing",
+      "stocks": [
+        {
+          "name": "Square Yards",
+          "ticker": "SQYARDS.NS",
+          "impact": "Bullish",
+          "reason": "Strong revenue growth -> increased market share -> higher profitability",
+          "quant": "revenue +40-50% FY27"
+        }
+      ],
+      "watch": "Q1 revenue growth"
+    },
+    {
+      "sector": "consumer",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Amazon stock price, earnings, profits and net sales rise after strong first-quarter cloud growth",
+      "news_driver": "GST collections rise to record high of \u20b92.43 lakh crore in April",
       "theme": null,
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong cloud growth -> higher IT spending -> revenue +8-10% Q3",
-          "quant": "+8-10%"
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Neutral",
+          "reason": "Higher GST collections -> potential increase in consumer spending -> stable earnings",
+          "quant": "null"
         }
       ],
-      "watch": "US tech earnings"
+      "watch": "consumer spending trends"
     }
   ],
   "themes": [
-    "OMC_pressure",
-    "PSU_bank_consolidation"
+    "rural_mobility",
+    "PSU_rotation"
   ]
 }

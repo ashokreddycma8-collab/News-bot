@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T11:55:09.447856+05:30",
+  "generated_at": "2026-05-01T13:59:36.093687+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -860,6 +860,38 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "SYNGENE": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "17% stock price surge despite 19% YoY drop in Q4 profit",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SIS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "28% PAT growth in FY26, revenue surges 31% in Q4",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CAPRI": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "98% jump in full-year profit, AUM crosses \u20b936,623.3 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SQUAREYARDS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Reports Rs 2,086 crore revenue in FY26, growth of 48% year-over-year",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
