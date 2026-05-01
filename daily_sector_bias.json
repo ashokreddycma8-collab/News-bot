@@ -1,86 +1,100 @@
 {
   "date": "2026-05-01",
-  "time": "13:59",
+  "time": "15:35",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Hyundai Motor logs highest-ever domestic sales, M&M up 14% YoY",
-      "theme": "rural_mobility",
+      "news_driver": "Tata Motors commercial vehicle sales up 28% and Hyundai Motor India logs highest-ever domestic sales",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Hyundai Motor India",
-          "ticker": "HYUNDAI.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Strong domestic sales growth -> increased revenue -> higher profitability",
-          "quant": "revenue +12-15% Q1"
+          "reason": "Strong commercial vehicle sales growth -> increased revenue and market share -> improved profitability",
+          "quant": "revenue +15-18% Q1"
         },
         {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
+          "name": "Hyundai Motor India",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "14% YoY sales growth -> improved market share -> increased earnings",
-          "quant": "earnings +10-12% Q1"
+          "reason": "Highest-ever domestic sales -> increased market share and revenue -> improved profitability",
+          "quant": "sales +12-15% Q1"
+        },
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Neutral",
+          "reason": "Passenger vehicle sales fall 10% -> decreased revenue and market share -> neutral impact on profitability",
+          "quant": "sales -8-10% Q1"
         }
       ],
-      "watch": "April auto sales numbers"
+      "watch": "Tata Motors' Q1 earnings release"
     },
     {
-      "sector": "financial_services",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Capri Global Capital posts 98% jump in full-year profit",
-      "theme": "PSU_rotation",
+      "news_driver": "India Data Center Colocation Report 2026",
+      "theme": "data_centers",
       "stocks": [
         {
-          "name": "Capri Global Capital",
-          "ticker": "CGCL.NS",
+          "name": "NTT Ltd",
+          "ticker": "NTT.NS",
           "impact": "Bullish",
-          "reason": "Strong profit growth -> increased investor confidence -> higher valuations",
-          "quant": "profit +80-100% FY27"
-        }
-      ],
-      "watch": "Q1 earnings reports"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Square Yards reports Rs 2,086 crore revenue in FY26, growth of 48% year-over-year",
-      "theme": "housing",
-      "stocks": [
+          "reason": "Growing data center market -> increased demand for colocation services -> revenue growth",
+          "quant": "revenue +20-25% FY26"
+        },
         {
-          "name": "Square Yards",
-          "ticker": "SQYARDS.NS",
+          "name": "STT GDC India",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "Strong revenue growth -> increased market share -> higher profitability",
-          "quant": "revenue +40-50% FY27"
+          "reason": "Expanding data center capacity -> increased market share and revenue -> improved profitability",
+          "quant": "capacity +30-35% FY26"
         }
       ],
-      "watch": "Q1 revenue growth"
+      "watch": "NTT Ltd's Q1 earnings release"
     },
     {
-      "sector": "consumer",
+      "sector": "defence",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "GST collections rise to record high of \u20b92.43 lakh crore in April",
-      "theme": null,
+      "news_driver": "Ravi K. takes charge as HAL CMD",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
           "impact": "Neutral",
-          "reason": "Higher GST collections -> potential increase in consumer spending -> stable earnings",
+          "reason": "New leadership -> potential changes in strategy and operations -> neutral impact on profitability",
           "quant": "null"
         }
       ],
-      "watch": "consumer spending trends"
+      "watch": "HAL's Q1 earnings release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Commercial LPG 19 kg cylinder prices increase sharply",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Increased LPG prices -> decreased margins and profitability -> negative impact on stock price",
+          "quant": "margins -50-75bps Q1"
+        }
+      ],
+      "watch": "LPG price trends"
     }
   ],
   "themes": [
-    "rural_mobility",
-    "PSU_rotation"
+    "data_centers",
+    "auto_sales"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T13:59:36.093687+05:30",
+  "generated_at": "2026-05-01T15:35:13.115044+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -26,12 +26,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "HAL": {
-      "score": 5,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Nirmal Bang raises target price for HAL over strong defence sector outlook",
-      "category": "brokerage_upgrade",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "HAL appoints Kota Ravi as Chairman & MD",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "MAZDOCK": {
       "score": 5,
@@ -854,12 +854,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "HYUNDAI": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "Hyundai Motor India domestic sales up 17% at 51,902 units in April",
+      "catalyst": "Hyundai Motor India Logs Highest-Ever Domestic Sales In April, Meets Estimates",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "SYNGENE": {
       "score": 5,
@@ -892,6 +892,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TATAMOTORS": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Tata leads in passenger vehicle sales, shows resilience in EVs",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
