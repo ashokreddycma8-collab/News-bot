@@ -1,93 +1,42 @@
 {
   "date": "2026-05-04",
-  "time": "11:55",
+  "time": "12:01",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee falls to 94.86 per USD",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rupee depreciation -> increased crude oil import costs -> reduced IOC margins",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Oil price volatility -> higher working capital requirements -> decreased HPCL profitability",
-          "quant": "-8%"
-        }
-      ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Kotak\u2019s asset quality gains drive robust Q4 show",
-      "theme": "null",
+      "news_driver": "Kotak Mahindra Bank Q4 results",
+      "theme": null,
       "stocks": [
         {
           "name": "Kotak Mahindra Bank",
           "ticker": "KOTAKBANK.NS",
-          "impact": "Bullish",
-          "reason": "Q4 results beat -> improved asset quality -> increased investor confidence",
-          "quant": "+5%"
-        },
-        {
-          "name": "Equitas Small Finance Bank",
-          "ticker": "EQUITASBNK.NS",
-          "impact": "Bullish",
-          "reason": "5-fold jump in Q4 profit -> increased profitability -> higher stock valuation",
-          "quant": "+10%"
+          "impact": "Bearish",
+          "reason": "Q4 profit beat -> failing to meet high investor expectations -> shares falling 5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "NPA levels in upcoming bank results"
+      "watch": "200-day moving average support at 1750"
     },
     {
-      "sector": "it",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "How India Became the World's AI Film Lab",
-      "theme": "AI and data centers",
+      "news_driver": "Steel Exchange India fundraising",
+      "theme": null,
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Steel Exchange India",
+          "ticker": "SEIL.NS",
           "impact": "Bullish",
-          "reason": "AI adoption -> increased demand for IT services -> higher Infosys revenue",
-          "quant": "+4%"
+          "reason": "Warrant issue -> increased capital for expansion -> potential growth in revenue",
+          "quant": "+8-10% Q3 revenue"
         }
       ],
-      "watch": "AI-related deal wins by Indian IT companies"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Shrinkflation, price hikes buzz in consumer firms as war spikes costs",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Bearish",
-          "reason": "Input cost inflation -> price hikes -> decreased consumer demand",
-          "quant": "-2%"
-        }
-      ],
-      "watch": "Raw material price movement"
+      "watch": "resistance at 50-day moving average"
     }
   ],
-  "themes": [
-    "AI and data centers",
-    "PSU bank recovery"
-  ]
+  "themes": []
 }
