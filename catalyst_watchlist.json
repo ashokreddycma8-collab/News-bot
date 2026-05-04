@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T12:01:44.787487+05:30",
+  "generated_at": "2026-05-04T14:35:56.052013+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -830,12 +830,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "ADANIENT": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Q4 results show \u20b9221 crore loss",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "NCLAT decision to dismiss Vedanta's appeal",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "EDELWEISS": {
       "score": 4,
@@ -947,6 +947,30 @@
       "catalyst": "raises \u20b940.32 crore via warrants",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "GODREJPROP": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "FY26 profit rises 32% to \u20b91,850 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "BAJAJAUTO": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "total sales up 40% at 5,13,792 units in April",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MCX": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "Sebi chief's comments on commodity derivatives",
+      "category": "structural_change",
+      "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
