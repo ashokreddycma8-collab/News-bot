@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T14:35:56.052013+05:30",
+  "generated_at": "2026-05-04T17:15:59.047846+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -971,6 +971,14 @@
       "catalyst": "Sebi chief's comments on commodity derivatives",
       "category": "structural_change",
       "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "JINDALSTEL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Co posts quarterly profit jump on strong domestic demand",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
