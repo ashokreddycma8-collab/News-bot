@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T16:34:29.346751+05:30",
+  "generated_at": "2026-05-04T11:55:05.100111+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -830,9 +830,9 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "ADANIENT": {
-      "score": 4,
+      "score": 5,
       "direction": "SELL",
-      "catalyst": "Adani Ent Q4 Results: Co posts Rs 221 crore loss vs profit a year ago, but revenue rises 20% YoY",
+      "catalyst": "Q4 results show \u20b9221 crore loss",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
@@ -913,6 +913,22 @@
       "score": 7,
       "direction": "BUY",
       "catalyst": "Royal Enfield beats estimates with strong sales",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "EQUITAS": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "5-fold jump in Q4 profit to Rs 213 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "VEDANTA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "demerger leads to 5% jump in shares",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"

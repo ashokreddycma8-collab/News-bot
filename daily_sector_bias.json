@@ -1,85 +1,93 @@
 {
-  "date": "2026-05-01",
-  "time": "16:34",
+  "date": "2026-05-04",
+  "time": "11:55",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "April Auto Sales Live: Maruti Suzuki Sees Highest Ever Monthly Sales; Royal Enfield Beats Estimates",
+      "news_driver": "Rupee falls to 94.86 per USD",
       "theme": "null",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bullish",
-          "reason": "Record monthly sales -> increased revenue -> margins expansion by 50bps",
-          "quant": "8-10% Q2 revenue growth"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> increased crude oil import costs -> reduced IOC margins",
+          "quant": "-100bps"
         },
         {
-          "name": "Royal Enfield",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Beating estimates -> improved market share -> 12% increase in order book value",
-          "quant": "Rs 500Cr order book addition"
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Oil price volatility -> higher working capital requirements -> decreased HPCL profitability",
+          "quant": "-8%"
         }
       ],
-      "watch": "Maruti Suzuki's Q2 earnings release"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "pharma",
+      "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Aurobindo Pharma Arm CuraTeQ Gets Health Canada Nod For Biosimilar",
+      "news_driver": "Kotak\u2019s asset quality gains drive robust Q4 show",
       "theme": "null",
       "stocks": [
         {
-          "name": "Aurobindo Pharma",
-          "ticker": "AUROPHARMA.NS",
+          "name": "Kotak Mahindra Bank",
+          "ticker": "KOTAKBANK.NS",
           "impact": "Bullish",
-          "reason": "Health Canada approval -> increased exports -> 15% increase in biosimilar sales",
-          "quant": "Rs 200Cr additional revenue"
+          "reason": "Q4 results beat -> improved asset quality -> increased investor confidence",
+          "quant": "+5%"
+        },
+        {
+          "name": "Equitas Small Finance Bank",
+          "ticker": "EQUITASBNK.NS",
+          "impact": "Bullish",
+          "reason": "5-fold jump in Q4 profit -> increased profitability -> higher stock valuation",
+          "quant": "+10%"
         }
       ],
-      "watch": "Aurobindo Pharma's Q2 earnings release"
+      "watch": "NPA levels in upcoming bank results"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "How India Became the World's AI Film Lab",
+      "theme": "AI and data centers",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "AI adoption -> increased demand for IT services -> higher Infosys revenue",
+          "quant": "+4%"
+        }
+      ],
+      "watch": "AI-related deal wins by Indian IT companies"
     },
     {
       "sector": "fmcg",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "\u2018Election Bill\u2019: Rahul slams government on commercial LPG price hike",
+      "news_driver": "Shrinkflation, price hikes buzz in consumer firms as war spikes costs",
       "theme": "null",
       "stocks": [
         {
           "name": "Hindustan Unilever",
           "ticker": "HINDUNILVR.NS",
           "impact": "Bearish",
-          "reason": "LPG price hike -> increased input costs -> 20bps margin contraction",
-          "quant": "-1.5% impact on Q2 margins"
+          "reason": "Input cost inflation -> price hikes -> decreased consumer demand",
+          "quant": "-2%"
         }
       ],
-      "watch": "LPG price movement"
-    },
-    {
-      "sector": "infra",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Mumbai-Pune Expressway 'Missing Link' Opens, Bypasses Ghat Stretch, Cuts Travel Time by 30 Minutes",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "IRB Infrastructure",
-          "ticker": "IRB.NS",
-          "impact": "Bullish",
-          "reason": "Expressway completion -> increased toll revenue -> 10% increase in Q2 revenue",
-          "quant": "Rs 150Cr additional toll revenue"
-        }
-      ],
-      "watch": "IRB Infrastructure's Q2 earnings release"
+      "watch": "Raw material price movement"
     }
   ],
   "themes": [
-    "null"
+    "AI and data centers",
+    "PSU bank recovery"
   ]
 }
