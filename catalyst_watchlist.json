@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T11:30:50.792070+05:30",
+  "generated_at": "2026-05-05T13:55:49.506661+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1001,6 +1001,14 @@
       "score": 7,
       "direction": "BUY",
       "catalyst": "Q4 profit soars 124% YoY to Rs 92 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "M&M": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit surges 53% to Rs 3,737 crore, revenue up 26% YoY, dividend declared",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"

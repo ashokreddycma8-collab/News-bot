@@ -1,86 +1,79 @@
 {
   "date": "2026-05-05",
-  "time": "11:30",
+  "time": "13:55",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Maruti and Bajaj Auto leading gains",
+      "news_driver": "M&M Q4 Results",
       "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
           "impact": "Bullish",
-          "reason": "Positive state election trends -> increased consumer spending -> higher auto sales",
-          "quant": "revenue +5-7% Q1"
-        },
-        {
-          "name": "Bajaj Auto",
-          "ticker": "BAJAJ-AUTO.NS",
-          "impact": "Bullish",
-          "reason": "Easing geopolitical tensions -> lower crude prices -> higher margins",
-          "quant": "margins +100bps"
+          "reason": "M&M's Q4 net profit surging 53% -> increased revenue and profitability -> margins expansion by 150bps",
+          "quant": "53% YoY increase in net profit"
         }
       ],
-      "watch": "Maruti Suzuki's monthly sales data"
+      "watch": "Rs 1200 price level for M&M"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Crude shock and Hormuz fears",
-      "theme": null,
+      "news_driver": "Expanding Digital Access",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude prices -> increased production costs -> lower profitability",
-          "quant": "margins -50bps"
+          "name": "Ather Energy",
+          "ticker": "ATHERENERGY.NS",
+          "impact": "Bullish",
+          "reason": "Ather Energy's Q4 loss narrowing -> increased demand for electric vehicles -> revenue growth of 20% QoQ",
+          "quant": "5% increase in stock price"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Q1 earnings report for Ather Energy"
     },
     {
-      "sector": "realty",
+      "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Mumbai realty market trends",
+      "news_driver": "Global Markets",
       "theme": null,
       "stocks": [
         {
-          "name": "Sobha",
-          "ticker": "SOBHA.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
-          "quant": "revenue +10-12% Q1"
+          "name": "Adani Ports",
+          "ticker": "ADANIPORTS.NS",
+          "impact": "Bearish",
+          "reason": "Promoter entity selling 2% stake -> decreased investor confidence -> stock price falling by 3%",
+          "quant": "2% stake sale"
         }
       ],
-      "watch": "Sobha's quarterly sales data"
+      "watch": "Rs 700 price level for Adani Ports"
     },
     {
-      "sector": "capital_goods",
+      "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "BHEL's strong Q4 results",
-      "theme": "PSU_rotation",
+      "conviction": 1,
+      "news_driver": "OnEMI Technology Solutions IPO",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "BHEL",
-          "ticker": "BHEL.NS",
+          "name": "OnEMI Technology Solutions",
+          "ticker": "KISSHT.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
-          "quant": "order book +Rs500Cr"
+          "reason": "IPO being fully subscribed -> increased demand for tech stocks -> listing gains of 10%",
+          "quant": "Rs 1 premium in GMP"
         }
       ],
-      "watch": "BHEL's order book growth"
+      "watch": "IPO listing date for OnEMI Technology Solutions"
     }
   ],
   "themes": [
     "rural_mobility",
-    "PSU_rotation"
+    "internet_digital"
   ]
 }
