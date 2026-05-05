@@ -1,86 +1,86 @@
 {
-  "date": "2026-05-04",
-  "time": "17:15",
-  "mood": "Cautious",
+  "date": "2026-05-05",
+  "time": "11:30",
+  "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Maruti and Bajaj Auto leading gains",
+      "theme": "rural_mobility",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Positive state election trends -> increased consumer spending -> higher auto sales",
+          "quant": "revenue +5-7% Q1"
+        },
+        {
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
+          "impact": "Bullish",
+          "reason": "Easing geopolitical tensions -> lower crude prices -> higher margins",
+          "quant": "margins +100bps"
+        }
+      ],
+      "watch": "Maruti Suzuki's monthly sales data"
+    },
     {
       "sector": "energy",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "India's LPG consumption slides 16% in April amid West Asia conflict",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Crude shock and Hormuz fears",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
           "impact": "Bearish",
-          "reason": "LPG consumption decline -> reduced refining margins -> lower profitability",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "LPG consumption decline -> lower sales volume -> revenue -5%",
-          "quant": "revenue -5%"
+          "reason": "Higher crude prices -> increased production costs -> lower profitability",
+          "quant": "margins -50bps"
         }
       ],
       "watch": "Brent crude price movement"
     },
     {
-      "sector": "defence",
-      "direction": "Bullish",
+      "sector": "realty",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "BJP's early lead in West Bengal elections",
-      "theme": "null",
+      "news_driver": "Mumbai realty market trends",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Sobha",
+          "ticker": "SOBHA.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
+          "quant": "revenue +10-12% Q1"
+        }
+      ],
+      "watch": "Sobha's quarterly sales data"
+    },
+    {
+      "sector": "capital_goods",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "BHEL's strong Q4 results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "BHEL",
           "ticker": "BHEL.NS",
           "impact": "Bullish",
-          "reason": "BJP's lead -> potential increase in defence spending -> order book +Rs500Cr",
+          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
           "quant": "order book +Rs500Cr"
         }
       ],
-      "watch": "Defence budget allocation"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Google's internal war against anti-military activist employees",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Google's internal war -> no direct impact on Indian IT sector -> business as usual",
-          "quant": "null"
-        }
-      ],
-      "watch": "US market trends"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India must map, monitor economic vulnerabilities in energy, food, other areas: EAC-PM chairman",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Suzlon Energy",
-          "ticker": "SUZLON.NS",
-          "impact": "Bullish",
-          "reason": "EAC-PM chairman's statement -> increased focus on renewable energy -> higher demand for wind turbines",
-          "quant": "revenue +8-10% Q3"
-        }
-      ],
-      "watch": "Government's renewable energy targets"
+      "watch": "BHEL's order book growth"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "Defence"
+    "rural_mobility",
+    "PSU_rotation"
   ]
 }
