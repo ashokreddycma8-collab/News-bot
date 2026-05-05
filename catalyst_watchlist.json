@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T15:45:10.472372+05:30",
+  "generated_at": "2026-05-05T16:44:29.371653+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1042,6 +1042,22 @@
       "direction": "BUY",
       "catalyst": "stock surges up to 8%",
       "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "MARICO": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Profit rises 14% to Rs 391 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BIOCON": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "Kiran Mazumdar-Shaw names niece as successor",
+      "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     }

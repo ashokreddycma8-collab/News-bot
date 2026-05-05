@@ -1,86 +1,79 @@
 {
   "date": "2026-05-05",
-  "time": "15:45",
-  "mood": "Bullish",
+  "time": "16:44",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "HDFC Bank Likely to Appoint New Chairman in June",
+      "news_driver": "Reliance to shut crude unit at 660,000 bpd refinery for maintenance",
       "theme": "null",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "New chairman appointment -> improved governance and leadership -> increased investor confidence",
-          "quant": "5-7% upside in stock price"
-        },
-        {
-          "name": "IndusInd Bank",
-          "ticker": "INDUSINDBK.NS",
-          "impact": "Neutral",
-          "reason": "Ex-CFO's termination case -> potential leadership instability -> cautious investor sentiment",
-          "quant": "null"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Refinery maintenance shutdown -> reduced crude processing capacity -> lower revenue and margins",
+          "quant": "-3-5% Q2 revenue impact"
         }
       ],
-      "watch": "HDFC Bank's June chairman appointment announcement"
+      "watch": "660,000 bpd refinery maintenance schedule"
     },
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "CAMS shares jump 9% after firm reports highest-ever Q4 revenue",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "CAMS",
-          "ticker": "CAMS.NS",
-          "impact": "Bullish",
-          "reason": "Q4 revenue growth -> increased investor confidence -> stock price surge",
-          "quant": "9% stock price jump"
-        }
-      ],
-      "watch": "CAMS's future revenue growth announcements"
-    },
-    {
-      "sector": "auto",
+      "sector": "pharma",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "War Cost Pressures Aside, Ather Energy Looking At Profitibility Soon",
+      "news_driver": "Biocon shares rise 1% after billionaire Kiran Mazumdar-Shaw names niece as successor",
       "theme": "null",
       "stocks": [
         {
-          "name": "Ather Energy",
-          "ticker": "null",
+          "name": "Biocon",
+          "ticker": "BIOCON.NS",
           "impact": "Bullish",
-          "reason": "Ather Energy's profitability plans -> increased investor confidence -> potential stock price growth",
-          "quant": "10-15% revenue growth"
+          "reason": "Succession plan announcement -> increased investor confidence -> higher stock price",
+          "quant": "+2-3% stock price appreciation"
         }
       ],
-      "watch": "Ather Energy's profitability announcement"
+      "watch": "Biocon Q1 earnings release"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "DIIs hiked stake in 82% of Nifty stocks in last one year",
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "RBI rate cuts partly passed on to borrowers in FY26, lending rates fall but not fully",
       "theme": "null",
       "stocks": [
         {
-          "name": "Nifty",
-          "ticker": "null",
-          "impact": "Bullish",
-          "reason": "DIIs increasing stake -> increased investor confidence -> stock market growth",
-          "quant": "8-10% Nifty growth"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "Partial rate cut pass-through -> lower lending rates -> increased loan demand, but limited margin expansion",
+          "quant": "50-75bps reduction in lending rates"
         }
       ],
-      "watch": "Nifty's future growth announcements"
+      "watch": "RBI monetary policy meeting"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Marico Q4 Results: Profit rises 14% to Rs 391 crore; co declares Rs 4 dividend",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Marico",
+          "ticker": "MARICO.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
+          "quant": "+5-7% stock price appreciation"
+        }
+      ],
+      "watch": "Marico Q1 earnings release"
     }
   ],
   "themes": [
-    "DIIs investment",
-    "banking sector growth"
+    "PSU_rotation",
+    "China+1"
   ]
 }
