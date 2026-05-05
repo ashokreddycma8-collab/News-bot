@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T13:55:49.506661+05:30",
+  "generated_at": "2026-05-05T15:45:10.472372+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -252,9 +252,9 @@
     "HDFCBANK": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "HDFC Bank earnings up 9% in Q4; announces \u20b913 dividend",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "likely to appoint new chairman in June",
+      "category": "structural_change",
+      "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "ICICIBANK": {
@@ -1012,6 +1012,38 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "RAYMOND": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 results: Cons PAT falls 91% YoY to Rs 12 crore despite 8% revenue uptick",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "CAMS": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "reports highest-ever Q4 revenue, announces dividend",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TITAGARH": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "stock surges up to 8%",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "WOCKHARDT": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "stock surges up to 8%",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
