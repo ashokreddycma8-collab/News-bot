@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T16:06:41.245471+05:30",
+  "generated_at": "2026-05-06T17:16:28.355292+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1078,11 +1078,11 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "COFORGE": {
-      "score": 6,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Motilal Oswal says shares may rally up to 54%",
-      "category": "brokerage_upgrade",
-      "ttl_hours": 24,
+      "catalyst": "adds half a billion USD in market value on upbeat outlook",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "SPMLINFRA": {
@@ -1132,6 +1132,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "GODREJCP": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Profit rises 10% on strong domestic demand, volume growth",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

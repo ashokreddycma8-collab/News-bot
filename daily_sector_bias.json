@@ -1,86 +1,85 @@
 {
   "date": "2026-05-06",
-  "time": "16:06",
+  "time": "17:16",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Brent crude price slide due to US-Iran conflict resolution talks",
-      "theme": "geopolitical_de-escalation",
+      "news_driver": "Russia's share in Indian oil imports jumped in March, but discount turned into a premium",
+      "theme": "null",
       "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Russia's premium pricing -> reduced margins for RIL's refining business -> lower profitability",
+          "quant": "-100bps"
+        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Brent crude price slide -> reduced refining margins -> lower profitability",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Brent crude price slide -> decreased crude throughput -> lower revenue",
-          "quant": "revenue -5%"
+          "reason": "Higher oil prices -> increased costs for IOC's refining business -> lower margins",
+          "quant": "-80bps"
         }
       ],
-      "watch": "Brent crude price level of $85"
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Godrej Consumer Q4 Results: Profit rises on strong domestic demand, volume growth",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Godrej Consumer Products",
+          "ticker": "GODREJCP.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
+          "quant": "+5%"
+        }
+      ],
+      "watch": "Q1 results announcement"
     },
     {
       "sector": "energy",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "SEBI's significant indices classification based on \u20b920,000-cr AUM threshold",
-      "theme": "regulatory_support",
+      "conviction": 1,
+      "news_driver": "Oil prices decline amid progress in U.S.-Iran talks",
+      "theme": "null",
       "stocks": [
         {
           "name": "NTPC",
           "ticker": "NTPC.NS",
           "impact": "Bullish",
-          "reason": "SEBI's significant indices classification -> increased investor interest -> higher stock price",
-          "quant": "stock price +4%"
+          "reason": "Lower oil prices -> reduced energy costs -> higher margins",
+          "quant": "+50bps"
         }
       ],
-      "watch": "NTPC's stock price level of \u20b9150"
+      "watch": "Government's energy policy announcements"
     },
     {
-      "sector": "capital_goods",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Polycab India's Q4 results, net profit rises 6.3%",
-      "theme": "earnings_beat",
+      "news_driver": "Coforge adds half a billion USD in market value on upbeat outlook",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Polycab India",
-          "ticker": "POLYCAB.NS",
+          "name": "Coforge",
+          "ticker": "COFORGE.NS",
           "impact": "Bullish",
-          "reason": "Q4 earnings beat -> increased investor confidence -> higher stock price",
-          "quant": "stock price +8%"
+          "reason": "Upbeat outlook -> increased investor confidence -> higher stock price",
+          "quant": "+8%"
         }
       ],
-      "watch": "Polycab India's stock price level of \u20b92,500"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Arvind Fashions' Q4 results, turns profit and declares \u20b91.60 dividend",
-      "theme": "earnings_recovery",
-      "stocks": [
-        {
-          "name": "Arvind Fashions",
-          "ticker": "ARVINDFASN.NS",
-          "impact": "Bullish",
-          "reason": "Q4 earnings recovery -> increased investor interest -> higher stock price",
-          "quant": "stock price +3%"
-        }
-      ],
-      "watch": "Arvind Fashions' stock price level of \u20b9200"
+      "watch": "Q1 results announcement"
     }
   ],
   "themes": [
-    "geopolitical_de-escalation",
-    "earnings_beat"
+    "null"
   ]
 }
