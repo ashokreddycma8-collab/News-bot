@@ -1,79 +1,93 @@
 {
-  "date": "2026-05-05",
-  "time": "16:44",
-  "mood": "Cautious",
+  "date": "2026-05-06",
+  "time": "11:45",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Reliance to shut crude unit at 660,000 bpd refinery for maintenance",
-      "theme": "null",
+      "news_driver": "US-Iran conflict and rupee depreciation",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Petronet",
+          "ticker": "PETRONET.NS",
           "impact": "Bearish",
-          "reason": "Refinery maintenance shutdown -> reduced crude processing capacity -> lower revenue and margins",
-          "quant": "-3-5% Q2 revenue impact"
-        }
-      ],
-      "watch": "660,000 bpd refinery maintenance schedule"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Biocon shares rise 1% after billionaire Kiran Mazumdar-Shaw names niece as successor",
-      "theme": "null",
-      "stocks": [
+          "reason": "US-Iran conflict -> higher Brent prices -> lower OMC margins",
+          "quant": "-100bps"
+        },
         {
-          "name": "Biocon",
-          "ticker": "BIOCON.NS",
-          "impact": "Bullish",
-          "reason": "Succession plan announcement -> increased investor confidence -> higher stock price",
-          "quant": "+2-3% stock price appreciation"
+          "name": "Exide Industries",
+          "ticker": "EXIDEIND.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> higher input costs -> lower profitability",
+          "quant": "-5%"
         }
       ],
-      "watch": "Biocon Q1 earnings release"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "banking",
+      "sector": "capital_goods",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "RBI rate cuts partly passed on to borrowers in FY26, lending rates fall but not fully",
-      "theme": "null",
+      "news_driver": "L&T Q4 results and order win from JSW Steel",
+      "theme": null,
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Larsen & Toubro",
+          "ticker": "LT.NS",
           "impact": "Neutral",
-          "reason": "Partial rate cut pass-through -> lower lending rates -> increased loan demand, but limited margin expansion",
-          "quant": "50-75bps reduction in lending rates"
+          "reason": "Q4 profit dip -> softer FY27 outlook -> cautious investor sentiment",
+          "quant": "-4%"
+        },
+        {
+          "name": "BHEL",
+          "ticker": "BHEL.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results -> mixed investor reaction -> stable stock price",
+          "quant": "0%"
         }
       ],
-      "watch": "RBI monetary policy meeting"
+      "watch": "L&T stock price movement"
     },
     {
-      "sector": "fmcg",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Marico Q4 Results: Profit rises 14% to Rs 391 crore; co declares Rs 4 dividend",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Coforge Q4 results and target price upgrade by Motilal Oswal",
+      "theme": "IT sector growth",
       "stocks": [
         {
-          "name": "Marico",
-          "ticker": "MARICO.NS",
+          "name": "Coforge",
+          "ticker": "COFORGE.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
-          "quant": "+5-7% stock price appreciation"
+          "reason": "Q4 results -> target price upgrade -> positive investor sentiment",
+          "quant": "+20%"
         }
       ],
-      "watch": "Marico Q1 earnings release"
+      "watch": "Coforge stock price movement"
+    },
+    {
+      "sector": "chemicals",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "SRF Q4 results and capex announcement",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "SRF",
+          "ticker": "SRF.NS",
+          "impact": "Bullish",
+          "reason": "Q4 profit growth -> capex announcement -> positive investor sentiment",
+          "quant": "+5%"
+        }
+      ],
+      "watch": "SRF stock price movement"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "OMC margin squeeze",
+    "IT sector growth"
   ]
 }
