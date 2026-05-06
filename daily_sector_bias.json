@@ -1,86 +1,86 @@
 {
   "date": "2026-05-06",
-  "time": "14:14",
+  "time": "16:06",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "infra",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "SPML Infra bags \u20b91,128 crore NTPC battery storage contract",
-      "theme": "capital_goods",
+      "news_driver": "Brent crude price slide due to US-Iran conflict resolution talks",
+      "theme": "geopolitical_de-escalation",
       "stocks": [
         {
-          "name": "SPML Infra",
-          "ticker": "SPMLINFRA.NS",
-          "impact": "Bullish",
-          "reason": "NTPC contract win -> increased order book -> revenue growth of 10-12% in FY25",
-          "quant": "order book +Rs1128Cr"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Brent crude price slide -> reduced refining margins -> lower profitability",
+          "quant": "margins -100bps"
         },
         {
-          "name": "L&T",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "Data centres and semiconductors growth -> increased revenue -> margins expansion of 50-75bps",
-          "quant": "margins +50bps"
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Brent crude price slide -> decreased crude throughput -> lower revenue",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "L&T's share price crossing \u20b92500"
-    },
-    {
-      "sector": "auto",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Bajaj Auto set to announce share buyback",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Bajaj Auto",
-          "ticker": "BAJAJ-AUTO.NS",
-          "impact": "Neutral",
-          "reason": "Share buyback announcement -> reduced share count -> EPS growth of 2-3%",
-          "quant": "EPS +2%"
-        }
-      ],
-      "watch": "Bajaj Auto's share buyback size and price"
+      "watch": "Brent crude price level of $85"
     },
     {
       "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "KPI Green Energy Q4 Results",
-      "theme": "renewable",
+      "news_driver": "SEBI's significant indices classification based on \u20b920,000-cr AUM threshold",
+      "theme": "regulatory_support",
       "stocks": [
         {
-          "name": "KPI Green Energy",
-          "ticker": "KPIGREEN.NS",
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
           "impact": "Bullish",
-          "reason": "Q4 results beat -> increased investor confidence -> stock price appreciation of 10-12%",
-          "quant": "revenue +40%"
+          "reason": "SEBI's significant indices classification -> increased investor interest -> higher stock price",
+          "quant": "stock price +4%"
         }
       ],
-      "watch": "KPI Green Energy's stock price crossing \u20b9500"
+      "watch": "NTPC's stock price level of \u20b9150"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "PNB Q4 Results",
-      "theme": null,
+      "sector": "capital_goods",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Polycab India's Q4 results, net profit rises 6.3%",
+      "theme": "earnings_beat",
       "stocks": [
         {
-          "name": "PNB",
-          "ticker": "PNB.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results miss -> reduced investor confidence -> target price cut of 5-7%",
-          "quant": "target price -5%"
+          "name": "Polycab India",
+          "ticker": "POLYCAB.NS",
+          "impact": "Bullish",
+          "reason": "Q4 earnings beat -> increased investor confidence -> higher stock price",
+          "quant": "stock price +8%"
         }
       ],
-      "watch": "PNB's asset quality trends"
+      "watch": "Polycab India's stock price level of \u20b92,500"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Arvind Fashions' Q4 results, turns profit and declares \u20b91.60 dividend",
+      "theme": "earnings_recovery",
+      "stocks": [
+        {
+          "name": "Arvind Fashions",
+          "ticker": "ARVINDFASN.NS",
+          "impact": "Bullish",
+          "reason": "Q4 earnings recovery -> increased investor interest -> higher stock price",
+          "quant": "stock price +3%"
+        }
+      ],
+      "watch": "Arvind Fashions' stock price level of \u20b9200"
     }
   ],
   "themes": [
-    "capital_goods",
-    "renewable"
+    "geopolitical_de-escalation",
+    "earnings_beat"
   ]
 }

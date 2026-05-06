@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T14:14:02.890699+05:30",
+  "generated_at": "2026-05-06T16:06:41.245471+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1106,6 +1106,30 @@
       "direction": "SELL",
       "catalyst": "Motilal Oswal cuts target price after Q4 results",
       "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ARVINDFASH": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit and dividend declaration of \u20b91.60",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AARTIND": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Resilient Q4 performance and strengthened global positioning",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "POLYCAB": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit rise of 6.3% to Rs 773 Crore and dividend declaration",
+      "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     }
