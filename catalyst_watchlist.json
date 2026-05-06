@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T11:45:53.964189+05:30",
+  "generated_at": "2026-05-06T14:14:02.890699+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -776,8 +776,8 @@
     "BAJAJ-AUTO": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "buyback offer coming soon",
-      "category": "technical_event",
+      "catalyst": "set to announce share buyback",
+      "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
@@ -1084,6 +1084,30 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SPMLINFRA": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "bags \u20b91,128 crore NTPC battery storage contract",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "KPIGREEN": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Cons PAT jumps 46% YoY to Rs 155 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PNB": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Motilal Oswal cuts target price after Q4 results",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

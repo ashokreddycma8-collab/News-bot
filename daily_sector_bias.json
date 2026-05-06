@@ -1,93 +1,86 @@
 {
   "date": "2026-05-06",
-  "time": "11:45",
-  "mood": "Bearish",
+  "time": "14:14",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "infra",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and rupee depreciation",
-      "theme": "OMC margin squeeze",
+      "news_driver": "SPML Infra bags \u20b91,128 crore NTPC battery storage contract",
+      "theme": "capital_goods",
       "stocks": [
         {
-          "name": "Petronet",
-          "ticker": "PETRONET.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher Brent prices -> lower OMC margins",
-          "quant": "-100bps"
+          "name": "SPML Infra",
+          "ticker": "SPMLINFRA.NS",
+          "impact": "Bullish",
+          "reason": "NTPC contract win -> increased order book -> revenue growth of 10-12% in FY25",
+          "quant": "order book +Rs1128Cr"
         },
         {
-          "name": "Exide Industries",
-          "ticker": "EXIDEIND.NS",
-          "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher input costs -> lower profitability",
-          "quant": "-5%"
+          "name": "L&T",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "Data centres and semiconductors growth -> increased revenue -> margins expansion of 50-75bps",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "L&T's share price crossing \u20b92500"
     },
     {
-      "sector": "capital_goods",
+      "sector": "auto",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "L&T Q4 results and order win from JSW Steel",
+      "news_driver": "Bajaj Auto set to announce share buyback",
       "theme": null,
       "stocks": [
         {
-          "name": "Larsen & Toubro",
-          "ticker": "LT.NS",
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
           "impact": "Neutral",
-          "reason": "Q4 profit dip -> softer FY27 outlook -> cautious investor sentiment",
-          "quant": "-4%"
-        },
-        {
-          "name": "BHEL",
-          "ticker": "BHEL.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results -> mixed investor reaction -> stable stock price",
-          "quant": "0%"
+          "reason": "Share buyback announcement -> reduced share count -> EPS growth of 2-3%",
+          "quant": "EPS +2%"
         }
       ],
-      "watch": "L&T stock price movement"
+      "watch": "Bajaj Auto's share buyback size and price"
     },
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Coforge Q4 results and target price upgrade by Motilal Oswal",
-      "theme": "IT sector growth",
+      "news_driver": "KPI Green Energy Q4 Results",
+      "theme": "renewable",
       "stocks": [
         {
-          "name": "Coforge",
-          "ticker": "COFORGE.NS",
+          "name": "KPI Green Energy",
+          "ticker": "KPIGREEN.NS",
           "impact": "Bullish",
-          "reason": "Q4 results -> target price upgrade -> positive investor sentiment",
-          "quant": "+20%"
+          "reason": "Q4 results beat -> increased investor confidence -> stock price appreciation of 10-12%",
+          "quant": "revenue +40%"
         }
       ],
-      "watch": "Coforge stock price movement"
+      "watch": "KPI Green Energy's stock price crossing \u20b9500"
     },
     {
-      "sector": "chemicals",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "SRF Q4 results and capex announcement",
+      "news_driver": "PNB Q4 Results",
       "theme": null,
       "stocks": [
         {
-          "name": "SRF",
-          "ticker": "SRF.NS",
-          "impact": "Bullish",
-          "reason": "Q4 profit growth -> capex announcement -> positive investor sentiment",
-          "quant": "+5%"
+          "name": "PNB",
+          "ticker": "PNB.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results miss -> reduced investor confidence -> target price cut of 5-7%",
+          "quant": "target price -5%"
         }
       ],
-      "watch": "SRF stock price movement"
+      "watch": "PNB's asset quality trends"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "IT sector growth"
+    "capital_goods",
+    "renewable"
   ]
 }
