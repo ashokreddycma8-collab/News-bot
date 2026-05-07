@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T17:16:28.355292+05:30",
+  "generated_at": "2026-05-07T11:51:39.607528+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -960,9 +960,9 @@
     "BAJAJAUTO": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "total sales up 40% at 5,13,792 units in April",
-      "category": "corporate_event",
-      "ttl_hours": 48,
+      "catalyst": "record Q4 profit",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "MCX": {
@@ -1078,12 +1078,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "COFORGE": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "adds half a billion USD in market value on upbeat outlook",
-      "category": "corporate_event",
-      "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "catalyst": "upbeat outlook",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "SPMLINFRA": {
       "score": 8,
