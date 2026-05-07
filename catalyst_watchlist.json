@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T14:39:41.598787+05:30",
+  "generated_at": "2026-05-07T16:47:33.271472+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -934,12 +934,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "KOTAKBANK": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "RBI clears to buy up to 9.99% in Federal Bank",
+      "catalyst": "RBI clears Kotak Bank to raise stake up to 9.99% in AU Small Finance, Federal Bank",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "STEELXIND": {
       "score": 6,
@@ -1164,6 +1164,30 @@
       "category": "technical_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "BRIGADE": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Brigade Enterprises set to reward 1.5 lakh retail shareholders with bonus issue",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "KARURVYSYA": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Karur Vysya Bank NII Up 25% in Q4 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ESCORTS": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Escorts Kubota Sees Double-Digit Revenue Growth in Q4 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
