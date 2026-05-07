@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T11:51:39.607528+05:30",
+  "generated_at": "2026-05-07T14:39:41.598787+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -934,12 +934,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "KOTAKBANK": {
-      "score": 5,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 profit beat",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "RBI clears to buy up to 9.99% in Federal Bank",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "STEELXIND": {
       "score": 6,
@@ -1140,6 +1140,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MRF": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "declares Rs 229/share dividend for FY26",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BHARATFORG": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 net profit down 17.5%, final dividend declared",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "TEJASNET": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "shares rally nearly 20% intraday, up 30% in five sessions",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
