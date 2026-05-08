@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T12:42:08.402042+05:30",
+  "generated_at": "2026-05-08T14:17:53.826050+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1232,10 +1232,18 @@
     "SBIN": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Q4 results announcement",
+      "catalyst": "Q4 dividend declared at Rs 17.35",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "TITAN": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit rises 35% to Rs 1,179 crore, dividend declared",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
