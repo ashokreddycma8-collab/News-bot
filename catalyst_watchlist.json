@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T16:47:33.271472+05:30",
+  "generated_at": "2026-05-08T11:08:18.224874+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -984,7 +984,7 @@
     "BHEL": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 results lead to 10% rally in two days",
+      "catalyst": "Strong earnings and 85% returns",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -1185,6 +1185,38 @@
       "score": 5,
       "direction": "BUY",
       "catalyst": "Escorts Kubota Sees Double-Digit Revenue Growth in Q4 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "AMG": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Better than Expected First Quarter 2026 Results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PIDILITE": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Strong Q4 earnings",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "DABUR": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 Beat",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "BSE": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 profit surge",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
