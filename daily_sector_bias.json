@@ -1,69 +1,86 @@
 {
   "date": "2026-05-08",
-  "time": "15:43",
-  "mood": "Bullish",
+  "time": "16:40",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "banking",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "SBI Q4 Results",
-      "theme": "PSU_rotation",
+      "news_driver": "SBI Q4 results",
+      "theme": null,
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "SBI's Q4 net profit beating estimates -> increased investor confidence -> stock price appreciation",
-          "quant": "net profit +5.6% YoY"
-        },
-        {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Bullish",
-          "reason": "SBI's Q4 results setting a positive tone for PSU banks -> improved sentiment -> potential stock price increase",
-          "quant": "provisions -10% YoY"
+          "impact": "Bearish",
+          "reason": "SBI's Q4 operating profit falling 16% YoY -> NIMs contracting 21 bps -> reduced profitability",
+          "quant": "-21 bps"
         }
       ],
-      "watch": "SBIN's stock price breaking out above \u20b9550"
+      "watch": "SBI's next quarterly results for signs of recovery"
     },
     {
-      "sector": "it",
-      "direction": "Neutral",
+      "sector": "auto",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Amazon cloud outage",
+      "news_driver": "Hyundai Motor India Q4 Results",
       "theme": null,
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Amazon's cloud outage -> potential disruption to IT services -> minimal impact on Infosys' revenue",
-          "quant": "revenue growth +8-10% Q3"
+          "name": "Hyundai Motor India",
+          "ticker": "HYUNDAI.NS",
+          "impact": "Bearish",
+          "reason": "Hyundai Motor India's Q4 profit falling 23% YoY -> higher input costs and competition -> reduced margins",
+          "quant": "-23%"
         }
       ],
-      "watch": "INFY's stock price holding above \u20b91500"
+      "watch": "Hyundai's upcoming product launches for potential turnaround"
     },
     {
-      "sector": "financial_services",
+      "sector": "consumer",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Midcaps' earnings growth",
-      "theme": "Midcap Divergence",
+      "news_driver": "Titan Q4 Results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Bajaj Finance",
-          "ticker": "BAJFINANCE.NS",
+          "name": "Titan Company",
+          "ticker": "TITAN.NS",
           "impact": "Bullish",
-          "reason": "Midcaps' 29% earnings growth in Q4 -> increased investor interest -> stock price appreciation",
-          "quant": "earnings growth +25% YoY"
+          "reason": "Titan's Q4 net profit climbing 35.4% YoY -> strong demand and pricing power -> increased revenue",
+          "quant": "35.4%"
+        },
+        {
+          "name": "Kalyan Jewellers",
+          "ticker": "KALYANJEW.NS",
+          "impact": "Bullish",
+          "reason": "Kalyan Jewellers' Q4 Cons PAT soaring 118% YoY -> robust sales and expansion -> higher profitability",
+          "quant": "118%"
         }
       ],
-      "watch": "BAJFINANCE's stock price breaking out above \u20b97000"
+      "watch": "Titan's and Kalyan Jewellers' upcoming quarterly results for sustained growth"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Iran-US conflict",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Iran-US conflict escalating -> higher crude oil prices -> increased input costs for IOC",
+          "quant": "5-7% increase in crude oil prices"
+        }
+      ],
+      "watch": "Brent crude oil prices for further escalation"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "Midcap Divergence"
+    "China+1"
   ]
 }

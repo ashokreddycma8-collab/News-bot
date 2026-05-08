@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T15:43:24.418405+05:30",
+  "generated_at": "2026-05-08T16:40:44.560649+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -66,12 +66,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "KALYANJEW": {
-      "score": 6,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "64% revenue growth in Q4",
+      "catalyst": "Q4 Cons PAT soars 118% YoY to Rs 409 crore; revenue jumps 66%",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "TATASTEEL": {
       "score": 6,
@@ -1238,12 +1238,20 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "TITAN": {
-      "score": 6,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 net profit rises 35% to Rs 1,179 crore, dividend declared",
+      "catalyst": "Q4 net profit climbs 35.4% to \u20b91,179 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HYUNDAIIND": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 profit falls 23% YoY to Rs 1,221 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
