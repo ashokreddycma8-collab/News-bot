@@ -1,93 +1,93 @@
 {
   "date": "2026-05-08",
-  "time": "11:08",
-  "mood": "Bullish",
+  "time": "11:19",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Marico's revenue growth target and strong Q4 earnings from Dabur and Pidilite Industries",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Dabur India",
-          "ticker": "DABUR.NS",
-          "impact": "Bullish",
-          "reason": "Q4 earnings beat -> increased consumer spending -> revenue growth of 8-10%",
-          "quant": "8-10%"
-        },
-        {
-          "name": "Marico",
-          "ticker": "MARICO.NS",
-          "impact": "Bullish",
-          "reason": "Revenue growth target of \u20b920k cr by FY30 -> expansion into new markets -> increased market share",
-          "quant": "20%"
-        },
-        {
-          "name": "Pidilite Industries",
-          "ticker": "PIDILITIND.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 earnings -> increased demand for adhesives and sealants -> operating margin expansion of 150bps",
-          "quant": "150bps"
-        }
-      ],
-      "watch": "Marico's Q1 earnings release"
-    },
-    {
       "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "SBI's upcoming Q4 results and fundraising plan",
-      "theme": null,
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Anand Tandon's statement on banking margins facing pressure",
+      "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results and fundraising plan -> increased liquidity -> stable net interest margin",
-          "quant": "0%"
+          "impact": "Bearish",
+          "reason": "Anand Tandon's statement on banking margins -> reduced profitability due to higher funding costs -> NIM contraction of 20-25bps",
+          "quant": "-20bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bearish",
+          "reason": "Interest rate uncertainty -> increased borrowing costs -> loan growth slowdown of 5-7%",
+          "quant": "-5%"
         }
       ],
-      "watch": "SBI's Q4 results on May 12"
+      "watch": "SBIN.NS price level of Rs 450"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Anand Tandon's statement on FMCG recovery",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Neutral",
+          "reason": "Modest FMCG recovery -> steady volume growth -> revenue growth of 4-6% in Q1",
+          "quant": "4%"
+        }
+      ],
+      "watch": "HINDUNILVR.NS Q1 earnings release"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Cloudflare's workforce reduction announcement",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "Cloudflare's AI-driven workforce reduction -> increased competition for IT services -> pricing pressure of 2-3%",
+          "quant": "-2%"
+        },
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Cloudflare's announcement -> client budget constraints -> deal closures slowing down by 10-15%",
+          "quant": "-10%"
+        }
+      ],
+      "watch": "INFY.NS Q1 earnings release"
     },
     {
       "sector": "capital_markets",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "BSE shares fall despite Q4 profit surge",
+      "conviction": 2,
+      "news_driver": "Fresh US-Iran tensions and its impact on India bonds",
       "theme": null,
       "stocks": [
         {
           "name": "BSE",
           "ticker": "BSE.NS",
           "impact": "Bearish",
-          "reason": "Q4 profit surge -> high valuations -> correction in stock price",
-          "quant": "-5%"
+          "reason": "India bond yields rising -> reduced investor appetite for equities -> trading volume contraction of 8-10%",
+          "quant": "-8%"
         }
       ],
-      "watch": "BSE's stock price movement"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Iran ceasefire hopes and stable US inflation expectations",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "BHEL",
-          "ticker": "BHEL.NS",
-          "impact": "Bullish",
-          "reason": "Iran ceasefire hopes -> increased oil exports -> higher revenue growth",
-          "quant": "10%"
-        }
-      ],
-      "watch": "Crude oil price movement"
+      "watch": "10-year bond yield level of 7.5%"
     }
   ],
   "themes": [
-    "rural_mobility",
-    "PSU_rotation"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }

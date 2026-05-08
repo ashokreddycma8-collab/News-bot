@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T11:08:18.224874+05:30",
+  "generated_at": "2026-05-08T11:19:43.190177+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1214,12 +1214,20 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "BSE": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 profit surge",
+      "catalyst": "Q4 results lead to increased share price target by Jefferies and Motilal Oswal",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SONATASOFT": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 net profit rises 21% and announces dividend",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
