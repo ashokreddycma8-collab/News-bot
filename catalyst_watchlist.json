@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T15:59:44.834880+05:30",
+  "generated_at": "2026-05-11T18:06:59.907688+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1275,6 +1275,14 @@
       "catalyst": "Online Instruments (India) files IPO papers, eyes raising Rs 750 crore from fresh issue",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "JSWENERGY": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Cons profit rises 38% YoY to Rs 574 crore; revenue jumps 41%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

@@ -1,85 +1,86 @@
 {
   "date": "2026-05-11",
-  "time": "15:59",
+  "time": "18:06",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "PM Modi's appeal to shift away from fuel consumption",
+      "theme": "electric_vehicle",
+      "stocks": [
+        {
+          "name": "Ather Energy",
+          "ticker": "ATHERENERGY.NS",
+          "impact": "Bullish",
+          "reason": "PM Modi's appeal -> increased demand for electric vehicles -> higher sales for Ather Energy",
+          "quant": "revenue +15-20% Q1"
+        },
+        {
+          "name": "Ola Electric",
+          "ticker": "OLAELECTRIC.NS",
+          "impact": "Bullish",
+          "reason": "PM Modi's appeal -> increased government support for EVs -> higher market share for Ola Electric",
+          "quant": "market share +5-7% Q2"
+        }
+      ],
+      "watch": "Ola Electric's Q1 earnings release"
+    },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Madhavi Arora's warning of a structural shift in global oil markets",
-      "theme": "null",
+      "news_driver": "Rupee depreciation and rising oil prices",
+      "theme": "oil_price",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising global oil prices -> increased cost of crude oil imports -> reduced refining margins",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Global oil market volatility -> decreased demand for petroleum products -> lower sales revenue",
-          "quant": "-5%"
+          "reason": "Rupee depreciation -> higher import costs -> lower margins for IOC",
+          "quant": "margins -100bps Q2"
         }
       ],
-      "watch": "Brent crude oil price level of $90"
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "WFH Again? IT Employees' Association Urges Government To Mandate Work From Home",
-      "theme": "null",
+      "news_driver": "NITES seeking official advisory for Work from Home measures",
+      "theme": null,
       "stocks": [
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Increased adoption of work-from-home policies -> higher demand for remote work solutions -> increased revenue",
-          "quant": "+3-5% Q3"
-        }
-      ],
-      "watch": "Government announcement on work-from-home policies"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Online Instruments (India) files IPO papers",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Online Instruments (India)",
-          "ticker": "null",
           "impact": "Neutral",
-          "reason": "IPO filing -> potential increase in market activity -> neutral impact on market sentiment",
+          "reason": "NITES advisory -> potential increase in remote work -> no significant impact on TCS",
           "quant": "null"
         }
       ],
-      "watch": "IPO subscription numbers"
+      "watch": "Government response to NITES advisory"
     },
     {
-      "sector": "media",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Dhurandhar Propels PVR's Profits As Cinema Giant Reports Highest Revenue In Q4",
-      "theme": "null",
+      "news_driver": "Corporate FD rates in May 2026",
+      "theme": null,
       "stocks": [
         {
-          "name": "PVR Limited",
-          "ticker": "PVR.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 revenue growth -> increased investor confidence -> higher stock price",
-          "quant": "+8-10% Q3"
+          "name": "Shriram Finance",
+          "ticker": "SHRIRAMFIN.NS",
+          "impact": "Neutral",
+          "reason": "Higher corporate FD rates -> increased competition for deposits -> no significant impact on Shriram Finance",
+          "quant": "null"
         }
       ],
-      "watch": "PVR's Q1 earnings report"
+      "watch": "Deposit growth rates for Shriram Finance"
     }
   ],
   "themes": [
-    "null"
+    "electric_vehicle",
+    "oil_price"
   ]
 }
