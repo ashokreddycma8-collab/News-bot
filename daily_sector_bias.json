@@ -1,86 +1,86 @@
 {
-  "date": "2026-05-08",
-  "time": "16:40",
-  "mood": "Bearish",
+  "date": "2026-05-11",
+  "time": "12:22",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "SBI Q4 results",
-      "theme": null,
+      "news_driver": "SBI Q4 results and Morgan Stanley, Citi & Bernstein views on rebound",
+      "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
           "impact": "Bearish",
-          "reason": "SBI's Q4 operating profit falling 16% YoY -> NIMs contracting 21 bps -> reduced profitability",
-          "quant": "-21 bps"
-        }
-      ],
-      "watch": "SBI's next quarterly results for signs of recovery"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Hyundai Motor India Q4 Results",
-      "theme": null,
-      "stocks": [
+          "reason": "SBI Q4 net profit up 5.6% -> failing to meet high expectations -> stock price plunge",
+          "quant": "-10% in two days"
+        },
         {
-          "name": "Hyundai Motor India",
-          "ticker": "HYUNDAI.NS",
-          "impact": "Bearish",
-          "reason": "Hyundai Motor India's Q4 profit falling 23% YoY -> higher input costs and competition -> reduced margins",
-          "quant": "-23%"
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
+          "impact": "Neutral",
+          "reason": "BoB Q4 results announcement -> mixed market reaction -> no significant stock movement",
+          "quant": "null"
         }
       ],
-      "watch": "Hyundai's upcoming product launches for potential turnaround"
+      "watch": "SBI stock price support at 450 levels"
     },
     {
       "sector": "consumer",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Titan Q4 Results",
-      "theme": null,
+      "news_driver": "Tata Consumer Q4 earnings",
+      "theme": "FMCG_growth",
       "stocks": [
         {
-          "name": "Titan Company",
-          "ticker": "TITAN.NS",
+          "name": "Tata Consumer Products",
+          "ticker": "TATACONSUM.NS",
           "impact": "Bullish",
-          "reason": "Titan's Q4 net profit climbing 35.4% YoY -> strong demand and pricing power -> increased revenue",
-          "quant": "35.4%"
-        },
-        {
-          "name": "Kalyan Jewellers",
-          "ticker": "KALYANJEW.NS",
-          "impact": "Bullish",
-          "reason": "Kalyan Jewellers' Q4 Cons PAT soaring 118% YoY -> robust sales and expansion -> higher profitability",
-          "quant": "118%"
+          "reason": "Tata Consumer Q4 earnings beat expectations -> positive market reaction -> stock price surge",
+          "quant": "+7% in a day"
         }
       ],
-      "watch": "Titan's and Kalyan Jewellers' upcoming quarterly results for sustained growth"
+      "watch": "Tata Consumer stock price resistance at 950 levels"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "capital_goods",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Iran-US conflict",
-      "theme": null,
+      "news_driver": "Sudip Bandyopadhyay's view on capital goods",
+      "theme": "Infrastructure_growth",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran-US conflict escalating -> higher crude oil prices -> increased input costs for IOC",
-          "quant": "5-7% increase in crude oil prices"
+          "name": "ABB India",
+          "ticker": "ABB.NS",
+          "impact": "Bullish",
+          "reason": "Sudip Bandyopadhyay's advice to buy capital goods on dips -> increased investor interest -> potential stock price appreciation",
+          "quant": "+5-8% in the short term"
         }
       ],
-      "watch": "Brent crude oil prices for further escalation"
+      "watch": "ABB India stock price support at 2000 levels"
+    },
+    {
+      "sector": "railway",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Railway capex utilization and trains dominating flights in new corridors",
+      "theme": "Infrastructure_growth",
+      "stocks": [
+        {
+          "name": "IRCTC",
+          "ticker": "IRCTC.NS",
+          "impact": "Bullish",
+          "reason": "Railway capex utilization and trains dominating flights in new corridors -> increased revenue potential -> stock price appreciation",
+          "quant": "+10-12% in the medium term"
+        }
+      ],
+      "watch": "IRCTC stock price resistance at 700 levels"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "Infrastructure_growth"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T16:40:44.560649+05:30",
+  "generated_at": "2026-05-11T12:22:45.788501+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1252,6 +1252,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "TATACONSUM": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "better-than-expected Q4 earnings, shares soar 7%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
