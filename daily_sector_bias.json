@@ -1,86 +1,85 @@
 {
   "date": "2026-05-11",
-  "time": "12:22",
+  "time": "15:59",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "SBI Q4 results and Morgan Stanley, Citi & Bernstein views on rebound",
-      "theme": "PSU_rotation",
+      "news_driver": "Madhavi Arora's warning of a structural shift in global oil markets",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "SBI Q4 net profit up 5.6% -> failing to meet high expectations -> stock price plunge",
-          "quant": "-10% in two days"
+          "reason": "Rising global oil prices -> increased cost of crude oil imports -> reduced refining margins",
+          "quant": "-100bps"
         },
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Global oil market volatility -> decreased demand for petroleum products -> lower sales revenue",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Brent crude oil price level of $90"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "WFH Again? IT Employees' Association Urges Government To Mandate Work From Home",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Increased adoption of work-from-home policies -> higher demand for remote work solutions -> increased revenue",
+          "quant": "+3-5% Q3"
+        }
+      ],
+      "watch": "Government announcement on work-from-home policies"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Online Instruments (India) files IPO papers",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Online Instruments (India)",
+          "ticker": "null",
           "impact": "Neutral",
-          "reason": "BoB Q4 results announcement -> mixed market reaction -> no significant stock movement",
+          "reason": "IPO filing -> potential increase in market activity -> neutral impact on market sentiment",
           "quant": "null"
         }
       ],
-      "watch": "SBI stock price support at 450 levels"
+      "watch": "IPO subscription numbers"
     },
     {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tata Consumer Q4 earnings",
-      "theme": "FMCG_growth",
-      "stocks": [
-        {
-          "name": "Tata Consumer Products",
-          "ticker": "TATACONSUM.NS",
-          "impact": "Bullish",
-          "reason": "Tata Consumer Q4 earnings beat expectations -> positive market reaction -> stock price surge",
-          "quant": "+7% in a day"
-        }
-      ],
-      "watch": "Tata Consumer stock price resistance at 950 levels"
-    },
-    {
-      "sector": "capital_goods",
+      "sector": "media",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Sudip Bandyopadhyay's view on capital goods",
-      "theme": "Infrastructure_growth",
+      "news_driver": "Dhurandhar Propels PVR's Profits As Cinema Giant Reports Highest Revenue In Q4",
+      "theme": "null",
       "stocks": [
         {
-          "name": "ABB India",
-          "ticker": "ABB.NS",
+          "name": "PVR Limited",
+          "ticker": "PVR.NS",
           "impact": "Bullish",
-          "reason": "Sudip Bandyopadhyay's advice to buy capital goods on dips -> increased investor interest -> potential stock price appreciation",
-          "quant": "+5-8% in the short term"
+          "reason": "Strong Q4 revenue growth -> increased investor confidence -> higher stock price",
+          "quant": "+8-10% Q3"
         }
       ],
-      "watch": "ABB India stock price support at 2000 levels"
-    },
-    {
-      "sector": "railway",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Railway capex utilization and trains dominating flights in new corridors",
-      "theme": "Infrastructure_growth",
-      "stocks": [
-        {
-          "name": "IRCTC",
-          "ticker": "IRCTC.NS",
-          "impact": "Bullish",
-          "reason": "Railway capex utilization and trains dominating flights in new corridors -> increased revenue potential -> stock price appreciation",
-          "quant": "+10-12% in the medium term"
-        }
-      ],
-      "watch": "IRCTC stock price resistance at 700 levels"
+      "watch": "PVR's Q1 earnings report"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "Infrastructure_growth"
+    "null"
   ]
 }

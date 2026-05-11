@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T12:22:45.788501+05:30",
+  "generated_at": "2026-05-11T15:59:44.834880+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1259,6 +1259,22 @@
       "catalyst": "better-than-expected Q4 earnings, shares soar 7%",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PVR": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "PVR reports highest revenue in Q4",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ONLINE": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Online Instruments (India) files IPO papers, eyes raising Rs 750 crore from fresh issue",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
