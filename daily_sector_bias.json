@@ -1,86 +1,93 @@
 {
-  "date": "2026-05-11",
-  "time": "18:06",
-  "mood": "Cautious",
+  "date": "2026-05-12",
+  "time": "11:54",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "PM Modi's appeal to shift away from fuel consumption",
-      "theme": "electric_vehicle",
-      "stocks": [
-        {
-          "name": "Ather Energy",
-          "ticker": "ATHERENERGY.NS",
-          "impact": "Bullish",
-          "reason": "PM Modi's appeal -> increased demand for electric vehicles -> higher sales for Ather Energy",
-          "quant": "revenue +15-20% Q1"
-        },
-        {
-          "name": "Ola Electric",
-          "ticker": "OLAELECTRIC.NS",
-          "impact": "Bullish",
-          "reason": "PM Modi's appeal -> increased government support for EVs -> higher market share for Ola Electric",
-          "quant": "market share +5-7% Q2"
-        }
-      ],
-      "watch": "Ola Electric's Q1 earnings release"
-    },
-    {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee depreciation and rising oil prices",
-      "theme": "oil_price",
+      "news_driver": "Iran conflict and higher Brent prices",
+      "theme": "energy_shocks",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bullish",
+          "reason": "Government cuts crude oil royalty -> reduction in operating costs -> increase in profitability by 5-7%",
+          "quant": "5-7%"
+        },
+        {
+          "name": "IOCL",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher import costs -> lower margins for IOC",
-          "quant": "margins -100bps Q2"
+          "reason": "Higher Brent prices -> increase in crude oil costs -> decrease in OMC margins by 100-120bps",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude price crossing $100"
     },
     {
       "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "NITES seeking official advisory for Work from Home measures",
-      "theme": null,
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Weak earnings outlook and demand worries",
+      "theme": "tech_downturn",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "Weak earnings outlook -> decrease in investor confidence -> stock price drop by 8-10%",
+          "quant": "-8%"
+        },
+        {
+          "name": "TCS",
           "ticker": "TCS.NS",
-          "impact": "Neutral",
-          "reason": "NITES advisory -> potential increase in remote work -> no significant impact on TCS",
-          "quant": "null"
+          "impact": "Bearish",
+          "reason": "Demand worries -> decrease in revenue growth -> decrease in profitability by 5-7%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Government response to NITES advisory"
+      "watch": "Nifty IT index breaking 200-day moving average"
     },
     {
       "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Corporate FD rates in May 2026",
+      "news_driver": "RBI and European Central Bank sign revised agreement on information exchange",
       "theme": null,
       "stocks": [
         {
-          "name": "Shriram Finance",
-          "ticker": "SHRIRAMFIN.NS",
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
           "impact": "Neutral",
-          "reason": "Higher corporate FD rates -> increased competition for deposits -> no significant impact on Shriram Finance",
-          "quant": "null"
+          "reason": "RBI and European Central Bank agreement -> increase in information exchange -> improvement in banking regulations by 2-3%",
+          "quant": "2%"
         }
       ],
-      "watch": "Deposit growth rates for Shriram Finance"
+      "watch": "Nifty Bank index testing 50-day moving average"
+    },
+    {
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Afcons Infrastructure securing Rs 7,544 crore Croatia railway project",
+      "theme": "infrastructure_growth",
+      "stocks": [
+        {
+          "name": "Afcons Infrastructure",
+          "ticker": "AFCONS.NS",
+          "impact": "Bullish",
+          "reason": "Securing Croatia railway project -> increase in order book by Rs 7,544 crore -> increase in revenue growth by 10-12%",
+          "quant": "10%"
+        }
+      ],
+      "watch": "Afcons Infrastructure stock price crossing 200-day moving average"
     }
   ],
   "themes": [
-    "electric_vehicle",
-    "oil_price"
+    "energy_shocks",
+    "tech_downturn"
   ]
 }
