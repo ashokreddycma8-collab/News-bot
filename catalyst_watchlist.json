@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T14:48:47.275324+05:30",
+  "generated_at": "2026-05-12T16:59:26.943641+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1340,6 +1340,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "ONWARDTECH": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Rs 180 crore share buyback at 20% premium",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

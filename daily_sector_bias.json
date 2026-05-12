@@ -1,78 +1,100 @@
 {
   "date": "2026-05-12",
-  "time": "14:48",
-  "mood": "Cautious",
+  "time": "16:59",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Government cuts in crude oil royalty rates",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Oil India",
-          "ticker": "OIL.NS",
-          "impact": "Bullish",
-          "reason": "Government royalty rate cut -> reduced production costs -> increased profitability",
-          "quant": "7% stock price jump"
-        }
-      ],
-      "watch": "OMC stocks' reaction to potential profitability erosion"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Middle East peace deal hopes fading",
-      "theme": "null",
+      "news_driver": "US-Iran conflict and potential fuel price hike",
+      "theme": "OMC_pressure",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Potential increase in crude oil prices -> higher production costs -> reduced margins",
-          "quant": "margins -50bps"
+          "reason": "US-Iran conflict -> higher crude prices -> lower IOC margins",
+          "quant": "-120bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> higher crude prices -> lower HPCL margins",
+          "quant": "-100bps"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> higher crude prices -> lower BPCL margins",
+          "quant": "-110bps"
         }
       ],
-      "watch": "Crude oil price movement"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "telecom",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Bharti Airtel Q4 results",
-      "theme": "null",
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran conflict and potential disruption in energy supplies",
+      "theme": "energy_security",
       "stocks": [
         {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results announcement -> market reaction to earnings call -> stock price movement",
-          "quant": "null"
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> potential disruption in energy supplies -> higher NTPC costs",
+          "quant": "costs +5-7% Q2"
+        },
+        {
+          "name": "Power Grid Corporation",
+          "ticker": "POWERGRID.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> potential disruption in energy supplies -> lower Power Grid demand",
+          "quant": "demand -2-3% Q2"
         }
       ],
-      "watch": "Q4 results announcement"
+      "watch": "US-Iran conflict escalation"
     },
     {
-      "sector": "psu",
+      "sector": "capital_markets",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "market crash and potential outflow of foreign funds",
+      "theme": "market_volatility",
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "market crash -> potential outflow of foreign funds -> lower HDFC Bank NII",
+          "quant": "NII -2-3% Q2"
+        }
+      ],
+      "watch": "Nifty support levels"
+    },
+    {
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "8th Pay Commission demands",
-      "theme": "PSU_rotation",
+      "news_driver": "copper price rally",
+      "theme": "commodity_rally",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Hindalco",
+          "ticker": "HINDALCO.NS",
           "impact": "Bullish",
-          "reason": "Potential implementation of 8th Pay Commission demands -> increased pension benefits -> improved employee morale",
-          "quant": "revenue +2-3% Q3"
+          "reason": "copper price rally -> higher Hindalco revenues -> higher profitability",
+          "quant": "revenue +5-7% Q2"
         }
       ],
-      "watch": "8th Pay Commission demands outcome"
+      "watch": "copper price movement"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "OMC_pressure",
+    "energy_security"
   ]
 }
