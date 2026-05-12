@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T11:54:15.707145+05:30",
+  "generated_at": "2026-05-12T14:48:47.275324+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1321,6 +1321,22 @@
       "score": 5,
       "direction": "BUY",
       "catalyst": "Q4 Results: Profit more than doubles to Rs 116 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "OIL": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Government cuts crude oil royalty rates",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "BHARTIARTL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Upcoming Q4 results",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"

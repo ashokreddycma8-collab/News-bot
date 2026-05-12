@@ -1,93 +1,78 @@
 {
   "date": "2026-05-12",
-  "time": "11:54",
-  "mood": "Bearish",
+  "time": "14:48",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Iran conflict and higher Brent prices",
-      "theme": "energy_shocks",
-      "stocks": [
-        {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bullish",
-          "reason": "Government cuts crude oil royalty -> reduction in operating costs -> increase in profitability by 5-7%",
-          "quant": "5-7%"
-        },
-        {
-          "name": "IOCL",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Higher Brent prices -> increase in crude oil costs -> decrease in OMC margins by 100-120bps",
-          "quant": "-100bps"
-        }
-      ],
-      "watch": "Brent crude price crossing $100"
-    },
-    {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Weak earnings outlook and demand worries",
-      "theme": "tech_downturn",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Weak earnings outlook -> decrease in investor confidence -> stock price drop by 8-10%",
-          "quant": "-8%"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Demand worries -> decrease in revenue growth -> decrease in profitability by 5-7%",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Nifty IT index breaking 200-day moving average"
-    },
-    {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "RBI and European Central Bank sign revised agreement on information exchange",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Neutral",
-          "reason": "RBI and European Central Bank agreement -> increase in information exchange -> improvement in banking regulations by 2-3%",
-          "quant": "2%"
-        }
-      ],
-      "watch": "Nifty Bank index testing 50-day moving average"
-    },
-    {
-      "sector": "infra",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Afcons Infrastructure securing Rs 7,544 crore Croatia railway project",
-      "theme": "infrastructure_growth",
+      "news_driver": "Government cuts in crude oil royalty rates",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Afcons Infrastructure",
-          "ticker": "AFCONS.NS",
+          "name": "Oil India",
+          "ticker": "OIL.NS",
           "impact": "Bullish",
-          "reason": "Securing Croatia railway project -> increase in order book by Rs 7,544 crore -> increase in revenue growth by 10-12%",
-          "quant": "10%"
+          "reason": "Government royalty rate cut -> reduced production costs -> increased profitability",
+          "quant": "7% stock price jump"
         }
       ],
-      "watch": "Afcons Infrastructure stock price crossing 200-day moving average"
+      "watch": "OMC stocks' reaction to potential profitability erosion"
+    },
+    {
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Middle East peace deal hopes fading",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Potential increase in crude oil prices -> higher production costs -> reduced margins",
+          "quant": "margins -50bps"
+        }
+      ],
+      "watch": "Crude oil price movement"
+    },
+    {
+      "sector": "telecom",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Bharti Airtel Q4 results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results announcement -> market reaction to earnings call -> stock price movement",
+          "quant": "null"
+        }
+      ],
+      "watch": "Q4 results announcement"
+    },
+    {
+      "sector": "psu",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "8th Pay Commission demands",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Potential implementation of 8th Pay Commission demands -> increased pension benefits -> improved employee morale",
+          "quant": "revenue +2-3% Q3"
+        }
+      ],
+      "watch": "8th Pay Commission demands outcome"
     }
   ],
   "themes": [
-    "energy_shocks",
-    "tech_downturn"
+    "PSU_rotation"
   ]
 }
