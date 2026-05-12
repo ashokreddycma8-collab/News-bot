@@ -1,100 +1,85 @@
 {
   "date": "2026-05-12",
-  "time": "16:59",
+  "time": "17:22",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and potential fuel price hike",
-      "theme": "OMC_pressure",
+      "news_driver": "West Asia tensions and high oil prices",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> lower IOC margins",
-          "quant": "-120bps"
+          "reason": "High oil prices -> increased import costs -> reduced margins",
+          "quant": "-150bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> lower HPCL margins",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> lower BPCL margins",
-          "quant": "-110bps"
+          "reason": "High oil prices -> decreased refining margins -> lower profitability",
+          "quant": "-10%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent oil price crossing $100/barrel"
     },
     {
-      "sector": "energy",
+      "sector": "pharma",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and potential disruption in energy supplies",
-      "theme": "energy_security",
+      "news_driver": "Dr. Reddy's Laboratories Q4 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
+          "name": "Dr. Reddy's Laboratories",
+          "ticker": "DRREDDY.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> potential disruption in energy supplies -> higher NTPC costs",
-          "quant": "costs +5-7% Q2"
-        },
-        {
-          "name": "Power Grid Corporation",
-          "ticker": "POWERGRID.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> potential disruption in energy supplies -> lower Power Grid demand",
-          "quant": "demand -2-3% Q2"
+          "reason": "Weak Q4 results -> decreased investor confidence -> lower stock price",
+          "quant": "-12% revenue dip"
         }
       ],
-      "watch": "US-Iran conflict escalation"
+      "watch": "Q4 results of other pharma companies"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "market crash and potential outflow of foreign funds",
-      "theme": "market_volatility",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "market crash -> potential outflow of foreign funds -> lower HDFC Bank NII",
-          "quant": "NII -2-3% Q2"
-        }
-      ],
-      "watch": "Nifty support levels"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
+      "sector": "fmcg",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "copper price rally",
-      "theme": "commodity_rally",
+      "news_driver": "Berger Paints Q4 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Hindalco",
-          "ticker": "HINDALCO.NS",
+          "name": "Berger Paints",
+          "ticker": "BERGEPAINT.NS",
           "impact": "Bullish",
-          "reason": "copper price rally -> higher Hindalco revenues -> higher profitability",
-          "quant": "revenue +5-7% Q2"
+          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
+          "quant": "+28% profit growth"
         }
       ],
-      "watch": "copper price movement"
+      "watch": "Q4 results of other FMCG companies"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "OpenAI move reviving AI fears",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "AI fears -> decreased demand for IT services -> lower revenue",
+          "quant": "-5% revenue growth"
+        }
+      ],
+      "watch": "Development of AI-related technologies"
     }
   ],
   "themes": [
-    "OMC_pressure",
-    "energy_security"
+    "null"
   ]
 }
