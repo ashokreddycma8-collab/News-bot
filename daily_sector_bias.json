@@ -1,100 +1,93 @@
 {
   "date": "2026-05-13",
-  "time": "12:07",
-  "mood": "Bearish",
+  "time": "15:01",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Middle East tensions and US-Iran talks fragility",
-      "theme": "OMC margin squeeze",
+      "news_driver": "OpenAI's Tomoro buy triggering sharp decline in Tech stocks",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increasing cost of production -> reducing margins by 100-150bps",
-          "quant": "-120bps"
+          "reason": "OpenAI's Tomoro buy -> increased competition in AI space -> revenue growth slowdown",
+          "quant": "-8-10% Q3 revenue growth"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Weakening rupee -> higher import costs -> reducing profitability by 8-10%",
-          "quant": "-9%"
+          "reason": "Nifty IT hitting 3-year low -> decreased investor sentiment -> stock price decline",
+          "quant": "-5% stock price decline"
         }
       ],
-      "watch": "Brent crude price crossing $110"
+      "watch": "Nifty IT index level of 25,000"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Q4 results of Canara Bank and SBI",
+      "news_driver": "TVS Motor Q4 Results",
       "theme": null,
       "stocks": [
         {
-          "name": "Canara Bank",
-          "ticker": "CANBK.NS",
-          "impact": "Bearish",
-          "reason": "Q4 profit dip -> reduced investor confidence -> potential stock price correction by 5-6%",
-          "quant": "-5.5%"
-        },
-        {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Q4 NIMs contraction -> reduced profitability -> potential stock price correction by 8-10%",
-          "quant": "-9%"
+          "name": "TVS Motor",
+          "ticker": "TVSM.NS",
+          "impact": "Bullish",
+          "reason": "TVS Motor Q4 Results -> strong revenue growth of 30% YoY -> increased investor confidence",
+          "quant": "+15% stock price increase"
         }
       ],
-      "watch": "SBI stock price crossing 450"
+      "watch": "TVS Motor stock price level of Rs 1,200"
     },
     {
-      "sector": "metal",
-      "direction": "Bullish",
+      "sector": "pharma",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Import duty hike on silver",
+      "news_driver": "Dr. Reddy's Q4 Results",
       "theme": null,
       "stocks": [
         {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
-          "impact": "Bullish",
-          "reason": "Import duty hike on silver -> increased domestic demand -> potential revenue growth of 10-12%",
-          "quant": "11%"
+          "name": "Dr. Reddy's",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bearish",
+          "reason": "Dr. Reddy's Q4 Results -> 86% decline in net profit -> decreased investor sentiment",
+          "quant": "-12% stock price decline"
         },
         {
-          "name": "Vedanta",
-          "ticker": "VEDL.NS",
-          "impact": "Bullish",
-          "reason": "Import duty hike on silver -> increased profitability -> potential stock price appreciation by 8-10%",
-          "quant": "9%"
+          "name": "Cipla",
+          "ticker": "CIPLA.NS",
+          "impact": "Bearish",
+          "reason": "Cipla Q4FY26 Results -> 54.6% decline in net profit -> revenue growth slowdown",
+          "quant": "-8% revenue growth"
         }
       ],
-      "watch": "Silver prices crossing Rs 3.2 lakh/kg"
+      "watch": "Dr. Reddy's stock price level of Rs 4,000"
     },
     {
-      "sector": "telecom",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Vodafone Idea shares surge",
+      "news_driver": "Cabinet Likely To Approve Rs 37,000-Crore Coal Gasification Incentive Scheme",
       "theme": null,
       "stocks": [
         {
-          "name": "Vodafone Idea",
-          "ticker": "VI.NS",
+          "name": "L&T",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "Recent stock price surge -> increased investor confidence -> potential further appreciation by 10-12%",
-          "quant": "11%"
+          "reason": "Cabinet approval of coal gasification incentive scheme -> increased orders for L&T -> revenue growth",
+          "quant": "+10% order book growth"
         }
       ],
-      "watch": "Vodafone Idea stock price crossing 10"
+      "watch": "L&T stock price level of Rs 2,500"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "import duty hike"
+    "internet_digital",
+    "PSU_rotation"
   ]
 }

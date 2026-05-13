@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T12:07:01.596012+05:30",
+  "generated_at": "2026-05-13T15:01:04.458105+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1064,7 +1064,7 @@
     "LT": {
       "score": 8,
       "direction": "BUY",
-      "catalyst": "L&T wins largest domestic metals order from JSW Steel for major expansion",
+      "catalyst": "L&T to set up extra-high voltage substations in Middle East",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -1372,6 +1372,22 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TVSMOTOR": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "TVS Motor Q4 Results: Cons PAT grows 19% YoY to Rs 772 crore as revenue jumps 30%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CIPLA": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Cipla Q4FY26 Results: Net Profit Down 54.6%, Dividend Announced",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
