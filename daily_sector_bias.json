@@ -1,85 +1,100 @@
 {
-  "date": "2026-05-12",
-  "time": "17:22",
+  "date": "2026-05-13",
+  "time": "12:07",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "West Asia tensions and high oil prices",
-      "theme": "null",
+      "news_driver": "Middle East tensions and US-Iran talks fragility",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "High oil prices -> increased import costs -> reduced margins",
-          "quant": "-150bps"
+          "reason": "Rising crude oil prices -> increasing cost of production -> reducing margins by 100-150bps",
+          "quant": "-120bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "High oil prices -> decreased refining margins -> lower profitability",
-          "quant": "-10%"
+          "reason": "Weakening rupee -> higher import costs -> reducing profitability by 8-10%",
+          "quant": "-9%"
         }
       ],
-      "watch": "Brent oil price crossing $100/barrel"
+      "watch": "Brent crude price crossing $110"
     },
     {
-      "sector": "pharma",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Dr. Reddy's Laboratories Q4 results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Dr. Reddy's Laboratories",
-          "ticker": "DRREDDY.NS",
-          "impact": "Bearish",
-          "reason": "Weak Q4 results -> decreased investor confidence -> lower stock price",
-          "quant": "-12% revenue dip"
-        }
-      ],
-      "watch": "Q4 results of other pharma companies"
-    },
-    {
-      "sector": "fmcg",
+      "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Berger Paints Q4 results",
-      "theme": "null",
+      "news_driver": "Q4 results of Canara Bank and SBI",
+      "theme": null,
       "stocks": [
         {
-          "name": "Berger Paints",
-          "ticker": "BERGEPAINT.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
-          "quant": "+28% profit growth"
+          "name": "Canara Bank",
+          "ticker": "CANBK.NS",
+          "impact": "Bearish",
+          "reason": "Q4 profit dip -> reduced investor confidence -> potential stock price correction by 5-6%",
+          "quant": "-5.5%"
+        },
+        {
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Q4 NIMs contraction -> reduced profitability -> potential stock price correction by 8-10%",
+          "quant": "-9%"
         }
       ],
-      "watch": "Q4 results of other FMCG companies"
+      "watch": "SBI stock price crossing 450"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "metal",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "OpenAI move reviving AI fears",
-      "theme": "null",
+      "news_driver": "Import duty hike on silver",
+      "theme": null,
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "AI fears -> decreased demand for IT services -> lower revenue",
-          "quant": "-5% revenue growth"
+          "name": "Hindustan Zinc",
+          "ticker": "HINDZINC.NS",
+          "impact": "Bullish",
+          "reason": "Import duty hike on silver -> increased domestic demand -> potential revenue growth of 10-12%",
+          "quant": "11%"
+        },
+        {
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
+          "impact": "Bullish",
+          "reason": "Import duty hike on silver -> increased profitability -> potential stock price appreciation by 8-10%",
+          "quant": "9%"
         }
       ],
-      "watch": "Development of AI-related technologies"
+      "watch": "Silver prices crossing Rs 3.2 lakh/kg"
+    },
+    {
+      "sector": "telecom",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Vodafone Idea shares surge",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Vodafone Idea",
+          "ticker": "VI.NS",
+          "impact": "Bullish",
+          "reason": "Recent stock price surge -> increased investor confidence -> potential further appreciation by 10-12%",
+          "quant": "11%"
+        }
+      ],
+      "watch": "Vodafone Idea stock price crossing 10"
     }
   ],
   "themes": [
-    "null"
+    "OMC margin squeeze",
+    "import duty hike"
   ]
 }

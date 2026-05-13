@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T17:22:30.577303+05:30",
+  "generated_at": "2026-05-13T12:07:01.596012+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -512,9 +512,9 @@
     "HINDZINC": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 profit jumps 68% YoY, announces interim dividend",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "Silver prices near Rs 3 lakh/kg after import duty hike",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "SBIGEN": {
@@ -1364,6 +1364,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "MAXFINANC": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Systematix maintains bullish call after Q4 results",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
