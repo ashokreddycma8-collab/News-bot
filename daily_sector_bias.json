@@ -1,93 +1,85 @@
 {
   "date": "2026-05-13",
-  "time": "15:01",
-  "mood": "Cautious",
+  "time": "17:20",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "OpenAI's Tomoro buy triggering sharp decline in Tech stocks",
-      "theme": "internet_digital",
+      "news_driver": "Iran-US deadlock",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "OpenAI's Tomoro buy -> increased competition in AI space -> revenue growth slowdown",
-          "quant": "-8-10% Q3 revenue growth"
+          "reason": "Iran-US conflict -> higher crude prices -> reduced margins for IOC",
+          "quant": "-120bps"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Nifty IT hitting 3-year low -> decreased investor sentiment -> stock price decline",
-          "quant": "-5% stock price decline"
+          "reason": "Iran-US conflict -> higher crude prices -> reduced refining margins for HPCL",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Nifty IT index level of 25,000"
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "TVS Motor Q4 Results",
-      "theme": null,
+      "news_driver": "Tata Motors Q4 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "TVS Motor",
-          "ticker": "TVSM.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "TVS Motor Q4 Results -> strong revenue growth of 30% YoY -> increased investor confidence",
-          "quant": "+15% stock price increase"
+          "reason": "Tata Motors Q4 profit jump -> increased investor confidence -> higher stock price",
+          "quant": "+8-10%"
         }
       ],
-      "watch": "TVS Motor stock price level of Rs 1,200"
+      "watch": "Tata Motors stock price movement"
     },
     {
-      "sector": "pharma",
+      "sector": "telecom",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Dr. Reddy's Q4 Results",
-      "theme": null,
+      "conviction": 1,
+      "news_driver": "Bharti Airtel Q4 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Dr. Reddy's",
-          "ticker": "DRREDDY.NS",
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
           "impact": "Bearish",
-          "reason": "Dr. Reddy's Q4 Results -> 86% decline in net profit -> decreased investor sentiment",
-          "quant": "-12% stock price decline"
-        },
-        {
-          "name": "Cipla",
-          "ticker": "CIPLA.NS",
-          "impact": "Bearish",
-          "reason": "Cipla Q4FY26 Results -> 54.6% decline in net profit -> revenue growth slowdown",
-          "quant": "-8% revenue growth"
+          "reason": "Bharti Airtel Q4 profit fall -> reduced investor confidence -> lower stock price",
+          "quant": "-5%"
         }
       ],
-      "watch": "Dr. Reddy's stock price level of Rs 4,000"
+      "watch": "Bharti Airtel stock price movement"
     },
     {
-      "sector": "energy",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Cabinet Likely To Approve Rs 37,000-Crore Coal Gasification Incentive Scheme",
-      "theme": null,
+      "news_driver": "SAIL share price surge",
+      "theme": "null",
       "stocks": [
         {
-          "name": "L&T",
-          "ticker": "LT.NS",
+          "name": "SAIL",
+          "ticker": "SAIL.NS",
           "impact": "Bullish",
-          "reason": "Cabinet approval of coal gasification incentive scheme -> increased orders for L&T -> revenue growth",
-          "quant": "+10% order book growth"
+          "reason": "Short squeeze in SAIL shares -> increased investor confidence -> higher stock price",
+          "quant": "+14%"
         }
       ],
-      "watch": "L&T stock price level of Rs 2,500"
+      "watch": "SAIL stock price movement"
     }
   ],
   "themes": [
-    "internet_digital",
-    "PSU_rotation"
+    "null"
   ]
 }

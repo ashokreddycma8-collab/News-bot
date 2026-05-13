@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T15:01:04.458105+05:30",
+  "generated_at": "2026-05-13T17:20:22.901276+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -742,11 +742,11 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "ADANIPOWER": {
-      "score": 6,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 net profit rises 52% YoY to Rs 4,017 crore",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "Adani Power seeks Rs 8,000 crore in debt to fund expansion",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "SUNPHARMA": {
@@ -894,12 +894,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "TATAMOTORS": {
-      "score": 5,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Tata leads in passenger vehicle sales, shows resilience in EVs",
+      "catalyst": "Tata Motors CV Q4 profit jumps 70%; FY26 revenue rises 11%, Iveco deal on track",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "AURPHARMA": {
       "score": 8,
@@ -1336,7 +1336,7 @@
     "BHARTIARTL": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Upcoming Q4 results",
+      "catalyst": "Bharti Airtel Q4 Results: Profit falls 34% YoY to Rs 7,325 crore even as revenue jumps 16%",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
@@ -1388,6 +1388,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "GICRE": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "GIC Re appointed manager of $1.4-b Bharat Maritime Insurance Pool",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
