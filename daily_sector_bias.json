@@ -1,79 +1,66 @@
 {
   "date": "2026-05-14",
-  "time": "14:48",
-  "mood": "Cautious",
+  "time": "16:53",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "defence",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "HAL Q4 Results: Defence PSU's Net Profit Rises 5.5% YoY To Rs 4,196 Crore",
+      "news_driver": "JSW Steel Q4 Results",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
+          "name": "JSW Steel",
+          "ticker": "JSWSTEEL.NS",
           "impact": "Bullish",
-          "reason": "HAL's Q4 net profit rise of 5.5% YoY -> increased revenue from defence contracts -> expected revenue growth of 10-12% in FY25",
-          "quant": "10-12%"
-        }
-      ],
-      "watch": "Rs 2,800 price level for HAL"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Zydus Lifesciences shares jump 6% on buyback buzz; co announces $166 mn Assertio acquisition",
-      "theme": "healthcare_services",
-      "stocks": [
+          "reason": "Strong Q4 results with one-time gain -> increased profitability -> higher investor confidence",
+          "quant": "11X YoY increase in cons profit to Rs 16,370 crore"
+        },
         {
-          "name": "Zydus Lifesciences",
-          "ticker": "ZYDUSLIFE.NS",
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
           "impact": "Bullish",
-          "reason": "Zydus Lifesciences' buyback announcement and Assertio acquisition -> increased investor confidence and expected synergy benefits -> estimated EPS growth of 15% in FY25",
-          "quant": "15%"
-        }
-      ],
-      "watch": "Rs 1,800 price level for Zydus Lifesciences"
-    },
-    {
-      "sector": "capital_goods",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "MTAR Technologies soars 6.5% to fresh 52-week high after Q4 results and \u20b92,279 crore order win",
-      "theme": "capital_goods",
-      "stocks": [
+          "reason": "JSW Steel's strong results -> positive sentiment in metal sector -> potential increase in Tata Steel's stock price",
+          "quant": "potential 5-7% increase in stock price"
+        },
         {
-          "name": "MTAR Technologies",
-          "ticker": "MTARTECH.NS",
-          "impact": "Bullish",
-          "reason": "MTAR Technologies' Q4 results and order win -> increased revenue visibility and expected margin expansion -> estimated revenue growth of 20% in FY25",
-          "quant": "20%"
-        }
-      ],
-      "watch": "Rs 2,500 price level for MTAR Technologies"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Copper up 9% since Iran war, near January peak",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Hindalco Industries",
+          "name": "Hindalco",
           "ticker": "HINDALCO.NS",
-          "impact": "Bearish",
-          "reason": "Rising copper prices -> increased input costs for Hindalco -> expected margin contraction of 100-150bps in Q2",
-          "quant": "-100-150bps"
+          "impact": "Bullish",
+          "reason": "JSW Steel's dividend declaration -> increased investor interest in metal sector -> potential increase in Hindalco's stock price",
+          "quant": "potential 3-5% increase in stock price"
         }
       ],
-      "watch": "Rs 400 price level for Hindalco"
+      "watch": "JSW Steel's stock price movement after dividend record date"
+    },
+    {
+      "sector": "hospitality",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Adani Airport Holdings, IHG Hotels & Resorts sign five-hotel deal",
+      "theme": "tourism_hospitality",
+      "stocks": [
+        {
+          "name": "Indian Hotels",
+          "ticker": "INDHOTEL.NS",
+          "impact": "Bullish",
+          "reason": "Adani-IHG hotel deal -> increased competition in hospitality sector -> potential increase in Indian Hotels' market share",
+          "quant": "potential 2-3% increase in market share"
+        },
+        {
+          "name": "Lemon Tree Hotels",
+          "ticker": "LEMONTREE.NS",
+          "impact": "Bullish",
+          "reason": "Adani-IHG hotel deal -> positive sentiment in hospitality sector -> potential increase in Lemon Tree Hotels' stock price",
+          "quant": "potential 4-6% increase in stock price"
+        }
+      ],
+      "watch": "Adani-IHG hotel deal's impact on Indian hospitality sector"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "healthcare_services"
+    "tourism_hospitality"
   ]
 }
