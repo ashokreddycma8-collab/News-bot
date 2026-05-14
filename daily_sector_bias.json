@@ -1,82 +1,89 @@
 {
-  "date": "2026-05-13",
-  "time": "17:20",
-  "mood": "Bearish",
+  "date": "2026-05-14",
+  "time": "12:04",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran-US deadlock",
+      "news_driver": "Crude oil prices above $100",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Tata Power",
+          "ticker": "TATAPOWER.NS",
           "impact": "Bearish",
-          "reason": "Iran-US conflict -> higher crude prices -> reduced margins for IOC",
-          "quant": "-120bps"
+          "reason": "Higher crude oil prices -> increased fuel costs -> lower margins",
+          "quant": "-100bps"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
+          "name": "Torrent Power",
+          "ticker": "TORNTPOWER.NS",
           "impact": "Bearish",
-          "reason": "Iran-US conflict -> higher crude prices -> reduced refining margins for HPCL",
-          "quant": "-100bps"
+          "reason": "Higher crude oil prices -> increased fuel costs -> lower profitability",
+          "quant": "-8%"
         }
       ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tata Motors Q4 results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "Tata Motors Q4 profit jump -> increased investor confidence -> higher stock price",
-          "quant": "+8-10%"
-        }
-      ],
-      "watch": "Tata Motors stock price movement"
-    },
-    {
-      "sector": "telecom",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Bharti Airtel Q4 results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Bearish",
-          "reason": "Bharti Airtel Q4 profit fall -> reduced investor confidence -> lower stock price",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Bharti Airtel stock price movement"
+      "watch": "Brent crude oil price movement"
     },
     {
       "sector": "metal",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "SAIL share price surge",
+      "news_driver": "Gold import duty hike to 15%",
       "theme": "null",
       "stocks": [
         {
-          "name": "SAIL",
-          "ticker": "SAIL.NS",
-          "impact": "Bullish",
-          "reason": "Short squeeze in SAIL shares -> increased investor confidence -> higher stock price",
-          "quant": "+14%"
+          "name": "V-Guard",
+          "ticker": "VGUARD.NS",
+          "impact": "Bearish",
+          "reason": "Higher gold import duty -> increased costs -> lower margins",
+          "quant": "-50bps"
         }
       ],
-      "watch": "SAIL stock price movement"
+      "watch": "Gold prices"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "IT Stocks Extend Decline For Fourth Straight Session Amid AI, Growth Concerns",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Persistent Systems",
+          "ticker": "PERSISTENT.NS",
+          "impact": "Bearish",
+          "reason": "Growth concerns and AI disruption -> lower revenue growth -> lower profitability",
+          "quant": "-10%"
+        },
+        {
+          "name": "Coforge",
+          "ticker": "COFORGE.NS",
+          "impact": "Bearish",
+          "reason": "Growth concerns and AI disruption -> lower revenue growth -> lower profitability",
+          "quant": "-8%"
+        }
+      ],
+      "watch": "Q4 earnings reports"
+    },
+    {
+      "sector": "commodities",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "India bans sugar exports till September 30",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "EID Parry",
+          "ticker": "EIDPARRY.NS",
+          "impact": "Bearish",
+          "reason": "Sugar export ban -> lower revenue -> lower profitability",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Sugar prices"
     }
   ],
   "themes": [

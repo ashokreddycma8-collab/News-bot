@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T17:20:22.901276+05:30",
+  "generated_at": "2026-05-14T12:04:29.008874+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1359,8 +1359,8 @@
     },
     "DIXON": {
       "score": 5,
-      "direction": "SELL",
-      "catalyst": "Q4 Results: Profit Slumps 36%",
+      "direction": "BUY",
+      "catalyst": "Q4 results announcement",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
@@ -1382,12 +1382,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "CIPLA": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Cipla Q4FY26 Results: Net Profit Down 54.6%, Dividend Announced",
-      "category": "earnings_beat",
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Brokerages Citi, Nuvama hike target price despite 55% YoY slump in Q4 profit",
+      "category": "brokerage_upgrade",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "GICRE": {
       "score": 7,
@@ -1396,6 +1396,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TATAPOWER": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 results announcement",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
