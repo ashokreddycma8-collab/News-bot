@@ -1,92 +1,79 @@
 {
   "date": "2026-05-14",
-  "time": "12:04",
+  "time": "14:48",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "defence",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude oil prices above $100",
-      "theme": "null",
+      "news_driver": "HAL Q4 Results: Defence PSU's Net Profit Rises 5.5% YoY To Rs 4,196 Crore",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude oil prices -> increased fuel costs -> lower margins",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Torrent Power",
-          "ticker": "TORNTPOWER.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude oil prices -> increased fuel costs -> lower profitability",
-          "quant": "-8%"
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
+          "impact": "Bullish",
+          "reason": "HAL's Q4 net profit rise of 5.5% YoY -> increased revenue from defence contracts -> expected revenue growth of 10-12% in FY25",
+          "quant": "10-12%"
         }
       ],
-      "watch": "Brent crude oil price movement"
+      "watch": "Rs 2,800 price level for HAL"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Zydus Lifesciences shares jump 6% on buyback buzz; co announces $166 mn Assertio acquisition",
+      "theme": "healthcare_services",
+      "stocks": [
+        {
+          "name": "Zydus Lifesciences",
+          "ticker": "ZYDUSLIFE.NS",
+          "impact": "Bullish",
+          "reason": "Zydus Lifesciences' buyback announcement and Assertio acquisition -> increased investor confidence and expected synergy benefits -> estimated EPS growth of 15% in FY25",
+          "quant": "15%"
+        }
+      ],
+      "watch": "Rs 1,800 price level for Zydus Lifesciences"
+    },
+    {
+      "sector": "capital_goods",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "MTAR Technologies soars 6.5% to fresh 52-week high after Q4 results and \u20b92,279 crore order win",
+      "theme": "capital_goods",
+      "stocks": [
+        {
+          "name": "MTAR Technologies",
+          "ticker": "MTARTECH.NS",
+          "impact": "Bullish",
+          "reason": "MTAR Technologies' Q4 results and order win -> increased revenue visibility and expected margin expansion -> estimated revenue growth of 20% in FY25",
+          "quant": "20%"
+        }
+      ],
+      "watch": "Rs 2,500 price level for MTAR Technologies"
     },
     {
       "sector": "metal",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Gold import duty hike to 15%",
-      "theme": "null",
+      "news_driver": "Copper up 9% since Iran war, near January peak",
+      "theme": null,
       "stocks": [
         {
-          "name": "V-Guard",
-          "ticker": "VGUARD.NS",
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
           "impact": "Bearish",
-          "reason": "Higher gold import duty -> increased costs -> lower margins",
-          "quant": "-50bps"
+          "reason": "Rising copper prices -> increased input costs for Hindalco -> expected margin contraction of 100-150bps in Q2",
+          "quant": "-100-150bps"
         }
       ],
-      "watch": "Gold prices"
-    },
-    {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "IT Stocks Extend Decline For Fourth Straight Session Amid AI, Growth Concerns",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Persistent Systems",
-          "ticker": "PERSISTENT.NS",
-          "impact": "Bearish",
-          "reason": "Growth concerns and AI disruption -> lower revenue growth -> lower profitability",
-          "quant": "-10%"
-        },
-        {
-          "name": "Coforge",
-          "ticker": "COFORGE.NS",
-          "impact": "Bearish",
-          "reason": "Growth concerns and AI disruption -> lower revenue growth -> lower profitability",
-          "quant": "-8%"
-        }
-      ],
-      "watch": "Q4 earnings reports"
-    },
-    {
-      "sector": "commodities",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "India bans sugar exports till September 30",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "EID Parry",
-          "ticker": "EIDPARRY.NS",
-          "impact": "Bearish",
-          "reason": "Sugar export ban -> lower revenue -> lower profitability",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Sugar prices"
+      "watch": "Rs 400 price level for Hindalco"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "healthcare_services"
   ]
 }
