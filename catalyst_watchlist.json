@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T16:53:50.938462+05:30",
+  "generated_at": "2026-05-14T17:19:45.674033+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1435,6 +1435,14 @@
       "catalyst": "Management names one segment causing cash flow concerns",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HUDCO": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit shoots up 172%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

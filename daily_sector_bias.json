@@ -1,66 +1,85 @@
 {
   "date": "2026-05-14",
-  "time": "16:53",
-  "mood": "Bullish",
+  "time": "17:19",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "metal",
-      "direction": "Bullish",
+      "sector": "auto",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "JSW Steel Q4 Results",
-      "theme": "PSU_rotation",
+      "news_driver": "Tata Motors Q4 Results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "JSW Steel",
-          "ticker": "JSWSTEEL.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results with one-time gain -> increased profitability -> higher investor confidence",
-          "quant": "11X YoY increase in cons profit to Rs 16,370 crore"
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "Tata Motors' Q4 profit decline -> reduced investor confidence -> potential stock price decline",
+          "quant": "-10% Q4 profit"
         },
         {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bullish",
-          "reason": "JSW Steel's strong results -> positive sentiment in metal sector -> potential increase in Tata Steel's stock price",
-          "quant": "potential 5-7% increase in stock price"
-        },
-        {
-          "name": "Hindalco",
-          "ticker": "HINDALCO.NS",
-          "impact": "Bullish",
-          "reason": "JSW Steel's dividend declaration -> increased investor interest in metal sector -> potential increase in Hindalco's stock price",
-          "quant": "potential 3-5% increase in stock price"
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bearish",
+          "reason": "Tata Motors' Q4 results -> industry-wide sentiment impact -> potential decline in Maruti Suzuki's stock price",
+          "quant": "-5% stock price"
         }
       ],
-      "watch": "JSW Steel's stock price movement after dividend record date"
+      "watch": "Tata Motors' stock price movement"
     },
     {
-      "sector": "hospitality",
+      "sector": "realty",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Adani Airport Holdings, IHG Hotels & Resorts sign five-hotel deal",
-      "theme": "tourism_hospitality",
+      "news_driver": "Urban Land Law",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Hotels",
-          "ticker": "INDHOTEL.NS",
+          "name": "Hudco",
+          "ticker": "HUDCO.NS",
           "impact": "Bullish",
-          "reason": "Adani-IHG hotel deal -> increased competition in hospitality sector -> potential increase in Indian Hotels' market share",
-          "quant": "potential 2-3% increase in market share"
-        },
-        {
-          "name": "Lemon Tree Hotels",
-          "ticker": "LEMONTREE.NS",
-          "impact": "Bullish",
-          "reason": "Adani-IHG hotel deal -> positive sentiment in hospitality sector -> potential increase in Lemon Tree Hotels' stock price",
-          "quant": "potential 4-6% increase in stock price"
+          "reason": "Hudco's Q4 profit surge -> increased investor confidence -> potential stock price increase",
+          "quant": "+172% Q4 profit"
         }
       ],
-      "watch": "Adani-IHG hotel deal's impact on Indian hospitality sector"
+      "watch": "Hudco's stock price movement"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Uber expands India tech footprint",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Uber's expansion -> increased demand for IT services -> potential revenue growth for Infosys",
+          "quant": "+5% revenue growth"
+        }
+      ],
+      "watch": "Uber's India expansion plans"
+    },
+    {
+      "sector": "commodities",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "India re-included in list of countries that can export aquaculture products to EU",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Avanti Feeds",
+          "ticker": "AVANTIFEED.NS",
+          "impact": "Bullish",
+          "reason": "India's re-inclusion in EU export list -> increased demand for aquaculture products -> potential revenue growth for Avanti Feeds",
+          "quant": "+10% revenue growth"
+        }
+      ],
+      "watch": "EU export market trends"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "tourism_hospitality"
+    "null"
   ]
 }
