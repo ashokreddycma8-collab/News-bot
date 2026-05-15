@@ -1,131 +1,103 @@
 {
   "date": "2026-05-15",
-  "time": "12:14",
-  "mood": "Bullish",
+  "time": "12:18",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Nifty, Sensex rise in early deals as IT stocks rally",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 earnings from IT peers -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +8-10% Q3"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "IT stocks rally -> increased demand for Indian IT services -> higher earnings",
-          "quant": "margins +100bps"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Nifty, Sensex rise in early deals as IT stocks rally -> broad-based buying interest -> higher stock prices",
-          "quant": "order book +Rs500Cr"
-        }
-      ],
-      "watch": "17500 level on Nifty"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "JSW Steel shares hit 52-week high after strong Q4 earnings",
-      "theme": "China+1",
-      "stocks": [
-        {
-          "name": "JSW Steel",
-          "ticker": "JSWSTEEL.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 earnings -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +12% YoY"
-        },
-        {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bullish",
-          "reason": "JSW Steel's strong Q4 earnings -> positive sentiment for metal sector -> higher earnings",
-          "quant": "margins +150bps"
-        },
-        {
-          "name": "Hindalco Industries",
-          "ticker": "HINDALCO.NS",
-          "impact": "Bullish",
-          "reason": "Metal sector rally -> broad-based buying interest -> higher stock prices",
-          "quant": "order book +Rs300Cr"
-        }
-      ],
-      "watch": "700 level on JSW Steel"
-    },
-    {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Petrol Diesel Price Hike News Live",
+      "conviction": 2,
+      "news_driver": "Petrol and diesel price hike",
       "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Fuel price hike -> reduced consumer spending -> lower earnings",
-          "quant": "margins -100bps"
+          "reason": "Petrol and diesel price hike -> lower-than-expected increase -> margins -100bps",
+          "quant": "-100bps"
         },
         {
-          "name": "Hindustan Petroleum Corporation",
+          "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Petrol diesel price hike -> increased costs for consumers -> lower demand",
-          "quant": "revenue -5% Q3"
+          "reason": "Petrol and diesel price hike -> lower-than-expected increase -> revenue -5%",
+          "quant": "-5%"
         },
         {
-          "name": "Bharat Petroleum Corporation",
+          "name": "Bharat Petroleum",
           "ticker": "BPCL.NS",
           "impact": "Bearish",
-          "reason": "Fuel price hike -> reduced consumer confidence -> lower stock prices",
-          "quant": "order book -Rs200Cr"
+          "reason": "Petrol and diesel price hike -> lower-than-expected increase -> operating profit -8%",
+          "quant": "-8%"
         }
       ],
-      "watch": "fuel price movement"
+      "watch": "Rs 90 Brent crude price level"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Tata Motors CV shares jump",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "CV shares jump -> increased demand -> revenue +3-5% Q1",
+          "quant": "3-5%"
+        },
+        {
+          "name": "Ashok Leyland",
+          "ticker": "ASHOKLEY.NS",
+          "impact": "Bullish",
+          "reason": "Tata Motors CV shares jump -> industry-wide demand increase -> order book +Rs200Cr",
+          "quant": "Rs200Cr"
+        }
+      ],
+      "watch": "Q1 earnings release"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "IT stocks rebound",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "IT stocks rebound -> increased demand -> revenue +2-3% Q1",
+          "quant": "2-3%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "IT stocks rebound -> improved margins -> operating profit +150bps",
+          "quant": "150bps"
+        }
+      ],
+      "watch": "Rs 4000 Nifty IT index level"
     },
     {
       "sector": "capital_markets",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "US Case Closure 'Opens Doors For Global Capital' for Adani Group",
-      "theme": "PSU_rotation",
+      "news_driver": "RBI lifts bond-trading target",
+      "theme": null,
       "stocks": [
         {
-          "name": "Adani Enterprises",
-          "ticker": "ADANIENT.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "US case closure -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +10% YoY"
-        },
-        {
-          "name": "Adani Ports and Special Economic Zone",
-          "ticker": "ADANIPORTS.NS",
-          "impact": "Bullish",
-          "reason": "Adani Group's US case closure -> positive sentiment for capital markets sector -> higher earnings",
-          "quant": "margins +50bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Capital markets rally -> broad-based buying interest -> higher stock prices",
-          "quant": "order book +Rs400Cr"
+          "reason": "RBI lifts bond-trading target -> increased trading activity -> revenue +2% Q1",
+          "quant": "2%"
         }
       ],
-      "watch": "34000 level on Sensex"
+      "watch": "RBI policy meeting"
     }
   ],
   "themes": [

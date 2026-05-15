@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T12:14:41.491750+05:30",
+  "generated_at": "2026-05-15T12:18:33.767432+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1441,6 +1441,14 @@
       "score": 6,
       "direction": "BUY",
       "catalyst": "Q4 profit shoots up 172%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "DATAPAT": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "Q4 revenue declines 13% YoY to Rs 345 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
