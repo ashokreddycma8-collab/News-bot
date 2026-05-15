@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T17:05:05.132333+05:30",
+  "generated_at": "2026-05-15T17:23:45.244637+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1484,6 +1484,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "ITC": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 results: Profit rises 23% YoY to Rs 317 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HINDCOPPER": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 Results: Cons PAT surges 135% YoY to Rs 444 crore, revenue jumps 58%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
