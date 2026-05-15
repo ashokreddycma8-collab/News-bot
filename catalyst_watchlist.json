@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T15:06:34.184294+05:30",
+  "generated_at": "2026-05-15T17:05:05.132333+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1476,6 +1476,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "GENESYS": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Genesys International bags NMCG contract for Ganga aerial survey",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

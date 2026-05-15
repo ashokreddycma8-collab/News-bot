@@ -1,85 +1,86 @@
 {
   "date": "2026-05-15",
-  "time": "15:06",
-  "mood": "Cautious",
+  "time": "17:05",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "AI worries",
-      "theme": "null",
+      "news_driver": "Rapido raises $240 million from Prosus",
+      "theme": "internet_digital",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "AI worries -> reduced client spending -> lower revenue growth",
-          "quant": "-5-7% revenue growth Q1"
+          "impact": "Bullish",
+          "reason": "Rapido's funding -> increased digital adoption -> higher demand for IT services",
+          "quant": "revenue +5-7% Q2"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "AI worries -> increased competition -> lower margins",
-          "quant": "-100bps margin compression"
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "US-China trade talks -> improved business sentiment -> higher IT spending",
+          "quant": "margins +100bps"
         }
       ],
-      "watch": "INFY.NS price level of 1400"
+      "watch": "Nifty IT index breaking out above 30000"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "RBI rate cut",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "RBI rate cut -> lower interest income -> stable NIM",
-          "quant": "0-50bps NIM compression"
-        }
-      ],
-      "watch": "SBIN.NS price level of 500"
-    },
-    {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "infra",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Fuel price hike",
-      "theme": "null",
+      "news_driver": "Adani legal relief",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "IOCL",
+          "name": "Adani Enterprises",
+          "ticker": "ADANIENT.NS",
+          "impact": "Bullish",
+          "reason": "Adani legal relief -> increased investor confidence -> higher stock prices",
+          "quant": "stock price +10-12% in the short term"
+        }
+      ],
+      "watch": "Adani Enterprises stock price crossing 200-day moving average"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Iran war-linked inflation woes",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Fuel price hike -> higher under-recoveries -> lower profitability",
-          "quant": "-10-12% profitability Q1"
+          "reason": "Iran war -> higher crude oil prices -> lower refining margins",
+          "quant": "margins -50bps"
         }
       ],
-      "watch": "IOC.NS price level of 80"
+      "watch": "Brent crude oil price crossing $100"
     },
     {
-      "sector": "media",
+      "sector": "capital_markets",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Nazara Technologies bulk deal",
-      "theme": "null",
+      "news_driver": "ICICI Prudential Mutual Fund's top 10 stock holdings",
+      "theme": null,
       "stocks": [
         {
-          "name": "Nazara Technologies",
-          "ticker": "NAZARA.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "Bulk deal -> increased investor interest -> higher stock price",
-          "quant": "+15-20% stock price appreciation"
+          "reason": "ICICI Prudential's investment -> increased investor confidence -> higher stock prices",
+          "quant": "stock price +2-3% in the short term"
         }
       ],
-      "watch": "NAZARA.NS price level of 600"
+      "watch": "Nifty Bank index breaking out above 45000"
     }
   ],
   "themes": [
-    "null"
+    "internet_digital",
+    "PSU_rotation"
   ]
 }
