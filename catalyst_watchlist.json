@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T12:18:33.767432+05:30",
+  "generated_at": "2026-05-15T15:06:34.184294+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1452,6 +1452,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "NAZARA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Bulk deal buzz leads to 18% stock price surge",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "WELSPUN": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 profit falls despite higher other income",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "DE\uff36YANI": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 loss narrows",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
