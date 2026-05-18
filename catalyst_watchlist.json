@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T17:23:45.244637+05:30",
+  "generated_at": "2026-05-18T12:38:54.324859+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1499,6 +1499,22 @@
       "catalyst": "Q4 Results: Cons PAT surges 135% YoY to Rs 444 crore, revenue jumps 58%",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "UNOMINDA": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 results show profit surge",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ZAGGLE": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Closes FY26 with strongest-ever annual performance",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

@@ -1,86 +1,85 @@
 {
-  "date": "2026-05-15",
-  "time": "17:23",
+  "date": "2026-05-18",
+  "time": "12:38",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee hits record low of 96.14/dollar",
+      "news_driver": "Fresh West Asia tensions and rising oil prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> increased import costs and reduced export competitiveness -> margins -100bps",
-          "quant": "-2.5%"
+          "reason": "Rising oil prices -> increased input costs -> lower margins",
+          "quant": "-100bps"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher input costs and reduced client spending -> revenue -1.2% Q2",
-          "quant": "-120bps"
+          "reason": "Higher crude prices -> reduced refining margins -> lower profitability",
+          "quant": "-8-10% Q2"
         }
       ],
-      "watch": "INFY.NS price level of 1400"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "ITC Hotels Q4 results: Profit rises 23% YoY to Rs 317 crore",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "ITC",
-          "ticker": "ITC.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence and improved valuations -> stock price +4%",
-          "quant": "4%"
-        }
-      ],
-      "watch": "ITC.NS dividend payout ratio"
+      "watch": "Brent crude price crossing $95"
     },
     {
       "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Hindustan Copper Q4 Results: Cons PAT surges 135% YoY to Rs 444 crore",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Hindustan Zinc shares crack 7% in two sessions",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Copper",
-          "ticker": "HINDCOPPER.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased profitability and improved cash flows -> stock price +8%",
-          "quant": "8%"
+          "name": "Hindustan Zinc",
+          "ticker": "HINDZINC.NS",
+          "impact": "Bearish",
+          "reason": "Lower zinc prices -> reduced revenue -> lower profitability",
+          "quant": "-5% Q2"
         }
       ],
-      "watch": "HINDCOPPER.NS production volume guidance"
+      "watch": "Zinc prices falling below $2500/mt"
     },
     {
-      "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Lighthouse Canton launches Rs 1,200 cr private credit fund",
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Zaggle Closes FY26 with Strongest-Ever Annual Performance",
       "theme": "null",
       "stocks": [
         {
-          "name": "Lighthouse Canton",
-          "ticker": "null",
-          "impact": "Neutral",
-          "reason": "New fund launch -> increased competition in private credit space -> no significant impact on existing players",
-          "quant": "null"
+          "name": "Zaggle",
+          "ticker": "ZAGGLE.NS",
+          "impact": "Bullish",
+          "reason": "Strong annual performance -> increased investor confidence -> higher stock price",
+          "quant": "+12% in next 2 weeks"
         }
       ],
-      "watch": "Private credit fund deployment pace"
+      "watch": "Q1 results of Zaggle"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Q4 Results Highlights: Alembic Pharma posts strong gains",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Alembic Pharma",
+          "ticker": "APLLTD.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
+          "quant": "+5% in next week"
+        }
+      ],
+      "watch": "Q1 results of Alembic Pharma"
     }
   ],
   "themes": [
-    "Rupee depreciation",
-    "Q4 earnings"
+    "null"
   ]
 }
