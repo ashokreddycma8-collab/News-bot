@@ -1,85 +1,93 @@
 {
   "date": "2026-05-18",
-  "time": "12:38",
-  "mood": "Cautious",
+  "time": "13:21",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Fresh West Asia tensions and rising oil prices",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Rising oil prices -> increased input costs -> lower margins",
-          "quant": "-100bps"
-        },
-        {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude prices -> reduced refining margins -> lower profitability",
-          "quant": "-8-10% Q2"
-        }
-      ],
-      "watch": "Brent crude price crossing $95"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Hindustan Zinc shares crack 7% in two sessions",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
-          "impact": "Bearish",
-          "reason": "Lower zinc prices -> reduced revenue -> lower profitability",
-          "quant": "-5% Q2"
-        }
-      ],
-      "watch": "Zinc prices falling below $2500/mt"
-    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Zaggle Closes FY26 with Strongest-Ever Annual Performance",
+      "news_driver": "Infosys, OFSS, TechM gains up to 3% despite weak market sentiment",
       "theme": "null",
       "stocks": [
         {
-          "name": "Zaggle",
-          "ticker": "ZAGGLE.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Strong annual performance -> increased investor confidence -> higher stock price",
-          "quant": "+12% in next 2 weeks"
+          "reason": "Strong Q3 earnings -> increased investor confidence -> revenue growth +8-10% Q3",
+          "quant": "8-10%"
+        },
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Peer group outperformance -> increased market share -> order book +Rs400Cr",
+          "quant": "+Rs400Cr"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "IT sector upswing -> improved investor sentiment -> margins +50bps",
+          "quant": "+50bps"
         }
       ],
-      "watch": "Q1 results of Zaggle"
+      "watch": "INFY.NS price level of 1400"
     },
     {
-      "sector": "pharma",
+      "sector": "telecom",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Q4 Results Highlights: Alembic Pharma posts strong gains",
+      "conviction": 2,
+      "news_driver": "Bharti Airtel claims No.2 spot in market cap",
       "theme": "null",
       "stocks": [
         {
-          "name": "Alembic Pharma",
-          "ticker": "APLLTD.NS",
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
           "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> higher stock price",
-          "quant": "+5% in next week"
+          "reason": "Market cap surge -> increased investor confidence -> revenue growth +5-7% Q3",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Q1 results of Alembic Pharma"
+      "watch": "BHARTIARTL.NS price level of 900"
+    },
+    {
+      "sector": "cement",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Ambuja Cements trims FY27 capex",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Ambuja Cements",
+          "ticker": "AMBUJACEM.NS",
+          "impact": "Bearish",
+          "reason": "Capex reduction -> decreased production capacity -> revenue decline -3-5% FY27",
+          "quant": "-3-5%"
+        }
+      ],
+      "watch": "AMBUJACEM.NS price level of 400"
+    },
+    {
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "BMC Approves 6-Lane Cable-Stayed Bridge Over Goregaon Creek",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Larsen & Toubro",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "New infrastructure project -> increased order book -> revenue growth +2-4% FY27",
+          "quant": "2-4%"
+        }
+      ],
+      "watch": "LT.NS price level of 2500"
     }
   ],
   "themes": [
-    "null"
+    "IT sector upswing",
+    "Telecom market cap surge"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T12:38:54.324859+05:30",
+  "generated_at": "2026-05-18T13:21:59.670989+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -186,12 +186,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "ICICIPRULI": {
-      "score": 5,
-      "direction": "BUY",
-      "catalyst": "Q4 profit up 10%",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "shares crash 9% due to unknown reasons",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "APOLLO": {
       "score": 8,
@@ -1513,6 +1513,22 @@
       "score": 7,
       "direction": "BUY",
       "catalyst": "Closes FY26 with strongest-ever annual performance",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BALMLAWRIE": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "board rejects bonus issue, stock split, and share buyback proposals",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AMBER": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "shares slump 17% due to unknown reasons",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
