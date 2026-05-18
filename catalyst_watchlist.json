@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T13:21:59.670989+05:30",
+  "generated_at": "2026-05-18T17:04:30.826654+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1531,6 +1531,14 @@
       "catalyst": "shares slump 17% due to unknown reasons",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MANGALAM": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "board approves 1:10 stock split",
+      "category": "structural_change",
+      "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

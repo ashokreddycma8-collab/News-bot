@@ -1,93 +1,92 @@
 {
   "date": "2026-05-18",
-  "time": "13:21",
-  "mood": "Bullish",
+  "time": "17:04",
+  "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Iran conflict and US sanctions on Russian oil",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Iran conflict -> higher crude prices -> lower margins for IOC",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "US sanctions on Russian oil -> higher crude prices -> lower margins for HPCL",
+          "quant": "margins -120bps"
+        }
+      ],
+      "watch": "Brent crude price above $95"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Infosys, OFSS, TechM gains up to 3% despite weak market sentiment",
+      "news_driver": "Salesforce's Vala Afshar comments on India's AI potential",
       "theme": "null",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Strong Q3 earnings -> increased investor confidence -> revenue growth +8-10% Q3",
-          "quant": "8-10%"
+          "reason": "Salesforce's comments -> increased AI adoption -> higher revenue for Infosys",
+          "quant": "revenue +5-7% Q3"
         },
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Peer group outperformance -> increased market share -> order book +Rs400Cr",
-          "quant": "+Rs400Cr"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "IT sector upswing -> improved investor sentiment -> margins +50bps",
-          "quant": "+50bps"
+          "reason": "India's AI potential -> higher demand for TCS services -> higher revenue",
+          "quant": "revenue +4-6% Q3"
         }
       ],
-      "watch": "INFY.NS price level of 1400"
+      "watch": "Q3 earnings release"
     },
     {
-      "sector": "telecom",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Bharti Airtel claims No.2 spot in market cap",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Bullish",
-          "reason": "Market cap surge -> increased investor confidence -> revenue growth +5-7% Q3",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "BHARTIARTL.NS price level of 900"
-    },
-    {
-      "sector": "cement",
+      "sector": "oil_gas",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Ambuja Cements trims FY27 capex",
+      "conviction": 2,
+      "news_driver": "Surging global bond yields and elevated oil prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Ambuja Cements",
-          "ticker": "AMBUJACEM.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "Capex reduction -> decreased production capacity -> revenue decline -3-5% FY27",
-          "quant": "-3-5%"
+          "reason": "elevated oil prices -> higher costs for RIL -> lower margins",
+          "quant": "margins -80bps"
         }
       ],
-      "watch": "AMBUJACEM.NS price level of 400"
+      "watch": "OPEC meeting on June 1"
     },
     {
-      "sector": "infra",
-      "direction": "Bullish",
+      "sector": "financial_services",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "BMC Approves 6-Lane Cable-Stayed Bridge Over Goregaon Creek",
+      "news_driver": "Moody's warning on India's earnings growth",
       "theme": "null",
       "stocks": [
         {
-          "name": "Larsen & Toubro",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "New infrastructure project -> increased order book -> revenue growth +2-4% FY27",
-          "quant": "2-4%"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "Moody's warning -> slower earnings growth -> stable NIM for HDFC Bank",
+          "quant": "NIM 4.2-4.5%"
         }
       ],
-      "watch": "LT.NS price level of 2500"
+      "watch": "June quarter earnings release"
     }
   ],
   "themes": [
-    "IT sector upswing",
-    "Telecom market cap surge"
+    "null"
   ]
 }
