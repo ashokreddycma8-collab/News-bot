@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T17:04:30.826654+05:30",
+  "generated_at": "2026-05-18T19:13:11.161308+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1540,6 +1540,38 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "IMAGICAA": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Investment of \u20b9100 crore in Gujarat water park",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "AROHNFIN": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Files IPO papers with Sebi for Rs 600 cr via fresh issue",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "GLAND": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Hits 52-week high, rallies up to 20% in a month",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "COCHINSHIP": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Among top movers on Monday",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
