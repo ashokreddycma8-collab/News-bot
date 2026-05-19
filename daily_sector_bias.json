@@ -1,100 +1,93 @@
 {
   "date": "2026-05-19",
-  "time": "12:29",
-  "mood": "Bearish",
+  "time": "16:18",
+  "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Cognizant boosts buyback target to $2 billion amid AI-led growth push",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Cognizant Technology Solutions",
+          "ticker": "COGNIZANT.NS",
+          "impact": "Bullish",
+          "reason": "Cognizant's buyback announcement -> increased investor confidence -> stock price appreciation",
+          "quant": "5-7% upside in the short term"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Peer buyback announcement -> sector-wide positivity -> potential stock price increase",
+          "quant": "2-3% upside in the short term"
+        }
+      ],
+      "watch": "Cognizant's Q2 earnings release"
+    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran conflict and surge in crude oil prices",
+      "news_driver": "Iran war worries pushing oil prices higher",
       "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Iran conflict -> increase in crude oil prices -> decrease in IOC's refining margins",
+          "reason": "Rising crude oil prices -> increased input costs -> reduced margins",
           "quant": "margins -100bps"
         },
         {
-          "name": "Hindustan Petroleum",
+          "name": "Hindustan Petroleum Corporation",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "crude oil price surge -> higher input costs -> lower profitability",
-          "quant": "revenue -5%"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "increase in crude oil prices -> decrease in BPCL's marketing margins",
-          "quant": "margins -80bps"
+          "reason": "Higher oil prices -> decreased demand -> potential revenue decline",
+          "quant": "revenue -5% Q3"
         }
       ],
-      "watch": "Brent crude oil price level of $95"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "banks dipping into surplus funds to support credit growth",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "credit growth support -> increase in interest income -> stable profitability",
-          "quant": "net interest income +2%"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "surplus funds utilization -> optimization of liquidity -> stable net interest margin",
-          "quant": "net interest margin +10bps"
-        }
-      ],
-      "watch": "credit growth numbers for Q3"
-    },
-    {
-      "sector": "energy",
+      "sector": "metal",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Iran conflict and surge in crude oil prices",
+      "conviction": 1,
+      "news_driver": "Aluminium rally gathers pace as Middle East tensions squeeze supplies",
       "theme": null,
       "stocks": [
         {
-          "name": "JSW Energy",
-          "ticker": "JSWENERGY.NS",
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
           "impact": "Bearish",
-          "reason": "increase in fuel costs -> decrease in JSW Energy's profitability",
-          "quant": "revenue -3%"
+          "reason": "Increased aluminium prices -> higher input costs -> reduced margins",
+          "quant": "margins -50bps"
         }
       ],
-      "watch": "crude oil price movement"
+      "watch": "LME aluminium prices"
     },
     {
-      "sector": "telecom",
+      "sector": "agrochemicals",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Vodafone Idea shares jumping to fresh record high",
+      "news_driver": "Dhanuka Agritech announces Rs 70 crore buyback",
       "theme": null,
       "stocks": [
         {
-          "name": "Vodafone Idea",
-          "ticker": "VI.NS",
+          "name": "Dhanuka Agritech",
+          "ticker": "DHANUKA.NS",
           "impact": "Bullish",
-          "reason": "positive market sentiment -> increase in stock price -> improved investor confidence",
-          "quant": "stock price +4%"
+          "reason": "Buyback announcement -> increased investor confidence -> stock price appreciation",
+          "quant": "5% upside in the short term"
         }
       ],
-      "watch": "Q3 earnings report"
+      "watch": "Dhanuka Agritech's Q2 earnings release"
     }
   ],
   "themes": [
-    "energy_crisis",
-    "iran_conflict"
+    "internet_digital",
+    "PSU_rotation"
   ]
 }
