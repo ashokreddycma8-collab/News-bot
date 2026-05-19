@@ -1,85 +1,100 @@
 {
-  "date": "2026-05-18",
-  "time": "19:13",
-  "mood": "Cautious",
+  "date": "2026-05-19",
+  "time": "12:29",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Gland Pharma hitting 52-week high",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Gland Pharma",
-          "ticker": "GLAND.NS",
-          "impact": "Bullish",
-          "reason": "Gland Pharma's strong product pipeline -> driving revenue growth -> increasing profitability by 12-15%",
-          "quant": "12-15%"
-        },
-        {
-          "name": "Suven Life Sciences",
-          "ticker": "SUVEN.NS",
-          "impact": "Bullish",
-          "reason": "Suven Life Sciences' recent stock rally -> indicating investor confidence -> boosting stock price by 8-10%",
-          "quant": "8-10%"
-        }
-      ],
-      "watch": "Gland Pharma's upcoming earnings release"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Stock markets end marginally higher on buying in IT counters",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Increased buying in IT counters -> driving stock prices higher -> increasing Infosys' revenue by 5-7% Q3",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "Nifty IT index breaking out above 30000"
-    },
-    {
-      "sector": "financial_services",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee settles at record low of 96.35 against U.S. dollar",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Weakening rupee -> increasing import costs -> reducing HDFC Bank's net interest margins by 50-75bps",
-          "quant": "-50-75bps"
-        }
-      ],
-      "watch": "Rupee breaking 97 against the US dollar"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Oil-led global bond rout pushes India 10-year yield to 7-week high",
-      "theme": "null",
+      "news_driver": "Iran conflict and surge in crude oil prices",
+      "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increasing input costs -> reducing Indian Oil Corporation's refining margins by 100-120bps",
-          "quant": "-100-120bps"
+          "reason": "Iran conflict -> increase in crude oil prices -> decrease in IOC's refining margins",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "crude oil price surge -> higher input costs -> lower profitability",
+          "quant": "revenue -5%"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "increase in crude oil prices -> decrease in BPCL's marketing margins",
+          "quant": "margins -80bps"
         }
       ],
-      "watch": "Brent crude oil price breaking $100"
+      "watch": "Brent crude oil price level of $95"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "banks dipping into surplus funds to support credit growth",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "credit growth support -> increase in interest income -> stable profitability",
+          "quant": "net interest income +2%"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Neutral",
+          "reason": "surplus funds utilization -> optimization of liquidity -> stable net interest margin",
+          "quant": "net interest margin +10bps"
+        }
+      ],
+      "watch": "credit growth numbers for Q3"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Iran conflict and surge in crude oil prices",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "JSW Energy",
+          "ticker": "JSWENERGY.NS",
+          "impact": "Bearish",
+          "reason": "increase in fuel costs -> decrease in JSW Energy's profitability",
+          "quant": "revenue -3%"
+        }
+      ],
+      "watch": "crude oil price movement"
+    },
+    {
+      "sector": "telecom",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Vodafone Idea shares jumping to fresh record high",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Vodafone Idea",
+          "ticker": "VI.NS",
+          "impact": "Bullish",
+          "reason": "positive market sentiment -> increase in stock price -> improved investor confidence",
+          "quant": "stock price +4%"
+        }
+      ],
+      "watch": "Q3 earnings report"
     }
   ],
   "themes": [
-    "null"
+    "energy_crisis",
+    "iran_conflict"
   ]
 }
