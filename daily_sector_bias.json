@@ -1,93 +1,85 @@
 {
   "date": "2026-05-19",
-  "time": "16:18",
+  "time": "18:06",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Cognizant boosts buyback target to $2 billion amid AI-led growth push",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Cognizant Technology Solutions",
-          "ticker": "COGNIZANT.NS",
-          "impact": "Bullish",
-          "reason": "Cognizant's buyback announcement -> increased investor confidence -> stock price appreciation",
-          "quant": "5-7% upside in the short term"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Peer buyback announcement -> sector-wide positivity -> potential stock price increase",
-          "quant": "2-3% upside in the short term"
-        }
-      ],
-      "watch": "Cognizant's Q2 earnings release"
-    },
-    {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran war worries pushing oil prices higher",
-      "theme": null,
+      "news_driver": "Rupee falls to all-time low of 96.52 per dollar",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased input costs -> reduced margins",
-          "quant": "margins -100bps"
+          "reason": "Rupee depreciation -> increased crude oil import costs -> reduced margins",
+          "quant": "-100bps"
         },
         {
-          "name": "Hindustan Petroleum Corporation",
-          "ticker": "HINDPETRO.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HPCL.NS",
           "impact": "Bearish",
-          "reason": "Higher oil prices -> decreased demand -> potential revenue decline",
-          "quant": "revenue -5% Q3"
+          "reason": "Rupee depreciation -> increased crude oil import costs -> reduced profitability",
+          "quant": "-8-10% Q2 revenue"
         }
       ],
       "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "metal",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Aluminium rally gathers pace as Middle East tensions squeeze supplies",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Hindalco Industries",
-          "ticker": "HINDALCO.NS",
-          "impact": "Bearish",
-          "reason": "Increased aluminium prices -> higher input costs -> reduced margins",
-          "quant": "margins -50bps"
-        }
-      ],
-      "watch": "LME aluminium prices"
-    },
-    {
-      "sector": "agrochemicals",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Dhanuka Agritech announces Rs 70 crore buyback",
-      "theme": null,
+      "news_driver": "Sensex today | Stock Market Highlights: Nifty, Sensex close marginally lower amid inflation worries, IT stocks shine",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Dhanuka Agritech",
-          "ticker": "DHANUKA.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Buyback announcement -> increased investor confidence -> stock price appreciation",
-          "quant": "5% upside in the short term"
+          "reason": "Rupee depreciation -> increased export competitiveness -> higher revenue",
+          "quant": "+4-5% Q3 revenue"
         }
       ],
-      "watch": "Dhanuka Agritech's Q2 earnings release"
+      "watch": "TCS Q3 earnings release"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Karyan Group to invest Rs 900 cr in new luxury housing project in Ghaziabad",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Puravankara",
+          "ticker": "PURVA.NS",
+          "impact": "Bullish",
+          "reason": "New project announcements -> increased demand -> higher sales",
+          "quant": "+10% Q2 sales"
+        }
+      ],
+      "watch": "Puravankara Q2 earnings release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Maharashtra govt signs MoUs of \u20b96.5 lakh crore for nuclear energy projects",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Nuclear Power Corporation of India",
+          "ticker": "NPCIL.NS",
+          "impact": "Bullish",
+          "reason": "New project announcements -> increased capacity -> higher revenue",
+          "quant": "+15% Q3 revenue"
+        }
+      ],
+      "watch": "NPCIL Q3 earnings release"
     }
   ],
   "themes": [
-    "internet_digital",
-    "PSU_rotation"
+    "null"
   ]
 }

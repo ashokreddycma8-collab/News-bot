@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T16:18:59.646059+05:30",
+  "generated_at": "2026-05-19T18:06:50.083805+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1595,6 +1595,14 @@
       "catalyst": "Announces Rs 70 crore buyback at Rs 1,400/share",
       "category": "technical_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PURVA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit at Rs 110 cr, revenue rises to Rs 1,541cr",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
