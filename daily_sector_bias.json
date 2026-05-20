@@ -1,85 +1,92 @@
 {
   "date": "2026-05-20",
-  "time": "16:06",
+  "time": "17:51",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "TCS Employees Flag Lower Take-Home Despite Hikes As Variable Pay Tied to Office Attendance: Report",
-      "theme": "null",
+      "news_driver": "Central Bank of India to open 150 branches, recruit about 1,400 officers in FY27",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Lower take-home pay for TCS employees due to variable pay tied to office attendance -> reduced employee morale and potential talent retention issues -> lower productivity and higher recruitment costs",
-          "quant": "-5% impact on Q2 margins"
+          "name": "Central Bank of India",
+          "ticker": "CENTRALBK.NS",
+          "impact": "Bullish",
+          "reason": "Branch expansion -> increased customer base -> revenue growth",
+          "quant": "10-12% increase in deposit base"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Similar variable pay structures in the IT sector -> potential industry-wide impact on employee morale and productivity -> lower growth and profitability",
-          "quant": "-3% impact on Q2 revenue"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "PSU bank sector growth -> increased lending opportunities -> higher margins",
+          "quant": "50bps increase in net interest margin"
         }
       ],
-      "watch": "Q2 earnings release for TCS and Infosys"
+      "watch": "PSU bank index crossing 7500 levels"
     },
     {
-      "sector": "consumer",
-      "direction": "Bullish",
+      "sector": "auto",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Everything's in a name: Parle Industries shares hit 5% upper circuit after PM Modi's 'Melody' gift to Meloni",
+      "news_driver": "Ola Electric Q4 Results: Net loss contracts 42% YoY to Rs 500 crore, revenue tanks 57%",
       "theme": "null",
       "stocks": [
         {
-          "name": "Parle Industries",
-          "ticker": "PARLE.NS",
-          "impact": "Bullish",
-          "reason": "PM Modi's 'Melody' gift to Meloni -> increased brand visibility and goodwill for Parle Industries -> higher sales and market share",
-          "quant": "+2% increase in Q2 sales"
+          "name": "Ola Electric",
+          "ticker": "OLA.NS",
+          "impact": "Bearish",
+          "reason": "Revenue decline -> reduced cash flows -> increased debt servicing",
+          "quant": "-20% decline in revenue"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "Electric vehicle market slowdown -> reduced demand -> lower sales",
+          "quant": "-5% decline in sales volume"
         }
       ],
-      "watch": "Parle Industries' Q2 earnings release"
+      "watch": "Ola Electric's stock price crossing Rs 500"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Lenskart Q4 Results: Net Profit Slips Even As Revenue Jumps Over 45%, Margins Expand",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Lenskart",
+          "ticker": "LENSKART.NS",
+          "impact": "Neutral",
+          "reason": "Revenue growth -> increased competition -> stable market share",
+          "quant": "5% increase in market share"
+        }
+      ],
+      "watch": "Lenskart's revenue growth rate"
     },
     {
       "sector": "financial_services",
-      "direction": "Neutral",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Q4 Results Live Updates: Grasim Loss Narrows In Q4; Samvardhana Motherson Profit Beats Estimates",
+      "news_driver": "FIIs won't return to Indian markets in a hurry; only 3 triggers may bring them back",
       "theme": "null",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results of Grasim and Samvardhana Motherson -> mixed bag of earnings reports in the financial services sector -> no clear direction for HDFC Bank",
-          "quant": "null"
+          "name": "HDFC",
+          "ticker": "HDFC.NS",
+          "impact": "Bearish",
+          "reason": "FII outflow -> reduced liquidity -> lower stock prices",
+          "quant": "-2% decline in stock price"
         }
       ],
-      "watch": "HDFC Bank's Q2 earnings release"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Stock Market News Today Live Updates: Nifty Reclaims 23,650, Sensex Gains 100 Points; Tata Communications Surges 7%",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Communications",
-          "ticker": "TATACOMM.NS",
-          "impact": "Bullish",
-          "reason": "Nifty reclaiming 23,650 -> positive market sentiment -> higher investor confidence and participation",
-          "quant": "+4% increase in daily trading volumes"
-        }
-      ],
-      "watch": "Nifty 23,800 level"
+      "watch": "FII inflow crossing Rs 5000 Cr"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
