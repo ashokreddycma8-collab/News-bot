@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T18:06:50.083805+05:30",
+  "generated_at": "2026-05-20T12:29:36.529814+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1604,6 +1604,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "GEVERNOA": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 profit surges 89% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "GNFC": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 PAT up 88%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CBAK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 2026 results announced",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
