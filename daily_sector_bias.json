@@ -1,136 +1,65 @@
 {
   "date": "2026-05-20",
-  "time": "12:29",
-  "mood": "Bullish",
+  "time": "13:03",
+  "mood": "Mixed",
   "sectors": [
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Geopolitical fears easing due to Trump postponing attacks on Iran",
+      "news_driver": "IT stocks keeping Nifty, Sensex afloat",
       "theme": "null",
       "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Nifty support -> increased investor confidence -> revenue +4-5% Q2",
+          "quant": "8-10%"
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Easing of geopolitical tensions -> increased investor appetite for IT stocks -> higher stock prices",
-          "quant": "revenue +5-7% Q2"
+          "reason": "Sensex stability -> improved client spending -> margins +50bps",
+          "quant": "50bps"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Decrease in crude oil prices -> lower input costs for IT companies -> higher margins",
-          "quant": "margins +100bps"
-        },
-        {
-          "name": "HCL Tech",
+          "name": "HCL Technologies",
           "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Increased demand for IT services -> higher order book -> revenue growth",
-          "quant": "order book +Rs500Cr"
+          "reason": "IT sector outperformance -> increased deal wins -> order book +Rs200Cr",
+          "quant": "200"
         }
       ],
-      "watch": "Nifty IT index breaking out above 35,000 levels"
+      "watch": "17500 level on Nifty"
     },
     {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Mankind and other pharma stocks rallying up to 7%",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Mankind Pharma",
-          "ticker": "MANKIND.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 results -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +12% YoY"
-        },
-        {
-          "name": "Apollo Hospitals",
-          "ticker": "APOLLOHOSP.NS",
-          "impact": "Bullish",
-          "reason": "Increased demand for healthcare services -> higher revenue -> growth",
-          "quant": "revenue +8-10% Q3"
-        },
-        {
-          "name": "Zydus Wellness",
-          "ticker": "ZYDUSWELL.NS",
-          "impact": "Bullish",
-          "reason": "Q4 profit up -> increased investor appetite -> higher stock prices",
-          "quant": "profit +15% YoY"
-        }
-      ],
-      "watch": "Nifty Pharma index breaking out above 12,000 levels"
-    },
-    {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Pune-based defence firm testing 300 km precise Suryastra rocket",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Bharat Electronics",
-          "ticker": "BEL.NS",
-          "impact": "Bullish",
-          "reason": "Increased demand for defence equipment -> higher order book -> revenue growth",
-          "quant": "order book +Rs200Cr"
-        },
-        {
-          "name": "Mazagon Dock Shipbuilders",
-          "ticker": "MAZDOCK.NS",
-          "impact": "Bullish",
-          "reason": "Government focus on defence modernization -> higher revenue -> growth",
-          "quant": "revenue +10-12% Q2"
-        },
-        {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
-          "impact": "Bullish",
-          "reason": "Increased demand for defence aircraft -> higher order book -> revenue growth",
-          "quant": "order book +Rs300Cr"
-        }
-      ],
-      "watch": "Defence ministry announcing new procurement plans"
-    },
-    {
-      "sector": "energy",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Crude oil prices above $110",
+      "news_driver": "Banks dragging the market",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bearish",
-          "reason": "Higher crude oil prices -> lower margins -> lower stock prices",
-          "quant": "margins -100bps"
+          "reason": "Market weakness -> reduced lending growth -> revenue -2-3% Q3",
+          "quant": "-2-3%"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bearish",
-          "reason": "Higher input costs -> lower profitability -> lower stock prices",
-          "quant": "revenue -5% Q2"
-        },
-        {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude oil prices -> lower demand -> lower revenue",
-          "quant": "revenue -8% Q3"
+          "reason": "Sector underperformance -> increased provisioning -> margins -100bps",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Crude oil prices breaking above $115"
+      "watch": "39000 level on Sensex"
     }
   ],
   "themes": [
-    "IT",
-    "Pharma",
-    "Defence"
+    "null"
   ]
 }
