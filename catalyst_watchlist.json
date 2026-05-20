@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T12:29:36.529814+05:30",
+  "generated_at": "2026-05-20T16:06:54.591254+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1627,6 +1627,38 @@
       "catalyst": "Q1 2026 results announced",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "GRASIM": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 loss narrows",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SAMVM": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit beats estimates",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PARLEIND": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "PM Modi's 'Melody' gift to Meloni boosts Parle Industries shares",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "TATACOMM": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "Stock surges 7% in a day",
+      "category": "technical_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     }
   }
