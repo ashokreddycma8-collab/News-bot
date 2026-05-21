@@ -1,92 +1,93 @@
 {
-  "date": "2026-05-20",
-  "time": "17:51",
-  "mood": "Cautious",
+  "date": "2026-05-21",
+  "time": "12:34",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Central Bank of India to open 150 branches, recruit about 1,400 officers in FY27",
+      "news_driver": "Adani Power to acquire 24% stake in JPVL, thermal assets for \u20b94,194 crore",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Central Bank of India",
-          "ticker": "CENTRALBK.NS",
-          "impact": "Bullish",
-          "reason": "Branch expansion -> increased customer base -> revenue growth",
-          "quant": "10-12% increase in deposit base"
+          "name": "Adani Power",
+          "ticker": "ADANIPOWER.NS",
+          "impact": "Bearish",
+          "reason": "Acquisition of thermal assets -> increased debt burden -> negative impact on stock price",
+          "quant": "debt equity ratio +15%"
         },
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "PSU bank sector growth -> increased lending opportunities -> higher margins",
-          "quant": "50bps increase in net interest margin"
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
+          "impact": "Bearish",
+          "reason": "Increased competition from Adani Power -> reduced market share -> lower revenue",
+          "quant": "revenue -5-7% Q1"
         }
       ],
-      "watch": "PSU bank index crossing 7500 levels"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Ola Electric Q4 Results: Net loss contracts 42% YoY to Rs 500 crore, revenue tanks 57%",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Ola Electric",
-          "ticker": "OLA.NS",
-          "impact": "Bearish",
-          "reason": "Revenue decline -> reduced cash flows -> increased debt servicing",
-          "quant": "-20% decline in revenue"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bearish",
-          "reason": "Electric vehicle market slowdown -> reduced demand -> lower sales",
-          "quant": "-5% decline in sales volume"
-        }
-      ],
-      "watch": "Ola Electric's stock price crossing Rs 500"
+      "watch": "Adani Power's Q1 earnings release"
     },
     {
       "sector": "it",
-      "direction": "Neutral",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Lenskart Q4 Results: Net Profit Slips Even As Revenue Jumps Over 45%, Margins Expand",
-      "theme": "null",
+      "news_driver": "Tactical buying visible in IT",
+      "theme": "China+1",
       "stocks": [
         {
-          "name": "Lenskart",
-          "ticker": "LENSKART.NS",
-          "impact": "Neutral",
-          "reason": "Revenue growth -> increased competition -> stable market share",
-          "quant": "5% increase in market share"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Tactical buying -> increased investor sentiment -> higher stock price",
+          "quant": "stock price +2-3% in short term"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Selective opportunities emerging -> increased deal wins -> higher revenue",
+          "quant": "revenue +8-10% Q3"
         }
       ],
-      "watch": "Lenskart's revenue growth rate"
+      "watch": "TCS's Q1 earnings release"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "FIIs won't return to Indian markets in a hurry; only 3 triggers may bring them back",
-      "theme": "null",
+      "news_driver": "Tactical buying visible in auto ancillaries",
+      "theme": null,
       "stocks": [
         {
-          "name": "HDFC",
-          "ticker": "HDFC.NS",
-          "impact": "Bearish",
-          "reason": "FII outflow -> reduced liquidity -> lower stock prices",
-          "quant": "-2% decline in stock price"
+          "name": "Motherson Sumi",
+          "ticker": "MOTHERSON.NS",
+          "impact": "Bullish",
+          "reason": "Tactical buying -> increased investor sentiment -> higher stock price",
+          "quant": "stock price +1.5-2.5% in short term"
         }
       ],
-      "watch": "FII inflow crossing Rs 5000 Cr"
+      "watch": "Motherson Sumi's Q1 earnings release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "India bonds reverse gains as report RBI mulling rate hike",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Potential rate hike -> increased borrowing costs -> lower margins",
+          "quant": "margins -100bps"
+        }
+      ],
+      "watch": "RBI's monetary policy meeting"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "China+1"
   ]
 }
