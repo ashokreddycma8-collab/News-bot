@@ -1,93 +1,85 @@
 {
   "date": "2026-05-21",
-  "time": "12:34",
-  "mood": "Bearish",
+  "time": "16:23",
+  "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "ITC Q4 Results and Sun Pharma Q4 Preview",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Sun Pharmaceutical Industries",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 preview -> increased sales of Unloxcyt and speciality drugs -> revenue growth of 8-10% Q3",
+          "quant": "8-10%"
+        },
+        {
+          "name": "ITC Limited",
+          "ticker": "ITC.NS",
+          "impact": "Bullish",
+          "reason": "5% YoY profit rise in Q4 -> increased dividend payout -> investor confidence boost",
+          "quant": "5%"
+        }
+      ],
+      "watch": "Sun Pharma Q4 results announcement"
+    },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Adani Power to acquire 24% stake in JPVL, thermal assets for \u20b94,194 crore",
-      "theme": "PSU_rotation",
+      "news_driver": "India imported 4.3% less crude oil in April, yet the bill still up 50% as prices soar",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Adani Power",
-          "ticker": "ADANIPOWER.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Acquisition of thermal assets -> increased debt burden -> negative impact on stock price",
-          "quant": "debt equity ratio +15%"
-        },
-        {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
-          "impact": "Bearish",
-          "reason": "Increased competition from Adani Power -> reduced market share -> lower revenue",
-          "quant": "revenue -5-7% Q1"
+          "reason": "Soaring crude oil prices -> increased cost of production -> margins squeeze of -150bps",
+          "quant": "-150bps"
         }
       ],
-      "watch": "Adani Power's Q1 earnings release"
+      "watch": "Crude oil price movement"
     },
     {
-      "sector": "it",
+      "sector": "realty",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Tactical buying visible in IT",
-      "theme": "China+1",
+      "news_driver": "India\u2019s real estate sector may need Rs 50 lakh crore capital over next decade",
+      "theme": "null",
       "stocks": [
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
+          "name": "DLF Limited",
+          "ticker": "DLF.NS",
           "impact": "Bullish",
-          "reason": "Tactical buying -> increased investor sentiment -> higher stock price",
-          "quant": "stock price +2-3% in short term"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Selective opportunities emerging -> increased deal wins -> higher revenue",
-          "quant": "revenue +8-10% Q3"
+          "reason": "Increased capital requirement -> potential for increased demand -> revenue growth of 10-12% YoY",
+          "quant": "10-12%"
         }
       ],
-      "watch": "TCS's Q1 earnings release"
+      "watch": "Real estate sector capital infusion"
     },
     {
       "sector": "auto",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Tactical buying visible in auto ancillaries",
-      "theme": null,
+      "news_driver": "Auto sector still growing but these are the risks every investor must watch in FY27",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Motherson Sumi",
-          "ticker": "MOTHERSON.NS",
-          "impact": "Bullish",
-          "reason": "Tactical buying -> increased investor sentiment -> higher stock price",
-          "quant": "stock price +1.5-2.5% in short term"
+          "name": "Tata Motors Limited",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Neutral",
+          "reason": "Growth in auto sector -> potential for increased sales -> revenue growth of 5-7% YoY, but risks present",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Motherson Sumi's Q1 earnings release"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "India bonds reverse gains as report RBI mulling rate hike",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Potential rate hike -> increased borrowing costs -> lower margins",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "RBI's monetary policy meeting"
+      "watch": "Auto sector sales data"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
