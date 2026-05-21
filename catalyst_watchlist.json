@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:23:53.322839+05:30",
+  "generated_at": "2026-05-21T18:13:10.422586+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1676,6 +1676,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "NYKAA": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q4 results: cons profit surges 286% YoY to Rs 78 crore, revenue rises 28%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

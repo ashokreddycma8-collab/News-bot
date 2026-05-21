@@ -1,85 +1,79 @@
 {
   "date": "2026-05-21",
-  "time": "16:23",
+  "time": "18:13",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "pharma",
+      "sector": "consumer",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "ITC Q4 Results and Sun Pharma Q4 Preview",
+      "news_driver": "ITC Q4 Results",
       "theme": "null",
       "stocks": [
-        {
-          "name": "Sun Pharmaceutical Industries",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 preview -> increased sales of Unloxcyt and speciality drugs -> revenue growth of 8-10% Q3",
-          "quant": "8-10%"
-        },
         {
           "name": "ITC Limited",
           "ticker": "ITC.NS",
           "impact": "Bullish",
-          "reason": "5% YoY profit rise in Q4 -> increased dividend payout -> investor confidence boost",
-          "quant": "5%"
+          "reason": "ITC Q4 profit rising 5% YoY -> expansion of margins despite revenue slide -> increased investor confidence",
+          "quant": "margin expansion +50bps"
         }
       ],
-      "watch": "Sun Pharma Q4 results announcement"
+      "watch": "ITC stock price movement above 450 levels"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "India imported 4.3% less crude oil in April, yet the bill still up 50% as prices soar",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Soaring crude oil prices -> increased cost of production -> margins squeeze of -150bps",
-          "quant": "-150bps"
-        }
-      ],
-      "watch": "Crude oil price movement"
-    },
-    {
-      "sector": "realty",
+      "sector": "fmcg",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India\u2019s real estate sector may need Rs 50 lakh crore capital over next decade",
+      "conviction": 2,
+      "news_driver": "ITC Q4 Results",
       "theme": "null",
       "stocks": [
         {
-          "name": "DLF Limited",
-          "ticker": "DLF.NS",
+          "name": "ITC Limited",
+          "ticker": "ITC.NS",
           "impact": "Bullish",
-          "reason": "Increased capital requirement -> potential for increased demand -> revenue growth of 10-12% YoY",
-          "quant": "10-12%"
+          "reason": "ITC Q4 revenue slide -> diversification of product portfolio -> potential for future growth",
+          "quant": "revenue -2% YoY"
         }
       ],
-      "watch": "Real estate sector capital infusion"
+      "watch": "ITC's diversification strategy"
     },
     {
-      "sector": "auto",
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Nykaa Q4 Results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Nykaa",
+          "ticker": "FSN.NS",
+          "impact": "Bullish",
+          "reason": "Nykaa Q4 profit surging 286% YoY -> strong demand for beauty and personal care products -> increased market share",
+          "quant": "profit +286% YoY"
+        }
+      ],
+      "watch": "Nykaa stock price movement above 50 levels"
+    },
+    {
+      "sector": "financial_services",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Auto sector still growing but these are the risks every investor must watch in FY27",
+      "news_driver": "Credit Saison raises $500 mn via external commercial borrowing",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors Limited",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Credit Saison",
+          "ticker": "null",
           "impact": "Neutral",
-          "reason": "Growth in auto sector -> potential for increased sales -> revenue growth of 5-7% YoY, but risks present",
-          "quant": "5-7%"
+          "reason": "Credit Saison raising $500 mn via ECB -> increased liquidity for lending -> stable financial services sector",
+          "quant": "null"
         }
       ],
-      "watch": "Auto sector sales data"
+      "watch": "Credit Saison's lending growth"
     }
   ],
   "themes": [
-    "null"
+    "consumer_staples",
+    "fmcg"
   ]
 }
