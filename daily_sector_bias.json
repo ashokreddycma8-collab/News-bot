@@ -1,93 +1,93 @@
 {
   "date": "2026-05-22",
-  "time": "12:29",
-  "mood": "Bullish",
+  "time": "16:06",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Devarsh Vakil reveals 5 sectors worth buying, including IT, as markets turn volatile",
-      "theme": "China+1",
+      "news_driver": "Meta, Amazon layoffs and H-1B visa uncertainty",
+      "theme": "internet_digital",
       "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Devarsh Vakil's recommendation -> increased investor interest -> potential stock price appreciation",
-          "quant": "revenue +5-7% Q2"
-        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Devarsh Vakil's recommendation -> improved market sentiment -> potential order book growth",
-          "quant": "order book +Rs200Cr"
+          "impact": "Bearish",
+          "reason": "H-1B visa uncertainty -> reduced talent availability -> decreased project delivery efficiency",
+          "quant": "-5% revenue growth Q1"
+        },
+        {
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Bearish",
+          "reason": "US layoffs -> decreased client spending -> reduced IT services demand",
+          "quant": "-3% EBIT margin Q2"
         }
       ],
-      "watch": "TCS Q2 earnings release"
+      "watch": "US visa policy updates"
     },
     {
       "sector": "pharma",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Rahul Shah bullish on pharma, sees Sun Pharma and Aurobindo as key large-cap plays",
-      "theme": "PSU_rotation",
+      "news_driver": "Bernstein initiates coverage on 6 pharma stocks",
+      "theme": "healthcare_services",
       "stocks": [
         {
-          "name": "Sun Pharmaceutical Industries",
+          "name": "Sun Pharma",
           "ticker": "SUNPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Rahul Shah's recommendation -> increased investor interest -> potential stock price appreciation",
-          "quant": "margins +100bps"
+          "reason": "Bernstein coverage initiation -> increased investor attention -> improved stock valuation",
+          "quant": "+8% stock price appreciation in next 6 weeks"
         },
         {
-          "name": "Aurobindo Pharma",
-          "ticker": "AUROPHARMA.NS",
+          "name": "Dr. Reddy's",
+          "ticker": "DRREDDY.NS",
           "impact": "Bullish",
-          "reason": "Rahul Shah's recommendation -> improved market sentiment -> potential revenue growth",
-          "quant": "revenue +8-10% Q3"
+          "reason": "Bernstein coverage initiation -> enhanced credibility -> increased business opportunities",
+          "quant": "+10% revenue growth Q3"
         }
       ],
-      "watch": "Aurobindo Pharma Q2 earnings release"
+      "watch": "Q1 earnings reports"
+    },
+    {
+      "sector": "jewellery",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Gold import duty hike",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Titan Company",
+          "ticker": "TITAN.NS",
+          "impact": "Bearish",
+          "reason": "Gold import duty hike -> increased input costs -> reduced profit margins",
+          "quant": "-100bps EBIT margin Q2"
+        }
+      ],
+      "watch": "Gold prices"
     },
     {
       "sector": "realty",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Godrej Properties Awards Its Biggest-Ever Single Contract To Tata Projects In Gurgaon",
+      "news_driver": "Domestic capital emerges as new growth engine",
       "theme": null,
       "stocks": [
         {
-          "name": "Godrej Properties",
-          "ticker": "GODREJPROP.NS",
+          "name": "DLF",
+          "ticker": "DLF.NS",
           "impact": "Bullish",
-          "reason": "Contract award -> increased revenue visibility -> potential stock price appreciation",
-          "quant": "revenue +12% Q2"
+          "reason": "Domestic capital influx -> increased demand for real estate -> improved sales velocity",
+          "quant": "+12% sales growth Q2"
         }
       ],
-      "watch": "Godrej Properties Q2 earnings release"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "ITC Q4 results: After margin surprise, all eyes now on cigarette tax impact",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "ITC",
-          "ticker": "ITC.NS",
-          "impact": "Bearish",
-          "reason": "Cigarette tax impact -> reduced profitability -> potential stock price decline",
-          "quant": "margins -150bps"
-        }
-      ],
-      "watch": "ITC Q2 earnings release"
+      "watch": "Q1 sales reports"
     }
   ],
   "themes": [
-    "China+1",
-    "PSU_rotation"
+    "healthcare_services",
+    "internet_digital"
   ]
 }
