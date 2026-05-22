@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T16:06:18.789133+05:30",
+  "generated_at": "2026-05-22T17:45:45.191587+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1692,6 +1692,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BANDHANBANK": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "SBI Mutual Fund raises stake to over 5% after fresh share purchase",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "EICHERMOT": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 cons profit grows 12% YoY to Rs 1,520 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

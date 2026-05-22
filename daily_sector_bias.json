@@ -1,93 +1,85 @@
 {
   "date": "2026-05-22",
-  "time": "16:06",
-  "mood": "Cautious",
+  "time": "17:45",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Meta, Amazon layoffs and H-1B visa uncertainty",
-      "theme": "internet_digital",
+      "news_driver": "RBI's record dividend transfer to the government",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "H-1B visa uncertainty -> reduced talent availability -> decreased project delivery efficiency",
-          "quant": "-5% revenue growth Q1"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "RBI's record dividend transfer -> increased government revenue -> improved banking sector liquidity",
+          "quant": "NIM +20bps"
         },
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bearish",
-          "reason": "US layoffs -> decreased client spending -> reduced IT services demand",
-          "quant": "-3% EBIT margin Q2"
+          "name": "Bandhan Bank",
+          "ticker": "BANDHAN.NS",
+          "impact": "Bullish",
+          "reason": "SBI Mutual Fund's increased stake -> improved investor sentiment -> potential stock price appreciation",
+          "quant": "stock price +5-7%"
         }
       ],
-      "watch": "US visa policy updates"
+      "watch": "SBIN's June quarter earnings release"
     },
     {
       "sector": "pharma",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Bernstein initiates coverage on 6 pharma stocks",
-      "theme": "healthcare_services",
+      "news_driver": "Sun Pharma's Q4 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Sun Pharma",
+          "name": "Sun Pharmaceutical Industries",
           "ticker": "SUNPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Bernstein coverage initiation -> increased investor attention -> improved stock valuation",
-          "quant": "+8% stock price appreciation in next 6 weeks"
-        },
-        {
-          "name": "Dr. Reddy's",
-          "ticker": "DRREDDY.NS",
-          "impact": "Bullish",
-          "reason": "Bernstein coverage initiation -> enhanced credibility -> increased business opportunities",
-          "quant": "+10% revenue growth Q3"
+          "reason": "Q4 net profit growth -> increased investor confidence -> potential stock price appreciation",
+          "quant": "revenue +10-12% YoY"
         }
       ],
-      "watch": "Q1 earnings reports"
+      "watch": "Sun Pharma's product pipeline updates"
     },
     {
-      "sector": "jewellery",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Gold import duty hike",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Titan Company",
-          "ticker": "TITAN.NS",
-          "impact": "Bearish",
-          "reason": "Gold import duty hike -> increased input costs -> reduced profit margins",
-          "quant": "-100bps EBIT margin Q2"
-        }
-      ],
-      "watch": "Gold prices"
-    },
-    {
-      "sector": "realty",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Domestic capital emerges as new growth engine",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Eicher Motors' Q4 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "DLF",
-          "ticker": "DLF.NS",
+          "name": "Eicher Motors",
+          "ticker": "EICHERMOT.NS",
           "impact": "Bullish",
-          "reason": "Domestic capital influx -> increased demand for real estate -> improved sales velocity",
-          "quant": "+12% sales growth Q2"
+          "reason": "Q4 revenue growth -> increased market share -> potential stock price appreciation",
+          "quant": "EBITDA margin +100bps"
         }
       ],
-      "watch": "Q1 sales reports"
+      "watch": "Eicher Motors' Royal Enfield sales updates"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Wipro's share buyback announcement",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Neutral",
+          "reason": "Share buyback announcement -> reduced outstanding shares -> neutral impact on stock price",
+          "quant": "null"
+        }
+      ],
+      "watch": "Wipro's June quarter earnings release"
     }
   ],
   "themes": [
-    "healthcare_services",
-    "internet_digital"
+    "PSU_rotation"
   ]
 }
