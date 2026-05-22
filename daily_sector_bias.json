@@ -1,79 +1,93 @@
 {
-  "date": "2026-05-21",
-  "time": "18:13",
-  "mood": "Cautious",
+  "date": "2026-05-22",
+  "time": "12:29",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "consumer",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "ITC Q4 Results",
-      "theme": "null",
+      "news_driver": "Devarsh Vakil reveals 5 sectors worth buying, including IT, as markets turn volatile",
+      "theme": "China+1",
       "stocks": [
         {
-          "name": "ITC Limited",
-          "ticker": "ITC.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "ITC Q4 profit rising 5% YoY -> expansion of margins despite revenue slide -> increased investor confidence",
-          "quant": "margin expansion +50bps"
+          "reason": "Devarsh Vakil's recommendation -> increased investor interest -> potential stock price appreciation",
+          "quant": "revenue +5-7% Q2"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Devarsh Vakil's recommendation -> improved market sentiment -> potential order book growth",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "ITC stock price movement above 450 levels"
+      "watch": "TCS Q2 earnings release"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Rahul Shah bullish on pharma, sees Sun Pharma and Aurobindo as key large-cap plays",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Sun Pharmaceutical Industries",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Rahul Shah's recommendation -> increased investor interest -> potential stock price appreciation",
+          "quant": "margins +100bps"
+        },
+        {
+          "name": "Aurobindo Pharma",
+          "ticker": "AUROPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Rahul Shah's recommendation -> improved market sentiment -> potential revenue growth",
+          "quant": "revenue +8-10% Q3"
+        }
+      ],
+      "watch": "Aurobindo Pharma Q2 earnings release"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Godrej Properties Awards Its Biggest-Ever Single Contract To Tata Projects In Gurgaon",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Godrej Properties",
+          "ticker": "GODREJPROP.NS",
+          "impact": "Bullish",
+          "reason": "Contract award -> increased revenue visibility -> potential stock price appreciation",
+          "quant": "revenue +12% Q2"
+        }
+      ],
+      "watch": "Godrej Properties Q2 earnings release"
     },
     {
       "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "ITC Q4 Results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "ITC Limited",
-          "ticker": "ITC.NS",
-          "impact": "Bullish",
-          "reason": "ITC Q4 revenue slide -> diversification of product portfolio -> potential for future growth",
-          "quant": "revenue -2% YoY"
-        }
-      ],
-      "watch": "ITC's diversification strategy"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Nykaa Q4 Results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Nykaa",
-          "ticker": "FSN.NS",
-          "impact": "Bullish",
-          "reason": "Nykaa Q4 profit surging 286% YoY -> strong demand for beauty and personal care products -> increased market share",
-          "quant": "profit +286% YoY"
-        }
-      ],
-      "watch": "Nykaa stock price movement above 50 levels"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Neutral",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Credit Saison raises $500 mn via external commercial borrowing",
-      "theme": "null",
+      "news_driver": "ITC Q4 results: After margin surprise, all eyes now on cigarette tax impact",
+      "theme": null,
       "stocks": [
         {
-          "name": "Credit Saison",
-          "ticker": "null",
-          "impact": "Neutral",
-          "reason": "Credit Saison raising $500 mn via ECB -> increased liquidity for lending -> stable financial services sector",
-          "quant": "null"
+          "name": "ITC",
+          "ticker": "ITC.NS",
+          "impact": "Bearish",
+          "reason": "Cigarette tax impact -> reduced profitability -> potential stock price decline",
+          "quant": "margins -150bps"
         }
       ],
-      "watch": "Credit Saison's lending growth"
+      "watch": "ITC Q2 earnings release"
     }
   ],
   "themes": [
-    "consumer_staples",
-    "fmcg"
+    "China+1",
+    "PSU_rotation"
   ]
 }
