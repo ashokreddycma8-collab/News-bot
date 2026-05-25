@@ -1,100 +1,114 @@
 {
   "date": "2026-05-25",
-  "time": "13:31",
-  "mood": "Cautious",
+  "time": "17:28",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "oil_gas",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Private banks favoured over PSUs as macro headwinds cloud near-term outlook",
-      "theme": "PSU_rotation",
+      "news_driver": "Crude oil prices dropping below $100/barrel on US-Iran deal hopes",
+      "theme": "OMC_rotation",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bullish",
-          "reason": "Private banks being favoured over PSUs -> increased deposits and lending -> revenue +5-7% Q2",
-          "quant": "5-7%"
+          "reason": "Crude oil price drop -> reduced input costs -> improved margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bullish",
-          "reason": "Private banks being favoured over PSUs -> improved asset quality -> margins +50bps",
-          "quant": "50bps"
+          "reason": "Crude oil price drop -> lower working capital requirements -> improved cash flows",
+          "quant": "cash flows +5-7% Q3"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bullish",
+          "reason": "Crude oil price drop -> increased refining margins -> higher profitability",
+          "quant": "refining margins +150bps"
         }
       ],
-      "watch": "PSU bank stocks for potential underperformance"
+      "watch": "Crude oil prices sustaining below $100/barrel"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Rs 18 lakh crore wiped out: Has the brutal Indian IT stock crash finally bottomed?",
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Early findings of offshore oil exploration in Andamans indicate hydrocarbon potential",
       "theme": null,
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bearish",
-          "reason": "IT stock crash -> reduced client spending -> revenue -10-12% Q3",
-          "quant": "-10-12%"
+          "name": "Oil India",
+          "ticker": "OIL.NS",
+          "impact": "Bullish",
+          "reason": "Offshore oil exploration findings -> potential new discoveries -> increased reserves",
+          "quant": "reserves +10-15%"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "IT stock crash -> decreased demand for IT services -> margins -100bps",
-          "quant": "-100bps"
+          "name": "GAIL (India)",
+          "ticker": "GAIL.NS",
+          "impact": "Bullish",
+          "reason": "Offshore oil exploration findings -> increased gas production -> higher revenues",
+          "quant": "revenues +5-7% Q3"
         }
       ],
-      "watch": "IT stock prices for potential further decline"
+      "watch": "Further updates on offshore oil exploration in Andamans"
     },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Dhoot Transmission to go for \u20b91,400 crore IPO",
+      "news_driver": "Hyderabad Metro to turn profitable next year with IRFC\u2019s low-cost loan",
+      "theme": "infrastructure_growth",
+      "stocks": [
+        {
+          "name": "Ashok Leyland",
+          "ticker": "ASHOKLEY.NS",
+          "impact": "Bullish",
+          "reason": "Increased infrastructure spending -> higher demand for commercial vehicles -> increased sales",
+          "quant": "sales +8-10% Q3"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Increased infrastructure spending -> higher demand for heavy trucks -> increased revenues",
+          "quant": "revenues +5-7% Q3"
+        }
+      ],
+      "watch": "IRFC\u2019s low-cost loan disbursement to Hyderabad Metro"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Paint Companies Face Demand Test After Sharp Price Hikes",
       "theme": null,
       "stocks": [
         {
-          "name": "Eicher Motors",
-          "ticker": "EICHERMOT.NS",
-          "impact": "Bullish",
-          "reason": "IPO of auto component manufacturer -> increased investor interest -> stock price +2-3%",
-          "quant": "2-3%"
-        }
-      ],
-      "watch": "IPO subscription numbers for Dhoot Transmission"
-    },
-    {
-      "sector": "railway",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Titagarh, Jupiter Wagons shares rally up to 10% amid reports of Rs 40,000 crore order from Indian Railways",
-      "theme": "Railway_capex",
-      "stocks": [
-        {
-          "name": "Titagarh Wagons",
-          "ticker": "TWL.NS",
-          "impact": "Bullish",
-          "reason": "Rs 40,000 crore order from Indian Railways -> increased revenue -> order book +Rs10,000Cr",
-          "quant": "Rs10,000Cr"
+          "name": "Asian Paints",
+          "ticker": "ASIANPAINT.NS",
+          "impact": "Bearish",
+          "reason": "Sharp price hikes -> decreased demand -> lower sales",
+          "quant": "sales -5-7% Q3"
         },
         {
-          "name": "Jupiter Wagons",
-          "ticker": "JWL.NS",
-          "impact": "Bullish",
-          "reason": "Rs 40,000 crore order from Indian Railways -> improved profitability -> margins +150bps",
-          "quant": "150bps"
+          "name": "Kansai Nerolac",
+          "ticker": "KANSAINER.NS",
+          "impact": "Bearish",
+          "reason": "Sharp price hikes -> decreased demand -> lower revenues",
+          "quant": "revenues -3-5% Q3"
         }
       ],
-      "watch": "Railway order book for potential further announcements"
+      "watch": "Paint companies\u2019 Q3 earnings reports"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "Railway_capex"
+    "OMC_rotation",
+    "infrastructure_growth"
   ]
 }
