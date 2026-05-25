@@ -1,114 +1,86 @@
 {
   "date": "2026-05-25",
-  "time": "17:28",
-  "mood": "Bullish",
+  "time": "18:28",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude oil prices dropping below $100/barrel on US-Iran deal hopes",
-      "theme": "OMC_rotation",
+      "news_driver": "Pine Labs Q4 Results",
+      "theme": "digital_payments",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Pine Labs",
+          "ticker": "PINELABS.NS",
           "impact": "Bullish",
-          "reason": "Crude oil price drop -> reduced input costs -> improved margins",
-          "quant": "margins +100bps"
+          "reason": "Pine Labs' Q4 profit of Rs 59 crore -> increased investor confidence -> potential stock price appreciation",
+          "quant": "revenue +17% Q4"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
+          "name": "Infibeam Avenues",
+          "ticker": "INFIBEAM.NS",
           "impact": "Bullish",
-          "reason": "Crude oil price drop -> lower working capital requirements -> improved cash flows",
-          "quant": "cash flows +5-7% Q3"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bullish",
-          "reason": "Crude oil price drop -> increased refining margins -> higher profitability",
-          "quant": "refining margins +150bps"
+          "reason": "Pine Labs' Q4 results -> increased competition in digital payments space -> potential market share gain for Infibeam Avenues",
+          "quant": "market share +2-3% Q4"
         }
       ],
-      "watch": "Crude oil prices sustaining below $100/barrel"
+      "watch": "Pine Labs' stock price movement"
     },
     {
-      "sector": "energy",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Early findings of offshore oil exploration in Andamans indicate hydrocarbon potential",
+      "news_driver": "LIC hikes stake in Central Bank of India",
       "theme": null,
       "stocks": [
         {
-          "name": "Oil India",
-          "ticker": "OIL.NS",
-          "impact": "Bullish",
-          "reason": "Offshore oil exploration findings -> potential new discoveries -> increased reserves",
-          "quant": "reserves +10-15%"
-        },
-        {
-          "name": "GAIL (India)",
-          "ticker": "GAIL.NS",
-          "impact": "Bullish",
-          "reason": "Offshore oil exploration findings -> increased gas production -> higher revenues",
-          "quant": "revenues +5-7% Q3"
+          "name": "Central Bank of India",
+          "ticker": "CENTRALBK.NS",
+          "impact": "Neutral",
+          "reason": "LIC's stake hike -> increased institutional holding -> no significant impact on stock price",
+          "quant": "institutional holding +0.5% Q4"
         }
       ],
-      "watch": "Further updates on offshore oil exploration in Andamans"
+      "watch": "Central Bank of India's quarterly earnings"
     },
     {
-      "sector": "auto",
+      "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Hyderabad Metro to turn profitable next year with IRFC\u2019s low-cost loan",
-      "theme": "infrastructure_growth",
-      "stocks": [
-        {
-          "name": "Ashok Leyland",
-          "ticker": "ASHOKLEY.NS",
-          "impact": "Bullish",
-          "reason": "Increased infrastructure spending -> higher demand for commercial vehicles -> increased sales",
-          "quant": "sales +8-10% Q3"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "Increased infrastructure spending -> higher demand for heavy trucks -> increased revenues",
-          "quant": "revenues +5-7% Q3"
-        }
-      ],
-      "watch": "IRFC\u2019s low-cost loan disbursement to Hyderabad Metro"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Paint Companies Face Demand Test After Sharp Price Hikes",
+      "conviction": 2,
+      "news_driver": "Sebi proposes dynamic options strike framework",
       "theme": null,
       "stocks": [
         {
-          "name": "Asian Paints",
-          "ticker": "ASIANPAINT.NS",
-          "impact": "Bearish",
-          "reason": "Sharp price hikes -> decreased demand -> lower sales",
-          "quant": "sales -5-7% Q3"
-        },
-        {
-          "name": "Kansai Nerolac",
-          "ticker": "KANSAINER.NS",
-          "impact": "Bearish",
-          "reason": "Sharp price hikes -> decreased demand -> lower revenues",
-          "quant": "revenues -3-5% Q3"
+          "name": "National Stock Exchange",
+          "ticker": "NSE.NS",
+          "impact": "Bullish",
+          "reason": "Sebi's proposal -> improved trading continuity -> increased trading volumes",
+          "quant": "trading volumes +10-15% Q3"
         }
       ],
-      "watch": "Paint companies\u2019 Q3 earnings reports"
+      "watch": "Sebi's final guidelines on dynamic options strike framework"
+    },
+    {
+      "sector": "internet_digital",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Zepto planning to file papers for $1 billion IPO",
+      "theme": "food_delivery",
+      "stocks": [
+        {
+          "name": "Zomato",
+          "ticker": "ZOMATO.NS",
+          "impact": "Bullish",
+          "reason": "Zepto's IPO plans -> increased investor interest in food delivery space -> potential stock price appreciation",
+          "quant": "valuation +10-15% Q3"
+        }
+      ],
+      "watch": "Zepto's IPO filing and Zomato's quarterly earnings"
     }
   ],
   "themes": [
-    "OMC_rotation",
-    "infrastructure_growth"
+    "digital_payments",
+    "food_delivery"
   ]
 }

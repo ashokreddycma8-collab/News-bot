@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T13:31:36.920112+05:30",
+  "generated_at": "2026-05-25T18:28:53.232648+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1732,6 +1732,22 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PINELABS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 results show profit of Rs 59 crore on 17% revenue jump",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CENTRALBK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "LIC hikes stake to 6.06%",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
