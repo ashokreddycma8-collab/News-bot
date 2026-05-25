@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T17:45:45.191587+05:30",
+  "generated_at": "2026-05-25T13:31:36.920112+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1030,12 +1030,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "TITAGARH": {
-      "score": 4,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "stock surges up to 8%",
-      "category": "technical_event",
+      "catalyst": "Rs 40,000 crore order from Indian Railways",
+      "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "WOCKHARDT": {
       "score": 4,
@@ -1708,6 +1708,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "JUPITERWAG": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Rs 40,000 crore order from Indian Railways",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "GAIL": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "FY26 PAT down 38% to \u20b96,968 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "DHOOTTRAN": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": " \u20b91,400 crore IPO plans",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
