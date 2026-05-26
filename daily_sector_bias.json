@@ -1,86 +1,86 @@
 {
-  "date": "2026-05-25",
-  "time": "18:28",
-  "mood": "Cautious",
+  "date": "2026-05-26",
+  "time": "12:28",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Pine Labs Q4 Results",
-      "theme": "digital_payments",
+      "news_driver": "Crude oil price surge due to geopolitical tensions",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Pine Labs",
-          "ticker": "PINELABS.NS",
-          "impact": "Bullish",
-          "reason": "Pine Labs' Q4 profit of Rs 59 crore -> increased investor confidence -> potential stock price appreciation",
-          "quant": "revenue +17% Q4"
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "Geopolitical tensions -> Higher crude oil prices -> Lower margins for ONGC",
+          "quant": "margins -100bps"
         },
         {
-          "name": "Infibeam Avenues",
-          "ticker": "INFIBEAM.NS",
-          "impact": "Bullish",
-          "reason": "Pine Labs' Q4 results -> increased competition in digital payments space -> potential market share gain for Infibeam Avenues",
-          "quant": "market share +2-3% Q4"
+          "name": "Gujarat Gas",
+          "ticker": "GUJGASLTD.NS",
+          "impact": "Bearish",
+          "reason": "Higher crude oil prices -> Increased input costs -> Lower profitability for Gujarat Gas",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Pine Labs' stock price movement"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "US-Iran peace deal hopes and global AI supercycle",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Suzlon Energy",
+          "ticker": "SUZLON.NS",
+          "impact": "Bullish",
+          "reason": "Global AI supercycle and peace deal hopes -> Increased demand for renewable energy -> Higher sales for Suzlon Energy",
+          "quant": "revenue +12%"
+        }
+      ],
+      "watch": "Suzlon Energy's Q4 results"
+    },
+    {
+      "sector": "chemicals",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Higher oil-linked costs due to geopolitical tensions",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "HFCL",
+          "ticker": "HFCL.NS",
+          "impact": "Bearish",
+          "reason": "Higher oil-linked costs -> Lower margins for HFCL",
+          "quant": "margins -120bps"
+        }
+      ],
+      "watch": "HFCL's stock price movement"
+    },
+    {
+      "sector": "psu",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "LIC hikes stake in Central Bank of India",
-      "theme": null,
+      "news_driver": "India-US Rare Earth Pact",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Central Bank of India",
-          "ticker": "CENTRALBK.NS",
-          "impact": "Neutral",
-          "reason": "LIC's stake hike -> increased institutional holding -> no significant impact on stock price",
-          "quant": "institutional holding +0.5% Q4"
-        }
-      ],
-      "watch": "Central Bank of India's quarterly earnings"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sebi proposes dynamic options strike framework",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "National Stock Exchange",
-          "ticker": "NSE.NS",
+          "name": "RVNL",
+          "ticker": "RVNL.NS",
           "impact": "Bullish",
-          "reason": "Sebi's proposal -> improved trading continuity -> increased trading volumes",
-          "quant": "trading volumes +10-15% Q3"
+          "reason": "India-US Rare Earth Pact -> Increased business opportunities -> Higher revenue for RVNL",
+          "quant": "revenue +8%"
         }
       ],
-      "watch": "Sebi's final guidelines on dynamic options strike framework"
-    },
-    {
-      "sector": "internet_digital",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Zepto planning to file papers for $1 billion IPO",
-      "theme": "food_delivery",
-      "stocks": [
-        {
-          "name": "Zomato",
-          "ticker": "ZOMATO.NS",
-          "impact": "Bullish",
-          "reason": "Zepto's IPO plans -> increased investor interest in food delivery space -> potential stock price appreciation",
-          "quant": "valuation +10-15% Q3"
-        }
-      ],
-      "watch": "Zepto's IPO filing and Zomato's quarterly earnings"
+      "watch": "RVNL's Q4 results"
     }
   ],
   "themes": [
-    "digital_payments",
-    "food_delivery"
+    "US-Iran peace deal",
+    "global AI supercycle"
   ]
 }
