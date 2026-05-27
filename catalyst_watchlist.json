@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T13:16:10.911375+05:30",
+  "generated_at": "2026-05-27T16:55:32.045588+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1780,6 +1780,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "HEROMOTOCO": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Launch of Super Splendor XTEC 2.0",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MPHASIS": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Launch of new AI platform 'Trai' and two new product lines",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
