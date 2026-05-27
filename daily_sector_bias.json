@@ -1,93 +1,85 @@
 {
   "date": "2026-05-27",
-  "time": "16:55",
-  "mood": "Bearish",
+  "time": "18:20",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "HDFC Bank shares tumble 3%",
-      "theme": "PSU_rotation",
+      "news_driver": "FII selling and decline in Sensex, Nifty",
+      "theme": "null",
       "stocks": [
+        {
+          "name": "Kotak Mahindra Bank",
+          "ticker": "KOTAKBANK.NS",
+          "impact": "Bearish",
+          "reason": "FII selling -> reduced investor confidence -> lower stock prices",
+          "quant": "-2.5%"
+        },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "FII selling -> reduced investor confidence -> lower stock price",
-          "quant": "stock price -3.5%"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Market sentiment -> reduced lending growth -> lower revenue",
-          "quant": "revenue -2-3% Q3"
+          "reason": "Geopolitical cues -> increased risk aversion -> lower banking stocks",
+          "quant": "-1.8%"
         }
       ],
-      "watch": "HDFC Bank stock price at 1550 levels"
+      "watch": "FII inflow/outflow data"
     },
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Mphasis launches new AI platform 'Trai'",
-      "theme": "AI_digital",
+      "news_driver": "Selling in oil and gas shares",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Mphasis",
-          "ticker": "MPHASIS.NS",
-          "impact": "Bullish",
-          "reason": "New AI platform launch -> increased revenue growth -> higher stock price",
-          "quant": "revenue +10-12% Q3"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "AI adoption -> increased demand for IT services -> higher revenue",
-          "quant": "revenue +8-10% Q3"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Selling in oil and gas shares -> reduced investor confidence -> lower stock prices",
+          "quant": "-1.2%"
         }
       ],
-      "watch": "Mphasis stock price at 2500 levels"
+      "watch": "Brent crude oil prices"
     },
     {
       "sector": "auto",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Hero MotoCorp launches Super Splendor XTEC 2.0",
-      "theme": null,
+      "news_driver": "Air India, IndiGo removing daily flights",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Hero MotoCorp",
-          "ticker": "HEROMOTOCO.NS",
+          "name": "InterGlobe Aviation",
+          "ticker": "INDIGO.NS",
           "impact": "Neutral",
-          "reason": "New product launch -> increased sales growth -> stable stock price",
-          "quant": "sales +2-3% Q3"
+          "reason": "Reduced flights -> lower revenue -> neutral impact on stock price",
+          "quant": "null"
         }
       ],
-      "watch": "Hero MotoCorp stock price at 2800 levels"
+      "watch": "Domestic air traffic data"
     },
     {
       "sector": "financial_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Supreme Court upholds 28% GST on online gaming",
-      "theme": null,
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "US team visit to India for interim trade agreement talks",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Dream11",
-          "ticker": "not listed",
-          "impact": "Bearish",
-          "reason": "Higher GST rate -> reduced revenue growth -> lower valuations",
-          "quant": "revenue -10-12% Q3"
+          "name": "LIC",
+          "ticker": "LICHSGFIN.NS",
+          "impact": "Bullish",
+          "reason": "Positive trade talks -> increased investor confidence -> higher stock prices",
+          "quant": "+1.5%"
         }
       ],
-      "watch": "GST rate on online gaming"
+      "watch": "Trade agreement talks outcome"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "AI_digital"
+    "null"
   ]
 }

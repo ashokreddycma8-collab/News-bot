@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T16:55:32.045588+05:30",
+  "generated_at": "2026-05-27T18:20:20.825776+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1796,6 +1796,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "RIL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "RIL announces AGM date on June 19; updates on Jio IPO in focus",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
