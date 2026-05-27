@@ -1,86 +1,85 @@
 {
-  "date": "2026-05-26",
-  "time": "12:28",
+  "date": "2026-05-27",
+  "time": "13:16",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "energy",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude oil price surge due to geopolitical tensions",
+      "news_driver": "Easing crude prices",
       "theme": "null",
       "stocks": [
         {
           "name": "ONGC",
           "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "Geopolitical tensions -> Higher crude oil prices -> Lower margins for ONGC",
-          "quant": "margins -100bps"
+          "impact": "Bullish",
+          "reason": "Easing crude prices -> Reduced input costs -> Increased margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "Gujarat Gas",
-          "ticker": "GUJGASLTD.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude oil prices -> Increased input costs -> Lower profitability for Gujarat Gas",
-          "quant": "revenue -5%"
+          "name": "Hindalco",
+          "ticker": "HINDALCO.NS",
+          "impact": "Bullish",
+          "reason": "Aluminium prices hitting 4-year high -> Increased revenue -> Improved profitability",
+          "quant": "revenue +8-10% Q3"
         }
       ],
-      "watch": "Brent crude oil price movement"
+      "watch": "Brent crude price below $80"
     },
     {
-      "sector": "renewable",
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "HDFC Bank governance report",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "Governance report -> CEO's woes deepening -> Investor sentiment impacted",
+          "quant": "margins -50bps"
+        }
+      ],
+      "watch": "HDFC Bank's Q1 earnings release"
+    },
+    {
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran peace deal hopes and global AI supercycle",
-      "theme": "null",
+      "news_driver": "Ola Electric's commercial e-scooter launch approval",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Suzlon Energy",
-          "ticker": "SUZLON.NS",
+          "name": "Ola Electric",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "Global AI supercycle and peace deal hopes -> Increased demand for renewable energy -> Higher sales for Suzlon Energy",
-          "quant": "revenue +12%"
+          "reason": "Commercial e-scooter launch approval -> Increased sales -> Market share gain",
+          "quant": "revenue +15% Q2"
         }
       ],
-      "watch": "Suzlon Energy's Q4 results"
+      "watch": "Ola Electric's Q2 sales numbers"
     },
     {
-      "sector": "chemicals",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Higher oil-linked costs due to geopolitical tensions",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HFCL",
-          "ticker": "HFCL.NS",
-          "impact": "Bearish",
-          "reason": "Higher oil-linked costs -> Lower margins for HFCL",
-          "quant": "margins -120bps"
-        }
-      ],
-      "watch": "HFCL's stock price movement"
-    },
-    {
-      "sector": "psu",
+      "sector": "capital_markets",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "India-US Rare Earth Pact",
+      "news_driver": "Himalaya Wealth Managers' SME-focused AIF launch",
       "theme": "null",
       "stocks": [
         {
-          "name": "RVNL",
-          "ticker": "RVNL.NS",
+          "name": "Himalaya Wealth Managers",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "India-US Rare Earth Pact -> Increased business opportunities -> Higher revenue for RVNL",
-          "quant": "revenue +8%"
+          "reason": "SME-focused AIF launch -> Increased fund inflows -> Improved asset management fees",
+          "quant": "AUM +10% Q3"
         }
       ],
-      "watch": "RVNL's Q4 results"
+      "watch": "Himalaya Wealth Managers' AIF performance"
     }
   ],
   "themes": [
-    "US-Iran peace deal",
-    "global AI supercycle"
+    "rural_mobility"
   ]
 }

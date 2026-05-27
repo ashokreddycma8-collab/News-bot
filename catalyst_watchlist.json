@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T12:28:40.754556+05:30",
+  "generated_at": "2026-05-27T13:16:10.911375+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1670,12 +1670,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "OLAELECTRIC": {
-      "score": 5,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Q4 net loss contracts 42% YoY",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "secures approval for commercial e-scooter launch",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "NYKAA": {
       "score": 7,
@@ -1763,6 +1763,22 @@
       "catalyst": "Q4 profit drops 43% y-o-y",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "KAYNESTEC": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "mentioned as a buy/sell/hold candidate by Ask Profit",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "HINDALCO": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "aluminium prices hit 4-year high",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     }
   }
