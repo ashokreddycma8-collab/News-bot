@@ -1,85 +1,52 @@
 {
   "date": "2026-05-28",
-  "time": "12:35",
-  "mood": "Cautious",
+  "time": "13:14",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "defence",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran tensions and rising Brent prices",
-      "theme": "null",
+      "news_driver": "IAF's AMCA project",
+      "theme": "Make_in_India",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "Rising Brent prices -> increased oil import bill -> decreased ONGC margins",
-          "quant": "-100bps"
+          "name": "Tata Advanced Systems",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "IAF's AMCA project selection -> increased order book and revenue visibility -> margins expansion by 50-75bps",
+          "quant": "10-12% revenue growth in FY24"
         },
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> decreased refining margins",
-          "quant": "-50bps"
+          "name": "Larsen & Toubro",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "IAF's AMCA project partnership -> enhanced credibility and future order flow -> 8-10% increase in order book",
+          "quant": "Rs 800-1000Cr addition to order book"
         }
       ],
-      "watch": "Brent prices above $90"
+      "watch": "Tata Motors' Q3 earnings release"
     },
     {
-      "sector": "it",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Pentagon awards Microsoft $9.7 billion deal",
-      "theme": "null",
+      "news_driver": "IAF's AMCA project",
+      "theme": "Make_in_India",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Larsen & Toubro",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "Pentagon's deal with Microsoft -> increased IT spending -> potential outsourcing opportunities for Infosys",
-          "quant": "+5%"
+          "reason": "IAF's AMCA project partnership -> increased demand for capital goods -> 5-7% revenue growth in FY24",
+          "quant": "12-15% increase in capital goods segment revenue"
         }
       ],
-      "watch": "Q4 results of IT companies"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q4 results of pharma companies",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results -> mixed performance -> stable stock price",
-          "quant": "null"
-        }
-      ],
-      "watch": "Q4 results of Sun Pharma"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Retail investors unleash Rs 17,500 crore on 8 battered bluechip stocks",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Retail investor buying -> increased demand -> potential stock price appreciation",
-          "quant": "+3%"
-        }
-      ],
-      "watch": "Retail investor sentiment"
+      "watch": "L&T's Q3 order book update"
     }
   ],
   "themes": [
-    "null"
+    "Make_in_India",
+    "defence_sector"
   ]
 }
