@@ -1,52 +1,85 @@
 {
   "date": "2026-05-28",
-  "time": "13:14",
-  "mood": "Bullish",
+  "time": "16:54",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "defence",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "IAF's AMCA project",
-      "theme": "Make_in_India",
+      "news_driver": "Supreme Court's criticism of SBI's lending practices",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Advanced Systems",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "IAF's AMCA project selection -> increased order book and revenue visibility -> margins expansion by 50-75bps",
-          "quant": "10-12% revenue growth in FY24"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Supreme Court's criticism -> increased regulatory scrutiny -> reduced investor confidence",
+          "quant": "NIM -20bps"
         },
         {
-          "name": "Larsen & Toubro",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "IAF's AMCA project partnership -> enhanced credibility and future order flow -> 8-10% increase in order book",
-          "quant": "Rs 800-1000Cr addition to order book"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> increased oil prices -> higher provisioning requirements",
+          "quant": "provisioning costs +10%"
         }
       ],
-      "watch": "Tata Motors' Q3 earnings release"
+      "watch": "SBI's quarterly earnings release"
     },
     {
-      "sector": "capital_goods",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "IAF's AMCA project",
-      "theme": "Make_in_India",
+      "conviction": 1,
+      "news_driver": "Ashok Leyland's Q4 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Larsen & Toubro",
-          "ticker": "LT.NS",
+          "name": "Ashok Leyland",
+          "ticker": "ASHOKLEY.NS",
           "impact": "Bullish",
-          "reason": "IAF's AMCA project partnership -> increased demand for capital goods -> 5-7% revenue growth in FY24",
-          "quant": "12-15% increase in capital goods segment revenue"
+          "reason": "Q4 results -> improved profitability -> increased investor confidence",
+          "quant": "revenue +8-10% Q3"
         }
       ],
-      "watch": "L&T's Q3 order book update"
+      "watch": "Bharat Forge's quarterly earnings release"
+    },
+    {
+      "sector": "defence",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Bharat Dynamics' Q4 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Bharat Dynamics",
+          "ticker": "BDL.NS",
+          "impact": "Bearish",
+          "reason": "Q4 results -> reduced profitability -> decreased investor confidence",
+          "quant": "revenue -73%"
+        }
+      ],
+      "watch": "Defence budget allocation"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "P&G Hygiene & Health Q4 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "P&G Hygiene & Health",
+          "ticker": "PGHH.NS",
+          "impact": "Neutral",
+          "reason": "Q4 results -> stable profitability -> maintained investor confidence",
+          "quant": "dividend yield 2.5%"
+        }
+      ],
+      "watch": "Competitor's quarterly earnings release"
     }
   ],
   "themes": [
-    "Make_in_India",
-    "defence_sector"
+    "PSU_rotation"
   ]
 }

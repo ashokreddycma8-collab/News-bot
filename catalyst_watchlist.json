@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T13:14:53.153375+05:30",
+  "generated_at": "2026-05-28T16:54:08.934930+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1844,6 +1844,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ASHOKLEY": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit rises 14%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BHARDYNAM": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 net profit drops 58%, revenue declines 73%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "PGHH": {
+      "score": 4,
+      "direction": "NEUTRAL",
+      "catalyst": "Q4 net profit declines 2%, dividend declared",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
