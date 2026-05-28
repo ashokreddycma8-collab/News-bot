@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T18:20:20.825776+05:30",
+  "generated_at": "2026-05-28T12:35:47.310955+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1803,6 +1803,46 @@
       "catalyst": "RIL announces AGM date on June 19; updates on Jio IPO in focus",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "EIDPARRY": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 loss reported",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "MARKSANS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit reported",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ASTRAMICRO": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 profit reported",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AIAENG": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q4 profit down",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "IRCTC": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q4 results announced",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
