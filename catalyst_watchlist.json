@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T16:54:08.934930+05:30",
+  "generated_at": "2026-05-28T19:15:05.157158+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1846,17 +1846,17 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "ASHOKLEY": {
-      "score": 6,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Q4 profit rises 14%",
+      "catalyst": "Q4 net profit rises 14% to Rs 1,291 crore, announces Rs 2.5 interim dividend",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "BHARDYNAM": {
       "score": 5,
       "direction": "SELL",
-      "catalyst": "Q4 net profit drops 58%, revenue declines 73%",
+      "catalyst": "Q4 net profit tumbles 59% to Rs 113 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"

@@ -1,82 +1,65 @@
 {
   "date": "2026-05-28",
-  "time": "16:54",
+  "time": "19:15",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Supreme Court's criticism of SBI's lending practices",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Supreme Court's criticism -> increased regulatory scrutiny -> reduced investor confidence",
-          "quant": "NIM -20bps"
-        },
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> increased oil prices -> higher provisioning requirements",
-          "quant": "provisioning costs +10%"
-        }
-      ],
-      "watch": "SBI's quarterly earnings release"
-    },
-    {
       "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Ashok Leyland's Q4 results",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Ashok Leyland Q4 Results: Net profit rises 14% to Rs 1,291 crore",
+      "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "Ashok Leyland",
           "ticker": "ASHOKLEY.NS",
           "impact": "Bullish",
-          "reason": "Q4 results -> improved profitability -> increased investor confidence",
-          "quant": "revenue +8-10% Q3"
+          "reason": "Q4 net profit rise of 14% -> increased investor confidence -> potential stock price appreciation",
+          "quant": "14% rise in net profit"
+        },
+        {
+          "name": "Royal Enfield",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Launch of Bullet 650 -> increased sales revenue -> potential stock price appreciation",
+          "quant": "revenue +5-7% Q2"
         }
       ],
-      "watch": "Bharat Forge's quarterly earnings release"
+      "watch": "Rs 150 price level for Ashok Leyland"
     },
     {
       "sector": "defence",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Bharat Dynamics' Q4 results",
+      "conviction": 1,
+      "news_driver": "Bharat Dynamics Q4 Results: Net profit tumbles 59% to Rs 113 crore",
       "theme": null,
       "stocks": [
         {
           "name": "Bharat Dynamics",
           "ticker": "BDL.NS",
           "impact": "Bearish",
-          "reason": "Q4 results -> reduced profitability -> decreased investor confidence",
-          "quant": "revenue -73%"
+          "reason": "Q4 net profit drop of 59% -> decreased investor confidence -> potential stock price decline",
+          "quant": "margins -200bps"
         }
       ],
-      "watch": "Defence budget allocation"
+      "watch": "Q1 earnings release"
     },
     {
-      "sector": "fmcg",
-      "direction": "Neutral",
+      "sector": "financial_services",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "P&G Hygiene & Health Q4 results",
-      "theme": null,
+      "news_driver": "PMS inflows rebound in April as AUM crosses \u20b942 lakh crore",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "P&G Hygiene & Health",
-          "ticker": "PGHH.NS",
-          "impact": "Neutral",
-          "reason": "Q4 results -> stable profitability -> maintained investor confidence",
-          "quant": "dividend yield 2.5%"
+          "name": "HDFC Asset Management Company",
+          "ticker": "HDFCAMC.NS",
+          "impact": "Bullish",
+          "reason": "PMS inflows rebound -> increased AUM -> potential revenue growth",
+          "quant": "AUM +10% YoY"
         }
       ],
-      "watch": "Competitor's quarterly earnings release"
+      "watch": "Rs 2,500 price level for HDFC AMC"
     }
   ],
   "themes": [
