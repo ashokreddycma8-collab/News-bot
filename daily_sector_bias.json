@@ -1,92 +1,87 @@
 {
   "date": "2026-05-29",
-  "time": "16:28",
+  "time": "18:15",
   "mood": "Bearish",
   "sectors": [
+    {
+      "sector": "agrochemicals",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Below-normal monsoon forecast",
+      "theme": "rural_mobility",
+      "stocks": [
+        {
+          "name": "UPL Limited",
+          "ticker": "UPL.NS",
+          "impact": "Bearish",
+          "reason": "Below-normal monsoon forecast -> reduced crop yields -> lower demand for agrochemicals",
+          "quant": "revenue -5-7% Q2"
+        },
+        {
+          "name": "PI Industries Limited",
+          "ticker": "PIIND.NS",
+          "impact": "Bearish",
+          "reason": "Below-normal monsoon forecast -> lower crop protection chemical sales -> reduced profitability",
+          "quant": "margins -100bps"
+        }
+      ],
+      "watch": "June monsoon rainfall data release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "India Signs $3.3 Billion Odisha Semiconductor Project",
+      "theme": "China+1",
+      "stocks": [
+        {
+          "name": "Tata Power Company Limited",
+          "ticker": "TATAPOWER.NS",
+          "impact": "Bullish",
+          "reason": "India's hi-tech manufacturing bet -> increased power demand -> higher revenue for Tata Power",
+          "quant": "revenue +4-6% Q3"
+        }
+      ],
+      "watch": "project implementation timeline"
+    },
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Bank RoA to slip 10-15 bps to 1.15-1.2% this fiscal",
-      "theme": "PSU_rotation",
+      "news_driver": "Counterfeit currency detections rise 5.7% in FY26",
+      "theme": null,
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
           "impact": "Bearish",
-          "reason": "Crisil report on Bank RoA -> reduced profitability -> lower investor interest",
-          "quant": "-10-15bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Crisil report on Bank RoA -> reduced profitability -> lower investor interest",
-          "quant": "-10-15bps"
+          "reason": "Rise in counterfeit currency detections -> increased operational risk -> higher provisioning requirements",
+          "quant": "provisions +8-10% Q2"
         }
       ],
-      "watch": "PSU bank Q1 results"
+      "watch": "RBI's next monetary policy meeting"
     },
     {
-      "sector": "pharma",
-      "direction": "Bearish",
+      "sector": "telecom",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Natco Pharma shares crash 15% after weak Q4 results",
-      "theme": null,
+      "news_driver": "As Jio IPO timeline nears, Ambani weighs on broadening stakeholder participation",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Natco Pharma",
-          "ticker": "NATCOPHARM.NS",
-          "impact": "Bearish",
-          "reason": "Weak Q4 results -> reduced investor confidence -> lower stock price",
-          "quant": "-15%"
-        },
-        {
-          "name": "Dr. Reddy's Laboratories",
-          "ticker": "DRREDDY.NS",
-          "impact": "Neutral",
-          "reason": "Pharma sector weakness -> potential contagion effect -> cautious investor stance",
-          "quant": null
+          "name": "Reliance Industries Limited",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Jio IPO timeline -> increased investor interest -> higher valuations for Reliance Industries",
+          "quant": "valuation +10-12% post-IPO"
         }
       ],
-      "watch": "Q1 results of other pharma companies"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Financial institutions report over 10,000 cases of fraud involving \u20b948,000 crore in FY26",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "HDFC",
-          "ticker": "HDFC.NS",
-          "impact": "Bearish",
-          "reason": "RBI data on fraud cases -> increased regulatory scrutiny -> lower investor confidence",
-          "quant": "-2-3% revenue impact"
-        }
-      ],
-      "watch": "RBI's next policy meeting"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Stock Market Crash: Nifty Falls Over 200 Points In Five Minutes, Sensex Down 1,000 Points",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "ICICI Securities",
-          "ticker": "ICICISEC.NS",
-          "impact": "Bearish",
-          "reason": "Market crash -> reduced trading volumes -> lower brokerage revenue",
-          "quant": "-5-7% revenue impact"
-        }
-      ],
-      "watch": "Market volatility"
+      "watch": "Jio IPO announcement"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "rural_mobility",
+    "China+1",
+    "internet_digital"
   ]
 }
