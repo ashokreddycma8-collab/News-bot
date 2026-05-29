@@ -1,68 +1,93 @@
 {
-  "date": "2026-05-28",
-  "time": "19:15",
+  "date": "2026-05-29",
+  "time": "12:36",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Ashok Leyland Q4 Results: Net profit rises 14% to Rs 1,291 crore",
-      "theme": "PSU_rotation",
+      "news_driver": "Reliance bets big on AI to drive next phase of growth for entertainment business",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Ashok Leyland",
-          "ticker": "ASHOKLEY.NS",
-          "impact": "Bullish",
-          "reason": "Q4 net profit rise of 14% -> increased investor confidence -> potential stock price appreciation",
-          "quant": "14% rise in net profit"
-        },
-        {
-          "name": "Royal Enfield",
+          "name": "Reliance Industries",
           "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "Launch of Bullet 650 -> increased sales revenue -> potential stock price appreciation",
-          "quant": "revenue +5-7% Q2"
+          "reason": "Reliance's AI investment -> increased efficiency and revenue growth -> improved profitability",
+          "quant": "revenue +5-7% in FY27"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "AI adoption -> increased demand for digital services -> higher revenue",
+          "quant": "margins +100bps in Q3"
         }
       ],
-      "watch": "Rs 150 price level for Ashok Leyland"
+      "watch": "Reliance Industries' Q1 earnings release"
     },
     {
-      "sector": "defence",
-      "direction": "Bearish",
+      "sector": "pharma",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Bharat Dynamics Q4 Results: Net profit tumbles 59% to Rs 113 crore",
+      "news_driver": "Supriya Lifescience shares surge 17% on strong Q4 earnings",
       "theme": null,
       "stocks": [
         {
-          "name": "Bharat Dynamics",
-          "ticker": "BDL.NS",
-          "impact": "Bearish",
-          "reason": "Q4 net profit drop of 59% -> decreased investor confidence -> potential stock price decline",
-          "quant": "margins -200bps"
+          "name": "Supriya Lifescience",
+          "ticker": "SUPRIYA.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q4 earnings -> increased investor confidence -> higher stock price",
+          "quant": "PAT +47% YoY"
         }
       ],
-      "watch": "Q1 earnings release"
+      "watch": "Supriya Lifescience's Q1 earnings release"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
+      "sector": "auto",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "PMS inflows rebound in April as AUM crosses \u20b942 lakh crore",
-      "theme": "PSU_rotation",
+      "news_driver": "Q4 results highlights: Cummins India, TVS Srichakra report profit rise",
+      "theme": null,
       "stocks": [
         {
-          "name": "HDFC Asset Management Company",
-          "ticker": "HDFCAMC.NS",
+          "name": "Cummins India",
+          "ticker": "CUMMINSIND.NS",
           "impact": "Bullish",
-          "reason": "PMS inflows rebound -> increased AUM -> potential revenue growth",
-          "quant": "AUM +10% YoY"
+          "reason": "Profit rise -> increased investor confidence -> higher stock price",
+          "quant": "revenue +8-10% in Q3"
+        },
+        {
+          "name": "TVS Srichakra",
+          "ticker": "TVSSRICHAK.NS",
+          "impact": "Bullish",
+          "reason": "Profit rise -> increased market share -> higher revenue",
+          "quant": "margins +50bps in Q3"
         }
       ],
-      "watch": "Rs 2,500 price level for HDFC AMC"
+      "watch": "Cummins India's Q1 earnings release"
+    },
+    {
+      "sector": "gaming and hospitality",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Delta Corp shares tank 16%",
+      "theme": "tourism_hospitality",
+      "stocks": [
+        {
+          "name": "Delta Corp",
+          "ticker": "DELTACORP.NS",
+          "impact": "Bearish",
+          "reason": "Sharp selloff -> decreased investor confidence -> lower stock price",
+          "quant": "-16% in a single day"
+        }
+      ],
+      "watch": "Delta Corp's Q1 earnings release"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "internet_digital",
+    "tourism_hospitality"
   ]
 }

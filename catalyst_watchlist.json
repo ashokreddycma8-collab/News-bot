@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T19:15:05.157158+05:30",
+  "generated_at": "2026-05-29T12:36:24.791670+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1868,6 +1868,62 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "CUMMINSIND": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 results show profit rise",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "TVSSRICHAK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 results show profit rise",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "RAMCOCEM": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 results show profit rise",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "GILLETTE": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q4 results show profit rise",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SUPRIYA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "strong Q4 earnings with 47% YoY PAT rise",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "DELTA": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "shares tank 16% due to unknown reasons",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SUMITOMO": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "ICICI Securities ups target price post Q4 beat",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
