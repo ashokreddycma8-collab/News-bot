@@ -1,93 +1,92 @@
 {
   "date": "2026-05-29",
-  "time": "12:36",
-  "mood": "Cautious",
+  "time": "16:28",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Reliance bets big on AI to drive next phase of growth for entertainment business",
-      "theme": "internet_digital",
+      "news_driver": "Bank RoA to slip 10-15 bps to 1.15-1.2% this fiscal",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Reliance's AI investment -> increased efficiency and revenue growth -> improved profitability",
-          "quant": "revenue +5-7% in FY27"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Crisil report on Bank RoA -> reduced profitability -> lower investor interest",
+          "quant": "-10-15bps"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "AI adoption -> increased demand for digital services -> higher revenue",
-          "quant": "margins +100bps in Q3"
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bearish",
+          "reason": "Crisil report on Bank RoA -> reduced profitability -> lower investor interest",
+          "quant": "-10-15bps"
         }
       ],
-      "watch": "Reliance Industries' Q1 earnings release"
+      "watch": "PSU bank Q1 results"
     },
     {
       "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Supriya Lifescience shares surge 17% on strong Q4 earnings",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Supriya Lifescience",
-          "ticker": "SUPRIYA.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q4 earnings -> increased investor confidence -> higher stock price",
-          "quant": "PAT +47% YoY"
-        }
-      ],
-      "watch": "Supriya Lifescience's Q1 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q4 results highlights: Cummins India, TVS Srichakra report profit rise",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Cummins India",
-          "ticker": "CUMMINSIND.NS",
-          "impact": "Bullish",
-          "reason": "Profit rise -> increased investor confidence -> higher stock price",
-          "quant": "revenue +8-10% in Q3"
-        },
-        {
-          "name": "TVS Srichakra",
-          "ticker": "TVSSRICHAK.NS",
-          "impact": "Bullish",
-          "reason": "Profit rise -> increased market share -> higher revenue",
-          "quant": "margins +50bps in Q3"
-        }
-      ],
-      "watch": "Cummins India's Q1 earnings release"
-    },
-    {
-      "sector": "gaming and hospitality",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Delta Corp shares tank 16%",
-      "theme": "tourism_hospitality",
+      "news_driver": "Natco Pharma shares crash 15% after weak Q4 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Delta Corp",
-          "ticker": "DELTACORP.NS",
+          "name": "Natco Pharma",
+          "ticker": "NATCOPHARM.NS",
           "impact": "Bearish",
-          "reason": "Sharp selloff -> decreased investor confidence -> lower stock price",
-          "quant": "-16% in a single day"
+          "reason": "Weak Q4 results -> reduced investor confidence -> lower stock price",
+          "quant": "-15%"
+        },
+        {
+          "name": "Dr. Reddy's Laboratories",
+          "ticker": "DRREDDY.NS",
+          "impact": "Neutral",
+          "reason": "Pharma sector weakness -> potential contagion effect -> cautious investor stance",
+          "quant": null
         }
       ],
-      "watch": "Delta Corp's Q1 earnings release"
+      "watch": "Q1 results of other pharma companies"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Financial institutions report over 10,000 cases of fraud involving \u20b948,000 crore in FY26",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "HDFC",
+          "ticker": "HDFC.NS",
+          "impact": "Bearish",
+          "reason": "RBI data on fraud cases -> increased regulatory scrutiny -> lower investor confidence",
+          "quant": "-2-3% revenue impact"
+        }
+      ],
+      "watch": "RBI's next policy meeting"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Stock Market Crash: Nifty Falls Over 200 Points In Five Minutes, Sensex Down 1,000 Points",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "ICICI Securities",
+          "ticker": "ICICISEC.NS",
+          "impact": "Bearish",
+          "reason": "Market crash -> reduced trading volumes -> lower brokerage revenue",
+          "quant": "-5-7% revenue impact"
+        }
+      ],
+      "watch": "Market volatility"
     }
   ],
   "themes": [
-    "internet_digital",
-    "tourism_hospitality"
+    "PSU_rotation"
   ]
 }
