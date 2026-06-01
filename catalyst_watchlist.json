@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T16:28:10.211600+05:30",
+  "generated_at": "2026-06-01T14:37:20.767195+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1932,6 +1932,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "AVADHA": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Avaada Group secures $950 million in financing",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
