@@ -1,89 +1,82 @@
 {
   "date": "2026-06-01",
-  "time": "21:02",
-  "mood": "Bearish",
+  "time": "21:23",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Iran conflict and oil price jump",
+      "news_driver": "Axis Bank hikes stake in Axis Max Life Insurance to 19.9%",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran conflict -> higher crude prices -> lower IOC margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "oil price jump -> higher input costs -> lower HPCL profitability",
-          "quant": "revenue -5%"
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bullish",
+          "reason": "Axis Bank's increased stake in Axis Max Life Insurance -> expected increase in insurance revenue -> 5-7% increase in non-interest income",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Brent crude price level of $95"
+      "watch": "Axis Bank's Q2 earnings release"
     },
     {
       "sector": "auto",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Maruti Suzuki May 2026 Business Update",
+      "news_driver": "Maruti, Tata lead PV industry to continue growth momentum in May 2026",
       "theme": "null",
       "stocks": [
         {
           "name": "Maruti Suzuki",
           "ticker": "MARUTI.NS",
-          "impact": "Bearish",
-          "reason": "higher fuel costs -> lower consumer demand -> lower Maruti sales",
-          "quant": "sales -8% Q2"
+          "impact": "Bullish",
+          "reason": "Maruti's continued growth momentum in PV sales -> increased market share -> 8-10% increase in Q2 revenue",
+          "quant": "8-10%"
         },
         {
           "name": "Tata Motors",
           "ticker": "TATAMOTORS.NS",
-          "impact": "Bearish",
-          "reason": "oil price jump -> higher input costs -> lower Tata Motors margins",
-          "quant": "margins -120bps"
-        }
-      ],
-      "watch": "Maruti Suzuki's June sales numbers"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Ola Electric launches QIP to raise funds",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Ola Electric",
-          "ticker": "OLAELEC.NS",
           "impact": "Bullish",
-          "reason": "QIP launch -> increased funding -> higher Ola Electric production",
-          "quant": "production +15% Q3"
+          "reason": "Tata's growth momentum in PV sales -> improved profitability -> 100-150bps increase in margins",
+          "quant": "100-150bps"
         }
       ],
-      "watch": "Ola Electric's QIP subscription numbers"
+      "watch": "June auto sales numbers"
     },
     {
-      "sector": "it",
-      "direction": "Neutral",
+      "sector": "fmcg",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "investdaytip added to PyPI",
+      "news_driver": "Dept of Agriculture cuts back on urea, DAP requirements amid expectations of lower monsoon",
       "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "investdaytip launch -> potential new client acquisitions -> stable Infosys revenue",
-          "quant": "revenue +2% Q2"
+          "name": "UPL",
+          "ticker": "UPL.NS",
+          "impact": "Bearish",
+          "reason": "Lower urea and DAP requirements -> reduced demand for fertilizers -> 5-7% decrease in Q2 revenue",
+          "quant": "-5-7%"
         }
       ],
-      "watch": "Infosys's June quarter earnings"
+      "watch": "Monsoon progress update"
+    },
+    {
+      "sector": "media",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Zee snags comprehensive FIFA broadcast, streaming rights just days before World Cup begins",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Zee Entertainment",
+          "ticker": "ZEEL.NS",
+          "impact": "Bullish",
+          "reason": "Zee's acquisition of FIFA broadcast rights -> increased ad revenue -> 10-12% increase in Q2 revenue",
+          "quant": "10-12%"
+        }
+      ],
+      "watch": "FIFA World Cup viewership numbers"
     }
   ],
   "themes": [
