@@ -1,72 +1,72 @@
 {
   "date": "2026-06-02",
-  "time": "17:52",
+  "time": "19:29",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "geopolitical tensions and crude oil price surge",
+      "news_driver": "India's Fuel Exports Fall To Near Four-Year Low As US-Iran War Disrupts Energy Trade",
       "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "crude oil price surge -> increased input costs -> margins -150bps",
-          "quant": "-150bps"
+          "reason": "US-Iran war -> disruption in global energy trade -> reduced fuel exports and potential margin squeeze for IOC",
+          "quant": "margins -100bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "geopolitical tensions -> supply chain disruptions -> revenue -5%",
-          "quant": "-5%"
+          "reason": "US-Iran war -> reduced fuel exports -> decreased revenue for HINDPETRO",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Brent crude price level of $95"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "strong rally in IT firms",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "strong rally in IT firms -> increased investor confidence -> stock price +3%",
-          "quant": "3%"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "IT sector rebound -> improved sentiment -> order book +Rs200Cr",
-          "quant": "Rs200Cr"
-        }
-      ],
-      "watch": "Nifty IT index level of 35,000"
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "energy",
-      "direction": "Bearish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "India's fuel exports plunge in May",
+      "news_driver": "null",
       "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "fuel exports plunge -> reduced revenue -> margins -50bps",
-          "quant": "-50bps"
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
+          "impact": "Neutral",
+          "reason": "No direct impact from US-Iran war on NTPC's operations -> stable energy demand -> neutral stock impact",
+          "quant": "null"
         }
       ],
-      "watch": "monthly fuel export data release"
+      "watch": "government's energy policy announcements"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Milk supply situation comfortable; no intention to hike retail prices: Mother Dairy chairman",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Mother Dairy",
+          "ticker": "null",
+          "impact": "Bullish",
+          "reason": "Comfortable milk supply situation -> no price hike -> increased demand and revenue for Mother Dairy",
+          "quant": "revenue +2-3%"
+        },
+        {
+          "name": "Nestle India",
+          "ticker": "NESTLEIND.NS",
+          "impact": "Bullish",
+          "reason": "Stable milk prices -> reduced input costs -> increased margins for NESTLEIND",
+          "quant": "margins +50bps"
+        }
+      ],
+      "watch": "milk price movement"
     }
   ],
   "themes": [
