@@ -1,85 +1,86 @@
 {
-  "date": "2026-06-01",
-  "time": "21:23",
+  "date": "2026-06-02",
+  "time": "13:40",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Axis Bank hikes stake in Axis Max Life Insurance to 19.9%",
-      "theme": "null",
+      "news_driver": "Nvidia hopes lifting tech stocks",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Axis Bank's increased stake in Axis Max Life Insurance -> expected increase in insurance revenue -> 5-7% increase in non-interest income",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "Axis Bank's Q2 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Maruti, Tata lead PV industry to continue growth momentum in May 2026",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bullish",
-          "reason": "Maruti's continued growth momentum in PV sales -> increased market share -> 8-10% increase in Q2 revenue",
+          "reason": "Nvidia's strong performance -> lifting tech sector sentiment -> Infosys' revenue growth +8-10% Q3",
           "quant": "8-10%"
         },
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Tata's growth momentum in PV sales -> improved profitability -> 100-150bps increase in margins",
-          "quant": "100-150bps"
+          "reason": "Global tech sector growth -> increased demand for Indian IT services -> TCS' order book +Rs400Cr",
+          "quant": "Rs400Cr"
         }
       ],
-      "watch": "June auto sales numbers"
+      "watch": "Nifty IT index breaking out above 30,000"
     },
     {
-      "sector": "fmcg",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Dept of Agriculture cuts back on urea, DAP requirements amid expectations of lower monsoon",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "UPL",
-          "ticker": "UPL.NS",
-          "impact": "Bearish",
-          "reason": "Lower urea and DAP requirements -> reduced demand for fertilizers -> 5-7% decrease in Q2 revenue",
-          "quant": "-5-7%"
-        }
-      ],
-      "watch": "Monsoon progress update"
-    },
-    {
-      "sector": "media",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Zee snags comprehensive FIFA broadcast, streaming rights just days before World Cup begins",
-      "theme": "null",
+      "news_driver": "16% growth in capital goods driving India's industrial production",
+      "theme": "capital_goods",
       "stocks": [
         {
-          "name": "Zee Entertainment",
-          "ticker": "ZEEL.NS",
+          "name": "L&T",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "Zee's acquisition of FIFA broadcast rights -> increased ad revenue -> 10-12% increase in Q2 revenue",
-          "quant": "10-12%"
+          "reason": "Capital goods growth -> increased infrastructure spending -> L&T's revenue growth +12% YoY",
+          "quant": "12%"
         }
       ],
-      "watch": "FIFA World Cup viewership numbers"
+      "watch": "L&T's order book growth"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran conflict and rising oil prices",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "IOC",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rising oil prices -> increased input costs -> IOC's margins -150bps",
+          "quant": "-150bps"
+        }
+      ],
+      "watch": "Brent crude oil price breaking $90"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Coca-Cola exploring IPO of India bottling unit",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Neutral",
+          "reason": "Coca-Cola's IPO plans -> increased competition -> Hindustan Unilever's market share stable at 30%",
+          "quant": "30%"
+        }
+      ],
+      "watch": "Coca-Cola's IPO valuation"
     }
   ],
   "themes": [
-    "null"
+    "internet_digital",
+    "capital_goods"
   ]
 }

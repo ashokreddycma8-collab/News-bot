@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T21:23:55.748373+05:30",
+  "generated_at": "2026-06-02T13:40:59.944138+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1945,6 +1945,14 @@
       "score": 8,
       "direction": "BUY",
       "catalyst": "Zee snags comprehensive FIFA broadcast, streaming rights",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "HCC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Coca-Cola explores IPO of India bottling unit",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
