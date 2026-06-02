@@ -1,86 +1,75 @@
 {
   "date": "2026-06-02",
-  "time": "13:40",
+  "time": "17:52",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "geopolitical tensions and crude oil price surge",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "crude oil price surge -> increased input costs -> margins -150bps",
+          "quant": "-150bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "geopolitical tensions -> supply chain disruptions -> revenue -5%",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Brent crude price level of $95"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Nvidia hopes lifting tech stocks",
-      "theme": "internet_digital",
+      "news_driver": "strong rally in IT firms",
+      "theme": "null",
       "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "strong rally in IT firms -> increased investor confidence -> stock price +3%",
+          "quant": "3%"
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Nvidia's strong performance -> lifting tech sector sentiment -> Infosys' revenue growth +8-10% Q3",
-          "quant": "8-10%"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Global tech sector growth -> increased demand for Indian IT services -> TCS' order book +Rs400Cr",
-          "quant": "Rs400Cr"
+          "reason": "IT sector rebound -> improved sentiment -> order book +Rs200Cr",
+          "quant": "Rs200Cr"
         }
       ],
-      "watch": "Nifty IT index breaking out above 30,000"
-    },
-    {
-      "sector": "capital_goods",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "16% growth in capital goods driving India's industrial production",
-      "theme": "capital_goods",
-      "stocks": [
-        {
-          "name": "L&T",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "Capital goods growth -> increased infrastructure spending -> L&T's revenue growth +12% YoY",
-          "quant": "12%"
-        }
-      ],
-      "watch": "L&T's order book growth"
+      "watch": "Nifty IT index level of 35,000"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran conflict and rising oil prices",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "IOC",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising oil prices -> increased input costs -> IOC's margins -150bps",
-          "quant": "-150bps"
-        }
-      ],
-      "watch": "Brent crude oil price breaking $90"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Coca-Cola exploring IPO of India bottling unit",
-      "theme": null,
+      "news_driver": "India's fuel exports plunge in May",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Neutral",
-          "reason": "Coca-Cola's IPO plans -> increased competition -> Hindustan Unilever's market share stable at 30%",
-          "quant": "30%"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "fuel exports plunge -> reduced revenue -> margins -50bps",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Coca-Cola's IPO valuation"
+      "watch": "monthly fuel export data release"
     }
   ],
   "themes": [
-    "internet_digital",
-    "capital_goods"
+    "null"
   ]
 }
