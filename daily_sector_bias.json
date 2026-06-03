@@ -1,51 +1,86 @@
 {
   "date": "2026-06-03",
-  "time": "14:14",
+  "time": "18:31",
   "mood": "Mixed",
   "sectors": [
     {
-      "sector": "media",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "JioStar's plan to shift to AI-generated shows",
+      "news_driver": "Sensex drops over 300 points dragged by IT firms, spike in oil prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Zee Entertainment Enterprises",
-          "ticker": "ZEEL.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "JioStar's AI-generated content shift -> increased competition for traditional media players -> advertising revenue -5-7% Q4",
-          "quant": "-5%"
+          "reason": "Spike in oil prices -> increased operational costs -> margins -100bps",
+          "quant": "-2.5%"
         },
         {
-          "name": "Sun TV Network",
-          "ticker": "SUNTV.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "JioStar's AI-generated content shift -> reduced viewership for traditional TV channels -> subscription revenue -3-5% Q3",
-          "quant": "-4%"
+          "reason": "IT sell-off -> reduced investor sentiment -> stock price -3.5%",
+          "quant": "-3.5%"
         }
       ],
-      "watch": "Q4 earnings report of Zee Entertainment Enterprises"
+      "watch": "Nifty IT index breaking below 30,000"
     },
     {
-      "sector": "telecom",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "JioStar's plan to shift to AI-generated shows",
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Sensex drops over 300 points dragged by IT firms, spike in oil prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "JioStar's AI-generated content shift -> increased data consumption -> data revenue +2-3% Q4",
-          "quant": "+2.5%"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rising crude prices -> increased input costs -> margins -150bps",
+          "quant": "-2.0%"
         }
       ],
-      "watch": "TRAI's upcoming report on data consumption trends"
+      "watch": "Brent crude price crossing $90"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Rate pause by RBI will support growth stability: SBI Chairman",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "RBI's rate pause -> reduced borrowing costs -> loan growth +8-10% Q3",
+          "quant": "+8-10%"
+        }
+      ],
+      "watch": "RBI's next monetary policy meeting"
+    },
+    {
+      "sector": "logistics",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Mapletree bets big on warehouses, logistics parks across Asia to boost growth",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Blue Dart Express",
+          "ticker": "BLUEDART.NS",
+          "impact": "Bullish",
+          "reason": "Increased investment in logistics -> higher demand for services -> revenue +5-7% Q3",
+          "quant": "+5-7%"
+        }
+      ],
+      "watch": "Warehouse capacity utilization crossing 90%"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }

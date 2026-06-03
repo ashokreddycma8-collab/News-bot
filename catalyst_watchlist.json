@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T13:40:59.944138+05:30",
+  "generated_at": "2026-06-03T18:31:22.366784+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1956,6 +1956,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "EFACTOREXP": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Reports FY26 Consolidated Revenue of INR 191.44 Crore, Up 11.6%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "IEX": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Reports 18.6% Growth In Electricity Traded Volume; DAM Volume Tops 4,400 Million Units",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
