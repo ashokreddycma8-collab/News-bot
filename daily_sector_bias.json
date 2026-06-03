@@ -1,86 +1,68 @@
 {
   "date": "2026-06-03",
-  "time": "18:31",
-  "mood": "Mixed",
+  "time": "19:55",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 2,
-      "news_driver": "Sensex drops over 300 points dragged by IT firms, spike in oil prices",
+      "news_driver": "RBI's rate-setting panel starts deliberations",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Spike in oil prices -> increased operational costs -> margins -100bps",
-          "quant": "-2.5%"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI's potential pause in rate hikes -> reduced borrowing costs -> neutral impact on HDFC Bank's NIM",
+          "quant": "NIM -20bps"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "IT sell-off -> reduced investor sentiment -> stock price -3.5%",
-          "quant": "-3.5%"
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI's potential pause in rate hikes -> reduced lending rates -> neutral impact on ICICI Bank's loan growth",
+          "quant": "loan growth +5-7% Q2"
         }
       ],
-      "watch": "Nifty IT index breaking below 30,000"
+      "watch": "RBI policy announcement on Friday"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex drops over 300 points dragged by IT firms, spike in oil prices",
+      "news_driver": "Tata Motors to use Chery-made platform for Avinya EVs",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Tata Motors' partnership with Chery -> reduced EV development costs -> increased competitiveness for Tata Motors",
+          "quant": "EV sales +15% Q3"
+        }
+      ],
+      "watch": "Tata Motors' Q2 earnings"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Cabinet approves \u20b910,000 crore ATF price stabilisation fund",
       "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude prices -> increased input costs -> margins -150bps",
-          "quant": "-2.0%"
-        }
-      ],
-      "watch": "Brent crude price crossing $90"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Rate pause by RBI will support growth stability: SBI Chairman",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "RBI's rate pause -> reduced borrowing costs -> loan growth +8-10% Q3",
-          "quant": "+8-10%"
+          "reason": "Government's ATF price stabilisation fund -> reduced jet fuel prices -> increased margins for Indian Oil Corporation",
+          "quant": "margins +100bps"
         }
       ],
-      "watch": "RBI's next monetary policy meeting"
-    },
-    {
-      "sector": "logistics",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Mapletree bets big on warehouses, logistics parks across Asia to boost growth",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Blue Dart Express",
-          "ticker": "BLUEDART.NS",
-          "impact": "Bullish",
-          "reason": "Increased investment in logistics -> higher demand for services -> revenue +5-7% Q3",
-          "quant": "+5-7%"
-        }
-      ],
-      "watch": "Warehouse capacity utilization crossing 90%"
+      "watch": "ATF price movement"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
