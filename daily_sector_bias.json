@@ -1,93 +1,51 @@
 {
   "date": "2026-06-03",
-  "time": "14:01",
-  "mood": "Bearish",
+  "time": "14:14",
+  "mood": "Mixed",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "media",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Nifty Bank tumbles 600 points",
-      "theme": "PSU_rotation",
+      "news_driver": "JioStar's plan to shift to AI-generated shows",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Zee Entertainment Enterprises",
+          "ticker": "ZEEL.NS",
           "impact": "Bearish",
-          "reason": "US-Iran tensions -> increased crude prices -> higher provisioning for bad loans",
-          "quant": "-100bps on margins"
+          "reason": "JioStar's AI-generated content shift -> increased competition for traditional media players -> advertising revenue -5-7% Q4",
+          "quant": "-5%"
         },
         {
-          "name": "IndusInd Bank",
-          "ticker": "INDUSINDBK.NS",
+          "name": "Sun TV Network",
+          "ticker": "SUNTV.NS",
           "impact": "Bearish",
-          "reason": "FII selling -> reduced investor appetite -> lower valuations",
-          "quant": "-8% on stock price"
+          "reason": "JioStar's AI-generated content shift -> reduced viewership for traditional TV channels -> subscription revenue -3-5% Q3",
+          "quant": "-4%"
         }
       ],
-      "watch": "Nifty Bank 38,000 level"
+      "watch": "Q4 earnings report of Zee Entertainment Enterprises"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "IT stocks buck trend as selling pressure continues",
+      "sector": "telecom",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "JioStar's plan to shift to AI-generated shows",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran tensions -> increased global uncertainty -> reduced IT spending",
-          "quant": "-5% on revenue"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "FII selling -> reduced investor appetite -> lower valuations",
-          "quant": "-6% on stock price"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "JioStar's AI-generated content shift -> increased data consumption -> data revenue +2-3% Q4",
+          "quant": "+2.5%"
         }
       ],
-      "watch": "TCS 3,200 level"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran conflict escalating, Brent crude prices rising",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> reduced refining margins",
-          "quant": "-150bps on margins"
-        }
-      ],
-      "watch": "Brent crude 100 level"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Rupee@100? India\u2019s Economists Weigh In",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher import costs -> reduced consumer spending",
-          "quant": "-2% on loan growth"
-        }
-      ],
-      "watch": "Rupee 100 level"
+      "watch": "TRAI's upcoming report on data consumption trends"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
