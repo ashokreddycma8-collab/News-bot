@@ -1,75 +1,93 @@
 {
-  "date": "2026-06-02",
-  "time": "19:29",
-  "mood": "Cautious",
+  "date": "2026-06-03",
+  "time": "14:01",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "India's Fuel Exports Fall To Near Four-Year Low As US-Iran War Disrupts Energy Trade",
+      "news_driver": "Nifty Bank tumbles 600 points",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran tensions -> increased crude prices -> higher provisioning for bad loans",
+          "quant": "-100bps on margins"
+        },
+        {
+          "name": "IndusInd Bank",
+          "ticker": "INDUSINDBK.NS",
+          "impact": "Bearish",
+          "reason": "FII selling -> reduced investor appetite -> lower valuations",
+          "quant": "-8% on stock price"
+        }
+      ],
+      "watch": "Nifty Bank 38,000 level"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "IT stocks buck trend as selling pressure continues",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran tensions -> increased global uncertainty -> reduced IT spending",
+          "quant": "-5% on revenue"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "FII selling -> reduced investor appetite -> lower valuations",
+          "quant": "-6% on stock price"
+        }
+      ],
+      "watch": "TCS 3,200 level"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran conflict escalating, Brent crude prices rising",
       "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "US-Iran war -> disruption in global energy trade -> reduced fuel exports and potential margin squeeze for IOC",
-          "quant": "margins -100bps"
-        },
+          "reason": "US-Iran conflict -> higher crude prices -> reduced refining margins",
+          "quant": "-150bps on margins"
+        }
+      ],
+      "watch": "Brent crude 100 level"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Rupee@100? India\u2019s Economists Weigh In",
+      "theme": "null",
+      "stocks": [
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "US-Iran war -> reduced fuel exports -> decreased revenue for HINDPETRO",
-          "quant": "revenue -5%"
+          "reason": "Rupee depreciation -> higher import costs -> reduced consumer spending",
+          "quant": "-2% on loan growth"
         }
       ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "null",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
-          "impact": "Neutral",
-          "reason": "No direct impact from US-Iran war on NTPC's operations -> stable energy demand -> neutral stock impact",
-          "quant": "null"
-        }
-      ],
-      "watch": "government's energy policy announcements"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Milk supply situation comfortable; no intention to hike retail prices: Mother Dairy chairman",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Mother Dairy",
-          "ticker": "null",
-          "impact": "Bullish",
-          "reason": "Comfortable milk supply situation -> no price hike -> increased demand and revenue for Mother Dairy",
-          "quant": "revenue +2-3%"
-        },
-        {
-          "name": "Nestle India",
-          "ticker": "NESTLEIND.NS",
-          "impact": "Bullish",
-          "reason": "Stable milk prices -> reduced input costs -> increased margins for NESTLEIND",
-          "quant": "margins +50bps"
-        }
-      ],
-      "watch": "milk price movement"
+      "watch": "Rupee 100 level"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }
