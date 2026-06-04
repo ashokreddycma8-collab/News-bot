@@ -1,86 +1,68 @@
 {
   "date": "2026-06-04",
-  "time": "16:54",
+  "time": "18:12",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Central Bank of India expects over \u20b93,500 cr recovery from bad loans in FY27",
-      "theme": "PSU_rotation",
+      "news_driver": "Withholding tax removal could unlock $25 billion in bond inflows",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Central Bank of India",
-          "ticker": "CENTRALBK.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "Bad loan recovery expectation -> improved asset quality -> higher profitability",
-          "quant": "NPAs -200bps"
+          "reason": "Withholding tax removal -> increased foreign investment in bonds -> higher revenue for banks",
+          "quant": "NIM +20bps"
         },
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "RBI MPC meeting -> potential rate hike -> higher NIMs",
-          "quant": "NIMs +20bps"
+          "reason": "Withholding tax removal -> increased foreign investment in bonds -> higher revenue for banks",
+          "quant": "NIM +15bps"
         }
       ],
-      "watch": "RBI MPC meeting outcome"
+      "watch": "US Fed meeting outcome"
     },
     {
-      "sector": "it",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Sensex, Nifty trim losses as banking stocks offset IT rout",
-      "theme": null,
+      "news_driver": "Rupee falls 7 paise to close at 95.83 against U.S. dollar",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Global uncertainty -> reduced IT spending -> lower revenue growth",
-          "quant": "revenue growth -5%"
-        }
-      ],
-      "watch": "Q1 earnings season"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Rupee dented by oil price jump",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Neutral",
-          "reason": "Oil price jump -> higher refining margins -> offset by weaker rupee",
-          "quant": "refining margins +5%, rupee -1.5%"
+          "reason": "Rupee depreciation -> higher import costs -> lower margins for OMCs",
+          "quant": "margins -100bps"
         }
       ],
       "watch": "Brent crude price movement"
     },
     {
-      "sector": "auto",
+      "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Maruti Suzuki Flex Fuel Car Launched",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "BSE Launches 5-Year Sovereign Bond Index",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "NSE",
+          "ticker": "NSE.NS",
           "impact": "Bullish",
-          "reason": "New product launch -> increased sales volume -> higher revenue growth",
-          "quant": "sales volume +8%"
+          "reason": "New bond index launch -> increased trading activity -> higher revenue for exchanges",
+          "quant": "revenue +5%"
         }
       ],
-      "watch": "monthly auto sales data"
+      "watch": "index performance"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
