@@ -1,86 +1,58 @@
 {
   "date": "2026-06-04",
-  "time": "13:33",
-  "mood": "Mixed",
+  "time": "13:39",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "jewellery",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Selloff in global markets and IT sector being top laggard",
-      "theme": null,
+      "news_driver": "Silver import curbs",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
+          "name": "Titan Company",
+          "ticker": "TITAN.NS",
           "impact": "Bearish",
-          "reason": "Global market selloff -> reduced IT spending -> lower revenue for TCS",
-          "quant": "-5% revenue growth Q3"
+          "reason": "Silver import curbs -> increased costs and supply chain disruptions -> margins -100bps",
+          "quant": "-100bps"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Kalyan Jewellers",
+          "ticker": "KALYANJEW.NS",
           "impact": "Bearish",
-          "reason": "US-Israeli war on Iran -> increased oil prices -> higher operational costs for Infosys",
-          "quant": "margins -100bps"
+          "reason": "Silver import curbs -> reduced sales and profitability -> revenue -5-7% Q2",
+          "quant": "-5-7%"
         }
       ],
-      "watch": "Nifty IT index breaking 200-day moving average"
+      "watch": "Titan Company's Q2 earnings release"
     },
     {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Hero MotoCorp unveiling India's first 100cc flex-fuel motorcycles",
-      "theme": null,
+      "sector": "metal",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Silver import curbs",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Hero MotoCorp",
-          "ticker": "HEROMOTOCO.NS",
-          "impact": "Bullish",
-          "reason": "Launch of flex-fuel motorcycles -> increased demand -> higher sales for Hero MotoCorp",
-          "quant": "+8% sales growth Q3"
-        }
-      ],
-      "watch": "Hero MotoCorp stock price breaking Rs 2,500"
-    },
-    {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "ICICI Bank shares falling 10% in 6 months",
-      "theme": null,
-      "stocks": [
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
+          "impact": "Bearish",
+          "reason": "Silver import curbs -> reduced silver production and sales -> revenue -3-5% Q2",
+          "quant": "-3-5%"
+        },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Motilal Oswal's Buy rating -> increased investor confidence -> higher stock price for ICICI Bank",
-          "quant": "+15% upside potential"
+          "name": "Hindustan Zinc",
+          "ticker": "HINDZINC.NS",
+          "impact": "Bearish",
+          "reason": "Silver import curbs -> decreased zinc and silver production -> margins -50bps",
+          "quant": "-50bps"
         }
       ],
-      "watch": "ICICI Bank stock price touching 200-day moving average"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Jefferies initiating coverage on Poonawalla Fincorp with Buy rating",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Poonawalla Fincorp",
-          "ticker": "POONAWALLA.NS",
-          "impact": "Bullish",
-          "reason": "Jefferies' Buy rating -> increased investor confidence -> higher stock price for Poonawalla Fincorp",
-          "quant": "+20% upside potential"
-        }
-      ],
-      "watch": "Poonawalla Fincorp stock price breaking Rs 300"
+      "watch": "Hindustan Zinc's Q2 production numbers"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
