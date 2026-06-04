@@ -1,68 +1,86 @@
 {
-  "date": "2026-06-03",
-  "time": "19:55",
-  "mood": "Cautious",
+  "date": "2026-06-04",
+  "time": "13:33",
+  "mood": "Mixed",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Neutral",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "RBI's rate-setting panel starts deliberations",
-      "theme": "null",
+      "news_driver": "Selloff in global markets and IT sector being top laggard",
+      "theme": null,
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI's potential pause in rate hikes -> reduced borrowing costs -> neutral impact on HDFC Bank's NIM",
-          "quant": "NIM -20bps"
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Global market selloff -> reduced IT spending -> lower revenue for TCS",
+          "quant": "-5% revenue growth Q3"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI's potential pause in rate hikes -> reduced lending rates -> neutral impact on ICICI Bank's loan growth",
-          "quant": "loan growth +5-7% Q2"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "US-Israeli war on Iran -> increased oil prices -> higher operational costs for Infosys",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "RBI policy announcement on Friday"
+      "watch": "Nifty IT index breaking 200-day moving average"
     },
     {
       "sector": "auto",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tata Motors to use Chery-made platform for Avinya EVs",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Hero MotoCorp unveiling India's first 100cc flex-fuel motorcycles",
+      "theme": null,
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Hero MotoCorp",
+          "ticker": "HEROMOTOCO.NS",
           "impact": "Bullish",
-          "reason": "Tata Motors' partnership with Chery -> reduced EV development costs -> increased competitiveness for Tata Motors",
-          "quant": "EV sales +15% Q3"
+          "reason": "Launch of flex-fuel motorcycles -> increased demand -> higher sales for Hero MotoCorp",
+          "quant": "+8% sales growth Q3"
         }
       ],
-      "watch": "Tata Motors' Q2 earnings"
+      "watch": "Hero MotoCorp stock price breaking Rs 2,500"
     },
     {
-      "sector": "oil_gas",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Cabinet approves \u20b910,000 crore ATF price stabilisation fund",
-      "theme": "null",
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "ICICI Bank shares falling 10% in 6 months",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "Government's ATF price stabilisation fund -> reduced jet fuel prices -> increased margins for Indian Oil Corporation",
-          "quant": "margins +100bps"
+          "reason": "Motilal Oswal's Buy rating -> increased investor confidence -> higher stock price for ICICI Bank",
+          "quant": "+15% upside potential"
         }
       ],
-      "watch": "ATF price movement"
+      "watch": "ICICI Bank stock price touching 200-day moving average"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Jefferies initiating coverage on Poonawalla Fincorp with Buy rating",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Poonawalla Fincorp",
+          "ticker": "POONAWALLA.NS",
+          "impact": "Bullish",
+          "reason": "Jefferies' Buy rating -> increased investor confidence -> higher stock price for Poonawalla Fincorp",
+          "quant": "+20% upside potential"
+        }
+      ],
+      "watch": "Poonawalla Fincorp stock price breaking Rs 300"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }

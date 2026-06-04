@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T18:31:22.366784+05:30",
+  "generated_at": "2026-06-04T13:33:54.055983+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1782,12 +1782,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "HEROMOTOCO": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Launch of Super Splendor XTEC 2.0",
+      "catalyst": "unveils India's first 100cc flex-fuel motorcycles",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "MPHASIS": {
       "score": 8,
@@ -1971,6 +1971,14 @@
       "catalyst": "Reports 18.6% Growth In Electricity Traded Volume; DAM Volume Tops 4,400 Million Units",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "POONAWAL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Jefferies initiates coverage with Buy rating",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
