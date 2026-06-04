@@ -1,58 +1,86 @@
 {
   "date": "2026-06-04",
-  "time": "13:39",
+  "time": "16:54",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "jewellery",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Silver import curbs",
-      "theme": "null",
+      "news_driver": "Central Bank of India expects over \u20b93,500 cr recovery from bad loans in FY27",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Titan Company",
-          "ticker": "TITAN.NS",
-          "impact": "Bearish",
-          "reason": "Silver import curbs -> increased costs and supply chain disruptions -> margins -100bps",
-          "quant": "-100bps"
+          "name": "Central Bank of India",
+          "ticker": "CENTRALBK.NS",
+          "impact": "Bullish",
+          "reason": "Bad loan recovery expectation -> improved asset quality -> higher profitability",
+          "quant": "NPAs -200bps"
         },
         {
-          "name": "Kalyan Jewellers",
-          "ticker": "KALYANJEW.NS",
-          "impact": "Bearish",
-          "reason": "Silver import curbs -> reduced sales and profitability -> revenue -5-7% Q2",
-          "quant": "-5-7%"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "RBI MPC meeting -> potential rate hike -> higher NIMs",
+          "quant": "NIMs +20bps"
         }
       ],
-      "watch": "Titan Company's Q2 earnings release"
+      "watch": "RBI MPC meeting outcome"
     },
     {
-      "sector": "metal",
+      "sector": "it",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Silver import curbs",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Sensex, Nifty trim losses as banking stocks offset IT rout",
+      "theme": null,
       "stocks": [
         {
-          "name": "Vedanta",
-          "ticker": "VEDL.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Silver import curbs -> reduced silver production and sales -> revenue -3-5% Q2",
-          "quant": "-3-5%"
-        },
-        {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
-          "impact": "Bearish",
-          "reason": "Silver import curbs -> decreased zinc and silver production -> margins -50bps",
-          "quant": "-50bps"
+          "reason": "Global uncertainty -> reduced IT spending -> lower revenue growth",
+          "quant": "revenue growth -5%"
         }
       ],
-      "watch": "Hindustan Zinc's Q2 production numbers"
+      "watch": "Q1 earnings season"
+    },
+    {
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Rupee dented by oil price jump",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Neutral",
+          "reason": "Oil price jump -> higher refining margins -> offset by weaker rupee",
+          "quant": "refining margins +5%, rupee -1.5%"
+        }
+      ],
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Maruti Suzuki Flex Fuel Car Launched",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "New product launch -> increased sales volume -> higher revenue growth",
+          "quant": "sales volume +8%"
+        }
+      ],
+      "watch": "monthly auto sales data"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T13:33:54.055983+05:30",
+  "generated_at": "2026-06-04T16:54:20.399192+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -670,12 +670,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "MARUTI": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Maruti Suzuki sees highest ever monthly sales",
+      "catalyst": "Maruti Suzuki launches flex fuel car",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "ZOMATO": {
       "score": 8,
@@ -688,7 +688,7 @@
     "RELIANCE": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Reliance share price target hiked to Rs 1,910 by Goldman, CLSA, and Morgan Stanley",
+      "catalyst": "Bernstein says Adani and Reliance are best placed for India's data centre growth",
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
