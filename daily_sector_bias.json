@@ -1,93 +1,85 @@
 {
   "date": "2026-06-05",
-  "time": "13:19",
-  "mood": "Bearish",
+  "time": "16:48",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "West Asia crisis and energy shock",
+      "news_driver": "RBI Monetary Policy Highlights: 2-6% Inflation Target Band Sacrosanct For RBI, Says Guv Malhotra",
       "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "West Asia crisis -> increase in crude oil prices -> decrease in refining margins",
+          "reason": "RBI's signal of impending rate hikes -> increased borrowing costs -> reduced margins for HDFC Bank",
           "quant": "-100bps"
         },
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bearish",
-          "reason": "Energy shock -> decrease in demand for petroleum products -> decrease in sales revenue",
+          "reason": "RBI's inflation forecast revision -> increased provisioning requirements -> reduced profitability for ICICI Bank",
+          "quant": "-8%"
+        }
+      ],
+      "watch": "RBI's next monetary policy meeting"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "RBI governor says no plans to ease net open position restrictions",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Bajaj Finance",
+          "ticker": "BAJFINANCE.NS",
+          "impact": "Bearish",
+          "reason": "RBI's decision to maintain net open position restrictions -> reduced trading volumes -> decreased revenue for Bajaj Finance",
           "quant": "-5%"
         }
       ],
-      "watch": "Brent crude oil price level of $90"
+      "watch": "RBI's stance on net open position restrictions"
     },
     {
       "sector": "it",
-      "direction": "Neutral",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Global tech snaps AI rally",
-      "theme": "null",
+      "news_driver": "'AI Has Arrived In India': Vijay Shekhar Sharma Reacts To AirTrunk's $30 Billion Investment Plan",
+      "theme": "internet_digital",
       "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Neutral",
-          "reason": "Global tech rally -> decrease in investor interest -> neutral impact on stock price",
-          "quant": "null"
-        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "AI rally -> increase in demand for IT services -> neutral impact on stock price",
-          "quant": "null"
+          "impact": "Bullish",
+          "reason": "AirTrunk's $30 billion investment plan -> increased demand for digital services -> revenue growth for Infosys",
+          "quant": "+4%"
         }
       ],
-      "watch": "Q3 earnings release of TCS and Infosys"
+      "watch": "AirTrunk's investment plan details"
     },
     {
-      "sector": "banking",
+      "sector": "energy",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "RBI Monetary Policy",
+      "news_driver": "Coal India to offer 35 MTs to non-regulated sector in upcoming linkage auction window",
       "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Coal India",
+          "ticker": "COALINDIA.NS",
           "impact": "Neutral",
-          "reason": "RBI policy -> no change in interest rates -> neutral impact on banking sector",
+          "reason": "Coal India's linkage auction window -> increased coal supply -> stable prices for Coal India",
           "quant": "null"
         }
       ],
-      "watch": "RBI Governor's statement on inflation target band"
-    },
-    {
-      "sector": "oil_gas",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Venezuela's Delcy Rodriguez seeking Indian companies' participation in reformed oil and gas sector",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bullish",
-          "reason": "Venezuela's invitation -> increase in business opportunities -> increase in revenue",
-          "quant": "+8-10%"
-        }
-      ],
-      "watch": "Venezuela's oil and gas sector reforms"
+      "watch": "linkage auction window outcome"
     }
   ],
   "themes": [
-    "energy_shock",
-    "global_tech"
+    "internet_digital"
   ]
 }
