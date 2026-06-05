@@ -1,68 +1,93 @@
 {
-  "date": "2026-06-04",
-  "time": "18:12",
-  "mood": "Cautious",
+  "date": "2026-06-05",
+  "time": "13:19",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Withholding tax removal could unlock $25 billion in bond inflows",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Withholding tax removal -> increased foreign investment in bonds -> higher revenue for banks",
-          "quant": "NIM +20bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Withholding tax removal -> increased foreign investment in bonds -> higher revenue for banks",
-          "quant": "NIM +15bps"
-        }
-      ],
-      "watch": "US Fed meeting outcome"
-    },
-    {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Rupee falls 7 paise to close at 95.83 against U.S. dollar",
+      "conviction": 2,
+      "news_driver": "West Asia crisis and energy shock",
       "theme": "null",
       "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "West Asia crisis -> increase in crude oil prices -> decrease in refining margins",
+          "quant": "-100bps"
+        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher import costs -> lower margins for OMCs",
-          "quant": "margins -100bps"
+          "reason": "Energy shock -> decrease in demand for petroleum products -> decrease in sales revenue",
+          "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude oil price level of $90"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "BSE Launches 5-Year Sovereign Bond Index",
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Global tech snaps AI rally",
       "theme": "null",
       "stocks": [
         {
-          "name": "NSE",
-          "ticker": "NSE.NS",
-          "impact": "Bullish",
-          "reason": "New bond index launch -> increased trading activity -> higher revenue for exchanges",
-          "quant": "revenue +5%"
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Neutral",
+          "reason": "Global tech rally -> decrease in investor interest -> neutral impact on stock price",
+          "quant": "null"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Neutral",
+          "reason": "AI rally -> increase in demand for IT services -> neutral impact on stock price",
+          "quant": "null"
         }
       ],
-      "watch": "index performance"
+      "watch": "Q3 earnings release of TCS and Infosys"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "RBI Monetary Policy",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy -> no change in interest rates -> neutral impact on banking sector",
+          "quant": "null"
+        }
+      ],
+      "watch": "RBI Governor's statement on inflation target band"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Venezuela's Delcy Rodriguez seeking Indian companies' participation in reformed oil and gas sector",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bullish",
+          "reason": "Venezuela's invitation -> increase in business opportunities -> increase in revenue",
+          "quant": "+8-10%"
+        }
+      ],
+      "watch": "Venezuela's oil and gas sector reforms"
     }
   ],
   "themes": [
-    "null"
+    "energy_shock",
+    "global_tech"
   ]
 }
