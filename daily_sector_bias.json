@@ -1,85 +1,86 @@
 {
   "date": "2026-06-05",
-  "time": "16:48",
+  "time": "18:04",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "RBI Monetary Policy Highlights: 2-6% Inflation Target Band Sacrosanct For RBI, Says Guv Malhotra",
+      "news_driver": "RBI lowers growth forecast",
       "theme": "null",
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "RBI's signal of impending rate hikes -> increased borrowing costs -> reduced margins for HDFC Bank",
+          "reason": "RBI's growth forecast cut -> reduced credit demand -> lower net interest income",
           "quant": "-100bps"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Bearish",
-          "reason": "RBI's inflation forecast revision -> increased provisioning requirements -> reduced profitability for ICICI Bank",
+          "reason": "RBI's growth forecast cut -> lower loan growth -> reduced fee income",
           "quant": "-8%"
         }
       ],
       "watch": "RBI's next monetary policy meeting"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "RBI governor says no plans to ease net open position restrictions",
+      "sector": "telecom",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Tata Communications fire incident",
       "theme": "null",
       "stocks": [
         {
-          "name": "Bajaj Finance",
-          "ticker": "BAJFINANCE.NS",
-          "impact": "Bearish",
-          "reason": "RBI's decision to maintain net open position restrictions -> reduced trading volumes -> decreased revenue for Bajaj Finance",
-          "quant": "-5%"
+          "name": "Tata Communications",
+          "ticker": "TATACOMM.NS",
+          "impact": "Neutral",
+          "reason": "Fire incident at New Delhi premises -> temporary disruption -> minimal revenue impact",
+          "quant": "null"
         }
       ],
-      "watch": "RBI's stance on net open position restrictions"
+      "watch": "Tata Communications' Q4 earnings report"
     },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "'AI Has Arrived In India': Vijay Shekhar Sharma Reacts To AirTrunk's $30 Billion Investment Plan",
-      "theme": "internet_digital",
+      "news_driver": "CMR Green Technologies IPO subscription",
+      "theme": "null",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "AirTrunk's $30 billion investment plan -> increased demand for digital services -> revenue growth for Infosys",
-          "quant": "+4%"
+          "reason": "Strong IPO subscription -> increased investor appetite -> potential IT sector outperformance",
+          "quant": "+2%"
         }
       ],
-      "watch": "AirTrunk's investment plan details"
+      "watch": "CMR Green Technologies IPO listing"
     },
     {
       "sector": "energy",
-      "direction": "Neutral",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Coal India to offer 35 MTs to non-regulated sector in upcoming linkage auction window",
+      "news_driver": "GDP growth expands to 7.8%",
       "theme": "null",
       "stocks": [
         {
-          "name": "Coal India",
-          "ticker": "COALINDIA.NS",
-          "impact": "Neutral",
-          "reason": "Coal India's linkage auction window -> increased coal supply -> stable prices for Coal India",
-          "quant": "null"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "GDP growth expansion -> increased energy demand -> higher refining margins",
+          "quant": "+150bps"
         }
       ],
-      "watch": "linkage auction window outcome"
+      "watch": "Crude oil price movement"
     }
   ],
   "themes": [
-    "internet_digital"
+    "GDP growth",
+    "RBI policy"
   ]
 }
