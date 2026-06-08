@@ -1,86 +1,85 @@
 {
   "date": "2026-06-08",
-  "time": "13:55",
-  "mood": "Bullish",
+  "time": "18:18",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "RBI keeps repo rate unchanged at 5.25%",
+      "news_driver": "US-Iran conflict",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> increased crude prices -> reduced IOC margins",
+          "quant": "-120bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Surging oil prices -> higher input costs -> lower HPCL profitability",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "Brent crude price level of $95"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Duplicate SIMs issue in UPI",
       "theme": "null",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "RBI's unchanged repo rate -> reduced borrowing costs -> increased margins",
-          "quant": "margins +50bps"
-        },
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "RBI's new measures -> increased foreign investments -> improved liquidity",
-          "quant": "revenue +5-7% Q3"
+          "impact": "Neutral",
+          "reason": "Duplicate SIMs issue -> potential UPI transaction disruption -> limited SBI impact",
+          "quant": "null"
         }
       ],
-      "watch": "SBIN.NS price level of 650"
+      "watch": "RBI's response to UPI security concerns"
     },
     {
-      "sector": "energy",
+      "sector": "infra",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Adani Energy hits 52-week high",
+      "news_driver": "Zojila Tunnel breakthrough",
       "theme": "null",
       "stocks": [
         {
-          "name": "Adani Energy",
-          "ticker": "ADANIENT.NS",
+          "name": "IRB Infrastructure",
+          "ticker": "IRB.NS",
           "impact": "Bullish",
-          "reason": "Adani Energy's 52-week high -> increased investor confidence -> higher valuations",
-          "quant": "order book +Rs200Cr"
+          "reason": "Zojila Tunnel breakthrough -> increased infrastructure development -> higher IRB order book",
+          "quant": "+Rs500Cr"
         }
       ],
-      "watch": "ADANIENT.NS price level of 3500"
+      "watch": "NHAI's upcoming project awards"
     },
     {
-      "sector": "hospitality",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Hospitality demand to rebound as West Asia crisis fades",
-      "theme": "tourism_hospitality",
+      "news_driver": "Bhavya Portal launch for Rs 33,660 Industrial Park Scheme",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Hotels",
-          "ticker": "INDHOTEL.NS",
+          "name": "Larsen & Toubro",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "Rebound in hospitality demand -> increased occupancy rates -> higher revenue",
-          "quant": "revenue +10-12% FY26-28"
+          "reason": "Bhavya Portal launch -> increased industrial park development -> higher L&T revenue",
+          "quant": "+8-10% Q3"
         }
       ],
-      "watch": "INDHOTEL.NS price level of 350"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "A little-known Indian stock\u2019s 530% rally shows hidden AI winners",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bullish",
-          "reason": "AI dominance -> increased demand for IT services -> higher valuations",
-          "quant": "EBITDA +15-18% FY26-28"
-        }
-      ],
-      "watch": "WIPRO.NS price level of 600"
+      "watch": "Government's industrial park scheme implementation timeline"
     }
   ],
   "themes": [
-    "tourism_hospitality",
-    "internet_digital"
+    "null"
   ]
 }
