@@ -1,86 +1,86 @@
 {
-  "date": "2026-06-05",
-  "time": "18:04",
-  "mood": "Cautious",
+  "date": "2026-06-08",
+  "time": "13:55",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "RBI lowers growth forecast",
+      "news_driver": "RBI keeps repo rate unchanged at 5.25%",
       "theme": "null",
       "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "RBI's unchanged repo rate -> reduced borrowing costs -> increased margins",
+          "quant": "margins +50bps"
+        },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "RBI's growth forecast cut -> reduced credit demand -> lower net interest income",
-          "quant": "-100bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "RBI's growth forecast cut -> lower loan growth -> reduced fee income",
-          "quant": "-8%"
-        }
-      ],
-      "watch": "RBI's next monetary policy meeting"
-    },
-    {
-      "sector": "telecom",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Tata Communications fire incident",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Communications",
-          "ticker": "TATACOMM.NS",
-          "impact": "Neutral",
-          "reason": "Fire incident at New Delhi premises -> temporary disruption -> minimal revenue impact",
-          "quant": "null"
-        }
-      ],
-      "watch": "Tata Communications' Q4 earnings report"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "CMR Green Technologies IPO subscription",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Strong IPO subscription -> increased investor appetite -> potential IT sector outperformance",
-          "quant": "+2%"
+          "reason": "RBI's new measures -> increased foreign investments -> improved liquidity",
+          "quant": "revenue +5-7% Q3"
         }
       ],
-      "watch": "CMR Green Technologies IPO listing"
+      "watch": "SBIN.NS price level of 650"
     },
     {
       "sector": "energy",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "GDP growth expands to 7.8%",
+      "conviction": 2,
+      "news_driver": "Adani Energy hits 52-week high",
       "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Adani Energy",
+          "ticker": "ADANIENT.NS",
           "impact": "Bullish",
-          "reason": "GDP growth expansion -> increased energy demand -> higher refining margins",
-          "quant": "+150bps"
+          "reason": "Adani Energy's 52-week high -> increased investor confidence -> higher valuations",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "Crude oil price movement"
+      "watch": "ADANIENT.NS price level of 3500"
+    },
+    {
+      "sector": "hospitality",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Hospitality demand to rebound as West Asia crisis fades",
+      "theme": "tourism_hospitality",
+      "stocks": [
+        {
+          "name": "Indian Hotels",
+          "ticker": "INDHOTEL.NS",
+          "impact": "Bullish",
+          "reason": "Rebound in hospitality demand -> increased occupancy rates -> higher revenue",
+          "quant": "revenue +10-12% FY26-28"
+        }
+      ],
+      "watch": "INDHOTEL.NS price level of 350"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "A little-known Indian stock\u2019s 530% rally shows hidden AI winners",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Bullish",
+          "reason": "AI dominance -> increased demand for IT services -> higher valuations",
+          "quant": "EBITDA +15-18% FY26-28"
+        }
+      ],
+      "watch": "WIPRO.NS price level of 600"
     }
   ],
   "themes": [
-    "GDP growth",
-    "RBI policy"
+    "tourism_hospitality",
+    "internet_digital"
   ]
 }
