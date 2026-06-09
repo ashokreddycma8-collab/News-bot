@@ -1,51 +1,86 @@
 {
   "date": "2026-06-09",
-  "time": "13:04",
-  "mood": "Bearish",
+  "time": "16:17",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "metal",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Weak sectoral performance",
-      "theme": "null",
+      "news_driver": "Asia tech selloff",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Weak metal sector performance -> lower demand and pricing power -> revenue -5-7% Q2",
-          "quant": "-5"
+          "reason": "Asia tech selloff -> decreased investor appetite for tech stocks -> revenue growth slowdown",
+          "quant": "-5% Q2 revenue growth"
         },
         {
-          "name": "Hindalco Industries",
-          "ticker": "HINDALCO.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Weak metal sector performance -> higher input costs and lower margins -> margins -100bps",
-          "quant": "-100"
+          "reason": "Asia tech selloff -> decreased client spending -> margins compression",
+          "quant": "-100bps margins"
         }
       ],
-      "watch": "Tata Steel's Q2 earnings release"
+      "watch": "Nifty IT Index"
     },
     {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Weak sectoral performance",
-      "theme": "null",
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "FPI inflows into FAR securities",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bearish",
-          "reason": "Weak auto sector performance -> lower sales volume and revenue -> revenue -8% Q2",
-          "quant": "-8"
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "FPI inflows into FAR securities -> increased liquidity -> loan growth acceleration",
+          "quant": "+8% loan growth"
         }
       ],
-      "watch": "Maruti Suzuki's Q2 sales data"
+      "watch": "FPI inflows"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Adani Energy buys IntelliSmart",
+      "theme": "renewable",
+      "stocks": [
+        {
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "Adani Energy buys IntelliSmart -> increased market share -> revenue growth",
+          "quant": "+12% revenue growth"
+        }
+      ],
+      "watch": "Renewable energy sector growth"
+    },
+    {
+      "sector": "metal",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "SAIL, NMDC explore Russian coking coal assets",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "SAIL",
+          "ticker": "SAIL.NS",
+          "impact": "Neutral",
+          "reason": "SAIL, NMDC explore Russian coking coal assets -> potential cost savings -> stable margins",
+          "quant": "0% margin change"
+        }
+      ],
+      "watch": "Coking coal prices"
     }
   ],
   "themes": [
-    "null"
+    "internet_digital",
+    "renewable"
   ]
 }
