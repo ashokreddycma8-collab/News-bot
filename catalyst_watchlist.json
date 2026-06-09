@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T16:17:17.223992+05:30",
+  "generated_at": "2026-06-09T18:04:18.208343+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1985,6 +1985,14 @@
       "score": 8,
       "direction": "SELL",
       "catalyst": "Govt announces stake sale via OFS",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "IDBI": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "IDBI Bank disinvestment on track",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
