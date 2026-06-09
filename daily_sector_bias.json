@@ -1,51 +1,79 @@
 {
-  "date": "2026-06-08",
-  "time": "19:34",
-  "mood": "Cautious",
+  "date": "2026-06-09",
+  "time": "12:30",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "it",
       "direction": "Neutral",
+      "conviction": 2,
+      "news_driver": "TCS Could Have As Many AI Agents As Staff In 3 Years",
+      "theme": "AI_multibaggers",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "TCS' plan to deploy AI agents -> increased operational efficiency -> revenue growth of 8-10% in the next quarter",
+          "quant": "8-10%"
+        }
+      ],
+      "watch": "TCS' Q2 earnings release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "RBI policy outcome",
-      "theme": "null",
+      "news_driver": "RBI announces major rule change for NRI and OCI investors",
+      "theme": null,
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI policy outcome -> no change in interest rates -> no significant impact on HDFC Bank's margins",
-          "quant": "null"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "RBI policy outcome -> no change in interest rates -> no significant impact on ICICI Bank's lending growth",
-          "quant": "null"
+          "impact": "Bearish",
+          "reason": "RBI's rule change for NRI investors -> reduced foreign investment inflows -> decline in banking sector margins by 50bps",
+          "quant": "-50bps"
         }
       ],
-      "watch": "RBI Governor's statement on future policy direction"
+      "watch": "RBI's next monetary policy meeting"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
+      "sector": "psu",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "UK financial regulator's softening of proposed changes to UK money market fund rules",
-      "theme": "null",
+      "news_driver": "NLC India Share Price Cracks Over 4% After Govt Announces Stake Sale Via OFS",
+      "theme": "PSU_disinvestment",
       "stocks": [
         {
-          "name": "Bajaj Finance",
-          "ticker": "BAJFINANCE.NS",
-          "impact": "Bullish",
-          "reason": "UK financial regulator's softening of proposed changes -> increased foreign investment in Indian markets -> increased demand for Bajaj Finance's services",
-          "quant": "revenue +5-7% Q4"
+          "name": "NLC India",
+          "ticker": "NLCINDIA.NS",
+          "impact": "Bearish",
+          "reason": "Government's stake sale in NLC India -> reduced government holding -> decline in stock price by 5-6%",
+          "quant": "-5-6%"
         }
       ],
-      "watch": "Foreign investment inflows into Indian markets"
+      "watch": "NLC India's OFS subscription"
+    },
+    {
+      "sector": "auto",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Rajiv Bajaj To Step Down From Bajaj Finserv Board",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
+          "impact": "Neutral",
+          "reason": "Rajiv Bajaj's resignation from Bajaj Finserv board -> no direct impact on Bajaj Auto's operations -> neutral stock performance",
+          "quant": "null"
+        }
+      ],
+      "watch": "Bajaj Auto's Q2 earnings release"
     }
   ],
   "themes": [
-    "null"
+    "AI_multibaggers",
+    "PSU_disinvestment"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T18:04:16.121534+05:30",
+  "generated_at": "2026-06-09T12:31:00.485741+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -156,9 +156,9 @@
     "TCS": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 net profit jumps 12.22 pc to Rs 13,718 cr",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "Management expects significant AI adoption in 3 years",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "ITDC": {
@@ -816,9 +816,9 @@
     "BAJAJFINSV": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "5% YoY increase in consolidated profit after tax",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "Rajiv Bajaj to step down from board, citing increased responsibilities at Bajaj Auto",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     },
     "ADANIPORTS": {
@@ -1980,6 +1980,14 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "NLCINDIA": {
+      "score": 8,
+      "direction": "SELL",
+      "catalyst": "Govt announces stake sale via OFS",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
