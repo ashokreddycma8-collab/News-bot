@@ -1,79 +1,51 @@
 {
   "date": "2026-06-09",
-  "time": "12:30",
+  "time": "13:04",
   "mood": "Bearish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 2,
-      "news_driver": "TCS Could Have As Many AI Agents As Staff In 3 Years",
-      "theme": "AI_multibaggers",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "TCS' plan to deploy AI agents -> increased operational efficiency -> revenue growth of 8-10% in the next quarter",
-          "quant": "8-10%"
-        }
-      ],
-      "watch": "TCS' Q2 earnings release"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "RBI announces major rule change for NRI and OCI investors",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "RBI's rule change for NRI investors -> reduced foreign investment inflows -> decline in banking sector margins by 50bps",
-          "quant": "-50bps"
-        }
-      ],
-      "watch": "RBI's next monetary policy meeting"
-    },
-    {
-      "sector": "psu",
+      "sector": "metal",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "NLC India Share Price Cracks Over 4% After Govt Announces Stake Sale Via OFS",
-      "theme": "PSU_disinvestment",
+      "news_driver": "Weak sectoral performance",
+      "theme": "null",
       "stocks": [
         {
-          "name": "NLC India",
-          "ticker": "NLCINDIA.NS",
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
           "impact": "Bearish",
-          "reason": "Government's stake sale in NLC India -> reduced government holding -> decline in stock price by 5-6%",
-          "quant": "-5-6%"
+          "reason": "Weak metal sector performance -> lower demand and pricing power -> revenue -5-7% Q2",
+          "quant": "-5"
+        },
+        {
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
+          "impact": "Bearish",
+          "reason": "Weak metal sector performance -> higher input costs and lower margins -> margins -100bps",
+          "quant": "-100"
         }
       ],
-      "watch": "NLC India's OFS subscription"
+      "watch": "Tata Steel's Q2 earnings release"
     },
     {
       "sector": "auto",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Rajiv Bajaj To Step Down From Bajaj Finserv Board",
-      "theme": null,
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Weak sectoral performance",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Bajaj Auto",
-          "ticker": "BAJAJ-AUTO.NS",
-          "impact": "Neutral",
-          "reason": "Rajiv Bajaj's resignation from Bajaj Finserv board -> no direct impact on Bajaj Auto's operations -> neutral stock performance",
-          "quant": "null"
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bearish",
+          "reason": "Weak auto sector performance -> lower sales volume and revenue -> revenue -8% Q2",
+          "quant": "-8"
         }
       ],
-      "watch": "Bajaj Auto's Q2 earnings release"
+      "watch": "Maruti Suzuki's Q2 sales data"
     }
   ],
   "themes": [
-    "AI_multibaggers",
-    "PSU_disinvestment"
+    "null"
   ]
 }
