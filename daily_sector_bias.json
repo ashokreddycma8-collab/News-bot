@@ -1,85 +1,69 @@
 {
-  "date": "2026-06-09",
-  "time": "18:04",
+  "date": "2026-06-10",
+  "time": "13:20",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "RBI liquidity boost and IDBI Bank disinvestment progress",
+      "news_driver": "RBI's forex swap move",
       "theme": "PSU_rotation",
       "stocks": [
-        {
-          "name": "IDBI Bank",
-          "ticker": "IDBI.NS",
-          "impact": "Bullish",
-          "reason": "IDBI Bank disinvestment progress -> increased investor confidence -> stock price appreciation",
-          "quant": "8-10% potential upside"
-        },
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "RBI liquidity boost -> improved banking sector liquidity -> increased lending and profitability",
-          "quant": "net interest income +5-7% Q3"
+          "reason": "RBI's forex swap move -> increased liquidity -> improved margins",
+          "quant": "margins +50bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "RBI's forex swap move -> reduced borrowing costs -> increased lending",
+          "quant": "lending growth +5%"
         }
       ],
-      "watch": "IDBI Bank disinvestment timeline"
+      "watch": "SBIN.NS crossing 550 levels"
     },
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Govt forgoes Rs 1.23 Lakh Crore to support OMCs after petrol, diesel duty cuts",
+      "news_driver": "Iran-Israel conflict de-escalation",
       "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Petrol, diesel duty cuts -> reduced OMC margins -> decreased profitability",
+          "reason": "Iran-Israel conflict de-escalation -> decreased oil prices -> reduced refining margins",
           "quant": "margins -100bps"
         }
       ],
-      "watch": "OMC stock prices"
+      "watch": "Brent crude price below $80"
     },
     {
-      "sector": "fmcg",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Fertiliser Ministry seeks additional Rs 3 Lakh Crore subsidy support",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "UPL",
-          "ticker": "UPL.NS",
-          "impact": "Neutral",
-          "reason": "Fertiliser subsidy support -> stable fertiliser prices -> no significant impact on UPL",
-          "quant": "null"
-        }
-      ],
-      "watch": "Fertiliser subsidy announcements"
-    },
-    {
-      "sector": "financial_services",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "RBI liquidity boost and easing Middle East tensions",
-      "theme": "PSU_rotation",
+      "conviction": 1,
+      "news_driver": "HCL Tech's positive commentary",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "HDFC",
-          "ticker": "HDFC.NS",
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "RBI liquidity boost -> improved financial services sector liquidity -> increased lending and profitability",
-          "quant": "net interest income +5-7% Q3"
+          "reason": "HCL Tech's positive commentary -> increased deal wins -> revenue growth",
+          "quant": "revenue growth +8-10% Q3"
         }
       ],
-      "watch": "RBI monetary policy announcements"
+      "watch": "HCLTECH.NS crossing 1200 levels"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }
