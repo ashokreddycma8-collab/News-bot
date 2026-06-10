@@ -1,69 +1,85 @@
 {
   "date": "2026-06-10",
-  "time": "13:20",
+  "time": "17:03",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "RBI's forex swap move",
+      "news_driver": "RBI liquidity boost",
       "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "RBI's forex swap move -> increased liquidity -> improved margins",
-          "quant": "margins +50bps"
+          "reason": "RBI liquidity boost -> increased lending and lower borrowing costs -> higher margins",
+          "quant": "margins +100bps"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "RBI's forex swap move -> reduced borrowing costs -> increased lending",
-          "quant": "lending growth +5%"
+          "reason": "RBI liquidity boost -> improved credit growth and lower provisioning -> higher profitability",
+          "quant": "revenue +5-7% Q3"
         }
       ],
-      "watch": "SBIN.NS crossing 550 levels"
+      "watch": "SBI crossing 600 levels"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Iran-Israel conflict de-escalation",
-      "theme": null,
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "RBI liquidity boost and tax relief-driven FPI buying",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran-Israel conflict de-escalation -> decreased oil prices -> reduced refining margins",
-          "quant": "margins -100bps"
+          "name": "HDFC",
+          "ticker": "HDFC.NS",
+          "impact": "Bullish",
+          "reason": "RBI liquidity boost and tax relief-driven FPI buying -> increased demand for housing loans and lower borrowing costs -> higher margins",
+          "quant": "margins +75bps"
         }
       ],
-      "watch": "Brent crude price below $80"
+      "watch": "10-year bond yield below 7.2%"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Consumers turning to Rs 5, Rs 10 packs due to inflation pinch",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bearish",
+          "reason": "inflation pinch -> consumers downtrading to cheaper options -> lower revenue and margins",
+          "quant": "revenue -3-5% Q3"
+        }
+      ],
+      "watch": "HUL crossing 2500 levels"
     },
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "HCL Tech's positive commentary",
-      "theme": "internet_digital",
+      "news_driver": "IT Index swinging to loss as Infosys weighs",
+      "theme": "null",
       "stocks": [
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "HCL Tech's positive commentary -> increased deal wins -> revenue growth",
-          "quant": "revenue growth +8-10% Q3"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "IT Index swinging to loss -> decreased investor sentiment and potential client budget cuts -> lower revenue and margins",
+          "quant": "margins -50bps"
         }
       ],
-      "watch": "HCLTECH.NS crossing 1200 levels"
+      "watch": "Nifty IT index below 30000 levels"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "PSU_rotation"
   ]
 }

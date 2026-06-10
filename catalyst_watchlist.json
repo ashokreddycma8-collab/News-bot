@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T13:20:28.194693+05:30",
+  "generated_at": "2026-06-10T17:03:06.514205+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2003,6 +2003,14 @@
       "catalyst": "Rebranding to Hirect after board approval",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PHYSICSWALLAH": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "DAM Capital initiates with Buy rating",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
