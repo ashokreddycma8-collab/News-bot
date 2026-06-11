@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T17:03:06.514205+05:30",
+  "generated_at": "2026-06-11T13:48:31.024467+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2012,6 +2012,14 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BSNL": {
+      "score": 8,
+      "direction": "SELL",
+      "catalyst": "BSNL slips deeper into loss in Q4FY26 as revenue falls",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

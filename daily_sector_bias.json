@@ -1,93 +1,99 @@
 {
-  "date": "2026-06-10",
-  "time": "18:24",
-  "mood": "Cautious",
+  "date": "2026-06-11",
+  "time": "13:48",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "SBI, HDFC, Other Banks Raise FCNR-B Deposit Rates After RBI Support",
+      "news_driver": "ICICI, Kotak, and Axis Bank leading gains",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "RBI support for FCNR-B deposits -> increased deposit rates -> higher margins for SBI",
-          "quant": "margins +50bps"
+          "reason": "Strong market performance -> increased investor confidence -> higher stock price",
+          "quant": "NIM +20bps"
         },
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
           "impact": "Bullish",
-          "reason": "RBI support for FCNR-B deposits -> increased deposit rates -> higher margins for HDFC Bank",
-          "quant": "margins +30bps"
+          "reason": "Improved market sentiment -> higher lending rates -> increased revenue",
+          "quant": "MCLR +15bps"
+        },
+        {
+          "name": "Canara Bank",
+          "ticker": "CANBK.NS",
+          "impact": "Bullish",
+          "reason": "Lending rate hike -> increased interest income -> higher profitability",
+          "quant": "revenue +5% Q2"
         }
       ],
-      "watch": "RBI's next monetary policy meeting"
+      "watch": "PSU bank stocks testing 200-day moving average"
     },
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "fmcg",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Iran Will Pay The Price For 'Taking Too Long' To Decide On Deal, Says Trump; Oil Prices Climb",
+      "news_driver": "HUL leading gains",
       "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising oil prices -> higher input costs -> lower margins for IOC",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Rising oil prices -> higher input costs -> lower margins for HPCL",
-          "quant": "margins -80bps"
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bullish",
+          "reason": "Strong market performance -> increased investor confidence -> higher stock price",
+          "quant": "EBITDA margin +100bps"
         }
       ],
-      "watch": "Brent crude oil price movement"
+      "watch": "HUL stock price testing all-time highs"
     },
     {
       "sector": "it",
-      "direction": "Neutral",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Carlyle Eyes India IPO For Healthcare RCM Provider After Recent Acquisition",
-      "theme": "internet_digital",
+      "news_driver": "Nifty IT drops 3%",
+      "theme": null,
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Carlyle's potential IPO -> increased competition in healthcare RCM space -> no significant impact on Infosys",
-          "quant": "null"
+          "impact": "Bearish",
+          "reason": "Weaker global cues -> decreased investor confidence -> lower stock price",
+          "quant": "margins -50bps"
+        },
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Nifty IT drop -> decreased investor confidence -> lower stock price",
+          "quant": "revenue -2% Q3"
         }
       ],
-      "watch": "Carlyle's IPO filing"
+      "watch": "Wipro buyback offer"
     },
     {
-      "sector": "financial_services",
+      "sector": "energy",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "SEBI Mulls Easing Executive Remuneration Disclosure Norms For AMCs",
+      "news_driver": "Reliance Industries shares gain 1%",
       "theme": null,
       "stocks": [
         {
-          "name": "HDFC Asset Management Company",
-          "ticker": "HDFCAMC.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Neutral",
-          "reason": "SEBI's potential easing of disclosure norms -> reduced compliance burden -> no significant impact on HDFC AMC",
+          "reason": "Iran war impacting fertiliser subsidy -> increased costs -> neutral impact on stock price",
           "quant": "null"
         }
       ],
-      "watch": "SEBI's final decision on disclosure norms"
+      "watch": "Iran war update"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "PSU_rotation"
   ]
 }
