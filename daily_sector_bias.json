@@ -1,85 +1,99 @@
 {
   "date": "2026-06-11",
-  "time": "17:55",
+  "time": "19:26",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "U.S.-Iran conflict",
+      "news_driver": "US-Iran conflict and Trump's vow to take over Kharg, asserting control on Iran's oil market",
       "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "U.S.-Iran conflict -> higher crude prices -> lower IOC margins",
-          "quant": "margins -100bps"
+          "reason": "US-Iran conflict -> higher crude prices -> reduced IOC margins",
+          "quant": "-120bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "U.S.-Iran conflict -> higher crude prices -> lower HINDPETRO refining margins",
-          "quant": "refining margins -120bps"
+          "reason": "Trump's control on Iran's oil market -> supply chain disruptions -> decreased HPCL sales",
+          "quant": "-5%"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "ECB interest rate hike -> stronger US dollar -> increased BPCL's crude import costs",
+          "quant": "-80bps"
         }
       ],
       "watch": "Brent crude price crossing $100/barrel"
     },
     {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Eight public sector banks adding 13,223 employees in FY26",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "PSB hiring spree -> increased banking operations -> improved SBI's revenue growth",
+          "quant": "+3%"
+        },
+        {
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
+          "impact": "Bullish",
+          "reason": "Employee addition -> enhanced customer services -> higher BOB's market share",
+          "quant": "+2%"
+        }
+      ],
+      "watch": "SBI's Q3 results"
+    },
+    {
+      "sector": "defence",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "India to join US, Gulf allies for key G7 meet on free navigation",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
+          "impact": "Neutral",
+          "reason": "G7 meet on free navigation -> potential defence collaborations -> stable HAL's order book",
+          "quant": "null"
+        }
+      ],
+      "watch": "G7 meet outcome"
+    },
+    {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "U.S.-Iran conflict",
+      "news_driver": "US-Iran conflict and crude price surge",
       "theme": "null",
       "stocks": [
         {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "U.S.-Iran conflict -> higher coal prices -> higher NTPC fuel costs",
-          "quant": "fuel costs +5-7% Q3"
+          "reason": "Crude price surge -> increased RIL's energy costs -> reduced refining margins",
+          "quant": "-100bps"
         }
       ],
-      "watch": "NTPC's Q3 earnings release"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tata Sons' Chandrasekaran comments",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Bullish",
-          "reason": "Tata Sons' Chandrasekaran comments -> increased consumer spending -> higher HUL sales",
-          "quant": "sales +4-6% Q3"
-        }
-      ],
-      "watch": "HUL's Q3 sales growth"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "El Nino risks",
-      "theme": "PLI_solar",
-      "stocks": [
-        {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
-          "impact": "Bullish",
-          "reason": "El Nino risks -> higher solar demand -> increased ADANIGREEN project pipeline",
-          "quant": "order book +Rs200Cr"
-        }
-      ],
-      "watch": "ADANIGREEN's Q3 order book update"
+      "watch": "Crude price movement"
     }
   ],
   "themes": [
-    "PLI_solar"
+    "PSU_rotation"
   ]
 }
