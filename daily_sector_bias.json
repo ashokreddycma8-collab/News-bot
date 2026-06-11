@@ -1,99 +1,85 @@
 {
   "date": "2026-06-11",
-  "time": "13:48",
-  "mood": "Bullish",
+  "time": "17:55",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "ICICI, Kotak, and Axis Bank leading gains",
-      "theme": "PSU_rotation",
+      "news_driver": "U.S.-Iran conflict",
+      "theme": "null",
       "stocks": [
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Strong market performance -> increased investor confidence -> higher stock price",
-          "quant": "NIM +20bps"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "U.S.-Iran conflict -> higher crude prices -> lower IOC margins",
+          "quant": "margins -100bps"
         },
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bullish",
-          "reason": "Improved market sentiment -> higher lending rates -> increased revenue",
-          "quant": "MCLR +15bps"
-        },
-        {
-          "name": "Canara Bank",
-          "ticker": "CANBK.NS",
-          "impact": "Bullish",
-          "reason": "Lending rate hike -> increased interest income -> higher profitability",
-          "quant": "revenue +5% Q2"
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "U.S.-Iran conflict -> higher crude prices -> lower HINDPETRO refining margins",
+          "quant": "refining margins -120bps"
         }
       ],
-      "watch": "PSU bank stocks testing 200-day moving average"
+      "watch": "Brent crude price crossing $100/barrel"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "U.S.-Iran conflict",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
+          "impact": "Bearish",
+          "reason": "U.S.-Iran conflict -> higher coal prices -> higher NTPC fuel costs",
+          "quant": "fuel costs +5-7% Q3"
+        }
+      ],
+      "watch": "NTPC's Q3 earnings release"
     },
     {
       "sector": "fmcg",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "HUL leading gains",
-      "theme": null,
+      "conviction": 1,
+      "news_driver": "Tata Sons' Chandrasekaran comments",
+      "theme": "null",
       "stocks": [
         {
           "name": "Hindustan Unilever",
           "ticker": "HINDUNILVR.NS",
           "impact": "Bullish",
-          "reason": "Strong market performance -> increased investor confidence -> higher stock price",
-          "quant": "EBITDA margin +100bps"
+          "reason": "Tata Sons' Chandrasekaran comments -> increased consumer spending -> higher HUL sales",
+          "quant": "sales +4-6% Q3"
         }
       ],
-      "watch": "HUL stock price testing all-time highs"
+      "watch": "HUL's Q3 sales growth"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "renewable",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Nifty IT drops 3%",
-      "theme": null,
+      "news_driver": "El Nino risks",
+      "theme": "PLI_solar",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Weaker global cues -> decreased investor confidence -> lower stock price",
-          "quant": "margins -50bps"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Nifty IT drop -> decreased investor confidence -> lower stock price",
-          "quant": "revenue -2% Q3"
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "El Nino risks -> higher solar demand -> increased ADANIGREEN project pipeline",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "Wipro buyback offer"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Reliance Industries shares gain 1%",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Neutral",
-          "reason": "Iran war impacting fertiliser subsidy -> increased costs -> neutral impact on stock price",
-          "quant": "null"
-        }
-      ],
-      "watch": "Iran war update"
+      "watch": "ADANIGREEN's Q3 order book update"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PLI_solar"
   ]
 }
