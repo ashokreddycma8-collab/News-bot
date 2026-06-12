@@ -1,86 +1,85 @@
 {
   "date": "2026-06-12",
-  "time": "13:36",
+  "time": "17:22",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "RBI Forex Boost and analyst call on ICICI Bank",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "RBI Forex Boost -> increased foreign exchange reserves -> improved bank profitability",
-          "quant": "net interest income +5-7% Q2"
-        },
-        {
-          "name": "Kotak Mahindra Bank",
-          "ticker": "KOTAKBANK.NS",
-          "impact": "Bullish",
-          "reason": "RBI Forex Boost -> increased lending opportunities -> higher revenue growth",
-          "quant": "revenue growth +10-12% Q3"
-        }
-      ],
-      "watch": "ICICI Bank stock price crossing 950 levels"
-    },
-    {
-      "sector": "oil_gas",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran shutting Strait of Hormuz",
-      "theme": null,
+      "news_driver": "West Asia tensions",
+      "theme": "null",
       "stocks": [
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Iran shutting Strait of Hormuz -> supply chain disruption -> higher crude prices",
-          "quant": "gross refining margins -150bps"
+          "reason": "West Asia tensions -> decreased client spending -> revenue -5-7% Q2",
+          "quant": "-120bps"
+        },
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "West Asia tensions -> delayed project implementations -> order book -Rs200Cr",
+          "quant": "-3%"
         }
       ],
-      "watch": "Brent crude price crossing $100 levels"
+      "watch": "INFY.NS price level at 1400"
     },
     {
-      "sector": "telecom",
+      "sector": "consumer",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "India's May Retail Inflation",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bearish",
+          "reason": "India's May Retail Inflation -> decreased consumer spending -> revenue -2-3% Q2",
+          "quant": "-80bps"
+        }
+      ],
+      "watch": "HINDUNILVR.NS price level at 2500"
+    },
+    {
+      "sector": "data_centers",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "data-center boom",
+      "theme": "PLI_solar",
+      "stocks": [
+        {
+          "name": "STT India",
+          "ticker": "STTECH.NS",
+          "impact": "Bullish",
+          "reason": "data-center boom -> increased demand for data center services -> revenue +15-18% Q3",
+          "quant": "+12%"
+        }
+      ],
+      "watch": "STTECH.NS price level at 3000"
+    },
+    {
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Vodafone Idea navigating through toughest challenges",
-      "theme": null,
+      "news_driver": "oil slump",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Vodafone Idea",
-          "ticker": "IDEA.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "KM Birla's statement -> improved investor sentiment -> higher stock price",
-          "quant": "stock price +4-6% in short term"
+          "reason": "oil slump -> decreased input costs -> margins +50bps",
+          "quant": "+2%"
         }
       ],
-      "watch": "Vodafone Idea stock price crossing 10 levels"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Harsha Upadhyaya's comments on IT outlook",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Sterlite Tech",
-          "ticker": "STLTECH.NS",
-          "impact": "Neutral",
-          "reason": "Harsha Upadhyaya's comments -> cautious investor sentiment -> range-bound stock price",
-          "quant": "revenue growth +2-4% Q3"
-        }
-      ],
-      "watch": "Nifty IT index crossing 30000 levels"
+      "watch": "RELIANCE.NS price level at 2400"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "PLI_solar"
   ]
 }
