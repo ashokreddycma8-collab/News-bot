@@ -1,85 +1,93 @@
 {
   "date": "2026-06-12",
-  "time": "17:22",
-  "mood": "Cautious",
+  "time": "18:22",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "West Asia tensions",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "West Asia tensions -> decreased client spending -> revenue -5-7% Q2",
-          "quant": "-120bps"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "West Asia tensions -> delayed project implementations -> order book -Rs200Cr",
-          "quant": "-3%"
-        }
-      ],
-      "watch": "INFY.NS price level at 1400"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "India's May Retail Inflation",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Bearish",
-          "reason": "India's May Retail Inflation -> decreased consumer spending -> revenue -2-3% Q2",
-          "quant": "-80bps"
-        }
-      ],
-      "watch": "HINDUNILVR.NS price level at 2500"
-    },
-    {
-      "sector": "data_centers",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "data-center boom",
-      "theme": "PLI_solar",
-      "stocks": [
-        {
-          "name": "STT India",
-          "ticker": "STTECH.NS",
-          "impact": "Bullish",
-          "reason": "data-center boom -> increased demand for data center services -> revenue +15-18% Q3",
-          "quant": "+12%"
-        }
-      ],
-      "watch": "STTECH.NS price level at 3000"
-    },
     {
       "sector": "energy",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "oil slump",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Iran peace deal hopes",
+      "theme": "China+1",
       "stocks": [
         {
           "name": "Reliance Industries",
           "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "oil slump -> decreased input costs -> margins +50bps",
-          "quant": "+2%"
+          "reason": "Iran peace deal hopes -> reduced crude prices -> increased refining margins",
+          "quant": "refining margins +100bps"
+        },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "Iran peace deal hopes -> reduced crude prices -> lower input costs",
+          "quant": "input costs -5%"
         }
       ],
-      "watch": "RELIANCE.NS price level at 2400"
+      "watch": "Brent crude price below $80"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Softer crude and hopes of easing West Asia tensions",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Softer crude -> reduced inflation expectations -> lower interest rates",
+          "quant": "NIM +20bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Softer crude -> improved consumer sentiment -> higher credit growth",
+          "quant": "credit growth +10% YoY"
+        }
+      ],
+      "watch": "10-year G-sec yield below 7.2%"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "United Foodbrands among 6 consumer discretionary stocks that hit 52-week highs",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "United Foodbrands",
+          "ticker": "UNITEDFOOD.NS",
+          "impact": "Bullish",
+          "reason": "52-week high -> increased investor interest -> higher valuations",
+          "quant": "valuation multiple +15%"
+        }
+      ],
+      "watch": "United Foodbrands' Q3 earnings"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Sebi approves IPOs of Bombay Coated, Bonfiglioli Transmissions and Swaraj Green Power",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Bombay Coated",
+          "ticker": "BOMBAYCOATED.NS",
+          "impact": "Bullish",
+          "reason": "IPO approval -> increased investor interest -> higher valuations",
+          "quant": "IPO valuation +10% above expected"
+        }
+      ],
+      "watch": "IPO subscription numbers"
     }
   ],
   "themes": [
-    "PLI_solar"
+    "China+1",
+    "PSU_rotation"
   ]
 }

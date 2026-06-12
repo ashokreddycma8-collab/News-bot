@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:36:31.403972+05:30",
+  "generated_at": "2026-06-12T18:22:20.327893+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2043,6 +2043,38 @@
       "catalyst": "UBS upgrades stock and hikes target",
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "E2E": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Debut on BSE Mainboard",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BOMBCOATED": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Sebi approves IPO",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BONFIGLIOLI": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Sebi approves IPO",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SWARAJGREEN": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Sebi approves IPO",
+      "category": "structural_change",
+      "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
