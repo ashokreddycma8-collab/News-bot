@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T13:48:31.024467+05:30",
+  "generated_at": "2026-06-12T13:36:31.403972+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2020,6 +2020,30 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "VODAFONEIDEA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "KM Birla comments on navigating through toughest challenges",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "STLTECH": {
+      "score": 4,
+      "direction": "BUY",
+      "catalyst": "Shares rally up to 5% after 2-day fall",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "BOSCHLTD": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "UBS upgrades stock and hikes target",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

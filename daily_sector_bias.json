@@ -1,99 +1,86 @@
 {
-  "date": "2026-06-11",
-  "time": "19:26",
-  "mood": "Bearish",
+  "date": "2026-06-12",
+  "time": "13:36",
+  "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "RBI Forex Boost and analyst call on ICICI Bank",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "RBI Forex Boost -> increased foreign exchange reserves -> improved bank profitability",
+          "quant": "net interest income +5-7% Q2"
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "ticker": "KOTAKBANK.NS",
+          "impact": "Bullish",
+          "reason": "RBI Forex Boost -> increased lending opportunities -> higher revenue growth",
+          "quant": "revenue growth +10-12% Q3"
+        }
+      ],
+      "watch": "ICICI Bank stock price crossing 950 levels"
+    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and Trump's vow to take over Kharg, asserting control on Iran's oil market",
-      "theme": "null",
+      "news_driver": "Iran shutting Strait of Hormuz",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> reduced IOC margins",
-          "quant": "-120bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
+          "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Trump's control on Iran's oil market -> supply chain disruptions -> decreased HPCL sales",
-          "quant": "-5%"
-        },
-        {
-          "name": "Bharat Petroleum",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "ECB interest rate hike -> stronger US dollar -> increased BPCL's crude import costs",
-          "quant": "-80bps"
+          "reason": "Iran shutting Strait of Hormuz -> supply chain disruption -> higher crude prices",
+          "quant": "gross refining margins -150bps"
         }
       ],
-      "watch": "Brent crude price crossing $100/barrel"
+      "watch": "Brent crude price crossing $100 levels"
     },
     {
-      "sector": "banking",
+      "sector": "telecom",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Eight public sector banks adding 13,223 employees in FY26",
-      "theme": "PSU_rotation",
+      "news_driver": "Vodafone Idea navigating through toughest challenges",
+      "theme": null,
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Vodafone Idea",
+          "ticker": "IDEA.NS",
           "impact": "Bullish",
-          "reason": "PSB hiring spree -> increased banking operations -> improved SBI's revenue growth",
-          "quant": "+3%"
-        },
-        {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Bullish",
-          "reason": "Employee addition -> enhanced customer services -> higher BOB's market share",
-          "quant": "+2%"
+          "reason": "KM Birla's statement -> improved investor sentiment -> higher stock price",
+          "quant": "stock price +4-6% in short term"
         }
       ],
-      "watch": "SBI's Q3 results"
+      "watch": "Vodafone Idea stock price crossing 10 levels"
     },
     {
-      "sector": "defence",
+      "sector": "it",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "India to join US, Gulf allies for key G7 meet on free navigation",
-      "theme": "null",
+      "news_driver": "Harsha Upadhyaya's comments on IT outlook",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
+          "name": "Sterlite Tech",
+          "ticker": "STLTECH.NS",
           "impact": "Neutral",
-          "reason": "G7 meet on free navigation -> potential defence collaborations -> stable HAL's order book",
-          "quant": "null"
+          "reason": "Harsha Upadhyaya's comments -> cautious investor sentiment -> range-bound stock price",
+          "quant": "revenue growth +2-4% Q3"
         }
       ],
-      "watch": "G7 meet outcome"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran conflict and crude price surge",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Crude price surge -> increased RIL's energy costs -> reduced refining margins",
-          "quant": "-100bps"
-        }
-      ],
-      "watch": "Crude price movement"
+      "watch": "Nifty IT index crossing 30000 levels"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }
