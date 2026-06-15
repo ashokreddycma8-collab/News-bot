@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T15:11:05.324157+05:30",
+  "generated_at": "2026-06-15T15:18:07.431476+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2075,6 +2075,22 @@
       "catalyst": "Sebi approves IPO",
       "category": "structural_change",
       "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "DECCANGOLD": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Supreme Court order leads to 20% rally and fresh lifetime high",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "JAL": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "Delisting from BSE and NSE on Thursday",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

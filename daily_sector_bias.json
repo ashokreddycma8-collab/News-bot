@@ -1,86 +1,93 @@
 {
   "date": "2026-06-15",
-  "time": "15:11",
+  "time": "15:18",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "oil_gas",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Falling oil prices",
-      "theme": "null",
+      "news_driver": "US-Iran peace deal",
+      "theme": "OMC_rotation",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Falling oil prices -> Reduced refining margins -> Lower revenue for RIL",
-          "quant": "-5% revenue impact"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran peace deal -> reduced crude oil prices -> increased OMC margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "Indian Oil Corporation",
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran peace deal -> reduced crude oil prices -> increased OMC margins",
+          "quant": "revenue +5-7% Q2"
+        },
+        {
+          "name": "IOCL",
           "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran peace deal -> reduced crude oil prices -> increased OMC margins",
+          "quant": "order book +Rs200Cr"
+        }
+      ],
+      "watch": "Brent crude price below $80"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Zerodha restarts referral programme",
+      "theme": "fintech_growth",
+      "stocks": [
+        {
+          "name": "Zerodha's parent company, Rainmatter",
+          "ticker": "not listed",
+          "impact": "Bullish",
+          "reason": "Zerodha restarts referral programme -> increased user acquisition -> higher revenue",
+          "quant": "user base +15% in 2 months"
+        }
+      ],
+      "watch": "Zerodha's user base growth"
+    },
+    {
+      "sector": "metal",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Deccan Gold Mines shares rally",
+      "theme": "mining_rebound",
+      "stocks": [
+        {
+          "name": "Deccan Gold Mines",
+          "ticker": "DECNGOLD.NS",
+          "impact": "Bullish",
+          "reason": "Supreme Court order -> increased investor confidence -> higher stock price",
+          "quant": "stock price +20% in a day"
+        }
+      ],
+      "watch": "Deccan Gold Mines' stock price"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "JAL shares to delist",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "JAL",
+          "ticker": "JAIBLIND.NS",
           "impact": "Bearish",
-          "reason": "Falling oil prices -> Reduced refining margins -> Lower profitability for IOC",
-          "quant": "-150bps margin compression"
+          "reason": "delisting -> reduced liquidity -> lower stock price",
+          "quant": "stock price -10% in a day"
         }
       ],
-      "watch": "Brent crude price level of $80"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Yes Bank deposit growth",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Yes Bank",
-          "ticker": "YESBANK.NS",
-          "impact": "Bullish",
-          "reason": "Deposit growth -> Increased low-cost deposits -> Improved net interest income for Yes Bank",
-          "quant": "+8-10% deposit growth"
-        }
-      ],
-      "watch": "Yes Bank's Q3 deposit growth numbers"
-    },
-    {
-      "sector": "telecom",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bharti Airtel's share-swap deal",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Bullish",
-          "reason": "Share-swap deal -> Increased stake in Airtel Africa -> Potential for higher dividends and growth",
-          "quant": "+10% stake in Airtel Africa"
-        }
-      ],
-      "watch": "Airtel Africa's Q3 earnings report"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Dharavi project update",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Godrej Properties",
-          "ticker": "GODREJPROP.NS",
-          "impact": "Bullish",
-          "reason": "Dharavi project update -> Potential for new development opportunities -> Increased revenue for Godrej Properties",
-          "quant": "+Rs400Cr potential revenue"
-        }
-      ],
-      "watch": "Dharavi project tendering process"
+      "watch": "JAL's delisting date"
     }
   ],
   "themes": [
-    "FPI reforms",
-    "oil price impact"
+    "OMC_rotation",
+    "fintech_growth"
   ]
 }
