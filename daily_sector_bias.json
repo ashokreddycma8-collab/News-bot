@@ -1,93 +1,86 @@
 {
-  "date": "2026-06-12",
-  "time": "18:22",
+  "date": "2026-06-15",
+  "time": "15:11",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran peace deal hopes",
-      "theme": "China+1",
+      "news_driver": "Falling oil prices",
+      "theme": "null",
       "stocks": [
         {
           "name": "Reliance Industries",
           "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Iran peace deal hopes -> reduced crude prices -> increased refining margins",
-          "quant": "refining margins +100bps"
+          "impact": "Bearish",
+          "reason": "Falling oil prices -> Reduced refining margins -> Lower revenue for RIL",
+          "quant": "-5% revenue impact"
         },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
-          "impact": "Bullish",
-          "reason": "Iran peace deal hopes -> reduced crude prices -> lower input costs",
-          "quant": "input costs -5%"
+          "impact": "Bearish",
+          "reason": "Falling oil prices -> Reduced refining margins -> Lower profitability for IOC",
+          "quant": "-150bps margin compression"
         }
       ],
-      "watch": "Brent crude price below $80"
+      "watch": "Brent crude price level of $80"
     },
     {
       "sector": "banking",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Softer crude and hopes of easing West Asia tensions",
-      "theme": "PSU_rotation",
+      "conviction": 1,
+      "news_driver": "Yes Bank deposit growth",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Yes Bank",
+          "ticker": "YESBANK.NS",
           "impact": "Bullish",
-          "reason": "Softer crude -> reduced inflation expectations -> lower interest rates",
-          "quant": "NIM +20bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Softer crude -> improved consumer sentiment -> higher credit growth",
-          "quant": "credit growth +10% YoY"
+          "reason": "Deposit growth -> Increased low-cost deposits -> Improved net interest income for Yes Bank",
+          "quant": "+8-10% deposit growth"
         }
       ],
-      "watch": "10-year G-sec yield below 7.2%"
+      "watch": "Yes Bank's Q3 deposit growth numbers"
     },
     {
-      "sector": "fmcg",
+      "sector": "telecom",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "United Foodbrands among 6 consumer discretionary stocks that hit 52-week highs",
-      "theme": null,
+      "news_driver": "Bharti Airtel's share-swap deal",
+      "theme": "null",
       "stocks": [
         {
-          "name": "United Foodbrands",
-          "ticker": "UNITEDFOOD.NS",
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
           "impact": "Bullish",
-          "reason": "52-week high -> increased investor interest -> higher valuations",
-          "quant": "valuation multiple +15%"
+          "reason": "Share-swap deal -> Increased stake in Airtel Africa -> Potential for higher dividends and growth",
+          "quant": "+10% stake in Airtel Africa"
         }
       ],
-      "watch": "United Foodbrands' Q3 earnings"
+      "watch": "Airtel Africa's Q3 earnings report"
     },
     {
-      "sector": "capital_markets",
+      "sector": "realty",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Sebi approves IPOs of Bombay Coated, Bonfiglioli Transmissions and Swaraj Green Power",
-      "theme": null,
+      "news_driver": "Dharavi project update",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Bombay Coated",
-          "ticker": "BOMBAYCOATED.NS",
+          "name": "Godrej Properties",
+          "ticker": "GODREJPROP.NS",
           "impact": "Bullish",
-          "reason": "IPO approval -> increased investor interest -> higher valuations",
-          "quant": "IPO valuation +10% above expected"
+          "reason": "Dharavi project update -> Potential for new development opportunities -> Increased revenue for Godrej Properties",
+          "quant": "+Rs400Cr potential revenue"
         }
       ],
-      "watch": "IPO subscription numbers"
+      "watch": "Dharavi project tendering process"
     }
   ],
   "themes": [
-    "China+1",
-    "PSU_rotation"
+    "FPI reforms",
+    "oil price impact"
   ]
 }
