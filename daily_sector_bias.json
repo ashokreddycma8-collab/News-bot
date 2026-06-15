@@ -1,93 +1,136 @@
 {
   "date": "2026-06-15",
-  "time": "15:18",
+  "time": "21:14",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran peace deal",
-      "theme": "OMC_rotation",
+      "news_driver": "HCLTech invests \u20b91,427 crore in Sarvam AI",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "US-Iran peace deal -> reduced crude oil prices -> increased OMC margins",
-          "quant": "margins +100bps"
+          "reason": "HCLTech's investment in Sarvam AI -> expansion into AI space -> increased revenue growth potential",
+          "quant": "revenue +5-7% Q4"
         },
         {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "US-Iran peace deal -> reduced crude oil prices -> increased OMC margins",
-          "quant": "revenue +5-7% Q2"
+          "reason": "US-Iran peace deal optimism -> increased IT spending -> higher demand for Indian IT services",
+          "quant": "margins +50bps"
         },
         {
-          "name": "IOCL",
-          "ticker": "IOC.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "US-Iran peace deal -> reduced crude oil prices -> increased OMC margins",
-          "quant": "order book +Rs200Cr"
+          "reason": "Record goods exports -> increased demand for digital transformation -> higher IT services demand",
+          "quant": "order book +Rs500Cr"
         }
       ],
-      "watch": "Brent crude price below $80"
+      "watch": "HCLTech's Q4 earnings release"
     },
     {
-      "sector": "capital_markets",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Zerodha restarts referral programme",
-      "theme": "fintech_growth",
+      "conviction": 2,
+      "news_driver": "Domestic PV dispatches up 27% in May 2026",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Zerodha's parent company, Rainmatter",
-          "ticker": "not listed",
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "Zerodha restarts referral programme -> increased user acquisition -> higher revenue",
-          "quant": "user base +15% in 2 months"
+          "reason": "Increased domestic PV dispatches -> higher sales volume -> increased revenue",
+          "quant": "revenue +10-12% Q3"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Record goods exports -> increased demand for commercial vehicles -> higher sales volume",
+          "quant": "margins +75bps"
+        },
+        {
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran peace deal optimism -> lower oil prices -> increased demand for SUVs",
+          "quant": "order book +Rs300Cr"
         }
       ],
-      "watch": "Zerodha's user base growth"
+      "watch": "SIAM's June sales data release"
     },
     {
-      "sector": "metal",
-      "direction": "Bullish",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Deccan Gold Mines shares rally",
-      "theme": "mining_rebound",
+      "news_driver": "Oil prices slip to lowest in three months",
+      "theme": null,
       "stocks": [
         {
-          "name": "Deccan Gold Mines",
-          "ticker": "DECNGOLD.NS",
-          "impact": "Bullish",
-          "reason": "Supreme Court order -> increased investor confidence -> higher stock price",
-          "quant": "stock price +20% in a day"
-        }
-      ],
-      "watch": "Deccan Gold Mines' stock price"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "JAL shares to delist",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "JAL",
-          "ticker": "JAIBLIND.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "delisting -> reduced liquidity -> lower stock price",
-          "quant": "stock price -10% in a day"
+          "reason": "Lower oil prices -> reduced refining margins -> lower revenue",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "Lower oil prices -> reduced crude oil realizations -> lower revenue",
+          "quant": "revenue -5-7% Q4"
+        },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Lower oil prices -> reduced refining margins -> lower profitability",
+          "quant": "order book -Rs200Cr"
         }
       ],
-      "watch": "JAL's delisting date"
+      "watch": "OPEC's next meeting"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Waaree Energies gets shareholders' nod to raise up to Rs 10,000 cr via QIP",
+      "theme": "renewable",
+      "stocks": [
+        {
+          "name": "Waaree Energies",
+          "ticker": "WAAREE.NS",
+          "impact": "Bullish",
+          "reason": "QIP approval -> increased capital for expansion -> higher growth potential",
+          "quant": "revenue +15-18% Q3"
+        },
+        {
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "Increased focus on renewable energy -> higher demand for solar panels -> increased sales volume",
+          "quant": "margins +25bps"
+        },
+        {
+          "name": "Tata Power",
+          "ticker": "TATAPOWER.NS",
+          "impact": "Bullish",
+          "reason": "US-Iran peace deal optimism -> increased investment in renewable energy -> higher growth potential",
+          "quant": "order book +Rs400Cr"
+        }
+      ],
+      "watch": "Waaree Energies' QIP completion"
     }
   ],
   "themes": [
-    "OMC_rotation",
-    "fintech_growth"
+    "internet_digital",
+    "rural_mobility",
+    "renewable"
   ]
 }
