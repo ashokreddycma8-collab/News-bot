@@ -1,86 +1,86 @@
 {
   "date": "2026-06-16",
-  "time": "19:55",
+  "time": "20:31",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "oil_gas",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Brent oil price drops under $80 on US-Iran deal",
-      "theme": "energy_price_volatility",
+      "news_driver": "Essar, Dubai\u2019s IRH sign $500 million crude sourcing deal and crude oil price slide",
+      "theme": "null",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran deal -> lower crude prices -> reduced revenue for ONGC",
-          "quant": "-5% revenue impact"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Crude oil price slide -> reduced input costs for refining business -> increased margins",
+          "quant": "margins +100bps"
         },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "lower crude prices -> reduced refining margins -> lower profitability",
-          "quant": "-100bps margin compression"
+          "impact": "Bullish",
+          "reason": "Crude oil price slide -> reduced input costs for refining business -> increased margins",
+          "quant": "margins +120bps"
         }
       ],
-      "watch": "Brent oil price movement"
+      "watch": "Brent crude price level of $80"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Sasken Technologies-Backed Team Clinches First-Ever Gold for India at European Girls Olympiad in Informatics 2026",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Sasken Technologies",
+          "ticker": "SASKEN.NS",
+          "impact": "Bullish",
+          "reason": "Winning gold at European Girls Olympiad in Informatics -> increased brand visibility and potential talent attraction -> improved business prospects",
+          "quant": "revenue +5-7% Q4"
+        }
+      ],
+      "watch": "Q4 earnings release"
     },
     {
       "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran deal driving crude prices lower",
-      "theme": "renewable_energy_rotation",
+      "news_driver": "RIL AGM 2026: Date, Time & 4 Big Things to Watch (Jio IPO, Retail, Energy)",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "lower crude prices -> increased competitiveness of renewables -> higher demand",
-          "quant": "+8% revenue growth"
+          "reason": "Potential announcements at RIL AGM -> increased investor confidence and business prospects -> stock price appreciation",
+          "quant": "stock price +8-10%"
         }
       ],
-      "watch": "Renewable energy capacity additions"
+      "watch": "RIL AGM 2026"
     },
     {
-      "sector": "auto",
+      "sector": "commodities",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Automobiles, electrical machinery push sales of listed private manufacturing companies in Q4",
-      "theme": "rural_mobility",
+      "news_driver": "Central banks to increase gold reserves over next 12 months: WGC survey",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Hindustan Copper",
+          "ticker": "HINDCOPPER.NS",
           "impact": "Bullish",
-          "reason": "strong Q4 sales data -> increased consumer demand -> higher revenue",
-          "quant": "+5% sales growth"
+          "reason": "Increased gold reserves by central banks -> potential increase in gold prices -> improved business prospects for copper and other commodities",
+          "quant": "revenue +3-5% Q3"
         }
       ],
-      "watch": "Rural sales data"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "GIC Re offer for sale subscribed 3.72 times on day 1",
-      "theme": "PSU_disinvestment",
-      "stocks": [
-        {
-          "name": "GIC Re",
-          "ticker": "GICRE.NS",
-          "impact": "Bullish",
-          "reason": "successful OFS -> increased investor interest -> higher stock price",
-          "quant": "+2% stock price appreciation"
-        }
-      ],
-      "watch": "OFS subscription numbers"
+      "watch": "Gold price level of $1800"
     }
   ],
   "themes": [
-    "energy_price_volatility",
-    "renewable_energy_rotation"
+    "Energy",
+    "IT"
   ]
 }
