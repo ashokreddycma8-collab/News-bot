@@ -1,94 +1,86 @@
 {
   "date": "2026-06-16",
-  "time": "14:37",
+  "time": "19:55",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "auto",
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Brent oil price drops under $80 on US-Iran deal",
+      "theme": "energy_price_volatility",
+      "stocks": [
+        {
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran deal -> lower crude prices -> reduced revenue for ONGC",
+          "quant": "-5% revenue impact"
+        },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "lower crude prices -> reduced refining margins -> lower profitability",
+          "quant": "-100bps margin compression"
+        }
+      ],
+      "watch": "Brent oil price movement"
+    },
+    {
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran truce and decline in Brent crude prices",
+      "news_driver": "US-Iran deal driving crude prices lower",
+      "theme": "renewable_energy_rotation",
+      "stocks": [
+        {
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "lower crude prices -> increased competitiveness of renewables -> higher demand",
+          "quant": "+8% revenue growth"
+        }
+      ],
+      "watch": "Renewable energy capacity additions"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Automobiles, electrical machinery push sales of listed private manufacturing companies in Q4",
       "theme": "rural_mobility",
       "stocks": [
         {
           "name": "Maruti Suzuki",
           "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "US-Iran truce -> decline in Brent crude prices -> increase in consumer spending on automobiles",
-          "quant": "volume growth +5-7% Q2"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran truce -> decline in Brent crude prices -> improvement in commercial vehicle sales",
-          "quant": "EBITDA margins +100bps Q2"
+          "reason": "strong Q4 sales data -> increased consumer demand -> higher revenue",
+          "quant": "+5% sales growth"
         }
       ],
-      "watch": "Rs 10,500 level for MARUTI.NS"
+      "watch": "Rural sales data"
     },
     {
       "sector": "financial_services",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Rally in domestic markets and increase in investor participation",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Rally in domestic markets -> increase in investor participation -> growth in banking sector",
-          "quant": "NII growth +15-18% Q2"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Rally in domestic markets -> increase in investor participation -> improvement in asset quality",
-          "quant": "provision coverage ratio +200bps Q2"
-        }
-      ],
-      "watch": "Rs 1,700 level for HDFCBANK.NS"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Rally in domestic markets and increase in consumer spending",
-      "theme": "housing",
-      "stocks": [
-        {
-          "name": "DLF",
-          "ticker": "DLF.NS",
-          "impact": "Bullish",
-          "reason": "Rally in domestic markets -> increase in consumer spending -> growth in residential sales",
-          "quant": "sales bookings +20-25% Q2"
-        }
-      ],
-      "watch": "Rs 550 level for DLF.NS"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "US-Iran truce and decline in Brent crude prices",
-      "theme": null,
+      "news_driver": "GIC Re offer for sale subscribed 3.72 times on day 1",
+      "theme": "PSU_disinvestment",
       "stocks": [
         {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran truce -> decline in Brent crude prices -> decrease in crude oil realizations",
-          "quant": "revenue -8-10% Q2"
+          "name": "GIC Re",
+          "ticker": "GICRE.NS",
+          "impact": "Bullish",
+          "reason": "successful OFS -> increased investor interest -> higher stock price",
+          "quant": "+2% stock price appreciation"
         }
       ],
-      "watch": "Rs 150 level for ONGC.NS"
+      "watch": "OFS subscription numbers"
     }
   ],
   "themes": [
-    "rural_mobility",
-    "PSU_rotation",
-    "housing"
+    "energy_price_volatility",
+    "renewable_energy_rotation"
   ]
 }

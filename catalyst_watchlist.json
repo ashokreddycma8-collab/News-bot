@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T14:37:07.351988+05:30",
+  "generated_at": "2026-06-16T19:56:00.533764+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1392,7 +1392,7 @@
     "GICRE": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "GIC Re appointed manager of $1.4-b Bharat Maritime Insurance Pool",
+      "catalyst": "GIC Re offer for sale subscribed 3.72 times on day 1",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
@@ -2114,6 +2114,22 @@
       "direction": "BUY",
       "catalyst": "NSE likely to file IPO DRHP by Friday",
       "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AXISFIN": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "CCI approves Kedaara Capital's Rs 750 crore stake purchase proposal in Axis Finance",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "DOMS": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "Italian Promoter to pare stake worth Rs 892 Crore in Doms Industries Block Deal",
+      "category": "technical_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
