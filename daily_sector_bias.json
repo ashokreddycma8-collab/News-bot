@@ -1,136 +1,94 @@
 {
-  "date": "2026-06-15",
-  "time": "21:14",
+  "date": "2026-06-16",
+  "time": "14:37",
   "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "HCLTech invests \u20b91,427 crore in Sarvam AI",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "HCLTech's investment in Sarvam AI -> expansion into AI space -> increased revenue growth potential",
-          "quant": "revenue +5-7% Q4"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran peace deal optimism -> increased IT spending -> higher demand for Indian IT services",
-          "quant": "margins +50bps"
-        },
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Record goods exports -> increased demand for digital transformation -> higher IT services demand",
-          "quant": "order book +Rs500Cr"
-        }
-      ],
-      "watch": "HCLTech's Q4 earnings release"
-    },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Domestic PV dispatches up 27% in May 2026",
+      "news_driver": "US-Iran truce and decline in Brent crude prices",
       "theme": "rural_mobility",
       "stocks": [
         {
           "name": "Maruti Suzuki",
           "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "Increased domestic PV dispatches -> higher sales volume -> increased revenue",
-          "quant": "revenue +10-12% Q3"
+          "reason": "US-Iran truce -> decline in Brent crude prices -> increase in consumer spending on automobiles",
+          "quant": "volume growth +5-7% Q2"
         },
         {
           "name": "Tata Motors",
           "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Record goods exports -> increased demand for commercial vehicles -> higher sales volume",
-          "quant": "margins +75bps"
-        },
-        {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran peace deal optimism -> lower oil prices -> increased demand for SUVs",
-          "quant": "order book +Rs300Cr"
+          "reason": "US-Iran truce -> decline in Brent crude prices -> improvement in commercial vehicle sales",
+          "quant": "EBITDA margins +100bps Q2"
         }
       ],
-      "watch": "SIAM's June sales data release"
+      "watch": "Rs 10,500 level for MARUTI.NS"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Rally in domestic markets and increase in investor participation",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Rally in domestic markets -> increase in investor participation -> growth in banking sector",
+          "quant": "NII growth +15-18% Q2"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Rally in domestic markets -> increase in investor participation -> improvement in asset quality",
+          "quant": "provision coverage ratio +200bps Q2"
+        }
+      ],
+      "watch": "Rs 1,700 level for HDFCBANK.NS"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Rally in domestic markets and increase in consumer spending",
+      "theme": "housing",
+      "stocks": [
+        {
+          "name": "DLF",
+          "ticker": "DLF.NS",
+          "impact": "Bullish",
+          "reason": "Rally in domestic markets -> increase in consumer spending -> growth in residential sales",
+          "quant": "sales bookings +20-25% Q2"
+        }
+      ],
+      "watch": "Rs 550 level for DLF.NS"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Oil prices slip to lowest in three months",
+      "news_driver": "US-Iran truce and decline in Brent crude prices",
       "theme": null,
       "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Lower oil prices -> reduced refining margins -> lower revenue",
-          "quant": "margins -100bps"
-        },
         {
           "name": "ONGC",
           "ticker": "ONGC.NS",
           "impact": "Bearish",
-          "reason": "Lower oil prices -> reduced crude oil realizations -> lower revenue",
-          "quant": "revenue -5-7% Q4"
-        },
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Lower oil prices -> reduced refining margins -> lower profitability",
-          "quant": "order book -Rs200Cr"
+          "reason": "US-Iran truce -> decline in Brent crude prices -> decrease in crude oil realizations",
+          "quant": "revenue -8-10% Q2"
         }
       ],
-      "watch": "OPEC's next meeting"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Waaree Energies gets shareholders' nod to raise up to Rs 10,000 cr via QIP",
-      "theme": "renewable",
-      "stocks": [
-        {
-          "name": "Waaree Energies",
-          "ticker": "WAAREE.NS",
-          "impact": "Bullish",
-          "reason": "QIP approval -> increased capital for expansion -> higher growth potential",
-          "quant": "revenue +15-18% Q3"
-        },
-        {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
-          "impact": "Bullish",
-          "reason": "Increased focus on renewable energy -> higher demand for solar panels -> increased sales volume",
-          "quant": "margins +25bps"
-        },
-        {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
-          "impact": "Bullish",
-          "reason": "US-Iran peace deal optimism -> increased investment in renewable energy -> higher growth potential",
-          "quant": "order book +Rs400Cr"
-        }
-      ],
-      "watch": "Waaree Energies' QIP completion"
+      "watch": "Rs 150 level for ONGC.NS"
     }
   ],
   "themes": [
-    "internet_digital",
     "rural_mobility",
-    "renewable"
+    "PSU_rotation",
+    "housing"
   ]
 }
