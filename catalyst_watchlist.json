@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T20:31:21.321313+05:30",
+  "generated_at": "2026-06-17T14:09:13.562059+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2147,6 +2147,14 @@
       "catalyst": "Sebi drops proceedings against Prime Focus in misleading financials case",
       "category": "structural_change",
       "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CLAYCRAFT": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Rs 110-crore IPO to open on June 17, price band fixed at Rs 193-203",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
