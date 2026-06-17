@@ -1,107 +1,93 @@
 {
   "date": "2026-06-17",
-  "time": "14:21",
+  "time": "18:12",
   "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran peace deal",
+      "theme": "geopolitical risk reduction",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran peace deal -> easing crude prices -> reduced refining margins for IOC",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran peace deal -> easing crude prices -> reduced refining margins for HPCL",
+          "quant": "margins -120bps"
+        }
+      ],
+      "watch": "Brent crude price below $80"
+    },
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "IDBI Bank share price surge",
-      "theme": "PSU_rotation",
+      "news_driver": "easing crude prices, US Fed outcome",
+      "theme": "monetary policy easing",
       "stocks": [
-        {
-          "name": "IDBI Bank",
-          "ticker": "IDBI.NS",
-          "impact": "Bullish",
-          "reason": "IDBI Bank share price surge -> increased investor confidence -> potential 10-12% upside in near term",
-          "quant": "10-12%"
-        },
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "IDBI Bank share price surge -> broader banking sector rally -> potential 5-7% upside in near term",
-          "quant": "5-7%"
+          "reason": "easing crude prices -> reduced inflation expectations -> increased lending growth for SBI",
+          "quant": "lending growth +5-7% Q3"
         },
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "IDBI Bank share price surge -> increased investor confidence in PSU banks -> potential 8-10% upside in near term",
-          "quant": "8-10%"
+          "reason": "US Fed outcome -> potential rate cut -> increased liquidity for ICICI Bank",
+          "quant": "NIM +20bps"
         }
       ],
-      "watch": "SBIN.NS crossing 550 levels"
+      "watch": "US Fed interest rate decision"
     },
     {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "MINI Countryman C launch",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "BMW India",
-          "ticker": "null",
-          "impact": "Bullish",
-          "reason": "MINI Countryman C launch -> increased competition in premium SUV segment -> potential 2-3% upside in near term for peers",
-          "quant": "2-3%"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "MINI Countryman C launch -> increased demand for premium SUVs -> potential 4-5% upside in near term",
-          "quant": "4-5%"
-        }
-      ],
-      "watch": "TATAMOTORS.NS crossing 700 levels"
-    },
-    {
-      "sector": "it",
+      "sector": "defence",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "AI infrastructure and data centre plays",
-      "theme": "data_centers",
+      "news_driver": "West Asia crisis, PM Modi's warning",
+      "theme": "defence spending increase",
       "stocks": [
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
           "impact": "Bullish",
-          "reason": "AI infrastructure and data centre plays -> increased demand for IT services -> potential 12-15% upside in near term",
-          "quant": "12-15%"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "AI infrastructure and data centre plays -> increased demand for digital transformation services -> potential 10-12% upside in near term",
-          "quant": "10-12%"
+          "reason": "West Asia crisis -> increased defence spending -> potential order book increase for HAL",
+          "quant": "order book +Rs500Cr"
         }
       ],
-      "watch": "HCLTECH.NS crossing 1200 levels"
+      "watch": "defence budget allocation"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Jefferies raises Polycab share price target",
-      "theme": "null",
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "US-Iran peace deal",
+      "theme": "geopolitical risk reduction",
       "stocks": [
         {
-          "name": "Polycab India",
-          "ticker": "POLYCAB.NS",
-          "impact": "Bullish",
-          "reason": "Jefferies raises Polycab share price target -> increased investor confidence -> potential 8-10% upside in near term",
-          "quant": "8-10%"
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran peace deal -> easing crude prices -> reduced realizations for ONGC",
+          "quant": "revenue -8-10% Q3"
         }
       ],
-      "watch": "POLYCAB.NS crossing 3000 levels"
+      "watch": "crude oil price below $75"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "data_centers"
+    "geopolitical risk reduction",
+    "monetary policy easing"
   ]
 }
