@@ -1,93 +1,83 @@
 {
   "date": "2026-06-17",
-  "time": "18:12",
+  "time": "19:09",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "energy",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran peace deal",
-      "theme": "geopolitical risk reduction",
+      "conviction": 1,
+      "news_driver": "Easing crude oil prices",
+      "theme": null,
       "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Easing crude oil prices -> reduced refining margins -> lower revenue for RIL",
+          "quant": "-5% revenue impact"
+        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "US-Iran peace deal -> easing crude prices -> reduced refining margins for IOC",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran peace deal -> easing crude prices -> reduced refining margins for HPCL",
-          "quant": "margins -120bps"
+          "reason": "Easing crude oil prices -> reduced refining margins -> lower profitability for IOC",
+          "quant": "-100bps margin compression"
         }
       ],
-      "watch": "Brent crude price below $80"
+      "watch": "Crude oil prices below $80"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Harmony Infra Ventures investing in luxury housing project",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "DLF",
+          "ticker": "DLF.NS",
+          "impact": "Bullish",
+          "reason": "Investment in luxury housing project -> increased demand for high-end properties -> higher sales for DLF",
+          "quant": "+8% sales growth"
+        },
+        {
+          "name": "Godrej Properties",
+          "ticker": "GODREJPROP.NS",
+          "impact": "Bullish",
+          "reason": "Investment in luxury housing project -> increased competition in high-end segment -> potential market share gain for Godrej Properties",
+          "quant": "+200bps market share gain"
+        }
+      ],
+      "watch": "DLF stock price above 450"
     },
     {
       "sector": "banking",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "easing crude prices, US Fed outcome",
-      "theme": "monetary policy easing",
+      "conviction": 1,
+      "news_driver": "Yes Bank among stocks hitting 52-week highs",
+      "theme": null,
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Yes Bank",
+          "ticker": "YESBANK.NS",
           "impact": "Bullish",
-          "reason": "easing crude prices -> reduced inflation expectations -> increased lending growth for SBI",
-          "quant": "lending growth +5-7% Q3"
+          "reason": "Stock hitting 52-week high -> increased investor confidence -> higher valuations for Yes Bank",
+          "quant": "+10% valuation upside"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "US Fed outcome -> potential rate cut -> increased liquidity for ICICI Bank",
-          "quant": "NIM +20bps"
+          "reason": "Positive sentiment in banking sector -> increased lending growth -> higher revenue for ICICI Bank",
+          "quant": "+5% revenue growth"
         }
       ],
-      "watch": "US Fed interest rate decision"
-    },
-    {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "West Asia crisis, PM Modi's warning",
-      "theme": "defence spending increase",
-      "stocks": [
-        {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
-          "impact": "Bullish",
-          "reason": "West Asia crisis -> increased defence spending -> potential order book increase for HAL",
-          "quant": "order book +Rs500Cr"
-        }
-      ],
-      "watch": "defence budget allocation"
-    },
-    {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran peace deal",
-      "theme": "geopolitical risk reduction",
-      "stocks": [
-        {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran peace deal -> easing crude prices -> reduced realizations for ONGC",
-          "quant": "revenue -8-10% Q3"
-        }
-      ],
-      "watch": "crude oil price below $75"
+      "watch": "Nifty Bank index above 43,000"
     }
   ],
   "themes": [
-    "geopolitical risk reduction",
-    "monetary policy easing"
+    "real estate recovery",
+    "banking sector rebound"
   ]
 }

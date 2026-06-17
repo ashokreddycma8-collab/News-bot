@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T14:21:18.392326+05:30",
+  "generated_at": "2026-06-17T19:09:36.034578+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2156,6 +2156,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HARMONY": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Harmony Infra Ventures to invest Rs 800 cr in luxury housing project in Delhi-NCR",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
