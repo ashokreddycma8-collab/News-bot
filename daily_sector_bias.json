@@ -1,83 +1,100 @@
 {
-  "date": "2026-06-17",
-  "time": "19:09",
+  "date": "2026-06-18",
+  "time": "13:52",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Easing crude oil prices",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Easing crude oil prices -> reduced refining margins -> lower revenue for RIL",
-          "quant": "-5% revenue impact"
-        },
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Easing crude oil prices -> reduced refining margins -> lower profitability for IOC",
-          "quant": "-100bps margin compression"
-        }
-      ],
-      "watch": "Crude oil prices below $80"
-    },
-    {
-      "sector": "realty",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Harmony Infra Ventures investing in luxury housing project",
-      "theme": null,
+      "news_driver": "Softer crude oil prices and positive sentiment",
+      "theme": "null",
       "stocks": [
         {
-          "name": "DLF",
-          "ticker": "DLF.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Investment in luxury housing project -> increased demand for high-end properties -> higher sales for DLF",
-          "quant": "+8% sales growth"
+          "reason": "Softer crude oil prices -> reduced input costs -> increased margins",
+          "quant": "margins +50bps"
         },
         {
-          "name": "Godrej Properties",
-          "ticker": "GODREJPROP.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Investment in luxury housing project -> increased competition in high-end segment -> potential market share gain for Godrej Properties",
-          "quant": "+200bps market share gain"
+          "reason": "Positive sentiment -> increased investor confidence -> higher stock prices",
+          "quant": "revenue +5-7% Q3"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "US Fed decision -> reduced interest rates -> increased IT spending",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "DLF stock price above 450"
+      "watch": "TCS Q2 earnings release"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Tata Motors to hike commercial vehicle prices",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Price hike -> increased revenue -> improved profitability",
+          "quant": "revenue +4-6% Q3"
+        },
+        {
+          "name": "Ashok Leyland",
+          "ticker": "ASHOKLEY.NS",
+          "impact": "Bullish",
+          "reason": "Rising input costs -> price hike -> maintained margins",
+          "quant": "margins -50bps"
+        }
+      ],
+      "watch": "Tata Motors Q2 earnings release"
     },
     {
       "sector": "banking",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Yes Bank among stocks hitting 52-week highs",
-      "theme": null,
+      "news_driver": "Yes Bank shares jump 16% in 5 days",
+      "theme": "null",
       "stocks": [
         {
           "name": "Yes Bank",
           "ticker": "YESBANK.NS",
           "impact": "Bullish",
-          "reason": "Stock hitting 52-week high -> increased investor confidence -> higher valuations for Yes Bank",
-          "quant": "+10% valuation upside"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Positive sentiment in banking sector -> increased lending growth -> higher revenue for ICICI Bank",
-          "quant": "+5% revenue growth"
+          "reason": "Positive sentiment -> increased investor confidence -> higher stock prices",
+          "quant": "stock price +10% in 1 week"
         }
       ],
-      "watch": "Nifty Bank index above 43,000"
+      "watch": "Yes Bank Q2 earnings release"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "ICICI Prudential Life Insurance Shares Gain 3%",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "ICICI Prudential Life Insurance",
+          "ticker": "ICICIPRULI.NS",
+          "impact": "Bullish",
+          "reason": "Promoter seeking to retain stake -> increased investor confidence -> higher stock prices",
+          "quant": "stock price +5% in 1 week"
+        }
+      ],
+      "watch": "ICICI Prudential Life Insurance Q2 earnings release"
     }
   ],
   "themes": [
-    "real estate recovery",
-    "banking sector rebound"
+    "IT sector growth",
+    "Auto sector recovery"
   ]
 }
