@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T17:30:35.959881+05:30",
+  "generated_at": "2026-06-18T18:19:22.449877+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -566,12 +566,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "RBLBANK": {
-      "score": 7,
+      "score": 9,
       "direction": "BUY",
-      "catalyst": "Gets SEBI Nod For Emirates NBD Deal",
+      "catalyst": "Emirates NBD completes acquisition of majority stake with $2.75 billion investment",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "VARUNBEV": {
       "score": 6,
