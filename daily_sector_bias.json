@@ -1,100 +1,107 @@
 {
   "date": "2026-06-18",
-  "time": "13:52",
+  "time": "17:30",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Softer crude oil prices and positive sentiment",
+      "news_driver": "Easing crude oil prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "Softer crude oil prices -> reduced input costs -> increased margins",
-          "quant": "margins +50bps"
+          "reason": "Lower crude oil prices -> Reduced input costs -> Higher refining margins",
+          "quant": "margins +100bps"
         },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "Lower crude oil prices -> Reduced input costs -> Higher marketing margins",
+          "quant": "margins +80bps"
+        }
+      ],
+      "watch": "Brent crude price below $80"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Accenture cuts revenue outlook",
+      "theme": "null",
+      "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Positive sentiment -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +5-7% Q3"
+          "impact": "Bearish",
+          "reason": "Accenture's revenue outlook cut -> Similar impact on Indian IT companies -> Lower revenue growth",
+          "quant": "revenue growth -5%"
         },
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "US Fed decision -> reduced interest rates -> increased IT spending",
-          "quant": "order book +Rs200Cr"
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Accenture's revenue outlook cut -> Similar impact on Indian IT companies -> Lower revenue growth",
+          "quant": "revenue growth -4%"
         }
       ],
-      "watch": "TCS Q2 earnings release"
+      "watch": "Accenture's Q2 earnings"
     },
     {
-      "sector": "auto",
+      "sector": "defence",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tata Motors to hike commercial vehicle prices",
+      "conviction": 2,
+      "news_driver": "India's military-industrial moment has arrived",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Bharat Forge",
+          "ticker": "BHARATFORG.NS",
           "impact": "Bullish",
-          "reason": "Price hike -> increased revenue -> improved profitability",
-          "quant": "revenue +4-6% Q3"
+          "reason": "Growing defence sector -> Increased demand for defence equipment -> Higher revenue growth",
+          "quant": "revenue growth +15%"
         },
         {
-          "name": "Ashok Leyland",
-          "ticker": "ASHOKLEY.NS",
+          "name": "Mazagon Dock Shipbuilders",
+          "ticker": "MAZDOCK.NS",
           "impact": "Bullish",
-          "reason": "Rising input costs -> price hike -> maintained margins",
-          "quant": "margins -50bps"
+          "reason": "Growing defence sector -> Increased demand for defence equipment -> Higher revenue growth",
+          "quant": "revenue growth +12%"
         }
       ],
-      "watch": "Tata Motors Q2 earnings release"
+      "watch": "Defence budget allocation"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Yes Bank shares jump 16% in 5 days",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Yes Bank",
-          "ticker": "YESBANK.NS",
-          "impact": "Bullish",
-          "reason": "Positive sentiment -> increased investor confidence -> higher stock prices",
-          "quant": "stock price +10% in 1 week"
-        }
-      ],
-      "watch": "Yes Bank Q2 earnings release"
-    },
-    {
-      "sector": "financial_services",
+      "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "ICICI Prudential Life Insurance Shares Gain 3%",
+      "conviction": 2,
+      "news_driver": "NSE set to list in one of country's largest IPOs",
       "theme": "null",
       "stocks": [
         {
-          "name": "ICICI Prudential Life Insurance",
-          "ticker": "ICICIPRULI.NS",
+          "name": "ICICI Securities",
+          "ticker": "ICICISEC.NS",
           "impact": "Bullish",
-          "reason": "Promoter seeking to retain stake -> increased investor confidence -> higher stock prices",
-          "quant": "stock price +5% in 1 week"
+          "reason": "NSE IPO -> Increased activity in capital markets -> Higher brokerage revenue",
+          "quant": "revenue growth +8%"
+        },
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "NSE IPO -> Increased activity in capital markets -> Higher fee income",
+          "quant": "fee income +5%"
         }
       ],
-      "watch": "ICICI Prudential Life Insurance Q2 earnings release"
+      "watch": "NSE IPO listing"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Auto sector recovery"
+    "defence",
+    "capital_markets"
   ]
 }

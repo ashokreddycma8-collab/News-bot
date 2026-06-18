@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T13:52:32.103206+05:30",
+  "generated_at": "2026-06-18T17:30:35.959881+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -18,12 +18,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "BEL": {
-      "score": 5,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Tops defence pack in Q4 preview by Motilal Oswal",
-      "category": "brokerage_upgrade",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "India's military-industrial moment has arrived, indicating potential growth for defence companies",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "HAL": {
       "score": 7,
@@ -1150,12 +1150,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "BHARATFORG": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Q4 net profit down 17.5%, final dividend declared",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Stock hits 52-week high and rallied up to 20% in a month",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "TEJASNET": {
       "score": 8,
