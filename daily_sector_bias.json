@@ -1,99 +1,107 @@
 {
-  "date": "2026-06-18",
-  "time": "18:19",
+  "date": "2026-06-19",
+  "time": "14:13",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "defence",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Defence stocks surge up to 24% in 2 days",
+      "theme": "defence_capex",
+      "stocks": [
+        {
+          "name": "Paras Defence",
+          "ticker": "PARASDEF.NS",
+          "impact": "Bullish",
+          "reason": "Defence sector rally -> increased investor interest -> stock price surge",
+          "quant": "24% price gain in 2 days"
+        },
+        {
+          "name": "BEL",
+          "ticker": "BEL.NS",
+          "impact": "Bullish",
+          "reason": "Defence sector rally -> increased government orders -> revenue growth",
+          "quant": "15% revenue growth expected in Q2"
+        },
+        {
+          "name": "GRSE",
+          "ticker": "GRSE.NS",
+          "impact": "Bullish",
+          "reason": "Defence sector rally -> increased shipbuilding orders -> order book growth",
+          "quant": "Rs 500Cr order book addition expected"
+        }
+      ],
+      "watch": "Rs 750 level for Paras Defence"
+    },
     {
       "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Accenture's revenue forecast trim",
-      "theme": "null",
+      "news_driver": "Nifty IT crashes 6% to 3-year low",
+      "theme": null,
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Accenture's revenue forecast trim -> reduced IT spending -> lower revenue growth for Infosys",
-          "quant": "-5-7% Q3 revenue growth"
+          "reason": "US rate hike concerns -> decreased client spending -> revenue decline",
+          "quant": "5% revenue decline expected in Q3"
         },
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Accenture's revenue forecast trim -> decreased client budgets -> lower new bookings for TCS",
-          "quant": "-150bps EBIT margin"
-        },
-        {
-          "name": "HCL Technologies",
+          "name": "HCL Tech",
           "ticker": "HCLTECH.NS",
           "impact": "Bearish",
-          "reason": "Accenture's revenue forecast trim -> reduced demand for IT services -> lower revenue growth for HCL Tech",
-          "quant": "-3-5% Q3 revenue growth"
+          "reason": "US rate hike concerns -> decreased demand for IT services -> margin compression",
+          "quant": "100bps margin compression expected"
+        },
+        {
+          "name": "HFCL",
+          "ticker": "HFCL.NS",
+          "impact": "Bullish",
+          "reason": "5% upper circuit for second session -> increased investor interest -> stock price surge",
+          "quant": "10% price gain in 2 days"
         }
       ],
-      "watch": "INFY.NS price level of 1400"
+      "watch": "17,500 level for Nifty IT"
     },
     {
       "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Emirates NBD's acquisition of RBL Bank",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "RBL Bank",
-          "ticker": "RBLBANK.NS",
-          "impact": "Bullish",
-          "reason": "Emirates NBD's acquisition -> increased capital infusion -> improved balance sheet for RBL Bank",
-          "quant": "+10% capital adequacy ratio"
-        },
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Emirates NBD's acquisition -> potential for similar deals -> increased investor interest in PSU banks",
-          "quant": "+2-3% stock price"
-        }
-      ],
-      "watch": "SBIN.NS price level of 550"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India-UK trade pact",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "India-UK trade pact -> increased car imports at concessional duty -> higher sales for Tata Motors' UK subsidiary",
-          "quant": "+5-7% sales growth"
-        }
-      ],
-      "watch": "TATAMOTORS.NS price level of 700"
-    },
-    {
-      "sector": "financial_services",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "SEBI board meeting",
-      "theme": "null",
+      "news_driver": "HDFC Bank deposit growth falls short of expectations",
+      "theme": null,
       "stocks": [
         {
-          "name": "SBI Life Insurance",
-          "ticker": "SBILIFE.NS",
-          "impact": "Neutral",
-          "reason": "SEBI board meeting -> potential for open-market buybacks -> increased liquidity for SBI Life Insurance",
-          "quant": "null"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "Deposit growth falls short of expectations -> decreased net interest income -> profit decline",
+          "quant": "2% profit decline expected in Q2"
         }
       ],
-      "watch": "SEBI board meeting outcome"
+      "watch": "Rs 1,500 level for HDFC Bank"
+    },
+    {
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "India taps World Bank, ADB for $2.5 billion infrastructure spend",
+      "theme": "infrastructure_spend",
+      "stocks": [
+        {
+          "name": "L&T",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "Increased infrastructure spend -> increased order book -> revenue growth",
+          "quant": "10% revenue growth expected in Q3"
+        }
+      ],
+      "watch": "Rs 2,200 level for L&T"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "defence_capex",
+    "infrastructure_spend"
   ]
 }

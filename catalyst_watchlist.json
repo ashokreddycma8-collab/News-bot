@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T18:19:22.449877+05:30",
+  "generated_at": "2026-06-19T14:13:05.407727+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2164,6 +2164,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "RAJESH EXPORTS": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Rajesh Exports Rises 27% In Five Days After Hitting 52-Week Low",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
