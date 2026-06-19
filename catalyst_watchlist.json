@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T14:25:41.523632+05:30",
+  "generated_at": "2026-06-19T18:09:00.823359+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -688,7 +688,7 @@
     "RELIANCE": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "RIL AGM 2026 to discuss Jio IPO, Retail, and Energy",
+      "catalyst": "Reliance Retail to build manufacturing and export platforms",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
@@ -1167,10 +1167,10 @@
     },
     "BRIGADE": {
       "score": 6,
-      "direction": "BUY",
-      "catalyst": "Brigade Enterprises set to reward 1.5 lakh retail shareholders with bonus issue",
-      "category": "structural_change",
-      "ttl_hours": 72,
+      "direction": "SELL",
+      "catalyst": "Environmental clearance revoked for Rs 2,000 crore Chennai housing project",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "KARURVYSYA": {

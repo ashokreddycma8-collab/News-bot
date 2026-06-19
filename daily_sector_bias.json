@@ -1,58 +1,93 @@
 {
   "date": "2026-06-19",
-  "time": "14:25",
-  "mood": "Bearish",
+  "time": "18:09",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "telecom",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Accenture's revenue guidance cut",
-      "theme": "null",
+      "news_driver": "Jio IPO announcement",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Accenture's revenue guidance cut -> reduced IT spending by clients -> TCS revenue -8-10% Q3",
-          "quant": "-8%"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Jio IPO announcement -> increased investor confidence -> revenue growth of 10-12% in Q3",
+          "quant": "10-12%"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Accenture's revenue guidance cut -> decreased demand for IT services -> Infosys margins -150bps",
-          "quant": "-150bps"
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
+          "impact": "Neutral",
+          "reason": "Jio IPO announcement -> increased competition -> neutral impact on market share",
+          "quant": "0%"
+        }
+      ],
+      "watch": "Jio IPO listing date"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Reliance Retail growth plans",
+      "theme": "retail",
+      "stocks": [
+        {
+          "name": "Reliance Retail",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Reliance Retail growth plans -> increased exports -> revenue growth of 15% in Q3",
+          "quant": "15%"
         },
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
+          "name": "Trent",
+          "ticker": "TRENT.NS",
+          "impact": "Neutral",
+          "reason": "Reliance Retail growth plans -> increased competition -> neutral impact on market share",
+          "quant": "0%"
+        }
+      ],
+      "watch": "Reliance Retail IPO announcement"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Environmental Clearance Revoked For Brigade's Chennai Housing Project",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Brigade Enterprises",
+          "ticker": "BRIGADE.NS",
           "impact": "Bearish",
-          "reason": "US-Iran peace talks called off -> increased geopolitical tensions -> HCL Technologies revenue -5% Q3",
+          "reason": "Environmental Clearance Revoked -> project delays -> revenue decline of 5% in Q3",
           "quant": "-5%"
         }
       ],
-      "watch": "TCS stock price at 3500 levels"
+      "watch": "Brigade Enterprises' next project announcement"
     },
     {
-      "sector": "financial_services",
-      "direction": "Neutral",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "HDFC Mutual Fund's stock trades in May",
-      "theme": "null",
+      "news_driver": "Reliance Announces Jio TeleFrame Smart Home Device",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "HDFC Mutual Fund's stock trades in May -> no significant impact on HDFC Bank's business -> HDFC Bank revenue +2% Q3",
-          "quant": "+2%"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Jio TeleFrame Smart Home Device launch -> increased demand for smart home devices -> revenue growth of 8% in Q3",
+          "quant": "8%"
         }
       ],
-      "watch": "HDFC Bank's Q3 earnings release"
+      "watch": "Jio TeleFrame Smart Home Device sales data"
     }
   ],
   "themes": [
-    "null"
+    "internet_digital",
+    "retail"
   ]
 }
