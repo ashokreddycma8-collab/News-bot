@@ -1,65 +1,85 @@
 {
   "date": "2026-06-22",
-  "time": "14:55",
-  "mood": "Bearish",
+  "time": "20:37",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Accenture earnings miss",
-      "theme": "null",
+      "news_driver": "CBI arrests in Rs 7,623 crore bank fraud case",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bearish",
-          "reason": "Accenture earnings miss -> reduced IT spending -> lower revenue for Infosys",
-          "quant": "-5%"
+          "reason": "CBI arrests in bank fraud case -> increased scrutiny of banking sector -> potential decline in investor sentiment",
+          "quant": "-2% to SBIN.NS price"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
           "impact": "Bearish",
-          "reason": "Accenture earnings miss -> decreased investor confidence -> lower stock price for TCS",
-          "quant": "-3%"
-        },
-        {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bearish",
-          "reason": "Accenture earnings miss -> reduced IT demand -> lower margins for HCL Tech",
-          "quant": "-2%"
+          "reason": "CBI arrests in bank fraud case -> potential rise in provisioning requirements -> -100bps to margins",
+          "quant": "-100bps to margins"
         }
       ],
-      "watch": "Nifty IT index"
+      "watch": "SBIN.NS price level of 450"
     },
     {
-      "sector": "pharma",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Fertiliser stocks rally",
-      "theme": "null",
+      "news_driver": "Vedanta Aluminium Metal to double production capacity",
+      "theme": null,
       "stocks": [
         {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
+          "name": "Vedanta Limited",
+          "ticker": "VEDL.NS",
           "impact": "Bullish",
-          "reason": "Fertiliser stocks rally -> increased investor confidence -> higher stock price for Sun Pharma",
-          "quant": "+1.5%"
-        },
-        {
-          "name": "Dr Reddy's",
-          "ticker": "DRREDDY.NS",
-          "impact": "Bullish",
-          "reason": "Fertiliser stocks rally -> improved market sentiment -> higher revenue for Dr Reddy's",
-          "quant": "+2%"
+          "reason": "Vedanta Aluminium Metal to double production capacity -> increased revenue potential -> +8-10% to revenue",
+          "quant": "+8-10% to revenue"
         }
       ],
-      "watch": "Pharma index"
+      "watch": "VEDL.NS price level of 280"
+    },
+    {
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "US permits Iran to sell oil under 60-day licence",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Neutral",
+          "reason": "US permits Iran to sell oil under 60-day licence -> potential increase in global oil supply -> stable OMC margins",
+          "quant": "0% change to OMC margins"
+        }
+      ],
+      "watch": "Brent crude price level of $90"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "TCS to kickstart Q1 earnings on July 9",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "TCS to kickstart Q1 earnings on July 9 -> potential beat on earnings expectations -> +2% to TCS.NS price",
+          "quant": "+2% to TCS.NS price"
+        }
+      ],
+      "watch": "TCS.NS Q1 earnings release"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
