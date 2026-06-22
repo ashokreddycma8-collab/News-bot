@@ -1,91 +1,65 @@
 {
-  "date": "2026-06-19",
-  "time": "19:02",
-  "mood": "Cautious",
+  "date": "2026-06-22",
+  "time": "14:55",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "telecom",
-      "direction": "Neutral",
-      "conviction": 2,
-      "news_driver": "Jio IPO filing and potential business risk from social media ban on minors",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Neutral",
-          "reason": "Jio IPO filing -> increased scrutiny of business risks -> no immediate impact on stock price",
-          "quant": "null"
-        },
-        {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Bullish",
-          "reason": "Jio's potential business risk -> increased competition for Bharti Airtel -> revenue +2-3% Q2",
-          "quant": "2-3%"
-        }
-      ],
-      "watch": "Jio IPO subscription numbers"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sebi's easing of intra-day borrowing rules for MFs",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Sebi's rule easing -> increased liquidity for MFs -> loan growth +5% Q3",
-          "quant": "5%"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Sebi's rule easing -> increased trading activity -> fee income +150bps",
-          "quant": "150bps"
-        }
-      ],
-      "watch": "MF inflows into equity markets"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "news_driver": "Nirmala Sitharaman inaugurating Northeast's largest spice processing plant",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Nestle India",
-          "ticker": "NESTLEIND.NS",
-          "impact": "Bullish",
-          "reason": "Increased spice production -> higher demand for Nestle's products -> revenue +4-5% Q2",
-          "quant": "4-5%"
-        }
-      ],
-      "watch": "Spice production numbers"
-    },
-    {
-      "sector": "energy",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "India's Forex Reserves Decline By $9.98 Billion",
+      "news_driver": "Accenture earnings miss",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Forex reserves decline -> increased crude oil import costs -> margins -100bps",
-          "quant": "-100bps"
+          "reason": "Accenture earnings miss -> reduced IT spending -> lower revenue for Infosys",
+          "quant": "-5%"
+        },
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Accenture earnings miss -> decreased investor confidence -> lower stock price for TCS",
+          "quant": "-3%"
+        },
+        {
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "Accenture earnings miss -> reduced IT demand -> lower margins for HCL Tech",
+          "quant": "-2%"
         }
       ],
-      "watch": "Crude oil prices"
+      "watch": "Nifty IT index"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Fertiliser stocks rally",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Fertiliser stocks rally -> increased investor confidence -> higher stock price for Sun Pharma",
+          "quant": "+1.5%"
+        },
+        {
+          "name": "Dr Reddy's",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bullish",
+          "reason": "Fertiliser stocks rally -> improved market sentiment -> higher revenue for Dr Reddy's",
+          "quant": "+2%"
+        }
+      ],
+      "watch": "Pharma index"
     }
   ],
   "themes": [
-    "internet_digital"
+    "null"
   ]
 }
