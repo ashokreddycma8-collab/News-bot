@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T20:37:39.544783+05:30",
+  "generated_at": "2026-06-23T12:31:52.544703+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2180,6 +2180,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "VOLTAS": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "AC sales cross 1 million mark in record time in Q1 FY27",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SYRMA": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "JV pact with Japan\u2019s Kaga Electronics",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

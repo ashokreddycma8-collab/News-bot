@@ -1,85 +1,76 @@
 {
-  "date": "2026-06-22",
-  "time": "20:37",
-  "mood": "Cautious",
+  "date": "2026-06-23",
+  "time": "12:31",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bearish",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "CBI arrests in Rs 7,623 crore bank fraud case",
-      "theme": "PSU_rotation",
+      "news_driver": "Sensex jumps over 400 pts, Nifty above 24,100; IT stocks lead gains",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "CBI arrests in bank fraud case -> increased scrutiny of banking sector -> potential decline in investor sentiment",
-          "quant": "-2% to SBIN.NS price"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Nifty above 24,100 -> increased investor confidence -> higher valuations for IT stocks",
+          "quant": "revenue +5-7% Q2"
         },
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Bearish",
-          "reason": "CBI arrests in bank fraud case -> potential rise in provisioning requirements -> -100bps to margins",
-          "quant": "-100bps to margins"
+          "name": "Syrma SGS Technology",
+          "ticker": "SYRMA.NS",
+          "impact": "Bullish",
+          "reason": "JV pact with Japan\u2019s Kaga Electronics -> increased access to global markets -> higher export revenue",
+          "quant": "export revenue +12% YoY"
         }
       ],
-      "watch": "SBIN.NS price level of 450"
+      "watch": "Nifty 24,200 level"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Voltas shares in focus as firm\u2019s AC sales cross 1 million mark in record time in Q1 FY27",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Voltas",
+          "ticker": "VOLTAS.NS",
+          "impact": "Bullish",
+          "reason": "record AC sales -> higher revenue -> increased market share",
+          "quant": "revenue +15% Q1"
+        },
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bullish",
+          "reason": "strong volume growth outlook -> higher sales -> increased profitability",
+          "quant": "volume growth +8% YoY"
+        }
+      ],
+      "watch": "Voltas stock price 1,100 level"
     },
     {
       "sector": "metal",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Vedanta Aluminium Metal to double production capacity",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Vedanta Power, Aluminium, Oil & Gas and Iron shares soar up to 5%",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Vedanta Limited",
+          "name": "Vedanta",
           "ticker": "VEDL.NS",
           "impact": "Bullish",
-          "reason": "Vedanta Aluminium Metal to double production capacity -> increased revenue potential -> +8-10% to revenue",
-          "quant": "+8-10% to revenue"
+          "reason": "diversified business segments -> reduced dependence on single sector -> lower risk",
+          "quant": "revenue +10% Q2"
         }
       ],
-      "watch": "VEDL.NS price level of 280"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "US permits Iran to sell oil under 60-day licence",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Neutral",
-          "reason": "US permits Iran to sell oil under 60-day licence -> potential increase in global oil supply -> stable OMC margins",
-          "quant": "0% change to OMC margins"
-        }
-      ],
-      "watch": "Brent crude price level of $90"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "TCS to kickstart Q1 earnings on July 9",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "TCS to kickstart Q1 earnings on July 9 -> potential beat on earnings expectations -> +2% to TCS.NS price",
-          "quant": "+2% to TCS.NS price"
-        }
-      ],
-      "watch": "TCS.NS Q1 earnings release"
+      "watch": "Vedanta stock price 350 level"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "IT sector growth",
+    "Consumer demand"
   ]
 }
