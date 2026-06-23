@@ -1,92 +1,68 @@
 {
   "date": "2026-06-23",
-  "time": "16:18",
+  "time": "18:00",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Adani Mundra Airport expansion into logistics and business hub",
-      "theme": "infrastructure growth",
-      "stocks": [
-        {
-          "name": "Adani Enterprises",
-          "ticker": "ADANIENT.NS",
-          "impact": "Bullish",
-          "reason": "Adani Mundra Airport expansion -> increased logistics and business activity -> revenue growth of 10-12% in Q4",
-          "quant": "10-12%"
-        },
-        {
-          "name": "GAIL India",
-          "ticker": "GAIL.NS",
-          "impact": "Neutral",
-          "reason": "Rupee depreciation -> higher import costs -> margins contraction of 50bps",
-          "quant": "-50bps"
-        }
-      ],
-      "watch": "Adani Enterprises Q4 earnings release"
-    },
-    {
-      "sector": "auto",
+      "sector": "it",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Rupee slips as Fed rate expectations boost dollar",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Alibaba's Lazada cutting 5% of workforce in Southeast Asia, indicating slowing global demand",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher import costs -> margins contraction of 75bps",
-          "quant": "-75bps"
+          "reason": "Layoffs in global tech industry -> reduced demand for Indian IT services -> lower revenue growth for Infosys",
+          "quant": "revenue growth -2-3% Q2"
         },
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher import costs -> revenue decline of 4-5% in Q3",
-          "quant": "-4-5%"
+          "reason": "Global economic slowdown -> decreased IT spending by clients -> lower margins for TCS",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Tata Motors Q3 earnings release"
+      "watch": "Nasdaq performance tonight"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Bengal's BJP govt announces DA hike for its employees",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "DA hike announcement -> increased government spending -> potential credit growth of 8-10% in FY24",
-          "quant": "8-10%"
-        }
-      ],
-      "watch": "SBI Q3 earnings release"
-    },
-    {
-      "sector": "infra",
+      "sector": "oil_gas",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "India's Bullet Train Project Opens Applications For Over 200 Positions",
-      "theme": "infrastructure growth",
+      "news_driver": "Iran-Israel conflict and potential disruption to global oil supply",
+      "theme": "null",
       "stocks": [
         {
-          "name": "L&T",
-          "ticker": "LT.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "Bullet Train Project openings -> increased infrastructure activity -> order book growth of Rs 500Cr",
-          "quant": "Rs 500Cr"
+          "reason": "Higher crude oil prices -> increased refining margins for Reliance -> higher profitability",
+          "quant": "refining margins +$2-3/bbl"
         }
       ],
-      "watch": "L&T Q3 earnings release"
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "metal",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Global economic slowdown and decreased demand for metals",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
+          "impact": "Bearish",
+          "reason": "Slowdown in global construction and automotive industries -> reduced demand for aluminum -> lower sales for Hindalco",
+          "quant": "sales -5-7% Q2"
+        }
+      ],
+      "watch": "LME metal prices"
     }
   ],
   "themes": [
-    "infrastructure growth"
+    "null"
   ]
 }
