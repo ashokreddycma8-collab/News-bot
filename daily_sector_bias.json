@@ -1,76 +1,51 @@
 {
   "date": "2026-06-23",
-  "time": "12:31",
-  "mood": "Bullish",
+  "time": "13:05",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex jumps over 400 pts, Nifty above 24,100; IT stocks lead gains",
-      "theme": "null",
+      "news_driver": "PFC tapping dollar debt after RBI subsidy",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Power Finance Corporation",
+          "ticker": "PFC.NS",
           "impact": "Bullish",
-          "reason": "Nifty above 24,100 -> increased investor confidence -> higher valuations for IT stocks",
-          "quant": "revenue +5-7% Q2"
+          "reason": "RBI subsidy for dollar debt -> reduced borrowing costs -> increased profitability",
+          "quant": "10-12% increase in net interest income"
         },
         {
-          "name": "Syrma SGS Technology",
-          "ticker": "SYRMA.NS",
+          "name": "REC Limited",
+          "ticker": "RECLTD.NS",
           "impact": "Bullish",
-          "reason": "JV pact with Japan\u2019s Kaga Electronics -> increased access to global markets -> higher export revenue",
-          "quant": "export revenue +12% YoY"
+          "reason": "RBI subsidy for dollar debt -> potential for similar borrowing opportunities -> increased competitiveness",
+          "quant": "5-7% increase in market share"
         }
       ],
-      "watch": "Nifty 24,200 level"
+      "watch": "PFC's upcoming quarterly earnings release"
     },
     {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Voltas shares in focus as firm\u2019s AC sales cross 1 million mark in record time in Q1 FY27",
+      "sector": "capital_markets",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Vedanta share price slide",
       "theme": "null",
       "stocks": [
         {
-          "name": "Voltas",
-          "ticker": "VOLTAS.NS",
-          "impact": "Bullish",
-          "reason": "record AC sales -> higher revenue -> increased market share",
-          "quant": "revenue +15% Q1"
-        },
-        {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Bullish",
-          "reason": "strong volume growth outlook -> higher sales -> increased profitability",
-          "quant": "volume growth +8% YoY"
-        }
-      ],
-      "watch": "Voltas stock price 1,100 level"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Vedanta Power, Aluminium, Oil & Gas and Iron shares soar up to 5%",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Vedanta",
+          "name": "Vedanta Limited",
           "ticker": "VEDL.NS",
-          "impact": "Bullish",
-          "reason": "diversified business segments -> reduced dependence on single sector -> lower risk",
-          "quant": "revenue +10% Q2"
+          "impact": "Bearish",
+          "reason": "9% share price slide -> decreased investor confidence -> potential for further decline",
+          "quant": "-5% decline in stock price over the next quarter"
         }
       ],
-      "watch": "Vedanta stock price 350 level"
+      "watch": "Vedanta's upcoming investor conference"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Consumer demand"
+    "PSU_rotation"
   ]
 }
