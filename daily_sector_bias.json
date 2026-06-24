@@ -1,68 +1,100 @@
 {
-  "date": "2026-06-23",
-  "time": "18:00",
-  "mood": "Cautious",
+  "date": "2026-06-24",
+  "time": "12:29",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Alibaba's Lazada cutting 5% of workforce in Southeast Asia, indicating slowing global demand",
+      "news_driver": "PPFAS Mutual Fund's contrarian bet on IT stocks",
       "theme": "null",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Layoffs in global tech industry -> reduced demand for Indian IT services -> lower revenue growth for Infosys",
-          "quant": "revenue growth -2-3% Q2"
+          "impact": "Bullish",
+          "reason": "PPFAS Mutual Fund's bet on IT stocks -> increased investor confidence -> higher stock prices",
+          "quant": "revenue +5-7% Q2"
         },
         {
-          "name": "Tata Consultancy Services",
+          "name": "TCS",
           "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Global economic slowdown -> decreased IT spending by clients -> lower margins for TCS",
-          "quant": "margins -100bps"
+          "impact": "Bullish",
+          "reason": "Jabil's earnings boost from AI demand -> increased demand for Indian IT services -> higher stock prices",
+          "quant": "margins +100bps"
+        },
+        {
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "Nifty India Internet Index's top holdings -> increased investor interest -> higher stock prices",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "Nasdaq performance tonight"
+      "watch": "17500 level for Nifty"
     },
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Iran-Israel conflict and potential disruption to global oil supply",
+      "conviction": 1,
+      "news_driver": "Crude prices easing",
       "theme": "null",
       "stocks": [
         {
           "name": "Reliance Industries",
           "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "Higher crude oil prices -> increased refining margins for Reliance -> higher profitability",
-          "quant": "refining margins +$2-3/bbl"
+          "reason": "Crude prices easing -> lower input costs -> higher refining margins",
+          "quant": "refining margins +50bps"
+        },
+        {
+          "name": "Indian Oil",
+          "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "Crude prices easing -> lower input costs -> higher marketing margins",
+          "quant": "marketing margins +20bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "RBI's monetary policy decision"
     },
     {
-      "sector": "metal",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Global economic slowdown and decreased demand for metals",
+      "news_driver": "RBI MPC's growth rate forecast",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindalco Industries",
-          "ticker": "HINDALCO.NS",
-          "impact": "Bearish",
-          "reason": "Slowdown in global construction and automotive industries -> reduced demand for aluminum -> lower sales for Hindalco",
-          "quant": "sales -5-7% Q2"
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "RBI MPC's growth rate forecast -> stable interest rates -> neutral impact on banking stocks",
+          "quant": "null"
         }
       ],
-      "watch": "LME metal prices"
+      "watch": "GDP growth rate announcement"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Banks boosting renewable energy credit",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "ReNew Energy",
+          "ticker": "RENEWENERGY.NS",
+          "impact": "Bullish",
+          "reason": "Banks boosting renewable energy credit -> increased funding for renewable projects -> higher stock prices",
+          "quant": "revenue +10% Q3"
+        }
+      ],
+      "watch": "Renewable energy capacity addition targets"
     }
   ],
   "themes": [
-    "null"
+    "renewable energy",
+    "IT services"
   ]
 }
