@@ -1,100 +1,85 @@
 {
   "date": "2026-06-24",
-  "time": "12:29",
-  "mood": "Bullish",
+  "time": "17:47",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "PPFAS Mutual Fund's contrarian bet on IT stocks",
+      "news_driver": "Sensex falls 893 points, Nifty ends lower as IT stocks drag markets",
       "theme": "null",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "PPFAS Mutual Fund's bet on IT stocks -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +5-7% Q2"
+          "impact": "Bearish",
+          "reason": "Global economic uncertainty -> reduced IT spending -> lower revenue growth",
+          "quant": "-5% revenue growth Q3"
         },
         {
           "name": "TCS",
           "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Jabil's earnings boost from AI demand -> increased demand for Indian IT services -> higher stock prices",
-          "quant": "margins +100bps"
-        },
-        {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Nifty India Internet Index's top holdings -> increased investor interest -> higher stock prices",
-          "quant": "order book +Rs200Cr"
+          "impact": "Bearish",
+          "reason": "Dollar strength -> higher input costs -> lower margins",
+          "quant": "-100bps margins"
         }
       ],
-      "watch": "17500 level for Nifty"
+      "watch": "Infosys AGM"
     },
     {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Crude prices easing",
+      "sector": "metal",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Sensex slides over 520 pts, Nifty breaches 24,000 as metal stocks weigh on markets",
       "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Crude prices easing -> lower input costs -> higher refining margins",
-          "quant": "refining margins +50bps"
-        },
-        {
-          "name": "Indian Oil",
-          "ticker": "IOC.NS",
-          "impact": "Bullish",
-          "reason": "Crude prices easing -> lower input costs -> higher marketing margins",
-          "quant": "marketing margins +20bps"
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
+          "impact": "Bearish",
+          "reason": "Global economic slowdown -> reduced metal demand -> lower sales",
+          "quant": "-8% sales Q3"
         }
       ],
-      "watch": "RBI's monetary policy decision"
+      "watch": "Global metal prices"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "India's 28 big listed realty firms clock Rs 1.95 lakh cr pre-sales in FY26",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Godrej Properties",
+          "ticker": "GODREJPROP.NS",
+          "impact": "Bullish",
+          "reason": "Strong pre-sales growth -> higher revenue -> increased profitability",
+          "quant": "+12% revenue growth FY26"
+        }
+      ],
+      "watch": "Pre-sales growth"
     },
     {
       "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "RBI MPC's growth rate forecast",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "RBI MPC's growth rate forecast -> stable interest rates -> neutral impact on banking stocks",
-          "quant": "null"
-        }
-      ],
-      "watch": "GDP growth rate announcement"
-    },
-    {
-      "sector": "renewable",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Banks boosting renewable energy credit",
+      "news_driver": "Federal Bank among 6 stocks that hit 52-week highs, rally up to 15% in a month",
       "theme": "null",
       "stocks": [
         {
-          "name": "ReNew Energy",
-          "ticker": "RENEWENERGY.NS",
+          "name": "Federal Bank",
+          "ticker": "FEDERALBNK.NS",
           "impact": "Bullish",
-          "reason": "Banks boosting renewable energy credit -> increased funding for renewable projects -> higher stock prices",
-          "quant": "revenue +10% Q3"
+          "reason": "Improved asset quality -> lower provisioning -> higher profitability",
+          "quant": "+150bps NIM"
         }
       ],
-      "watch": "Renewable energy capacity addition targets"
+      "watch": "Asset quality"
     }
   ],
   "themes": [
-    "renewable energy",
-    "IT services"
+    "null"
   ]
 }
