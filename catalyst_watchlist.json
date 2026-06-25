@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:28:51.373590+05:30",
+  "generated_at": "2026-06-25T15:58:07.020505+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -458,8 +458,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "AMAZON": {
-      "note": "not listed on NSE",
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 9,
+      "direction": "BUY",
+      "catalyst": "Announced plans to invest an additional $13 billion in India on cloud and AI",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "JKIL": {
       "score": 8,

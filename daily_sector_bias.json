@@ -1,86 +1,92 @@
 {
   "date": "2026-06-25",
-  "time": "12:28",
+  "time": "15:58",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "energy",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude oil prices crash 42% from April's $126 peak",
-      "theme": "null",
+      "news_driver": "Amazon's $13 billion investment announcement in India",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Crude oil price crash -> reduced input costs for petrochemicals -> increased margins for RIL",
-          "quant": "margins +100bps"
+          "reason": "Amazon's investment announcement -> increased demand for cloud and AI services -> revenue growth of 10-12% for TCS",
+          "quant": "12%"
         },
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Crude oil price crash -> lower crude costs -> improved refining margins for IOC",
-          "quant": "refining margins +50bps"
+          "reason": "Amazon's investment announcement -> expansion of digital services -> order book growth of Rs 500Cr for Infosys",
+          "quant": "Rs 500Cr"
         }
       ],
-      "watch": "Brent crude price holding below $70"
+      "watch": "TCS's Q2 earnings release"
     },
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "West Bengal budget is 'expansionary' and seeks to revitalise the state's economy",
+      "news_driver": "Sensex jumps over 775 pts led by banks, financial rally",
       "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Yes Bank",
+          "ticker": "YESBANK.NS",
           "impact": "Bullish",
-          "reason": "Expansionary state budget -> increased government spending -> higher credit growth for SBI",
-          "quant": "credit growth +8-10% Q3"
+          "reason": "Sensex rally -> increased investor confidence -> net interest income growth of 8-10% for Yes Bank",
+          "quant": "9%"
         }
       ],
-      "watch": "PSU bank stock performance"
+      "watch": " RBI's monetary policy meeting"
     },
     {
-      "sector": "tourism_hospitality",
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Tourism sector can create 100 million more jobs by 2047: FAITH",
+      "news_driver": "India growth story to outweigh West Asia war impact on CV demand",
       "theme": "null",
       "stocks": [
         {
-          "name": "Indian Hotels Company",
-          "ticker": "INDHOTEL.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Job creation in tourism sector -> increased demand for hospitality services -> higher occupancy rates for IHCL",
-          "quant": "occupancy rates +5-7% Q3"
+          "reason": "India growth story -> increased demand for commercial vehicles -> revenue growth of 5-7% for Tata Motors",
+          "quant": "6%"
+        },
+        {
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
+          "impact": "Bullish",
+          "reason": "India growth story -> increased demand for two-wheelers -> volume growth of 4-6% for Bajaj Auto",
+          "quant": "5%"
         }
       ],
-      "watch": "Hotel occupancy rates"
+      "watch": "Tata Motors' Q2 earnings release"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Indian Tech\u2019s Nifty Share Shrinks to Record Low on AI Worries",
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Adani Ports upgraded to 'BBB' by S&P Global",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "AI worries -> reduced IT spending -> lower revenue growth for TCS",
-          "quant": "revenue growth -5-7% Q3"
+          "name": "Adani Ports",
+          "ticker": "ADANIPORTS.NS",
+          "impact": "Bullish",
+          "reason": "Rating upgrade -> lower borrowing costs -> interest expense reduction of 50bps for Adani Ports",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Nifty IT index performance"
+      "watch": "Adani Ports' Q2 earnings release"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "internet_digital"
   ]
 }
