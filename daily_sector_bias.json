@@ -1,85 +1,86 @@
 {
-  "date": "2026-06-24",
-  "time": "17:47",
-  "mood": "Cautious",
+  "date": "2026-06-25",
+  "time": "12:28",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "energy",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex falls 893 points, Nifty ends lower as IT stocks drag markets",
+      "news_driver": "Crude oil prices crash 42% from April's $126 peak",
       "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Global economic uncertainty -> reduced IT spending -> lower revenue growth",
-          "quant": "-5% revenue growth Q3"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Crude oil price crash -> reduced input costs for petrochemicals -> increased margins for RIL",
+          "quant": "margins +100bps"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Dollar strength -> higher input costs -> lower margins",
-          "quant": "-100bps margins"
-        }
-      ],
-      "watch": "Infosys AGM"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Sensex slides over 520 pts, Nifty breaches 24,000 as metal stocks weigh on markets",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bearish",
-          "reason": "Global economic slowdown -> reduced metal demand -> lower sales",
-          "quant": "-8% sales Q3"
-        }
-      ],
-      "watch": "Global metal prices"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India's 28 big listed realty firms clock Rs 1.95 lakh cr pre-sales in FY26",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Godrej Properties",
-          "ticker": "GODREJPROP.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bullish",
-          "reason": "Strong pre-sales growth -> higher revenue -> increased profitability",
-          "quant": "+12% revenue growth FY26"
+          "reason": "Crude oil price crash -> lower crude costs -> improved refining margins for IOC",
+          "quant": "refining margins +50bps"
         }
       ],
-      "watch": "Pre-sales growth"
+      "watch": "Brent crude price holding below $70"
     },
     {
       "sector": "banking",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Federal Bank among 6 stocks that hit 52-week highs, rally up to 15% in a month",
+      "conviction": 2,
+      "news_driver": "West Bengal budget is 'expansionary' and seeks to revitalise the state's economy",
       "theme": "null",
       "stocks": [
         {
-          "name": "Federal Bank",
-          "ticker": "FEDERALBNK.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Improved asset quality -> lower provisioning -> higher profitability",
-          "quant": "+150bps NIM"
+          "reason": "Expansionary state budget -> increased government spending -> higher credit growth for SBI",
+          "quant": "credit growth +8-10% Q3"
         }
       ],
-      "watch": "Asset quality"
+      "watch": "PSU bank stock performance"
+    },
+    {
+      "sector": "tourism_hospitality",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Tourism sector can create 100 million more jobs by 2047: FAITH",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Hotels Company",
+          "ticker": "INDHOTEL.NS",
+          "impact": "Bullish",
+          "reason": "Job creation in tourism sector -> increased demand for hospitality services -> higher occupancy rates for IHCL",
+          "quant": "occupancy rates +5-7% Q3"
+        }
+      ],
+      "watch": "Hotel occupancy rates"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Indian Tech\u2019s Nifty Share Shrinks to Record Low on AI Worries",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "AI worries -> reduced IT spending -> lower revenue growth for TCS",
+          "quant": "revenue growth -5-7% Q3"
+        }
+      ],
+      "watch": "Nifty IT index performance"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }
