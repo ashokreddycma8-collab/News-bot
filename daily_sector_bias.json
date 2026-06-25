@@ -1,92 +1,101 @@
 {
   "date": "2026-06-25",
-  "time": "15:58",
+  "time": "17:44",
   "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Falling crude oil prices and foreign inflows lifting sentiment",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Falling crude oil prices -> reduced under-recovery burden -> improved margins",
+          "quant": "margins +50bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Foreign inflows -> increased liquidity -> improved credit growth",
+          "quant": "credit growth +8-10% Q3"
+        }
+      ],
+      "watch": "PSU bank index breaking out above 200-day moving average"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Amazon's $13 billion investment announcement in India",
-      "theme": "internet_digital",
+      "news_driver": "Optimism over trade deals and global trends",
+      "theme": "China+1",
       "stocks": [
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Amazon's investment announcement -> increased demand for cloud and AI services -> revenue growth of 10-12% for TCS",
-          "quant": "12%"
+          "reason": "Trade deal optimism -> increased outsourcing demand -> revenue growth",
+          "quant": "revenue +8-10% Q3"
         },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Amazon's investment announcement -> expansion of digital services -> order book growth of Rs 500Cr for Infosys",
-          "quant": "Rs 500Cr"
+          "reason": "Global trends -> increased digital transformation demand -> order book growth",
+          "quant": "order book +Rs400Cr"
         }
       ],
-      "watch": "TCS's Q2 earnings release"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sensex jumps over 775 pts led by banks, financial rally",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Yes Bank",
-          "ticker": "YESBANK.NS",
-          "impact": "Bullish",
-          "reason": "Sensex rally -> increased investor confidence -> net interest income growth of 8-10% for Yes Bank",
-          "quant": "9%"
-        }
-      ],
-      "watch": " RBI's monetary policy meeting"
+      "watch": "Nifty IT index breaking out above 50-day moving average"
     },
     {
       "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India growth story to outweigh West Asia war impact on CV demand",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Tractor registrations growth and rural mobility",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
           "impact": "Bullish",
-          "reason": "India growth story -> increased demand for commercial vehicles -> revenue growth of 5-7% for Tata Motors",
-          "quant": "6%"
+          "reason": "Tractor registrations growth -> increased sales volume -> revenue growth",
+          "quant": "revenue +10-12% Q3"
         },
         {
-          "name": "Bajaj Auto",
-          "ticker": "BAJAJ-AUTO.NS",
+          "name": "Escorts",
+          "ticker": "ESCORTS.NS",
           "impact": "Bullish",
-          "reason": "India growth story -> increased demand for two-wheelers -> volume growth of 4-6% for Bajaj Auto",
-          "quant": "5%"
+          "reason": "Rural mobility demand -> increased tractor sales -> improved margins",
+          "quant": "margins +75bps"
         }
       ],
-      "watch": "Tata Motors' Q2 earnings release"
+      "watch": "Tractor sales growth sustaining above 10% YoY"
     },
     {
-      "sector": "capital_markets",
+      "sector": "realty",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Adani Ports upgraded to 'BBB' by S&P Global",
+      "conviction": 2,
+      "news_driver": "Housing sales growth",
       "theme": "null",
       "stocks": [
         {
-          "name": "Adani Ports",
-          "ticker": "ADANIPORTS.NS",
+          "name": "DLF",
+          "ticker": "DLF.NS",
           "impact": "Bullish",
-          "reason": "Rating upgrade -> lower borrowing costs -> interest expense reduction of 50bps for Adani Ports",
-          "quant": "-50bps"
+          "reason": "Housing sales growth -> increased revenue -> improved profitability",
+          "quant": "revenue +12-15% Q3"
         }
       ],
-      "watch": "Adani Ports' Q2 earnings release"
+      "watch": "Housing sales growth sustaining above 15% YoY"
     }
   ],
   "themes": [
-    "internet_digital"
+    "PSU_rotation",
+    "China+1",
+    "rural_mobility"
   ]
 }
