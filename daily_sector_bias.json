@@ -1,52 +1,76 @@
 {
   "date": "2026-06-26",
-  "time": "13:09",
-  "mood": "Cautious",
+  "time": "16:07",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "oil_gas",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Global sell-off in AI stocks",
-      "theme": "internet_digital",
+      "news_driver": "Crude oil prices at $65",
+      "theme": "consumption boom",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Global AI stock sell-off -> reduced investor appetite for IT stocks -> revenue growth -5-7% Q2",
-          "quant": "-120bps"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Lower crude oil prices -> reduced input costs -> increased refining margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Global AI stock sell-off -> decreased client spending on digital transformation -> margins -100bps",
-          "quant": "-2.5%"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "Lower crude oil prices -> reduced input costs -> increased marketing margins",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "INFY.NS price level of 1400"
+      "watch": "Brent crude oil price level of $70"
     },
     {
-      "sector": "banking",
+      "sector": "energy",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Mayuresh Joshi's investment in mid-sized banks",
-      "theme": "PSU_rotation",
+      "conviction": 2,
+      "news_driver": "Lower crude oil prices and consumption boom",
+      "theme": "consumption boom",
       "stocks": [
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
           "impact": "Bullish",
-          "reason": "Mayuresh Joshi's investment -> increased investor confidence in mid-sized banks -> deposit growth +8-10% Q3",
-          "quant": "+150bps"
+          "reason": "Lower crude oil prices -> reduced fuel costs -> increased profitability",
+          "quant": "profit +5-7% Q3"
         }
       ],
-      "watch": "BANKBARODA.NS price level of 100"
+      "watch": "NTPC's Q3 earnings release"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "IPO wave ahead",
+      "theme": "IPO wave",
+      "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Jio's upcoming IPO -> increased investor interest -> potential re-rating",
+          "quant": "revenue +2-3% Q3"
+        },
+        {
+          "name": "NSE",
+          "ticker": "NSE.NS",
+          "impact": "Bullish",
+          "reason": "NSE's upcoming IPO -> increased investor interest -> potential re-rating",
+          "quant": "revenue +5-7% Q3"
+        }
+      ],
+      "watch": "Jio and NSE IPO dates"
     }
   ],
   "themes": [
-    "internet_digital",
-    "PSU_rotation"
+    "consumption boom",
+    "IPO wave"
   ]
 }
