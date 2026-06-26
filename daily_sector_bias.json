@@ -1,86 +1,52 @@
 {
   "date": "2026-06-26",
-  "time": "12:36",
-  "mood": "Bullish",
+  "time": "13:09",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Crude oil prices fall up to 2%, head for weekly losses as Hormuz supply fears ease",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price decline -> reduced refining margins -> lower profitability",
-          "quant": "-100bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price decline -> lower revenue -> reduced earnings",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Brent crude price level of $70 per barrel"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tata Motors CV acquisition delay won't dent long-term gains: Sudip Bandyopadhyay",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "CV acquisition delay -> long-term growth prospects intact -> higher investor confidence",
-          "quant": "+3%"
-        }
-      ],
-      "watch": "Tata Motors' Q3 earnings release"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "news_driver": "SBI Research sees Bengal budget tone most optimistic in 17 years",
-      "conviction": 1,
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Optimistic budget tone -> increased government spending -> higher credit growth",
-          "quant": "+2%"
-        }
-      ],
-      "watch": "Bengal budget allocation for infrastructure projects"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "35 Nations, Including India, Sign Statement On AI Opportunity At Pax Silica Summit In US",
+      "news_driver": "Global sell-off in AI stocks",
       "theme": "internet_digital",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "AI opportunity statement -> increased adoption -> higher revenue growth",
-          "quant": "+1.5%"
+          "impact": "Bearish",
+          "reason": "Global AI stock sell-off -> reduced investor appetite for IT stocks -> revenue growth -5-7% Q2",
+          "quant": "-120bps"
+        },
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Global AI stock sell-off -> decreased client spending on digital transformation -> margins -100bps",
+          "quant": "-2.5%"
         }
       ],
-      "watch": "AI adoption trends in the US market"
+      "watch": "INFY.NS price level of 1400"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Mayuresh Joshi's investment in mid-sized banks",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
+          "impact": "Bullish",
+          "reason": "Mayuresh Joshi's investment -> increased investor confidence in mid-sized banks -> deposit growth +8-10% Q3",
+          "quant": "+150bps"
+        }
+      ],
+      "watch": "BANKBARODA.NS price level of 100"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "internet_digital",
+    "PSU_rotation"
   ]
 }
