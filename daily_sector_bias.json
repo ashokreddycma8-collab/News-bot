@@ -1,101 +1,86 @@
 {
-  "date": "2026-06-25",
-  "time": "17:44",
+  "date": "2026-06-26",
+  "time": "12:36",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Crude oil prices fall up to 2%, head for weekly losses as Hormuz supply fears ease",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price decline -> reduced refining margins -> lower profitability",
+          "quant": "-100bps"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price decline -> lower revenue -> reduced earnings",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Brent crude price level of $70 per barrel"
+    },
+    {
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Falling crude oil prices and foreign inflows lifting sentiment",
+      "news_driver": "Tata Motors CV acquisition delay won't dent long-term gains: Sudip Bandyopadhyay",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "CV acquisition delay -> long-term growth prospects intact -> higher investor confidence",
+          "quant": "+3%"
+        }
+      ],
+      "watch": "Tata Motors' Q3 earnings release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "news_driver": "SBI Research sees Bengal budget tone most optimistic in 17 years",
+      "conviction": 1,
       "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Falling crude oil prices -> reduced under-recovery burden -> improved margins",
-          "quant": "margins +50bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Foreign inflows -> increased liquidity -> improved credit growth",
-          "quant": "credit growth +8-10% Q3"
+          "reason": "Optimistic budget tone -> increased government spending -> higher credit growth",
+          "quant": "+2%"
         }
       ],
-      "watch": "PSU bank index breaking out above 200-day moving average"
+      "watch": "Bengal budget allocation for infrastructure projects"
     },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Optimism over trade deals and global trends",
-      "theme": "China+1",
+      "conviction": 1,
+      "news_driver": "35 Nations, Including India, Sign Statement On AI Opportunity At Pax Silica Summit In US",
+      "theme": "internet_digital",
       "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Trade deal optimism -> increased outsourcing demand -> revenue growth",
-          "quant": "revenue +8-10% Q3"
-        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Global trends -> increased digital transformation demand -> order book growth",
-          "quant": "order book +Rs400Cr"
+          "reason": "AI opportunity statement -> increased adoption -> higher revenue growth",
+          "quant": "+1.5%"
         }
       ],
-      "watch": "Nifty IT index breaking out above 50-day moving average"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tractor registrations growth and rural mobility",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
-          "impact": "Bullish",
-          "reason": "Tractor registrations growth -> increased sales volume -> revenue growth",
-          "quant": "revenue +10-12% Q3"
-        },
-        {
-          "name": "Escorts",
-          "ticker": "ESCORTS.NS",
-          "impact": "Bullish",
-          "reason": "Rural mobility demand -> increased tractor sales -> improved margins",
-          "quant": "margins +75bps"
-        }
-      ],
-      "watch": "Tractor sales growth sustaining above 10% YoY"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Housing sales growth",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "DLF",
-          "ticker": "DLF.NS",
-          "impact": "Bullish",
-          "reason": "Housing sales growth -> increased revenue -> improved profitability",
-          "quant": "revenue +12-15% Q3"
-        }
-      ],
-      "watch": "Housing sales growth sustaining above 15% YoY"
+      "watch": "AI adoption trends in the US market"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1",
-    "rural_mobility"
+    "internet_digital"
   ]
 }
