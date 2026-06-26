@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T15:58:07.020505+05:30",
+  "generated_at": "2026-06-26T17:38:38.397980+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2205,6 +2205,14 @@
       "score": 7,
       "direction": "BUY",
       "catalyst": "STL launches QIP at \u20b9613.69 floor price",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "POWERGRID": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Power Grid of India board okays raising borrowing limit to Rs 2.2 lakh cr",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
