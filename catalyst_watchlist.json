@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T18:23:27.078465+05:30",
+  "generated_at": "2026-06-29T19:31:43.286284+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -388,9 +388,9 @@
     "TECHM": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 results: higher profit and revenue beats estimates",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "Tech Mahindra to deploy Perplexity AI across sales and customer-facing teams",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "INTELLECT": {

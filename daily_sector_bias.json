@@ -1,68 +1,100 @@
 {
   "date": "2026-06-29",
-  "time": "18:23",
-  "mood": "Cautious",
+  "time": "19:31",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "realty",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Omaxe's Rs 6,200 cr investment in 19 hotels and Puravankara's Rs 1,000 cr revenue target from Bengaluru project",
-      "theme": "null",
+      "news_driver": "Tech Mahindra to deploy Perplexity AI across sales, customer-facing teams",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Omaxe Limited",
-          "ticker": "OMAXE.NS",
+          "name": "Tech Mahindra",
+          "ticker": "TECHM.NS",
           "impact": "Bullish",
-          "reason": "Omaxe's hotel investment plan -> increased revenue visibility -> 10-12% upside in stock price",
+          "reason": "AI deployment -> increased sales efficiency -> revenue growth +5-7% Q2",
+          "quant": "5-7%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Nasdaq futures jump -> increased IT spending -> order book +Rs200Cr",
+          "quant": "Rs200Cr"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "AI-driven rebound -> increased demand for digital services -> margins +100bps",
+          "quant": "100bps"
+        }
+      ],
+      "watch": "Nasdaq futures sustaining above 1% gain"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Axis Bank confirms CFO Puneet Sharma's exit",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Neutral",
+          "reason": "CFO exit -> leadership transition -> no immediate impact on operations",
+          "quant": "null"
+        }
+      ],
+      "watch": "Axis Bank's Q2 earnings release"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Tanker traffic shows India's Russian crude imports set to break historical records",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bullish",
+          "reason": "Increased crude imports -> higher refining volumes -> revenue growth +10-12% Q2",
           "quant": "10-12%"
         },
         {
-          "name": "Puravankara Limited",
-          "ticker": "PURVA.NS",
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bullish",
-          "reason": "Puravankara's Bengaluru project revenue target -> improved sales visibility -> 8-10% revenue growth in Q3",
-          "quant": "8-10%"
+          "reason": "Record crude imports -> improved margins -> profitability +15% Q2",
+          "quant": "15%"
         }
       ],
-      "watch": "Omaxe's hotel project completion timeline"
+      "watch": "Crude oil prices sustaining above $70/bbl"
     },
     {
-      "sector": "pharma",
+      "sector": "capital_goods",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Aurobindo Pharma hitting 52-week high",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "IIP growth quickens to five-month high of 5.1% on cross-sector improvements",
+      "theme": "capital_goods",
       "stocks": [
         {
-          "name": "Aurobindo Pharma Limited",
-          "ticker": "AUROPHARMA.NS",
+          "name": "L&T",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "Aurobindo Pharma's 52-week high price -> increased investor confidence -> 5-7% upside in stock price",
-          "quant": "5-7%"
+          "reason": "IIP growth -> increased infrastructure spending -> order book +Rs500Cr",
+          "quant": "Rs500Cr"
         }
       ],
-      "watch": "Aurobindo Pharma's Q3 earnings release"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "US-Iran tensions easing, impacting crude oil prices",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation Limited",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Easing US-Iran tensions -> lower crude oil prices -> 100-150bps margin contraction for OMCs",
-          "quant": "-100bps"
-        }
-      ],
-      "watch": "Crude oil price movement"
+      "watch": "IIP growth sustaining above 5% in upcoming months"
     }
   ],
   "themes": [
-    "null"
+    "internet_digital",
+    "capital_goods"
   ]
 }
