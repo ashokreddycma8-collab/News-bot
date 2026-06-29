@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T13:59:47.675185+05:30",
+  "generated_at": "2026-06-29T14:16:09.724659+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -330,12 +330,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "PERSISTENT": {
-      "score": 6,
-      "direction": "BUY",
-      "catalyst": "Q4 profit jumps 20%, declares dividend of Rs 18/share",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "score": 8,
+      "direction": "SELL",
+      "catalyst": "Nagarro deal sparks investor concern",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "INDOSOLAR": {
       "score": 4,

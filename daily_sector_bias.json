@@ -1,93 +1,100 @@
 {
   "date": "2026-06-29",
-  "time": "13:59",
+  "time": "14:16",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Apple Price Hikes",
-      "theme": "null",
+      "news_driver": "Rs 8,350 crore crash in Persistent shares",
+      "theme": "internet_digital",
       "stocks": [
+        {
+          "name": "Persistent Systems",
+          "ticker": "PERSISTENT.NS",
+          "impact": "Bearish",
+          "reason": "Nagarro deal concerns -> increased competition and integration risks -> revenue growth -5-7% Q4",
+          "quant": "-120bps"
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Apple price hikes -> reduced consumer spending on electronics -> lower IT services demand",
-          "quant": "revenue -5-7% Q2"
+          "reason": "Global market volatility -> decreased IT spending -> margins -100bps",
+          "quant": "-2.5%"
         },
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
           "impact": "Bearish",
-          "reason": "Apple price hikes -> decreased IT project implementations -> lower revenue growth",
-          "quant": "margins -100bps"
+          "reason": "South Korea's AI-chip investment -> increased competition -> order book -Rs200Cr",
+          "quant": "-3.5%"
         }
       ],
-      "watch": "Nifty IT index support at 28000"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q1 earnings preview",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Nestle",
-          "ticker": "NESTLEIND.NS",
-          "impact": "Neutral",
-          "reason": "Q1 earnings preview -> expected revenue growth of 8-10% -> stable stock performance",
-          "quant": "revenue +8-10% Q1"
-        },
-        {
-          "name": "Titan",
-          "ticker": "TITAN.NS",
-          "impact": "Neutral",
-          "reason": "Q1 earnings preview -> anticipated margin expansion -> steady stock price",
-          "quant": "margins +50bps"
-        }
-      ],
-      "watch": "Nestle Q1 earnings release"
+      "watch": "Nifty IT index 30000 level"
     },
     {
       "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Kotak Mahindra Bank shares down",
-      "theme": "null",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Pankaj Pandey's market rally prediction",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Kotak Mahindra Bank",
-          "ticker": "KOTAKBANK.NS",
-          "impact": "Bearish",
-          "reason": "Kotak Mahindra Bank shares down -> investor sentiment turning negative -> potential sector-wide impact",
-          "quant": "stock price -3.5%"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Pankaj Pandey's prediction -> increased investor confidence -> deposit growth +8-10% Q3",
+          "quant": "+150bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Easing metrology rules -> reduced compliance costs -> margins +50bps",
+          "quant": "+2.5%"
         }
       ],
-      "watch": "Kotak Mahindra Bank stock price"
+      "watch": "SBIN 600 level"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Iran-Oman tensions",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Iran-Oman tensions -> increased crude oil prices -> margins -100bps",
+          "quant": "-2%"
+        }
+      ],
+      "watch": "Brent crude 90 level"
     },
     {
       "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Zerodha Files For SEBI Merchant Banking Licence",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "GIFT Nifty record open interest",
+      "theme": null,
       "stocks": [
         {
-          "name": "Zerodha",
-          "ticker": "null",
+          "name": "National Stock Exchange",
+          "ticker": "NSE.NS",
           "impact": "Bullish",
-          "reason": "Zerodha Files For SEBI Merchant Banking Licence -> expected increase in investment banking revenue -> positive sector outlook",
-          "quant": "revenue +15-20% FY27"
+          "reason": "Record open interest -> increased trading volumes -> revenue growth +5-7% Q4",
+          "quant": "+120bps"
         }
       ],
-      "watch": "SEBI approval for Zerodha's merchant banking licence"
+      "watch": "Nifty 24000 level"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "internet_digital"
   ]
 }
