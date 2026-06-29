@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T14:16:09.724659+05:30",
+  "generated_at": "2026-06-29T18:23:27.078465+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1602,11 +1602,11 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "PURVA": {
-      "score": 6,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 profit at Rs 110 cr, revenue rises to Rs 1,541cr",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "Puravankara aims Rs 1,000 cr revenue from 6.4 acre housing project in Bengaluru",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "GEVERNOA": {
@@ -2216,6 +2216,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "OMAXE": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Omaxe to invest Rs 6,200 cr to build 19 hotels in 5 states",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

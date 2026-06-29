@@ -1,100 +1,68 @@
 {
   "date": "2026-06-29",
-  "time": "14:16",
+  "time": "18:23",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Rs 8,350 crore crash in Persistent shares",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Persistent Systems",
-          "ticker": "PERSISTENT.NS",
-          "impact": "Bearish",
-          "reason": "Nagarro deal concerns -> increased competition and integration risks -> revenue growth -5-7% Q4",
-          "quant": "-120bps"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Global market volatility -> decreased IT spending -> margins -100bps",
-          "quant": "-2.5%"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bearish",
-          "reason": "South Korea's AI-chip investment -> increased competition -> order book -Rs200Cr",
-          "quant": "-3.5%"
-        }
-      ],
-      "watch": "Nifty IT index 30000 level"
-    },
-    {
-      "sector": "banking",
+      "sector": "realty",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Pankaj Pandey's market rally prediction",
-      "theme": "PSU_rotation",
+      "news_driver": "Omaxe's Rs 6,200 cr investment in 19 hotels and Puravankara's Rs 1,000 cr revenue target from Bengaluru project",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Omaxe Limited",
+          "ticker": "OMAXE.NS",
           "impact": "Bullish",
-          "reason": "Pankaj Pandey's prediction -> increased investor confidence -> deposit growth +8-10% Q3",
-          "quant": "+150bps"
+          "reason": "Omaxe's hotel investment plan -> increased revenue visibility -> 10-12% upside in stock price",
+          "quant": "10-12%"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Puravankara Limited",
+          "ticker": "PURVA.NS",
           "impact": "Bullish",
-          "reason": "Easing metrology rules -> reduced compliance costs -> margins +50bps",
-          "quant": "+2.5%"
+          "reason": "Puravankara's Bengaluru project revenue target -> improved sales visibility -> 8-10% revenue growth in Q3",
+          "quant": "8-10%"
         }
       ],
-      "watch": "SBIN 600 level"
+      "watch": "Omaxe's hotel project completion timeline"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Aurobindo Pharma hitting 52-week high",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Aurobindo Pharma Limited",
+          "ticker": "AUROPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Aurobindo Pharma's 52-week high price -> increased investor confidence -> 5-7% upside in stock price",
+          "quant": "5-7%"
+        }
+      ],
+      "watch": "Aurobindo Pharma's Q3 earnings release"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Iran-Oman tensions",
-      "theme": null,
+      "news_driver": "US-Iran tensions easing, impacting crude oil prices",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
+          "name": "Indian Oil Corporation Limited",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Iran-Oman tensions -> increased crude oil prices -> margins -100bps",
-          "quant": "-2%"
+          "reason": "Easing US-Iran tensions -> lower crude oil prices -> 100-150bps margin contraction for OMCs",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Brent crude 90 level"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "GIFT Nifty record open interest",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "National Stock Exchange",
-          "ticker": "NSE.NS",
-          "impact": "Bullish",
-          "reason": "Record open interest -> increased trading volumes -> revenue growth +5-7% Q4",
-          "quant": "+120bps"
-        }
-      ],
-      "watch": "Nifty 24000 level"
+      "watch": "Crude oil price movement"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "null"
   ]
 }
