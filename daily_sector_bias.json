@@ -1,85 +1,93 @@
 {
-  "date": "2026-06-26",
-  "time": "17:38",
+  "date": "2026-06-29",
+  "time": "13:59",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Volkswagen's potential job cuts and plant closures",
+      "news_driver": "Apple Price Hikes",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "Volkswagen's job cuts -> reduced global auto demand -> lower exports for Tata Motors",
-          "quant": "-5% revenue"
+          "reason": "Apple price hikes -> reduced consumer spending on electronics -> lower IT services demand",
+          "quant": "revenue -5-7% Q2"
         },
         {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bearish",
-          "reason": "Volkswagen's plant closures -> increased competition for Indian auto players -> lower market share for M&M",
-          "quant": "-3% market share"
+          "reason": "Apple price hikes -> decreased IT project implementations -> lower revenue growth",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Tata Motors' Q2 earnings release"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Power Grid of India's increased borrowing limit",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Power Grid Corporation of India",
-          "ticker": "POWERGRID.NS",
-          "impact": "Bullish",
-          "reason": "Increased borrowing limit -> higher investment in power transmission infrastructure -> increased revenue for Power Grid",
-          "quant": "+10% revenue"
-        }
-      ],
-      "watch": "Power Grid's Q2 earnings release"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "PNB's focus on Retail, Agriculture, MSME advances",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Punjab National Bank",
-          "ticker": "PNB.NS",
-          "impact": "Bullish",
-          "reason": "Focus on Retail, Agriculture, MSME advances -> higher CASA deposits -> improved profitability for PNB",
-          "quant": "+150bps NIM"
-        }
-      ],
-      "watch": "PNB's Q2 earnings release"
+      "watch": "Nifty IT index support at 28000"
     },
     {
       "sector": "consumer",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Godrej and Blue Star's premium push",
+      "news_driver": "Q1 earnings preview",
       "theme": "null",
       "stocks": [
         {
-          "name": "Godrej Consumer Products",
-          "ticker": "GODREJCP.NS",
-          "impact": "Bullish",
-          "reason": "Premium push -> higher sales of premium products -> increased revenue for Godrej",
-          "quant": "+8% revenue"
+          "name": "Nestle",
+          "ticker": "NESTLEIND.NS",
+          "impact": "Neutral",
+          "reason": "Q1 earnings preview -> expected revenue growth of 8-10% -> stable stock performance",
+          "quant": "revenue +8-10% Q1"
+        },
+        {
+          "name": "Titan",
+          "ticker": "TITAN.NS",
+          "impact": "Neutral",
+          "reason": "Q1 earnings preview -> anticipated margin expansion -> steady stock price",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "Godrej's Q2 earnings release"
+      "watch": "Nestle Q1 earnings release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Kotak Mahindra Bank shares down",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Kotak Mahindra Bank",
+          "ticker": "KOTAKBANK.NS",
+          "impact": "Bearish",
+          "reason": "Kotak Mahindra Bank shares down -> investor sentiment turning negative -> potential sector-wide impact",
+          "quant": "stock price -3.5%"
+        }
+      ],
+      "watch": "Kotak Mahindra Bank stock price"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Zerodha Files For SEBI Merchant Banking Licence",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Zerodha",
+          "ticker": "null",
+          "impact": "Bullish",
+          "reason": "Zerodha Files For SEBI Merchant Banking Licence -> expected increase in investment banking revenue -> positive sector outlook",
+          "quant": "revenue +15-20% FY27"
+        }
+      ],
+      "watch": "SEBI approval for Zerodha's merchant banking licence"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "China+1"
   ]
 }
