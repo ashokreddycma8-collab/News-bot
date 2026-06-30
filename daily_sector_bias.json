@@ -1,82 +1,82 @@
 {
   "date": "2026-06-30",
-  "time": "16:13",
-  "mood": "Cautious",
+  "time": "17:36",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "India plotting a game-changer for RBI, banks, corporates, investors",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "India's Fiscal Deficit Widens To 9.6% In First Two Months Of FY27",
       "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "Government's plan to reform RBI and banking sector -> potential changes in regulatory framework -> no immediate impact on SBI's operations",
-          "quant": "null"
+          "impact": "Bearish",
+          "reason": "Widening fiscal deficit -> increased borrowing costs -> margins -100bps",
+          "quant": "-100bps"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
-          "impact": "Neutral",
-          "reason": "Private bank's deposit collection from rural areas -> increased focus on rural lending -> potential 5% increase in rural loan book",
-          "quant": "5%"
+          "impact": "Bearish",
+          "reason": "Geopolitical tensions -> reduced consumer spending -> loan growth -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "RBI's upcoming monetary policy meeting"
+      "watch": "10-year G-sec yield crossing 7.5%"
     },
     {
-      "sector": "energy",
+      "sector": "financial_services",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Oil risks rise",
-      "theme": "null",
+      "news_driver": "CCIL Receives ESMA Recognition To Offer Clearing Services In European Union",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "HDFC",
+          "ticker": "HDFC.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> increased cost of crude oil imports -> 100bps decrease in IOC's refining margins",
-          "quant": "-100bps"
+          "reason": "Increased competition in EU -> reduced market share -> revenue -3%",
+          "quant": "-3%"
         }
       ],
-      "watch": "Brent crude oil price movement"
+      "watch": "EU clearing services market share"
     },
     {
-      "sector": "cement",
+      "sector": "capital_markets",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Cement sector faces muted Q1 FY27",
-      "theme": "null",
+      "news_driver": "Sensex falls 372 pts to settle at 76,728",
+      "theme": null,
       "stocks": [
         {
-          "name": "UltraTech Cement",
-          "ticker": "ULTRACEMCO.NS",
+          "name": "BSE",
+          "ticker": "BSE.NS",
           "impact": "Bearish",
-          "reason": "Heat and water scarcity -> reduced cement demand -> 8% decrease in UltraTech's Q1 sales",
+          "reason": "Market downturn -> reduced trading volumes -> revenue -8%",
           "quant": "-8%"
         }
       ],
-      "watch": "Cement demand trends in Q2 FY27"
+      "watch": "Market volatility index"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "psu",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Yen's historic slump",
-      "theme": "null",
+      "news_driver": "Centre extends CBDT Chairman Ravi Agrawal\u2019s tenure by six months",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Yen's depreciation -> reduced revenue from Japanese clients -> 2% decrease in TCS's export revenue",
-          "quant": "-2%"
+          "name": "IRCTC",
+          "ticker": "IRCTC.NS",
+          "impact": "Neutral",
+          "reason": "Stable leadership -> continued policy support -> margins +50bps",
+          "quant": "+50bps"
         }
       ],
-      "watch": "Yen's exchange rate movement"
+      "watch": "Government policy announcements"
     }
   ],
   "themes": [

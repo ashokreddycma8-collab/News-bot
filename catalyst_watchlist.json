@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T12:36:01.609728+05:30",
+  "generated_at": "2026-06-30T17:36:01.686783+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2224,6 +2224,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "CCIL": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "receives ESMA recognition to offer clearing services in European Union",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
