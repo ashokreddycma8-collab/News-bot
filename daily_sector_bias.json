@@ -1,99 +1,85 @@
 {
   "date": "2026-06-30",
-  "time": "12:36",
+  "time": "16:13",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "India plotting a game-changer for RBI, banks, corporates, investors",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "Government's plan to reform RBI and banking sector -> potential changes in regulatory framework -> no immediate impact on SBI's operations",
+          "quant": "null"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Neutral",
+          "reason": "Private bank's deposit collection from rural areas -> increased focus on rural lending -> potential 5% increase in rural loan book",
+          "quant": "5%"
+        }
+      ],
+      "watch": "RBI's upcoming monetary policy meeting"
+    },
+    {
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Nifty IT hits fresh 52-week low",
+      "news_driver": "Oil risks rise",
       "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Strong dollar -> decreased export competitiveness -> revenue -5-7% Q3",
-          "quant": "-5%"
-        },
+          "reason": "Rising oil prices -> increased cost of crude oil imports -> 100bps decrease in IOC's refining margins",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "Brent crude oil price movement"
+    },
+    {
+      "sector": "cement",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Cement sector faces muted Q1 FY27",
+      "theme": "null",
+      "stocks": [
         {
-          "name": "TCS",
+          "name": "UltraTech Cement",
+          "ticker": "ULTRACEMCO.NS",
+          "impact": "Bearish",
+          "reason": "Heat and water scarcity -> reduced cement demand -> 8% decrease in UltraTech's Q1 sales",
+          "quant": "-8%"
+        }
+      ],
+      "watch": "Cement demand trends in Q2 FY27"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Yen's historic slump",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Global economic uncertainty -> decreased IT spending -> margins -100bps",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bearish",
-          "reason": "Nifty IT hitting 52-week low -> investor sentiment -> stock price -3%",
-          "quant": "-3%"
+          "reason": "Yen's depreciation -> reduced revenue from Japanese clients -> 2% decrease in TCS's export revenue",
+          "quant": "-2%"
         }
       ],
-      "watch": "Nifty IT index level of 30,000"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Dr Reddy's leads gains",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Dr Reddy's",
-          "ticker": "DRREDDY.NS",
-          "impact": "Bullish",
-          "reason": "Positive earnings surprise -> increased investor confidence -> stock price +2%",
-          "quant": "+2%"
-        },
-        {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Bullish",
-          "reason": "Sector rotation -> increased buying interest -> revenue +4-6% Q3",
-          "quant": "+5%"
-        }
-      ],
-      "watch": "Q3 earnings release"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India 10-year bond set for best month in 7 years",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "SIS",
-          "ticker": "SIS.NS",
-          "impact": "Bullish",
-          "reason": "Share buyback announcement -> increased investor confidence -> stock price +1%",
-          "quant": "+1%"
-        }
-      ],
-      "watch": "10-year bond yield level of 7.2%"
-    },
-    {
-      "sector": "infra",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Switzerland\u2019s MSC to acquire 49% stake in Adani\u2019s Vizhinjam port",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Adani Ports",
-          "ticker": "ADANIPORTS.NS",
-          "impact": "Bullish",
-          "reason": "Foreign investment -> increased infrastructure development -> revenue +10-12% Q3",
-          "quant": "+11%"
-        }
-      ],
-      "watch": "Q3 earnings release"
+      "watch": "Yen's exchange rate movement"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
