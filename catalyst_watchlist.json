@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T19:31:43.286284+05:30",
+  "generated_at": "2026-06-30T12:36:01.609728+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -828,7 +828,7 @@
     "ADANIPORTS": {
       "score": 8,
       "direction": "BUY",
-      "catalyst": "Adani Ports deepens US tech partnership with Kaleris to drive AI transformation across global terminals",
+      "catalyst": "Switzerland\u2019s MSC to acquire 49% stake in Adani\u2019s Vizhinjam port for \u20b913,220 crore",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -876,9 +876,9 @@
     "SIS": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "28% PAT growth in FY26, revenue surges 31% in Q4",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "share buyback worth up to \u20b9120 crore",
+      "category": "technical_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "CAPRI": {
@@ -1058,12 +1058,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "BIOCON": {
-      "score": 4,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Kiran Mazumdar-Shaw names niece as successor",
+      "catalyst": "BBL turning wholly-owned subsidiary",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "LT": {
       "score": 8,

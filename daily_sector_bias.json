@@ -1,100 +1,99 @@
 {
-  "date": "2026-06-29",
-  "time": "19:31",
-  "mood": "Bullish",
+  "date": "2026-06-30",
+  "time": "12:36",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Tech Mahindra to deploy Perplexity AI across sales, customer-facing teams",
-      "theme": "internet_digital",
+      "news_driver": "Nifty IT hits fresh 52-week low",
+      "theme": "null",
       "stocks": [
-        {
-          "name": "Tech Mahindra",
-          "ticker": "TECHM.NS",
-          "impact": "Bullish",
-          "reason": "AI deployment -> increased sales efficiency -> revenue growth +5-7% Q2",
-          "quant": "5-7%"
-        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Nasdaq futures jump -> increased IT spending -> order book +Rs200Cr",
-          "quant": "Rs200Cr"
+          "impact": "Bearish",
+          "reason": "Strong dollar -> decreased export competitiveness -> revenue -5-7% Q3",
+          "quant": "-5%"
         },
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "AI-driven rebound -> increased demand for digital services -> margins +100bps",
-          "quant": "100bps"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Global economic uncertainty -> decreased IT spending -> margins -100bps",
+          "quant": "-100bps"
+        },
+        {
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Bearish",
+          "reason": "Nifty IT hitting 52-week low -> investor sentiment -> stock price -3%",
+          "quant": "-3%"
         }
       ],
-      "watch": "Nasdaq futures sustaining above 1% gain"
+      "watch": "Nifty IT index level of 30,000"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
+      "sector": "pharma",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Axis Bank confirms CFO Puneet Sharma's exit",
-      "theme": null,
+      "news_driver": "Dr Reddy's leads gains",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Neutral",
-          "reason": "CFO exit -> leadership transition -> no immediate impact on operations",
-          "quant": "null"
-        }
-      ],
-      "watch": "Axis Bank's Q2 earnings release"
-    },
-    {
-      "sector": "oil_gas",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Tanker traffic shows India's Russian crude imports set to break historical records",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Dr Reddy's",
+          "ticker": "DRREDDY.NS",
           "impact": "Bullish",
-          "reason": "Increased crude imports -> higher refining volumes -> revenue growth +10-12% Q2",
-          "quant": "10-12%"
+          "reason": "Positive earnings surprise -> increased investor confidence -> stock price +2%",
+          "quant": "+2%"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Record crude imports -> improved margins -> profitability +15% Q2",
-          "quant": "15%"
+          "reason": "Sector rotation -> increased buying interest -> revenue +4-6% Q3",
+          "quant": "+5%"
         }
       ],
-      "watch": "Crude oil prices sustaining above $70/bbl"
+      "watch": "Q3 earnings release"
     },
     {
-      "sector": "capital_goods",
+      "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "IIP growth quickens to five-month high of 5.1% on cross-sector improvements",
-      "theme": "capital_goods",
+      "conviction": 1,
+      "news_driver": "India 10-year bond set for best month in 7 years",
+      "theme": "null",
       "stocks": [
         {
-          "name": "L&T",
-          "ticker": "LT.NS",
+          "name": "SIS",
+          "ticker": "SIS.NS",
           "impact": "Bullish",
-          "reason": "IIP growth -> increased infrastructure spending -> order book +Rs500Cr",
-          "quant": "Rs500Cr"
+          "reason": "Share buyback announcement -> increased investor confidence -> stock price +1%",
+          "quant": "+1%"
         }
       ],
-      "watch": "IIP growth sustaining above 5% in upcoming months"
+      "watch": "10-year bond yield level of 7.2%"
+    },
+    {
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Switzerland\u2019s MSC to acquire 49% stake in Adani\u2019s Vizhinjam port",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Adani Ports",
+          "ticker": "ADANIPORTS.NS",
+          "impact": "Bullish",
+          "reason": "Foreign investment -> increased infrastructure development -> revenue +10-12% Q3",
+          "quant": "+11%"
+        }
+      ],
+      "watch": "Q3 earnings release"
     }
   ],
   "themes": [
-    "internet_digital",
-    "capital_goods"
+    "null"
   ]
 }
