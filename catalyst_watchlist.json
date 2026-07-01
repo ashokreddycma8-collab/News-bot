@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T13:22:40.694881+05:30",
+  "generated_at": "2026-07-01T16:52:43.681522+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1180,7 +1180,7 @@
     "KARURVYSYA": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Karur Vysya Bank NII Up 25% in Q4 results",
+      "catalyst": "Q1 Deposits Rise 7%, Advances Grow 17%",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
@@ -2247,6 +2247,30 @@
       "catalyst": "Share buyback worth Rs 297 crore opens on July 3",
       "category": "technical_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "MAPMYINDIA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Appoints Ex-CEO Rohan Verma As Joint MD",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "RENFRA": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "submits papers with Sebi for IPO; eyes Rs 430-cr via fresh issue",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "ROYALENFIELD": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "June Sales Surge 27% As Domestic Demand Accelerates",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     }
   }

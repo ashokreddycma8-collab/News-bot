@@ -1,86 +1,93 @@
 {
   "date": "2026-07-01",
-  "time": "13:22",
-  "mood": "Bullish",
+  "time": "16:52",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Maruti Suzuki's 19% sales jump in June",
-      "theme": "null",
+      "news_driver": "June Auto Sales data showing Tata Motors PV Sales jumping 69% and Maruti Suzuki up 19%",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "June sales data showing 19% growth -> indicating strong demand and pricing power -> driving revenue growth of 15-18% in Q1",
-          "quant": "15-18%"
+          "reason": "Strong June sales data -> increased revenue visibility -> higher profitability",
+          "quant": "revenue +15-18% Q1"
         },
         {
-          "name": "Hyundai Motor India",
-          "ticker": "HYUNDAI.NS",
-          "impact": "Bearish",
-          "reason": "June sales missing estimates -> suggesting weak demand and competitive pressure -> impacting revenue growth by -5% in Q1",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Maruti Suzuki's Q1 earnings release"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Jefferies' upgrade of Maruti Suzuki to Buy",
-      "theme": "null",
-      "stocks": [
-        {
           "name": "Maruti Suzuki",
           "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "Jefferies' upgrade to Buy -> increasing investor confidence and buying interest -> driving stock price up by 5-7%",
-          "quant": "5-7%"
+          "reason": "June sales growth -> market share expansion -> improved pricing power",
+          "quant": "market share +1.5% YoY"
+        },
+        {
+          "name": "Royal Enfield",
+          "ticker": "ROYALENFIELD.NS",
+          "impact": "Bullish",
+          "reason": "June sales surge -> increased domestic demand -> higher capacity utilization",
+          "quant": "sales +27% YoY"
         }
       ],
-      "watch": "Nifty Auto index"
+      "watch": "Tata Motors' Q1 earnings release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Karnataka Bank Q1 business updates showing deposits rising 7% and advances growing 17%",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Karnataka Bank",
+          "ticker": "KARURBANK.NS",
+          "impact": "Neutral",
+          "reason": "Q1 deposit growth -> increased liquidity -> stable net interest income",
+          "quant": "net interest income +5-7% Q1"
+        }
+      ],
+      "watch": " RBI's monetary policy meeting"
     },
     {
       "sector": "infra",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "RITES' Rs 175 crore consultancy order",
-      "theme": "null",
+      "news_driver": "Cabinet approving Rs 14,115 crore highway projects and Rs 6,970 crore Dwarka tunnel in Delhi",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "RITES",
-          "ticker": "RITES.NS",
+          "name": "IRB Infrastructure",
+          "ticker": "IRB.NS",
           "impact": "Bullish",
-          "reason": "Rs 175 crore consultancy order -> increasing order book and revenue visibility -> driving revenue growth of 20-25% in FY24",
-          "quant": "20-25%"
+          "reason": "New project approvals -> increased order book -> higher revenue visibility",
+          "quant": "order book +Rs 1,500 Cr"
         }
       ],
-      "watch": "RITES' order book growth"
+      "watch": "NHAI's project awarding pipeline"
     },
     {
-      "sector": "fmcg",
-      "direction": "Neutral",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "GST mop up growth of 14% in June",
-      "theme": "null",
+      "news_driver": "Rupee depreciation and Iran conflict impacting oil prices",
+      "theme": null,
       "stocks": [
         {
-          "name": "Kajaria Ceramics",
-          "ticker": "KAJARIACER.NS",
-          "impact": "Neutral",
-          "reason": "GST mop up growth of 14% -> indicating stable consumer demand -> supporting Kajaria Ceramics' revenue growth of 8-10% in Q1",
-          "quant": "8-10%"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Higher crude oil prices -> increased input costs -> squeezed refining margins",
+          "quant": "refining margins -100bps"
         }
       ],
-      "watch": "Kajaria Ceramics' share buyback outcome"
+      "watch": "Brent crude oil price movement"
     }
   ],
   "themes": [
-    "Auto Sales",
-    "Brokerage Calls"
+    "rural_mobility",
+    "PSU_rotation"
   ]
 }
