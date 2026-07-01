@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T17:36:01.686783+05:30",
+  "generated_at": "2026-07-01T13:22:40.694881+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2232,6 +2232,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "RITES": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Rs 175 crore consultancy order from Ambedkar University",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "KAJARIACER": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Share buyback worth Rs 297 crore opens on July 3",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

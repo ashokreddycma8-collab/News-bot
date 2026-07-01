@@ -1,85 +1,86 @@
 {
-  "date": "2026-06-30",
-  "time": "17:36",
-  "mood": "Bearish",
+  "date": "2026-07-01",
+  "time": "13:22",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "India's Fiscal Deficit Widens To 9.6% In First Two Months Of FY27",
-      "theme": "PSU_rotation",
+      "news_driver": "Maruti Suzuki's 19% sales jump in June",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Widening fiscal deficit -> increased borrowing costs -> margins -100bps",
-          "quant": "-100bps"
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "June sales data showing 19% growth -> indicating strong demand and pricing power -> driving revenue growth of 15-18% in Q1",
+          "quant": "15-18%"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Hyundai Motor India",
+          "ticker": "HYUNDAI.NS",
           "impact": "Bearish",
-          "reason": "Geopolitical tensions -> reduced consumer spending -> loan growth -5%",
+          "reason": "June sales missing estimates -> suggesting weak demand and competitive pressure -> impacting revenue growth by -5% in Q1",
           "quant": "-5%"
         }
       ],
-      "watch": "10-year G-sec yield crossing 7.5%"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "CCIL Receives ESMA Recognition To Offer Clearing Services In European Union",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "HDFC",
-          "ticker": "HDFC.NS",
-          "impact": "Bearish",
-          "reason": "Increased competition in EU -> reduced market share -> revenue -3%",
-          "quant": "-3%"
-        }
-      ],
-      "watch": "EU clearing services market share"
+      "watch": "Maruti Suzuki's Q1 earnings release"
     },
     {
       "sector": "capital_markets",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Sensex falls 372 pts to settle at 76,728",
-      "theme": null,
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Jefferies' upgrade of Maruti Suzuki to Buy",
+      "theme": "null",
       "stocks": [
         {
-          "name": "BSE",
-          "ticker": "BSE.NS",
-          "impact": "Bearish",
-          "reason": "Market downturn -> reduced trading volumes -> revenue -8%",
-          "quant": "-8%"
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Jefferies' upgrade to Buy -> increasing investor confidence and buying interest -> driving stock price up by 5-7%",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Market volatility index"
+      "watch": "Nifty Auto index"
     },
     {
-      "sector": "psu",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Centre extends CBDT Chairman Ravi Agrawal\u2019s tenure by six months",
-      "theme": "PSU_rotation",
+      "sector": "infra",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "RITES' Rs 175 crore consultancy order",
+      "theme": "null",
       "stocks": [
         {
-          "name": "IRCTC",
-          "ticker": "IRCTC.NS",
-          "impact": "Neutral",
-          "reason": "Stable leadership -> continued policy support -> margins +50bps",
-          "quant": "+50bps"
+          "name": "RITES",
+          "ticker": "RITES.NS",
+          "impact": "Bullish",
+          "reason": "Rs 175 crore consultancy order -> increasing order book and revenue visibility -> driving revenue growth of 20-25% in FY24",
+          "quant": "20-25%"
         }
       ],
-      "watch": "Government policy announcements"
+      "watch": "RITES' order book growth"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "GST mop up growth of 14% in June",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Kajaria Ceramics",
+          "ticker": "KAJARIACER.NS",
+          "impact": "Neutral",
+          "reason": "GST mop up growth of 14% -> indicating stable consumer demand -> supporting Kajaria Ceramics' revenue growth of 8-10% in Q1",
+          "quant": "8-10%"
+        }
+      ],
+      "watch": "Kajaria Ceramics' share buyback outcome"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "Auto Sales",
+    "Brokerage Calls"
   ]
 }
