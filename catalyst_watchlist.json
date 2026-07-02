@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T12:22:48.574306+05:30",
+  "generated_at": "2026-07-02T15:23:30.890346+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2280,6 +2280,30 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "SWARABABY": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "files DRHP with Sebi for Rs 1,000 crore IPO",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "BLINKIT": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Anand Rathi sees 43% upside, expects Blinkit to remain market leader",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "IRCON": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Saleem Ahmad takes additional charge as chairman and managing director",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
