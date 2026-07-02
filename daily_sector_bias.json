@@ -1,100 +1,100 @@
 {
-  "date": "2026-07-01",
-  "time": "18:01",
+  "date": "2026-07-02",
+  "time": "12:22",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "SBI boosts YONO platform with new AI features and digital journeys",
-      "theme": "PSU_rotation",
+      "news_driver": "June auto sales data beating estimates",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "SBI's YONO platform upgrade -> increased digital adoption -> higher fee income",
-          "quant": "fee income +5-7% Q2"
+          "reason": "Strong June sales data -> increased revenue visibility -> higher profitability",
+          "quant": "revenue +8-10% Q3"
         },
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
           "impact": "Bullish",
-          "reason": "PSU bank rotation -> increased investor interest -> higher stock prices",
-          "quant": "stock price +3-5% in short term"
-        }
-      ],
-      "watch": "SBIN's Q2 earnings release"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "RBI's tighter capital market norms kick in from today",
-      "theme": "digital_payments",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "RBI's digital push -> increased IT spending -> higher revenue",
-          "quant": "revenue +2-3% Q3"
+          "reason": "28% sales growth in June -> market share gains -> improved pricing power",
+          "quant": "margins +100bps"
         },
         {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
+          "name": "TVS Motor",
+          "ticker": "TVSMOTOR.NS",
           "impact": "Bullish",
-          "reason": "Digital payments growth -> increased demand for IT services -> higher order book",
+          "reason": "47% sales jump in June -> increased production utilization -> lower costs",
           "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "RBI's monetary policy meeting"
+      "watch": "Maruti Suzuki's Q2 earnings release"
     },
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran conflict pushing Brent prices",
+      "news_driver": "Iran tensions pushing Brent above $90",
       "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Higher Brent prices -> increased input costs -> lower margins",
-          "quant": "margins -100bps"
+          "reason": "Higher crude prices -> increased input costs -> lower refining margins",
+          "quant": "margins -150bps"
         },
         {
-          "name": "HPCL",
+          "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Higher crude prices -> lower refining margins -> lower profitability",
-          "quant": "profitability -8-10% Q2"
+          "reason": "Rising crude prices -> decreased demand for petroleum products -> lower sales",
+          "quant": "revenue -5% Q3"
         }
       ],
       "watch": "Brent crude price movement"
     },
     {
-      "sector": "financial_services",
+      "sector": "metal",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "UPI transactions ease from record high to \u20b928.9 lakh crore in June",
+      "news_driver": "Tata Steel's AGM highlights",
+      "theme": "China+1",
+      "stocks": [
+        {
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
+          "impact": "Neutral",
+          "reason": "Green steel initiatives -> increased costs -> neutral impact on profitability",
+          "quant": "capex +Rs500Cr"
+        }
+      ],
+      "watch": "Tata Steel's Q2 earnings release"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Carlsberg's India IPO plans",
       "theme": null,
       "stocks": [
         {
-          "name": "Paytm",
-          "ticker": "PAYTM.NS",
+          "name": "United Breweries",
+          "ticker": "UBL.NS",
           "impact": "Neutral",
-          "reason": "UPI transaction growth slowdown -> stable payment volumes -> steady revenue",
-          "quant": "revenue +1-2% Q2"
+          "reason": "Carlsberg's IPO plans -> increased competition -> neutral impact on market share",
+          "quant": "null"
         }
       ],
-      "watch": "UPI transaction volume growth"
+      "watch": "Carlsberg's IPO pricing"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "digital_payments"
+    "rural_mobility",
+    "China+1"
   ]
 }

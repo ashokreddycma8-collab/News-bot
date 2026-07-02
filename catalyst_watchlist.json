@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T16:52:43.681522+05:30",
+  "generated_at": "2026-07-02T12:22:48.574306+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -74,12 +74,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "TATASTEEL": {
-      "score": 6,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "record India output in FY26, Q4 volumes stay strong",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "catalyst": "India expansion, cost cuts, green steel and AI push announced at AGM",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "SWANENERGY": {
       "score": 8,
@@ -964,9 +964,9 @@
     "BAJAJAUTO": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "record Q4 profit",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "June auto sales up 28%, beats estimates",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "MCX": {
@@ -1378,12 +1378,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "TVSMOTOR": {
-      "score": 6,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "TVS Motor Q4 Results: Cons PAT grows 19% YoY to Rs 772 crore as revenue jumps 30%",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "catalyst": "June auto sales jump 47%, beats estimates",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "CIPLA": {
       "score": 6,
@@ -2272,6 +2272,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "CARLSBERG": {
+      "score": 9,
+      "direction": "BUY",
+      "catalyst": "files for India IPO to raise $700 million",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
