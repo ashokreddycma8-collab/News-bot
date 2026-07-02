@@ -1,86 +1,93 @@
 {
   "date": "2026-07-02",
-  "time": "15:23",
+  "time": "17:37",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Lower crude prices and easing FII selling",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Lower crude prices -> reduced inflation concerns -> increased consumer spending and loan growth",
-          "quant": "NIM +20bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Easing FII selling -> increased investor confidence -> higher stock prices",
-          "quant": "revenue +8-10% Q3"
-        }
-      ],
-      "watch": "FII inflows crossing Rs 10,000 Cr"
-    },
-    {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "India's hidden semiconductor advantage",
+      "conviction": 2,
+      "news_driver": "Crude slump, Japan deals",
       "theme": "null",
       "stocks": [
         {
-          "name": "TCS",
+          "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "India's semiconductor advantage -> increased IT exports -> higher revenue",
-          "quant": "export revenue +5-7% Q3"
+          "reason": "Massive placement boost of 1,500+ students from Andhra Pradesh University -> increased hiring and talent acquisition -> revenue +5-7% in Q3",
+          "quant": "5-7%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "IT sector leading Dalal Street's winning streak -> increased investor confidence -> margins +100bps",
+          "quant": "100bps"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "Crude prices easing -> reduced operational costs -> earnings +8-10% in Q3",
+          "quant": "8-10%"
         }
       ],
-      "watch": "semiconductor exports crossing $1 billion"
+      "watch": "TCS stock price crossing 4000 levels"
     },
     {
-      "sector": "auto",
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Bank of Baroda settles case with NMC Health",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
+          "impact": "Bearish",
+          "reason": "Settling case with NMC Health for $600 million -> one-time provisioning -> net profit -10% in Q2",
+          "quant": "-10%"
+        }
+      ],
+      "watch": "Bank of Baroda's Q2 earnings release"
+    },
+    {
+      "sector": "financial_services",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Bajaj Auto June sales rise 28%",
+      "news_driver": "Ujjivan SFB offers 7.5% on FCNR deposits",
       "theme": "null",
       "stocks": [
         {
-          "name": "Bajaj Auto",
-          "ticker": "BAJAJ-AUTO.NS",
+          "name": "Ujjivan Small Finance Bank",
+          "ticker": "UJJIVANSFB.NS",
           "impact": "Neutral",
-          "reason": "June sales rise 28% -> increased revenue -> offset by higher input costs",
-          "quant": "margins -50bps"
+          "reason": "Offering 7.5% on FCNR deposits -> attracting NRI deposits -> deposit growth +5% in Q3",
+          "quant": "5%"
         }
       ],
-      "watch": "July sales numbers"
+      "watch": "NRI deposit inflows into Ujjivan SFB"
     },
     {
-      "sector": "consumer",
+      "sector": "capital_markets",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Blinkit to remain undisputed market leader",
+      "news_driver": "Citi becomes No. 1 investment banker in India",
       "theme": "null",
       "stocks": [
         {
-          "name": "Zomato",
-          "ticker": "ZOMATO.NS",
+          "name": "Citi India",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "Blinkit market leadership -> increased food delivery demand -> higher revenue",
-          "quant": "revenue +12-15% Q3"
+          "reason": "Citi becoming No. 1 investment banker in India -> increased market share -> revenue +10% in Q3",
+          "quant": "10%"
         }
       ],
-      "watch": "Blinkit's market share crossing 30%"
+      "watch": "Citi India's market share in investment banking"
     }
   ],
   "themes": [
-    "financials revival",
-    "IT sector growth"
+    "IT sector growth",
+    "Banking sector provisioning"
   ]
 }
