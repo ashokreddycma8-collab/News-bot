@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T17:37:17.786003+05:30",
+  "generated_at": "2026-07-03T12:15:16.364059+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -362,9 +362,9 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "HCLTECH": {
-      "score": 8,
+      "score": 9,
       "direction": "BUY",
-      "catalyst": "invests \u20b91,427 crore as a lead strategic investor in Sarvam AI, acquiring 10.46% stake",
+      "catalyst": "HCLTech wins $1.14 billion contract from European client",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -451,10 +451,10 @@
     },
     "UNIONBANK": {
       "score": 5,
-      "direction": "BUY",
-      "catalyst": "announces dividend of Rs 5 per share",
-      "category": "corporate_event",
-      "ttl_hours": 48,
+      "direction": "SELL",
+      "catalyst": "Union Bank of India shares drop 5% post Q1 business update",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     },
     "AMAZON": {

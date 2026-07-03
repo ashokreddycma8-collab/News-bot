@@ -1,93 +1,100 @@
 {
-  "date": "2026-07-02",
-  "time": "17:37",
+  "date": "2026-07-03",
+  "time": "12:15",
   "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Oil prices slipping below $70/bbl on US-Iran peace talks",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
+          "impact": "Bearish",
+          "reason": "Oil price decline -> reduced realization for oil & gas business -> lower revenue and profitability",
+          "quant": "-8% to stock price"
+        },
+        {
+          "name": "Oil India",
+          "ticker": "OIL.NS",
+          "impact": "Bearish",
+          "reason": "Oil price decline -> lower crude oil prices -> reduced revenue and profitability",
+          "quant": "-5% to stock price"
+        }
+      ],
+      "watch": "OPEC meeting on production cuts"
+    },
+    {
+      "sector": "textiles",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "India's textile stocks becoming market standouts on trade deals",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Grasim Industries",
+          "ticker": "GRASIM.NS",
+          "impact": "Bullish",
+          "reason": "Trade deals -> increased exports and demand for textiles -> higher revenue and profitability",
+          "quant": "+8-10% to revenue"
+        },
+        {
+          "name": "Vardhman Textiles",
+          "ticker": "VTL.NS",
+          "impact": "Bullish",
+          "reason": "Trade deals -> improved competitiveness and market share -> higher revenue and profitability",
+          "quant": "+5% to EBITDA margins"
+        }
+      ],
+      "watch": "Trade deal negotiations with EU and US"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude slump, Japan deals",
+      "news_driver": "HCLTech ending three-year mega-deal drought with $1.14 billion contract",
       "theme": "null",
       "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Massive placement boost of 1,500+ students from Andhra Pradesh University -> increased hiring and talent acquisition -> revenue +5-7% in Q3",
-          "quant": "5-7%"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "IT sector leading Dalal Street's winning streak -> increased investor confidence -> margins +100bps",
-          "quant": "100bps"
-        },
         {
           "name": "HCL Technologies",
           "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Crude prices easing -> reduced operational costs -> earnings +8-10% in Q3",
-          "quant": "8-10%"
+          "reason": "Mega-deal win -> increased revenue visibility and growth -> higher profitability",
+          "quant": "+12% to revenue growth"
         }
       ],
-      "watch": "TCS stock price crossing 4000 levels"
+      "watch": "Q2 earnings announcement"
     },
     {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Bank of Baroda settles case with NMC Health",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Bearish",
-          "reason": "Settling case with NMC Health for $600 million -> one-time provisioning -> net profit -10% in Q2",
-          "quant": "-10%"
-        }
-      ],
-      "watch": "Bank of Baroda's Q2 earnings release"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Ujjivan SFB offers 7.5% on FCNR deposits",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Ujjivan Small Finance Bank",
-          "ticker": "UJJIVANSFB.NS",
-          "impact": "Neutral",
-          "reason": "Offering 7.5% on FCNR deposits -> attracting NRI deposits -> deposit growth +5% in Q3",
-          "quant": "5%"
-        }
-      ],
-      "watch": "NRI deposit inflows into Ujjivan SFB"
-    },
-    {
-      "sector": "capital_markets",
+      "sector": "defence",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Citi becomes No. 1 investment banker in India",
+      "conviction": 2,
+      "news_driver": "Defence stocks in focus amid order surge",
       "theme": "null",
       "stocks": [
         {
-          "name": "Citi India",
-          "ticker": "null",
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
           "impact": "Bullish",
-          "reason": "Citi becoming No. 1 investment banker in India -> increased market share -> revenue +10% in Q3",
-          "quant": "10%"
+          "reason": "Order surge -> increased revenue and profitability -> higher stock price",
+          "quant": "+10% to order book"
+        },
+        {
+          "name": "Bharat Electronics",
+          "ticker": "BEL.NS",
+          "impact": "Bullish",
+          "reason": "Order surge -> improved revenue visibility and growth -> higher profitability",
+          "quant": "+8% to revenue growth"
         }
       ],
-      "watch": "Citi India's market share in investment banking"
+      "watch": "Defence budget allocation"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Banking sector provisioning"
+    "PSU_rotation",
+    "Defence_capex"
   ]
 }
