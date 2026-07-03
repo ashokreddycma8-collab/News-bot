@@ -1,85 +1,99 @@
 {
   "date": "2026-07-03",
-  "time": "12:21",
+  "time": "15:17",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "financial_services",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "PB Fintech shares slide after Temasek arm sells stake",
-      "theme": "null",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Top 5 overnight funds based on 1-year returns: Bank of India Overnight Fund leads with 5.59% return",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "PB Fintech",
-          "ticker": "POLICYBZR.NS",
-          "impact": "Bearish",
-          "reason": "Temasek arm selling over 2% stake via block deal -> decreased investor confidence -> stock price slide",
-          "quant": "-8%"
+          "name": "Bank of India",
+          "ticker": "BANKINDIA.NS",
+          "impact": "Bullish",
+          "reason": "Strong overnight fund returns -> increased investor confidence -> higher deposits and revenue growth",
+          "quant": "5.59% return"
         },
         {
-          "name": "Muthoot Finance",
-          "ticker": "MUTHOOTFIN.NS",
+          "name": "SBI Mutual Fund",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Gold prices hitting Rs 1.48 lakh/10 grams -> increased demand for gold loans -> stock price rise",
-          "quant": "5%"
+          "reason": "Outperforming overnight funds -> higher AUM and fee income -> increased profitability",
+          "quant": "AUM growth +10-12% YoY"
         }
       ],
-      "watch": "ICICI Bank's potential benchmark dollar bond sale"
+      "watch": "Bank of India's Q1 earnings release"
     },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Microsoft launches firm to help companies adopt AI",
-      "theme": "internet_digital",
+      "news_driver": "Earnings growth to stay robust at 14\u201316%; IT correction a buying opportunity: Vikas Khemani",
+      "theme": "null",
       "stocks": [
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Robust earnings growth -> increased investor confidence -> higher stock prices",
+          "quant": "earnings growth +14-16% YoY"
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Microsoft's AI adoption initiative -> increased demand for digital services -> revenue growth",
-          "quant": "8-10% Q3 revenue growth"
+          "reason": "IT correction -> buying opportunity -> potential upside of 10-12%",
+          "quant": "potential upside +10-12%"
         }
       ],
-      "watch": "Microsoft's AI adoption plans"
+      "watch": "TCS's Q1 earnings release"
     },
     {
-      "sector": "metal",
+      "sector": "oil_gas",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Vedanta Aluminium order",
+      "news_driver": "Citi sees Brent crude sliding to $60 as supply fears ease",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bullish",
-          "reason": "Rs 1,437-crore Vedanta Aluminium order -> increased demand for zinc -> stock price rise",
-          "quant": "3% stock price jump"
+          "reason": "Lower crude prices -> higher margins -> increased profitability",
+          "quant": "margins +150bps"
+        },
+        {
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bullish",
+          "reason": "Lower crude prices -> higher refining margins -> increased revenue",
+          "quant": "refining margins +$2-3/bbl"
         }
       ],
-      "watch": "Vedanta Aluminium's production plans"
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "fmcg",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Nestle India declares special dividend",
+      "news_driver": "Marico's best volume growth in quarters isn't luck; Abneesh Roy on what's really driving it",
       "theme": "null",
       "stocks": [
         {
-          "name": "Nestle India",
-          "ticker": "NESTLEIND.NS",
+          "name": "Marico",
+          "ticker": "MARICO.NS",
           "impact": "Neutral",
-          "reason": "Special dividend declaration -> increased investor returns -> neutral stock impact",
-          "quant": "Rs 2 special dividend"
+          "reason": "Volume growth -> increased revenue -> stable profitability",
+          "quant": "volume growth +8-10% YoY"
         }
       ],
-      "watch": "Nestle India's dividend payout"
+      "watch": "Marico's Q1 earnings release"
     }
   ],
   "themes": [
-    "internet_digital"
+    "PSU_rotation"
   ]
 }
