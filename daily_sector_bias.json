@@ -1,99 +1,86 @@
 {
   "date": "2026-07-03",
-  "time": "15:17",
+  "time": "17:37",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Top 5 overnight funds based on 1-year returns: Bank of India Overnight Fund leads with 5.59% return",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Bank of India",
-          "ticker": "BANKINDIA.NS",
-          "impact": "Bullish",
-          "reason": "Strong overnight fund returns -> increased investor confidence -> higher deposits and revenue growth",
-          "quant": "5.59% return"
-        },
-        {
-          "name": "SBI Mutual Fund",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Outperforming overnight funds -> higher AUM and fee income -> increased profitability",
-          "quant": "AUM growth +10-12% YoY"
-        }
-      ],
-      "watch": "Bank of India's Q1 earnings release"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Earnings growth to stay robust at 14\u201316%; IT correction a buying opportunity: Vikas Khemani",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Robust earnings growth -> increased investor confidence -> higher stock prices",
-          "quant": "earnings growth +14-16% YoY"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "IT correction -> buying opportunity -> potential upside of 10-12%",
-          "quant": "potential upside +10-12%"
-        }
-      ],
-      "watch": "TCS's Q1 earnings release"
-    },
-    {
       "sector": "oil_gas",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Citi sees Brent crude sliding to $60 as supply fears ease",
+      "news_driver": "India Fast-Tracks State Company Stake Sales to Cover Oil Shock Costs",
       "theme": "null",
       "stocks": [
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bullish",
-          "reason": "Lower crude prices -> higher margins -> increased profitability",
-          "quant": "margins +150bps"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Oil price surge -> increased under-recovery for OMCs -> margins -150bps",
+          "quant": "-150bps"
         },
         {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bullish",
-          "reason": "Lower crude prices -> higher refining margins -> increased revenue",
-          "quant": "refining margins +$2-3/bbl"
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> higher crude import costs -> revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude price above $90"
     },
     {
-      "sector": "fmcg",
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Raymond Realty Sees Robust Housing Demand, Sales Momentum Continues",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Raymond Realty",
+          "ticker": "RAYMOND.NS",
+          "impact": "Bullish",
+          "reason": "Robust housing demand -> increased sales momentum -> revenue +8-10% Q3",
+          "quant": "8-10%"
+        }
+      ],
+      "watch": "Q3 earnings release"
+    },
+    {
+      "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Marico's best volume growth in quarters isn't luck; Abneesh Roy on what's really driving it",
+      "news_driver": "Rupee closes at 95.21 vs USD, falls on-week as merchant, NDF-linked flows blunt dollar retreat",
       "theme": "null",
       "stocks": [
         {
-          "name": "Marico",
-          "ticker": "MARICO.NS",
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
           "impact": "Neutral",
-          "reason": "Volume growth -> increased revenue -> stable profitability",
-          "quant": "volume growth +8-10% YoY"
+          "reason": "Rupee depreciation -> higher NPA provisioning -> margins -50bps",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Marico's Q1 earnings release"
+      "watch": "Rupee level of 96 vs USD"
+    },
+    {
+      "sector": "psu",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "India Fast-Tracks State Company Stake Sales to Cover Oil Shock Costs",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "Stake sale -> reduced government holding -> potential overhang on stock price",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Stake sale announcement"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_disinvestment",
+    "Oil_shock"
   ]
 }
