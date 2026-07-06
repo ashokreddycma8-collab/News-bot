@@ -1,93 +1,93 @@
 {
   "date": "2026-07-06",
-  "time": "13:28",
+  "time": "17:42",
   "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "US tech rally and value edge",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "US tech rally -> increased demand for IT services -> revenue growth of 8-10% Q3",
-          "quant": "revenue +8-10% Q3"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "value edge -> increased investor interest -> stock price appreciation of 5%",
-          "quant": "5%"
-        }
-      ],
-      "watch": "Nifty IT index breaking out above 30000"
-    },
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "strong Q1 updates from private lenders",
-      "theme": "PSU_rotation",
+      "news_driver": "Bank Stocks and Lower Oil Prices Fuel Sensex, Nifty Rally",
+      "theme": "null",
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "strong Q1 updates -> increased investor confidence -> stock price appreciation of 3%",
-          "quant": "3%"
+          "reason": "Lower oil prices -> reduced inflation expectations -> increased consumer spending and loan growth",
+          "quant": "NII +8-10% Q3"
+        },
+        {
+          "name": "IndusInd Bank",
+          "ticker": "INDUSINDBK.NS",
+          "impact": "Bullish",
+          "reason": "52-week high and 25% rally in a month -> increased investor confidence -> higher valuations",
+          "quant": "stock price +25% in 1 month"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "strong Q1 updates -> increased lending growth -> net interest income growth of 15%",
-          "quant": "net interest income +15%"
+          "reason": "Banking sector rally -> increased lending and deposit growth -> higher revenue",
+          "quant": "revenue +5-7% Q3"
         }
       ],
-      "watch": "PSU bank index breaking out above 4000"
+      "watch": "PSU bank ETFs' performance"
     },
     {
-      "sector": "capital_markets",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Adani Enterprises QIP launch and Aluminium JV announcement",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Tesla Bets Big On India: Aggressive Model Y L Pricing Fuels High Triple-Digit Bookings",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Adani Enterprises",
-          "ticker": "ADANIENT.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "QIP launch and Aluminium JV announcement -> increased investor interest -> stock price appreciation of 10%",
-          "quant": "10%"
+          "reason": "Tesla's aggressive pricing in India -> increased competition and market growth -> higher sales for Tata Motors",
+          "quant": "EV sales +15-20% Q3"
         }
       ],
-      "watch": "Adani Enterprises stock price breaking out above 2000"
+      "watch": "Tesla's India sales numbers"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "TPG-Led Group To Buy India's Aseem Infra Finance",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Aseem Infra Finance",
+          "ticker": "null",
+          "impact": "Bullish",
+          "reason": "Acquisition by TPG-led group -> increased funding and growth opportunities -> higher valuations",
+          "quant": "valuation +20-25% post-acquisition"
+        }
+      ],
+      "watch": "Aseem Infra Finance's acquisition details"
     },
     {
       "sector": "defence",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Raymond appoints Former BEL CMD as CEO of defence business",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "PM Modi's Indonesia visit puts Indo-Pacific, defence ties in focus",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Raymond",
-          "ticker": "RAYMOND.NS",
+          "name": "Hindustan Aeronautics",
+          "ticker": "HAL.NS",
           "impact": "Bullish",
-          "reason": "appointment of Former BEL CMD as CEO -> increased expertise and guidance -> revenue growth of 5%",
-          "quant": "revenue +5%"
+          "reason": "Increased defence ties with Indonesia -> higher export opportunities -> increased revenue",
+          "quant": "export revenue +10-12% Q3"
         }
       ],
-      "watch": "defence sector stocks breaking out above their 200-day moving averages"
+      "watch": "India-Indonesia defence cooperation agreements"
     }
   ],
   "themes": [
-    "internet_digital",
-    "PSU_rotation"
+    "PSU_rotation",
+    "China+1"
   ]
 }
