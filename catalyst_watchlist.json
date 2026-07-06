@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T12:21:57.770856+05:30",
+  "generated_at": "2026-07-06T13:28:59.311225+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -834,9 +834,9 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "ADANIENT": {
-      "score": 8,
+      "score": 9,
       "direction": "BUY",
-      "catalyst": "Adani Mundra Airport launched as fully integrated, multi-modal logistics and business hub",
+      "catalyst": "QIP launch and \u20b91.08 lakh crore Aluminium JV announcement",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -2312,6 +2312,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "BANKMAH": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "27% rise in loan growth, total business crosses \u20b96.5 lakh cr in Q1",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
