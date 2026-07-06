@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T17:42:20.299209+05:30",
+  "generated_at": "2026-07-06T19:11:57.271843+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2344,6 +2344,38 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "PRESTIGE": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Prestige Estates buys 50% stake in Advent Convention and Hotels International for Rs 504 crore",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "ORIONPHARM": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Orion and Shilpa Medicare Expand Partnership to Develop and Supply Nivolumab Biosimilar for Europe",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SHILPAMED": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Orion and Shilpa Medicare Expand Partnership to Develop and Supply Nivolumab Biosimilar for Europe",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "APOLLOHOSP": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Indraprastha Apollo\u2019s Dr. Gautam Naik Appointed to the Prestigious PCR Academy Faculty to Shape the Future of Heart Care",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

@@ -1,93 +1,86 @@
 {
   "date": "2026-07-06",
-  "time": "17:42",
+  "time": "19:11",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Bank Stocks and Lower Oil Prices Fuel Sensex, Nifty Rally",
-      "theme": "null",
+      "news_driver": "Lower oil prices and surge in bank stocks",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Lower oil prices -> reduced inflation expectations -> increased consumer spending and loan growth",
-          "quant": "NII +8-10% Q3"
-        },
-        {
-          "name": "IndusInd Bank",
-          "ticker": "INDUSINDBK.NS",
-          "impact": "Bullish",
-          "reason": "52-week high and 25% rally in a month -> increased investor confidence -> higher valuations",
-          "quant": "stock price +25% in 1 month"
+          "reason": "Lower oil prices -> reduced under-recoveries for OMCs -> increased lending opportunities for banks",
+          "quant": "net interest margins +50bps"
         },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "Banking sector rally -> increased lending and deposit growth -> higher revenue",
-          "quant": "revenue +5-7% Q3"
+          "reason": "Surge in bank stocks -> increased investor confidence -> higher valuations",
+          "quant": "price target +8-10%"
         }
       ],
-      "watch": "PSU bank ETFs' performance"
+      "watch": "SBIN crossing 550 levels"
     },
     {
-      "sector": "auto",
+      "sector": "pharma",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Tesla Bets Big On India: Aggressive Model Y L Pricing Fuels High Triple-Digit Bookings",
-      "theme": "null",
+      "news_driver": "Orion and Shilpa Medicare expanding partnership",
+      "theme": "PLI_pharma",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Shilpa Medicare",
+          "ticker": "SHILPAMED.NS",
           "impact": "Bullish",
-          "reason": "Tesla's aggressive pricing in India -> increased competition and market growth -> higher sales for Tata Motors",
-          "quant": "EV sales +15-20% Q3"
+          "reason": "Partnership expansion -> increased revenue opportunities -> higher profitability",
+          "quant": "revenue +12-15% Q3"
         }
       ],
-      "watch": "Tesla's India sales numbers"
+      "watch": "SHILPAMED crossing 900 levels"
     },
     {
-      "sector": "financial_services",
+      "sector": "realty",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "TPG-Led Group To Buy India's Aseem Infra Finance",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Prestige Estates buying 50% stake in Advent Convention and Hotels International",
+      "theme": null,
       "stocks": [
         {
-          "name": "Aseem Infra Finance",
-          "ticker": "null",
+          "name": "Prestige Estates Projects",
+          "ticker": "PRESTIGE.NS",
           "impact": "Bullish",
-          "reason": "Acquisition by TPG-led group -> increased funding and growth opportunities -> higher valuations",
-          "quant": "valuation +20-25% post-acquisition"
+          "reason": "Strategic acquisition -> increased market share -> higher revenue",
+          "quant": "order book +Rs500Cr"
         }
       ],
-      "watch": "Aseem Infra Finance's acquisition details"
+      "watch": "PRESTIGE crossing 500 levels"
     },
     {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "PM Modi's Indonesia visit puts Indo-Pacific, defence ties in focus",
-      "theme": "null",
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Indian bond yields slide on rain relief, continued foreign demand",
+      "theme": null,
       "stocks": [
         {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
-          "impact": "Bullish",
-          "reason": "Increased defence ties with Indonesia -> higher export opportunities -> increased revenue",
-          "quant": "export revenue +10-12% Q3"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Neutral",
+          "reason": "Sebi warning -> increased regulatory scrutiny -> potential negative impact on stock price",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "India-Indonesia defence cooperation agreements"
+      "watch": "RELIANCE crossing 2400 levels"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "PLI_pharma"
   ]
 }
