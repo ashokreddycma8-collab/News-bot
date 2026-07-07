@@ -1,86 +1,86 @@
 {
-  "date": "2026-07-06",
-  "time": "19:11",
+  "date": "2026-07-07",
+  "time": "12:28",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Lower oil prices and surge in bank stocks",
-      "theme": "PSU_rotation",
+      "news_driver": "AI-led rout impacting IT results",
+      "theme": "AI_disruption",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Lower oil prices -> reduced under-recoveries for OMCs -> increased lending opportunities for banks",
-          "quant": "net interest margins +50bps"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "AI-led rout -> reduced IT spending -> lower revenue growth",
+          "quant": "-5% revenue growth Q1"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Surge in bank stocks -> increased investor confidence -> higher valuations",
-          "quant": "price target +8-10%"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "AI-led rout -> increased competition -> lower margins",
+          "quant": "-100bps margins Q1"
         }
       ],
-      "watch": "SBIN crossing 550 levels"
+      "watch": "TCS Q1 results"
     },
     {
-      "sector": "pharma",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Orion and Shilpa Medicare expanding partnership",
-      "theme": "PLI_pharma",
+      "news_driver": "RITES bagging $36 million locomotive supply order",
+      "theme": "Infrastructure_spending",
       "stocks": [
         {
-          "name": "Shilpa Medicare",
-          "ticker": "SHILPAMED.NS",
+          "name": "RITES",
+          "ticker": "RITES.NS",
           "impact": "Bullish",
-          "reason": "Partnership expansion -> increased revenue opportunities -> higher profitability",
-          "quant": "revenue +12-15% Q3"
+          "reason": "Order win -> increased revenue -> higher profitability",
+          "quant": "+12% revenue growth Q2"
         }
       ],
-      "watch": "SHILPAMED crossing 900 levels"
+      "watch": "Rs 2000 price level"
     },
     {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Prestige Estates buying 50% stake in Advent Convention and Hotels International",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Prestige Estates Projects",
-          "ticker": "PRESTIGE.NS",
-          "impact": "Bullish",
-          "reason": "Strategic acquisition -> increased market share -> higher revenue",
-          "quant": "order book +Rs500Cr"
-        }
-      ],
-      "watch": "PRESTIGE crossing 500 levels"
-    },
-    {
-      "sector": "energy",
+      "sector": "internet_digital",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Indian bond yields slide on rain relief, continued foreign demand",
+      "news_driver": "Cult.fit IPO DRHP",
       "theme": null,
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Cult.fit",
+          "ticker": "CULTFIT.NS",
           "impact": "Neutral",
-          "reason": "Sebi warning -> increased regulatory scrutiny -> potential negative impact on stock price",
-          "quant": "margins -100bps"
+          "reason": "IPO filing -> increased visibility -> potential listing gains",
+          "quant": "Rs 950 crore fresh issue"
         }
       ],
-      "watch": "RELIANCE crossing 2400 levels"
+      "watch": "IPO subscription numbers"
+    },
+    {
+      "sector": "jewellery",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Kalyan Jewellers stock up 9%",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Kalyan Jewellers",
+          "ticker": "KALYANJEW.NS",
+          "impact": "Bullish",
+          "reason": "Stock price momentum -> increased investor interest -> higher valuations",
+          "quant": "+9% stock price gain"
+        }
+      ],
+      "watch": "Rs 1000 price level"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "PLI_pharma"
+    "AI_disruption",
+    "Infrastructure_spending"
   ]
 }
