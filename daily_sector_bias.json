@@ -1,93 +1,86 @@
 {
   "date": "2026-07-07",
-  "time": "16:05",
+  "time": "17:55",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex jumps 600 points, Nifty nears 23,450",
+      "news_driver": "June 2026 EV retail sales surge 63% YoY to 3.06 lakh units",
       "theme": "rural_mobility",
       "stocks": [
-        {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bullish",
-          "reason": "Rally in auto stocks -> increased consumer demand -> revenue +8-10% Q3",
-          "quant": "8-10%"
-        },
         {
           "name": "Tata Motors",
           "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Sensex rally -> improved market sentiment -> order book +Rs400Cr",
-          "quant": "Rs400Cr"
-        }
-      ],
-      "watch": "Nifty Auto index breaking out above 14,000 levels"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "TCS, Infosys and other Indian IT stocks rise up to 4% after AI worries trigger Kospi selloff",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Kospi selloff -> increased demand for Indian IT services -> margins +150bps",
-          "quant": "150bps"
+          "reason": "EV sales surge -> increased demand for electric vehicles -> revenue growth of 10-12% for Tata Motors",
+          "quant": "10-12%"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
           "impact": "Bullish",
-          "reason": "AI-related developments -> increased adoption of digital services -> revenue +12% Q3",
-          "quant": "12%"
+          "reason": "EV sales growth -> higher market share for Mahindra -> 8-10% increase in market share",
+          "quant": "8-10%"
         }
       ],
-      "watch": "Nifty IT index sustaining above 35,000 levels"
+      "watch": "Tata Motors' Q2 earnings release"
     },
     {
-      "sector": "defence",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Paras Defence, ideaForge, other defence stocks slide up to 5%",
-      "theme": null,
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Saudi Arabia cuts August crude oil official selling price to Asia to six-year low",
+      "theme": "China+1",
       "stocks": [
         {
-          "name": "Paras Defence",
-          "ticker": "PARASDEF.NS",
-          "impact": "Bearish",
-          "reason": "Selloff in defence stocks -> decreased investor sentiment -> order book -Rs200Cr",
-          "quant": "-Rs200Cr"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bullish",
+          "reason": "Lower crude oil prices -> reduced input costs for Reliance -> 5-7% increase in refining margins",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Defence stocks testing support levels around 10-15% below recent highs"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "BSE, MCX Shares Tumble Up To 5% As Jefferies Says NSE Listing Threatens Market Positions",
-      "theme": null,
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "June 2026 EV retail sales surge 63% YoY to 3.06 lakh units",
+      "theme": "PLI_solar",
       "stocks": [
         {
-          "name": "BSE",
-          "ticker": "BSE.NS",
-          "impact": "Bearish",
-          "reason": "Jefferies report -> decreased market share -> revenue -5% Q3",
-          "quant": "-5%"
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "EV sales growth -> increased demand for renewable energy -> 12-15% increase in Adani Green's revenue",
+          "quant": "12-15%"
         }
       ],
-      "watch": "BSE and MCX shares testing support levels around 10-15% below recent highs"
+      "watch": "Government's renewable energy target achievement"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Sensex jumps 521 points, Nifty closes above 24,400 on banking, realty gains",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Market rally -> increased investor confidence -> 2-3% increase in SBI's stock price",
+          "quant": "2-3%"
+        }
+      ],
+      "watch": "Nifty Bank index movement"
     }
   ],
   "themes": [
     "rural_mobility",
-    "internet_digital"
+    "China+1"
   ]
 }

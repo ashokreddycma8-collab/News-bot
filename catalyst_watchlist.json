@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T16:05:32.293578+05:30",
+  "generated_at": "2026-07-07T17:55:05.124200+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2384,6 +2384,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "HITACHI": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Hitachi signs MoU with TN Govt for \u20b91,000 crore expansion of Chennai, Chengalpattu facilities",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
