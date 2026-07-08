@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T17:55:05.124200+05:30",
+  "generated_at": "2026-07-08T11:40:39.587123+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2392,6 +2392,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "SOUTHBANK": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "RBI approves appointment of new MD & CEO",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

@@ -1,86 +1,93 @@
 {
-  "date": "2026-07-07",
-  "time": "17:55",
-  "mood": "Bullish",
+  "date": "2026-07-08",
+  "time": "11:40",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "June 2026 EV retail sales surge 63% YoY to 3.06 lakh units",
-      "theme": "rural_mobility",
+      "news_driver": "US-Iran conflict and rise in crude prices",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "EV sales surge -> increased demand for electric vehicles -> revenue growth of 10-12% for Tata Motors",
-          "quant": "10-12%"
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> rise in crude prices -> decrease in OMC margins",
+          "quant": "margins -100bps"
         },
         {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
-          "impact": "Bullish",
-          "reason": "EV sales growth -> higher market share for Mahindra -> 8-10% increase in market share",
-          "quant": "8-10%"
+          "name": "IndiGo",
+          "ticker": "INDIGO.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> rise in crude prices -> increase in fuel costs",
+          "quant": "fuel costs +5-7% Q3"
         }
       ],
-      "watch": "Tata Motors' Q2 earnings release"
+      "watch": "Brent crude price level of $95"
     },
     {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Saudi Arabia cuts August crude oil official selling price to Asia to six-year low",
-      "theme": "China+1",
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Anand Rathi's top picks in the IT sector",
+      "theme": null,
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Lower crude oil prices -> reduced input costs for Reliance -> 5-7% increase in refining margins",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "Brent crude oil price movement"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "June 2026 EV retail sales surge 63% YoY to 3.06 lakh units",
-      "theme": "PLI_solar",
-      "stocks": [
+          "reason": "Anand Rathi's top pick -> expected revenue growth -> increase in stock price",
+          "quant": "revenue +8-10% Q3"
+        },
         {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
+          "name": "Tech Mahindra",
+          "ticker": "TECHM.NS",
           "impact": "Bullish",
-          "reason": "EV sales growth -> increased demand for renewable energy -> 12-15% increase in Adani Green's revenue",
-          "quant": "12-15%"
+          "reason": "Anand Rathi's top pick -> expected margin expansion -> increase in stock price",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "Government's renewable energy target achievement"
+      "watch": "Q3 earnings release of IT companies"
     },
     {
       "sector": "banking",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Sensex jumps 521 points, Nifty closes above 24,400 on banking, realty gains",
-      "theme": "PSU_rotation",
+      "news_driver": "RBI approves appointment of new MD & CEO of South Indian Bank",
+      "theme": null,
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Market rally -> increased investor confidence -> 2-3% increase in SBI's stock price",
-          "quant": "2-3%"
+          "name": "South Indian Bank",
+          "ticker": "SOUTHBANK.NS",
+          "impact": "Bearish",
+          "reason": "RBI approval of new MD & CEO -> uncertainty in bank's strategy -> decrease in stock price",
+          "quant": "stock price -10%"
         }
       ],
-      "watch": "Nifty Bank index movement"
+      "watch": "South Indian Bank's Q3 earnings release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "rise in crude prices due to US-Iran conflict",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> rise in crude prices -> decrease in refining margins",
+          "quant": "refining margins -120bps"
+        }
+      ],
+      "watch": "crude price movement"
     }
   ],
   "themes": [
-    "rural_mobility",
-    "China+1"
+    "OMC margin squeeze",
+    "IT sector growth"
   ]
 }
