@@ -1,93 +1,100 @@
 {
   "date": "2026-07-08",
-  "time": "11:40",
-  "mood": "Cautious",
+  "time": "14:33",
+  "mood": "Mixed",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US-Iran conflict and rise in crude prices",
-      "theme": "OMC margin squeeze",
-      "stocks": [
-        {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> rise in crude prices -> decrease in OMC margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "IndiGo",
-          "ticker": "INDIGO.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> rise in crude prices -> increase in fuel costs",
-          "quant": "fuel costs +5-7% Q3"
-        }
-      ],
-      "watch": "Brent crude price level of $95"
-    },
-    {
       "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Anand Rathi's top picks in the IT sector",
-      "theme": null,
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Sensex, Nifty hit 11-week highs as IT rally offsets broader market weakness",
+      "theme": "null",
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Anand Rathi's top pick -> expected revenue growth -> increase in stock price",
-          "quant": "revenue +8-10% Q3"
+          "reason": "IT rally -> increased demand for Indian IT services -> revenue +5-7% Q2",
+          "quant": "8-10%"
         },
         {
-          "name": "Tech Mahindra",
-          "ticker": "TECHM.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Anand Rathi's top pick -> expected margin expansion -> increase in stock price",
-          "quant": "margins +50bps"
+          "reason": "IT sector growth -> higher margins for TCS -> net profit +12% YoY",
+          "quant": "150bps"
+        },
+        {
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "Global IT spending increase -> higher order intake for HCL Tech -> order book +Rs500Cr",
+          "quant": "Rs500Cr"
         }
       ],
-      "watch": "Q3 earnings release of IT companies"
+      "watch": "17500 level for Nifty"
     },
     {
-      "sector": "banking",
+      "sector": "financial_services",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "RBI approves appointment of new MD & CEO of South Indian Bank",
-      "theme": null,
+      "news_driver": "Credit card penetration lower in India despite asset quality improvements: CIBIL",
+      "theme": "null",
       "stocks": [
         {
-          "name": "South Indian Bank",
-          "ticker": "SOUTHBANK.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "RBI approval of new MD & CEO -> uncertainty in bank's strategy -> decrease in stock price",
-          "quant": "stock price -10%"
+          "reason": "Lower credit card penetration -> reduced interest income for HDFC Bank -> NIM -20bps",
+          "quant": "-20bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bearish",
+          "reason": "Asset quality improvements -> lower provisioning requirements -> net profit +5% YoY",
+          "quant": "5%"
         }
       ],
-      "watch": "South Indian Bank's Q3 earnings release"
+      "watch": "Rupee level of 95.50"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "rise in crude prices due to US-Iran conflict",
-      "theme": null,
+      "news_driver": "Global Market: Euro zone bond yields hit near one-month high as oil surge fuels ECB rate hike bets",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> rise in crude prices -> decrease in refining margins",
-          "quant": "refining margins -120bps"
+          "reason": "Higher oil prices -> increased cost for Reliance Industries -> refining margins -100bps",
+          "quant": "-100bps"
         }
       ],
-      "watch": "crude price movement"
+      "watch": "Brent crude price of $100"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "India's mutual fund industry just beat FIIs in a historic first",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "HDFC AMC",
+          "ticker": "HDFCAMC.NS",
+          "impact": "Bullish",
+          "reason": "Mutual fund industry growth -> higher AUM for HDFC AMC -> revenue +10% YoY",
+          "quant": "10%"
+        }
+      ],
+      "watch": "Nifty level of 24000"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "IT sector growth"
+    "IT sector growth",
+    "Financial services weakness"
   ]
 }
