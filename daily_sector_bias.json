@@ -1,100 +1,106 @@
 {
   "date": "2026-07-08",
-  "time": "14:33",
-  "mood": "Mixed",
+  "time": "16:44",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sensex, Nifty hit 11-week highs as IT rally offsets broader market weakness",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "IT rally -> increased demand for Indian IT services -> revenue +5-7% Q2",
-          "quant": "8-10%"
-        },
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "IT sector growth -> higher margins for TCS -> net profit +12% YoY",
-          "quant": "150bps"
-        },
-        {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Global IT spending increase -> higher order intake for HCL Tech -> order book +Rs500Cr",
-          "quant": "Rs500Cr"
-        }
-      ],
-      "watch": "17500 level for Nifty"
-    },
-    {
-      "sector": "financial_services",
+      "sector": "oil_gas",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Credit card penetration lower in India despite asset quality improvements: CIBIL",
+      "conviction": 2,
+      "news_driver": "Oil Prices Jump 5%: Brent Crude Above $78 Again After Trump Says US-Iran Ceasefire Is 'Over'",
       "theme": "null",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Lower credit card penetration -> reduced interest income for HDFC Bank -> NIM -20bps",
-          "quant": "-20bps"
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bullish",
+          "reason": "Trump's statement on Iran ceasefire -> increase in oil prices -> higher revenue for ONGC",
+          "quant": "revenue +5-7% Q2"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Asset quality improvements -> lower provisioning requirements -> net profit +5% YoY",
-          "quant": "5%"
+          "reason": "Increase in oil prices -> higher input costs for IOC -> lower margins",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rise in oil prices -> higher costs for HPCL -> reduced profitability",
+          "quant": "profit -8-10% Q2"
         }
       ],
-      "watch": "Rupee level of 95.50"
+      "watch": "Brent crude price level of $80"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Global Market: Euro zone bond yields hit near one-month high as oil surge fuels ECB rate hike bets",
+      "conviction": 2,
+      "news_driver": "Oil Prices Jump 5%: Brent Crude Above $78 Again After Trump Says US-Iran Ceasefire Is 'Over'",
       "theme": "null",
       "stocks": [
         {
           "name": "Reliance Industries",
           "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "Higher oil prices -> increased cost for Reliance Industries -> refining margins -100bps",
-          "quant": "-100bps"
+          "reason": "Increase in oil prices -> higher input costs for RIL's energy business -> lower margins",
+          "quant": "margins -50bps"
+        },
+        {
+          "name": "Tata Power",
+          "ticker": "TATAPOWER.NS",
+          "impact": "Neutral",
+          "reason": "No direct impact of oil price rise on Tata Power's business",
+          "quant": "null"
         }
       ],
-      "watch": "Brent crude price of $100"
+      "watch": "Crude oil inventory data release"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "India's mutual fund industry just beat FIIs in a historic first",
+      "news_driver": "null",
       "theme": "null",
       "stocks": [
         {
-          "name": "HDFC AMC",
-          "ticker": "HDFCAMC.NS",
-          "impact": "Bullish",
-          "reason": "Mutual fund industry growth -> higher AUM for HDFC AMC -> revenue +10% YoY",
-          "quant": "10%"
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "No direct impact of U.S.-Iran conflict on SBI's business",
+          "quant": "null"
         }
       ],
-      "watch": "Nifty level of 24000"
+      "watch": "RBI's monetary policy statement"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Global Market: European shares decline as Middle East tensions weigh; airlines, autos lead losses",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bearish",
+          "reason": "Increase in oil prices -> higher input costs for Maruti Suzuki -> lower margins",
+          "quant": "margins -75bps"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "Rise in oil prices -> higher costs for Tata Motors -> reduced profitability",
+          "quant": "profit -5-7% Q2"
+        }
+      ],
+      "watch": "Auto sales data release"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Financial services weakness"
+    "null"
   ]
 }
