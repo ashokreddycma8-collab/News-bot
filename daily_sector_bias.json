@@ -1,86 +1,85 @@
 {
   "date": "2026-07-09",
-  "time": "16:09",
+  "time": "17:59",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Banks Q1 Preview: Double-Digit Loan Growth, Credit Boom To Collide With Shrinking Margins",
-      "theme": "PSU_rotation",
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "TCS Q1 Results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Shrinking margins due to credit boom -> increased competition -> reduced profitability",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Double-digit loan growth -> increased credit costs -> reduced net interest income",
-          "quant": "revenue +5-7% Q1"
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Neutral",
+          "reason": "TCS Q1 net profit falling 3% -> reduced profitability due to global economic uncertainty -> neutral impact on stock price",
+          "quant": "revenue +2% YoY"
         }
       ],
-      "watch": "SBI Funds Management IPO subscription numbers"
+      "watch": "TCS stock price movement in response to Q1 results"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Dr. Reddy's semaglutide supply delay",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Dr. Reddy's Laboratories",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bearish",
+          "reason": "Dr. Reddy's delaying semaglutide supplies due to quality issues -> reduced sales and revenue -> negative impact on stock price",
+          "quant": "sales -10% Q2"
+        },
+        {
+          "name": "Novo Nordisk India",
+          "ticker": "NOVONOR.NS",
+          "impact": "Bullish",
+          "reason": "Novo Nordisk launching weekly insulin shot Awiqli in India -> increased market share and sales -> positive impact on stock price",
+          "quant": "market share +5% in 6 months"
+        }
+      ],
+      "watch": "Dr. Reddy's stock price movement in response to supply delay"
     },
     {
       "sector": "oil_gas",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Vedanta Oil and Gas shares rally 8%",
-      "theme": "China+1",
+      "news_driver": "Iran conflict and rising Brent prices",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Vedanta Limited",
-          "ticker": "VEDL.NS",
-          "impact": "Bullish",
-          "reason": "Increased investor sentiment due to global energy demand -> improved revenue visibility -> higher stock prices",
-          "quant": "revenue +12-15% Q3"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rising Brent prices due to Iran conflict -> increased input costs and reduced margins -> negative impact on stock price",
+          "quant": "margins -150bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude oil price movement"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Neutral",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "SBI Funds Management IPO: 10 key things to know about Rs 11,693 crore public issue",
-      "theme": null,
+      "news_driver": "Nasdaq Futures Surge",
+      "theme": "null",
       "stocks": [
         {
-          "name": "SBI Funds Management",
-          "ticker": "SBIFM.NS",
-          "impact": "Neutral",
-          "reason": "Mega IPO launch -> increased market participation -> neutral market impact",
-          "quant": "null"
-        }
-      ],
-      "watch": "IPO subscription numbers"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "India added 52.5 mtpa regasification capacity in 2025: IGU World LNG Report",
-      "theme": "PLI_solar",
-      "stocks": [
-        {
-          "name": "Petronet LNG",
-          "ticker": "PETRONET.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Increased regasification capacity -> improved energy security -> higher demand for LNG",
-          "quant": "order book +Rs500Cr"
+          "reason": "Nasdaq Futures Surge due to chip stocks recovery -> increased demand for IT services -> positive impact on stock price",
+          "quant": "revenue +5% Q3"
         }
       ],
-      "watch": "LNG import prices"
+      "watch": "Nasdaq Futures movement"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
