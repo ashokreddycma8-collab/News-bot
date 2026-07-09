@@ -1,86 +1,85 @@
 {
   "date": "2026-07-09",
-  "time": "12:28",
+  "time": "12:55",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran-US conflict escalation",
-      "theme": "energy_lockdown",
+      "news_driver": "Crude oil price spike",
+      "theme": "null",
       "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price spike -> Increased input costs for refining business -> Margins -100bps",
+          "quant": "-100bps"
+        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Iran-US conflict -> higher crude prices -> reduced IOC margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Iran-US conflict -> higher crude prices -> decreased HPCL refining margins",
-          "quant": "refining margins -120bps"
+          "reason": "Crude oil price spike -> Higher crude procurement costs -> Revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price crossing $100/barrel"
+      "watch": "Brent crude price level of $90"
     },
     {
-      "sector": "energy",
+      "sector": "metal",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Iran-US conflict escalation",
-      "theme": "energy_lockdown",
+      "conviction": 1,
+      "news_driver": "JSW Steel Q1 FY27 output growth",
+      "theme": "null",
       "stocks": [
         {
-          "name": "NTPC",
-          "ticker": "NTPC.NS",
+          "name": "JSW Steel",
+          "ticker": "JSWSTEEL.NS",
           "impact": "Bearish",
-          "reason": "Iran-US conflict -> higher coal prices -> increased NTPC fuel costs",
-          "quant": "fuel costs +5-7% Q3"
+          "reason": "Blast furnace shutdown -> Reduced production capacity -> Revenue -2%",
+          "quant": "-2%"
         }
       ],
-      "watch": "Coal India's quarterly earnings report"
+      "watch": "JSW Steel's Q2 FY27 production guidance"
     },
     {
       "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "SBI's 15-paise bet",
-      "theme": null,
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Jefferies' top banking pick",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
           "impact": "Bullish",
-          "reason": "SBI's 15-paise bet -> increased fee income -> higher SBI profitability",
-          "quant": "fee income +8-10% Q3"
+          "reason": "Jefferies' top pick -> Increased investor confidence -> Stock price +4%",
+          "quant": "4%"
         }
       ],
-      "watch": "SBI's quarterly earnings report"
+      "watch": "Axis Bank's Q2 FY27 earnings release"
     },
     {
-      "sector": "it",
-      "direction": "Neutral",
+      "sector": "fmcg",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "IT rally",
-      "theme": null,
+      "news_driver": "Sensex falls over 680 pts",
+      "theme": "null",
       "stocks": [
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Neutral",
-          "reason": "IT rally -> increased demand for IT services -> stable TCS revenue growth",
-          "quant": "revenue growth +2-3% Q3"
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bearish",
+          "reason": "Market downturn -> Reduced consumer spending -> Revenue -1%",
+          "quant": "-1%"
         }
       ],
-      "watch": "TCS's quarterly earnings report"
+      "watch": "Hindustan Unilever's Q2 FY27 sales growth"
     }
   ],
   "themes": [
-    "energy_lockdown",
     "PSU_rotation"
   ]
 }

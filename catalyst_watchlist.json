@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T12:28:29.216278+05:30",
+  "generated_at": "2026-07-09T12:55:39.199049+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -492,9 +492,9 @@
     "AXISBANK": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Axis Bank hikes stake in Axis Max Life Insurance to 19.9%",
-      "category": "corporate_event",
-      "ttl_hours": 48,
+      "catalyst": "Jefferies continues to like Axis Bank as a top banking pick",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "LUXIND": {
