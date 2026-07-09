@@ -1,85 +1,86 @@
 {
   "date": "2026-07-09",
-  "time": "12:55",
-  "mood": "Bearish",
+  "time": "16:09",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Crude oil price spike",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price spike -> Increased input costs for refining business -> Margins -100bps",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price spike -> Higher crude procurement costs -> Revenue -5%",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Brent crude price level of $90"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "JSW Steel Q1 FY27 output growth",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "JSW Steel",
-          "ticker": "JSWSTEEL.NS",
-          "impact": "Bearish",
-          "reason": "Blast furnace shutdown -> Reduced production capacity -> Revenue -2%",
-          "quant": "-2%"
-        }
-      ],
-      "watch": "JSW Steel's Q2 FY27 production guidance"
-    },
-    {
       "sector": "banking",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Jefferies' top banking pick",
+      "news_driver": "Banks Q1 Preview: Double-Digit Loan Growth, Credit Boom To Collide With Shrinking Margins",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bullish",
-          "reason": "Jefferies' top pick -> Increased investor confidence -> Stock price +4%",
-          "quant": "4%"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Shrinking margins due to credit boom -> increased competition -> reduced profitability",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bearish",
+          "reason": "Double-digit loan growth -> increased credit costs -> reduced net interest income",
+          "quant": "revenue +5-7% Q1"
         }
       ],
-      "watch": "Axis Bank's Q2 FY27 earnings release"
+      "watch": "SBI Funds Management IPO subscription numbers"
     },
     {
-      "sector": "fmcg",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Sensex falls over 680 pts",
-      "theme": "null",
+      "sector": "oil_gas",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Vedanta Oil and Gas shares rally 8%",
+      "theme": "China+1",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Bearish",
-          "reason": "Market downturn -> Reduced consumer spending -> Revenue -1%",
-          "quant": "-1%"
+          "name": "Vedanta Limited",
+          "ticker": "VEDL.NS",
+          "impact": "Bullish",
+          "reason": "Increased investor sentiment due to global energy demand -> improved revenue visibility -> higher stock prices",
+          "quant": "revenue +12-15% Q3"
         }
       ],
-      "watch": "Hindustan Unilever's Q2 FY27 sales growth"
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "SBI Funds Management IPO: 10 key things to know about Rs 11,693 crore public issue",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "SBI Funds Management",
+          "ticker": "SBIFM.NS",
+          "impact": "Neutral",
+          "reason": "Mega IPO launch -> increased market participation -> neutral market impact",
+          "quant": "null"
+        }
+      ],
+      "watch": "IPO subscription numbers"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "India added 52.5 mtpa regasification capacity in 2025: IGU World LNG Report",
+      "theme": "PLI_solar",
+      "stocks": [
+        {
+          "name": "Petronet LNG",
+          "ticker": "PETRONET.NS",
+          "impact": "Bullish",
+          "reason": "Increased regasification capacity -> improved energy security -> higher demand for LNG",
+          "quant": "order book +Rs500Cr"
+        }
+      ],
+      "watch": "LNG import prices"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "China+1"
   ]
 }

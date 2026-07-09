@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T12:55:39.199049+05:30",
+  "generated_at": "2026-07-09T16:09:42.426791+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2406,6 +2406,30 @@
       "direction": "BUY",
       "catalyst": "upgraded FY27 guidance boosts sentiment",
       "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SBIFM": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "SBI Funds Management IPO of Rs 11,693 crore public issue announced",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "VEDOIL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Vedanta Oil and Gas shares rally 8% on improved investor sentiment",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MAZAGON": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Kotak initiates coverage with 'Sell' call and sets target price",
+      "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     }
