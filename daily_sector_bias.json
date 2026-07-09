@@ -1,106 +1,86 @@
 {
-  "date": "2026-07-08",
-  "time": "16:44",
+  "date": "2026-07-09",
+  "time": "12:28",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Oil Prices Jump 5%: Brent Crude Above $78 Again After Trump Says US-Iran Ceasefire Is 'Over'",
-      "theme": "null",
+      "news_driver": "Iran-US conflict escalation",
+      "theme": "energy_lockdown",
       "stocks": [
-        {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bullish",
-          "reason": "Trump's statement on Iran ceasefire -> increase in oil prices -> higher revenue for ONGC",
-          "quant": "revenue +5-7% Q2"
-        },
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Increase in oil prices -> higher input costs for IOC -> lower margins",
+          "reason": "Iran-US conflict -> higher crude prices -> reduced IOC margins",
           "quant": "margins -100bps"
         },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Rise in oil prices -> higher costs for HPCL -> reduced profitability",
-          "quant": "profit -8-10% Q2"
+          "reason": "Iran-US conflict -> higher crude prices -> decreased HPCL refining margins",
+          "quant": "refining margins -120bps"
         }
       ],
-      "watch": "Brent crude price level of $80"
+      "watch": "Brent crude price crossing $100/barrel"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Oil Prices Jump 5%: Brent Crude Above $78 Again After Trump Says US-Iran Ceasefire Is 'Over'",
-      "theme": "null",
+      "news_driver": "Iran-US conflict escalation",
+      "theme": "energy_lockdown",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "NTPC",
+          "ticker": "NTPC.NS",
           "impact": "Bearish",
-          "reason": "Increase in oil prices -> higher input costs for RIL's energy business -> lower margins",
-          "quant": "margins -50bps"
-        },
-        {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
-          "impact": "Neutral",
-          "reason": "No direct impact of oil price rise on Tata Power's business",
-          "quant": "null"
+          "reason": "Iran-US conflict -> higher coal prices -> increased NTPC fuel costs",
+          "quant": "fuel costs +5-7% Q3"
         }
       ],
-      "watch": "Crude oil inventory data release"
+      "watch": "Coal India's quarterly earnings report"
     },
     {
       "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "null",
-      "theme": "null",
+      "news_driver": "SBI's 15-paise bet",
+      "theme": null,
       "stocks": [
         {
-          "name": "SBI",
+          "name": "State Bank of India",
           "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "No direct impact of U.S.-Iran conflict on SBI's business",
-          "quant": "null"
+          "impact": "Bullish",
+          "reason": "SBI's 15-paise bet -> increased fee income -> higher SBI profitability",
+          "quant": "fee income +8-10% Q3"
         }
       ],
-      "watch": "RBI's monetary policy statement"
+      "watch": "SBI's quarterly earnings report"
     },
     {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Global Market: European shares decline as Middle East tensions weigh; airlines, autos lead losses",
-      "theme": "null",
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "IT rally",
+      "theme": null,
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bearish",
-          "reason": "Increase in oil prices -> higher input costs for Maruti Suzuki -> lower margins",
-          "quant": "margins -75bps"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bearish",
-          "reason": "Rise in oil prices -> higher costs for Tata Motors -> reduced profitability",
-          "quant": "profit -5-7% Q2"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Neutral",
+          "reason": "IT rally -> increased demand for IT services -> stable TCS revenue growth",
+          "quant": "revenue growth +2-3% Q3"
         }
       ],
-      "watch": "Auto sales data release"
+      "watch": "TCS's quarterly earnings report"
     }
   ],
   "themes": [
-    "null"
+    "energy_lockdown",
+    "PSU_rotation"
   ]
 }
