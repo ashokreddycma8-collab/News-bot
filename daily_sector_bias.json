@@ -1,101 +1,93 @@
 {
   "date": "2026-07-10",
-  "time": "12:28",
-  "mood": "Cautious",
+  "time": "12:53",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "TCS Q1 results showing stabilisation",
-      "theme": "PSU_rotation, China+1",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "TCS Q1 results -> stabilisation of IT sector concerns -> increased investor confidence",
-          "quant": "revenue +2-3% Q1"
-        },
-        {
-          "name": "Newgen Software",
-          "ticker": "NEWGEN.NS",
-          "impact": "Bullish",
-          "reason": "TCS Q1 results -> positive sentiment in IT sector -> increased demand for software services",
-          "quant": "margins +50bps"
-        },
-        {
-          "name": "Dixon Technologies",
-          "ticker": "DIXON.NS",
-          "impact": "Bullish",
-          "reason": "Govt nod to form JV with Vivo -> increased manufacturing capabilities -> higher revenue",
-          "quant": "order book +Rs200Cr"
-        }
-      ],
-      "watch": "TCS stock price at 3500 levels"
-    },
     {
       "sector": "banking",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Private banks may lead PSU peers in Q1 PAT show",
-      "theme": "PSU_rotation",
+      "conviction": 2,
+      "news_driver": "Sensex jumps 790 points, Nifty reclaims 24,000",
+      "theme": "null",
       "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Private banks leading PSU peers in Q1 PAT show -> increased competition -> improved efficiency",
-          "quant": "NIM +10bps"
-        },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "Private banks leading PSU peers in Q1 PAT show -> increased market share -> higher revenue",
-          "quant": "revenue +5% Q1"
+          "reason": "Sensex rally -> increased investor confidence -> higher valuations for banking stocks",
+          "quant": "NII +12-15% Q3"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Nifty reclaiming 24,000 -> improved market sentiment -> increased lending growth",
+          "quant": "margins +50bps"
         }
       ],
-      "watch": "SBI Funds Management IPO listing"
+      "watch": "PSL growth numbers"
     },
     {
-      "sector": "telecom",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "JioStar taps AI for shopping, TV movie night ideas",
-      "theme": "internet_digital",
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "IT stocks power rally",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Neutral",
-          "reason": "JioStar tapping AI for shopping and TV movie night ideas -> increased digital offerings -> higher customer engagement",
-          "quant": "data usage +5% Q2"
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "IT stocks rally -> increased demand for digital services -> higher revenue growth",
+          "quant": "revenue +8-10% Q3"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Strong IT sector performance -> improved client spending -> higher deal wins",
+          "quant": "order book +Rs400Cr"
         }
       ],
-      "watch": "JioStar AI-based services adoption"
+      "watch": "Q3 earnings"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "US summer travel slump and rising fares and fuel expenses",
-      "theme": null,
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Financials take over from IT as breadth stays strong",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "US summer travel slump and rising fares and fuel expenses -> decreased demand for oil -> lower revenue",
-          "quant": "revenue -3% Q2"
+          "name": "Bajaj Finance",
+          "ticker": "BAJFINANCE.NS",
+          "impact": "Bullish",
+          "reason": "Financials rally -> increased lending growth -> higher interest income",
+          "quant": "AUM +15-18% Q3"
         }
       ],
-      "watch": "Brent crude oil price at $90 levels"
+      "watch": "asset quality trends"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Outbound M&A by Indian firms robust despite West Asia tensions",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "JM Financial",
+          "ticker": "JMFCL.NS",
+          "impact": "Bullish",
+          "reason": "Robust M&A activity -> increased advisory fees -> higher revenue growth",
+          "quant": "revenue +5-7% Q3"
+        }
+      ],
+      "watch": "M&A deal pipeline"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1",
-    "internet_digital"
+    "banking sector rally",
+    "IT sector growth"
   ]
 }
