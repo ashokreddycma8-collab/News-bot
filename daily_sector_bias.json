@@ -1,93 +1,86 @@
 {
   "date": "2026-07-10",
-  "time": "12:53",
+  "time": "16:01",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex jumps 790 points, Nifty reclaims 24,000",
-      "theme": "null",
+      "news_driver": "Indian Bank Q1 results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Indian Bank",
+          "ticker": "INDIANB.NS",
           "impact": "Bullish",
-          "reason": "Sensex rally -> increased investor confidence -> higher valuations for banking stocks",
-          "quant": "NII +12-15% Q3"
+          "reason": "Q1 profit rise and asset quality improvement -> increased investor confidence -> stock price jump of 10%",
+          "quant": "10% stock price jump"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Nifty reclaiming 24,000 -> improved market sentiment -> increased lending growth",
-          "quant": "margins +50bps"
+          "reason": "Positive Q1 results from Indian Bank -> sector-wide sentiment boost -> potential stock price increase",
+          "quant": "2-3% potential stock price increase"
         }
       ],
-      "watch": "PSL growth numbers"
+      "watch": "Nifty Bank level of 59,000"
     },
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "IT stocks power rally",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Assam Govt proposes VAT cut on piped natural gas",
+      "theme": null,
       "stocks": [
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
+          "name": "GAIL (India) Ltd",
+          "ticker": "GAIL.NS",
           "impact": "Bullish",
-          "reason": "IT stocks rally -> increased demand for digital services -> higher revenue growth",
-          "quant": "revenue +8-10% Q3"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Strong IT sector performance -> improved client spending -> higher deal wins",
-          "quant": "order book +Rs400Cr"
+          "reason": "VAT cut proposal -> reduced costs for piped natural gas -> potential margin expansion of 50bps",
+          "quant": "50bps potential margin expansion"
         }
       ],
-      "watch": "Q3 earnings"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Financials take over from IT as breadth stays strong",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Bajaj Finance",
-          "ticker": "BAJFINANCE.NS",
-          "impact": "Bullish",
-          "reason": "Financials rally -> increased lending growth -> higher interest income",
-          "quant": "AUM +15-18% Q3"
-        }
-      ],
-      "watch": "asset quality trends"
+      "watch": "VAT cut implementation timeline"
     },
     {
       "sector": "capital_markets",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Outbound M&A by Indian firms robust despite West Asia tensions",
-      "theme": "null",
+      "news_driver": "Zerodha-Groww debate on direct vs regular mutual funds",
+      "theme": null,
       "stocks": [
         {
-          "name": "JM Financial",
-          "ticker": "JMFCL.NS",
-          "impact": "Bullish",
-          "reason": "Robust M&A activity -> increased advisory fees -> higher revenue growth",
-          "quant": "revenue +5-7% Q3"
+          "name": "Zerodha Broking Ltd",
+          "ticker": "null",
+          "impact": "Neutral",
+          "reason": "Debate on direct vs regular mutual funds -> increased awareness among investors -> potential shift in market share",
+          "quant": "null"
         }
       ],
-      "watch": "M&A deal pipeline"
+      "watch": "Mutual fund industry trends"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Christopher Wood warns of AI fatigue",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Infosys Ltd",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "AI fatigue warning -> potential slowdown in IT spending -> revenue growth decline of 2-3%",
+          "quant": "2-3% revenue growth decline"
+        }
+      ],
+      "watch": "IT industry earnings reports"
     }
   ],
   "themes": [
-    "banking sector rally",
-    "IT sector growth"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }

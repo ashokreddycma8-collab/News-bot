@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:28:50.401475+05:30",
+  "generated_at": "2026-07-10T16:01:04.686147+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -722,12 +722,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "INDIANB": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 Results: Standalone profit grows 5% YoY to Rs 3,103 crore",
+      "catalyst": "Q1 profit rises, asset quality improves",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "VEDL": {
       "score": 8,
