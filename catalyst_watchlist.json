@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T17:59:28.565272+05:30",
+  "generated_at": "2026-07-10T12:28:50.401475+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -92,7 +92,7 @@
     "HFCL": {
       "score": 8,
       "direction": "BUY",
-      "catalyst": "Rs 1,300-crore order win",
+      "catalyst": "Rs 495-crore order win",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -1362,12 +1362,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "DIXON": {
-      "score": 5,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 results announcement",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "govt nod to form JV with Vivo",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "MAXFINANC": {
       "score": 6,
@@ -2430,6 +2430,14 @@
       "direction": "SELL",
       "catalyst": "Kotak initiates coverage with 'Sell' call and sets target price",
       "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "NEWGEN": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "share surge over 11% after TCS Q1 results show stabilisation",
+      "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     }
