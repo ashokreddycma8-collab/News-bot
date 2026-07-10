@@ -1,86 +1,69 @@
 {
   "date": "2026-07-10",
-  "time": "16:01",
+  "time": "17:52",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Indian Bank Q1 results",
-      "theme": "PSU_rotation",
+      "news_driver": "Salasar Techno Engineering's 20% revenue growth target in FY27",
+      "theme": "PLI_capex",
       "stocks": [
         {
-          "name": "Indian Bank",
-          "ticker": "INDIANB.NS",
+          "name": "Salasar Techno Engineering",
+          "ticker": "SALASAR.NS",
           "impact": "Bullish",
-          "reason": "Q1 profit rise and asset quality improvement -> increased investor confidence -> stock price jump of 10%",
-          "quant": "10% stock price jump"
+          "reason": "Salasar's 20% revenue growth target -> increased capex and order book -> higher profitability",
+          "quant": "revenue +20% YoY"
         },
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Kalpataru Power Transmission",
+          "ticker": "KALPATPOWR.NS",
           "impact": "Bullish",
-          "reason": "Positive Q1 results from Indian Bank -> sector-wide sentiment boost -> potential stock price increase",
-          "quant": "2-3% potential stock price increase"
+          "reason": "Government's infrastructure push -> increased order book for capital goods companies -> higher revenue",
+          "quant": "order book +15% YoY"
         }
       ],
-      "watch": "Nifty Bank level of 59,000"
+      "watch": "Salasar Techno Engineering's Q2 earnings release"
     },
     {
       "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Assam Govt proposes VAT cut on piped natural gas",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "GAIL (India) Ltd",
-          "ticker": "GAIL.NS",
-          "impact": "Bullish",
-          "reason": "VAT cut proposal -> reduced costs for piped natural gas -> potential margin expansion of 50bps",
-          "quant": "50bps potential margin expansion"
-        }
-      ],
-      "watch": "VAT cut implementation timeline"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Zerodha-Groww debate on direct vs regular mutual funds",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Zerodha Broking Ltd",
-          "ticker": "null",
-          "impact": "Neutral",
-          "reason": "Debate on direct vs regular mutual funds -> increased awareness among investors -> potential shift in market share",
-          "quant": "null"
-        }
-      ],
-      "watch": "Mutual fund industry trends"
-    },
-    {
-      "sector": "it",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Christopher Wood warns of AI fatigue",
-      "theme": "internet_digital",
+      "news_driver": "E20 fuel may lead to 3-5% mileage hit in some vehicles",
+      "theme": null,
       "stocks": [
         {
-          "name": "Infosys Ltd",
-          "ticker": "INFY.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "AI fatigue warning -> potential slowdown in IT spending -> revenue growth decline of 2-3%",
-          "quant": "2-3% revenue growth decline"
+          "reason": "E20 fuel implementation -> lower fuel efficiency -> decreased demand for petrol",
+          "quant": "demand -2% YoY"
         }
       ],
-      "watch": "IT industry earnings reports"
+      "watch": "Government's E20 fuel implementation timeline"
+    },
+    {
+      "sector": "railway",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "8th Pay Commission's potential impact on railway engineers",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "IRCON International",
+          "ticker": "IRCON.NS",
+          "impact": "Bullish",
+          "reason": "8th Pay Commission's potential benefits -> increased spending power for railway employees -> higher consumer spending",
+          "quant": "consumer spending +5% YoY"
+        }
+      ],
+      "watch": "8th Pay Commission's final report release"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "PLI_capex",
+    "PSU_rotation"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T16:01:04.686147+05:30",
+  "generated_at": "2026-07-10T17:52:45.996293+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2440,6 +2440,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "SALASAR": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "aims 20% revenue growth in FY27 to Rs 1,800 crore",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MILKYMIST": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "to launch $213 million IPO this month",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
