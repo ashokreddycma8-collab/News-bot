@@ -1,93 +1,85 @@
 {
   "date": "2026-07-13",
-  "time": "12:05",
-  "mood": "Bullish",
+  "time": "15:26",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Global tech rally",
-      "theme": "internet_digital",
+      "news_driver": "Iran-US tensions and escalating Middle East tensions",
+      "theme": "null",
       "stocks": [
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 earnings -> increased investor confidence -> stock price jump",
-          "quant": "3% stock price gain"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Iran-US tensions -> higher crude prices -> lower IOC margins",
+          "quant": "-100bps"
         },
         {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Upcoming earnings announcement -> positive expectations -> stock price appreciation",
-          "quant": "5-7% potential stock price gain"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Global tech rally -> increased demand for IT services -> revenue growth",
-          "quant": "8-10% revenue growth Q3"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Middle East tensions -> supply chain disruptions -> lower HPCL sales",
+          "quant": "-5%"
         }
       ],
-      "watch": "HCL Tech earnings announcement"
+      "watch": "Brent crude price crossing $100/barrel"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
+      "sector": "renewable",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "PFC bond issuance",
-      "theme": null,
+      "news_driver": "India's quarterly exports peak to highest",
+      "theme": "null",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "ReNew Energy Global",
+          "ticker": "RENEWENERGY.NS",
+          "impact": "Bullish",
+          "reason": "India's exports growth -> higher demand for renewable energy -> increased ReNew Energy sales",
+          "quant": "+8-10% Q3"
+        }
+      ],
+      "watch": "India's renewable energy target achievement"
+    },
+    {
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Puravankara",
+          "ticker": "PURVA.NS",
+          "impact": "Bullish",
+          "reason": "Puravankara Q1 sales bookings growth -> higher revenue -> increased profitability",
+          "quant": "+15% YoY"
+        }
+      ],
+      "watch": "Puravankara's next quarterly sales bookings"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Kalyan Jewellers Shares Up 40% In Four Sessions",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Kalyan Jewellers",
+          "ticker": "KALYANJEW.NS",
           "impact": "Neutral",
-          "reason": "Upcoming earnings announcement -> neutral expectations -> stable stock price",
+          "reason": "Kalyan Jewellers share price surge -> potential overvaluation -> caution advised",
           "quant": "null"
         }
       ],
-      "watch": "HDFC Bank earnings announcement"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Oil price rise",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Oil price rise -> increased costs -> reduced margins",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "Oil price movement"
-    },
-    {
-      "sector": "capital_goods",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Cochin Shipyard bid for Bharat Container Shipping Line orders",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Cochin Shipyard",
-          "ticker": "COCHINSHIP.NS",
-          "impact": "Bullish",
-          "reason": "Order win -> increased revenue -> stock price appreciation",
-          "quant": "Rs 500Cr order value"
-        }
-      ],
-      "watch": "Order book update"
+      "watch": "Kalyan Jewellers' next quarterly earnings"
     }
   ],
   "themes": [
-    "internet_digital",
-    "PSU_rotation"
+    "null"
   ]
 }
