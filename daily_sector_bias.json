@@ -1,85 +1,100 @@
 {
   "date": "2026-07-13",
-  "time": "15:26",
+  "time": "17:58",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "TCS earnings and HCL Tech optimism",
+      "theme": "internet_digital",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 earnings -> increased demand for digital services -> revenue growth of 8-10% Q3",
+          "quant": "8-10%"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "Optimistic guidance -> expansion of digital services portfolio -> order book growth of Rs400Cr",
+          "quant": "Rs400Cr"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Peer performance -> increased confidence in IT sector -> margins expansion of 50bps",
+          "quant": "50bps"
+        }
+      ],
+      "watch": "TCS stock price crossing 4000 levels"
+    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Iran-US tensions and escalating Middle East tensions",
-      "theme": "null",
+      "news_driver": "US-Iran conflict and rising oil prices",
+      "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Iran-US tensions -> higher crude prices -> lower IOC margins",
-          "quant": "-100bps"
+          "reason": "Rising crude prices -> increased input costs -> margins contraction of 150bps",
+          "quant": "-150bps"
         },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Middle East tensions -> supply chain disruptions -> lower HPCL sales",
+          "reason": "Higher oil prices -> decreased refining margins -> revenue decline of 5%",
           "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price crossing $100/barrel"
+      "watch": "Brent crude price crossing $100 levels"
     },
     {
-      "sector": "renewable",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "India's quarterly exports peak to highest",
-      "theme": "null",
+      "news_driver": "ICICI Prudential AMC Q1 results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "ReNew Energy Global",
-          "ticker": "RENEWENERGY.NS",
+          "name": "ICICI Prudential Life Insurance",
+          "ticker": "ICICIPRULI.NS",
           "impact": "Bullish",
-          "reason": "India's exports growth -> higher demand for renewable energy -> increased ReNew Energy sales",
-          "quant": "+8-10% Q3"
+          "reason": "Strong Q1 results -> increased investor confidence -> stock price appreciation of 8%",
+          "quant": "8%"
         }
       ],
-      "watch": "India's renewable energy target achievement"
+      "watch": "ICICI Prudential AMC stock price crossing 600 levels"
     },
     {
-      "sector": "realty",
+      "sector": "telecom",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Puravankara Q1 sales bookings up 28% to Rs 1,439 cr",
-      "theme": "null",
+      "news_driver": "Airtel VC's comments on financial services and data centre",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Puravankara",
-          "ticker": "PURVA.NS",
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
           "impact": "Bullish",
-          "reason": "Puravankara Q1 sales bookings growth -> higher revenue -> increased profitability",
-          "quant": "+15% YoY"
+          "reason": "Diversification into financial services -> increased revenue streams -> revenue growth of 5%",
+          "quant": "5%"
         }
       ],
-      "watch": "Puravankara's next quarterly sales bookings"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Kalyan Jewellers Shares Up 40% In Four Sessions",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Kalyan Jewellers",
-          "ticker": "KALYANJEW.NS",
-          "impact": "Neutral",
-          "reason": "Kalyan Jewellers share price surge -> potential overvaluation -> caution advised",
-          "quant": "null"
-        }
-      ],
-      "watch": "Kalyan Jewellers' next quarterly earnings"
+      "watch": "Airtel stock price crossing 900 levels"
     }
   ],
   "themes": [
-    "null"
+    "internet_digital",
+    "PSU_rotation"
   ]
 }

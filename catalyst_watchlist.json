@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:26:36.813933+05:30",
+  "generated_at": "2026-07-13T17:58:56.636331+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -186,12 +186,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "ICICIPRULI": {
-      "score": 6,
-      "direction": "SELL",
-      "catalyst": "shares crash 9% due to unknown reasons",
-      "category": "corporate_event",
-      "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 Results: Net profit rises 23% YoY to Rs 965 crore; revenue up 18%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "APOLLO": {
       "score": 8,
@@ -2456,6 +2456,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "RAMCOIND": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "appoints new Chief Executive Officer Sandesh Bilagi",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "KALPATPUR": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "posts 17% jump in collections and launches luxury Mumbai project in Q1 FY27",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
