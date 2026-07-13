@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T17:52:45.996293+05:30",
+  "generated_at": "2026-07-13T12:05:28.253279+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1570,12 +1570,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "COCHINSHIP": {
-      "score": 5,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "Among top movers on Monday",
-      "category": "structural_change",
-      "ttl_hours": 72,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "Cochin Shipyard bids for Bharat Container Shipping Line orders",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "JSWENER": {
       "score": 8,

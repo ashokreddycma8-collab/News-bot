@@ -1,69 +1,93 @@
 {
-  "date": "2026-07-10",
-  "time": "17:52",
+  "date": "2026-07-13",
+  "time": "12:05",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "capital_goods",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Salasar Techno Engineering's 20% revenue growth target in FY27",
-      "theme": "PLI_capex",
+      "news_driver": "Global tech rally",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Salasar Techno Engineering",
-          "ticker": "SALASAR.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Salasar's 20% revenue growth target -> increased capex and order book -> higher profitability",
-          "quant": "revenue +20% YoY"
+          "reason": "Strong Q1 earnings -> increased investor confidence -> stock price jump",
+          "quant": "3% stock price gain"
         },
         {
-          "name": "Kalpataru Power Transmission",
-          "ticker": "KALPATPOWR.NS",
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "Government's infrastructure push -> increased order book for capital goods companies -> higher revenue",
-          "quant": "order book +15% YoY"
+          "reason": "Upcoming earnings announcement -> positive expectations -> stock price appreciation",
+          "quant": "5-7% potential stock price gain"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Global tech rally -> increased demand for IT services -> revenue growth",
+          "quant": "8-10% revenue growth Q3"
         }
       ],
-      "watch": "Salasar Techno Engineering's Q2 earnings release"
+      "watch": "HCL Tech earnings announcement"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "PFC bond issuance",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "Upcoming earnings announcement -> neutral expectations -> stable stock price",
+          "quant": "null"
+        }
+      ],
+      "watch": "HDFC Bank earnings announcement"
     },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "E20 fuel may lead to 3-5% mileage hit in some vehicles",
+      "news_driver": "Oil price rise",
       "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
           "impact": "Bearish",
-          "reason": "E20 fuel implementation -> lower fuel efficiency -> decreased demand for petrol",
-          "quant": "demand -2% YoY"
+          "reason": "Oil price rise -> increased costs -> reduced margins",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Government's E20 fuel implementation timeline"
+      "watch": "Oil price movement"
     },
     {
-      "sector": "railway",
+      "sector": "capital_goods",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "8th Pay Commission's potential impact on railway engineers",
+      "conviction": 1,
+      "news_driver": "Cochin Shipyard bid for Bharat Container Shipping Line orders",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "IRCON International",
-          "ticker": "IRCON.NS",
+          "name": "Cochin Shipyard",
+          "ticker": "COCHINSHIP.NS",
           "impact": "Bullish",
-          "reason": "8th Pay Commission's potential benefits -> increased spending power for railway employees -> higher consumer spending",
-          "quant": "consumer spending +5% YoY"
+          "reason": "Order win -> increased revenue -> stock price appreciation",
+          "quant": "Rs 500Cr order value"
         }
       ],
-      "watch": "8th Pay Commission's final report release"
+      "watch": "Order book update"
     }
   ],
   "themes": [
-    "PLI_capex",
+    "internet_digital",
     "PSU_rotation"
   ]
 }
