@@ -1,86 +1,100 @@
 {
   "date": "2026-07-14",
-  "time": "15:43",
+  "time": "16:53",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rising oil prices",
+      "news_driver": "Rising oil prices due to geopolitical tensions",
       "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising crude prices -> Increased input costs -> Margins -150bps",
-          "quant": "-150bps"
+          "reason": "Rising crude oil prices -> increased cost of production -> reduced margins by 100-150bps",
+          "quant": "-120bps"
         },
         {
           "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> Higher under-recovery -> Revenue -5%",
-          "quant": "-5%"
+          "reason": "Geopolitical tensions -> supply chain disruptions -> reduced sales volume by 5-7%",
+          "quant": "-6%"
+        },
+        {
+          "name": "Bharat Petroleum",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Weakening rupee -> increased import costs -> reduced profitability by 8-10%",
+          "quant": "-9%"
         }
       ],
-      "watch": "Brent crude price crossing $100/barrel"
+      "watch": "Brent crude oil price crossing $100"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Insurance distribution boosts fee income at most public sector banks in FY26",
+      "theme": "PSU bank revival",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Increased insurance distribution -> higher fee income -> improved profitability by 50-70bps",
+          "quant": "60bps"
+        },
+        {
+          "name": "Bank of Baroda",
+          "ticker": "BANKBARODA.NS",
+          "impact": "Bullish",
+          "reason": "Growing insurance business -> diversification of revenue streams -> reduced dependence on interest income by 3-5%",
+          "quant": "-4%"
+        }
+      ],
+      "watch": "PSU bank Q2 earnings"
     },
     {
       "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "SBI Funds Management IPO",
-      "theme": null,
+      "news_driver": "Direct tax mop-up grows 16% to over \u20b96.51 lakh crore so far in FY27",
+      "theme": "Financialization of savings",
       "stocks": [
         {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
+          "name": "HDFC Limited",
+          "ticker": "HDFC.NS",
           "impact": "Bullish",
-          "reason": "Successful IPO -> Increased investor confidence -> Stock price +2%",
-          "quant": "2%"
+          "reason": "Increased tax collections -> higher disposable income -> increased demand for financial services by 8-10%",
+          "quant": "9%"
         }
       ],
-      "watch": "IPO listing price"
+      "watch": "FY27 budget allocation"
     },
     {
-      "sector": "auto",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Landmark Cars Q1 business update",
-      "theme": null,
+      "news_driver": "India refiners reap fuel export windfall as war drives shortages",
+      "theme": "Refining margin expansion",
       "stocks": [
         {
-          "name": "Landmark Cars",
-          "ticker": "LANDMARK.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "Robust Q1 sales -> Increased revenue visibility -> Stock price +15%",
-          "quant": "15%"
+          "reason": "Global fuel shortages -> increased refining margins -> improved profitability by 150-200bps",
+          "quant": "175bps"
         }
       ],
-      "watch": "Q2 sales growth"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Wipro Q1 preview",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Neutral",
-          "reason": "Salary hikes -> Margin pressure -> Guidance in focus",
-          "quant": "-50bps"
-        }
-      ],
-      "watch": "Q1 margin guidance"
+      "watch": "Global refining margin trends"
     }
   ],
   "themes": [
     "OMC margin squeeze",
-    "IPO momentum"
+    "PSU bank revival"
   ]
 }
