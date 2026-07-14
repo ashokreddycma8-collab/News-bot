@@ -1,100 +1,85 @@
 {
-  "date": "2026-07-13",
-  "time": "17:58",
-  "mood": "Cautious",
+  "date": "2026-07-14",
+  "time": "11:13",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "TCS earnings and HCL Tech optimism",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 earnings -> increased demand for digital services -> revenue growth of 8-10% Q3",
-          "quant": "8-10%"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Optimistic guidance -> expansion of digital services portfolio -> order book growth of Rs400Cr",
-          "quant": "Rs400Cr"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Peer performance -> increased confidence in IT sector -> margins expansion of 50bps",
-          "quant": "50bps"
-        }
-      ],
-      "watch": "TCS stock price crossing 4000 levels"
-    },
-    {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and rising oil prices",
-      "theme": null,
+      "news_driver": "Iran conflict and crude oil price surge",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising crude prices -> increased input costs -> margins contraction of 150bps",
-          "quant": "-150bps"
+          "reason": "Iran conflict -> crude oil price surge -> reduced refining margins",
+          "quant": "margins -100bps"
         },
         {
-          "name": "HPCL",
+          "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Higher oil prices -> decreased refining margins -> revenue decline of 5%",
-          "quant": "-5%"
+          "reason": "crude oil price surge -> increased input costs -> lower profitability",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Brent crude price crossing $100 levels"
+      "watch": "Brent crude price level of $95"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "ICICI Prudential AMC Q1 results",
+      "news_driver": "HCL Tech Q1 results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "Q1 results -> lower-than-expected revenue growth -> decreased investor sentiment",
+          "quant": "revenue +2% Q3"
+        }
+      ],
+      "watch": "HCL Tech stock price level of 1000"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "IDBI Bank stake sale",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "ICICI Prudential Life Insurance",
-          "ticker": "ICICIPRULI.NS",
+          "name": "IDBI Bank",
+          "ticker": "IDBI.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> stock price appreciation of 8%",
-          "quant": "8%"
+          "reason": "stake sale -> increased investor interest -> potential stock price appreciation",
+          "quant": "stock price +5%"
         }
       ],
-      "watch": "ICICI Prudential AMC stock price crossing 600 levels"
+      "watch": "IDBI Bank stake sale completion"
     },
     {
-      "sector": "telecom",
+      "sector": "jewellery",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Airtel VC's comments on financial services and data centre",
-      "theme": "internet_digital",
+      "conviction": 2,
+      "news_driver": "Q1 surprise",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
+          "name": "Titan Company",
+          "ticker": "TITAN.NS",
           "impact": "Bullish",
-          "reason": "Diversification into financial services -> increased revenue streams -> revenue growth of 5%",
-          "quant": "5%"
+          "reason": "Q1 surprise -> increased revenue growth -> higher profitability",
+          "quant": "revenue +15% Q3"
         }
       ],
-      "watch": "Airtel stock price crossing 900 levels"
+      "watch": "Titan Company stock price level of 3000"
     }
   ],
   "themes": [
-    "internet_digital",
     "PSU_rotation"
   ]
 }
