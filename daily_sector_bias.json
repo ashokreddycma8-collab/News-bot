@@ -1,85 +1,52 @@
 {
   "date": "2026-07-14",
-  "time": "11:13",
-  "mood": "Bearish",
+  "time": "11:31",
+  "mood": "Cautious",
   "sectors": [
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Iran conflict and crude oil price surge",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Iran conflict -> crude oil price surge -> reduced refining margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "crude oil price surge -> increased input costs -> lower profitability",
-          "quant": "revenue -5%"
-        }
-      ],
-      "watch": "Brent crude price level of $95"
-    },
     {
       "sector": "it",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "HCL Tech Q1 results",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "South Korea stocks slide into bear market due to AI boom turning turbulent",
+      "theme": "China+1",
       "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "AI boom turning turbulent -> reduced global demand for IT services -> revenue growth slowdown",
+          "quant": "-5% Q2 revenue growth"
+        },
         {
           "name": "HCL Technologies",
           "ticker": "HCLTECH.NS",
           "impact": "Bearish",
-          "reason": "Q1 results -> lower-than-expected revenue growth -> decreased investor sentiment",
-          "quant": "revenue +2% Q3"
+          "reason": "Global AI turbulence -> decreased client spending on digital transformation -> margin compression",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "HCL Tech stock price level of 1000"
+      "watch": "Nasdaq performance"
     },
     {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "IDBI Bank stake sale",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "IDBI Bank",
-          "ticker": "IDBI.NS",
-          "impact": "Bullish",
-          "reason": "stake sale -> increased investor interest -> potential stock price appreciation",
-          "quant": "stock price +5%"
-        }
-      ],
-      "watch": "IDBI Bank stake sale completion"
-    },
-    {
-      "sector": "jewellery",
+      "sector": "financial_services",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Q1 surprise",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "AMFI seeks review of decade-old $7 billion overseas MF investment cap",
+      "theme": null,
       "stocks": [
         {
-          "name": "Titan Company",
-          "ticker": "TITAN.NS",
+          "name": "HDFC Asset Management",
+          "ticker": "HDFCAMC.NS",
           "impact": "Bullish",
-          "reason": "Q1 surprise -> increased revenue growth -> higher profitability",
-          "quant": "revenue +15% Q3"
+          "reason": "Overseas MF investment cap review -> increased investment opportunities -> higher AUM growth",
+          "quant": "+10% AUM growth"
         }
       ],
-      "watch": "Titan Company stock price level of 3000"
+      "watch": "SEBI decision on MF investment cap"
     }
   ],
   "themes": [
+    "China+1",
     "PSU_rotation"
   ]
 }
