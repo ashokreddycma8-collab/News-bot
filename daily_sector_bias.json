@@ -1,79 +1,86 @@
 {
   "date": "2026-07-14",
-  "time": "13:55",
+  "time": "15:43",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Natco Pharma raises Adcock Ingram stake to 49%",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Natco Pharma",
-          "ticker": "NATCOPHARM.NS",
-          "impact": "Bullish",
-          "reason": "Natco Pharma's stake increase in Adcock Ingram -> expected revenue growth from expanded product portfolio -> 10-12% increase in FY27 revenue",
-          "quant": "10-12%"
-        }
-      ],
-      "watch": "Natco Pharma's Q2 earnings release"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "HCL Tech\u2019s Rs 3,500 crore AI data centre foray",
-      "theme": "digital_transformation",
-      "stocks": [
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Neutral",
-          "reason": "HCL Tech's AI data centre foray -> increased capital expenditure -> -50bps impact on FY27 margins",
-          "quant": "-50bps"
-        }
-      ],
-      "watch": "HCL Tech's Q2 earnings release"
-    },
-    {
-      "sector": "fmcg",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "WPI inflation rises to 9.87% in June",
-      "theme": null,
+      "news_driver": "Rising oil prices",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Britannia Industries",
-          "ticker": "BRITANNIA.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "WPI inflation rise -> increased input costs -> 100-120bps squeeze on Britannia's FY27 margins",
-          "quant": "100-120bps"
+          "reason": "Rising crude prices -> Increased input costs -> Margins -150bps",
+          "quant": "-150bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rising oil prices -> Higher under-recovery -> Revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "June CPI inflation data release"
+      "watch": "Brent crude price crossing $100/barrel"
     },
     {
-      "sector": "banking",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "SBI Funds Management IPO GMP Signals 16% Listing Gains",
-      "theme": "financial_inclusion",
+      "news_driver": "SBI Funds Management IPO",
+      "theme": null,
       "stocks": [
         {
           "name": "SBI",
           "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "SBI Funds Management IPO -> expected increase in SBI's fee income -> 2-3% increase in FY27 revenue",
-          "quant": "2-3%"
+          "reason": "Successful IPO -> Increased investor confidence -> Stock price +2%",
+          "quant": "2%"
         }
       ],
-      "watch": "SBI Funds Management IPO listing"
+      "watch": "IPO listing price"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Landmark Cars Q1 business update",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Landmark Cars",
+          "ticker": "LANDMARK.NS",
+          "impact": "Bullish",
+          "reason": "Robust Q1 sales -> Increased revenue visibility -> Stock price +15%",
+          "quant": "15%"
+        }
+      ],
+      "watch": "Q2 sales growth"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Wipro Q1 preview",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Neutral",
+          "reason": "Salary hikes -> Margin pressure -> Guidance in focus",
+          "quant": "-50bps"
+        }
+      ],
+      "watch": "Q1 margin guidance"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "digital_transformation"
+    "OMC margin squeeze",
+    "IPO momentum"
   ]
 }

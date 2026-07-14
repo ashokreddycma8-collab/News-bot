@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T13:55:51.373437+05:30",
+  "generated_at": "2026-07-14T15:43:44.599192+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2488,6 +2488,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "LANDMARKCAR": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Robust Q1 business update",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "PPFAS": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Avendus fund buys stake worth Rs 140 crore from promoters",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
