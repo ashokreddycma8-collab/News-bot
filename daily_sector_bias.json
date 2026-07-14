@@ -1,52 +1,79 @@
 {
   "date": "2026-07-14",
-  "time": "11:31",
+  "time": "13:55",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
+      "sector": "pharma",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "South Korea stocks slide into bear market due to AI boom turning turbulent",
-      "theme": "China+1",
+      "news_driver": "Natco Pharma raises Adcock Ingram stake to 49%",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "AI boom turning turbulent -> reduced global demand for IT services -> revenue growth slowdown",
-          "quant": "-5% Q2 revenue growth"
-        },
+          "name": "Natco Pharma",
+          "ticker": "NATCOPHARM.NS",
+          "impact": "Bullish",
+          "reason": "Natco Pharma's stake increase in Adcock Ingram -> expected revenue growth from expanded product portfolio -> 10-12% increase in FY27 revenue",
+          "quant": "10-12%"
+        }
+      ],
+      "watch": "Natco Pharma's Q2 earnings release"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "HCL Tech\u2019s Rs 3,500 crore AI data centre foray",
+      "theme": "digital_transformation",
+      "stocks": [
         {
           "name": "HCL Technologies",
           "ticker": "HCLTECH.NS",
-          "impact": "Bearish",
-          "reason": "Global AI turbulence -> decreased client spending on digital transformation -> margin compression",
-          "quant": "margins -100bps"
+          "impact": "Neutral",
+          "reason": "HCL Tech's AI data centre foray -> increased capital expenditure -> -50bps impact on FY27 margins",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Nasdaq performance"
+      "watch": "HCL Tech's Q2 earnings release"
     },
     {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "AMFI seeks review of decade-old $7 billion overseas MF investment cap",
+      "sector": "fmcg",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "WPI inflation rises to 9.87% in June",
       "theme": null,
       "stocks": [
         {
-          "name": "HDFC Asset Management",
-          "ticker": "HDFCAMC.NS",
-          "impact": "Bullish",
-          "reason": "Overseas MF investment cap review -> increased investment opportunities -> higher AUM growth",
-          "quant": "+10% AUM growth"
+          "name": "Britannia Industries",
+          "ticker": "BRITANNIA.NS",
+          "impact": "Bearish",
+          "reason": "WPI inflation rise -> increased input costs -> 100-120bps squeeze on Britannia's FY27 margins",
+          "quant": "100-120bps"
         }
       ],
-      "watch": "SEBI decision on MF investment cap"
+      "watch": "June CPI inflation data release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "SBI Funds Management IPO GMP Signals 16% Listing Gains",
+      "theme": "financial_inclusion",
+      "stocks": [
+        {
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "SBI Funds Management IPO -> expected increase in SBI's fee income -> 2-3% increase in FY27 revenue",
+          "quant": "2-3%"
+        }
+      ],
+      "watch": "SBI Funds Management IPO listing"
     }
   ],
   "themes": [
-    "China+1",
-    "PSU_rotation"
+    "PSU_rotation",
+    "digital_transformation"
   ]
 }

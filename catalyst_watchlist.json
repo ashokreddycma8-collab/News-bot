@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:31:16.560174+05:30",
+  "generated_at": "2026-07-14T13:55:51.373437+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1930,12 +1930,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "NATCOPHARM": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Q4 results weak, net profit tanks 34% YoY",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "raises Adcock Ingram stake to 49%, pays \u20b91,060 crore",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "AVADHA": {
       "score": 8,
@@ -2479,6 +2479,14 @@
       "catalyst": "Q1 net profit jumps 20%, strongest EBITDA ever",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AVIOSMART": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "inks Tripura MoU for freeze-drying plant, targets 1,300 jobs",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
