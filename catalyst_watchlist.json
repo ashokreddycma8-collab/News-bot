@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:56:23.914547+05:30",
+  "generated_at": "2026-07-15T16:56:18.116865+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -450,12 +450,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "UNIONBANK": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Union Bank of India shares drop 5% post Q1 business update",
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit up 29.6% to \u20b95,332 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "AMAZON": {
       "score": 9,
@@ -2520,6 +2520,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "HDFCAMC": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit rises 12% to Rs 837 crore, revenue up 14%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

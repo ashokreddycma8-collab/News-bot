@@ -1,86 +1,58 @@
 {
   "date": "2026-07-15",
-  "time": "15:56",
+  "time": "16:56",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "ASML raises 2026 outlook as AI boom drives strong earnings",
-      "theme": "China+1",
+      "news_driver": "HDFC AMC Q1 Results and Union Bank of India Q1 Results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "HDFC Asset Management Company",
+          "ticker": "HDFCAMC.NS",
           "impact": "Bullish",
-          "reason": "AI boom -> increased demand for IT services -> revenue growth of 8-10% in Q3",
-          "quant": "8-10%"
+          "reason": "Q1 net profit rise of 12% -> increased investor confidence in financial services -> potential stock price appreciation",
+          "quant": "revenue +14% Q1"
         },
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
+          "name": "Union Bank of India",
+          "ticker": "UNIONBANK.NS",
           "impact": "Bullish",
-          "reason": "Global IT spending increase -> higher outsourcing demand -> order book growth of Rs 500Cr",
-          "quant": "Rs 500Cr"
+          "reason": "Q1 net profit increase of 29.6% -> improved profitability -> higher stock valuation",
+          "quant": "net profit +29.6% YoY"
+        },
+        {
+          "name": "ICICI Prudential Life Insurance Company",
+          "ticker": "ICICIPRULI.NS",
+          "impact": "Bullish",
+          "reason": "Q1 net profit jump of 28% -> enhanced investor sentiment in insurance sector -> possible stock price increase",
+          "quant": "net profit +28% YoY"
         }
       ],
-      "watch": "Q3 earnings release of IT majors"
+      "watch": "Union Bank of India's upcoming management commentary on Q1 results"
     },
     {
-      "sector": "auto",
+      "sector": "capital_markets",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Skoda To Launch Slavia Facelift In Mid-August",
+      "news_driver": "NSE and Augmont partnership to expand Electronic Gold Receipts ecosystem",
       "theme": null,
       "stocks": [
         {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
+          "name": "National Stock Exchange of India",
+          "ticker": "NSE.NS",
           "impact": "Bullish",
-          "reason": "New model launches -> increased competition -> potential market share gain of 1-2%",
-          "quant": "1-2%"
+          "reason": "Partnership with Augmont -> increased trading volumes in Electronic Gold Receipts -> higher revenue for NSE",
+          "quant": "potential revenue +5-7% from increased trading volumes"
         }
       ],
-      "watch": "August sales numbers of auto companies"
-    },
-    {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Banks Q1 Preview: Private Banks Lead Analysts' Top Picks; NIM Pressure Seen To Offset Healthy Loan Growth",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "NIM pressure -> lower margins -> net interest income growth of 5-7% in Q1",
-          "quant": "5-7%"
-        }
-      ],
-      "watch": "Q1 earnings release of banking sector"
-    },
-    {
-      "sector": "capital_goods",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Cabinet Clears Mobile Manufacturing Scheme, Semiconductor Mission 2.0 & Urea Investment Policy",
-      "theme": "PLI_solar",
-      "stocks": [
-        {
-          "name": "L&T",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "Government policy support -> increased investments -> order book growth of Rs 1000Cr",
-          "quant": "Rs 1000Cr"
-        }
-      ],
-      "watch": "Government's upcoming policy announcements"
+      "watch": "trading volumes in Electronic Gold Receipts post-partnership announcement"
     }
   ],
   "themes": [
-    "China+1",
-    "PLI_solar"
+    "PSU_rotation"
   ]
 }
