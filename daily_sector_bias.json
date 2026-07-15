@@ -1,85 +1,86 @@
 {
   "date": "2026-07-15",
-  "time": "14:02",
-  "mood": "Cautious",
+  "time": "15:56",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Nifty Bank gains 560 points, HDFC Bank and SBI stocks jump up to 2%",
-      "theme": "PSU_rotation",
+      "news_driver": "ASML raises 2026 outlook as AI boom drives strong earnings",
+      "theme": "China+1",
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "AI boom -> increased demand for IT services -> revenue growth of 8-10% in Q3",
+          "quant": "8-10%"
+        },
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Global IT spending increase -> higher outsourcing demand -> order book growth of Rs 500Cr",
+          "quant": "Rs 500Cr"
+        }
+      ],
+      "watch": "Q3 earnings release of IT majors"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Skoda To Launch Slavia Facelift In Mid-August",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
+          "impact": "Bullish",
+          "reason": "New model launches -> increased competition -> potential market share gain of 1-2%",
+          "quant": "1-2%"
+        }
+      ],
+      "watch": "August sales numbers of auto companies"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Banks Q1 Preview: Private Banks Lead Analysts' Top Picks; NIM Pressure Seen To Offset Healthy Loan Growth",
+      "theme": null,
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Nifty Bank rally -> increased investor confidence in banking sector -> higher stock prices",
-          "quant": "2% stock price gain"
-        },
-        {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Nifty Bank rally -> increased investor confidence in banking sector -> higher stock prices",
-          "quant": "2% stock price gain"
+          "impact": "Neutral",
+          "reason": "NIM pressure -> lower margins -> net interest income growth of 5-7% in Q1",
+          "quant": "5-7%"
         }
       ],
-      "watch": "Nifty Bank level of 42000"
+      "watch": "Q1 earnings release of banking sector"
     },
     {
-      "sector": "financial_services",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "SBI Funds Management IPO sees full subscription on second day",
-      "theme": "PSU_rotation",
+      "news_driver": "Cabinet Clears Mobile Manufacturing Scheme, Semiconductor Mission 2.0 & Urea Investment Policy",
+      "theme": "PLI_solar",
       "stocks": [
         {
-          "name": "SBI Life Insurance",
-          "ticker": "SBILIFE.NS",
+          "name": "L&T",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "SBI Funds Management IPO success -> increased investor confidence in SBI group companies -> higher stock prices",
-          "quant": "5% stock price gain"
+          "reason": "Government policy support -> increased investments -> order book growth of Rs 1000Cr",
+          "quant": "Rs 1000Cr"
         }
       ],
-      "watch": "SBI Life Insurance Q1 earnings report"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Indian real estate attracts $3.2 billion PE investments in H1 2026",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "DLF",
-          "ticker": "DLF.NS",
-          "impact": "Bullish",
-          "reason": "Increased PE investments in real estate -> higher demand for housing and commercial spaces -> higher stock prices",
-          "quant": "8-10% revenue growth in Q3"
-        }
-      ],
-      "watch": "DLF Q2 earnings report"
-    },
-    {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "HCL Tech leads losses in Sensex and Nifty",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bearish",
-          "reason": "Rupee slide and Iran conflict -> decreased investor confidence in IT sector -> lower stock prices",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "HCL Tech Q2 earnings report"
+      "watch": "Government's upcoming policy announcements"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "China+1",
+    "PLI_solar"
   ]
 }
