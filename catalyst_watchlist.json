@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T11:33:45.109706+05:30",
+  "generated_at": "2026-07-15T14:02:32.823324+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2512,6 +2512,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "HDFCLIFE": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 results today",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

@@ -1,107 +1,85 @@
 {
   "date": "2026-07-15",
-  "time": "11:33",
-  "mood": "Bullish",
+  "time": "14:02",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "ITR filing 2026: How to download interest certificate from SBI, HDFC Bank, ICICI Bank, Axis Bank and India Post",
+      "news_driver": "Nifty Bank gains 560 points, HDFC Bank and SBI stocks jump up to 2%",
       "theme": "PSU_rotation",
       "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Increased ITR filing activity -> Higher transaction volumes -> Revenue +2-3% Q2",
-          "quant": "2.5%"
-        },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "Improved ITR filing process -> Enhanced customer experience -> Deposits +5% Q3",
-          "quant": "5%"
+          "reason": "Nifty Bank rally -> increased investor confidence in banking sector -> higher stock prices",
+          "quant": "2% stock price gain"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "SBI",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Streamlined ITR filing -> Reduced operational costs -> Margins +50bps Q2",
-          "quant": "50bps"
+          "reason": "Nifty Bank rally -> increased investor confidence in banking sector -> higher stock prices",
+          "quant": "2% stock price gain"
         }
       ],
-      "watch": "SBIN crossing 600 levels"
+      "watch": "Nifty Bank level of 42000"
     },
     {
-      "sector": "auto",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Ather Energy shares rally 6% after Hero MotoCorp approves Rs 1,000 crore additional investment",
-      "theme": "EV_thematic",
+      "news_driver": "SBI Funds Management IPO sees full subscription on second day",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Ather Energy",
-          "ticker": "ATHERENERGY.NS",
+          "name": "SBI Life Insurance",
+          "ticker": "SBILIFE.NS",
           "impact": "Bullish",
-          "reason": "Hero MotoCorp investment -> Increased production capacity -> Revenue +15% Q4",
-          "quant": "15%"
-        },
-        {
-          "name": "Hero MotoCorp",
-          "ticker": "HEROMOTOCO.NS",
-          "impact": "Bullish",
-          "reason": "Ather Energy investment -> Diversified revenue streams -> Margins +100bps Q3",
-          "quant": "100bps"
+          "reason": "SBI Funds Management IPO success -> increased investor confidence in SBI group companies -> higher stock prices",
+          "quant": "5% stock price gain"
         }
       ],
-      "watch": "ATHERENERGY crossing 700 levels"
+      "watch": "SBI Life Insurance Q1 earnings report"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 3,
-      "news_driver": "Iran War To Escalate? Trump Holds Situation Room Meeting; Tehran Warns Of Oil, Gas Export Route Closure",
-      "theme": "Geopolitical_risk",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Potential oil export route closure -> Supply chain disruptions -> Margins -200bps Q2",
-          "quant": "-200bps"
-        },
-        {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Escalating Iran conflict -> Higher crude prices -> Revenue -5% Q3",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Crude oil prices crossing $100"
-    },
-    {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Wipro Q1 Preview: Under pressure from AI, what can investors expect from earnings?",
+      "sector": "realty",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Indian real estate attracts $3.2 billion PE investments in H1 2026",
       "theme": null,
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Neutral",
-          "reason": "AI pressure on margins -> Cost optimization efforts -> Margins -50bps Q2",
-          "quant": "-50bps"
+          "name": "DLF",
+          "ticker": "DLF.NS",
+          "impact": "Bullish",
+          "reason": "Increased PE investments in real estate -> higher demand for housing and commercial spaces -> higher stock prices",
+          "quant": "8-10% revenue growth in Q3"
         }
       ],
-      "watch": "WIPRO Q1 earnings release"
+      "watch": "DLF Q2 earnings report"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "HCL Tech leads losses in Sensex and Nifty",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "Rupee slide and Iran conflict -> decreased investor confidence in IT sector -> lower stock prices",
+          "quant": "margins -100bps"
+        }
+      ],
+      "watch": "HCL Tech Q2 earnings report"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "EV_thematic"
+    "PSU_rotation"
   ]
 }
