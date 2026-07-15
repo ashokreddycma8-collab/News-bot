@@ -1,100 +1,107 @@
 {
   "date": "2026-07-15",
-  "time": "11:14",
-  "mood": "Cautious",
+  "time": "11:33",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Upcoming Q1 results of ICICI Bank, HDFC, Axis, Kotak, Yes Bank",
+      "news_driver": "ITR filing 2026: How to download interest certificate from SBI, HDFC Bank, ICICI Bank, Axis Bank and India Post",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Q1 results anticipation -> strong quarterly performance expected -> revenue +8-10% Q3",
-          "quant": "8-10%"
+          "reason": "Increased ITR filing activity -> Higher transaction volumes -> Revenue +2-3% Q2",
+          "quant": "2.5%"
         },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "Geopolitical jitters subsiding -> investor sentiment improving -> margins +50bps",
-          "quant": "50bps"
+          "reason": "Improved ITR filing process -> Enhanced customer experience -> Deposits +5% Q3",
+          "quant": "5%"
         },
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "Foreign flows increasing -> largecaps rebounding -> order book +Rs200Cr",
-          "quant": "Rs200Cr"
+          "reason": "Streamlined ITR filing -> Reduced operational costs -> Margins +50bps Q2",
+          "quant": "50bps"
         }
       ],
-      "watch": "ICICI Bank Q1 results"
+      "watch": "SBIN crossing 600 levels"
     },
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and rising oil prices",
-      "theme": null,
+      "news_driver": "Ather Energy shares rally 6% after Hero MotoCorp approves Rs 1,000 crore additional investment",
+      "theme": "EV_thematic",
       "stocks": [
         {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
+          "name": "Ather Energy",
+          "ticker": "ATHERENERGY.NS",
+          "impact": "Bullish",
+          "reason": "Hero MotoCorp investment -> Increased production capacity -> Revenue +15% Q4",
+          "quant": "15%"
+        },
+        {
+          "name": "Hero MotoCorp",
+          "ticker": "HEROMOTOCO.NS",
+          "impact": "Bullish",
+          "reason": "Ather Energy investment -> Diversified revenue streams -> Margins +100bps Q3",
+          "quant": "100bps"
+        }
+      ],
+      "watch": "ATHERENERGY crossing 700 levels"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 3,
+      "news_driver": "Iran War To Escalate? Trump Holds Situation Room Meeting; Tehran Warns Of Oil, Gas Export Route Closure",
+      "theme": "Geopolitical_risk",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> OMC margins squeezing -> margins -100bps",
-          "quant": "-100bps"
+          "reason": "Potential oil export route closure -> Supply chain disruptions -> Margins -200bps Q2",
+          "quant": "-200bps"
         },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Iran supply disruption risks -> crude prices increasing -> revenue -5%",
+          "reason": "Escalating Iran conflict -> Higher crude prices -> Revenue -5% Q3",
           "quant": "-5%"
         }
       ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bonus issue alert for microcap pharma stock",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Microcap Pharma Stock",
-          "ticker": "STOCK.NS",
-          "impact": "Bullish",
-          "reason": "Bonus issue -> increased investor interest -> stock price +10%",
-          "quant": "10%"
-        }
-      ],
-      "watch": "Microcap pharma stock price movement"
+      "watch": "Crude oil prices crossing $100"
     },
     {
       "sector": "it",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Tata Elxsi Q1 results",
+      "news_driver": "Wipro Q1 Preview: Under pressure from AI, what can investors expect from earnings?",
       "theme": null,
       "stocks": [
         {
-          "name": "Tata Elxsi",
-          "ticker": "TATAELXSI.NS",
-          "impact": "Bearish",
-          "reason": "Weak Q1 results -> investor sentiment dampening -> stock price -6%",
-          "quant": "-6%"
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Neutral",
+          "reason": "AI pressure on margins -> Cost optimization efforts -> Margins -50bps Q2",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Tata Elxsi stock price movement"
+      "watch": "WIPRO Q1 earnings release"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "EV_thematic"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T11:14:33.391597+05:30",
+  "generated_at": "2026-07-15T11:33:45.109706+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2504,6 +2504,14 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "ATHERENERGY": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Hero MotoCorp approves Rs 1,000 crore additional investment",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
