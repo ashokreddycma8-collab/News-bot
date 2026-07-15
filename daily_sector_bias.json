@@ -1,100 +1,100 @@
 {
-  "date": "2026-07-14",
-  "time": "16:53",
+  "date": "2026-07-15",
+  "time": "11:14",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Upcoming Q1 results of ICICI Bank, HDFC, Axis, Kotak, Yes Bank",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Q1 results anticipation -> strong quarterly performance expected -> revenue +8-10% Q3",
+          "quant": "8-10%"
+        },
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Geopolitical jitters subsiding -> investor sentiment improving -> margins +50bps",
+          "quant": "50bps"
+        },
+        {
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bullish",
+          "reason": "Foreign flows increasing -> largecaps rebounding -> order book +Rs200Cr",
+          "quant": "Rs200Cr"
+        }
+      ],
+      "watch": "ICICI Bank Q1 results"
+    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rising oil prices due to geopolitical tensions",
-      "theme": "OMC margin squeeze",
+      "news_driver": "US-Iran conflict and rising oil prices",
+      "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased cost of production -> reduced margins by 100-150bps",
-          "quant": "-120bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Geopolitical tensions -> supply chain disruptions -> reduced sales volume by 5-7%",
-          "quant": "-6%"
-        },
-        {
-          "name": "Bharat Petroleum",
+          "name": "BPCL",
           "ticker": "BPCL.NS",
           "impact": "Bearish",
-          "reason": "Weakening rupee -> increased import costs -> reduced profitability by 8-10%",
-          "quant": "-9%"
-        }
-      ],
-      "watch": "Brent crude oil price crossing $100"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Insurance distribution boosts fee income at most public sector banks in FY26",
-      "theme": "PSU bank revival",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Increased insurance distribution -> higher fee income -> improved profitability by 50-70bps",
-          "quant": "60bps"
+          "reason": "Rising oil prices -> OMC margins squeezing -> margins -100bps",
+          "quant": "-100bps"
         },
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Bullish",
-          "reason": "Growing insurance business -> diversification of revenue streams -> reduced dependence on interest income by 3-5%",
-          "quant": "-4%"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Iran supply disruption risks -> crude prices increasing -> revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "PSU bank Q2 earnings"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "financial_services",
+      "sector": "pharma",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Direct tax mop-up grows 16% to over \u20b96.51 lakh crore so far in FY27",
-      "theme": "Financialization of savings",
+      "news_driver": "Bonus issue alert for microcap pharma stock",
+      "theme": null,
       "stocks": [
         {
-          "name": "HDFC Limited",
-          "ticker": "HDFC.NS",
+          "name": "Microcap Pharma Stock",
+          "ticker": "STOCK.NS",
           "impact": "Bullish",
-          "reason": "Increased tax collections -> higher disposable income -> increased demand for financial services by 8-10%",
-          "quant": "9%"
+          "reason": "Bonus issue -> increased investor interest -> stock price +10%",
+          "quant": "10%"
         }
       ],
-      "watch": "FY27 budget allocation"
+      "watch": "Microcap pharma stock price movement"
     },
     {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "India refiners reap fuel export windfall as war drives shortages",
-      "theme": "Refining margin expansion",
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Tata Elxsi Q1 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "Global fuel shortages -> increased refining margins -> improved profitability by 150-200bps",
-          "quant": "175bps"
+          "name": "Tata Elxsi",
+          "ticker": "TATAELXSI.NS",
+          "impact": "Bearish",
+          "reason": "Weak Q1 results -> investor sentiment dampening -> stock price -6%",
+          "quant": "-6%"
         }
       ],
-      "watch": "Global refining margin trends"
+      "watch": "Tata Elxsi stock price movement"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "PSU bank revival"
+    "PSU_rotation",
+    "China+1"
   ]
 }
