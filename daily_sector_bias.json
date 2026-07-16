@@ -1,79 +1,83 @@
 {
   "date": "2026-07-16",
-  "time": "15:56",
-  "mood": "Bullish",
+  "time": "17:06",
+  "mood": "Cautious",
   "sectors": [
-    {
-      "sector": "oil_gas",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "MRPL Q1 net profit of \u20b9915 crore",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Mangalore Refinery And Petrochemicals",
-          "ticker": "MRPL.NS",
-          "impact": "Bullish",
-          "reason": "MRPL's Q1 net profit of \u20b9915 crore -> beating analyst estimates -> increasing investor confidence",
-          "quant": "net profit +25% YoY"
-        }
-      ],
-      "watch": "MRPL's upcoming capex plans"
-    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Onward Technologies' record Q1 revenue",
-      "theme": "China+1",
+      "news_driver": "Wipro Q1 Results and TSMC's investment in Arizona",
+      "theme": "AI_demand",
       "stocks": [
         {
-          "name": "Onward Technologies",
-          "ticker": "ONWARDTEC.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
+          "impact": "Neutral",
+          "reason": "Wipro's Q1 profit being flat YoY -> indicating stable business performance -> no significant impact on stock price",
+          "quant": "0% revenue growth"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Onward Technologies' record Q1 revenue of \u20b9151.2 crore -> driven by strong demand for digital services -> increasing revenue visibility",
-          "quant": "revenue +20% QoQ"
+          "reason": "TSMC's investment in Arizona -> increased demand for AI services -> potential revenue growth for Infosys",
+          "quant": "revenue +5-7% Q2"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "TSMC's investment in Arizona -> expanded opportunities for IT services -> potential order book growth for HCL Tech",
+          "quant": "order book +Rs200Cr"
         }
       ],
-      "watch": "Onward Technologies' Q2 revenue guidance"
+      "watch": "TSMC's capex plans and its impact on Indian IT sector"
     },
     {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "ITC Hotels Q1 net profit increase",
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Rupee hitting a one-month low and oil prices",
       "theme": null,
       "stocks": [
         {
-          "name": "ITC",
-          "ticker": "ITC.NS",
-          "impact": "Bullish",
-          "reason": "ITC Hotels' Q1 net profit increase of 36% -> driven by strong demand for hospitality services -> increasing profitability",
-          "quant": "net profit +36% YoY"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> increased crude oil import costs -> lower margins for IOC",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Oil price volatility -> uncertainty in refining margins -> potential revenue decline for HPCL",
+          "quant": "revenue -3-5% Q2"
         }
       ],
-      "watch": "ITC's Q2 revenue growth"
+      "watch": "Oil price movement and its impact on OMCs"
     },
     {
-      "sector": "capital_goods",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Polycab India Q1 results",
-      "theme": null,
+      "conviction": 1,
+      "news_driver": "Centre's draft of CAFE-III and special recognition to ethanol and biofuel cars",
+      "theme": "ethanol_blending",
       "stocks": [
         {
-          "name": "Polycab India",
-          "ticker": "POLYCAB.NS",
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "Polycab India's Q1 profit increase of 33% -> driven by strong demand for electrical products -> increasing revenue visibility",
-          "quant": "revenue +39% YoY"
+          "reason": "Government's focus on ethanol blending -> increased demand for ethanol-compatible vehicles -> potential sales growth for Maruti Suzuki",
+          "quant": "sales +8-10% Q3"
         }
       ],
-      "watch": "Polycab India's Q2 margin guidance"
+      "watch": "Government's policy on ethanol blending and its impact on auto sector"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "AI_demand",
+    "ethanol_blending"
   ]
 }
