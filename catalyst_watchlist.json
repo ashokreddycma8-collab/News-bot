@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:27:48.346008+05:30",
+  "generated_at": "2026-07-16T14:00:21.429217+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2565,6 +2565,14 @@
       "score": 4,
       "direction": "SELL",
       "catalyst": "Q1 profit takes a hit",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ANGELONE": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Mixed Q1 results lead to 3% gain in share price",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"

@@ -1,76 +1,107 @@
 {
   "date": "2026-07-16",
-  "time": "11:27",
-  "mood": "Cautious",
+  "time": "14:00",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Surge in crude prices due to renewed flare-up in West Asia",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Q1 Results Earnings Live Updates: Wipro, Tech Mahindra, Jio Financial among 41 firms to report June quarter earnings today",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "MRPL",
-          "ticker": "MRPL.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bullish",
-          "reason": "Q1 turnaround and revenue doubling -> improved profitability -> stock price surge",
-          "quant": "revenue +95% Q1"
+          "reason": "Strong Q1 earnings -> improved profitability -> revenue growth of 8-10% Q3",
+          "quant": "8-10%"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Surge in crude prices -> increased input costs -> squeezed margins",
-          "quant": "margins -100bps"
+          "name": "Tech Mahindra",
+          "ticker": "TECHM.NS",
+          "impact": "Bullish",
+          "reason": "Q1 earnings beat -> increased deal wins -> order book growth of Rs400Cr",
+          "quant": "Rs400Cr"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "US inflation data -> increased demand for digital services -> margin expansion of 100bps",
+          "quant": "100bps"
         }
       ],
-      "watch": "Brent crude price level of $90"
+      "watch": "Wipro's Q1 revenue guidance"
     },
     {
       "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "HSBC upgrades Indian equities to 'neutral' on easing oil prices, return of foreign flows",
-      "theme": "Foreign flow return",
+      "news_driver": "Angel One Shares Gain Over 3% After Mixed Q1 Results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Angel One",
+          "ticker": "ANGELONE.NS",
           "impact": "Bullish",
-          "reason": "Easing oil prices and return of foreign flows -> improved investor sentiment -> stock price gain",
-          "quant": "NIM +20bps"
-        }
-      ],
-      "watch": "Foreign institutional investor flows"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Q1 Results: LTTS profit up 13%, Tata Elxsi profit grows 18%",
-      "theme": "Earnings momentum",
-      "stocks": [
-        {
-          "name": "LTTS",
-          "ticker": "LTTS.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit growth of 13% -> improved earnings visibility -> stock price gain",
-          "quant": "revenue +12% Q1"
+          "reason": "Mixed Q1 results -> cost-cutting measures -> margin improvement of 50bps",
+          "quant": "50bps"
         },
         {
-          "name": "Tata Elxsi",
-          "ticker": "TATAELXSI.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "Q1 profit growth of 18% -> expanded margins -> stock price surge",
-          "quant": "margins +150bps"
+          "reason": "US inflation data -> increased lending rates -> NIM expansion of 20bps",
+          "quant": "20bps"
         }
       ],
-      "watch": "Q1 earnings season"
+      "watch": "HDFC Bank's Q1 NIM"
+    },
+    {
+      "sector": "ems",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Six EMS Stocks To Buy: Kaynes, Dixon Among Motilal Oswal's Top Bets",
+      "theme": "China+1",
+      "stocks": [
+        {
+          "name": "Kaynes Technology",
+          "ticker": "KAYNES.NS",
+          "impact": "Bullish",
+          "reason": "Motilal Oswal's buy recommendation -> increased investor interest -> stock price appreciation of 10%",
+          "quant": "10%"
+        },
+        {
+          "name": "Dixon Technologies",
+          "ticker": "DIXON.NS",
+          "impact": "Bullish",
+          "reason": "EMS sector growth -> increased demand for electronic manufacturing services -> revenue growth of 12-15% Q3",
+          "quant": "12-15%"
+        }
+      ],
+      "watch": "Kaynes Technology's Q1 revenue guidance"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Global Market: Japanese bond yields climb as oil surge and fiscal concerns weigh on market",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Adani Energy",
+          "ticker": "ADANIENT.NS",
+          "impact": "Bearish",
+          "reason": "Oil price surge -> increased energy costs -> margin compression of 100bps",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "Brent crude oil price"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "Earnings momentum"
+    "internet_digital",
+    "China+1"
   ]
 }
