@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T14:00:21.429217+05:30",
+  "generated_at": "2026-07-16T15:56:21.278873+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1348,9 +1348,9 @@
     "ONWARDTECH": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Rs 180 crore share buyback at 20% premium",
-      "category": "technical_event",
-      "ttl_hours": 48,
+      "catalyst": "posts record Q1 revenue of \u20b9151.2 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "BERGEPAINT": {
@@ -1492,7 +1492,7 @@
     "ITC": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 profit rises 5% YoY to Rs 5,113 crore",
+      "catalyst": "Q1 net up 36% at Rs 181.91 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -2573,6 +2573,14 @@
       "score": 5,
       "direction": "BUY",
       "catalyst": "Mixed Q1 results lead to 3% gain in share price",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SWREL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 profit grows 38% to over Rs 53 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
