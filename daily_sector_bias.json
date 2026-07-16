@@ -1,58 +1,76 @@
 {
-  "date": "2026-07-15",
-  "time": "16:56",
-  "mood": "Bullish",
+  "date": "2026-07-16",
+  "time": "11:27",
+  "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Surge in crude prices due to renewed flare-up in West Asia",
+      "theme": "OMC margin squeeze",
+      "stocks": [
+        {
+          "name": "MRPL",
+          "ticker": "MRPL.NS",
+          "impact": "Bullish",
+          "reason": "Q1 turnaround and revenue doubling -> improved profitability -> stock price surge",
+          "quant": "revenue +95% Q1"
+        },
+        {
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Surge in crude prices -> increased input costs -> squeezed margins",
+          "quant": "margins -100bps"
+        }
+      ],
+      "watch": "Brent crude price level of $90"
+    },
     {
       "sector": "financial_services",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "HDFC AMC Q1 Results and Union Bank of India Q1 Results",
-      "theme": "PSU_rotation",
+      "conviction": 1,
+      "news_driver": "HSBC upgrades Indian equities to 'neutral' on easing oil prices, return of foreign flows",
+      "theme": "Foreign flow return",
       "stocks": [
         {
-          "name": "HDFC Asset Management Company",
-          "ticker": "HDFCAMC.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bullish",
-          "reason": "Q1 net profit rise of 12% -> increased investor confidence in financial services -> potential stock price appreciation",
-          "quant": "revenue +14% Q1"
-        },
-        {
-          "name": "Union Bank of India",
-          "ticker": "UNIONBANK.NS",
-          "impact": "Bullish",
-          "reason": "Q1 net profit increase of 29.6% -> improved profitability -> higher stock valuation",
-          "quant": "net profit +29.6% YoY"
-        },
-        {
-          "name": "ICICI Prudential Life Insurance Company",
-          "ticker": "ICICIPRULI.NS",
-          "impact": "Bullish",
-          "reason": "Q1 net profit jump of 28% -> enhanced investor sentiment in insurance sector -> possible stock price increase",
-          "quant": "net profit +28% YoY"
+          "reason": "Easing oil prices and return of foreign flows -> improved investor sentiment -> stock price gain",
+          "quant": "NIM +20bps"
         }
       ],
-      "watch": "Union Bank of India's upcoming management commentary on Q1 results"
+      "watch": "Foreign institutional investor flows"
     },
     {
-      "sector": "capital_markets",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "NSE and Augmont partnership to expand Electronic Gold Receipts ecosystem",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Q1 Results: LTTS profit up 13%, Tata Elxsi profit grows 18%",
+      "theme": "Earnings momentum",
       "stocks": [
         {
-          "name": "National Stock Exchange of India",
-          "ticker": "NSE.NS",
+          "name": "LTTS",
+          "ticker": "LTTS.NS",
           "impact": "Bullish",
-          "reason": "Partnership with Augmont -> increased trading volumes in Electronic Gold Receipts -> higher revenue for NSE",
-          "quant": "potential revenue +5-7% from increased trading volumes"
+          "reason": "Q1 profit growth of 13% -> improved earnings visibility -> stock price gain",
+          "quant": "revenue +12% Q1"
+        },
+        {
+          "name": "Tata Elxsi",
+          "ticker": "TATAELXSI.NS",
+          "impact": "Bullish",
+          "reason": "Q1 profit growth of 18% -> expanded margins -> stock price surge",
+          "quant": "margins +150bps"
         }
       ],
-      "watch": "trading volumes in Electronic Gold Receipts post-partnership announcement"
+      "watch": "Q1 earnings season"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "OMC margin squeeze",
+    "Earnings momentum"
   ]
 }
