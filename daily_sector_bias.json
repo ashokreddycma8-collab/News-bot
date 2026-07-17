@@ -1,83 +1,100 @@
 {
-  "date": "2026-07-16",
-  "time": "17:06",
-  "mood": "Cautious",
+  "date": "2026-07-17",
+  "time": "11:28",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Wipro Q1 Results and TSMC's investment in Arizona",
-      "theme": "AI_demand",
+      "news_driver": "Buoyed by Q1 show, Indian IT shrugs off IBM shock",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Neutral",
-          "reason": "Wipro's Q1 profit being flat YoY -> indicating stable business performance -> no significant impact on stock price",
-          "quant": "0% revenue growth"
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased investor confidence -> revenue growth of 8-10% Q3",
+          "quant": "10%"
         },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "TSMC's investment in Arizona -> increased demand for AI services -> potential revenue growth for Infosys",
-          "quant": "revenue +5-7% Q2"
+          "reason": "US data surprise -> reduced rate hike fears -> increased IT spending",
+          "quant": "12%"
         },
         {
           "name": "HCL Technologies",
           "ticker": "HCLTECH.NS",
           "impact": "Bullish",
-          "reason": "TSMC's investment in Arizona -> expanded opportunities for IT services -> potential order book growth for HCL Tech",
-          "quant": "order book +Rs200Cr"
+          "reason": "Q1 earnings beat -> improved margins -> EPS growth of 15%",
+          "quant": "15%"
         }
       ],
-      "watch": "TSMC's capex plans and its impact on Indian IT sector"
+      "watch": "TCS Q2 earnings release"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Rupee hitting a one-month low and oil prices",
-      "theme": null,
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Bank earnings ahead: What to look out for amid margin boost hopes, leadership changes",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rupee depreciation -> increased crude oil import costs -> lower margins for IOC",
-          "quant": "margins -100bps"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Expected margin boost -> increased profitability -> NIM expansion of 20bps",
+          "quant": "20bps"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Oil price volatility -> uncertainty in refining margins -> potential revenue decline for HPCL",
-          "quant": "revenue -3-5% Q2"
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Leadership changes -> improved governance -> increased investor confidence",
+          "quant": "8%"
         }
       ],
-      "watch": "Oil price movement and its impact on OMCs"
+      "watch": "HDFC Bank Q2 earnings release"
     },
     {
       "sector": "auto",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Centre's draft of CAFE-III and special recognition to ethanol and biofuel cars",
-      "theme": "ethanol_blending",
+      "news_driver": "Maruti Suzuki Q1 Results Date, Time, Dividend Details And Concall Schedule Explained",
+      "theme": "null",
       "stocks": [
         {
           "name": "Maruti Suzuki",
           "ticker": "MARUTI.NS",
-          "impact": "Bullish",
-          "reason": "Government's focus on ethanol blending -> increased demand for ethanol-compatible vehicles -> potential sales growth for Maruti Suzuki",
-          "quant": "sales +8-10% Q3"
+          "impact": "Neutral",
+          "reason": "Q1 results -> mixed expectations -> revenue growth of 5%",
+          "quant": "5%"
         }
       ],
-      "watch": "Government's policy on ethanol blending and its impact on auto sector"
+      "watch": "Maruti Suzuki Q2 earnings release"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "NSE gets nod to launch derivatives on Nifty India FPI 150 index",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "BSE",
+          "ticker": "BSE.NS",
+          "impact": "Bullish",
+          "reason": "Launch of new derivatives -> increased trading volumes -> revenue growth of 10%",
+          "quant": "10%"
+        }
+      ],
+      "watch": "NSE derivatives launch date"
     }
   ],
   "themes": [
-    "AI_demand",
-    "ethanol_blending"
+    "IT sector growth",
+    "Banking sector revival"
   ]
 }
