@@ -1,86 +1,100 @@
 {
   "date": "2026-07-17",
-  "time": "15:44",
-  "mood": "Bullish",
+  "time": "16:49",
+  "mood": "Cautious",
   "sectors": [
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Central Bank of India Q1 results: Profit jumps 13% to \u20b91,324 cr",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Central Bank of India",
-          "ticker": "CENTRALBK.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit jump of 13% -> increased investor confidence -> potential stock price appreciation",
-          "quant": "profit +13%"
-        },
-        {
-          "name": "Federal Bank",
-          "ticker": "FEDERALBNK.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit rise of 37% -> improved net interest income -> increased investor sentiment",
-          "quant": "NII +37%"
-        }
-      ],
-      "watch": "PSB stocks' price movement in response to RBI's overseas deposit scheme"
-    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Global Full-Stack Observability Services Market Size/Share Worth USD 35 Billion by 2034",
-      "theme": "digital_transformation",
+      "news_driver": "Nifty, Sensex Resume Weekly Gains As Earnings Gather Steam",
+      "theme": "null",
       "stocks": [
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Growing demand for observability services -> increased adoption of digital solutions -> potential revenue growth",
-          "quant": "revenue +15-20% YoY"
+          "reason": "Strong Q1 earnings -> increased demand for IT services -> revenue growth +8-10% Q3",
+          "quant": "10%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Earnings growth -> expansion of digital services -> order book +Rs400Cr",
+          "quant": "400"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "Increased IT spending -> higher margins -> EBITDA growth +5%",
+          "quant": "5%"
         }
       ],
-      "watch": "Nifty IT index movement in response to global market trends"
+      "watch": "TCS Q2 earnings release"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Rupee closes at 96.28 vs USD; logs sharpest weekly drop since May as oil price jump stings",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Oil price jump -> increased input costs -> margins -150bps",
+          "quant": "-150"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rupee depreciation -> higher crude oil prices -> revenue -5%",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "Brent crude price movement"
     },
     {
       "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "SBI Funds Management IPO Allotment Today; GMP Hints At 17% Listing Gains",
-      "theme": "financial_inclusion",
-      "stocks": [
-        {
-          "name": "SBI Funds Management",
-          "ticker": "SBIFM.NS",
-          "impact": "Bullish",
-          "reason": "IPO allotment and expected listing gains -> increased investor interest -> potential stock price appreciation",
-          "quant": "listing gains +17%"
-        }
-      ],
-      "watch": "IPO listing and subsequent stock price movement"
-    },
-    {
-      "sector": "telecom",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "CCI junks complaint against Reliance Jio Infocomm, others",
-      "theme": null,
+      "news_driver": "Q1 Results: HDFC Bank, ICICI Bank, Axis Bank Among 20+ Companies Reporting Earnings On July 18",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Neutral",
-          "reason": "CCI complaint dismissal -> reduced regulatory uncertainty -> no significant impact on stock price",
+          "reason": "Q1 earnings release -> mixed results -> stock price volatility",
           "quant": "null"
         }
       ],
-      "watch": "Regulatory developments in the telecom sector"
+      "watch": "HDFC Bank Q2 earnings release"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Amazon, Swiggy, Uber, Zepto And More: India's Biggest E-Commerce Players Form New Policy Council",
+      "theme": "PLI_solar",
+      "stocks": [
+        {
+          "name": "Tata Power",
+          "ticker": "TATAPOWER.NS",
+          "impact": "Bullish",
+          "reason": "Government support for renewable energy -> increased investment -> capacity addition +500MW",
+          "quant": "500"
+        }
+      ],
+      "watch": "Government policy updates on renewable energy"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "digital_transformation"
+    "PLI_solar",
+    "PSU_rotation"
   ]
 }

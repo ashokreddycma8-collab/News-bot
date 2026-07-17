@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T15:44:26.528349+05:30",
+  "generated_at": "2026-07-17T16:49:07.098146+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2592,6 +2592,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "GLOBUSSPIRITS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 profit rises 49% to Rs 26 crore, revenue up 21%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
