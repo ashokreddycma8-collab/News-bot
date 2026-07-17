@@ -1,100 +1,68 @@
 {
   "date": "2026-07-17",
-  "time": "11:28",
-  "mood": "Bullish",
+  "time": "13:55",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
+      "sector": "financial_services",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Buoyed by Q1 show, Indian IT shrugs off IBM shock",
-      "theme": "null",
+      "news_driver": "Piramal Finance Q1 results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> revenue growth of 8-10% Q3",
-          "quant": "10%"
+          "name": "Piramal Finance",
+          "ticker": "PIRAMALFIN.NS",
+          "impact": "Bearish",
+          "reason": "Strong Q1 results -> failed to impress investors due to high expectations -> stock price slides 5%",
+          "quant": "-5%"
         },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "US data surprise -> reduced rate hike fears -> increased IT spending",
-          "quant": "12%"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Q1 earnings beat -> improved margins -> EPS growth of 15%",
-          "quant": "15%"
-        }
-      ],
-      "watch": "TCS Q2 earnings release"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Bank earnings ahead: What to look out for amid margin boost hopes, leadership changes",
-      "theme": "null",
-      "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
-          "impact": "Bullish",
-          "reason": "Expected margin boost -> increased profitability -> NIM expansion of 20bps",
-          "quant": "20bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bullish",
-          "reason": "Leadership changes -> improved governance -> increased investor confidence",
-          "quant": "8%"
-        }
-      ],
-      "watch": "HDFC Bank Q2 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Maruti Suzuki Q1 Results Date, Time, Dividend Details And Concall Schedule Explained",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
           "impact": "Neutral",
-          "reason": "Q1 results -> mixed expectations -> revenue growth of 5%",
-          "quant": "5%"
+          "reason": "Q1 preview indicating lower provisions -> expected to lift profit despite softer NIM -> stable asset quality",
+          "quant": "NIM -20bps"
         }
       ],
-      "watch": "Maruti Suzuki Q2 earnings release"
+      "watch": "HDFC Bank Q1 results"
     },
     {
-      "sector": "financial_services",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "NSE gets nod to launch derivatives on Nifty India FPI 150 index",
+      "news_driver": "BHEL Q1 results",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "BHEL",
+          "ticker": "BHEL.NS",
+          "impact": "Bullish",
+          "reason": "Q1 profit ending eight-year wait -> increased investor confidence -> stock price surge",
+          "quant": "+10%"
+        }
+      ],
+      "watch": "BHEL stock price"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "AI chip rally faces valuation test",
       "theme": "null",
       "stocks": [
         {
-          "name": "BSE",
-          "ticker": "BSE.NS",
-          "impact": "Bullish",
-          "reason": "Launch of new derivatives -> increased trading volumes -> revenue growth of 10%",
-          "quant": "10%"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "AI chip rally faces valuation test -> potential decline in IT sector stocks -> Infosys stock price may decline",
+          "quant": "-3%"
         }
       ],
-      "watch": "NSE derivatives launch date"
+      "watch": "AI chip stock prices"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Banking sector revival"
+    "PSU_rotation"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T17:06:35.791132+05:30",
+  "generated_at": "2026-07-17T13:55:23.190691+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -986,12 +986,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "BHEL": {
-      "score": 6,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Strong earnings and 85% returns",
+      "catalyst": "BHEL reports Q1 profit after eight-year wait",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "IDEAFORGE": {
       "score": 6,
@@ -2584,6 +2584,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "PFC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Piramal Finance reports strong Q1 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
