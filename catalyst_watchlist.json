@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:59:44.341697+05:30",
+  "generated_at": "2026-07-20T15:14:02.109532+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -154,12 +154,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "TCS": {
-      "score": 6,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "hires 1,500+ students from Andhra Pradesh University",
+      "catalyst": "M-cap jumps Rs 1.54 lakh cr, biggest winner among top 10 most valued firms",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "ITDC": {
       "score": 7,
@@ -250,11 +250,11 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "HDFCBANK": {
-      "score": 6,
+      "score": 7,
       "direction": "BUY",
-      "catalyst": "likely to appoint new chairman in June",
-      "category": "structural_change",
-      "ttl_hours": 72,
+      "catalyst": "Jefferies, Nomura, others see up to 28% upside despite Q1 results",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "ICICIBANK": {
@@ -2608,6 +2608,22 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SANSERA": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Goldman Sachs initiates coverage with upside of up to 28%",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "INDOMIM": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Rs 3,812 cr IPO to open on July 23, price band set at Rs 461-485",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
