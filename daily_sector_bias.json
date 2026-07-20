@@ -1,96 +1,65 @@
 {
   "date": "2026-07-20",
-  "time": "15:14",
-  "mood": "Bearish",
+  "time": "17:33",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "HDFC Bank Q1 results",
+      "news_driver": "Lagging FCNR(B) deposit collections",
       "theme": "PSU_rotation",
       "stocks": [
+        {
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bearish",
+          "reason": "FCNR(B) deposit collection lag -> reduced CASA ratio -> margins -50bps",
+          "quant": "-50bps"
+        },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "Q1 results miss -> increased provisioning and lower NII -> reduced investor confidence",
-          "quant": "NII -5%"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Rising oil prices -> higher import costs -> reduced banking sector margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Kotak Mahindra Bank",
-          "ticker": "KOTAKBANK.NS",
-          "impact": "Bearish",
-          "reason": "Global market volatility -> reduced investor appetite -> lower valuations",
-          "quant": "valuation -10%"
+          "reason": "FCNR(B) deposit collection lag -> reduced interest income -> revenue -2%",
+          "quant": "-2%"
         }
       ],
-      "watch": "HDFC Bank stock price at 1400 levels"
+      "watch": "September 30 deadline for FCNR(B) deposits"
     },
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "TCS market cap increase",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "M-cap increase -> increased investor confidence -> higher valuations",
-          "quant": "valuation +5%"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "TCS market cap increase -> positive sector sentiment -> higher stock prices",
-          "quant": "stock price +2%"
-        }
-      ],
-      "watch": "TCS stock price at 3500 levels"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Goldman Sachs coverage on auto ancillary stocks",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Sansera Engineering",
-          "ticker": "SANSERA.NS",
-          "impact": "Bullish",
-          "reason": "Goldman Sachs coverage -> increased investor interest -> higher stock prices",
-          "quant": "stock price +10%"
-        }
-      ],
-      "watch": "Sansera Engineering stock price at 800 levels"
-    },
-    {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rising oil prices",
-      "theme": "null",
+      "news_driver": "Rupee hitting two-month low and oil prices remaining high",
+      "theme": null,
       "stocks": [
         {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> higher import costs -> reduced refining margins",
-          "quant": "refining margins -150bps"
+          "reason": "High oil prices and weak rupee -> increased import costs -> margins -100bps",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Crude oil prices at $110 levels"
+      "watch": "Brent crude price movement"
+    },
+    {
+      "sector": "cement",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "UltraTech Cement Q1 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "UltraTech Cement",
+          "ticker": "ULTRACEMCO.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased investor confidence -> stock price +5%",
+          "quant": "5%"
+        }
+      ],
+      "watch": "Cement demand growth"
     }
   ],
   "themes": [
