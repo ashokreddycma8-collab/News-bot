@@ -1,100 +1,93 @@
 {
-  "date": "2026-07-17",
-  "time": "16:49",
+  "date": "2026-07-20",
+  "time": "11:59",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Nifty, Sensex Resume Weekly Gains As Earnings Gather Steam",
-      "theme": "null",
+      "news_driver": "Global tech sell-off",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
+          "name": "TCS",
           "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 earnings -> increased demand for IT services -> revenue growth +8-10% Q3",
-          "quant": "10%"
+          "impact": "Bearish",
+          "reason": "Global tech sell-off -> reduced demand for IT services -> revenue growth slowdown",
+          "quant": "revenue growth -5-7% Q2"
         },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Earnings growth -> expansion of digital services -> order book +Rs400Cr",
-          "quant": "400"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bullish",
-          "reason": "Increased IT spending -> higher margins -> EBITDA growth +5%",
-          "quant": "5%"
+          "impact": "Bearish",
+          "reason": "Global tech sell-off -> decreased investor confidence -> lower valuations",
+          "quant": "valuations -10-12% in next 2 weeks"
         }
       ],
-      "watch": "TCS Q2 earnings release"
+      "watch": "TCS Q1 earnings report"
     },
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Rupee closes at 96.28 vs USD; logs sharpest weekly drop since May as oil price jump stings",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Oil price jump -> increased input costs -> margins -150bps",
-          "quant": "-150"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Rupee depreciation -> higher crude oil prices -> revenue -5%",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "financial_services",
+      "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Q1 Results: HDFC Bank, ICICI Bank, Axis Bank Among 20+ Companies Reporting Earnings On July 18",
-      "theme": "null",
+      "news_driver": "Mixed Q1 earnings expectations",
+      "theme": "PSU_rotation",
       "stocks": [
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Neutral",
-          "reason": "Q1 earnings release -> mixed results -> stock price volatility",
-          "quant": "null"
+          "reason": "Q1 earnings expectations -> mixed results -> stable valuations",
+          "quant": "net interest income +8-10% Q1"
+        },
+        {
+          "name": "Kotak Mahindra Bank",
+          "ticker": "KOTAKBANK.NS",
+          "impact": "Neutral",
+          "reason": "Q1 profit growth -> increased competition -> stable market share",
+          "quant": "market share +1-2% in Q1"
         }
       ],
-      "watch": "HDFC Bank Q2 earnings release"
+      "watch": "HDFC Bank Q1 earnings report"
     },
     {
-      "sector": "renewable",
+      "sector": "financial_services",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Amazon, Swiggy, Uber, Zepto And More: India's Biggest E-Commerce Players Form New Policy Council",
-      "theme": "PLI_solar",
+      "news_driver": "SBI Funds Management IPO listing",
+      "theme": null,
       "stocks": [
         {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
+          "name": "SBI Funds Management",
+          "ticker": "SBIFM.NS",
           "impact": "Bullish",
-          "reason": "Government support for renewable energy -> increased investment -> capacity addition +500MW",
-          "quant": "500"
+          "reason": "IPO listing -> increased investor interest -> higher valuations",
+          "quant": "listing gain +18% on debut"
         }
       ],
-      "watch": "Government policy updates on renewable energy"
+      "watch": "SBI Funds Management IPO listing price"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "NSE to launch derivatives on Nifty India FPI 150 Index",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "NSE",
+          "ticker": "NSE.NS",
+          "impact": "Neutral",
+          "reason": "New derivatives launch -> increased trading activity -> stable revenues",
+          "quant": "trading volumes +5-7% in next quarter"
+        }
+      ],
+      "watch": "Nifty India FPI 150 Index launch date"
     }
   ],
   "themes": [
-    "PLI_solar",
-    "PSU_rotation"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }
