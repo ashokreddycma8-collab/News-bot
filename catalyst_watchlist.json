@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T11:39:32.258403+05:30",
+  "generated_at": "2026-07-21T14:36:04.664224+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -778,12 +778,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "BAJAJ-AUTO": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "set to announce share buyback",
-      "category": "corporate_event",
-      "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "catalyst": "Q1 profit surges 42% YoY, revenue up 37% to Rs 17,244 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "PICCADILY": {
       "score": 8,
@@ -2632,6 +2632,14 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ARVINDFASN": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit rises 11% to Rs 27.61 cr",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

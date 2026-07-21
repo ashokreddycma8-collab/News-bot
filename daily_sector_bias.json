@@ -1,92 +1,93 @@
 {
   "date": "2026-07-21",
-  "time": "11:39",
-  "mood": "Bearish",
+  "time": "14:36",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Private bank stocks lead losses due to rising crude oil prices",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "India Inc is returning to banks for money, but retail borrowers aren\u2019t keeping pace",
       "theme": "PSU_rotation",
       "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Neutral",
+          "reason": "Increase in corporate borrowing -> higher interest income -> revenue +4-5% Q2",
+          "quant": "4-5%"
+        },
         {
           "name": "ICICI Bank",
           "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased import costs -> reduced margins for ICICI Bank",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased import costs -> reduced consumer spending and loan growth for HDFC Bank",
-          "quant": "loan growth -5%"
-        },
-        {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased import costs -> reduced margins and increased NPA provisions for Axis Bank",
-          "quant": "NPA provisions +10%"
+          "impact": "Neutral",
+          "reason": "Rise in wholesale banking -> higher yields -> margins +50bps",
+          "quant": "50bps"
         }
       ],
-      "watch": "PSU bank stocks like SBI and PNB for potential rotation"
+      "watch": "PSU bank Q2 results for signs of retail borrowing pickup"
     },
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Rising crude oil prices",
+      "news_driver": "Bajaj Auto Q1 Result: Profit Surges 42% YoY, Revenue Up 37% To Rs 17,244 Crore",
+      "theme": "Rural_mobility",
+      "stocks": [
+        {
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
+          "impact": "Bullish",
+          "reason": "Strong rural demand -> higher sales volume -> revenue +15% H1",
+          "quant": "15%"
+        },
+        {
+          "name": "Hero MotoCorp",
+          "ticker": "HEROMOTOCO.NS",
+          "impact": "Bullish",
+          "reason": "Increase in two-wheeler sales -> better product mix -> margins +100bps",
+          "quant": "100bps"
+        }
+      ],
+      "watch": "July auto sales data for sustenance of momentum"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Nifty slips below 24,200; IT, Banking stocks drag mid-session",
       "theme": null,
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increased refining costs -> reduced margins for Reliance Industries",
-          "quant": "refining margins -150bps"
+          "reason": "Weaker global cues -> lower IT spending -> revenue -2-3% Q2",
+          "quant": "-2-3%"
         }
       ],
-      "watch": "Brent crude oil price levels"
+      "watch": "US job market data for signs of IT spending slowdown"
     },
     {
       "sector": "fmcg",
-      "direction": "Neutral",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "No specific news",
+      "news_driver": "Arvind Fashions Q1 Results: Net profit rises 11% to Rs 27.61 cr",
       "theme": null,
       "stocks": [
         {
-          "name": "Colgate Palmolive (India)",
-          "ticker": "COLPAL.NS",
-          "impact": "Neutral",
-          "reason": "No specific news -> no change in business fundamentals -> neutral impact on Colgate Palmolive",
-          "quant": null
-        }
-      ],
-      "watch": "Q2 earnings release"
-    },
-    {
-      "sector": "psu",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "PNB shares jump 7% in 2 days after Q1 earnings",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Punjab National Bank",
-          "ticker": "PNB.NS",
+          "name": "Arvind Fashions",
+          "ticker": "ARVINDFASN.NS",
           "impact": "Bullish",
-          "reason": "Q1 earnings beat -> improved business fundamentals -> increased investor confidence in PNB",
-          "quant": "revenue +5%"
+          "reason": "Strong brand performance -> higher sales -> revenue +8-10% Q3",
+          "quant": "8-10%"
         }
       ],
-      "watch": "PSU bank stocks for potential rotation"
+      "watch": "Q2 results of other FMCG companies for sectoral trend"
     }
   ],
   "themes": [
+    "Rural_mobility",
     "PSU_rotation"
   ]
 }
