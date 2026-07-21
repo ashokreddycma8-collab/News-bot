@@ -1,65 +1,89 @@
 {
-  "date": "2026-07-20",
-  "time": "17:33",
-  "mood": "Cautious",
+  "date": "2026-07-21",
+  "time": "11:39",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Lagging FCNR(B) deposit collections",
+      "news_driver": "Private bank stocks lead losses due to rising crude oil prices",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
           "impact": "Bearish",
-          "reason": "FCNR(B) deposit collection lag -> reduced CASA ratio -> margins -50bps",
-          "quant": "-50bps"
+          "reason": "Rising crude oil prices -> increased import costs -> reduced margins for ICICI Bank",
+          "quant": "margins -100bps"
         },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "FCNR(B) deposit collection lag -> reduced interest income -> revenue -2%",
-          "quant": "-2%"
+          "reason": "Rising crude oil prices -> increased import costs -> reduced consumer spending and loan growth for HDFC Bank",
+          "quant": "loan growth -5%"
+        },
+        {
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bearish",
+          "reason": "Rising crude oil prices -> increased import costs -> reduced margins and increased NPA provisions for Axis Bank",
+          "quant": "NPA provisions +10%"
         }
       ],
-      "watch": "September 30 deadline for FCNR(B) deposits"
+      "watch": "PSU bank stocks like SBI and PNB for potential rotation"
     },
     {
-      "sector": "oil_gas",
+      "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rupee hitting two-month low and oil prices remaining high",
+      "news_driver": "Rising crude oil prices",
       "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bearish",
-          "reason": "High oil prices and weak rupee -> increased import costs -> margins -100bps",
-          "quant": "-100bps"
+          "reason": "Rising crude oil prices -> increased refining costs -> reduced margins for Reliance Industries",
+          "quant": "refining margins -150bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude oil price levels"
     },
     {
-      "sector": "cement",
-      "direction": "Bullish",
+      "sector": "fmcg",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "UltraTech Cement Q1 results",
+      "news_driver": "No specific news",
       "theme": null,
       "stocks": [
         {
-          "name": "UltraTech Cement",
-          "ticker": "ULTRACEMCO.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> stock price +5%",
-          "quant": "5%"
+          "name": "Colgate Palmolive (India)",
+          "ticker": "COLPAL.NS",
+          "impact": "Neutral",
+          "reason": "No specific news -> no change in business fundamentals -> neutral impact on Colgate Palmolive",
+          "quant": null
         }
       ],
-      "watch": "Cement demand growth"
+      "watch": "Q2 earnings release"
+    },
+    {
+      "sector": "psu",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "PNB shares jump 7% in 2 days after Q1 earnings",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Punjab National Bank",
+          "ticker": "PNB.NS",
+          "impact": "Bullish",
+          "reason": "Q1 earnings beat -> improved business fundamentals -> increased investor confidence in PNB",
+          "quant": "revenue +5%"
+        }
+      ],
+      "watch": "PSU bank stocks for potential rotation"
     }
   ],
   "themes": [
