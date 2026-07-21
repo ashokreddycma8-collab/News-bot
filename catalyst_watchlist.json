@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:36:04.664224+05:30",
+  "generated_at": "2026-07-21T16:46:58.048071+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -980,8 +980,8 @@
     "JINDALSTEL": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 Results: Co posts quarterly profit jump on strong domestic demand",
-      "category": "earnings_beat",
+      "catalyst": "Goldman Sachs says shares can rally 35%, check target price",
+      "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
@@ -2640,6 +2640,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "INSECTICIDES": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "launches GRANUVIA insecticide for brown plant hopper control in paddy",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "LUPIN": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "takes 82.2% stake in Kaveri Therapeutics, licences 2 oncology assets for $1.6mn",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
