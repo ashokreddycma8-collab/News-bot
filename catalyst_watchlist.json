@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T16:46:58.048071+05:30",
+  "generated_at": "2026-07-22T11:38:08.713249+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2656,6 +2656,38 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "HOMEFIRST": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Brokerage recommendation to buy the stock",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ABCL": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Investment of \u20b9123.89 crore in health insurance arm via rights issue",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BLUESTONE": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Stellar Q1 show leads to 29% surge in stock price",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TRIVENI": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Stock turns ex-demerger, adjusting 38.5%",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

@@ -1,86 +1,85 @@
 {
-  "date": "2026-07-21",
-  "time": "16:46",
+  "date": "2026-07-22",
+  "time": "11:38",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bearish",
+      "sector": "auto",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex drops 442 pts, Axis Bank and HDFC Bank fall most",
-      "theme": "PSU_rotation",
+      "news_driver": "Strong Q1 results from Bajaj Auto and TVS Motor",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bearish",
-          "reason": "Sensex drop -> decreased investor sentiment -> lower stock price",
-          "quant": "-3.5%"
+          "name": "Bajaj Auto",
+          "ticker": "BAJAJ-AUTO.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased revenue and profitability -> higher stock price",
+          "quant": "revenue +12% Q1"
         },
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Nifty closing below 24,240 -> reduced banking sector confidence -> lower stock price",
-          "quant": "-2.8%"
+          "name": "TVS Motor",
+          "ticker": "TVSMOTOR.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> improved margins and sales -> increased investor confidence",
+          "quant": "margins +100bps Q1"
         }
       ],
-      "watch": "PSU bank stock prices"
+      "watch": "Bajaj Auto's 52-week high price level"
     },
     {
-      "sector": "pharma",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Lupin takes 82.2% stake in Kaveri Therapeutics",
+      "news_driver": "Bandhan Bank's Q1 results and rupee depreciation",
       "theme": null,
       "stocks": [
         {
-          "name": "Lupin",
-          "ticker": "LUPIN.NS",
-          "impact": "Bullish",
-          "reason": "Stake acquisition -> increased oncology portfolio -> higher revenue potential",
-          "quant": "+5-7% Q2 revenue growth"
+          "name": "Bandhan Bank",
+          "ticker": "BANDHANBNK.NS",
+          "impact": "Bearish",
+          "reason": "Q1 results -> lower-than-expected profit growth -> decreased investor confidence",
+          "quant": "profit growth -5% Q1"
         }
       ],
-      "watch": "Lupin's Q2 earnings report"
+      "watch": "Rupee's 96.50 level against the US dollar"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Margin squeeze due to higher costs",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Home First Finance Company India",
+          "ticker": "HOMEFIRST.NS",
+          "impact": "Bearish",
+          "reason": "Higher costs -> lower margins -> decreased profitability",
+          "quant": "margins -150bps"
+        }
+      ],
+      "watch": "FMCG sector's price-to-earnings ratio"
     },
     {
       "sector": "energy",
-      "direction": "Neutral",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "No decision to increase ethanol blending with petrol beyond 20%",
+      "news_driver": "Higher crude oil prices",
       "theme": null,
       "stocks": [
         {
           "name": "Adani Total Gas",
           "ticker": "ATGL.NS",
-          "impact": "Neutral",
-          "reason": "Ethanol blending policy -> no change in energy demand -> stable stock price",
-          "quant": "null"
+          "impact": "Bearish",
+          "reason": "Higher crude oil prices -> increased costs -> lower margins",
+          "quant": "costs +10% Q2"
         }
       ],
-      "watch": "Ethanol blending policy updates"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Jindal Stainless Shares Can Rally 35%, Says Goldman Sachs",
-      "theme": "China+1",
-      "stocks": [
-        {
-          "name": "Jindal Stainless",
-          "ticker": "JINDALSTEL.NS",
-          "impact": "Bullish",
-          "reason": "Goldman Sachs target price -> increased investor confidence -> higher stock price",
-          "quant": "+35% potential upside"
-        }
-      ],
-      "watch": "Jindal Stainless stock price"
+      "watch": "Brent crude oil's $100 level"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "rural_mobility"
   ]
 }
