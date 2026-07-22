@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T14:34:22.697953+05:30",
+  "generated_at": "2026-07-22T16:46:48.649011+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2703,6 +2703,22 @@
       "catalyst": "Q1 net profit up 40%, revenue rises 25%",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ETERNAL": {
+      "score": 6,
+      "direction": "SELL",
+      "catalyst": "Q1 profit misses estimates",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "JIO": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "JioStar Acquires The Hundred 2026 India Broadcast Rights",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

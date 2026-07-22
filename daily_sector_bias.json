@@ -1,86 +1,85 @@
 {
   "date": "2026-07-22",
-  "time": "14:34",
-  "mood": "Bullish",
+  "time": "16:46",
+  "mood": "Cautious",
   "sectors": [
     {
       "sector": "energy",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Adani Power Q1 Results",
-      "theme": "PSU_rotation",
+      "news_driver": "Trump's Iran comments",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Adani Power",
-          "ticker": "ADANIPOWER.NS",
-          "impact": "Bullish",
-          "reason": "Adani Power's 42% YoY profit jump in Q1 -> increased investor confidence in power sector -> higher valuations",
-          "quant": "42% YoY profit growth"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Trump's Iran comments -> increased global oil price volatility -> reduced refining margins for RIL",
+          "quant": "-100bps"
         },
         {
-          "name": "JSW Energy",
-          "ticker": "JSWENERGY.NS",
-          "impact": "Bullish",
-          "reason": "Adani Power's strong Q1 results -> positive sentiment spillover to other power sector stocks -> potential re-rating",
-          "quant": "5-7% potential stock price appreciation"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Trump's Iran comments -> higher crude oil prices -> increased cost of production for IOC",
+          "quant": "-5%"
         }
       ],
-      "watch": "Adani Power's Rs 15,000 cr fundraise plans"
-    },
-    {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Deven Choksey's commentary on HFCL",
-      "theme": "defence_aerospace",
-      "stocks": [
-        {
-          "name": "HFCL",
-          "ticker": "HFCL.NS",
-          "impact": "Bullish",
-          "reason": "Deven Choksey's positive commentary on HFCL's defence and aerospace prospects -> increased investor interest -> higher stock price",
-          "quant": "66% potential upside"
-        }
-      ],
-      "watch": "HFCL's upcoming order book announcements"
+      "watch": "Brent crude oil price movement"
     },
     {
       "sector": "pharma",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Donald Trump's proposed pharma tariffs",
-      "theme": null,
+      "news_driver": "Q1 results preview",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Dr Reddy's",
-          "ticker": "DRREDDY.NS",
+          "name": "Sun Pharmaceutical",
+          "ticker": "SUNPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Proposed US pharma tariffs -> increased competitiveness for Indian pharma companies -> higher exports",
-          "quant": "5-8% potential increase in exports"
+          "reason": "Q1 results preview -> strong domestic formulations growth -> increased revenue for Sun Pharma",
+          "quant": "8-10%"
         }
       ],
-      "watch": "US pharma tariff implementation timeline"
+      "watch": "Q1 earnings announcements"
     },
     {
-      "sector": "capital_goods",
-      "direction": "Bullish",
+      "sector": "fmcg",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Trident's Q1 results",
-      "theme": null,
+      "news_driver": "HUL price hikes",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Trident",
-          "ticker": "TRIDENT.NS",
-          "impact": "Bullish",
-          "reason": "Trident's 10% profit jump in Q1 -> increased investor confidence in capital goods sector -> higher valuations",
-          "quant": "10% YoY profit growth"
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Neutral",
+          "reason": "HUL price hikes -> passing on input cost increases to consumers -> neutral impact on margins",
+          "quant": "null"
         }
       ],
-      "watch": "Trident's new subsidiary plans"
+      "watch": "consumer demand trends"
+    },
+    {
+      "sector": "media",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "JioStar broadcast rights acquisition",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Zee Entertainment",
+          "ticker": "ZEEL.NS",
+          "impact": "Bullish",
+          "reason": "JioStar broadcast rights acquisition -> increased competition in sports broadcasting -> potential revenue growth for ZEEL",
+          "quant": "+5%"
+        }
+      ],
+      "watch": "sports broadcasting rights auctions"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "defence_aerospace"
+    "null"
   ]
 }
