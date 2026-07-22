@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T11:38:08.713249+05:30",
+  "generated_at": "2026-07-22T14:34:22.697953+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -748,7 +748,7 @@
     "ADANIPOWER": {
       "score": 9,
       "direction": "BUY",
-      "catalyst": "Adani Energy buys IntelliSmart in Rs 3,050-cr deal, becomes India's largest smart metering platform",
+      "catalyst": "Q1 profit jumps 42% YoY, approves Rs 15,000 cr fundraise",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -2687,6 +2687,22 @@
       "catalyst": "Stock turns ex-demerger, adjusting 38.5%",
       "category": "structural_change",
       "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "TRIDENT": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 profit jumps 10%, board approves new subsidiary",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "JUBILANTING": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit up 40%, revenue rises 25%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

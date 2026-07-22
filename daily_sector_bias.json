@@ -1,85 +1,86 @@
 {
   "date": "2026-07-22",
-  "time": "11:38",
-  "mood": "Cautious",
+  "time": "14:34",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "auto",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Strong Q1 results from Bajaj Auto and TVS Motor",
-      "theme": "rural_mobility",
+      "news_driver": "Adani Power Q1 Results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Bajaj Auto",
-          "ticker": "BAJAJ-AUTO.NS",
+          "name": "Adani Power",
+          "ticker": "ADANIPOWER.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased revenue and profitability -> higher stock price",
-          "quant": "revenue +12% Q1"
+          "reason": "Adani Power's 42% YoY profit jump in Q1 -> increased investor confidence in power sector -> higher valuations",
+          "quant": "42% YoY profit growth"
         },
         {
-          "name": "TVS Motor",
-          "ticker": "TVSMOTOR.NS",
+          "name": "JSW Energy",
+          "ticker": "JSWENERGY.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> improved margins and sales -> increased investor confidence",
-          "quant": "margins +100bps Q1"
+          "reason": "Adani Power's strong Q1 results -> positive sentiment spillover to other power sector stocks -> potential re-rating",
+          "quant": "5-7% potential stock price appreciation"
         }
       ],
-      "watch": "Bajaj Auto's 52-week high price level"
+      "watch": "Adani Power's Rs 15,000 cr fundraise plans"
     },
     {
-      "sector": "banking",
-      "direction": "Bearish",
+      "sector": "defence",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Deven Choksey's commentary on HFCL",
+      "theme": "defence_aerospace",
+      "stocks": [
+        {
+          "name": "HFCL",
+          "ticker": "HFCL.NS",
+          "impact": "Bullish",
+          "reason": "Deven Choksey's positive commentary on HFCL's defence and aerospace prospects -> increased investor interest -> higher stock price",
+          "quant": "66% potential upside"
+        }
+      ],
+      "watch": "HFCL's upcoming order book announcements"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Bandhan Bank's Q1 results and rupee depreciation",
+      "news_driver": "Donald Trump's proposed pharma tariffs",
       "theme": null,
       "stocks": [
         {
-          "name": "Bandhan Bank",
-          "ticker": "BANDHANBNK.NS",
-          "impact": "Bearish",
-          "reason": "Q1 results -> lower-than-expected profit growth -> decreased investor confidence",
-          "quant": "profit growth -5% Q1"
+          "name": "Dr Reddy's",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bullish",
+          "reason": "Proposed US pharma tariffs -> increased competitiveness for Indian pharma companies -> higher exports",
+          "quant": "5-8% potential increase in exports"
         }
       ],
-      "watch": "Rupee's 96.50 level against the US dollar"
+      "watch": "US pharma tariff implementation timeline"
     },
     {
-      "sector": "fmcg",
-      "direction": "Bearish",
+      "sector": "capital_goods",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Margin squeeze due to higher costs",
+      "news_driver": "Trident's Q1 results",
       "theme": null,
       "stocks": [
         {
-          "name": "Home First Finance Company India",
-          "ticker": "HOMEFIRST.NS",
-          "impact": "Bearish",
-          "reason": "Higher costs -> lower margins -> decreased profitability",
-          "quant": "margins -150bps"
+          "name": "Trident",
+          "ticker": "TRIDENT.NS",
+          "impact": "Bullish",
+          "reason": "Trident's 10% profit jump in Q1 -> increased investor confidence in capital goods sector -> higher valuations",
+          "quant": "10% YoY profit growth"
         }
       ],
-      "watch": "FMCG sector's price-to-earnings ratio"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Higher crude oil prices",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Adani Total Gas",
-          "ticker": "ATGL.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude oil prices -> increased costs -> lower margins",
-          "quant": "costs +10% Q2"
-        }
-      ],
-      "watch": "Brent crude oil's $100 level"
+      "watch": "Trident's new subsidiary plans"
     }
   ],
   "themes": [
-    "rural_mobility"
+    "PSU_rotation",
+    "defence_aerospace"
   ]
 }
