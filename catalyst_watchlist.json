@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T11:43:55.489439+05:30",
+  "generated_at": "2026-07-23T14:33:28.700660+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2707,8 +2707,8 @@
     },
     "ETERNAL": {
       "score": 6,
-      "direction": "SELL",
-      "catalyst": "Q1 profit misses estimates",
+      "direction": "BUY",
+      "catalyst": "Q1 profit jumps nearly four-fold",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -2725,6 +2725,22 @@
       "score": 6,
       "direction": "BUY",
       "catalyst": "Q1 earnings and revenue surge 17.8% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PVRINOX": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Swings to profit, revenue up 12% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "UJJIVANSFB": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Operating profit surges 52% YoY",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"

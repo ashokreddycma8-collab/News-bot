@@ -1,79 +1,85 @@
 {
   "date": "2026-07-23",
-  "time": "11:43",
-  "mood": "Bearish",
+  "time": "14:33",
+  "mood": "Mixed",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "pharma",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "US-Iran conflict and surging crude prices",
+      "news_driver": "Eternal's Q1 profit jumping nearly four-fold",
       "theme": "null",
       "stocks": [
         {
-          "name": "Adani Green",
-          "ticker": "ADANIGREEN.NS",
+          "name": "Eternal",
+          "ticker": "ETERNAL.NS",
+          "impact": "Bullish",
+          "reason": "Q1 profit surge -> increased investor confidence -> stock price appreciation",
+          "quant": "revenue +25-30% Q1"
+        },
+        {
+          "name": "Cipla",
+          "ticker": "CIPLA.NS",
           "impact": "Bearish",
-          "reason": "Surging crude prices -> increased competition for renewable energy sources -> decreased demand for Adani Green's services",
-          "quant": "-5% stock price drop"
+          "reason": "Market losses -> decreased investor confidence -> stock price decline",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Brent crude price levels"
+      "watch": "Eternal's stock price movement"
     },
     {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Modi's protectionism push",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bullish",
-          "reason": "Protectionism push -> increased domestic production incentives -> higher sales for Maruti Suzuki",
-          "quant": "+2-3% revenue growth Q3"
-        }
-      ],
-      "watch": "Government policy announcements"
-    },
-    {
-      "sector": "jewellery",
+      "sector": "media",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Bluestone Jewellery Q1 results",
+      "news_driver": "PVR INOX's Q1 results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Bluestone Jewellery",
-          "ticker": "BLUESTONE.NS",
+          "name": "PVR INOX",
+          "ticker": "PVRINX.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> higher stock prices",
-          "quant": "+36% stock price jump in three days"
+          "reason": "Q1 profit surge -> increased investor confidence -> stock price appreciation",
+          "quant": "revenue +12% YoY"
         }
       ],
-      "watch": "Bluestone Jewellery stock price momentum"
+      "watch": "PVR INOX's stock price movement"
     },
     {
-      "sector": "it",
+      "sector": "banking",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Tanla Platforms Q1 earnings",
+      "conviction": 2,
+      "news_driver": "Ujjivan SFB's Q1 results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tanla Platforms",
-          "ticker": "TANLA.NS",
+          "name": "Ujjivan SFB",
+          "ticker": "UJJIVANSFB.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 earnings -> increased revenue growth -> higher investor confidence",
-          "quant": "+17.8% YoY revenue growth"
+          "reason": "Q1 operating profit surge -> increased investor confidence -> stock price appreciation",
+          "quant": "operating profit +52% YoY"
         }
       ],
-      "watch": "Tanla Platforms stock price movement"
+      "watch": "Ujjivan SFB's stock price movement"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Gandhar Oil's 20% upper circuit",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Gandhar Oil",
+          "ticker": "GANDHAROIL.NS",
+          "impact": "Bullish",
+          "reason": "Upper circuit -> increased investor confidence -> stock price appreciation",
+          "quant": "stock price +20%"
+        }
+      ],
+      "watch": "Gandhar Oil's stock price movement"
     }
   ],
   "themes": [
-    "protectionism",
-    "renewable energy"
+    "null"
   ]
 }
