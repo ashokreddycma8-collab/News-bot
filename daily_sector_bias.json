@@ -1,93 +1,51 @@
 {
   "date": "2026-07-23",
-  "time": "16:48",
-  "mood": "Cautious",
+  "time": "17:18",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "media",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Sensex today | Stock Market Highlights: Sensex falls 715 points, Nifty slips below 24,000; media, realty drag",
-      "theme": "null",
+      "news_driver": "Brent crude above $95",
+      "theme": null,
       "stocks": [
         {
-          "name": "PVR INOX",
-          "ticker": "PVRINX.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Sensex fall -> decreased investor sentiment -> lower valuations for media stocks",
-          "quant": "-5-7% revenue impact"
+          "reason": "Rising crude prices -> increased input costs -> reduced margins by -150bps",
+          "quant": "-150bps"
         },
         {
-          "name": "Zee Entertainment",
-          "ticker": "ZEEL.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Nifty slip -> reduced advertising spend -> lower earnings for media companies",
-          "quant": "-10-12% ad revenue decline"
+          "reason": "Higher crude prices -> lower refining margins -> revenue -8% Q2",
+          "quant": "-8%"
         }
       ],
-      "watch": "PVR INOX stock price at 850 levels"
+      "watch": "Brent crude price movement"
     },
     {
-      "sector": "cement",
-      "direction": "Bullish",
+      "sector": "it",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "UltraTech Cement plans to raise \u20b95,000 crore from market",
-      "theme": "null",
+      "news_driver": "Infosys Q1 Results",
+      "theme": null,
       "stocks": [
         {
-          "name": "UltraTech Cement",
-          "ticker": "ULTRACEMCO.NS",
-          "impact": "Bullish",
-          "reason": "Fund raise plan -> increased capital for expansion -> higher growth potential",
-          "quant": "+8-10% capacity expansion"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Neutral",
+          "reason": "Q1 profit rise -> trimmed revenue forecast -> revenue +4-6% Q3",
+          "quant": "+4-6%"
         }
       ],
-      "watch": "UltraTech Cement stock price at 7500 levels"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Sensex today | Stock Market Highlights: Sensex falls 715 points, Nifty slips below 24,000; media, realty drag, FMCG and auto resilient",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "IndiGo",
-          "ticker": "INDIGO.NS",
-          "impact": "Bearish",
-          "reason": "Q1 loss -> higher fuel costs -> lower profitability",
-          "quant": "-15-18% margin decline"
-        },
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "Auto sector resilience -> increased sales -> higher revenue",
-          "quant": "+5-7% sales growth"
-        }
-      ],
-      "watch": "IndiGo stock price at 1500 levels"
-    },
-    {
-      "sector": "textile",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bonus bonanza! This textile player announced 1:1 bonus issue, dividend just 14 sessions after market debut",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "D P Abhushan",
-          "ticker": "DPABHUSHAN.NS",
-          "impact": "Bullish",
-          "reason": "Bonus issue -> increased investor confidence -> higher stock price",
-          "quant": "+10-12% stock price appreciation"
-        }
-      ],
-      "watch": "D P Abhushan stock price at 400 levels"
+      "watch": "Q2 earnings season"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "OMC_underperformance"
   ]
 }

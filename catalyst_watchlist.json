@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:48:13.489923+05:30",
+  "generated_at": "2026-07-23T17:18:30.621184+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2781,6 +2781,14 @@
       "score": 4,
       "direction": "SELL",
       "catalyst": "Q1 net profit drops 24% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "INFY": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 profit rises 12% YoY, but trims upper-end revenue forecast",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
