@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T14:33:28.700660+05:30",
+  "generated_at": "2026-07-23T16:48:13.489923+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -596,9 +596,9 @@
     "ULTRACEMCO": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 profit rises 20% YoY to Rs 2,983 crore; declares Rs 240/share dividend",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "catalyst": "plans to raise \u20b95,000 crore from market",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "STERLINGS": {
@@ -2744,6 +2744,46 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "PVRINX": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 profit of \u20b956 crore, swinging to black",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "INDIGO": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 loss of \u20b9238 crore vs profit YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "DPABHUSHAN": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "77% rise in Q1 PAT to \u20b964 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "PETRONET": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "fears of QatarEnergy extending force majeure",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "COROMANDEL": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Q1 net profit drops 24% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

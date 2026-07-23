@@ -1,85 +1,93 @@
 {
   "date": "2026-07-23",
-  "time": "14:33",
-  "mood": "Mixed",
+  "time": "16:48",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Eternal's Q1 profit jumping nearly four-fold",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Eternal",
-          "ticker": "ETERNAL.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit surge -> increased investor confidence -> stock price appreciation",
-          "quant": "revenue +25-30% Q1"
-        },
-        {
-          "name": "Cipla",
-          "ticker": "CIPLA.NS",
-          "impact": "Bearish",
-          "reason": "Market losses -> decreased investor confidence -> stock price decline",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "Eternal's stock price movement"
-    },
-    {
       "sector": "media",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "PVR INOX's Q1 results",
+      "news_driver": "Sensex today | Stock Market Highlights: Sensex falls 715 points, Nifty slips below 24,000; media, realty drag",
       "theme": "null",
       "stocks": [
         {
           "name": "PVR INOX",
           "ticker": "PVRINX.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit surge -> increased investor confidence -> stock price appreciation",
-          "quant": "revenue +12% YoY"
-        }
-      ],
-      "watch": "PVR INOX's stock price movement"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Ujjivan SFB's Q1 results",
-      "theme": "null",
-      "stocks": [
+          "impact": "Bearish",
+          "reason": "Sensex fall -> decreased investor sentiment -> lower valuations for media stocks",
+          "quant": "-5-7% revenue impact"
+        },
         {
-          "name": "Ujjivan SFB",
-          "ticker": "UJJIVANSFB.NS",
-          "impact": "Bullish",
-          "reason": "Q1 operating profit surge -> increased investor confidence -> stock price appreciation",
-          "quant": "operating profit +52% YoY"
+          "name": "Zee Entertainment",
+          "ticker": "ZEEL.NS",
+          "impact": "Bearish",
+          "reason": "Nifty slip -> reduced advertising spend -> lower earnings for media companies",
+          "quant": "-10-12% ad revenue decline"
         }
       ],
-      "watch": "Ujjivan SFB's stock price movement"
+      "watch": "PVR INOX stock price at 850 levels"
     },
     {
-      "sector": "energy",
+      "sector": "cement",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Gandhar Oil's 20% upper circuit",
+      "news_driver": "UltraTech Cement plans to raise \u20b95,000 crore from market",
       "theme": "null",
       "stocks": [
         {
-          "name": "Gandhar Oil",
-          "ticker": "GANDHAROIL.NS",
+          "name": "UltraTech Cement",
+          "ticker": "ULTRACEMCO.NS",
           "impact": "Bullish",
-          "reason": "Upper circuit -> increased investor confidence -> stock price appreciation",
-          "quant": "stock price +20%"
+          "reason": "Fund raise plan -> increased capital for expansion -> higher growth potential",
+          "quant": "+8-10% capacity expansion"
         }
       ],
-      "watch": "Gandhar Oil's stock price movement"
+      "watch": "UltraTech Cement stock price at 7500 levels"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Sensex today | Stock Market Highlights: Sensex falls 715 points, Nifty slips below 24,000; media, realty drag, FMCG and auto resilient",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "IndiGo",
+          "ticker": "INDIGO.NS",
+          "impact": "Bearish",
+          "reason": "Q1 loss -> higher fuel costs -> lower profitability",
+          "quant": "-15-18% margin decline"
+        },
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Auto sector resilience -> increased sales -> higher revenue",
+          "quant": "+5-7% sales growth"
+        }
+      ],
+      "watch": "IndiGo stock price at 1500 levels"
+    },
+    {
+      "sector": "textile",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Bonus bonanza! This textile player announced 1:1 bonus issue, dividend just 14 sessions after market debut",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "D P Abhushan",
+          "ticker": "DPABHUSHAN.NS",
+          "impact": "Bullish",
+          "reason": "Bonus issue -> increased investor confidence -> higher stock price",
+          "quant": "+10-12% stock price appreciation"
+        }
+      ],
+      "watch": "D P Abhushan stock price at 400 levels"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }
