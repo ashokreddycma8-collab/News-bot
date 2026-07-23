@@ -1,85 +1,79 @@
 {
-  "date": "2026-07-22",
-  "time": "16:46",
-  "mood": "Cautious",
+  "date": "2026-07-23",
+  "time": "11:43",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Trump's Iran comments",
+      "news_driver": "US-Iran conflict and surging crude prices",
       "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Adani Green",
+          "ticker": "ADANIGREEN.NS",
           "impact": "Bearish",
-          "reason": "Trump's Iran comments -> increased global oil price volatility -> reduced refining margins for RIL",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Trump's Iran comments -> higher crude oil prices -> increased cost of production for IOC",
-          "quant": "-5%"
+          "reason": "Surging crude prices -> increased competition for renewable energy sources -> decreased demand for Adani Green's services",
+          "quant": "-5% stock price drop"
         }
       ],
-      "watch": "Brent crude oil price movement"
+      "watch": "Brent crude price levels"
     },
     {
-      "sector": "pharma",
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Q1 results preview",
+      "news_driver": "Modi's protectionism push",
       "theme": "null",
       "stocks": [
         {
-          "name": "Sun Pharmaceutical",
-          "ticker": "SUNPHARMA.NS",
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
           "impact": "Bullish",
-          "reason": "Q1 results preview -> strong domestic formulations growth -> increased revenue for Sun Pharma",
-          "quant": "8-10%"
+          "reason": "Protectionism push -> increased domestic production incentives -> higher sales for Maruti Suzuki",
+          "quant": "+2-3% revenue growth Q3"
         }
       ],
-      "watch": "Q1 earnings announcements"
+      "watch": "Government policy announcements"
     },
     {
-      "sector": "fmcg",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "HUL price hikes",
+      "sector": "jewellery",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Bluestone Jewellery Q1 results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Neutral",
-          "reason": "HUL price hikes -> passing on input cost increases to consumers -> neutral impact on margins",
-          "quant": "null"
+          "name": "Bluestone Jewellery",
+          "ticker": "BLUESTONE.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased investor confidence -> higher stock prices",
+          "quant": "+36% stock price jump in three days"
         }
       ],
-      "watch": "consumer demand trends"
+      "watch": "Bluestone Jewellery stock price momentum"
     },
     {
-      "sector": "media",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "JioStar broadcast rights acquisition",
+      "news_driver": "Tanla Platforms Q1 earnings",
       "theme": "null",
       "stocks": [
         {
-          "name": "Zee Entertainment",
-          "ticker": "ZEEL.NS",
+          "name": "Tanla Platforms",
+          "ticker": "TANLA.NS",
           "impact": "Bullish",
-          "reason": "JioStar broadcast rights acquisition -> increased competition in sports broadcasting -> potential revenue growth for ZEEL",
-          "quant": "+5%"
+          "reason": "Strong Q1 earnings -> increased revenue growth -> higher investor confidence",
+          "quant": "+17.8% YoY revenue growth"
         }
       ],
-      "watch": "sports broadcasting rights auctions"
+      "watch": "Tanla Platforms stock price movement"
     }
   ],
   "themes": [
-    "null"
+    "protectionism",
+    "renewable energy"
   ]
 }
