@@ -1,51 +1,93 @@
 {
-  "date": "2026-07-23",
-  "time": "17:18",
+  "date": "2026-07-24",
+  "time": "11:37",
   "mood": "Bearish",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Brent crude above $95",
-      "theme": null,
+      "news_driver": "Oil price surge above $95",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude prices -> increased input costs -> reduced margins by -150bps",
-          "quant": "-150bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
+          "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Higher crude prices -> lower refining margins -> revenue -8% Q2",
-          "quant": "-8%"
+          "reason": "Oil price surge -> increased cost of crude -> reduced refining margins",
+          "quant": "margins -200bps"
+        },
+        {
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Oil price surge -> increased cost of crude -> reduced refining margins",
+          "quant": "margins -250bps"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude price level of $100"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Q1 results of HDFC Bank and other banks",
+      "theme": "PSU bank underperformance",
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bearish",
+          "reason": "Q1 results miss -> reduced investor confidence -> stock price decline",
+          "quant": "revenue -5% Q3"
+        },
+        {
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "Q1 results miss -> reduced investor confidence -> stock price decline",
+          "quant": "revenue -3% Q3"
+        }
+      ],
+      "watch": "Q1 results of SBI Life"
     },
     {
       "sector": "it",
-      "direction": "Neutral",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Infosys Q1 Results",
+      "news_driver": "Q1 results of Infosys",
       "theme": null,
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Q1 profit rise -> trimmed revenue forecast -> revenue +4-6% Q3",
-          "quant": "+4-6%"
+          "impact": "Bearish",
+          "reason": "Q1 results miss -> reduced investor confidence -> stock price decline",
+          "quant": "revenue -2% Q3"
         }
       ],
-      "watch": "Q2 earnings season"
+      "watch": "Q1 results of other IT companies"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Q1 results of Dr Reddy's",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Dr Reddy's",
+          "ticker": "DRREDDY.NS",
+          "impact": "Bearish",
+          "reason": "Q1 results miss -> reduced investor confidence -> stock price decline",
+          "quant": "revenue -8% Q3"
+        }
+      ],
+      "watch": "Q1 results of other pharma companies"
     }
   ],
   "themes": [
-    "OMC_underperformance"
+    "OMC margin squeeze",
+    "PSU bank underperformance"
   ]
 }
