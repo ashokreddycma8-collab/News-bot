@@ -1,69 +1,69 @@
 {
   "date": "2026-07-24",
-  "time": "14:30",
-  "mood": "Cautious",
+  "time": "16:38",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Q1 results season",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Neutral",
-          "reason": "Q1 results announcement today -> expected revenue growth and margin guidance -> neutral impact on stock price",
-          "quant": "revenue +2-4% Q1"
-        },
-        {
-          "name": "Mphasis",
-          "ticker": "MPHASIS.NS",
-          "impact": "Bullish",
-          "reason": "Q1 results announcement today -> expected strong deal pipeline and growth momentum -> positive impact on stock price",
-          "quant": "order book +Rs200Cr"
-        }
-      ],
-      "watch": "Infosys Q1 revenue guidance"
-    },
-    {
-      "sector": "pharma",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Cipla Q1 results",
-      "theme": "null",
+      "news_driver": "Rising crude oil prices",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Cipla",
-          "ticker": "CIPLA.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Cipla Q1 PAT decline -> lower-than-expected sales and higher expenses -> negative impact on stock price",
-          "quant": "margins -100bps"
+          "reason": "Rising crude oil prices -> Increased cost of production -> Reduced margins by 100-150bps",
+          "quant": "-120bps"
+        },
+        {
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Rising crude oil prices -> Higher input costs -> Lower profitability by 8-10%",
+          "quant": "-9%"
         }
       ],
-      "watch": "Cipla stock price below Rs900"
+      "watch": "Brent crude price crossing $100/barrel"
     },
     {
-      "sector": "energy",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "HPCL and BPCL crude supply update",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Sterlite Tech Q1 results",
+      "theme": "AI and data centre growth",
       "stocks": [
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "Sterlite Technologies",
+          "ticker": "STLTECH.NS",
           "impact": "Bullish",
-          "reason": "HPCL securing crude supplies till August -> reduced supply chain risks and stable refining margins -> positive impact on stock price",
-          "quant": "refining margins +50bps"
+          "reason": "Strong Q1 results -> Increased demand for AI and data centre solutions -> Revenue growth of 15-20%",
+          "quant": "+18%"
         }
       ],
-      "watch": "Brent crude price above $80"
+      "watch": "Q2 results of other IT companies"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "SBI Life Q1 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "SBI Life Insurance",
+          "ticker": "SBILIFE.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> Premium growth of 20% -> Profit increase of 22%",
+          "quant": "+22%"
+        }
+      ],
+      "watch": "Q2 results of other life insurance companies"
     }
   ],
   "themes": [
-    "Q1 results season",
-    "global economic uncertainty"
+    "OMC margin squeeze",
+    "AI and data centre growth"
   ]
 }

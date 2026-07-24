@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:30:37.475107+05:30",
+  "generated_at": "2026-07-24T16:38:39.705694+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -410,12 +410,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "SBILIFE": {
-      "score": 5,
-      "direction": "NEUTRAL",
-      "catalyst": "Q4 Results: Profit falls marginally to Rs 805 crore; net premium income rises 16% YoY",
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 results: Profit rises 22% YoY to Rs 720 crore on strong premium growth",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "POWERSYS": {
       "score": 6,
@@ -2792,6 +2792,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "STERT": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 Results: Profit skyrockets 870% YoY to Rs 197 crore as AI data centre orders lift earnings",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
