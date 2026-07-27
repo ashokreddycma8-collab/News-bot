@@ -1,68 +1,86 @@
 {
   "date": "2026-07-27",
-  "time": "16:00",
+  "time": "18:23",
   "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Crude oil price drop",
+      "theme": "OMC margin squeeze",
+      "stocks": [
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price drop -> reduced refining margins -> lower profitability",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price drop -> decreased revenue -> lower earnings",
+          "quant": "revenue -5%"
+        }
+      ],
+      "watch": "Brent crude price level of $80"
+    },
     {
       "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Canara Bank Q1 results",
-      "theme": "PSU_rotation",
+      "news_driver": "HDFC Bank Q1 results",
+      "theme": null,
       "stocks": [
-        {
-          "name": "Canara Bank",
-          "ticker": "CANBK.NS",
-          "impact": "Bullish",
-          "reason": "Q1 results showing improved asset quality -> reduced provisioning -> increased profitability",
-          "quant": "net profit +20%"
-        },
         {
           "name": "HDFC Bank",
           "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Mcap erosion of Rs 2.74 lakh cr -> reduced investor sentiment -> potential selling pressure",
-          "quant": "mcap -5%"
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased investor confidence -> higher stock price",
+          "quant": "revenue +8-10% Q3"
         }
       ],
-      "watch": "PSU bank stocks' price movement"
+      "watch": "HDFC Bank stock price level of 1600"
     },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Q1 results of IT companies",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Infosys Q1 results",
+      "theme": null,
       "stocks": [
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> potential buying interest",
-          "quant": "revenue +8-10% Q3"
+          "reason": "Strong Q1 results -> increased demand for IT services -> higher revenue",
+          "quant": "revenue +5%"
         }
       ],
-      "watch": "IT stocks' Q2 results"
+      "watch": "Infosys stock price level of 1400"
     },
     {
-      "sector": "capital_markets",
+      "sector": "psu",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "IPO market activity",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Coal India Q1 results",
+      "theme": "PSU dividend yield",
       "stocks": [
         {
-          "name": "Indo-MIM",
-          "ticker": "INDOMIM.NS",
+          "name": "Coal India",
+          "ticker": "COALINDIA.NS",
           "impact": "Bullish",
-          "reason": "IPO GMP jumping to Rs 202 -> strong investor demand -> potential listing gain",
-          "quant": "listing gain +42%"
+          "reason": "Strong Q1 results -> increased dividend payout -> higher investor returns",
+          "quant": "dividend yield +2%"
         }
       ],
-      "watch": "IPO subscription numbers"
+      "watch": "Coal India stock price level of 250"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "OMC margin squeeze",
+    "PSU dividend yield"
   ]
 }
