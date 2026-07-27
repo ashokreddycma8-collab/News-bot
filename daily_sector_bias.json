@@ -1,69 +1,78 @@
 {
-  "date": "2026-07-24",
-  "time": "16:38",
-  "mood": "Bearish",
+  "date": "2026-07-27",
+  "time": "12:16",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Rising crude oil prices",
-      "theme": "OMC margin squeeze",
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> Increased cost of production -> Reduced margins by 100-150bps",
-          "quant": "-120bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "Rising crude oil prices -> Higher input costs -> Lower profitability by 8-10%",
-          "quant": "-9%"
-        }
-      ],
-      "watch": "Brent crude price crossing $100/barrel"
-    },
-    {
-      "sector": "it",
+      "sector": "fmcg",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sterlite Tech Q1 results",
-      "theme": "AI and data centre growth",
+      "news_driver": "Tata Consumer Q1 PAT up 28.4%",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Sterlite Technologies",
-          "ticker": "STLTECH.NS",
+          "name": "Tata Consumer Products",
+          "ticker": "TATACONSUM.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> Increased demand for AI and data centre solutions -> Revenue growth of 15-20%",
-          "quant": "+18%"
+          "reason": "Tata Consumer Q1 PAT increase -> higher profitability -> revenue growth of 8-10% in Q3",
+          "quant": "8-10%"
         }
       ],
-      "watch": "Q2 results of other IT companies"
+      "watch": "2350 resistance level for Tata Consumer Products"
     },
     {
-      "sector": "financial_services",
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Laurus Labs Q1 profit jumps 126%",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Laurus Labs",
+          "ticker": "LAURUSLABS.NS",
+          "impact": "Bullish",
+          "reason": "Laurus Labs Q1 profit jump -> strong CDMO growth -> margins expansion of 150bps",
+          "quant": "150bps"
+        }
+      ],
+      "watch": "4450 support level for Laurus Labs"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Auto stocks drag Sensex and Nifty down",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bearish",
+          "reason": "Auto stock decline -> lower sales volume -> revenue decline of 5% in Q3",
+          "quant": "-5%"
+        }
+      ],
+      "watch": "420 support level for Tata Motors"
+    },
+    {
+      "sector": "infra",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "SBI Life Q1 results",
-      "theme": null,
+      "news_driver": "Highway Infrastructure bags NHAI toll contract",
+      "theme": "null",
       "stocks": [
         {
-          "name": "SBI Life Insurance",
-          "ticker": "SBILIFE.NS",
+          "name": "Highway Infrastructure",
+          "ticker": "null",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> Premium growth of 20% -> Profit increase of 22%",
-          "quant": "+22%"
+          "reason": "NHAI toll contract award -> higher order book -> revenue growth of Rs 200Cr",
+          "quant": "Rs 200Cr"
         }
       ],
-      "watch": "Q2 results of other life insurance companies"
+      "watch": "NHAI contract execution timeline"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "AI and data centre growth"
+    "null"
   ]
 }
