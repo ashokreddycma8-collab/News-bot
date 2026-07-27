@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T12:16:46.044868+05:30",
+  "generated_at": "2026-07-27T16:00:20.301054+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2815,6 +2815,22 @@
       "catalyst": "bags \u20b928.69 crore NHAI toll contract",
       "category": "corporate_event",
       "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CANARA BANK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 results show improved asset quality",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "TAMILNADMERCH": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 profit soars 35%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

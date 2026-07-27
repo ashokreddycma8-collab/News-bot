@@ -1,78 +1,68 @@
 {
   "date": "2026-07-27",
-  "time": "12:16",
-  "mood": "Cautious",
+  "time": "16:00",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "fmcg",
+      "sector": "banking",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Tata Consumer Q1 PAT up 28.4%",
-      "theme": "null",
+      "news_driver": "Canara Bank Q1 results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Tata Consumer Products",
-          "ticker": "TATACONSUM.NS",
+          "name": "Canara Bank",
+          "ticker": "CANBK.NS",
           "impact": "Bullish",
-          "reason": "Tata Consumer Q1 PAT increase -> higher profitability -> revenue growth of 8-10% in Q3",
-          "quant": "8-10%"
-        }
-      ],
-      "watch": "2350 resistance level for Tata Consumer Products"
-    },
-    {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Laurus Labs Q1 profit jumps 126%",
-      "theme": "null",
-      "stocks": [
+          "reason": "Q1 results showing improved asset quality -> reduced provisioning -> increased profitability",
+          "quant": "net profit +20%"
+        },
         {
-          "name": "Laurus Labs",
-          "ticker": "LAURUSLABS.NS",
-          "impact": "Bullish",
-          "reason": "Laurus Labs Q1 profit jump -> strong CDMO growth -> margins expansion of 150bps",
-          "quant": "150bps"
-        }
-      ],
-      "watch": "4450 support level for Laurus Labs"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Auto stocks drag Sensex and Nifty down",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "Auto stock decline -> lower sales volume -> revenue decline of 5% in Q3",
-          "quant": "-5%"
+          "reason": "Mcap erosion of Rs 2.74 lakh cr -> reduced investor sentiment -> potential selling pressure",
+          "quant": "mcap -5%"
         }
       ],
-      "watch": "420 support level for Tata Motors"
+      "watch": "PSU bank stocks' price movement"
     },
     {
-      "sector": "infra",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Highway Infrastructure bags NHAI toll contract",
+      "conviction": 2,
+      "news_driver": "Q1 results of IT companies",
       "theme": "null",
       "stocks": [
         {
-          "name": "Highway Infrastructure",
-          "ticker": "null",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "NHAI toll contract award -> higher order book -> revenue growth of Rs 200Cr",
-          "quant": "Rs 200Cr"
+          "reason": "Strong Q1 results -> increased investor confidence -> potential buying interest",
+          "quant": "revenue +8-10% Q3"
         }
       ],
-      "watch": "NHAI contract execution timeline"
+      "watch": "IT stocks' Q2 results"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "IPO market activity",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Indo-MIM",
+          "ticker": "INDOMIM.NS",
+          "impact": "Bullish",
+          "reason": "IPO GMP jumping to Rs 202 -> strong investor demand -> potential listing gain",
+          "quant": "listing gain +42%"
+        }
+      ],
+      "watch": "IPO subscription numbers"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
