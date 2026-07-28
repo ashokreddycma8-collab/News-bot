@@ -1,86 +1,85 @@
 {
-  "date": "2026-07-27",
-  "time": "18:23",
+  "date": "2026-07-28",
+  "time": "11:36",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "energy",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude oil price drop",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Crude oil price retreat",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price drop -> reduced refining margins -> lower profitability",
-          "quant": "margins -100bps"
+          "impact": "Bullish",
+          "reason": "Crude oil price decline -> reduced input costs -> improved refining margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "BPCL",
-          "ticker": "BPCL.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price drop -> decreased revenue -> lower earnings",
-          "quant": "revenue -5%"
-        }
-      ],
-      "watch": "Brent crude price level of $80"
-    },
-    {
-      "sector": "banking",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "HDFC Bank Q1 results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> higher stock price",
-          "quant": "revenue +8-10% Q3"
+          "reason": "Lower crude prices -> decreased working capital requirements -> improved cash flows",
+          "quant": "cash flows +5-7% Q3"
         }
       ],
-      "watch": "HDFC Bank stock price level of 1600"
+      "watch": "Brent crude price below $80"
     },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Infosys Q1 results",
-      "theme": null,
+      "news_driver": "Tata Sons focus on AI and semiconductors",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased demand for IT services -> higher revenue",
-          "quant": "revenue +5%"
+          "reason": "Tata Sons' AI and semiconductor focus -> increased IT spending -> revenue growth",
+          "quant": "revenue +4-6% Q3"
         }
       ],
-      "watch": "Infosys stock price level of 1400"
+      "watch": "TCS Q2 earnings"
     },
     {
-      "sector": "psu",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Coal India Q1 results",
-      "theme": "PSU dividend yield",
+      "conviction": 1,
+      "news_driver": "RR Kabel Q1 results",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Coal India",
-          "ticker": "COALINDIA.NS",
+          "name": "RR Kabel",
+          "ticker": "RRKABEL.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased dividend payout -> higher investor returns",
-          "quant": "dividend yield +2%"
+          "reason": "RR Kabel's strong Q1 results -> increased investor confidence -> stock price appreciation",
+          "quant": "stock price +8-10%"
         }
       ],
-      "watch": "Coal India stock price level of 250"
+      "watch": "RR Kabel stock price above 1000"
+    },
+    {
+      "sector": "metal",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Vedanta Aluminium coverage initiation",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
+          "impact": "Bullish",
+          "reason": "ICICI Securities' coverage initiation -> increased analyst coverage -> stock price appreciation",
+          "quant": "stock price +5-7%"
+        }
+      ],
+      "watch": "Vedanta stock price above 350"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "PSU dividend yield"
+    "null"
   ]
 }
