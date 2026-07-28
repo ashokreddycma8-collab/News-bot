@@ -1,78 +1,78 @@
 {
   "date": "2026-07-28",
-  "time": "16:56",
+  "time": "17:24",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Suzlon Energy Q1 results",
+      "news_driver": "Equitas Small Finance Bank Q1 Results",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Equitas Small Finance Bank",
+          "ticker": "EQUITASBNK.NS",
+          "impact": "Bullish",
+          "reason": "Q1 NII jump of 31% -> decline in provisions -> increase in profitability by 20-25%",
+          "quant": "20-25%"
+        }
+      ],
+      "watch": "PSU bank index movement"
+    },
+    {
+      "sector": "cement",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Ambuja Cements Q1 Results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Suzlon Energy",
-          "ticker": "SUZLON.NS",
-          "impact": "Bearish",
-          "reason": "Disappointing Q1 results -> lower-than-expected revenue growth -> reduced investor confidence",
-          "quant": "-10% stock price drop"
+          "name": "Ambuja Cements",
+          "ticker": "AMBUJACEM.NS",
+          "impact": "Bullish",
+          "reason": "Q1 operating Ebitda crossing Rs 1,500 crore -> rise in margins -> increase in revenue by 8-10%",
+          "quant": "8-10%"
         }
       ],
-      "watch": "Rs 10 price level for Suzlon Energy"
+      "watch": "cement stock price movement"
     },
     {
       "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Cholamandalam Finance Q1 results",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "IPO pipeline robust with 245 DRHPs filed with Sebi",
       "theme": "null",
       "stocks": [
         {
-          "name": "Cholamandalam Finance",
-          "ticker": "CHOLAFIN.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased profitability -> higher investor expectations",
-          "quant": "45% profit growth"
+          "name": "Equirus",
+          "ticker": "null",
+          "impact": "Neutral",
+          "reason": "Robust IPO pipeline -> increase in investment banking fees -> neutral impact on Equirus",
+          "quant": "null"
         }
       ],
-      "watch": "Rs 550 price level for Cholamandalam Finance"
+      "watch": "IPO filings and Sebi observations"
     },
     {
-      "sector": "fmcg",
+      "sector": "housing",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Radico Khaitan Q1 results",
+      "news_driver": "Hudco Sees Strong Loan Growth",
       "theme": "null",
       "stocks": [
         {
-          "name": "Radico Khaitan",
-          "ticker": "RADICO.NS",
+          "name": "Hudco",
+          "ticker": "HUDCO.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased volume growth -> higher revenue expectations",
-          "quant": "76% net profit growth"
+          "reason": "Strong loan growth -> increase in disbursement target to Rs 65,000 crore -> rise in revenue by 12-15%",
+          "quant": "12-15%"
         }
       ],
-      "watch": "Rs 1200 price level for Radico Khaitan"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sona BLW Q1 results",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Sona BLW",
-          "ticker": "SONACOMS.NS",
-          "impact": "Bullish",
-          "reason": "Strong growth drivers -> increased investor confidence -> higher stock price",
-          "quant": "20% revenue growth"
-        }
-      ],
-      "watch": "Rs 550 price level for Sona BLW"
+      "watch": "Hudco loan disbursement target"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
