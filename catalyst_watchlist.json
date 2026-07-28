@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T11:36:30.158936+05:30",
+  "generated_at": "2026-07-28T14:41:52.669673+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1380,7 +1380,7 @@
     "TVSMOTOR": {
       "score": 8,
       "direction": "BUY",
-      "catalyst": "June auto sales jump 47%, beats estimates",
+      "catalyst": "raises stake in TVS Credit to 85.15% with \u20b9711-crore share purchase",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -2856,6 +2856,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "STELITE": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "FIIs triple stake after a stellar 400% surge this year",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
