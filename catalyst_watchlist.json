@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T14:41:52.669673+05:30",
+  "generated_at": "2026-07-28T16:56:01.895774+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2863,6 +2863,30 @@
       "catalyst": "FIIs triple stake after a stellar 400% surge this year",
       "category": "structural_change",
       "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "CHOLAFIN": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 profit climbs over 45%, total income up 22%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "RADICO": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit rises 76%, volume growth upgraded to over 25%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "SONACOMS": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Five drivers that could keep Sona BLW growing",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }
