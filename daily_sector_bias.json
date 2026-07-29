@@ -1,93 +1,76 @@
 {
   "date": "2026-07-29",
-  "time": "11:41",
+  "time": "14:48",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "consumer",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "IT stocks rally up to 5% for the second straight day",
-      "theme": "null",
+      "news_driver": "Devyani International Q1 profit zooms to Rs 17 cr",
+      "theme": "QSR_growth",
       "stocks": [
         {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
+          "name": "Devyani International",
+          "ticker": "DEVI.NS",
           "impact": "Bullish",
-          "reason": "Lower crude prices -> reduced input costs -> increased margins",
-          "quant": "margins +100bps"
+          "reason": "Devyani International's Q1 profit jump -> increased investor confidence -> stock price rally",
+          "quant": "revenue +36% YoY"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Jubilant Foodworks",
+          "ticker": "JUBLFOOD.NS",
           "impact": "Bullish",
-          "reason": "Firmer rupee -> increased export competitiveness -> higher revenue",
-          "quant": "revenue +5-7% Q3"
-        },
-        {
-          "name": "Coforge",
-          "ticker": "COFORGE.NS",
-          "impact": "Bullish",
-          "reason": "Easing U.S.-Iran tensions -> improved global sentiment -> increased deal flow",
-          "quant": "order book +Rs200Cr"
+          "reason": "Devyani International's strong Q1 earnings -> positive sentiment in QSR space -> potential stock price increase",
+          "quant": "same-store sales growth +8-10% Q3"
         }
       ],
-      "watch": "17500 level on the Nifty"
+      "watch": "Devyani International's stock price movement above Rs 200"
     },
     {
-      "sector": "banking",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Banks collect Rs 7,087 crore for not maintaining minimum balance",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Bearish",
-          "reason": "Minimum balance fees -> reduced customer satisfaction -> potential regulatory scrutiny",
-          "quant": "fee income -5%"
-        }
-      ],
-      "watch": "HDFC Bank's Q1 results"
-    },
-    {
-      "sector": "fmcg",
+      "sector": "capital_goods",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "HUL shares rebound 2% after Q1 results",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Craftsman Automation Q1: Net Profit Doubles YoY",
+      "theme": "Capex_recovery",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
+          "name": "Craftsman Automation",
+          "ticker": "CRAM.NS",
           "impact": "Bullish",
-          "reason": "Q1 results beat -> increased investor confidence -> higher stock price",
-          "quant": "revenue +4-6% Q3"
+          "reason": "Craftsman Automation's Q1 net profit doubling -> increased investor confidence -> stock price increase",
+          "quant": "revenue +36% YoY"
+        },
+        {
+          "name": "L&T",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "Craftsman Automation's strong Q1 earnings -> positive sentiment in capital goods space -> potential stock price increase",
+          "quant": "order book +Rs500Cr"
         }
       ],
-      "watch": "HUL's volume growth"
+      "watch": "Craftsman Automation's stock price movement above Rs 3000"
     },
     {
-      "sector": "auto",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Eicher Motors to declare Q1 earnings",
-      "theme": "null",
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Adani Group raises Rs 43,500 crore",
+      "theme": "Growth_capital",
       "stocks": [
         {
-          "name": "Eicher Motors",
-          "ticker": "EICHERMOT.NS",
-          "impact": "Neutral",
-          "reason": "Q1 results -> mixed impact on stock price -> wait and watch",
-          "quant": "null"
+          "name": "Adani Enterprises",
+          "ticker": "ADANIENT.NS",
+          "impact": "Bullish",
+          "reason": "Adani Group's successful fundraising -> increased investor confidence -> stock price increase",
+          "quant": "debt reduction -Rs10,000Cr"
         }
       ],
-      "watch": "Eicher Motors' Q1 margins"
+      "watch": "Adani Enterprises' stock price movement above Rs 2000"
     }
   ],
   "themes": [
-    "IT rally",
-    "Firm rupee"
+    "QSR_growth",
+    "Capex_recovery"
   ]
 }
