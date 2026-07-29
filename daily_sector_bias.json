@@ -1,86 +1,100 @@
 {
   "date": "2026-07-29",
-  "time": "17:07",
+  "time": "17:28",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "auto",
+      "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "SML Mahindra to acquire Mahindra Truck and Bus division",
+      "news_driver": "Sensex Surges 889 Points, Nifty Crosses 24,250 on IT Gains, FII Inflows",
       "theme": "null",
       "stocks": [
         {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Commercial vehicle consolidation -> increased efficiency and scale -> improved margins",
-          "quant": "margins +100bps"
+          "reason": "FII inflows into IT sector -> increased demand for IT services -> revenue growth of 8-10% Q3",
+          "quant": "10%"
         },
         {
-          "name": "SML Isuzu",
-          "ticker": "SML.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Acquisition of Mahindra Truck and Bus division -> expanded product portfolio -> revenue growth",
-          "quant": "revenue +15%"
+          "reason": "Strong IT sector performance -> increased client spending -> margins expansion of 50bps",
+          "quant": "50bps"
+        },
+        {
+          "name": "HCL Tech",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bullish",
+          "reason": "IT sector gains -> improved investor sentiment -> stock price appreciation of 5%",
+          "quant": "5%"
         }
       ],
-      "watch": "M&M's Q1 earnings release"
+      "watch": "Nifty IT index breaking out above 30,000 levels"
     },
     {
-      "sector": "chemicals",
+      "sector": "banking",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "PCBL Chemical Q1 Results: Net Profit Jumps 65% YoY",
+      "conviction": 1,
+      "news_driver": "SBI raises \u20b94,691 cr through bonds from diversified qualified institutions",
       "theme": "null",
       "stocks": [
         {
-          "name": "PCBL",
-          "ticker": "PCBL.NS",
+          "name": "SBI",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> stock price appreciation",
-          "quant": "stock price +8-10%"
+          "reason": "Successful bond issuance -> improved liquidity -> loan growth of 12% YoY",
+          "quant": "12%"
+        },
+        {
+          "name": "Dhanlaxmi Bank",
+          "ticker": "DHANBANK.NS",
+          "impact": "Bullish",
+          "reason": "Lower provisions -> improved profitability -> Q1 profit growth of 100%",
+          "quant": "100%"
         }
       ],
-      "watch": "Grasim Industries' Q1 earnings release"
+      "watch": "SBI stock price crossing \u20b9600 levels"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Maruti emerges top EV exporter in Q1, claims 97% share in total EV shipments from India",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Strong EV exports -> increased revenue -> top-line growth of 15% Q1",
+          "quant": "15%"
+        }
+      ],
+      "watch": "Maruti Suzuki stock price crossing \u20b99,500 levels"
     },
     {
       "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Asian Paints Shares Jump 3% After Q1 Net Profit Surges 40%",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Asian Paints",
-          "ticker": "ASIANPAINT.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased demand and pricing power -> revenue growth",
-          "quant": "revenue +18% YoY"
-        }
-      ],
-      "watch": "Asian Paints' stock price movement"
-    },
-    {
-      "sector": "commodities",
-      "direction": "Bearish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Coal scam: CBI told to probe further into Rajya Sabha MP Vijay Darda's role",
+      "news_driver": "No High-Fat, Sugary Foods In Maharashtra Schools: Tukaram Mundhe-Led FDA Issues Strict Orders",
       "theme": "null",
       "stocks": [
         {
-          "name": "Adani Enterprises",
-          "ticker": "ADANIENT.NS",
-          "impact": "Bearish",
-          "reason": "Coal scam probe -> potential regulatory risks -> stock price decline",
-          "quant": "stock price -5-7%"
+          "name": "Dabur",
+          "ticker": "DABUR.NS",
+          "impact": "Neutral",
+          "reason": "Regulatory changes -> potential impact on product portfolio -> margins contraction of 20bps",
+          "quant": "-20bps"
         }
       ],
-      "watch": "CBI probe developments"
+      "watch": "Dabur stock price holding above \u20b9500 levels"
     }
   ],
   "themes": [
-    "commercial vehicle consolidation",
-    "Q1 earnings season"
+    "IT sector growth",
+    "Banking sector recovery"
   ]
 }

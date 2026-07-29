@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:07:08.367993+05:30",
+  "generated_at": "2026-07-29T17:28:12.735227+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1212,7 +1212,7 @@
     "DABUR": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Q4 Beat",
+      "catalyst": "Q1 profit rises 15%",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
@@ -2933,6 +2933,22 @@
       "score": 6,
       "direction": "BUY",
       "catalyst": "Q1 net profit jumps 65% YoY, declares interim dividend",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "APSEZ": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 profit rises 10% to \u20b93,649 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "DHANBANK": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 profit more than doubles on lower provisions",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
