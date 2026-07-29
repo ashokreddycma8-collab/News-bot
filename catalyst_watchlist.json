@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:24:19.658650+05:30",
+  "generated_at": "2026-07-29T11:41:30.317116+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2901,6 +2901,14 @@
       "score": 5,
       "direction": "BUY",
       "catalyst": "Q1 results show revenue at Rs 9,500 crore, operating Ebitda crosses Rs 1,500 crore, and margins rise",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "HUL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 results rebound with brokerages like Morgan Stanley and Motilal Oswal commenting",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
