@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:48:06.700073+05:30",
+  "generated_at": "2026-07-29T17:07:08.367993+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -282,12 +282,12 @@
       "conviction": "\u25ae\u25af\u25af"
     },
     "ASIANPAINT": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "Announces second round of price hikes",
-      "category": "corporate_event",
-      "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "Q1 net profit surges 40%, revenue up 18% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "SWSSOLAR": {
       "score": 8,
@@ -2917,6 +2917,22 @@
       "score": 6,
       "direction": "BUY",
       "catalyst": "Q1 profit jumps to Rs 17 cr, net profit increases fourfold",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SML": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "acquisition of Mahindra Truck and Bus division",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "PCBL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit jumps 65% YoY, declares interim dividend",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"

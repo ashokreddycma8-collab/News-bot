@@ -1,76 +1,86 @@
 {
   "date": "2026-07-29",
-  "time": "14:48",
+  "time": "17:07",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "consumer",
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Devyani International Q1 profit zooms to Rs 17 cr",
-      "theme": "QSR_growth",
+      "news_driver": "SML Mahindra to acquire Mahindra Truck and Bus division",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Devyani International",
-          "ticker": "DEVI.NS",
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
           "impact": "Bullish",
-          "reason": "Devyani International's Q1 profit jump -> increased investor confidence -> stock price rally",
-          "quant": "revenue +36% YoY"
+          "reason": "Commercial vehicle consolidation -> increased efficiency and scale -> improved margins",
+          "quant": "margins +100bps"
         },
         {
-          "name": "Jubilant Foodworks",
-          "ticker": "JUBLFOOD.NS",
+          "name": "SML Isuzu",
+          "ticker": "SML.NS",
           "impact": "Bullish",
-          "reason": "Devyani International's strong Q1 earnings -> positive sentiment in QSR space -> potential stock price increase",
-          "quant": "same-store sales growth +8-10% Q3"
+          "reason": "Acquisition of Mahindra Truck and Bus division -> expanded product portfolio -> revenue growth",
+          "quant": "revenue +15%"
         }
       ],
-      "watch": "Devyani International's stock price movement above Rs 200"
+      "watch": "M&M's Q1 earnings release"
     },
     {
-      "sector": "capital_goods",
+      "sector": "chemicals",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Craftsman Automation Q1: Net Profit Doubles YoY",
-      "theme": "Capex_recovery",
+      "news_driver": "PCBL Chemical Q1 Results: Net Profit Jumps 65% YoY",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Craftsman Automation",
-          "ticker": "CRAM.NS",
+          "name": "PCBL",
+          "ticker": "PCBL.NS",
           "impact": "Bullish",
-          "reason": "Craftsman Automation's Q1 net profit doubling -> increased investor confidence -> stock price increase",
-          "quant": "revenue +36% YoY"
-        },
-        {
-          "name": "L&T",
-          "ticker": "LT.NS",
-          "impact": "Bullish",
-          "reason": "Craftsman Automation's strong Q1 earnings -> positive sentiment in capital goods space -> potential stock price increase",
-          "quant": "order book +Rs500Cr"
+          "reason": "Strong Q1 results -> increased investor confidence -> stock price appreciation",
+          "quant": "stock price +8-10%"
         }
       ],
-      "watch": "Craftsman Automation's stock price movement above Rs 3000"
+      "watch": "Grasim Industries' Q1 earnings release"
     },
     {
-      "sector": "financial_services",
+      "sector": "fmcg",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Adani Group raises Rs 43,500 crore",
-      "theme": "Growth_capital",
+      "news_driver": "Asian Paints Shares Jump 3% After Q1 Net Profit Surges 40%",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Asian Paints",
+          "ticker": "ASIANPAINT.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased demand and pricing power -> revenue growth",
+          "quant": "revenue +18% YoY"
+        }
+      ],
+      "watch": "Asian Paints' stock price movement"
+    },
+    {
+      "sector": "commodities",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Coal scam: CBI told to probe further into Rajya Sabha MP Vijay Darda's role",
+      "theme": "null",
       "stocks": [
         {
           "name": "Adani Enterprises",
           "ticker": "ADANIENT.NS",
-          "impact": "Bullish",
-          "reason": "Adani Group's successful fundraising -> increased investor confidence -> stock price increase",
-          "quant": "debt reduction -Rs10,000Cr"
+          "impact": "Bearish",
+          "reason": "Coal scam probe -> potential regulatory risks -> stock price decline",
+          "quant": "stock price -5-7%"
         }
       ],
-      "watch": "Adani Enterprises' stock price movement above Rs 2000"
+      "watch": "CBI probe developments"
     }
   ],
   "themes": [
-    "QSR_growth",
-    "Capex_recovery"
+    "commercial vehicle consolidation",
+    "Q1 earnings season"
   ]
 }
