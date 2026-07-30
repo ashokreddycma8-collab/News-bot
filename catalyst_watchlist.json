@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:28:12.735227+05:30",
+  "generated_at": "2026-07-30T11:33:47.455854+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -2100,9 +2100,9 @@
     "WAAREE": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "gets shareholders' nod to raise up to Rs 10,000 cr via QIP",
-      "category": "corporate_event",
-      "ttl_hours": 48,
+      "catalyst": "15% profit growth and 79% YoY revenue surge in Q1FY27",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "CRAFTSMAN": {
@@ -2951,6 +2951,38 @@
       "catalyst": "Q1 profit more than doubles on lower provisions",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "KPIT": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 profit falls 32% to Rs 117 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "THANGAMAYIL": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Weak Q2 outlook",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "REDDINGTON": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 profit surges 77%; revenue rises 35% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "RSYSTEMS": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Recognized as a Horizon 2 GCC Accelerator in HFS Horizons: GCC Services, 2026 Report",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     }
   }

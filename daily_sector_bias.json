@@ -1,100 +1,93 @@
 {
-  "date": "2026-07-29",
-  "time": "17:28",
+  "date": "2026-07-30",
+  "time": "11:33",
   "mood": "Bullish",
   "sectors": [
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Sensex Surges 889 Points, Nifty Crosses 24,250 on IT Gains, FII Inflows",
-      "theme": "null",
+      "news_driver": "Strong Q2 results from Redington and Bureau Veritas, and Microsoft's gains from cloud and AI investments",
+      "theme": "China+1",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
+          "name": "Redington",
+          "ticker": "REDINGTON.NS",
           "impact": "Bullish",
-          "reason": "FII inflows into IT sector -> increased demand for IT services -> revenue growth of 8-10% Q3",
-          "quant": "10%"
+          "reason": "Q1 profit surge of 77% -> increased revenue and profitability -> stock price rally of 15%",
+          "quant": "77%"
         },
         {
-          "name": "TCS",
-          "ticker": "TCS.NS",
+          "name": "Bureau Veritas",
+          "ticker": "BUREAUVERIT.NS",
           "impact": "Bullish",
-          "reason": "Strong IT sector performance -> increased client spending -> margins expansion of 50bps",
-          "quant": "50bps"
+          "reason": "Higher sequential organic growth in Q2 -> continuous margin improvements -> increased investor confidence",
+          "quant": "10-15% margin improvement"
         },
         {
-          "name": "HCL Tech",
-          "ticker": "HCLTECH.NS",
+          "name": "R Systems",
+          "ticker": "RSYSTEMS.NS",
           "impact": "Bullish",
-          "reason": "IT sector gains -> improved investor sentiment -> stock price appreciation of 5%",
-          "quant": "5%"
+          "reason": "Recognition as a Horizon 2 GCC Accelerator -> increased credibility and potential for new business -> stock price appreciation",
+          "quant": "5-7% potential stock price appreciation"
         }
       ],
-      "watch": "Nifty IT index breaking out above 30,000 levels"
+      "watch": "Redington's stock price movement after Q2 results"
     },
     {
-      "sector": "banking",
+      "sector": "renewable",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "SBI raises \u20b94,691 cr through bonds from diversified qualified institutions",
-      "theme": "null",
+      "news_driver": "Waaree Energies' 15% profit growth and 79% YoY revenue surge in Q1FY27",
+      "theme": "PLI_solar",
       "stocks": [
         {
-          "name": "SBI",
-          "ticker": "SBIN.NS",
+          "name": "Waaree Energies",
+          "ticker": "WAAREE.NS",
           "impact": "Bullish",
-          "reason": "Successful bond issuance -> improved liquidity -> loan growth of 12% YoY",
-          "quant": "12%"
-        },
-        {
-          "name": "Dhanlaxmi Bank",
-          "ticker": "DHANBANK.NS",
-          "impact": "Bullish",
-          "reason": "Lower provisions -> improved profitability -> Q1 profit growth of 100%",
-          "quant": "100%"
+          "reason": "15% profit growth and 79% YoY revenue surge -> increased demand for renewable energy solutions -> stock price appreciation",
+          "quant": "15% profit growth"
         }
       ],
-      "watch": "SBI stock price crossing \u20b9600 levels"
+      "watch": "Waaree Energies' stock price movement after Q1 results"
     },
     {
-      "sector": "auto",
+      "sector": "jewellery",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Thangamayil Jewellery's weak Q2 outlook",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Thangamayil Jewellery",
+          "ticker": "THANGAMAYIL.NS",
+          "impact": "Bearish",
+          "reason": "Weak Q2 outlook -> decreased demand and revenue -> stock price decline of 19%",
+          "quant": "19% stock price decline"
+        }
+      ],
+      "watch": "Thangamayil Jewellery's stock price movement after Q2 results"
+    },
+    {
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Maruti emerges top EV exporter in Q1, claims 97% share in total EV shipments from India",
-      "theme": "null",
+      "news_driver": "MTAR Tech's rally after 12% slide in 4 days",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
+          "name": "MTAR Tech",
+          "ticker": "MTARTECH.NS",
           "impact": "Bullish",
-          "reason": "Strong EV exports -> increased revenue -> top-line growth of 15% Q1",
-          "quant": "15%"
+          "reason": "Rally after 12% slide -> increased investor confidence and potential for new orders -> stock price appreciation of 5%",
+          "quant": "5% stock price appreciation"
         }
       ],
-      "watch": "Maruti Suzuki stock price crossing \u20b99,500 levels"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "No High-Fat, Sugary Foods In Maharashtra Schools: Tukaram Mundhe-Led FDA Issues Strict Orders",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Dabur",
-          "ticker": "DABUR.NS",
-          "impact": "Neutral",
-          "reason": "Regulatory changes -> potential impact on product portfolio -> margins contraction of 20bps",
-          "quant": "-20bps"
-        }
-      ],
-      "watch": "Dabur stock price holding above \u20b9500 levels"
+      "watch": "MTAR Tech's stock price movement after Q2 results"
     }
   ],
   "themes": [
-    "IT sector growth",
-    "Banking sector recovery"
+    "China+1",
+    "PLI_solar"
   ]
 }
