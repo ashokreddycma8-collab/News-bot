@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:19:05.277275+05:30",
+  "generated_at": "2026-07-30T16:25:25.763599+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -930,12 +930,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "VEDANTA": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Vedanta's demerger unlocks Rs 63,500 crore value",
-      "category": "corporate_event",
-      "ttl_hours": 48,
-      "conviction": "\u25ae\u25ae\u25af"
+      "catalyst": "Q1 profit jumps 72% YoY to Rs 5,473 crore; EBITDA soars 98% to record high",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "KOTAKBANK": {
       "score": 8,
@@ -2984,6 +2984,30 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "SWIGGY": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 net loss narrows to Rs 791 crore; revenue jumps 37% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BALKRISHNA": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit rises 50% YoY to Rs 432 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "WESTLIFE": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 net profit falls 50%, revenue rises 12%, dividend announced",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

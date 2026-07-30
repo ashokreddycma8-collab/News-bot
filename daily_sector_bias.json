@@ -1,68 +1,85 @@
 {
   "date": "2026-07-30",
-  "time": "14:19",
-  "mood": "Cautious",
+  "time": "16:25",
+  "mood": "Mixed",
   "sectors": [
     {
       "sector": "auto",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Maruti Q1 results and E20 Fuel impact",
-      "theme": "rural_mobility",
+      "news_driver": "Hyundai Motor Q1 Results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Maruti Suzuki India",
-          "ticker": "MARUTI.NS",
+          "name": "Hyundai Motor India",
+          "ticker": "HYUNDAI.NS",
           "impact": "Bearish",
-          "reason": "Weak Q1 results -> lower profit margins -> revenue decline of 5-7%",
-          "quant": "-5%"
+          "reason": "Hyundai Motor Q1 profit slump 35% YoY -> reduced volumes and profitability -> lower revenue and margins",
+          "quant": "-15% revenue decline"
+        }
+      ],
+      "watch": "Hyundai Motor India's stock price at 500-day moving average"
+    },
+    {
+      "sector": "metal",
+      "direction": "Bullish",
+      "conviction": 3,
+      "news_driver": "Vedanta Q1 Results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
+          "impact": "Bullish",
+          "reason": "Vedanta Q1 profit jump 72% YoY -> higher EBITDA and revenue -> increased profitability",
+          "quant": "+98% EBITDA growth"
         },
         {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
+          "name": "Hindustan Zinc",
+          "ticker": "HINDZINC.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> higher revenue growth -> net profit increase of 7%",
-          "quant": "7%"
+          "reason": "Vedanta's strong Q1 results -> positive sentiment for metal sector -> potential stock price appreciation",
+          "quant": "+5% potential stock price appreciation"
         }
       ],
-      "watch": "Maruti Suzuki's Q2 results"
+      "watch": "Vedanta's stock price at all-time highs"
     },
     {
-      "sector": "banking",
+      "sector": "consumer",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Customers paying more for debit cards and low balance accounts",
+      "news_driver": "Westlife Foodworld Q1 Result",
       "theme": null,
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Westlife Foodworld",
+          "ticker": "WESTLIFE.NS",
           "impact": "Neutral",
-          "reason": "Increased fees -> higher revenue -> net interest income growth of 10-12%",
-          "quant": "10%"
+          "reason": "Westlife Foodworld Q1 net profit fall 50% -> lower profitability -> stable stock price",
+          "quant": "-50% net profit decline"
         }
       ],
-      "watch": "RBI's monetary policy meeting"
+      "watch": "Westlife Foodworld's same-store sales growth"
     },
     {
-      "sector": "commodities",
-      "direction": "Bearish",
+      "sector": "it",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "India's gold demand falls 6% in April-June",
-      "theme": null,
+      "news_driver": "Swiggy Q1 Results",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "MMTC",
-          "ticker": "MMTC.NS",
-          "impact": "Bearish",
-          "reason": "Lower gold demand -> reduced sales -> revenue decline of 8-10%",
-          "quant": "-8%"
+          "name": "Zomato",
+          "ticker": "ZOMATO.NS",
+          "impact": "Bullish",
+          "reason": "Swiggy Q1 revenue jump 37% YoY -> positive sentiment for food delivery sector -> potential stock price appreciation",
+          "quant": "+10% potential stock price appreciation"
         }
       ],
-      "watch": "Gold prices"
+      "watch": "Zomato's stock price at 200-day moving average"
     }
   ],
   "themes": [
-    "rural_mobility"
+    "internet_digital"
   ]
 }
