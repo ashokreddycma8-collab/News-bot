@@ -1,93 +1,68 @@
 {
   "date": "2026-07-30",
-  "time": "11:33",
-  "mood": "Bullish",
+  "time": "14:19",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Strong Q2 results from Redington and Bureau Veritas, and Microsoft's gains from cloud and AI investments",
-      "theme": "China+1",
-      "stocks": [
-        {
-          "name": "Redington",
-          "ticker": "REDINGTON.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit surge of 77% -> increased revenue and profitability -> stock price rally of 15%",
-          "quant": "77%"
-        },
-        {
-          "name": "Bureau Veritas",
-          "ticker": "BUREAUVERIT.NS",
-          "impact": "Bullish",
-          "reason": "Higher sequential organic growth in Q2 -> continuous margin improvements -> increased investor confidence",
-          "quant": "10-15% margin improvement"
-        },
-        {
-          "name": "R Systems",
-          "ticker": "RSYSTEMS.NS",
-          "impact": "Bullish",
-          "reason": "Recognition as a Horizon 2 GCC Accelerator -> increased credibility and potential for new business -> stock price appreciation",
-          "quant": "5-7% potential stock price appreciation"
-        }
-      ],
-      "watch": "Redington's stock price movement after Q2 results"
-    },
-    {
-      "sector": "renewable",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Waaree Energies' 15% profit growth and 79% YoY revenue surge in Q1FY27",
-      "theme": "PLI_solar",
-      "stocks": [
-        {
-          "name": "Waaree Energies",
-          "ticker": "WAAREE.NS",
-          "impact": "Bullish",
-          "reason": "15% profit growth and 79% YoY revenue surge -> increased demand for renewable energy solutions -> stock price appreciation",
-          "quant": "15% profit growth"
-        }
-      ],
-      "watch": "Waaree Energies' stock price movement after Q1 results"
-    },
-    {
-      "sector": "jewellery",
+      "sector": "auto",
       "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Maruti Q1 results and E20 Fuel impact",
+      "theme": "rural_mobility",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki India",
+          "ticker": "MARUTI.NS",
+          "impact": "Bearish",
+          "reason": "Weak Q1 results -> lower profit margins -> revenue decline of 5-7%",
+          "quant": "-5%"
+        },
+        {
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> higher revenue growth -> net profit increase of 7%",
+          "quant": "7%"
+        }
+      ],
+      "watch": "Maruti Suzuki's Q2 results"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Thangamayil Jewellery's weak Q2 outlook",
+      "news_driver": "Customers paying more for debit cards and low balance accounts",
       "theme": null,
       "stocks": [
         {
-          "name": "Thangamayil Jewellery",
-          "ticker": "THANGAMAYIL.NS",
-          "impact": "Bearish",
-          "reason": "Weak Q2 outlook -> decreased demand and revenue -> stock price decline of 19%",
-          "quant": "19% stock price decline"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "Increased fees -> higher revenue -> net interest income growth of 10-12%",
+          "quant": "10%"
         }
       ],
-      "watch": "Thangamayil Jewellery's stock price movement after Q2 results"
+      "watch": "RBI's monetary policy meeting"
     },
     {
-      "sector": "capital_goods",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "MTAR Tech's rally after 12% slide in 4 days",
-      "theme": "PSU_rotation",
+      "sector": "commodities",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "India's gold demand falls 6% in April-June",
+      "theme": null,
       "stocks": [
         {
-          "name": "MTAR Tech",
-          "ticker": "MTARTECH.NS",
-          "impact": "Bullish",
-          "reason": "Rally after 12% slide -> increased investor confidence and potential for new orders -> stock price appreciation of 5%",
-          "quant": "5% stock price appreciation"
+          "name": "MMTC",
+          "ticker": "MMTC.NS",
+          "impact": "Bearish",
+          "reason": "Lower gold demand -> reduced sales -> revenue decline of 8-10%",
+          "quant": "-8%"
         }
       ],
-      "watch": "MTAR Tech's stock price movement after Q2 results"
+      "watch": "Gold prices"
     }
   ],
   "themes": [
-    "China+1",
-    "PLI_solar"
+    "rural_mobility"
   ]
 }
