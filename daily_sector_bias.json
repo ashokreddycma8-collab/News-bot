@@ -1,85 +1,93 @@
 {
   "date": "2026-07-30",
-  "time": "16:25",
-  "mood": "Mixed",
+  "time": "17:19",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "auto",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Hyundai Motor Q1 Results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Hyundai Motor India",
-          "ticker": "HYUNDAI.NS",
-          "impact": "Bearish",
-          "reason": "Hyundai Motor Q1 profit slump 35% YoY -> reduced volumes and profitability -> lower revenue and margins",
-          "quant": "-15% revenue decline"
-        }
-      ],
-      "watch": "Hyundai Motor India's stock price at 500-day moving average"
-    },
-    {
-      "sector": "metal",
       "direction": "Bullish",
-      "conviction": 3,
-      "news_driver": "Vedanta Q1 Results",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "M&M Q1 net profit rises 34% to \u20b95,455 crore, revenue up 28%",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Vedanta",
-          "ticker": "VEDL.NS",
+          "name": "Mahindra & Mahindra",
+          "ticker": "M&M.NS",
           "impact": "Bullish",
-          "reason": "Vedanta Q1 profit jump 72% YoY -> higher EBITDA and revenue -> increased profitability",
-          "quant": "+98% EBITDA growth"
+          "reason": "M&M's strong Q1 results -> increased revenue and profitability -> higher investor confidence",
+          "quant": "revenue +28% Q1"
         },
         {
-          "name": "Hindustan Zinc",
-          "ticker": "HINDZINC.NS",
-          "impact": "Bullish",
-          "reason": "Vedanta's strong Q1 results -> positive sentiment for metal sector -> potential stock price appreciation",
-          "quant": "+5% potential stock price appreciation"
+          "name": "Hyundai Motor",
+          "ticker": "HYUNDAI.NS",
+          "impact": "Bearish",
+          "reason": "Hyundai Motor Q1 net dips 35% -> production constraints and West Asia conflict -> lower profitability",
+          "quant": "net profit -35% Q1"
         }
       ],
-      "watch": "Vedanta's stock price at all-time highs"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Westlife Foodworld Q1 Result",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Westlife Foodworld",
-          "ticker": "WESTLIFE.NS",
-          "impact": "Neutral",
-          "reason": "Westlife Foodworld Q1 net profit fall 50% -> lower profitability -> stable stock price",
-          "quant": "-50% net profit decline"
-        }
-      ],
-      "watch": "Westlife Foodworld's same-store sales growth"
+      "watch": "M&M's upcoming product launches and their potential impact on sales"
     },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Swiggy Q1 Results",
+      "news_driver": "Infosys top gainer, Nothing Awaits PLI 2.0 To Double India Bet",
       "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Zomato",
-          "ticker": "ZOMATO.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Swiggy Q1 revenue jump 37% YoY -> positive sentiment for food delivery sector -> potential stock price appreciation",
-          "quant": "+10% potential stock price appreciation"
+          "reason": "Infosys's strong market performance -> increased investor confidence -> higher stock price",
+          "quant": "stock price +5% intraday"
+        },
+        {
+          "name": "Nothing",
+          "ticker": "NOTHING.NS",
+          "impact": "Bullish",
+          "reason": "Nothing's plans to double India bet -> increased investment and expansion -> higher growth potential",
+          "quant": "investment +100% in India"
         }
       ],
-      "watch": "Zomato's stock price at 200-day moving average"
+      "watch": "Infosys's upcoming Q2 results and their potential impact on the IT sector"
+    },
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Sun Pharma gets green signal on semaglutide in Brazil",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Sun Pharma",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Sun Pharma's approval for semaglutide in Brazil -> increased revenue and market share -> higher profitability",
+          "quant": "revenue +10% Q3"
+        }
+      ],
+      "watch": "Sun Pharma's upcoming product launches and their potential impact on sales"
+    },
+    {
+      "sector": "renewable",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "India's renewable energy boom could make Germany a customer for green hydrogen",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "ReNew Energy",
+          "ticker": "RENEWENERGY.NS",
+          "impact": "Bullish",
+          "reason": "India's renewable energy boom -> increased demand for green hydrogen -> higher growth potential",
+          "quant": "revenue +20% Q3"
+        }
+      ],
+      "watch": "India's renewable energy targets and their potential impact on the sector"
     }
   ],
   "themes": [
+    "rural_mobility",
     "internet_digital"
   ]
 }
