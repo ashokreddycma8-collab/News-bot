@@ -1,86 +1,79 @@
 {
   "date": "2026-07-31",
-  "time": "15:00",
-  "mood": "Cautious",
+  "time": "17:07",
+  "mood": "Bullish",
   "sectors": [
+    {
+      "sector": "pharma",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Sun Pharma Q1 Results",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Sun Pharmaceutical Industries",
+          "ticker": "SUNPHARMA.NS",
+          "impact": "Bullish",
+          "reason": "Strong quarterly profit growth -> increased demand for pharmaceutical products -> revenue growth of 10.5% YoY",
+          "quant": "10.5%"
+        }
+      ],
+      "watch": "Sun Pharma's upcoming product launches"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Sensex today | Stock Market highlights",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
+          "impact": "Bullish",
+          "reason": "Increased demand for auto stocks -> improved sales and revenue growth -> potential increase in market share",
+          "quant": "8-10% Q3 revenue growth"
+        }
+      ],
+      "watch": "Auto sales numbers for the month"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Bajaj Finserv board approves plan to enter reinsurance business",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Bajaj Finserv",
+          "ticker": "BAJAJFINSV.NS",
+          "impact": "Bullish",
+          "reason": "Entry into reinsurance business -> diversification of revenue streams -> potential increase in profitability",
+          "quant": "5-7% increase in revenue"
+        }
+      ],
+      "watch": "Bajaj Finserv's reinsurance business launch"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Nvidia share purchase by Cathie Wood",
-      "theme": "internet_digital",
-      "stocks": [
-        {
-          "name": "NVIDIA Corporation",
-          "ticker": "NVDA",
-          "impact": "Bullish",
-          "reason": "Cathie Wood's high-conviction investment in Nvidia -> validation of growth prospects -> potential upside in stock price",
-          "quant": "10-12% potential upside"
-        },
-        {
-          "name": "MTAR Tech",
-          "ticker": "MTARTECH.NS",
-          "impact": "Bullish",
-          "reason": "Renewed optimism in MTAR Tech -> increased investor interest -> 5% upper circuit in stock price",
-          "quant": "5% upper circuit"
-        }
-      ],
-      "watch": "Nvidia's upcoming earnings release"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Canada-Germany LNG deal",
-      "theme": "renewable",
+      "news_driver": "Global Market: Nikkei ends sharply higher as global AI momentum boosts markets",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Juniper Green Energy",
-          "ticker": "JUNIPER.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Canada-Germany LNG deal -> increased demand for renewable energy -> potential upside in Juniper Green Energy's IPO",
-          "quant": "40% subscription of IPO"
+          "reason": "Global AI momentum -> increased demand for IT services -> potential increase in revenue",
+          "quant": "8-10% Q3 revenue growth"
         }
       ],
-      "watch": "Juniper Green Energy's IPO subscription numbers"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "M3M India's investment in Gurugram project",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "M3M India",
-          "ticker": "M3M.NS",
-          "impact": "Bullish",
-          "reason": "M3M India's investment in Gurugram project -> increased demand for commercial real estate -> potential upside in stock price",
-          "quant": "Rs 600 Cr investment"
-        }
-      ],
-      "watch": "Gurugram property prices"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Dabur's Q1 results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Dabur",
-          "ticker": "DABUR.NS",
-          "impact": "Neutral",
-          "reason": "Dabur's solid Q1 results -> cautious analyst stance -> neutral impact on stock price",
-          "quant": "-2% slide in stock price"
-        }
-      ],
-      "watch": "Dabur's upcoming earnings release"
+      "watch": "Nikkei and European shares trend"
     }
   ],
   "themes": [
-    "internet_digital",
-    "renewable"
+    "pharma",
+    "auto"
   ]
 }
