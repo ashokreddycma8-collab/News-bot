@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:57:22.729672+05:30",
+  "generated_at": "2026-07-31T15:00:03.670497+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1212,7 +1212,7 @@
     "DABUR": {
       "score": 5,
       "direction": "BUY",
-      "catalyst": "Q1 profit rises 15%",
+      "catalyst": "solid Q1 numbers",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
