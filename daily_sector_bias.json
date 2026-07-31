@@ -1,93 +1,93 @@
 {
-  "date": "2026-07-30",
-  "time": "17:19",
-  "mood": "Bullish",
+  "date": "2026-07-31",
+  "time": "11:57",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "M&M Q1 net profit rises 34% to \u20b95,455 crore, revenue up 28%",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Mahindra & Mahindra",
-          "ticker": "M&M.NS",
-          "impact": "Bullish",
-          "reason": "M&M's strong Q1 results -> increased revenue and profitability -> higher investor confidence",
-          "quant": "revenue +28% Q1"
-        },
-        {
-          "name": "Hyundai Motor",
-          "ticker": "HYUNDAI.NS",
-          "impact": "Bearish",
-          "reason": "Hyundai Motor Q1 net dips 35% -> production constraints and West Asia conflict -> lower profitability",
-          "quant": "net profit -35% Q1"
-        }
-      ],
-      "watch": "M&M's upcoming product launches and their potential impact on sales"
-    },
-    {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Infosys top gainer, Nothing Awaits PLI 2.0 To Double India Bet",
-      "theme": "internet_digital",
+      "news_driver": "Kospi's 17% surge and its caution for Indian IT stocks",
+      "theme": "China+1",
       "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Kospi's surge -> increased competition and valuation concerns -> potential decline in TCS stock price",
+          "quant": "-3-5% Q2"
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "Kospi's surge -> decreased investor appetite for Indian IT stocks -> potential decline in Infosys stock price",
+          "quant": "-4-6% Q2"
+        }
+      ],
+      "watch": "TCS Q2 earnings release"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Bajaj Finance Q1 result",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Bajaj Finance",
+          "ticker": "BAJFINANCE.NS",
           "impact": "Bullish",
-          "reason": "Infosys's strong market performance -> increased investor confidence -> higher stock price",
-          "quant": "stock price +5% intraday"
+          "reason": "Bajaj Finance Q1 result -> strong revenue growth and profitability -> potential increase in Bajaj Finance stock price",
+          "quant": "+6-8% Q3"
         },
         {
-          "name": "Nothing",
-          "ticker": "NOTHING.NS",
-          "impact": "Bullish",
-          "reason": "Nothing's plans to double India bet -> increased investment and expansion -> higher growth potential",
-          "quant": "investment +100% in India"
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Neutral",
+          "reason": "Delhi couple winning compensation -> potential increase in Axis Bank's provisioning requirements -> neutral impact on Axis Bank stock price",
+          "quant": "null"
         }
       ],
-      "watch": "Infosys's upcoming Q2 results and their potential impact on the IT sector"
+      "watch": "Axis Bank Q2 earnings release"
     },
     {
-      "sector": "pharma",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sun Pharma gets green signal on semaglutide in Brazil",
-      "theme": "null",
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Technip Energies H1 2026 Financial Results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Sun Pharma",
-          "ticker": "SUNPHARMA.NS",
+          "name": "Vedanta Aluminium",
+          "ticker": "VEDL.NS",
           "impact": "Bullish",
-          "reason": "Sun Pharma's approval for semaglutide in Brazil -> increased revenue and market share -> higher profitability",
-          "quant": "revenue +10% Q3"
+          "reason": "Citi, CLSA, Nuvama's positive outlook -> increased investor confidence -> potential increase in Vedanta Aluminium stock price",
+          "quant": "+15-20% Q3"
         }
       ],
-      "watch": "Sun Pharma's upcoming product launches and their potential impact on sales"
+      "watch": "Vedanta Aluminium Q2 earnings release"
     },
     {
-      "sector": "renewable",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "India's renewable energy boom could make Germany a customer for green hydrogen",
-      "theme": "null",
+      "conviction": 1,
+      "news_driver": "Hyundai Motor India shares rally",
+      "theme": null,
       "stocks": [
         {
-          "name": "ReNew Energy",
-          "ticker": "RENEWENERGY.NS",
+          "name": "Hyundai Motor India",
+          "ticker": "HYUNDAI.NS",
           "impact": "Bullish",
-          "reason": "India's renewable energy boom -> increased demand for green hydrogen -> higher growth potential",
-          "quant": "revenue +20% Q3"
+          "reason": "Hyundai Motor India shares rally -> increased investor confidence -> potential increase in Hyundai Motor India stock price",
+          "quant": "+8-10% Q3"
         }
       ],
-      "watch": "India's renewable energy targets and their potential impact on the sector"
+      "watch": "Hyundai Motor India Q2 earnings release"
     }
   ],
   "themes": [
-    "rural_mobility",
-    "internet_digital"
+    "China+1",
+    "PSU_rotation"
   ]
 }
