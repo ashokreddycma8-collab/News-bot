@@ -1,79 +1,78 @@
 {
   "date": "2026-07-31",
-  "time": "17:07",
-  "mood": "Bullish",
+  "time": "17:26",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "pharma",
-      "direction": "Bullish",
+      "sector": "fmcg",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Sun Pharma Q1 Results",
+      "news_driver": "ITC Q1 Results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Sun Pharmaceutical Industries",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Bullish",
-          "reason": "Strong quarterly profit growth -> increased demand for pharmaceutical products -> revenue growth of 10.5% YoY",
-          "quant": "10.5%"
+          "name": "ITC Limited",
+          "ticker": "ITC.NS",
+          "impact": "Bearish",
+          "reason": "ITC's Q1 profit decline of 27% YoY -> due to higher input costs and marketing expenses -> may lead to a 5-7% decline in stock price",
+          "quant": "-5%"
         }
       ],
-      "watch": "Sun Pharma's upcoming product launches"
+      "watch": "ITC's stock price at 350-360 levels"
     },
     {
       "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Sensex today | Stock Market highlights",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Maruti Suzuki Q1 Results",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "Increased demand for auto stocks -> improved sales and revenue growth -> potential increase in market share",
-          "quant": "8-10% Q3 revenue growth"
+          "name": "Maruti Suzuki India Limited",
+          "ticker": "MARUTI.NS",
+          "impact": "Neutral",
+          "reason": "Maruti Suzuki's Q1 revenue growth of 36% YoY -> driven by strong demand and price hikes -> may offset the 11% YoY profit decline",
+          "quant": "0%"
         }
       ],
-      "watch": "Auto sales numbers for the month"
+      "watch": "Maruti Suzuki's stock price at 9000-9200 levels"
     },
     {
       "sector": "financial_services",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Bajaj Finserv board approves plan to enter reinsurance business",
+      "conviction": 2,
+      "news_driver": "Bajaj Finance stock surge",
       "theme": "null",
       "stocks": [
         {
-          "name": "Bajaj Finserv",
-          "ticker": "BAJAJFINSV.NS",
+          "name": "Bajaj Finance Limited",
+          "ticker": "BAJFINANCE.NS",
           "impact": "Bullish",
-          "reason": "Entry into reinsurance business -> diversification of revenue streams -> potential increase in profitability",
-          "quant": "5-7% increase in revenue"
+          "reason": "Bajaj Finance's stock surge of over 8% -> driven by strong Q1 results and positive investor sentiment -> may lead to a 4-6% upside in the short term",
+          "quant": "+5%"
         }
       ],
-      "watch": "Bajaj Finserv's reinsurance business launch"
+      "watch": "Bajaj Finance's stock price at 7000-7200 levels"
     },
     {
-      "sector": "it",
+      "sector": "currency",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Global Market: Nikkei ends sharply higher as global AI momentum boosts markets",
+      "news_driver": "Rupee appreciation",
       "theme": "null",
       "stocks": [
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Global AI momentum -> increased demand for IT services -> potential increase in revenue",
-          "quant": "8-10% Q3 revenue growth"
+          "name": "null",
+          "ticker": "null",
+          "impact": "null",
+          "reason": "null",
+          "quant": "null"
         }
       ],
-      "watch": "Nikkei and European shares trend"
+      "watch": "Rupee at 95-96 levels"
     }
   ],
   "themes": [
-    "pharma",
-    "auto"
+    "null"
   ]
 }
