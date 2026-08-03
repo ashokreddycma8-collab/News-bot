@@ -1,79 +1,85 @@
 {
   "date": "2026-08-03",
-  "time": "15:59",
+  "time": "18:23",
   "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "pharma",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Sun Pharma voluntary recall of 11 eyedrops",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Sun Pharmaceutical Industries",
-          "ticker": "SUNPHARMA.NS",
-          "impact": "Bearish",
-          "reason": "Sun Pharma's voluntary recall of 11 eyedrops -> regulatory and reputational risks -> revenue -2-3% in Q2",
-          "quant": "-150bps"
-        }
-      ],
-      "watch": "Sun Pharma's Q2 earnings release"
-    },
-    {
-      "sector": "psu_banks",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Gold loan-backed PSLC sales boost",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Gold loan-backed PSLC sales boost -> increased non-interest income -> net interest income +5-6% in Q1",
-          "quant": "+50bps"
-        }
-      ],
-      "watch": "PSB's Q1 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Greaves Electric Mobility\u2019s Rs 530 crore rights issue",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Greaves Electric Mobility",
-          "ticker": "GEM.NS",
-          "impact": "Bullish",
-          "reason": "Greaves Electric Mobility\u2019s fully subscribed rights issue -> increased capital for expansion -> revenue +15-18% in Q3",
-          "quant": "+12%"
-        }
-      ],
-      "watch": "Greaves Electric Mobility's Q2 earnings release"
-    },
     {
       "sector": "energy",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Falling oil prices",
-      "theme": null,
+      "news_driver": "Crude oil prices drop sharply",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Great Eastern Shipping",
+          "ticker": "GESHIP.NS",
+          "impact": "Bullish",
+          "reason": "Crude oil price drop -> reduced fuel costs -> increased profit margins",
+          "quant": "profit spikes 2.5x"
+        },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Falling oil prices -> decreased refining margins -> EBITDA -8-10% in Q2",
-          "quant": "-200bps"
+          "reason": "Crude oil price drop -> reduced refining margins -> decreased revenue",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Crude oil price movement"
+      "watch": "Brent crude price level of $80"
+    },
+    {
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "TCS among top gainers on Nifty and Sensex",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Tata Consultancy Services",
+          "ticker": "TCS.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased investor confidence -> stock price surge",
+          "quant": "revenue +8-10% Q3"
+        }
+      ],
+      "watch": "TCS stock price level of 4000"
+    },
+    {
+      "sector": "travel",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Thomas Cook Q1 Results: Profit Sees 6% Rise",
+      "theme": "tourism_hospitality",
+      "stocks": [
+        {
+          "name": "Thomas Cook",
+          "ticker": "THOMASCOOK.NS",
+          "impact": "Bullish",
+          "reason": "Increased travel demand -> higher revenue -> increased profit",
+          "quant": "revenue exceeds Rs 820 Crore"
+        }
+      ],
+      "watch": "Thomas Cook stock price level of 80"
+    },
+    {
+      "sector": "banking",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Flexi-cap funds stay 61% invested in large caps",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Neutral",
+          "reason": "Stable investment in large caps -> no significant impact on banking sector",
+          "quant": "null"
+        }
+      ],
+      "watch": "Nifty Bank index level of 42000"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "rural_mobility"
+    "tourism_hospitality"
   ]
 }

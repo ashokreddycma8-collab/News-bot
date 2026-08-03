@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:59:54.676476+05:30",
+  "generated_at": "2026-08-03T18:23:17.070235+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3096,6 +3096,30 @@
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "GESHIP": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Great Eastern Shipping Q1 Results: Profit Spikes 2.5x, Dividend Of Rs 14.4 Declared",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "THOMASCOOK": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Thomas Cook Q1 Results: Profit Sees 6% Rise, Revenue Exceeds Rs 820 Crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "NECL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Nexus Select Trust posts 11% increase in net operating income to Rs 510 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
