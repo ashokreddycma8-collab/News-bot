@@ -1,79 +1,79 @@
 {
   "date": "2026-08-03",
-  "time": "12:18",
-  "mood": "Cautious",
+  "time": "15:59",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "media",
+      "sector": "pharma",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Sebi action against Subhash Chandra and Punit Goenka",
+      "news_driver": "Sun Pharma voluntary recall of 11 eyedrops",
       "theme": null,
       "stocks": [
         {
-          "name": "Zee Entertainment Enterprises",
-          "ticker": "ZEEL.NS",
+          "name": "Sun Pharmaceutical Industries",
+          "ticker": "SUNPHARMA.NS",
           "impact": "Bearish",
-          "reason": "Sebi action -> loss of investor confidence -> reduced stock price",
-          "quant": "-12%"
+          "reason": "Sun Pharma's voluntary recall of 11 eyedrops -> regulatory and reputational risks -> revenue -2-3% in Q2",
+          "quant": "-150bps"
         }
       ],
-      "watch": "Zee Entertainment's next quarterly earnings release"
+      "watch": "Sun Pharma's Q2 earnings release"
     },
     {
-      "sector": "jewellery",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Thangamayil Jewellery shares crash",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Thangamayil Jewellery",
-          "ticker": "THANGAMAYL.NS",
-          "impact": "Bearish",
-          "reason": "Share price crash -> reduced investor confidence -> potential further decline",
-          "quant": "-32% in a week"
-        }
-      ],
-      "watch": "Thangamayil Jewellery's stock price support level at Rs 500"
-    },
-    {
-      "sector": "ems",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Dixon Technologies Q1 profit",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Dixon Technologies",
-          "ticker": "DIXON.NS",
-          "impact": "Neutral",
-          "reason": "Q1 profit spike -> increased revenue -> neutralized by market expectations",
-          "quant": "156% YoY spike in Q1 profit"
-        }
-      ],
-      "watch": "Dixon Technologies' upcoming client orders"
-    },
-    {
-      "sector": "capital_markets",
+      "sector": "psu_banks",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Ardee Industries IPO GMP",
+      "conviction": 2,
+      "news_driver": "Gold loan-backed PSLC sales boost",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "Gold loan-backed PSLC sales boost -> increased non-interest income -> net interest income +5-6% in Q1",
+          "quant": "+50bps"
+        }
+      ],
+      "watch": "PSB's Q1 earnings release"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Greaves Electric Mobility\u2019s Rs 530 crore rights issue",
+      "theme": "rural_mobility",
+      "stocks": [
+        {
+          "name": "Greaves Electric Mobility",
+          "ticker": "GEM.NS",
+          "impact": "Bullish",
+          "reason": "Greaves Electric Mobility\u2019s fully subscribed rights issue -> increased capital for expansion -> revenue +15-18% in Q3",
+          "quant": "+12%"
+        }
+      ],
+      "watch": "Greaves Electric Mobility's Q2 earnings release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Falling oil prices",
       "theme": null,
       "stocks": [
         {
-          "name": "Ardee Industries",
-          "ticker": "ARDEE.NS",
-          "impact": "Bullish",
-          "reason": "IPO GMP rise -> increased investor interest -> potential oversubscription",
-          "quant": "13% GMP rise"
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Bearish",
+          "reason": "Falling oil prices -> decreased refining margins -> EBITDA -8-10% in Q2",
+          "quant": "-200bps"
         }
       ],
-      "watch": "Ardee Industries IPO subscription numbers"
+      "watch": "Crude oil price movement"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "rural_mobility"
   ]
 }

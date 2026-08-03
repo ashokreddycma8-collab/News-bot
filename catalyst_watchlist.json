@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:18:52.031090+05:30",
+  "generated_at": "2026-08-03T15:59:54.676476+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3072,6 +3072,30 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "GREAVES": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Greaves Electric Mobility's Rs 530 crore rights issue gets fully subscribed",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BLUEJET": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Blue Jet Healthcare Q1 net profit declines 14%, revenue falls",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "LEAP": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "KKR-backed LEAP India's IPO opens on August 7; price band set at Rs 151-159",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
