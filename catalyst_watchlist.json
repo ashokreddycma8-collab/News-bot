@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:26:18.193369+05:30",
+  "generated_at": "2026-08-03T12:11:53.532725+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3056,6 +3056,14 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "URBANCOMP": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Morgan Stanley's double upgrade",
+      "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
