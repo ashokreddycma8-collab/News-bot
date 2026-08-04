@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:37:54.565852+05:30",
+  "generated_at": "2026-08-04T14:47:04.437992+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3125,6 +3125,22 @@
       "score": 6,
       "direction": "BUY",
       "catalyst": "Q1FY27 profit jumps 40%, revenue rises 23%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "EPACK": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 revenue jumps 24%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MOREPENLABS": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit jumps five-fold",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
