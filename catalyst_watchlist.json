@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:06:31.207347+05:30",
+  "generated_at": "2026-08-04T17:30:20.223532+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1340,9 +1340,9 @@
     "BHARTIARTL": {
       "score": 8,
       "direction": "BUY",
-      "catalyst": "Bharti Airtel secures shareholders' nod to raise Airtel Africa stake to 79% in share-swap deal",
-      "category": "corporate_event",
-      "ttl_hours": 48,
+      "catalyst": "Q1 net profit surges 37% YoY to Rs 8,167 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "ONWARDTECH": {
@@ -1682,12 +1682,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "NYKAA": {
-      "score": 7,
+      "score": 8,
       "direction": "BUY",
-      "catalyst": "Q4 results: cons profit surges 286% YoY to Rs 78 crore, revenue rises 28%",
+      "catalyst": "Q1 net profit spikes 243% YoY to Rs 80 crore",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25ae\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "NAUKRI": {
       "score": 6,
