@@ -1,85 +1,93 @@
 {
-  "date": "2026-08-03",
-  "time": "18:23",
+  "date": "2026-08-04",
+  "time": "11:37",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
+      "sector": "financial_services",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Crude oil prices drop sharply",
-      "theme": "null",
+      "news_driver": "Iran diplomacy and crude slide",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Great Eastern Shipping",
-          "ticker": "GESHIP.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Crude oil price drop -> reduced fuel costs -> increased profit margins",
-          "quant": "profit spikes 2.5x"
+          "reason": "Lower crude prices -> reduced OMC under-recoveries -> improved PSU bank profitability",
+          "quant": "NIM +20bps"
         },
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Crude oil price drop -> reduced refining margins -> decreased revenue",
-          "quant": "margins -100bps"
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Easing crude prices -> lower inflation expectations -> increased consumer lending",
+          "quant": "loan book growth +12% YoY"
         }
       ],
-      "watch": "Brent crude price level of $80"
+      "watch": "SBIN.NS crossing 600 levels"
     },
     {
       "sector": "it",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "TCS among top gainers on Nifty and Sensex",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Amazon's AI and cloud growth",
+      "theme": "internet_digital",
       "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "Amazon's AI and cloud growth -> increased demand for digital services -> higher IT outsourcing",
+          "quant": "revenue +8-10% Q3"
+        },
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> stock price surge",
-          "quant": "revenue +8-10% Q3"
+          "reason": "Global cloud adoption -> higher IT spending -> increased TCS order book",
+          "quant": "order book +Rs400Cr"
         }
       ],
-      "watch": "TCS stock price level of 4000"
+      "watch": "INFY.NS breaking out above 1500 levels"
     },
     {
-      "sector": "travel",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Thomas Cook Q1 Results: Profit Sees 6% Rise",
-      "theme": "tourism_hospitality",
+      "conviction": 1,
+      "news_driver": "Escorts Kubota Q1 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Thomas Cook",
-          "ticker": "THOMASCOOK.NS",
+          "name": "Escorts Kubota",
+          "ticker": "ESCORTS.NS",
           "impact": "Bullish",
-          "reason": "Increased travel demand -> higher revenue -> increased profit",
-          "quant": "revenue exceeds Rs 820 Crore"
+          "reason": "Strong Q1 results -> improved tractor sales -> higher revenue",
+          "quant": "revenue +15% YoY"
         }
       ],
-      "watch": "Thomas Cook stock price level of 80"
+      "watch": "ESCORTS.NS testing 2000 levels"
     },
     {
-      "sector": "banking",
+      "sector": "consumer",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Flexi-cap funds stay 61% invested in large caps",
-      "theme": "null",
+      "news_driver": "FSSAI prohibits Dabur from selling food products with '100%' claims",
+      "theme": null,
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
-          "impact": "Neutral",
-          "reason": "Stable investment in large caps -> no significant impact on banking sector",
-          "quant": "null"
+          "name": "Dabur India",
+          "ticker": "DABUR.NS",
+          "impact": "Bearish",
+          "reason": "FSSAI prohibition -> reduced product sales -> lower revenue",
+          "quant": "revenue -5% Q3"
         }
       ],
-      "watch": "Nifty Bank index level of 42000"
+      "watch": "DABUR.NS support at 500 levels"
     }
   ],
   "themes": [
-    "tourism_hospitality"
+    "PSU_rotation",
+    "internet_digital"
   ]
 }
