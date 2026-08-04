@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:47:04.437992+05:30",
+  "generated_at": "2026-08-04T17:06:31.207347+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3144,6 +3144,30 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BHARATBIJLEE": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 net profit falls 30%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "ALKYLAMINES": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q1 profit zooms 91%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "ALEMBICPHARMA": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Q1 margin shrinks",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
