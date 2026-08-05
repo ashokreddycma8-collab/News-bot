@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:30:20.223532+05:30",
+  "generated_at": "2026-08-05T11:34:28.968800+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3167,6 +3167,22 @@
       "catalyst": "Q1 margin shrinks",
       "category": "earnings_beat",
       "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "DEEPAKNTR": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1FY27 profit jumps 209%, revenue rises 36% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "MANIPALHM": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "stock trades at \u20b9651 level after 11% premium debut",
+      "category": "technical_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     }
   }

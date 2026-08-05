@@ -1,79 +1,93 @@
 {
-  "date": "2026-08-04",
-  "time": "17:30",
+  "date": "2026-08-05",
+  "time": "11:34",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "telecom",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Bharti Airtel Q1 Results",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Bullish",
-          "reason": "Bharti Airtel's Q1 profit rise of 37% YoY -> increased ARPU and revenue growth -> higher profitability",
-          "quant": "12% profit rise, ARPU +8.5% QoQ"
-        }
-      ],
-      "watch": "RBI policy decision on interest rates"
-    },
-    {
-      "sector": "oil_gas",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "War Windfall: BP Profits Double",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Elevated oil prices due to Iran conflict -> higher input costs for IOC -> squeezed margins",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "Brent crude price movement"
-    },
-    {
-      "sector": "fmcg",
+      "sector": "banking",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Dabur Explores Legal Options",
+      "news_driver": "RBI MPC keeping policy rate unchanged at 5.25%",
       "theme": null,
       "stocks": [
         {
-          "name": "Dabur India",
-          "ticker": "DABUR.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Neutral",
-          "reason": "FSSAI crackdown on '100% Pure' labels -> potential regulatory hurdles for Dabur -> uncertain impact on sales",
-          "quant": "null"
+          "reason": "RBI policy rate pause -> reduced likelihood of near-term rate cuts -> neutral impact on banking sector margins",
+          "quant": "NIM -10bps"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Neutral",
+          "reason": "RBI policy rate pause -> reduced borrowing cost savings -> neutral impact on banking sector profitability",
+          "quant": "profitability -2%"
         }
       ],
-      "watch": "FSSAI's final decision on labeling regulations"
+      "watch": "10-year G-sec yield"
     },
     {
-      "sector": "consumer",
-      "direction": "Bullish",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Nykaa Q1 Results",
-      "theme": "internet_digital",
+      "news_driver": "China optical stocks sinking on reports of potential US import ban",
+      "theme": "China+1",
       "stocks": [
         {
-          "name": "Nykaa",
-          "ticker": "NYKAA.NS",
-          "impact": "Bullish",
-          "reason": "Nykaa's Q1 profit rise of 243% YoY -> expanded margins and revenue growth -> increased market share",
-          "quant": "margins +150bps, revenue +29% YoY"
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "US import ban on China optical stocks -> potential supply chain disruptions -> negative impact on IT sector margins",
+          "quant": "margins -120bps"
+        },
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "US import ban on China optical stocks -> reduced demand for IT services -> negative impact on IT sector revenue",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Nykaa's Q2 guidance"
+      "watch": "US-China trade talks"
+    },
+    {
+      "sector": "chemicals",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Deepak Nitrite Q1FY27 profit jumps 209%",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Deepak Nitrite",
+          "ticker": "DEEPAKNTR.NS",
+          "impact": "Bullish",
+          "reason": "Q1FY27 profit jump -> increased demand for chemicals -> positive impact on sector profitability",
+          "quant": "profitability +15%"
+        }
+      ],
+      "watch": "Q2FY27 earnings"
+    },
+    {
+      "sector": "capital_goods",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "CNH Industrial beating estimates and raising full-year earnings guidance",
+      "theme": "capital_goods",
+      "stocks": [
+        {
+          "name": "L&T",
+          "ticker": "LT.NS",
+          "impact": "Bullish",
+          "reason": "CNH Industrial beating estimates -> increased demand for capital goods -> positive impact on sector order book",
+          "quant": "order book +Rs500Cr"
+        }
+      ],
+      "watch": "order book growth"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "China+1",
+    "capital_goods"
   ]
 }
