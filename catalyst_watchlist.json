@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T11:37:54.134533+05:30",
+  "generated_at": "2026-08-06T14:47:08.805972+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3200,6 +3200,22 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "BAJAJELEC": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 profit swells 54x with margin expansion",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "FIRSTSOURCE": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 net profit tanks 29%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

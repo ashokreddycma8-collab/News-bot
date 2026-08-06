@@ -1,65 +1,48 @@
 {
   "date": "2026-08-06",
-  "time": "11:37",
+  "time": "14:47",
   "mood": "Bullish",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "consumer",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "RBI holding rates",
+      "news_driver": "Trent Q1 Results",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Trent Limited",
+          "ticker": "TRENT.NS",
           "impact": "Bullish",
-          "reason": "RBI holding rates -> reduced borrowing costs -> increased margins",
-          "quant": "net interest margins +50bps"
+          "reason": "Strong Q1 results -> increased consumer spending -> revenue up 18%",
+          "quant": "21% YoY profit growth"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Bajaj Electricals Limited",
+          "ticker": "BAJAJELEC.NS",
           "impact": "Bullish",
-          "reason": "RBI holding rates -> improved credit growth -> higher revenue",
-          "quant": "credit growth +12% YoY"
+          "reason": "Q1 profit swells 54x -> improved operational efficiency -> margin expansion",
+          "quant": "54x profit growth"
         }
       ],
-      "watch": "SBIN.NS price level of 550"
+      "watch": "Trent's stock price breaking above 1500 levels"
     },
     {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "lower crude oil prices",
-      "theme": "China+1",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Bullish",
-          "reason": "lower crude oil prices -> reduced input costs -> increased refining margins",
-          "quant": "refining margins +$2/bbl"
-        }
-      ],
-      "watch": "Brent crude price level of $90"
-    },
-    {
-      "sector": "infra",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "NHAI suspending toll collection from PNC Infratech",
+      "news_driver": "Firstsource Solutions Q1 Results",
       "theme": null,
       "stocks": [
         {
-          "name": "PNC Infratech",
-          "ticker": "PNCINFRA.NS",
+          "name": "Firstsource Solutions Limited",
+          "ticker": "FSL.NS",
           "impact": "Bearish",
-          "reason": "NHAI suspending toll collection -> reduced revenue -> lower profitability",
-          "quant": "revenue -10% QoQ"
+          "reason": "Q1 net profit tanks 29% -> decreased client spending -> reduced revenue",
+          "quant": "-29% YoY net profit decline"
         }
       ],
-      "watch": "PNCINFRA.NS price level of 200"
+      "watch": "Firstsource Solutions' stock price testing 200-day moving average"
     }
   ],
   "themes": [
