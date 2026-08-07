@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:25:21.904026+05:30",
+  "generated_at": "2026-08-07T15:09:19.601210+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -204,9 +204,9 @@
     "SUZLON": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "Q4 results may lead to rally up to 31%",
-      "category": "brokerage_upgrade",
-      "ttl_hours": 24,
+      "catalyst": "US judge directs Pentagon to lift wind project freeze",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
     },
     "BAJAJCON": {
@@ -1236,7 +1236,7 @@
     "SBIN": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q4 net profit up 5.6% to \u20b919,684 crore, beating estimates",
+      "catalyst": "Q1 standalone profit rises 10% YoY to Rs 21,121 crore, beating estimates",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -3253,6 +3253,14 @@
       "score": 4,
       "direction": "SELL",
       "catalyst": "Shares crash 7% despite strong Q1 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "IXIGO": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "posts record Q1 profit",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
