@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:39:30.098344+05:30",
+  "generated_at": "2026-08-07T12:08:23.626905+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3224,6 +3224,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "INDRAMEDCO": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1FY27 profit rises 9%, revenue grows 11%",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "BEML": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 results announcement today",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
