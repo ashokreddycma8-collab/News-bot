@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:09:19.601210+05:30",
+  "generated_at": "2026-08-07T16:00:39.048689+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -146,12 +146,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "SBI": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "analysts back strong Q4 outlook",
+      "catalyst": "Q1 net profit up 10% YoY, beats estimates",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "TCS": {
       "score": 8,
@@ -1780,7 +1780,7 @@
     "HINDALCO": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Novelis Q1 Results: 128% jump in core profit",
+      "catalyst": "Q1 net profit beats estimates",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
