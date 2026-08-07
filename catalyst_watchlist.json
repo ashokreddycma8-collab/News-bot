@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:08:23.626905+05:30",
+  "generated_at": "2026-08-07T13:25:21.904026+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3237,6 +3237,22 @@
       "score": 5,
       "direction": "BUY",
       "catalyst": "Q1 results announcement today",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "SAMVRDHA": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 earnings beat, Motilal Oswal and Nomura weigh in",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "CROMPGREAV": {
+      "score": 4,
+      "direction": "SELL",
+      "catalyst": "Shares crash 7% despite strong Q1 results",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
