@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:51:28.915322+05:30",
+  "generated_at": "2026-08-10T13:40:16.704652+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1220,7 +1220,7 @@
     "BSE": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "Tipped for Nifty entry",
+      "catalyst": "Stock price jumps over 3% on expected Nifty 50 entry",
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"

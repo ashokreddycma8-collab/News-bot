@@ -1,100 +1,86 @@
 {
   "date": "2026-08-10",
-  "time": "11:51",
-  "mood": "Bullish",
+  "time": "13:40",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "SBI Q1 results",
-      "theme": "PSU_rotation",
+      "news_driver": "Spike in crude oil prices",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> higher stock price",
-          "quant": "revenue +12% YoY"
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price spike -> increased input costs -> reduced margins by 100-120bps",
+          "quant": "-100bps"
         },
         {
-          "name": "Bank of Baroda",
-          "ticker": "BANKBARODA.NS",
-          "impact": "Bullish",
-          "reason": "PSU bank sector rotation -> increased buying interest -> higher stock price",
-          "quant": "margins +50bps"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "Crude oil price increase -> higher working capital requirements -> reduced profitability by 8-10%",
+          "quant": "-8%"
         }
       ],
-      "watch": "SBIN stock price breaking above \u20b9600"
+      "watch": "Brent crude oil price level of $90"
     },
     {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Titan Q1 results",
+      "sector": "psu",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "PFC weak Q1 earnings",
       "theme": null,
       "stocks": [
         {
-          "name": "Titan Company",
-          "ticker": "TITAN.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> analyst upgrades -> higher stock price",
-          "quant": "revenue +15% YoY"
-        },
-        {
-          "name": "Kalyan Jewellers",
-          "ticker": "KALYANKJIL.NS",
-          "impact": "Bullish",
-          "reason": "Jewellery sector growth -> increased sales -> higher revenue",
-          "quant": "sales +10% YoY"
+          "name": "Power Finance Corporation",
+          "ticker": "PFC.NS",
+          "impact": "Bearish",
+          "reason": "Weak Q1 earnings -> reduced investor confidence -> stock price tumble by 5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "TITAN stock price breaking above \u20b92,500"
+      "watch": "PFC stock price level of Rs 120"
     },
     {
-      "sector": "defence",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Defence stocks to buy",
+      "news_driver": "Hindalco Q1 earnings",
       "theme": null,
       "stocks": [
         {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
           "impact": "Bullish",
-          "reason": "Increased defence spending -> higher order book -> increased revenue",
-          "quant": "order book +Rs10,000Cr"
-        },
-        {
-          "name": "Bharat Electronics",
-          "ticker": "BEL.NS",
-          "impact": "Bullish",
-          "reason": "Defence sector growth -> increased buying interest -> higher stock price",
-          "quant": "revenue +12% YoY"
+          "reason": "Strong Q1 earnings -> improved profitability -> target price increase by 10-12%",
+          "quant": "12%"
         }
       ],
-      "watch": "HAL stock price breaking above \u20b92,000"
+      "watch": "Hindalco stock price level of Rs 500"
     },
     {
-      "sector": "financial_services",
+      "sector": "capital_markets",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Paytm target price upgrade",
-      "theme": "internet_digital",
+      "conviction": 1,
+      "news_driver": "BSE Share Price jump",
+      "theme": null,
       "stocks": [
         {
-          "name": "One97 Communications (Paytm)",
-          "ticker": "PAYTM.NS",
+          "name": "BSE",
+          "ticker": "BSE.NS",
           "impact": "Bullish",
-          "reason": "Target price upgrade -> increased investor confidence -> higher stock price",
-          "quant": "target price +15%"
+          "reason": "Nifty 50 entry speculation -> increased trading volumes -> stock price jump by 3%",
+          "quant": "3%"
         }
       ],
-      "watch": "PAYTM stock price breaking above \u20b9700"
+      "watch": "Nifty 50 index level of 18000"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "OMC margin squeeze",
+    "PSU earnings"
   ]
 }
