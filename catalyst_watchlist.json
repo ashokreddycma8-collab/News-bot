@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:19:04.086746+05:30",
+  "generated_at": "2026-08-10T10:31:03.105719+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -148,7 +148,7 @@
     "SBI": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q1 net profit up 10% YoY, beats estimates",
+      "catalyst": "posts profit growth in Q1 results",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -3264,6 +3264,22 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "DELIVERY": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "net profit tumbles 65% YoY",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "OILINDIA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "posts profit growth in Q1 results",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
