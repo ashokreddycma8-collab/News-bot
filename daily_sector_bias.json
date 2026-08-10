@@ -1,100 +1,85 @@
 {
   "date": "2026-08-10",
-  "time": "15:14",
+  "time": "16:16",
   "mood": "Cautious",
   "sectors": [
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Rise in crude oil prices due to West Asia developments",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Rising crude oil prices and Russia's increased share in India's oil imports",
+      "theme": "null",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Higher crude prices -> increased input costs -> lower margins",
-          "quant": "-100bps"
+          "reason": "Rising crude oil prices -> increased input costs -> reduced refining margins",
+          "quant": "margins -100bps"
         },
         {
-          "name": "HPCL",
+          "name": "Hindustan Petroleum",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Crude price surge -> higher working capital requirements -> reduced profitability",
-          "quant": "-8%"
+          "reason": "Rising crude oil prices -> increased input costs -> reduced refining margins",
+          "quant": "margins -120bps"
         }
       ],
-      "watch": "Brent crude price crossing $95/barrel"
+      "watch": "Brent crude price crossing $90/barrel"
     },
     {
-      "sector": "energy",
+      "sector": "banking",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "India achieving 300 GW RE capacity",
-      "theme": "Renewable energy growth",
+      "conviction": 1,
+      "news_driver": "Mcap of SBI increasing by \u20b91.43 trn",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Adani Green Energy",
-          "ticker": "ADANIGREEN.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "RE capacity milestone -> increased investor confidence -> higher valuations",
-          "quant": "+5%"
-        },
-        {
-          "name": "Tata Power",
-          "ticker": "TATAPOWER.NS",
-          "impact": "Bullish",
-          "reason": "Renewable energy target progress -> improved sector outlook -> increased investments",
-          "quant": "+10%"
+          "reason": "Increased market capitalization -> improved investor sentiment -> potential stock price appreciation",
+          "quant": "stock price +2-3% in the short term"
         }
       ],
-      "watch": "Government's next RE target announcement"
+      "watch": "SBI's Q2 earnings release"
     },
     {
       "sector": "auto",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Amara Raja Q1 results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Amara Raja Batteries",
-          "ticker": "AMARAJABAT.NS",
-          "impact": "Bullish",
-          "reason": "Q1 profit growth -> improved investor sentiment -> higher stock price",
-          "quant": "+2%"
-        }
-      ],
-      "watch": "Q2 earnings season"
-    },
-    {
-      "sector": "capital_markets",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "CLSA cuts target price for PFC and REC",
-      "theme": "PSU finance stock underperformance",
+      "news_driver": "Bharat Forge's Q1 loss of \u20b990 crore",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Power Finance Corporation",
-          "ticker": "PFC.NS",
+          "name": "Bharat Forge",
+          "ticker": "BHARATFORG.NS",
           "impact": "Bearish",
-          "reason": "Target price cut -> reduced investor confidence -> lower stock price",
-          "quant": "-5%"
-        },
-        {
-          "name": "Rural Electrification Corporation",
-          "ticker": "RECLTD.NS",
-          "impact": "Bearish",
-          "reason": "Mixed Q1 results -> lower growth expectations -> reduced valuations",
-          "quant": "-3%"
+          "reason": "Q1 loss -> reduced investor confidence -> potential stock price decline",
+          "quant": "stock price -8-10% in the short term"
         }
       ],
-      "watch": "PSU bank and finance stock performance"
+      "watch": "Bharat Forge's Q2 earnings release"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "DBS Bank India sanctioning \u20b9520 crore construction finance to K Raheja Corp",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "DBS Bank India",
+          "ticker": "DBS.NS",
+          "impact": "Bullish",
+          "reason": "Increased lending activity -> improved revenue growth -> potential stock price appreciation",
+          "quant": "revenue +5-7% Q3"
+        }
+      ],
+      "watch": "DBS Bank India's Q2 earnings release"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "Renewable energy growth"
+    "null"
   ]
 }

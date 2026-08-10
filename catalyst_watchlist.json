@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:14:27.248403+05:30",
+  "generated_at": "2026-08-10T16:16:46.711508+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3304,6 +3304,14 @@
       "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "KRAHEJA": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "DBS Bank India sanctions \u20b9520 crore construction finance",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
