@@ -1,86 +1,100 @@
 {
   "date": "2026-08-10",
-  "time": "13:40",
+  "time": "15:14",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Spike in crude oil prices",
+      "news_driver": "Rise in crude oil prices due to West Asia developments",
       "theme": "OMC margin squeeze",
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Crude oil price spike -> increased input costs -> reduced margins by 100-120bps",
+          "reason": "Higher crude prices -> increased input costs -> lower margins",
           "quant": "-100bps"
         },
         {
           "name": "HPCL",
           "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Crude oil price increase -> higher working capital requirements -> reduced profitability by 8-10%",
+          "reason": "Crude price surge -> higher working capital requirements -> reduced profitability",
           "quant": "-8%"
         }
       ],
-      "watch": "Brent crude oil price level of $90"
+      "watch": "Brent crude price crossing $95/barrel"
     },
     {
-      "sector": "psu",
-      "direction": "Bearish",
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "India achieving 300 GW RE capacity",
+      "theme": "Renewable energy growth",
+      "stocks": [
+        {
+          "name": "Adani Green Energy",
+          "ticker": "ADANIGREEN.NS",
+          "impact": "Bullish",
+          "reason": "RE capacity milestone -> increased investor confidence -> higher valuations",
+          "quant": "+5%"
+        },
+        {
+          "name": "Tata Power",
+          "ticker": "TATAPOWER.NS",
+          "impact": "Bullish",
+          "reason": "Renewable energy target progress -> improved sector outlook -> increased investments",
+          "quant": "+10%"
+        }
+      ],
+      "watch": "Government's next RE target announcement"
+    },
+    {
+      "sector": "auto",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "PFC weak Q1 earnings",
+      "news_driver": "Amara Raja Q1 results",
       "theme": null,
+      "stocks": [
+        {
+          "name": "Amara Raja Batteries",
+          "ticker": "AMARAJABAT.NS",
+          "impact": "Bullish",
+          "reason": "Q1 profit growth -> improved investor sentiment -> higher stock price",
+          "quant": "+2%"
+        }
+      ],
+      "watch": "Q2 earnings season"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "CLSA cuts target price for PFC and REC",
+      "theme": "PSU finance stock underperformance",
       "stocks": [
         {
           "name": "Power Finance Corporation",
           "ticker": "PFC.NS",
           "impact": "Bearish",
-          "reason": "Weak Q1 earnings -> reduced investor confidence -> stock price tumble by 5%",
+          "reason": "Target price cut -> reduced investor confidence -> lower stock price",
           "quant": "-5%"
-        }
-      ],
-      "watch": "PFC stock price level of Rs 120"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Hindalco Q1 earnings",
-      "theme": null,
-      "stocks": [
+        },
         {
-          "name": "Hindalco Industries",
-          "ticker": "HINDALCO.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 earnings -> improved profitability -> target price increase by 10-12%",
-          "quant": "12%"
+          "name": "Rural Electrification Corporation",
+          "ticker": "RECLTD.NS",
+          "impact": "Bearish",
+          "reason": "Mixed Q1 results -> lower growth expectations -> reduced valuations",
+          "quant": "-3%"
         }
       ],
-      "watch": "Hindalco stock price level of Rs 500"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "BSE Share Price jump",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "BSE",
-          "ticker": "BSE.NS",
-          "impact": "Bullish",
-          "reason": "Nifty 50 entry speculation -> increased trading volumes -> stock price jump by 3%",
-          "quant": "3%"
-        }
-      ],
-      "watch": "Nifty 50 index level of 18000"
+      "watch": "PSU bank and finance stock performance"
     }
   ],
   "themes": [
     "OMC margin squeeze",
-    "PSU earnings"
+    "Renewable energy growth"
   ]
 }
