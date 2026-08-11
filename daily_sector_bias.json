@@ -1,86 +1,99 @@
 {
   "date": "2026-08-11",
-  "time": "14:10",
+  "time": "15:07",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Brent crude testing $88",
+      "news_driver": "Wipro's Nifty exit",
       "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bearish",
-          "reason": "Rising Brent crude prices -> increasing OMC losses -> lower banking sector margins",
-          "quant": "-100bps"
-        },
-        {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
-          "impact": "Bearish",
-          "reason": "Higher crude prices -> reduced consumer spending -> lower credit growth",
+          "reason": "Wipro's Nifty exit -> reduced investor attention -> lower stock price",
           "quant": "-5%"
-        }
-      ],
-      "watch": "PSU bank stock prices"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "IPO frenzy",
-      "theme": "internet_digital",
-      "stocks": [
+        },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "IPO frenzy -> increased demand for IT services -> higher revenue growth",
-          "quant": "+4%"
+          "impact": "Bearish",
+          "reason": "Wipro's Nifty exit -> sectoral de-rating -> lower valuations",
+          "quant": "-3%"
+        },
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
+          "impact": "Bearish",
+          "reason": "Wipro's Nifty exit -> reduced sectoral weightage -> lower index performance",
+          "quant": "-2%"
         }
       ],
       "watch": "Nifty IT index"
     },
     {
-      "sector": "capital_markets",
-      "direction": "Bullish",
+      "sector": "auto",
+      "direction": "Mixed",
       "conviction": 1,
-      "news_driver": "Demat account additions hit 6-month high",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "ICICI Securities",
-          "ticker": "ICICISEC.NS",
-          "impact": "Bullish",
-          "reason": "Increased demat account additions -> higher trading volumes -> increased brokerage revenue",
-          "quant": "+8%"
-        }
-      ],
-      "watch": "Demat account addition numbers"
-    },
-    {
-      "sector": "media",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Sunshine Pictures IPO",
+      "news_driver": "MRF Q1 results",
       "theme": null,
       "stocks": [
         {
-          "name": "Sunshine Pictures",
-          "ticker": "SUNPICT.NS",
-          "impact": "Neutral",
-          "reason": "IPO announcement -> increased investor interest -> neutral impact on stock price",
-          "quant": "null"
+          "name": "MRF",
+          "ticker": "MRF.NS",
+          "impact": "Bearish",
+          "reason": "MRF Q1 profit down -> lower profitability -> reduced investor interest",
+          "quant": "-150bps"
+        },
+        {
+          "name": "Lumax Auto Technologies",
+          "ticker": "LUMAXTECH.NS",
+          "impact": "Bullish",
+          "reason": "Lumax Auto Q1 earnings beat -> improved profitability -> higher stock price",
+          "quant": "+8-10%"
         }
       ],
-      "watch": "IPO subscription numbers"
+      "watch": "MRF stock price"
+    },
+    {
+      "sector": "oil_gas",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Brent crude price rise",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "IOC",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Brent crude price rise -> higher input costs -> lower refining margins",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "Brent crude price"
+    },
+    {
+      "sector": "banking",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "SBI Chairman's comments on AI in rural India",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "SBI",
+          "ticker": "SBIN.NS",
+          "impact": "Bullish",
+          "reason": "SBI Chairman's comments on AI in rural India -> increased digital adoption -> higher transaction fees",
+          "quant": "+5%"
+        }
+      ],
+      "watch": "SBI stock price"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "internet_digital"
+    "PSU_rotation"
   ]
 }

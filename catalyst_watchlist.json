@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:20:36.550846+05:30",
+  "generated_at": "2026-08-11T15:08:00.556108+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3349,6 +3349,14 @@
       "score": 7,
       "direction": "BUY",
       "catalyst": "Q1 results beat driving the surge in share price",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "LUMAXAUTO": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 earnings beat, shares rally 19%",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
