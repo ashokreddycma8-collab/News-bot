@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T16:16:46.711508+05:30",
+  "generated_at": "2026-08-11T10:16:33.652058+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1220,7 +1220,7 @@
     "BSE": {
       "score": 7,
       "direction": "BUY",
-      "catalyst": "Stock price jumps over 3% on expected Nifty 50 entry",
+      "catalyst": "shares to join Nifty 50 index",
       "category": "structural_change",
       "ttl_hours": 72,
       "conviction": "\u25ae\u25ae\u25af"
@@ -1236,7 +1236,7 @@
     "SBIN": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q1 results beat triggers analyst target upgrades",
+      "catalyst": "Q1 results beat",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
@@ -3312,6 +3312,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "KOLTEPATIL": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit surges 8X",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }
