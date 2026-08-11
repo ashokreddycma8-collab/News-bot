@@ -1,93 +1,86 @@
 {
   "date": "2026-08-11",
-  "time": "13:20",
+  "time": "14:10",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
+      "sector": "banking",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Wipro's exit from Nifty 50",
-      "theme": null,
+      "news_driver": "Brent crude testing $88",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bearish",
-          "reason": "Wipro's exit from Nifty 50 -> reduced index weightage -> lower institutional buying",
-          "quant": "-2% weightage reduction"
+          "reason": "Rising Brent crude prices -> increasing OMC losses -> lower banking sector margins",
+          "quant": "-100bps"
         },
         {
-          "name": "LTTS",
-          "ticker": "LTTS.NS",
-          "impact": "Neutral",
-          "reason": "LTTS launches AgenticIQ -> increased AI adoption -> stable revenue growth",
-          "quant": "5-7% revenue growth Q3"
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bearish",
+          "reason": "Higher crude prices -> reduced consumer spending -> lower credit growth",
+          "quant": "-5%"
         }
       ],
-      "watch": "Wipro's Q2 earnings release"
+      "watch": "PSU bank stock prices"
     },
     {
-      "sector": "pharma",
+      "sector": "it",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Aarti Pharmalabs' Q1 results",
-      "theme": null,
+      "conviction": 1,
+      "news_driver": "IPO frenzy",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Aarti Pharmalabs",
-          "ticker": "AARTPHARMA.NS",
+          "name": "Infosys",
+          "ticker": "INFY.NS",
           "impact": "Bullish",
-          "reason": "Aarti Pharmalabs' Q1 results -> strong revenue growth -> increased investor confidence",
-          "quant": "15% revenue growth Q1"
-        },
-        {
-          "name": "Gland Pharma",
-          "ticker": "GLAND.NS",
-          "impact": "Bullish",
-          "reason": "Gland Pharma's SmallCap gains -> increased investor interest -> higher valuations",
-          "quant": "10% price appreciation"
+          "reason": "IPO frenzy -> increased demand for IT services -> higher revenue growth",
+          "quant": "+4%"
         }
       ],
-      "watch": "Gland Pharma's Q2 earnings release"
+      "watch": "Nifty IT index"
     },
     {
-      "sector": "capital_goods",
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Demat account additions hit 6-month high",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "ICICI Securities",
+          "ticker": "ICICISEC.NS",
+          "impact": "Bullish",
+          "reason": "Increased demat account additions -> higher trading volumes -> increased brokerage revenue",
+          "quant": "+8%"
+        }
+      ],
+      "watch": "Demat account addition numbers"
+    },
+    {
+      "sector": "media",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Triveni Turbine's Q1 results",
+      "news_driver": "Sunshine Pictures IPO",
       "theme": null,
       "stocks": [
         {
-          "name": "Triveni Turbine",
-          "ticker": "TRIVENI.NS",
-          "impact": "Bearish",
-          "reason": "Triveni Turbine's Q1 net profit decline -> reduced investor confidence -> lower stock price",
-          "quant": "-22% net profit decline"
+          "name": "Sunshine Pictures",
+          "ticker": "SUNPICT.NS",
+          "impact": "Neutral",
+          "reason": "IPO announcement -> increased investor interest -> neutral impact on stock price",
+          "quant": "null"
         }
       ],
-      "watch": "Triveni Turbine's order book growth"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Jupiter Wagons' order wins",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Jupiter Wagons",
-          "ticker": "JUPITWAGON.NS",
-          "impact": "Bullish",
-          "reason": "Jupiter Wagons' order wins -> increased revenue visibility -> higher stock price",
-          "quant": "Rs 211 crore order wins"
-        }
-      ],
-      "watch": "Jupiter Wagons' Q2 earnings release"
+      "watch": "IPO subscription numbers"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "internet_digital"
   ]
 }
