@@ -1,68 +1,86 @@
 {
   "date": "2026-08-11",
-  "time": "15:59",
+  "time": "16:17",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "capital_markets",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "new stock closing rules",
-      "theme": "null",
+      "news_driver": "US-Iran standoff",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "New stock closing rules -> reduced trading volumes -> revenue -5-7% Q3",
-          "quant": "-120bps"
+          "reason": "US-Iran conflict -> higher crude oil prices -> reduced IOC margins",
+          "quant": "margins -100bps"
         },
         {
-          "name": "ICICI Bank",
-          "ticker": "ICICIBANK.NS",
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "New stock closing rules -> decreased market participation -> margins -100bps",
-          "quant": "-2%"
+          "reason": "US-Iran conflict -> higher crude oil prices -> decreased HPCL profitability",
+          "quant": "revenue -5%"
         }
       ],
-      "watch": "Sensex 24,500 level"
+      "watch": "Brent oil price movement"
+    },
+    {
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "KPI Green Energy Q1 Results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "KPI Green Energy",
+          "ticker": "KPIGREEN.NS",
+          "impact": "Neutral",
+          "reason": "Q1 results -> net profit dip -> stable energy demand",
+          "quant": "revenue +2%"
+        }
+      ],
+      "watch": "renewable energy sector performance"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Stock Market Close",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bearish",
+          "reason": "market close -> Sensex fall -> decreased HUL investor sentiment",
+          "quant": "price -2%"
+        }
+      ],
+      "watch": "FMCG sector index movement"
     },
     {
       "sector": "capital_goods",
-      "direction": "Bullish",
-      "conviction": 2,
+      "direction": "Bearish",
+      "conviction": 1,
       "news_driver": "Siemens Q1 results",
-      "theme": "null",
+      "theme": null,
       "stocks": [
         {
           "name": "Siemens",
           "ticker": "SIEMENS.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> order book +Rs500Cr",
-          "quant": "+10%"
+          "impact": "Bearish",
+          "reason": "Q1 results -> profit decline -> decreased investor confidence",
+          "quant": "revenue -10%"
         }
       ],
-      "watch": "Q2 results announcement"
-    },
-    {
-      "sector": "banking",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Govt approval of polymer banknotes",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Neutral",
-          "reason": "Introduction of polymer banknotes -> cost savings -> operating expenses -50bps",
-          "quant": "-0.5%"
-        }
-      ],
-      "watch": "Implementation timeline of polymer banknotes"
+      "watch": "capital goods sector earnings"
     }
   ],
   "themes": [
-    "null"
+    "OMC margin squeeze",
+    "renewable energy"
   ]
 }
