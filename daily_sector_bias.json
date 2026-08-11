@@ -1,86 +1,92 @@
 {
   "date": "2026-08-11",
-  "time": "10:16",
-  "mood": "Bullish",
+  "time": "12:05",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "banking",
+      "sector": "jewellery",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "SBI Q1 beat and dollar bond market issue",
-      "theme": null,
+      "news_driver": "Titan hitting new high, Sky Gold up 14%, PC Jeweller Q1FY27 profit surging 37% YoY",
+      "theme": "null",
       "stocks": [
         {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
+          "name": "Titan Company",
+          "ticker": "TITAN.NS",
           "impact": "Bullish",
-          "reason": "SBI's Q1 earnings beat -> increased investor confidence -> stock price rise",
-          "quant": "net profit +15% YoY"
+          "reason": "Strong Q1 results -> increased consumer spending on jewellery -> revenue growth of 15-20%",
+          "quant": "revenue +15-20%"
         },
         {
-          "name": "Bharat Forge",
-          "ticker": "BHFC.NS",
+          "name": "PC Jeweller",
+          "ticker": "PCJEWELLER.NS",
           "impact": "Bullish",
-          "reason": "Increased futures open interest -> higher trading volumes -> potential stock price appreciation",
-          "quant": "futures open interest +25% WoW"
+          "reason": "Q1FY27 profit surge of 37% YoY -> improved profitability -> increased investor confidence",
+          "quant": "profit +37% YoY"
+        },
+        {
+          "name": "Sky Gold",
+          "ticker": "SKYGOLD.NS",
+          "impact": "Bullish",
+          "reason": "Stock price up 14% -> increased investor interest -> potential for further upside",
+          "quant": "stock price +14%"
         }
       ],
-      "watch": "SBI's dollar bond issue pricing"
+      "watch": "Titan's stock price crossing Rs 3000"
     },
     {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "FMCG firms' demand recovery",
-      "theme": null,
+      "sector": "media",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "ZEEL Q1 profit dragged down by 48% due to weak ad revenue",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Kolte-Patil Developers",
-          "ticker": "KOLTEPATIL.NS",
-          "impact": "Bullish",
-          "reason": "Q1 net profit surge -> increased investor confidence -> stock price rise",
-          "quant": "net profit +8X YoY"
+          "name": "Zee Entertainment",
+          "ticker": "ZEEL.NS",
+          "impact": "Bearish",
+          "reason": "Weak ad revenue -> decreased profitability -> Q1 profit down 48%",
+          "quant": "profit -48% YoY"
         }
       ],
-      "watch": "FMCG sector's Q2 earnings"
+      "watch": "ZEEL's stock price breaking below Rs 200"
     },
     {
-      "sector": "capital_markets",
+      "sector": "it",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Info Edge strong Q1 show, Nomura and Nuvama expecting positive outlook",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Info Edge",
+          "ticker": "NAUKRI.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased investor confidence -> potential for further upside",
+          "quant": "revenue +10-12%"
+        }
+      ],
+      "watch": "Info Edge's stock price crossing Rs 4500"
+    },
+    {
+      "sector": "metal",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "BSE shares joining Nifty 50 index",
-      "theme": null,
+      "news_driver": "Vedanta Group stocks to see inflows worth $160 million in Nifty September rejig",
+      "theme": "null",
       "stocks": [
         {
-          "name": "BSE",
-          "ticker": "BSE.NS",
+          "name": "Vedanta",
+          "ticker": "VEDL.NS",
           "impact": "Neutral",
-          "reason": "Index inclusion -> increased liquidity -> neutral stock price impact",
-          "quant": "trading volume +10% post-inclusion"
+          "reason": "Nifty September rejig -> potential for increased investor interest -> neutral impact on stock price",
+          "quant": "inflows +$160 million"
         }
       ],
-      "watch": "Index rebalancing"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Kolte-Patil Developers' Q1 earnings",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Kolte-Patil Developers",
-          "ticker": "KOLTEPATIL.NS",
-          "impact": "Bullish",
-          "reason": "Q1 net profit surge -> increased investor confidence -> stock price rise",
-          "quant": "net profit +8X YoY"
-        }
-      ],
-      "watch": "Realty sector's Q2 earnings"
+      "watch": "Vedanta's stock price reaction to the Nifty September rejig"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "Realty_recovery"
+    "null"
   ]
 }
