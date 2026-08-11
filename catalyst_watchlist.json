@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:05:46.350306+05:30",
+  "generated_at": "2026-08-11T13:20:36.550846+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1716,7 +1716,7 @@
     "JUPITERWAG": {
       "score": 8,
       "direction": "BUY",
-      "catalyst": "Rs 40,000 crore order from Indian Railways",
+      "catalyst": "Rs 211 crore order wins and Rs 400 crore BESS project",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -2554,12 +2554,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "LTTS": {
-      "score": 5,
+      "score": 6,
       "direction": "BUY",
-      "catalyst": "Q1 profit up 13%",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "catalyst": "Launch of AgenticIQ to move enterprise AI from pilots to production",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "ICICILOMBARD": {
       "score": 4,
@@ -3344,6 +3344,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "AARTIPHRM": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Q1 results beat driving the surge in share price",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

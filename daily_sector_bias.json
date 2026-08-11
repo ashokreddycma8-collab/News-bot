@@ -1,92 +1,93 @@
 {
   "date": "2026-08-11",
-  "time": "12:05",
+  "time": "13:20",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "jewellery",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Titan hitting new high, Sky Gold up 14%, PC Jeweller Q1FY27 profit surging 37% YoY",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Titan Company",
-          "ticker": "TITAN.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased consumer spending on jewellery -> revenue growth of 15-20%",
-          "quant": "revenue +15-20%"
-        },
-        {
-          "name": "PC Jeweller",
-          "ticker": "PCJEWELLER.NS",
-          "impact": "Bullish",
-          "reason": "Q1FY27 profit surge of 37% YoY -> improved profitability -> increased investor confidence",
-          "quant": "profit +37% YoY"
-        },
-        {
-          "name": "Sky Gold",
-          "ticker": "SKYGOLD.NS",
-          "impact": "Bullish",
-          "reason": "Stock price up 14% -> increased investor interest -> potential for further upside",
-          "quant": "stock price +14%"
-        }
-      ],
-      "watch": "Titan's stock price crossing Rs 3000"
-    },
-    {
-      "sector": "media",
+      "sector": "it",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "ZEEL Q1 profit dragged down by 48% due to weak ad revenue",
-      "theme": "null",
+      "news_driver": "Wipro's exit from Nifty 50",
+      "theme": null,
       "stocks": [
         {
-          "name": "Zee Entertainment",
-          "ticker": "ZEEL.NS",
+          "name": "Wipro",
+          "ticker": "WIPRO.NS",
           "impact": "Bearish",
-          "reason": "Weak ad revenue -> decreased profitability -> Q1 profit down 48%",
-          "quant": "profit -48% YoY"
+          "reason": "Wipro's exit from Nifty 50 -> reduced index weightage -> lower institutional buying",
+          "quant": "-2% weightage reduction"
+        },
+        {
+          "name": "LTTS",
+          "ticker": "LTTS.NS",
+          "impact": "Neutral",
+          "reason": "LTTS launches AgenticIQ -> increased AI adoption -> stable revenue growth",
+          "quant": "5-7% revenue growth Q3"
         }
       ],
-      "watch": "ZEEL's stock price breaking below Rs 200"
+      "watch": "Wipro's Q2 earnings release"
     },
     {
-      "sector": "it",
+      "sector": "pharma",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Info Edge strong Q1 show, Nomura and Nuvama expecting positive outlook",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Aarti Pharmalabs' Q1 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Info Edge",
-          "ticker": "NAUKRI.NS",
+          "name": "Aarti Pharmalabs",
+          "ticker": "AARTPHARMA.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased investor confidence -> potential for further upside",
-          "quant": "revenue +10-12%"
+          "reason": "Aarti Pharmalabs' Q1 results -> strong revenue growth -> increased investor confidence",
+          "quant": "15% revenue growth Q1"
+        },
+        {
+          "name": "Gland Pharma",
+          "ticker": "GLAND.NS",
+          "impact": "Bullish",
+          "reason": "Gland Pharma's SmallCap gains -> increased investor interest -> higher valuations",
+          "quant": "10% price appreciation"
         }
       ],
-      "watch": "Info Edge's stock price crossing Rs 4500"
+      "watch": "Gland Pharma's Q2 earnings release"
     },
     {
-      "sector": "metal",
+      "sector": "capital_goods",
       "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Vedanta Group stocks to see inflows worth $160 million in Nifty September rejig",
-      "theme": "null",
+      "news_driver": "Triveni Turbine's Q1 results",
+      "theme": null,
       "stocks": [
         {
-          "name": "Vedanta",
-          "ticker": "VEDL.NS",
-          "impact": "Neutral",
-          "reason": "Nifty September rejig -> potential for increased investor interest -> neutral impact on stock price",
-          "quant": "inflows +$160 million"
+          "name": "Triveni Turbine",
+          "ticker": "TRIVENI.NS",
+          "impact": "Bearish",
+          "reason": "Triveni Turbine's Q1 net profit decline -> reduced investor confidence -> lower stock price",
+          "quant": "-22% net profit decline"
         }
       ],
-      "watch": "Vedanta's stock price reaction to the Nifty September rejig"
+      "watch": "Triveni Turbine's order book growth"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Jupiter Wagons' order wins",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Jupiter Wagons",
+          "ticker": "JUPITWAGON.NS",
+          "impact": "Bullish",
+          "reason": "Jupiter Wagons' order wins -> increased revenue visibility -> higher stock price",
+          "quant": "Rs 211 crore order wins"
+        }
+      ],
+      "watch": "Jupiter Wagons' Q2 earnings release"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation",
+    "China+1"
   ]
 }
