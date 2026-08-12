@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T12:19:11.921986+05:30",
+  "generated_at": "2026-08-12T14:51:39.914166+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3400,6 +3400,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "DISHTV": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Q1 loss more than triples to Rs 286 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

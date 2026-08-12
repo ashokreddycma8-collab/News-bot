@@ -1,85 +1,65 @@
 {
   "date": "2026-08-12",
-  "time": "13:36",
-  "mood": "Mixed",
+  "time": "14:51",
+  "mood": "Bearish",
   "sectors": [
     {
       "sector": "it",
-      "direction": "Bullish",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "SpaceX namesake confusion and Standard Chartered's expectation of India tech hub roles growth",
-      "theme": "internet_digital",
+      "news_driver": "TCS and Infosys driving a 500-pts loss in Sensex",
+      "theme": "null",
       "stocks": [
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "SpaceX namesake confusion -> increased investor interest -> 23% stock price surge",
-          "quant": "23%"
+          "impact": "Bearish",
+          "reason": "TCS Q1 earnings miss -> decreased investor confidence -> revenue growth slowing by 2-3%",
+          "quant": "-150bps"
         },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "Standard Chartered's AI expansion -> increased demand for IT services -> revenue growth of 8-10% Q3",
-          "quant": "8-10%"
-        }
-      ],
-      "watch": "TCS stock price level of 4000"
-    },
-    {
-      "sector": "metal",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Global economic concerns",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
           "impact": "Bearish",
-          "reason": "Global economic concerns -> decreased metal demand -> revenue decline of 5%",
+          "reason": "Infosys Q1 earnings miss -> decreased investor confidence -> margins contracting by 100bps",
+          "quant": "-100bps"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "IT sector downturn -> decreased demand -> revenue growth slowing by 5-6%",
           "quant": "-5%"
         }
       ],
-      "watch": "Tata Steel stock price level of 1200"
+      "watch": "TCS and Infosys stock prices at 200-day moving average support levels"
     },
     {
-      "sector": "auto",
+      "sector": "metal",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Helios Capital's positive view on auto ancillaries",
+      "news_driver": "Global aluminium prices hit 7-week high amid Mideast tensions",
       "theme": "null",
       "stocks": [
         {
-          "name": "Bharat Forge",
-          "ticker": "BHARATFORG.NS",
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
           "impact": "Bullish",
-          "reason": "Helios Capital's positive view -> increased investor confidence -> order book growth of Rs200Cr",
-          "quant": "Rs200Cr"
-        }
-      ],
-      "watch": "Bharat Forge stock price level of 1000"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "LEAP India and Technocraft Ventures IPO allotment",
-      "theme": "null",
-      "stocks": [
+          "reason": "Global aluminium price surge -> increased revenue -> EBITDA margins expanding by 8-10%",
+          "quant": "+8%"
+        },
         {
-          "name": "LEAP India",
-          "ticker": "LEAP.NS",
+          "name": "NALCO",
+          "ticker": "NALCO.NS",
           "impact": "Bullish",
-          "reason": "IPO allotment -> increased investor interest -> listing gain of 8%",
-          "quant": "8%"
+          "reason": "Global aluminium price surge -> increased revenue -> net profit rising by 12-15%",
+          "quant": "+12%"
         }
       ],
-      "watch": "LEAP India IPO listing price"
+      "watch": "Global aluminium prices sustaining above $2500/tonne"
     }
   ],
   "themes": [
-    "internet_digital"
+    "null"
   ]
 }
