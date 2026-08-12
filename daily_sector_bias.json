@@ -1,86 +1,86 @@
 {
-  "date": "2026-08-11",
-  "time": "16:17",
+  "date": "2026-08-12",
+  "time": "10:40",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "telecom",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Vodafone Idea adding subscribers for the first time since 2018",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Vodafone Idea",
+          "ticker": "IDEA.NS",
+          "impact": "Bullish",
+          "reason": "Vodafone Idea adding subscribers -> increasing revenue -> improving profitability by 10-12% Q2",
+          "quant": "10-12%"
+        },
+        {
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
+          "impact": "Bullish",
+          "reason": "Airtel's digital transformation partnership with ITI Limited -> increasing enterprise revenue -> boosting margins by 50bps",
+          "quant": "50bps"
+        }
+      ],
+      "watch": "Vodafone Idea's Q2 subscriber growth"
+    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran standoff",
-      "theme": "OMC margin squeeze",
+      "news_driver": "Oil prices nearing $90/barrel",
+      "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude oil prices -> reduced IOC margins",
-          "quant": "margins -100bps"
-        },
-        {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
-          "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude oil prices -> decreased HPCL profitability",
-          "quant": "revenue -5%"
+          "reason": "Rising crude oil prices -> increasing input costs -> squeezing OMC margins by 100-120bps",
+          "quant": "100-120bps"
         }
       ],
-      "watch": "Brent oil price movement"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "KPI Green Energy Q1 Results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "KPI Green Energy",
-          "ticker": "KPIGREEN.NS",
-          "impact": "Neutral",
-          "reason": "Q1 results -> net profit dip -> stable energy demand",
-          "quant": "revenue +2%"
-        }
-      ],
-      "watch": "renewable energy sector performance"
+      "watch": "Brent crude oil price movement"
     },
     {
       "sector": "fmcg",
-      "direction": "Bearish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Stock Market Close",
+      "news_driver": "FMCG's FII selloff",
       "theme": null,
       "stocks": [
         {
           "name": "Hindustan Unilever",
           "ticker": "HINDUNILVR.NS",
-          "impact": "Bearish",
-          "reason": "market close -> Sensex fall -> decreased HUL investor sentiment",
-          "quant": "price -2%"
+          "impact": "Neutral",
+          "reason": "FII selloff in FMCG stocks -> decreasing stock prices -> potential buying opportunity with 5-7% upside",
+          "quant": "5-7%"
         }
       ],
-      "watch": "FMCG sector index movement"
+      "watch": "FII investment trends in FMCG sector"
     },
     {
-      "sector": "capital_goods",
-      "direction": "Bearish",
+      "sector": "financial_services",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Siemens Q1 results",
+      "news_driver": "Manappuram Finance's Q1 profit soars 4x",
       "theme": null,
       "stocks": [
         {
-          "name": "Siemens",
-          "ticker": "SIEMENS.NS",
-          "impact": "Bearish",
-          "reason": "Q1 results -> profit decline -> decreased investor confidence",
-          "quant": "revenue -10%"
+          "name": "Manappuram Finance",
+          "ticker": "MANAPPURAM.NS",
+          "impact": "Bullish",
+          "reason": "Manappuram Finance's Q1 profit growth -> increasing investor confidence -> potential stock price appreciation by 8-10%",
+          "quant": "8-10%"
         }
       ],
-      "watch": "capital goods sector earnings"
+      "watch": "Manappuram Finance's Q2 profit growth"
     }
   ],
   "themes": [
-    "OMC margin squeeze",
-    "renewable energy"
+    "PSU_rotation",
+    "digital_transformation"
   ]
 }
