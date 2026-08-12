@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:40:55.885511+05:30",
+  "generated_at": "2026-08-12T12:19:11.921986+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1403,10 +1403,10 @@
     },
     "TATAPOWER": {
       "score": 5,
-      "direction": "BUY",
-      "catalyst": "Q1 profit rises 11% despite margin contraction, revenue sees modest uptick",
-      "category": "earnings_beat",
-      "ttl_hours": 24,
+      "direction": "SELL",
+      "catalyst": "N Chandrasekaran resigns as Tata Sons chairman",
+      "category": "corporate_event",
+      "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
     },
     "MTARTECH": {
@@ -3364,8 +3364,8 @@
     "FINCABLES": {
       "score": 6,
       "direction": "BUY",
-      "catalyst": "Q1 results beat with shares surging over 12%",
-      "category": "earnings_beat",
+      "catalyst": "Jefferies lifts target to \u20b91,410, maintains accumulate",
+      "category": "brokerage_upgrade",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
     },
@@ -3392,6 +3392,14 @@
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "TDPS": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Q1 profit jumps 72% YoY to Rs 86 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }
