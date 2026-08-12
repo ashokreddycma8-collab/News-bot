@@ -1,86 +1,51 @@
 {
   "date": "2026-08-12",
-  "time": "10:40",
+  "time": "10:50",
   "mood": "Cautious",
   "sectors": [
-    {
-      "sector": "telecom",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Vodafone Idea adding subscribers for the first time since 2018",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Vodafone Idea",
-          "ticker": "IDEA.NS",
-          "impact": "Bullish",
-          "reason": "Vodafone Idea adding subscribers -> increasing revenue -> improving profitability by 10-12% Q2",
-          "quant": "10-12%"
-        },
-        {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Bullish",
-          "reason": "Airtel's digital transformation partnership with ITI Limited -> increasing enterprise revenue -> boosting margins by 50bps",
-          "quant": "50bps"
-        }
-      ],
-      "watch": "Vodafone Idea's Q2 subscriber growth"
-    },
     {
       "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Oil prices nearing $90/barrel",
+      "news_driver": "Crude oil prices near $90",
       "theme": null,
       "stocks": [
         {
           "name": "Indian Oil Corporation",
           "ticker": "IOC.NS",
           "impact": "Bearish",
-          "reason": "Rising crude oil prices -> increasing input costs -> squeezing OMC margins by 100-120bps",
-          "quant": "100-120bps"
-        }
-      ],
-      "watch": "Brent crude oil price movement"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "FMCG's FII selloff",
-      "theme": null,
-      "stocks": [
+          "reason": "High crude oil prices -> increased input costs -> reduced refining margins",
+          "quant": "margins -100bps"
+        },
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Neutral",
-          "reason": "FII selloff in FMCG stocks -> decreasing stock prices -> potential buying opportunity with 5-7% upside",
-          "quant": "5-7%"
+          "name": "Hindustan Petroleum",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "High crude oil prices -> increased working capital requirements -> reduced profitability",
+          "quant": "working capital requirements +10-12% Q3"
         }
       ],
-      "watch": "FII investment trends in FMCG sector"
+      "watch": "Crude oil price movement"
     },
     {
-      "sector": "financial_services",
+      "sector": "banking",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Manappuram Finance's Q1 profit soars 4x",
+      "news_driver": "SBI's strong demand for 5-year dollar bond",
       "theme": null,
       "stocks": [
         {
-          "name": "Manappuram Finance",
-          "ticker": "MANAPPURAM.NS",
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
           "impact": "Bullish",
-          "reason": "Manappuram Finance's Q1 profit growth -> increasing investor confidence -> potential stock price appreciation by 8-10%",
-          "quant": "8-10%"
+          "reason": "Strong demand for dollar bond -> improved investor sentiment -> increased fundraising capabilities",
+          "quant": "fundraising capabilities +5-7% Q3"
         }
       ],
-      "watch": "Manappuram Finance's Q2 profit growth"
+      "watch": "SBI's bond pricing"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "digital_transformation"
+    "PSU_rotation"
   ]
 }
