@@ -1,93 +1,61 @@
 {
   "date": "2026-08-12",
-  "time": "16:01",
+  "time": "16:27",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "i3 Verticals cuts outlook due to normalizing public-sector budgets",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "Public-sector budget normalization -> reduced IT spending -> revenue -5-7% Q2",
-          "quant": "-100bps"
-        },
-        {
-          "name": "Wipro",
-          "ticker": "WIPRO.NS",
-          "impact": "Bearish",
-          "reason": "Public-sector budget normalization -> reduced IT spending -> margins -120bps",
-          "quant": "-8%"
-        }
-      ],
-      "watch": "Q2 earnings release"
-    },
-    {
-      "sector": "healthcare_services",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Hospital stocks trade weak",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Max Healthcare",
-          "ticker": "MAXHEALTH.NS",
-          "impact": "Bearish",
-          "reason": "Public-sector budget normalization -> reduced healthcare spending -> revenue -4-6% Q2",
-          "quant": "-80bps"
-        },
-        {
-          "name": "Fortis Healthcare",
-          "ticker": "FORTIS.NS",
-          "impact": "Bearish",
-          "reason": "Public-sector budget normalization -> reduced healthcare spending -> margins -100bps",
-          "quant": "-5%"
-        }
-      ],
-      "watch": "Q2 earnings release"
-    },
-    {
-      "sector": "defence",
+      "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "HAL Q1 Results: Net Profit Climbs 15%",
-      "theme": "null",
+      "news_driver": "Tata Motors CV Q1 Results",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Hindustan Aeronautics",
-          "ticker": "HAL.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased order book -> revenue +10-12% Q2",
-          "quant": "+150bps"
+          "reason": "Tata Motors CV Q1 Results showing 83% YoY net profit growth -> driven by one-time gain from Tata Capital and 19% revenue jump -> increasing investor confidence",
+          "quant": "net profit +83% YoY"
         }
       ],
-      "watch": "Order book updates"
+      "watch": "Tata Motors stock price level of 450"
     },
     {
-      "sector": "capital_goods",
-      "direction": "Neutral",
+      "sector": "it",
+      "direction": "Bearish",
       "conviction": 1,
-      "news_driver": "Kirloskar Industries Net Profit Falls 69%",
-      "theme": "null",
+      "news_driver": "Stock Market Crash Highlights",
+      "theme": null,
       "stocks": [
         {
-          "name": "Kirloskar Industries",
-          "ticker": "KIRLOSIND.NS",
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Weak Q1 results -> reduced demand -> revenue -10-12% Q2",
-          "quant": "-200bps"
+          "reason": "Sensex extending losses to 2nd day -> decreasing investor confidence in IT sector -> TCS being the worst performer",
+          "quant": "stock price -2.5%"
         }
       ],
-      "watch": "Q2 earnings release"
+      "watch": "Nifty IT index"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Eureka Forbes Q1 Results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Eureka Forbes",
+          "ticker": "EUREKAFOBES.NS",
+          "impact": "Bullish",
+          "reason": "Eureka Forbes Q1 Results showing 46% profit growth -> driven by one-time gain and 15% revenue jump -> increasing investor confidence",
+          "quant": "profit +46% YoY"
+        }
+      ],
+      "watch": "Eureka Forbes stock price level of 500"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "defence"
+    "PSU_rotation"
   ]
 }

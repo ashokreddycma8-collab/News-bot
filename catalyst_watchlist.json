@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:01:19.639362+05:30",
+  "generated_at": "2026-08-12T16:27:25.852899+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3405,6 +3405,14 @@
       "score": 5,
       "direction": "SELL",
       "catalyst": "Q1 loss more than triples to Rs 286 crore",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "EUREKAFOBES": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Q1 profit jumps 46% on one-time gain, revenue up 15%",
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
