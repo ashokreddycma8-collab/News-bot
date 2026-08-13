@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:21:54.500558+05:30",
+  "generated_at": "2026-08-13T13:38:22.009989+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3416,6 +3416,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "KRNMILL": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "Q1 net profit more than doubles",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }

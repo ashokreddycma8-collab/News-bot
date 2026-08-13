@@ -1,85 +1,86 @@
 {
   "date": "2026-08-13",
-  "time": "12:21",
-  "mood": "Cautious",
+  "time": "13:38",
+  "mood": "Bullish",
   "sectors": [
-    {
-      "sector": "psu_banks",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Nifty PSU Bank index surges 2% in weak market",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "Punjab National Bank",
-          "ticker": "PNB.NS",
-          "impact": "Bullish",
-          "reason": "PSU bank index surge -> increased investor appetite -> PNB stock price gain up to 5%",
-          "quant": "5%"
-        },
-        {
-          "name": "Union Bank of India",
-          "ticker": "UNIONBANK.NS",
-          "impact": "Bullish",
-          "reason": "Nifty PSU Bank index surge -> improved market sentiment -> UBI stock price gain up to 5%",
-          "quant": "5%"
-        }
-      ],
-      "watch": "PNB stock price crossing Rs 50"
-    },
     {
       "sector": "auto",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Passenger vehicle dispatches rise 34.3% YoY",
-      "theme": "null",
+      "news_driver": "July automobile wholesales seeing double-digit growth",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Maruti Suzuki India",
-          "ticker": "MARUTI.NS",
+          "name": "Astral",
+          "ticker": "ASTRAL.NS",
           "impact": "Bullish",
-          "reason": "Passenger vehicle dispatches growth -> increased sales volume -> Maruti Suzuki revenue growth +8-10% Q3",
-          "quant": "8-10%"
+          "reason": "Double-digit growth in automobile wholesales -> increased demand for auto ancillaries -> higher revenue for Astral",
+          "quant": "revenue +12-15% Q2"
+        },
+        {
+          "name": "Aditya Infotech",
+          "ticker": "ADITYAINF.NS",
+          "impact": "Bearish",
+          "reason": "Supply chain disruptions -> decreased production -> lower sales for Aditya Infotech",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "July auto sales data release"
+      "watch": "Astral's Q2 earnings release"
     },
     {
       "sector": "it",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "TCS and other Tata stocks attractive, says Jefferies",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Neutral",
-          "reason": "Jefferies report -> analyst upgrade -> TCS stock price stability",
-          "quant": "null"
-        }
-      ],
-      "watch": "TCS Q2 earnings release"
-    },
-    {
-      "sector": "telecom",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Jio Financial gains 3% as JV with BofA seen boosting capital base, growth",
-      "theme": "null",
+      "news_driver": "Lenovo India's Q1 revenue rising 18% on strong demand for AI solutions",
+      "theme": "internet_digital",
       "stocks": [
         {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
+          "name": "Lenovo India",
+          "ticker": "LENOVO.NS",
           "impact": "Bullish",
-          "reason": "Jio Financial JV with BofA -> increased capital base -> Reliance Industries revenue growth +5% Q3",
-          "quant": "5%"
+          "reason": "Strong demand for AI solutions -> increased sales of Lenovo's AI-powered products -> higher revenue for Lenovo India",
+          "quant": "revenue +18-20% Q1"
         }
       ],
-      "watch": "Jio Financial stock price crossing Rs 100"
+      "watch": "Lenovo India's Q2 guidance"
+    },
+    {
+      "sector": "capital_markets",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "UBS upgrading MCX rating to Buy with Rs 3,800 target price",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "MCX",
+          "ticker": "MCX.NS",
+          "impact": "Bullish",
+          "reason": "UBS upgrade -> increased investor confidence -> higher stock price for MCX",
+          "quant": "target price +15% to Rs 3,800"
+        }
+      ],
+      "watch": "MCX's Q2 earnings release"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Lenskart's Meller sunglasses being called the 'Ray-Ban of the future' by Jefferies",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Lenskart",
+          "ticker": "LENSKART.NS",
+          "impact": "Bullish",
+          "reason": "Jefferies' bullish call -> increased investor interest -> higher valuation for Lenskart",
+          "quant": "valuation +20-25% to Rs 10,000Cr"
+        }
+      ],
+      "watch": "Lenskart's funding rounds"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "rural_mobility",
+    "internet_digital"
   ]
 }
