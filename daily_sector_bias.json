@@ -1,65 +1,85 @@
 {
   "date": "2026-08-13",
-  "time": "10:54",
+  "time": "12:21",
   "mood": "Cautious",
   "sectors": [
     {
+      "sector": "psu_banks",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Nifty PSU Bank index surges 2% in weak market",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "Punjab National Bank",
+          "ticker": "PNB.NS",
+          "impact": "Bullish",
+          "reason": "PSU bank index surge -> increased investor appetite -> PNB stock price gain up to 5%",
+          "quant": "5%"
+        },
+        {
+          "name": "Union Bank of India",
+          "ticker": "UNIONBANK.NS",
+          "impact": "Bullish",
+          "reason": "Nifty PSU Bank index surge -> improved market sentiment -> UBI stock price gain up to 5%",
+          "quant": "5%"
+        }
+      ],
+      "watch": "PNB stock price crossing Rs 50"
+    },
+    {
+      "sector": "auto",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Passenger vehicle dispatches rise 34.3% YoY",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Maruti Suzuki India",
+          "ticker": "MARUTI.NS",
+          "impact": "Bullish",
+          "reason": "Passenger vehicle dispatches growth -> increased sales volume -> Maruti Suzuki revenue growth +8-10% Q3",
+          "quant": "8-10%"
+        }
+      ],
+      "watch": "July auto sales data release"
+    },
+    {
       "sector": "it",
-      "direction": "Bearish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Nifty drops below 24,400 level; IT shares slump",
+      "news_driver": "TCS and other Tata stocks attractive, says Jefferies",
       "theme": "null",
       "stocks": [
         {
           "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Nifty drop -> decreased investor appetite for IT stocks -> revenue growth concerns",
-          "quant": "-2.5%"
-        },
-        {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bearish",
-          "reason": "IT shares slump -> decreased investor confidence -> potential margin compression",
-          "quant": "-150bps"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Bearish",
-          "reason": "Nifty drop -> decreased IT spending -> potential order book decline",
-          "quant": "-5%"
+          "impact": "Neutral",
+          "reason": "Jefferies report -> analyst upgrade -> TCS stock price stability",
+          "quant": "null"
         }
       ],
-      "watch": "24000 level"
+      "watch": "TCS Q2 earnings release"
     },
     {
-      "sector": "capital_goods",
+      "sector": "telecom",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Finolex Cables zooms 30% in 2 days",
+      "news_driver": "Jio Financial gains 3% as JV with BofA seen boosting capital base, growth",
       "theme": "null",
       "stocks": [
         {
-          "name": "Finolex Cables",
-          "ticker": "FINCABLES.NS",
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
           "impact": "Bullish",
-          "reason": "Finolex Cables stock surge -> increased investor interest in capital goods -> potential revenue growth",
-          "quant": "+12%"
-        },
-        {
-          "name": "KEC International",
-          "ticker": "KEC.NS",
-          "impact": "Bullish",
-          "reason": "Finolex Cables growth -> increased confidence in capital goods sector -> potential order book increase",
-          "quant": "+8%"
+          "reason": "Jio Financial JV with BofA -> increased capital base -> Reliance Industries revenue growth +5% Q3",
+          "quant": "5%"
         }
       ],
-      "watch": "Finolex Cables stock price"
+      "watch": "Jio Financial stock price crossing Rs 100"
     }
   ],
   "themes": [
-    "null"
+    "PSU_rotation"
   ]
 }
