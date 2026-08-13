@@ -1,61 +1,93 @@
 {
-  "date": "2026-08-12",
-  "time": "16:27",
+  "date": "2026-08-13",
+  "time": "10:44",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
-      "direction": "Bullish",
+      "sector": "energy",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Tata Motors CV Q1 Results",
-      "theme": "PSU_rotation",
+      "news_driver": "Oil-and-gas PSUs see first Q1 capex decline in at least five years",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bullish",
-          "reason": "Tata Motors CV Q1 Results showing 83% YoY net profit growth -> driven by one-time gain from Tata Capital and 19% revenue jump -> increasing investor confidence",
-          "quant": "net profit +83% YoY"
+          "name": "ONGC",
+          "ticker": "ONGC.NS",
+          "impact": "Bearish",
+          "reason": "Capex decline -> reduced investment in exploration and production -> lower revenue growth",
+          "quant": "-5% revenue growth"
+        },
+        {
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "Capex decline -> decreased refining capacity utilization -> lower margins",
+          "quant": "-100bps margins"
         }
       ],
-      "watch": "Tata Motors stock price level of 450"
+      "watch": "Q1 earnings reports of oil-and-gas PSUs"
     },
     {
       "sector": "it",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Stock Market Crash Highlights",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "US tightens grip on H-1B workers, Indian IT firms brace for higher costs",
+      "theme": "null",
       "stocks": [
         {
           "name": "TCS",
           "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "Sensex extending losses to 2nd day -> decreasing investor confidence in IT sector -> TCS being the worst performer",
-          "quant": "stock price -2.5%"
+          "reason": "H-1B visa restrictions -> increased labor costs -> lower profitability",
+          "quant": "-2% net profit"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bearish",
+          "reason": "H-1B visa restrictions -> reduced talent availability -> decreased competitiveness",
+          "quant": "-1.5% revenue growth"
         }
       ],
-      "watch": "Nifty IT index"
+      "watch": "US visa policy updates"
     },
     {
-      "sector": "consumer",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Eureka Forbes Q1 Results",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Tata Motors shares jump 6% after strong Q1",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Eureka Forbes",
-          "ticker": "EUREKAFOBES.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bullish",
-          "reason": "Eureka Forbes Q1 Results showing 46% profit growth -> driven by one-time gain and 15% revenue jump -> increasing investor confidence",
-          "quant": "profit +46% YoY"
+          "reason": "Strong Q1 results -> improved investor sentiment -> higher stock price",
+          "quant": "+8% stock price"
         }
       ],
-      "watch": "Eureka Forbes stock price level of 500"
+      "watch": "Q1 earnings reports of other auto companies"
+    },
+    {
+      "sector": "financial_services",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Jio Financial shares jump 3% as Bank of America set to acquire 50% stake in Jio Credit",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Jio Financial",
+          "ticker": "JIOFIN.NS",
+          "impact": "Bullish",
+          "reason": "Strategic investment -> increased credibility -> higher stock price",
+          "quant": "+5% stock price"
+        }
+      ],
+      "watch": "Deal completion and its impact on Jio Financial's business"
     }
   ],
   "themes": [
-    "PSU_rotation"
+    "PSU_rotation",
+    "China+1"
   ]
 }
