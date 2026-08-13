@@ -1,86 +1,69 @@
 {
   "date": "2026-08-13",
-  "time": "16:02",
-  "mood": "Cautious",
+  "time": "16:27",
+  "mood": "Bullish",
   "sectors": [
     {
-      "sector": "consumer",
+      "sector": "auto",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "India's trade deficit widens to six-month high of $31.98 billion in July",
+      "news_driver": "Maruti, Tata, Mahindra's concerns on E20",
       "theme": "null",
       "stocks": [
         {
-          "name": "Jubilant Foodworks",
-          "ticker": "JUBLFOOD.NS",
+          "name": "Maruti Suzuki",
+          "ticker": "MARUTI.NS",
           "impact": "Bearish",
-          "reason": "Widening trade deficit -> increased import costs -> lower margins for Jubilant Foodworks",
-          "quant": "margins -100bps"
+          "reason": "E20 concerns -> higher ethanol blending costs -> margins -100bps",
+          "quant": "-100bps"
         },
         {
-          "name": "Page Industries",
-          "ticker": "PAGEIND.NS",
+          "name": "Tata Motors",
+          "ticker": "TATAMOTORS.NS",
           "impact": "Bearish",
-          "reason": "Trade deficit -> higher input costs -> reduced profitability for Page Industries",
-          "quant": "revenue -5%"
+          "reason": "E20 concerns -> compliance challenges -> revenue -5%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Rupee movement against USD"
+      "watch": "Government's E20 policy announcement"
     },
     {
-      "sector": "it",
+      "sector": "energy",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "L&T to set up India's largest Nvidia B300 AI factory for Together AI",
+      "news_driver": "Solar Industries' Q1 net profit soars 93% YoY",
       "theme": "null",
       "stocks": [
         {
-          "name": "Larsen & Toubro",
-          "ticker": "LT.NS",
+          "name": "Solar Industries",
+          "ticker": "SOLARINDS.NS",
           "impact": "Bullish",
-          "reason": "AI factory setup -> increased revenue from AI services -> higher profitability for L&T",
-          "quant": "revenue +10% Q3"
+          "reason": "Q1 net profit surge -> increased investor confidence -> stock price +8%",
+          "quant": "+8%"
         }
       ],
-      "watch": "Nvidia's quarterly earnings"
+      "watch": "Renewable energy sector performance"
     },
     {
-      "sector": "media",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Sun TV Share Price Jumps 7% After Q1 Results, Dividend Announcement",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Sun TV Network",
-          "ticker": "SUNTV.NS",
-          "impact": "Bullish",
-          "reason": "Q1 results beat -> increased investor confidence -> higher stock price for Sun TV",
-          "quant": "stock price +7%"
-        }
-      ],
-      "watch": "Q2 results announcement"
-    },
-    {
-      "sector": "railway",
+      "sector": "realty",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Titagarh Rail Eyes 12% Margins As Passenger Segment Revs Up, Targets Vande Bharat Prototype By Q3",
+      "news_driver": "Hinduja Group's \u20b92,500 crore investment in Tamil Nadu",
       "theme": "null",
       "stocks": [
         {
-          "name": "Titagarh Rail",
-          "ticker": "TI.NS",
+          "name": "Hinduja Realty Ventures",
+          "ticker": "HLV.NS",
           "impact": "Bullish",
-          "reason": "Increased passenger segment revenue -> higher margins -> increased profitability for Titagarh Rail",
-          "quant": "margins +200bps"
+          "reason": "Investment announcement -> increased demand for real estate -> revenue +10%",
+          "quant": "+10%"
         }
       ],
-      "watch": "Vande Bharat prototype launch"
+      "watch": "Tamil Nadu real estate market trends"
     }
   ],
   "themes": [
-    "AI adoption",
-    "consumer spending"
+    "PSU_rotation",
+    "China+1"
   ]
 }
