@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:38:22.009989+05:30",
+  "generated_at": "2026-08-13T14:51:49.937232+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1066,9 +1066,9 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "LT": {
-      "score": 8,
+      "score": 9,
       "direction": "BUY",
-      "catalyst": "IAF selects L&T for AMCA fifth-generation jet project",
+      "catalyst": "Larsen and Toubro secures AI data centre order worth up to $1.57 billion",
       "category": "corporate_event",
       "ttl_hours": 48,
       "conviction": "\u25ae\u25ae\u25ae"
@@ -3424,6 +3424,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25af"
+    },
+    "THYROCARE": {
+      "score": 5,
+      "direction": "SELL",
+      "catalyst": "Promoter Docon Technologies sells 10% stake",
+      "category": "technical_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25af\u25af"
     }
   }
 }

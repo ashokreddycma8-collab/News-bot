@@ -1,86 +1,100 @@
 {
   "date": "2026-08-13",
-  "time": "13:38",
-  "mood": "Bullish",
+  "time": "14:51",
+  "mood": "Cautious",
   "sectors": [
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "July automobile wholesales seeing double-digit growth",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Astral",
-          "ticker": "ASTRAL.NS",
-          "impact": "Bullish",
-          "reason": "Double-digit growth in automobile wholesales -> increased demand for auto ancillaries -> higher revenue for Astral",
-          "quant": "revenue +12-15% Q2"
-        },
-        {
-          "name": "Aditya Infotech",
-          "ticker": "ADITYAINF.NS",
-          "impact": "Bearish",
-          "reason": "Supply chain disruptions -> decreased production -> lower sales for Aditya Infotech",
-          "quant": "margins -100bps"
-        }
-      ],
-      "watch": "Astral's Q2 earnings release"
-    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Lenovo India's Q1 revenue rising 18% on strong demand for AI solutions",
-      "theme": "internet_digital",
+      "news_driver": "Larsen and Toubro secures AI data centre order worth up to $1.57 billion",
+      "theme": "data_centers",
       "stocks": [
         {
-          "name": "Lenovo India",
-          "ticker": "LENOVO.NS",
+          "name": "Larsen and Toubro",
+          "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "Strong demand for AI solutions -> increased sales of Lenovo's AI-powered products -> higher revenue for Lenovo India",
-          "quant": "revenue +18-20% Q1"
+          "reason": "L&T securing a large AI data centre order -> increasing revenue visibility -> revenue growth +8-10% in FY25",
+          "quant": "10%"
+        },
+        {
+          "name": "NVIDIA",
+          "ticker": "Not listed on NSE, but relevant",
+          "impact": "Bullish",
+          "reason": "L&T partnering with NVIDIA to build India's largest AI factory -> increasing demand for NVIDIA chips -> sales growth +12% in Q3",
+          "quant": "12%"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Neutral",
+          "reason": "L&T's AI data centre order -> potential competition for HCL Technologies -> margins -50bps due to pricing pressure",
+          "quant": "-50bps"
         }
       ],
-      "watch": "Lenovo India's Q2 guidance"
+      "watch": "L&T's Q2 earnings release for further guidance on data centre business"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "FMCG volume growth seen slowing to 4% due to war and weak monsoon",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
+          "impact": "Bearish",
+          "reason": "Slowing FMCG volume growth -> decreasing sales for HUL -> revenue growth -2% in Q3",
+          "quant": "-2%"
+        },
+        {
+          "name": "Nestle India",
+          "ticker": "NESTLEIND.NS",
+          "impact": "Bearish",
+          "reason": "Weak monsoon affecting rural demand -> decreasing sales for Nestle India -> revenue growth -1.5% in Q3",
+          "quant": "-1.5%"
+        }
+      ],
+      "watch": "Monsoon progress and its impact on rural demand"
+    },
+    {
+      "sector": "energy",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Lower oil prices offering relief amid Middle East tensions",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Reliance Industries",
+          "ticker": "RELIANCE.NS",
+          "impact": "Neutral",
+          "reason": "Lower oil prices -> decreasing revenue for RIL's oil business -> margins -100bps",
+          "quant": "-100bps"
+        }
+      ],
+      "watch": "OPEC's next meeting for potential production cuts"
     },
     {
       "sector": "capital_markets",
-      "direction": "Bullish",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "UBS upgrading MCX rating to Buy with Rs 3,800 target price",
-      "theme": null,
+      "news_driver": "Shein plans Hong Kong stock market debut on August 28",
+      "theme": "null",
       "stocks": [
         {
-          "name": "MCX",
-          "ticker": "MCX.NS",
-          "impact": "Bullish",
-          "reason": "UBS upgrade -> increased investor confidence -> higher stock price for MCX",
-          "quant": "target price +15% to Rs 3,800"
+          "name": "ICICI Securities",
+          "ticker": "ICICISEC.NS",
+          "impact": "Neutral",
+          "reason": "Shein's Hong Kong listing -> potential increase in investment banking fees -> revenue growth +2% in Q3",
+          "quant": "2%"
         }
       ],
-      "watch": "MCX's Q2 earnings release"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Lenskart's Meller sunglasses being called the 'Ray-Ban of the future' by Jefferies",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Lenskart",
-          "ticker": "LENSKART.NS",
-          "impact": "Bullish",
-          "reason": "Jefferies' bullish call -> increased investor interest -> higher valuation for Lenskart",
-          "quant": "valuation +20-25% to Rs 10,000Cr"
-        }
-      ],
-      "watch": "Lenskart's funding rounds"
+      "watch": "Shein's listing and its impact on Indian capital markets"
     }
   ],
   "themes": [
-    "rural_mobility",
-    "internet_digital"
+    "data_centers",
+    "PSU_rotation"
   ]
 }
