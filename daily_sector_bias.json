@@ -1,93 +1,65 @@
 {
   "date": "2026-08-13",
-  "time": "10:44",
+  "time": "10:54",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Oil-and-gas PSUs see first Q1 capex decline in at least five years",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "ONGC",
-          "ticker": "ONGC.NS",
-          "impact": "Bearish",
-          "reason": "Capex decline -> reduced investment in exploration and production -> lower revenue growth",
-          "quant": "-5% revenue growth"
-        },
-        {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
-          "impact": "Bearish",
-          "reason": "Capex decline -> decreased refining capacity utilization -> lower margins",
-          "quant": "-100bps margins"
-        }
-      ],
-      "watch": "Q1 earnings reports of oil-and-gas PSUs"
-    },
-    {
       "sector": "it",
       "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "US tightens grip on H-1B workers, Indian IT firms brace for higher costs",
+      "conviction": 1,
+      "news_driver": "Nifty drops below 24,400 level; IT shares slump",
       "theme": "null",
       "stocks": [
         {
-          "name": "TCS",
+          "name": "Tata Consultancy Services",
           "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "H-1B visa restrictions -> increased labor costs -> lower profitability",
-          "quant": "-2% net profit"
+          "reason": "Nifty drop -> decreased investor appetite for IT stocks -> revenue growth concerns",
+          "quant": "-2.5%"
         },
         {
           "name": "Infosys",
           "ticker": "INFY.NS",
           "impact": "Bearish",
-          "reason": "H-1B visa restrictions -> reduced talent availability -> decreased competitiveness",
-          "quant": "-1.5% revenue growth"
+          "reason": "IT shares slump -> decreased investor confidence -> potential margin compression",
+          "quant": "-150bps"
+        },
+        {
+          "name": "HCL Technologies",
+          "ticker": "HCLTECH.NS",
+          "impact": "Bearish",
+          "reason": "Nifty drop -> decreased IT spending -> potential order book decline",
+          "quant": "-5%"
         }
       ],
-      "watch": "US visa policy updates"
+      "watch": "24000 level"
     },
     {
-      "sector": "auto",
+      "sector": "capital_goods",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Tata Motors shares jump 6% after strong Q1",
+      "news_driver": "Finolex Cables zooms 30% in 2 days",
       "theme": "null",
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
+          "name": "Finolex Cables",
+          "ticker": "FINCABLES.NS",
           "impact": "Bullish",
-          "reason": "Strong Q1 results -> improved investor sentiment -> higher stock price",
-          "quant": "+8% stock price"
-        }
-      ],
-      "watch": "Q1 earnings reports of other auto companies"
-    },
-    {
-      "sector": "financial_services",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Jio Financial shares jump 3% as Bank of America set to acquire 50% stake in Jio Credit",
-      "theme": "null",
-      "stocks": [
+          "reason": "Finolex Cables stock surge -> increased investor interest in capital goods -> potential revenue growth",
+          "quant": "+12%"
+        },
         {
-          "name": "Jio Financial",
-          "ticker": "JIOFIN.NS",
+          "name": "KEC International",
+          "ticker": "KEC.NS",
           "impact": "Bullish",
-          "reason": "Strategic investment -> increased credibility -> higher stock price",
-          "quant": "+5% stock price"
+          "reason": "Finolex Cables growth -> increased confidence in capital goods sector -> potential order book increase",
+          "quant": "+8%"
         }
       ],
-      "watch": "Deal completion and its impact on Jio Financial's business"
+      "watch": "Finolex Cables stock price"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "China+1"
+    "null"
   ]
 }
