@@ -1,100 +1,86 @@
 {
   "date": "2026-08-13",
-  "time": "14:51",
+  "time": "16:02",
   "mood": "Cautious",
   "sectors": [
+    {
+      "sector": "consumer",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "India's trade deficit widens to six-month high of $31.98 billion in July",
+      "theme": "null",
+      "stocks": [
+        {
+          "name": "Jubilant Foodworks",
+          "ticker": "JUBLFOOD.NS",
+          "impact": "Bearish",
+          "reason": "Widening trade deficit -> increased import costs -> lower margins for Jubilant Foodworks",
+          "quant": "margins -100bps"
+        },
+        {
+          "name": "Page Industries",
+          "ticker": "PAGEIND.NS",
+          "impact": "Bearish",
+          "reason": "Trade deficit -> higher input costs -> reduced profitability for Page Industries",
+          "quant": "revenue -5%"
+        }
+      ],
+      "watch": "Rupee movement against USD"
+    },
     {
       "sector": "it",
       "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Larsen and Toubro secures AI data centre order worth up to $1.57 billion",
-      "theme": "data_centers",
+      "news_driver": "L&T to set up India's largest Nvidia B300 AI factory for Together AI",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Larsen and Toubro",
+          "name": "Larsen & Toubro",
           "ticker": "LT.NS",
           "impact": "Bullish",
-          "reason": "L&T securing a large AI data centre order -> increasing revenue visibility -> revenue growth +8-10% in FY25",
-          "quant": "10%"
-        },
+          "reason": "AI factory setup -> increased revenue from AI services -> higher profitability for L&T",
+          "quant": "revenue +10% Q3"
+        }
+      ],
+      "watch": "Nvidia's quarterly earnings"
+    },
+    {
+      "sector": "media",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Sun TV Share Price Jumps 7% After Q1 Results, Dividend Announcement",
+      "theme": "null",
+      "stocks": [
         {
-          "name": "NVIDIA",
-          "ticker": "Not listed on NSE, but relevant",
+          "name": "Sun TV Network",
+          "ticker": "SUNTV.NS",
           "impact": "Bullish",
-          "reason": "L&T partnering with NVIDIA to build India's largest AI factory -> increasing demand for NVIDIA chips -> sales growth +12% in Q3",
-          "quant": "12%"
-        },
-        {
-          "name": "HCL Technologies",
-          "ticker": "HCLTECH.NS",
-          "impact": "Neutral",
-          "reason": "L&T's AI data centre order -> potential competition for HCL Technologies -> margins -50bps due to pricing pressure",
-          "quant": "-50bps"
+          "reason": "Q1 results beat -> increased investor confidence -> higher stock price for Sun TV",
+          "quant": "stock price +7%"
         }
       ],
-      "watch": "L&T's Q2 earnings release for further guidance on data centre business"
+      "watch": "Q2 results announcement"
     },
     {
-      "sector": "fmcg",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "FMCG volume growth seen slowing to 4% due to war and weak monsoon",
+      "sector": "railway",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Titagarh Rail Eyes 12% Margins As Passenger Segment Revs Up, Targets Vande Bharat Prototype By Q3",
       "theme": "null",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
-          "impact": "Bearish",
-          "reason": "Slowing FMCG volume growth -> decreasing sales for HUL -> revenue growth -2% in Q3",
-          "quant": "-2%"
-        },
-        {
-          "name": "Nestle India",
-          "ticker": "NESTLEIND.NS",
-          "impact": "Bearish",
-          "reason": "Weak monsoon affecting rural demand -> decreasing sales for Nestle India -> revenue growth -1.5% in Q3",
-          "quant": "-1.5%"
+          "name": "Titagarh Rail",
+          "ticker": "TI.NS",
+          "impact": "Bullish",
+          "reason": "Increased passenger segment revenue -> higher margins -> increased profitability for Titagarh Rail",
+          "quant": "margins +200bps"
         }
       ],
-      "watch": "Monsoon progress and its impact on rural demand"
-    },
-    {
-      "sector": "energy",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Lower oil prices offering relief amid Middle East tensions",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Reliance Industries",
-          "ticker": "RELIANCE.NS",
-          "impact": "Neutral",
-          "reason": "Lower oil prices -> decreasing revenue for RIL's oil business -> margins -100bps",
-          "quant": "-100bps"
-        }
-      ],
-      "watch": "OPEC's next meeting for potential production cuts"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Neutral",
-      "conviction": 1,
-      "news_driver": "Shein plans Hong Kong stock market debut on August 28",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "ICICI Securities",
-          "ticker": "ICICISEC.NS",
-          "impact": "Neutral",
-          "reason": "Shein's Hong Kong listing -> potential increase in investment banking fees -> revenue growth +2% in Q3",
-          "quant": "2%"
-        }
-      ],
-      "watch": "Shein's listing and its impact on Indian capital markets"
+      "watch": "Vande Bharat prototype launch"
     }
   ],
   "themes": [
-    "data_centers",
-    "PSU_rotation"
+    "AI adoption",
+    "consumer spending"
   ]
 }
