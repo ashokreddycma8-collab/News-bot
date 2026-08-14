@@ -1,86 +1,85 @@
 {
   "date": "2026-08-14",
-  "time": "12:19",
-  "mood": "Bearish",
+  "time": "13:34",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "oil_gas",
+      "sector": "pharma",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US-Iran impasse",
+      "news_driver": "US FDA warning to Aurobindo Pharma's subsidiary Eugia Pharma",
       "theme": null,
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "Aurobindo Pharma",
+          "ticker": "AUROPHARMA.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> lower OMC margins",
-          "quant": "-120bps"
+          "reason": "US FDA warning -> potential regulatory hurdles -> margins -100bps",
+          "quant": "-100bps"
         },
         {
-          "name": "HPCL",
-          "ticker": "HINDPETRO.NS",
+          "name": "Dr. Reddy's Laboratories",
+          "ticker": "DRREDDY.NS",
+          "impact": "Neutral",
+          "reason": "US FDA warning to competitor -> potential market share gain -> revenue +2-3% Q3",
+          "quant": "2-3%"
+        }
+      ],
+      "watch": "Aurobindo Pharma's Q2 earnings release for further guidance on US FDA warning impact"
+    },
+    {
+      "sector": "it",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Nifty holds above 24,300 at midday as metals, IT drag",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "TCS",
+          "ticker": "TCS.NS",
           "impact": "Bearish",
-          "reason": "US-Iran conflict -> higher crude prices -> lower refining margins",
-          "quant": "-100bps"
+          "reason": "Nifty IT index drag -> decreased investor sentiment -> revenue -1-2% Q3",
+          "quant": "-1-2%"
         }
       ],
-      "watch": "Brent crude price level of $95"
-    },
-    {
-      "sector": "consumer",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Jubilant Foodworks Q1 results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Jubilant Foodworks",
-          "ticker": "JUBLFOOD.NS",
-          "impact": "Bullish",
-          "reason": "strong Q1 results -> higher same-store sales growth -> increased revenue",
-          "quant": "8-10% Q3 revenue growth"
-        }
-      ],
-      "watch": "Jubilant Foodworks stock price level of 2500"
-    },
-    {
-      "sector": "fmcg",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Manorama Industries Q1 results",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Manorama Industries",
-          "ticker": "MANORAMA.NS",
-          "impact": "Bullish",
-          "reason": "strong Q1 results -> higher sales volume -> increased revenue",
-          "quant": "12% Q1 revenue growth"
-        }
-      ],
-      "watch": "Manorama Industries stock price level of 1500"
+      "watch": "TCS's Q2 earnings release for further guidance on revenue growth"
     },
     {
       "sector": "media",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Zee Entertainment SEBI order",
+      "conviction": 2,
+      "news_driver": "Zee Entertainment Share Price Jumps over 6% As SAT Grants Interim Relief From SEBI Order",
       "theme": null,
       "stocks": [
         {
           "name": "Zee Entertainment",
           "ticker": "ZEEL.NS",
           "impact": "Bullish",
-          "reason": "interim relief from SEBI order -> reduced uncertainty -> increased investor confidence",
-          "quant": "5% stock price gain"
+          "reason": "SAT interim relief -> reduced regulatory overhang -> stock price +8-10%",
+          "quant": "8-10%"
         }
       ],
-      "watch": "Zee Entertainment stock price level of 200"
+      "watch": "Zee Entertainment's Q2 earnings release for further guidance on SAT interim relief impact"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "TCS, Rolls-Royce Test Aircraft Engine On 100% Hydrogen In Industry-First Flight Cycle",
+      "theme": "hydrogen_energy",
+      "stocks": [
+        {
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
+          "impact": "Bullish",
+          "reason": "TCS and Rolls-Royce's hydrogen engine test -> potential new revenue stream -> revenue +5% Q3",
+          "quant": "5%"
+        }
+      ],
+      "watch": "Tata Steel's Q2 earnings release for further guidance on hydrogen energy initiatives"
     }
   ],
   "themes": [
-    "consumer_staples",
-    "fmcg"
+    "hydrogen_energy"
   ]
 }

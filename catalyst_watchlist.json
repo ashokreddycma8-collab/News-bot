@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:19:19.444060+05:30",
+  "generated_at": "2026-08-14T13:35:00.646237+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3066,12 +3066,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "ZEE": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Sebi action against Subhash Chandra, Punit Goenka",
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "SAT Grants Interim Relief From SEBI Order",
       "category": "corporate_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "GREAVES": {
       "score": 7,
