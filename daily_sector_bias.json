@@ -1,79 +1,86 @@
 {
   "date": "2026-08-14",
-  "time": "10:42",
-  "mood": "Cautious",
+  "time": "12:19",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "banking",
-      "direction": "Bullish",
+      "sector": "oil_gas",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Axis Bank raises $300 million via bonds",
-      "theme": "PSU_rotation",
+      "news_driver": "US-Iran impasse",
+      "theme": null,
       "stocks": [
         {
-          "name": "Axis Bank",
-          "ticker": "AXISBANK.NS",
-          "impact": "Bullish",
-          "reason": "Bond issuance -> Reduced cost of capital -> Increased profitability",
-          "quant": "cost of capital -50bps"
-        }
-      ],
-      "watch": "Axis Bank's Q2 earnings release"
-    },
-    {
-      "sector": "cement",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "UltraTech Cement news",
-      "theme": "PLI_cement",
-      "stocks": [
+          "name": "Indian Oil Corporation",
+          "ticker": "IOC.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> higher crude prices -> lower OMC margins",
+          "quant": "-120bps"
+        },
         {
-          "name": "UltraTech Cement",
-          "ticker": "ULTRACEMCO.NS",
-          "impact": "Bullish",
-          "reason": "Government initiatives -> Increased demand -> Higher revenue",
-          "quant": "revenue +5-7% Q3"
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
+          "impact": "Bearish",
+          "reason": "US-Iran conflict -> higher crude prices -> lower refining margins",
+          "quant": "-100bps"
         }
       ],
-      "watch": "Cement demand growth in Q3"
+      "watch": "Brent crude price level of $95"
     },
     {
       "sector": "consumer",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Honasa Consumer Q1 results",
-      "theme": "rural_mobility",
-      "stocks": [
-        {
-          "name": "Honasa Consumer",
-          "ticker": "HONASA.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> Increased investor confidence -> Higher stock price",
-          "quant": "stock price +10-12% in next quarter"
-        }
-      ],
-      "watch": "Honasa Consumer's Q2 earnings release"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bearish",
-      "conviction": 2,
-      "news_driver": "Iran conflict and oil price volatility",
+      "conviction": 1,
+      "news_driver": "Jubilant Foodworks Q1 results",
       "theme": null,
       "stocks": [
         {
-          "name": "Tata Motors",
-          "ticker": "TATAMOTORS.NS",
-          "impact": "Bearish",
-          "reason": "Higher oil prices -> Increased input costs -> Reduced margins",
-          "quant": "margins -100bps"
+          "name": "Jubilant Foodworks",
+          "ticker": "JUBLFOOD.NS",
+          "impact": "Bullish",
+          "reason": "strong Q1 results -> higher same-store sales growth -> increased revenue",
+          "quant": "8-10% Q3 revenue growth"
         }
       ],
-      "watch": "Brent crude oil price movement"
+      "watch": "Jubilant Foodworks stock price level of 2500"
+    },
+    {
+      "sector": "fmcg",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Manorama Industries Q1 results",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Manorama Industries",
+          "ticker": "MANORAMA.NS",
+          "impact": "Bullish",
+          "reason": "strong Q1 results -> higher sales volume -> increased revenue",
+          "quant": "12% Q1 revenue growth"
+        }
+      ],
+      "watch": "Manorama Industries stock price level of 1500"
+    },
+    {
+      "sector": "media",
+      "direction": "Bullish",
+      "conviction": 1,
+      "news_driver": "Zee Entertainment SEBI order",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Zee Entertainment",
+          "ticker": "ZEEL.NS",
+          "impact": "Bullish",
+          "reason": "interim relief from SEBI order -> reduced uncertainty -> increased investor confidence",
+          "quant": "5% stock price gain"
+        }
+      ],
+      "watch": "Zee Entertainment stock price level of 200"
     }
   ],
   "themes": [
-    "PSU_rotation",
-    "rural_mobility"
+    "consumer_staples",
+    "fmcg"
   ]
 }
