@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T15:59:12.668842+05:30",
+  "generated_at": "2026-08-14T16:24:47.046746+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3544,6 +3544,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
+    },
+    "QUESTID": {
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "said to pick banks for $1 billion India IPO",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25ae"
     }
   }
 }

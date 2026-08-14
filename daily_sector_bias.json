@@ -1,93 +1,68 @@
 {
   "date": "2026-08-14",
-  "time": "15:59",
+  "time": "16:24",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "telecom",
+      "sector": "metal",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "BSNL's Q1 loss widens to \u20b91,280 crore",
+      "news_driver": "Metal shares tumble due to global economic growth concerns",
       "theme": null,
       "stocks": [
         {
-          "name": "Bharat Sanchar Nigam Limited",
-          "ticker": "BSNL.NS",
+          "name": "Tata Steel",
+          "ticker": "TATASTEEL.NS",
           "impact": "Bearish",
-          "reason": "Widening Q1 loss -> increased financial stress -> reduced investor confidence",
-          "quant": "net loss +25% QoQ"
+          "reason": "Weaker global demand -> lower steel prices -> revenue -5-7% Q2",
+          "quant": "-120bps"
         },
         {
-          "name": "Bharti Airtel",
-          "ticker": "BHARTIARTL.NS",
-          "impact": "Neutral",
-          "reason": "BSNL's loss -> potential market share gain -> neutralized by intense competition",
-          "quant": "market share +1.5% YoY"
+          "name": "Hindalco Industries",
+          "ticker": "HINDALCO.NS",
+          "impact": "Bearish",
+          "reason": "Rising input costs -> higher production costs -> margins -100bps",
+          "quant": "-80bps"
         }
       ],
-      "watch": "BSNL's Q2 earnings release"
+      "watch": "Tata Steel's Q2 earnings release"
     },
     {
-      "sector": "banking",
+      "sector": "pharma",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Natco Pharma's Q1 profit falls 57%",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Natco Pharma",
+          "ticker": "NATCOPHARM.NS",
+          "impact": "Bearish",
+          "reason": "Lower sales -> higher expenses -> profit -57% YoY",
+          "quant": "-57%"
+        }
+      ],
+      "watch": "Pharma sector Q2 earnings releases"
+    },
+    {
+      "sector": "capital_markets",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "S&P assigns investment-grade rating to IDFC FIRST Bank",
-      "theme": null,
+      "news_driver": "Quest Global's $1 billion India IPO plans",
+      "theme": "IPO momentum",
       "stocks": [
         {
-          "name": "IDFC FIRST Bank",
-          "ticker": "IDFCFIRSTB.NS",
+          "name": "ICICI Securities",
+          "ticker": "ICICISEC.NS",
           "impact": "Bullish",
-          "reason": "Investment-grade rating -> improved credit profile -> increased investor appetite",
-          "quant": "credit rating upgrade +2 notches"
+          "reason": "Increased IPO activity -> higher brokerage revenue -> revenue +8-10% Q3",
+          "quant": "+8-10%"
         }
       ],
-      "watch": "IDFC FIRST Bank's Q2 earnings release"
-    },
-    {
-      "sector": "auto",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Olectra Greentech Targets Sharp Delivery Ramp-Up",
-      "theme": "electric vehicle adoption",
-      "stocks": [
-        {
-          "name": "Olectra Greentech",
-          "ticker": "OLECTRA.NS",
-          "impact": "Bullish",
-          "reason": "Order book ramp-up -> increased revenue visibility -> improved profitability",
-          "quant": "order book +Rs400Cr"
-        },
-        {
-          "name": "Ashok Leyland",
-          "ticker": "ASHOKLEY.NS",
-          "impact": "Neutral",
-          "reason": "Q1 results -> modest profit growth -> neutralized by intense competition",
-          "quant": "net profit +1.5% YoY"
-        }
-      ],
-      "watch": "Olectra Greentech's Q2 earnings release"
-    },
-    {
-      "sector": "defence",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Bharat Dynamics Q1 Results: Net profit soars 6x to Rs 119 crore",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Bharat Dynamics",
-          "ticker": "BHRATDYN.NS",
-          "impact": "Bullish",
-          "reason": "Strong Q1 results -> increased revenue visibility -> improved profitability",
-          "quant": "net profit +500% YoY"
-        }
-      ],
-      "watch": "Bharat Dynamics' Q2 earnings release"
+      "watch": "Quest Global's IPO filing"
     }
   ],
   "themes": [
-    "electric vehicle adoption",
-    "defence sector growth"
+    "IPO momentum"
   ]
 }
