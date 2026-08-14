@@ -1,69 +1,79 @@
 {
-  "date": "2026-08-13",
-  "time": "16:27",
-  "mood": "Bullish",
+  "date": "2026-08-14",
+  "time": "10:42",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "auto",
-      "direction": "Bearish",
+      "sector": "banking",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Maruti, Tata, Mahindra's concerns on E20",
-      "theme": "null",
+      "news_driver": "Axis Bank raises $300 million via bonds",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Maruti Suzuki",
-          "ticker": "MARUTI.NS",
-          "impact": "Bearish",
-          "reason": "E20 concerns -> higher ethanol blending costs -> margins -100bps",
-          "quant": "-100bps"
-        },
+          "name": "Axis Bank",
+          "ticker": "AXISBANK.NS",
+          "impact": "Bullish",
+          "reason": "Bond issuance -> Reduced cost of capital -> Increased profitability",
+          "quant": "cost of capital -50bps"
+        }
+      ],
+      "watch": "Axis Bank's Q2 earnings release"
+    },
+    {
+      "sector": "cement",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "UltraTech Cement news",
+      "theme": "PLI_cement",
+      "stocks": [
+        {
+          "name": "UltraTech Cement",
+          "ticker": "ULTRACEMCO.NS",
+          "impact": "Bullish",
+          "reason": "Government initiatives -> Increased demand -> Higher revenue",
+          "quant": "revenue +5-7% Q3"
+        }
+      ],
+      "watch": "Cement demand growth in Q3"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Honasa Consumer Q1 results",
+      "theme": "rural_mobility",
+      "stocks": [
+        {
+          "name": "Honasa Consumer",
+          "ticker": "HONASA.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> Increased investor confidence -> Higher stock price",
+          "quant": "stock price +10-12% in next quarter"
+        }
+      ],
+      "watch": "Honasa Consumer's Q2 earnings release"
+    },
+    {
+      "sector": "energy",
+      "direction": "Bearish",
+      "conviction": 2,
+      "news_driver": "Iran conflict and oil price volatility",
+      "theme": null,
+      "stocks": [
         {
           "name": "Tata Motors",
           "ticker": "TATAMOTORS.NS",
           "impact": "Bearish",
-          "reason": "E20 concerns -> compliance challenges -> revenue -5%",
-          "quant": "-5%"
+          "reason": "Higher oil prices -> Increased input costs -> Reduced margins",
+          "quant": "margins -100bps"
         }
       ],
-      "watch": "Government's E20 policy announcement"
-    },
-    {
-      "sector": "energy",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Solar Industries' Q1 net profit soars 93% YoY",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Solar Industries",
-          "ticker": "SOLARINDS.NS",
-          "impact": "Bullish",
-          "reason": "Q1 net profit surge -> increased investor confidence -> stock price +8%",
-          "quant": "+8%"
-        }
-      ],
-      "watch": "Renewable energy sector performance"
-    },
-    {
-      "sector": "realty",
-      "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Hinduja Group's \u20b92,500 crore investment in Tamil Nadu",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "Hinduja Realty Ventures",
-          "ticker": "HLV.NS",
-          "impact": "Bullish",
-          "reason": "Investment announcement -> increased demand for real estate -> revenue +10%",
-          "quant": "+10%"
-        }
-      ],
-      "watch": "Tamil Nadu real estate market trends"
+      "watch": "Brent crude oil price movement"
     }
   ],
   "themes": [
     "PSU_rotation",
-    "China+1"
+    "rural_mobility"
   ]
 }

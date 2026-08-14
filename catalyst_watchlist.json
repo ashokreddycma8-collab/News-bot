@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:27:56.030526+05:30",
+  "generated_at": "2026-08-14T10:42:28.167208+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -3480,6 +3480,14 @@
       "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25ae\u25ae"
+    },
+    "HONASA": {
+      "score": 6,
+      "direction": "BUY",
+      "catalyst": "record Q1 results and strong upside forecast by Jefferies and Emkay",
+      "category": "earnings_beat",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25ae\u25af"
     }
   }
 }
