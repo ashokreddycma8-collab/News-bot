@@ -1,86 +1,93 @@
 {
   "date": "2026-08-14",
-  "time": "14:47",
-  "mood": "Bullish",
+  "time": "15:59",
+  "mood": "Cautious",
   "sectors": [
     {
-      "sector": "pharma",
+      "sector": "telecom",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "USFDA warning letter to Aurobindo Pharma's Telangana facility",
-      "theme": "null",
+      "news_driver": "BSNL's Q1 loss widens to \u20b91,280 crore",
+      "theme": null,
       "stocks": [
         {
-          "name": "Aurobindo Pharma",
-          "ticker": "AUROPHARMA.NS",
+          "name": "Bharat Sanchar Nigam Limited",
+          "ticker": "BSNL.NS",
           "impact": "Bearish",
-          "reason": "USFDA warning letter -> regulatory hurdles -> margins -100bps",
-          "quant": "-100bps"
-        }
-      ],
-      "watch": "Aurobindo Pharma's Q2 earnings release"
-    },
-    {
-      "sector": "it",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "15 stocks held by 100+ MFs in July surged up to 131%",
-      "theme": "null",
-      "stocks": [
-        {
-          "name": "TCS",
-          "ticker": "TCS.NS",
-          "impact": "Bullish",
-          "reason": "MF buying -> increased demand -> revenue +5-7% Q3",
-          "quant": "5-7%"
+          "reason": "Widening Q1 loss -> increased financial stress -> reduced investor confidence",
+          "quant": "net loss +25% QoQ"
         },
         {
-          "name": "Infosys",
-          "ticker": "INFY.NS",
-          "impact": "Bullish",
-          "reason": "MF buying -> improved valuations -> price target +10%",
-          "quant": "10%"
+          "name": "Bharti Airtel",
+          "ticker": "BHARTIARTL.NS",
+          "impact": "Neutral",
+          "reason": "BSNL's loss -> potential market share gain -> neutralized by intense competition",
+          "quant": "market share +1.5% YoY"
         }
       ],
-      "watch": "Q2 earnings releases of IT majors"
+      "watch": "BSNL's Q2 earnings release"
     },
     {
-      "sector": "financial_services",
+      "sector": "banking",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "India Inc's earnings resilience in the June quarter",
-      "theme": "null",
+      "news_driver": "S&P assigns investment-grade rating to IDFC FIRST Bank",
+      "theme": null,
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "IDFC FIRST Bank",
+          "ticker": "IDFCFIRSTB.NS",
           "impact": "Bullish",
-          "reason": "Earnings resilience -> improved credit growth -> NII +8-10% Q3",
-          "quant": "8-10%"
+          "reason": "Investment-grade rating -> improved credit profile -> increased investor appetite",
+          "quant": "credit rating upgrade +2 notches"
         }
       ],
-      "watch": "HDFC Bank's Q2 earnings release"
+      "watch": "IDFC FIRST Bank's Q2 earnings release"
     },
     {
-      "sector": "consumer",
+      "sector": "auto",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "WPI inflation eases marginally to 9.78% in July",
-      "theme": "null",
+      "conviction": 2,
+      "news_driver": "Olectra Greentech Targets Sharp Delivery Ramp-Up",
+      "theme": "electric vehicle adoption",
       "stocks": [
         {
-          "name": "Hindustan Unilever",
-          "ticker": "HINDUNILVR.NS",
+          "name": "Olectra Greentech",
+          "ticker": "OLECTRA.NS",
           "impact": "Bullish",
-          "reason": "Easing inflation -> improved margins -> EBITDA +50bps",
-          "quant": "50bps"
+          "reason": "Order book ramp-up -> increased revenue visibility -> improved profitability",
+          "quant": "order book +Rs400Cr"
+        },
+        {
+          "name": "Ashok Leyland",
+          "ticker": "ASHOKLEY.NS",
+          "impact": "Neutral",
+          "reason": "Q1 results -> modest profit growth -> neutralized by intense competition",
+          "quant": "net profit +1.5% YoY"
         }
       ],
-      "watch": "WPI inflation data for August"
+      "watch": "Olectra Greentech's Q2 earnings release"
+    },
+    {
+      "sector": "defence",
+      "direction": "Bullish",
+      "conviction": 2,
+      "news_driver": "Bharat Dynamics Q1 Results: Net profit soars 6x to Rs 119 crore",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Bharat Dynamics",
+          "ticker": "BHRATDYN.NS",
+          "impact": "Bullish",
+          "reason": "Strong Q1 results -> increased revenue visibility -> improved profitability",
+          "quant": "net profit +500% YoY"
+        }
+      ],
+      "watch": "Bharat Dynamics' Q2 earnings release"
     }
   ],
   "themes": [
-    "earnings_resilience",
-    "inflation_easing"
+    "electric vehicle adoption",
+    "defence sector growth"
   ]
 }

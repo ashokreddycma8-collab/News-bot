@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:47:43.061455+05:30",
+  "generated_at": "2026-08-14T15:59:12.668842+05:30",
   "catalysts": {
     "TDIINFRATEC": {
       "score": 8,
@@ -1858,12 +1858,12 @@
       "conviction": "\u25ae\u25ae\u25ae"
     },
     "BHARDYNAM": {
-      "score": 5,
-      "direction": "SELL",
-      "catalyst": "Q4 net profit tumbles 59% to Rs 113 crore",
+      "score": 8,
+      "direction": "BUY",
+      "catalyst": "Net profit soars 6x to Rs 119 crore in Q1",
       "category": "earnings_beat",
       "ttl_hours": 24,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25ae"
     },
     "PGHH": {
       "score": 4,
@@ -3426,12 +3426,12 @@
       "conviction": "\u25ae\u25ae\u25af"
     },
     "THYROCARE": {
-      "score": 5,
+      "score": 6,
       "direction": "SELL",
-      "catalyst": "Promoter Docon Technologies sells 10% stake",
+      "catalyst": "Promoter Docon offloads 9.9% stake",
       "category": "technical_event",
       "ttl_hours": 48,
-      "conviction": "\u25ae\u25af\u25af"
+      "conviction": "\u25ae\u25ae\u25af"
     },
     "PAGEIND": {
       "score": 6,
@@ -3518,6 +3518,30 @@
       "direction": "BUY",
       "catalyst": "ICICI Securities hikes target after Q1 results",
       "category": "brokerage_upgrade",
+      "ttl_hours": 24,
+      "conviction": "\u25ae\u25af\u25af"
+    },
+    "IDFCFIRSTB": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "S&P assigns investment-grade rating",
+      "category": "structural_change",
+      "ttl_hours": 72,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "OLECTRAG": {
+      "score": 7,
+      "direction": "BUY",
+      "catalyst": "Sitting on 8,000-vehicle order book with sharp delivery ramp-up target",
+      "category": "corporate_event",
+      "ttl_hours": 48,
+      "conviction": "\u25ae\u25ae\u25af"
+    },
+    "AURUM": {
+      "score": 5,
+      "direction": "BUY",
+      "catalyst": "Net Profit At Rs 3.6 Crore; Revenue Jumps 82% YoY in Q1",
+      "category": "earnings_beat",
       "ttl_hours": 24,
       "conviction": "\u25ae\u25af\u25af"
     }
