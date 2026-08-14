@@ -1,85 +1,86 @@
 {
   "date": "2026-08-14",
-  "time": "13:34",
-  "mood": "Cautious",
+  "time": "14:47",
+  "mood": "Bullish",
   "sectors": [
     {
       "sector": "pharma",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "US FDA warning to Aurobindo Pharma's subsidiary Eugia Pharma",
-      "theme": null,
+      "news_driver": "USFDA warning letter to Aurobindo Pharma's Telangana facility",
+      "theme": "null",
       "stocks": [
         {
           "name": "Aurobindo Pharma",
           "ticker": "AUROPHARMA.NS",
           "impact": "Bearish",
-          "reason": "US FDA warning -> potential regulatory hurdles -> margins -100bps",
+          "reason": "USFDA warning letter -> regulatory hurdles -> margins -100bps",
           "quant": "-100bps"
-        },
-        {
-          "name": "Dr. Reddy's Laboratories",
-          "ticker": "DRREDDY.NS",
-          "impact": "Neutral",
-          "reason": "US FDA warning to competitor -> potential market share gain -> revenue +2-3% Q3",
-          "quant": "2-3%"
         }
       ],
-      "watch": "Aurobindo Pharma's Q2 earnings release for further guidance on US FDA warning impact"
+      "watch": "Aurobindo Pharma's Q2 earnings release"
     },
     {
       "sector": "it",
-      "direction": "Bearish",
+      "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Nifty holds above 24,300 at midday as metals, IT drag",
-      "theme": null,
+      "news_driver": "15 stocks held by 100+ MFs in July surged up to 131%",
+      "theme": "null",
       "stocks": [
         {
           "name": "TCS",
           "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Nifty IT index drag -> decreased investor sentiment -> revenue -1-2% Q3",
-          "quant": "-1-2%"
+          "impact": "Bullish",
+          "reason": "MF buying -> increased demand -> revenue +5-7% Q3",
+          "quant": "5-7%"
+        },
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Bullish",
+          "reason": "MF buying -> improved valuations -> price target +10%",
+          "quant": "10%"
         }
       ],
-      "watch": "TCS's Q2 earnings release for further guidance on revenue growth"
+      "watch": "Q2 earnings releases of IT majors"
     },
     {
-      "sector": "media",
+      "sector": "financial_services",
       "direction": "Bullish",
-      "conviction": 2,
-      "news_driver": "Zee Entertainment Share Price Jumps over 6% As SAT Grants Interim Relief From SEBI Order",
-      "theme": null,
+      "conviction": 1,
+      "news_driver": "India Inc's earnings resilience in the June quarter",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Zee Entertainment",
-          "ticker": "ZEEL.NS",
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
           "impact": "Bullish",
-          "reason": "SAT interim relief -> reduced regulatory overhang -> stock price +8-10%",
+          "reason": "Earnings resilience -> improved credit growth -> NII +8-10% Q3",
           "quant": "8-10%"
         }
       ],
-      "watch": "Zee Entertainment's Q2 earnings release for further guidance on SAT interim relief impact"
+      "watch": "HDFC Bank's Q2 earnings release"
     },
     {
-      "sector": "energy",
+      "sector": "consumer",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "TCS, Rolls-Royce Test Aircraft Engine On 100% Hydrogen In Industry-First Flight Cycle",
-      "theme": "hydrogen_energy",
+      "news_driver": "WPI inflation eases marginally to 9.78% in July",
+      "theme": "null",
       "stocks": [
         {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
+          "name": "Hindustan Unilever",
+          "ticker": "HINDUNILVR.NS",
           "impact": "Bullish",
-          "reason": "TCS and Rolls-Royce's hydrogen engine test -> potential new revenue stream -> revenue +5% Q3",
-          "quant": "5%"
+          "reason": "Easing inflation -> improved margins -> EBITDA +50bps",
+          "quant": "50bps"
         }
       ],
-      "watch": "Tata Steel's Q2 earnings release for further guidance on hydrogen energy initiatives"
+      "watch": "WPI inflation data for August"
     }
   ],
   "themes": [
-    "hydrogen_energy"
+    "earnings_resilience",
+    "inflation_easing"
   ]
 }
