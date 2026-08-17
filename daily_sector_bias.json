@@ -1,86 +1,86 @@
 {
   "date": "2026-08-17",
-  "time": "10:36",
-  "mood": "Cautious",
+  "time": "11:16",
+  "mood": "Bearish",
   "sectors": [
     {
-      "sector": "energy",
+      "sector": "oil_gas",
       "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Oil prices hitting $90",
-      "theme": "OMC_pressure",
+      "news_driver": "Rising crude oil prices",
+      "theme": "OMC margin squeeze",
       "stocks": [
         {
-          "name": "Indian Oil Corporation",
-          "ticker": "IOC.NS",
+          "name": "HPCL",
+          "ticker": "HINDPETRO.NS",
           "impact": "Bearish",
-          "reason": "Rising oil prices -> increasing cost of crude -> reducing IOC's refining margins",
+          "reason": "Rising crude oil prices -> Increased cost of production -> Reduced margins by 100-150bps",
           "quant": "-120bps"
         },
         {
-          "name": "Hindustan Petroleum",
-          "ticker": "HINDPETRO.NS",
+          "name": "BPCL",
+          "ticker": "BPCL.NS",
           "impact": "Bearish",
-          "reason": "Higher oil prices -> decreased demand for petroleum products -> lower sales for HINDPETRO",
-          "quant": "-5%"
+          "reason": "Rising crude oil prices -> Higher input costs -> EBITDA decline of 8-10%",
+          "quant": "-9%"
         }
       ],
-      "watch": "Brent crude price movement"
+      "watch": "Brent crude price crossing $95/barrel"
     },
     {
-      "sector": "it",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Sensex falls over 300 pts, Nifty below 24,300",
-      "theme": null,
-      "stocks": [
-        {
-          "name": "Tata Consultancy Services",
-          "ticker": "TCS.NS",
-          "impact": "Bearish",
-          "reason": "Market volatility -> decreased investor sentiment -> lower TCS stock price",
-          "quant": "-2%"
-        }
-      ],
-      "watch": "Nifty IT index movement"
-    },
-    {
-      "sector": "psu",
-      "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Sensex falls over 300 pts, Nifty below 24,300",
-      "theme": "PSU_rotation",
-      "stocks": [
-        {
-          "name": "State Bank of India",
-          "ticker": "SBIN.NS",
-          "impact": "Bearish",
-          "reason": "Market downturn -> decreased banking sector performance -> lower SBI stock price",
-          "quant": "-1.5%"
-        }
-      ],
-      "watch": "PSU bank stock performance"
-    },
-    {
-      "sector": "consumer",
+      "sector": "realty",
       "direction": "Bullish",
       "conviction": 1,
-      "news_driver": "Puravankara jumps 13%",
+      "news_driver": "Puravankara Q1 results",
       "theme": null,
       "stocks": [
         {
           "name": "Puravankara",
           "ticker": "PURVA.NS",
           "impact": "Bullish",
-          "reason": "Positive earnings surprise -> increased investor confidence -> higher PURVA stock price",
-          "quant": "+10%"
+          "reason": "Q1 revenue jump of 62% YoY -> Increased demand and sales -> Revenue growth of 15-18% in Q2",
+          "quant": "+16%"
         }
       ],
-      "watch": "Real estate sector performance"
+      "watch": "Puravankara stock price crossing Rs 150"
+    },
+    {
+      "sector": "consumer",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Milky Mist IPO listing",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Milky Mist",
+          "ticker": "MILKMIST.NS",
+          "impact": "Neutral",
+          "reason": "IPO listing with expected gain of 14% -> Increased investor interest -> Stock price stabilization around Rs 160",
+          "quant": "Rs 160"
+        }
+      ],
+      "watch": "Milky Mist stock price stabilizing around Rs 160"
+    },
+    {
+      "sector": "it",
+      "direction": "Neutral",
+      "conviction": 1,
+      "news_driver": "Global market trends",
+      "theme": null,
+      "stocks": [
+        {
+          "name": "Infosys",
+          "ticker": "INFY.NS",
+          "impact": "Neutral",
+          "reason": "Global market trends and earnings season -> Increased volatility -> Stock price fluctuation of 2-3%",
+          "quant": "2-3%"
+        }
+      ],
+      "watch": "Infosys Q2 earnings release"
     }
   ],
   "themes": [
-    "OMC_pressure",
-    "PSU_rotation"
+    "OMC margin squeeze",
+    "Real estate demand"
   ]
 }
