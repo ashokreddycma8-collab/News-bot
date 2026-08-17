@@ -1,93 +1,85 @@
 {
   "date": "2026-08-17",
-  "time": "12:58",
+  "time": "13:35",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "commodities",
-      "direction": "Bullish",
+      "sector": "banking",
+      "direction": "Bearish",
       "conviction": 2,
-      "news_driver": "Sugar stocks rally up to 7% due to favorable market conditions",
-      "theme": "agrochemicals",
+      "news_driver": "record dollar bond sales by Indian lenders",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Balrampur Chini",
-          "ticker": "BALRAMCHIN.NS",
-          "impact": "Bullish",
-          "reason": "Favorable sugar market conditions -> increased demand and prices -> revenue +12-15% Q2",
-          "quant": "12-15%"
+          "name": "State Bank of India",
+          "ticker": "SBIN.NS",
+          "impact": "Bearish",
+          "reason": "record dollar bond sales -> increased competition for domestic deposits -> NIMs squeezed by 20-25bps",
+          "quant": "-20bps"
         },
         {
-          "name": "Triveni Engineering",
-          "ticker": "TRIVENI.NS",
-          "impact": "Bullish",
-          "reason": "Improved sugar prices -> higher profitability -> margins +100bps Q2",
-          "quant": "100bps"
-        },
-        {
-          "name": "Dhampur Sugar",
-          "ticker": "DHAMPURSUG.NS",
-          "impact": "Bullish",
-          "reason": "Increased sugar demand -> higher sales volume -> order book +Rs200Cr",
-          "quant": "Rs200Cr"
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bearish",
+          "reason": "dollar bond sales -> higher funding costs -> profitability impacted by 5-6%",
+          "quant": "-5%"
         }
       ],
-      "watch": "Sugar prices crossing Rs35/kg"
+      "watch": "SBIN.NS support at 550"
     },
     {
-      "sector": "energy",
-      "direction": "Bullish",
+      "sector": "capital_markets",
+      "direction": "Neutral",
       "conviction": 1,
-      "news_driver": "Ola Electric's expansion of Shakti energy storage portfolio",
-      "theme": "renewable",
+      "news_driver": "Nippon India MF launches NFO on Income Plus Arbitrage Omni FoF",
+      "theme": null,
       "stocks": [
         {
-          "name": "Ola Electric",
-          "ticker": "OLAELECTRIC.NS",
-          "impact": "Bullish",
-          "reason": "Expansion of energy storage portfolio -> increased market share -> revenue +8% Q3",
-          "quant": "8%"
+          "name": "Nippon Life India Asset Management",
+          "ticker": "NIPPONLIFE.NS",
+          "impact": "Neutral",
+          "reason": "NFO launch -> increased AUM -> revenue growth of 2-3% in Q3",
+          "quant": "2%"
         }
       ],
-      "watch": "Ola Electric's Q2 earnings release"
+      "watch": "NIPPONLIFE.NS resistance at 350"
     },
     {
       "sector": "financial_services",
       "direction": "Bearish",
-      "conviction": 1,
-      "news_driver": "Rupee depreciation and RBI's diaspora swap move",
+      "conviction": 2,
+      "news_driver": "Voltas shares fall over 6% from intraday high",
       "theme": null,
       "stocks": [
         {
-          "name": "HDFC Bank",
-          "ticker": "HDFCBANK.NS",
+          "name": "Voltas",
+          "ticker": "VOLTAS.NS",
           "impact": "Bearish",
-          "reason": "Rupee depreciation -> increased import costs -> margins -50bps Q2",
-          "quant": "-50bps"
+          "reason": "Q1 results -> disappointing margins -> profitability impacted by 8-10%",
+          "quant": "-8%"
         }
       ],
-      "watch": "RBI's monetary policy meeting"
+      "watch": "VOLTAS.NS support at 900"
     },
     {
-      "sector": "consumer",
+      "sector": "psu",
       "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Uflex's Q1 profit zooms 630% YoY",
-      "theme": null,
+      "conviction": 2,
+      "news_driver": "Govt to set up high-level banking committee",
+      "theme": "PSU_rotation",
       "stocks": [
         {
-          "name": "Uflex",
-          "ticker": "UFLEX.NS",
+          "name": "Bharat Heavy Electricals",
+          "ticker": "BHEL.NS",
           "impact": "Bullish",
-          "reason": "Improved profitability -> increased investor confidence -> stock price +16%",
-          "quant": "16%"
+          "reason": "high-level committee -> potential for policy support -> order book growth of 10-12%",
+          "quant": "10%"
         }
       ],
-      "watch": "Uflex's Q2 earnings release"
+      "watch": "BHEL.NS resistance at 80"
     }
   ],
   "themes": [
-    "agrochemicals",
-    "renewable"
+    "PSU_rotation"
   ]
 }
