@@ -1,68 +1,83 @@
 {
-  "date": "2026-08-14",
-  "time": "16:24",
+  "date": "2026-08-17",
+  "time": "09:38",
   "mood": "Cautious",
   "sectors": [
     {
-      "sector": "metal",
-      "direction": "Bearish",
+      "sector": "consumer",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Metal shares tumble due to global economic growth concerns",
-      "theme": null,
+      "news_driver": "Consumer durable stocks in demand",
+      "theme": "rural_mobility",
       "stocks": [
         {
-          "name": "Tata Steel",
-          "ticker": "TATASTEEL.NS",
-          "impact": "Bearish",
-          "reason": "Weaker global demand -> lower steel prices -> revenue -5-7% Q2",
-          "quant": "-120bps"
+          "name": "LG India",
+          "ticker": "LGIND.NS",
+          "impact": "Bullish",
+          "reason": "Consumer durable stocks demand -> increased sales -> revenue +5-7% Q3",
+          "quant": "5-7%"
         },
         {
-          "name": "Hindalco Industries",
-          "ticker": "HINDALCO.NS",
-          "impact": "Bearish",
-          "reason": "Rising input costs -> higher production costs -> margins -100bps",
-          "quant": "-80bps"
+          "name": "Voltas",
+          "ticker": "VOLTAS.NS",
+          "impact": "Bullish",
+          "reason": "Consumer durable stocks demand -> higher market share -> margins +100bps",
+          "quant": "100bps"
+        },
+        {
+          "name": "Bata",
+          "ticker": "BATAINDIA.NS",
+          "impact": "Bullish",
+          "reason": "Consumer durable stocks demand -> improved profitability -> EPS +10-12% FY27",
+          "quant": "10-12%"
         }
       ],
-      "watch": "Tata Steel's Q2 earnings release"
+      "watch": "Nifty Consumer Durables index"
     },
     {
-      "sector": "pharma",
-      "direction": "Bearish",
+      "sector": "financial_services",
+      "direction": "Bullish",
       "conviction": 2,
-      "news_driver": "Natco Pharma's Q1 profit falls 57%",
+      "news_driver": "Sachin Bajaj favours financials",
+      "theme": "PSU_rotation",
+      "stocks": [
+        {
+          "name": "HDFC Bank",
+          "ticker": "HDFCBANK.NS",
+          "impact": "Bullish",
+          "reason": "Favourable analyst view -> increased investor interest -> stock price +4-5%",
+          "quant": "4-5%"
+        },
+        {
+          "name": "ICICI Bank",
+          "ticker": "ICICIBANK.NS",
+          "impact": "Bullish",
+          "reason": "Favourable analyst view -> higher market share -> revenue +8-10% Q3",
+          "quant": "8-10%"
+        }
+      ],
+      "watch": "PSU bank index"
+    },
+    {
+      "sector": "capital_goods",
+      "direction": "Bearish",
+      "conviction": 1,
+      "news_driver": "Margin pressure may trigger earnings downgrades for Siemens",
       "theme": null,
       "stocks": [
         {
-          "name": "Natco Pharma",
-          "ticker": "NATCOPHARM.NS",
+          "name": "Siemens",
+          "ticker": "SIEMENS.NS",
           "impact": "Bearish",
-          "reason": "Lower sales -> higher expenses -> profit -57% YoY",
-          "quant": "-57%"
+          "reason": "Margin pressure -> earnings downgrades -> stock price -3-4%",
+          "quant": "-3-4%"
         }
       ],
-      "watch": "Pharma sector Q2 earnings releases"
-    },
-    {
-      "sector": "capital_markets",
-      "direction": "Bullish",
-      "conviction": 1,
-      "news_driver": "Quest Global's $1 billion India IPO plans",
-      "theme": "IPO momentum",
-      "stocks": [
-        {
-          "name": "ICICI Securities",
-          "ticker": "ICICISEC.NS",
-          "impact": "Bullish",
-          "reason": "Increased IPO activity -> higher brokerage revenue -> revenue +8-10% Q3",
-          "quant": "+8-10%"
-        }
-      ],
-      "watch": "Quest Global's IPO filing"
+      "watch": "Siemens Q2 earnings"
     }
   ],
   "themes": [
-    "IPO momentum"
+    "rural_mobility",
+    "PSU_rotation"
   ]
 }
